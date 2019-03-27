@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -250,7 +250,10 @@
          <div change="#d2e64" type="item">
             <head>قشعم في التاريخ</head>
             <p change="#d2e73">يقول الأعراب (جشعم) بجيم كجعفر، وفي مختصر مطالع السعود (ص27) عن القاموس أن قشعم لقب ربيعة بن نزار. وفي هذا المختصر (أن المشهور بين العرب أنهم (آل قشعم) من بني ماء السماء يعني من قحطان) أه.</p>
-            <p change="#d2e73">ويقال ابن قشعم لكل فرد من هذه الحمولة ولا سيما للشيخ منهم إذا أرادت الإعراب تعظيمه أو حكت عن أيام مجد بيتهم. فابن قشعم علم لكل منهم كما يقال ابن سعود وابن رشيد وابن هذال وابن سويط في مثل هذه الحال. وآل سويط هم شيوخ الضفير منذ ثلاثة قرون على أقل تقدير وكان شيخهم في سنة 1080هـ (1669م) وسنة 1069هـ (1684م) سلامة بن مرشد بن صويت (كذا) جاء ذلك في كتاب سمط النجوم الموالي في أنباء الأوائل والتوالي لعبد الملك بن حسين العصامي المتوفى سنة 1111هـ (1699م) وهذا الكتاب لا يزال مخطوطا رأيت نسخة من مجلد يبتدئ بالمقصد الرابع وهي للكتبي نعمان الأعظمي في بغداد وكان قد جاد علي بها للمطالعة. وذكر تاريخ آداب اللغة العربية ل<persName>جرجي زيدان</persName> (302: 3) نسخة من هذا المخطوط في الخزانة الخديوية ومنه نسخ منها تامة ومنها ناقصة في خزانة المتحفة البريطانية والخزانة الأهلية في باريس وخزانة اليسوعيين في بيروت وخزانة المكتبي بريل في لندن.</p>
+            <p change="#d2e73">ويقال ابن قشعم لكل فرد من هذه الحمولة ولا سيما للشيخ منهم إذا أرادت الإعراب تعظيمه أو حكت عن أيام مجد بيتهم. فابن قشعم علم لكل منهم كما يقال ابن سعود وابن رشيد وابن هذال وابن سويط في مثل هذه الحال. وآل سويط هم شيوخ الضفير منذ ثلاثة قرون على أقل تقدير وكان شيخهم في سنة 1080هـ (1669م) وسنة 1069هـ (1684م) سلامة بن مرشد بن صويت (كذا) جاء ذلك في كتاب سمط النجوم الموالي في أنباء الأوائل والتوالي لعبد الملك بن حسين العصامي المتوفى سنة 1111هـ (1699م) وهذا الكتاب لا يزال مخطوطا رأيت نسخة من مجلد يبتدئ بالمقصد الرابع وهي للكتبي نعمان الأعظمي في بغداد وكان قد جاد علي بها للمطالعة. وذكر تاريخ آداب اللغة العربية ل<persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> (302: 3) نسخة من هذا المخطوط في الخزانة الخديوية ومنه نسخ منها تامة ومنها ناقصة في خزانة المتحفة البريطانية والخزانة الأهلية في باريس وخزانة اليسوعيين في بيروت وخزانة المكتبي بريل في لندن.</p>
             <p change="#d2e73">نعود إلى صددنا. وإذا قالت المنتفق العراك (بكلف فارسية) فهي تريد سقي الفرات الواقع بين منحدر الحلة من جهة للشمال ومنحدر السماوة من جهة الجنوب وفي ذلك لواء الديوانية كله ألم يكن موضوع البحث خاصا بالعراق برمته فتكون المنتفق قد تمسكت بمفرد كلمة العراقيين اللذين قال عنهما معجم البلدان (. . . والعراقان الكوفة والبصرة. . .) فما أحفظ الأعراب للإعلام ولا تستثنيهم عن شوارد اللغة!</p>
             <p change="#d2e73">وكان يراد وقتا بالعراقيين قطرنا العزيز وعراق فارس. ويظهر أن هذا الاسم بالتثنية بمعنى عراقنا وحده كان معروفا في فارس حتى العقد الرابع من
 <pb n="n5-p138" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2372.xhtml"/>
@@ -414,7 +417,10 @@
             <p change="#d2e73">شِوى شِوَوْا شِوَتْ شِوَنْ شِوَيْتْ شِوَيْتُو شِوَيْتِ شِوَيْتَنْ َشْوْيُت شِوْينا</p>
             <p change="#d2e73">تصريف اللفيف المقرون مع ضمائر النصب</p>
             <p change="#d2e73">شِواه شِواهم شِواها شِواهِن شِواك شِواكم شِواحْ شِواجُنْ شِواني شِوانا</p>
-            <byline change="#d2e219"><persName>معروف الرصافي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n5-p151" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2385.xhtml"/>
 
 
@@ -1605,7 +1611,10 @@
             <p change="#d2e73">المستر سوان وكيل مستشار المالية.</p>
             <p change="#d2e73">يس الخضيري</p>
             <p change="#d2e73">عبد الحسين جلبي</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName> معتمدا لها</p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> معتمدا لها</p>
             <p change="#d2e73">عزرا مناحيم دانيال</p>
             <p change="#d2e73">وتؤلف لجان فرعية في بقية الألوية فعسى أن يسعف المنكوبون أحسن إسعاف.</p>
             <p change="#d2e73">

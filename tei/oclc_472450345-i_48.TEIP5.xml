@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -620,7 +620,10 @@
             <p change="#d2e73">ذكر المؤلف في كتاب الحوادث الجامعة، والتجارب النافعة، في المائة السابعة.</p>
             <p change="#d2e73">لابن الفوطي</p>
             <p change="#d2e73">-</p>
-            <p change="#d2e73">ارتاب بعض الارتياب الكاتب البارع محمد بهجة الأثري في صحة إسناده كتاب مناقب بغداد إلى أبي الفرج عبد الرحمن بن علي بن محمد البكري الحنبلي الملقب جمال الدين الشهير بابن الجوزي المتوفى في سنة 597هـ (1200م) وذلك في المقدمة التي صدر بها الكاتب الذي طبعه في بغداد في سنة 1342هـ (1923م) وجاء بعده الفاضل البحاثة <persName>يوسف غنيمة</persName> في هذه المجلة (274: 4) فكشف اللثام عن هذا الغزو المرتاب فيه فأبان لنا بدليل واضح استخرجه من الكتاب نفسه بأن مؤلفه كان حياً يرزق في سنة (1256م) ثم نسب غنيمة تأليف الكتاب إلى (الشيخ أبي محمد يوسف بن أبي الفرج عبد الرحمن بن الجوزي المقتول في فتنة التتار في بغداد سنة 656هـ (1256م) وهو أيضاً مؤلف كتاب (الإيضاح لقوانين الاصطلاح). فكأنه أراد أن يقول أن المؤلف هو ابن لأبن الجوزي المتوفى في سنة 597هـ.</p>
+            <p change="#d2e73">ارتاب بعض الارتياب الكاتب البارع محمد بهجة الأثري في صحة إسناده كتاب مناقب بغداد إلى أبي الفرج عبد الرحمن بن علي بن محمد البكري الحنبلي الملقب جمال الدين الشهير بابن الجوزي المتوفى في سنة 597هـ (1200م) وذلك في المقدمة التي صدر بها الكاتب الذي طبعه في بغداد في سنة 1342هـ (1923م) وجاء بعده الفاضل البحاثة <persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> في هذه المجلة (274: 4) فكشف اللثام عن هذا الغزو المرتاب فيه فأبان لنا بدليل واضح استخرجه من الكتاب نفسه بأن مؤلفه كان حياً يرزق في سنة (1256م) ثم نسب غنيمة تأليف الكتاب إلى (الشيخ أبي محمد يوسف بن أبي الفرج عبد الرحمن بن الجوزي المقتول في فتنة التتار في بغداد سنة 656هـ (1256م) وهو أيضاً مؤلف كتاب (الإيضاح لقوانين الاصطلاح). فكأنه أراد أن يقول أن المؤلف هو ابن لأبن الجوزي المتوفى في سنة 597هـ.</p>
             <p change="#d2e73">عرفنا من مقدمة الأثرى أن ما أدى به إلى ذهابه إلى هذا الرأي هو اتفاق اسم المصنف وكنيته ولقبه الواردة في صدر المخطوط مع اسم وكنية ولقب المتوفى في 597 هجرية وأن ما حمل غنيمة على رأيه هو وقوفه على أن (الشيخ أبا محمد يوسف بن أبي الفرج عبد الرحمن بن الجوزي) كان في قيد الحياة في سنة 654 هجرية لكن غنيمة لم يصب كبد الحقيقة. وقد نشأ ذلك من عدم اطلاعه على الكتب التي تحتاج إليها هذه المواضيع لندرتها وقد أتاح لي الحظ الوقوف على المؤلف على ما يظهر لي.</p>
             <p change="#d2e73">لو كان مرجعي لتعريف مؤلفنا إلى كتاب مطبوع أو مخطوط مبذول
 <pb n="n5-p217" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2451.xhtml"/>
@@ -702,7 +705,10 @@
 
 جاهليه وبيدي نسخه منه منذ أربعة أعوام وأنا أفتش عن صاحبه بغير جدوى وكنت أتوقع معرفته في الكتب التالية:</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>مؤلفات ابن الفوطي (المتوفى سنة 723هـ - 1323م) التي ذكرها فوات الوفيات (348: 1) وتاريخ آداب اللغة العربية ل<persName>جرجي زيدان</persName> (199: 3)</p>
+               <hi style="color:red;">1 - </hi>مؤلفات ابن الفوطي (المتوفى سنة 723هـ - 1323م) التي ذكرها فوات الوفيات (348: 1) وتاريخ آداب اللغة العربية ل<persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> (199: 3)</p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>مؤلفات الذهبي (المتوفى في سنة 748هـ - 1347م)</p>
             <p change="#d2e73">
@@ -713,7 +719,11 @@
                <hi style="color:red;">5 - </hi>لدرر الكامنة في أعيان المائة الثامنة لابن حجر العسقلاني (المتوفى سنة 852هـ - 1448م)</p>
             <p change="#d2e73">وفي ما هو على هذه الشاكلة من الكتب العزيزة وفيها المفقود حتى أن الموجود منها لا يزال - باستثناء بعض مجلدات الذهبي - مخطوطاً نادراً غير مطبوع.</p>
             <p change="#d2e73">كانت هذه الكتب في نظري كأشباح لا حقيقة لها فكن أملي ضئيلا في ما أنا سائر إليه ولم ادري أن الأيام ستتيح لي العثور على معرفة هذه الضالة على بعد بعيد من تلك المخطوطات المبعثرة في خزائن مدن عديدة.</p>
-            <p change="#d2e73">قبل بضعة أعوام - وقبل أن يهدي الباشا الأب أنستاس نسخته - اجتمعت في (مكتبة السلام) (في بغداد) بالأستاذ الشيخ <persName>محمد رضا الشبيبي</persName> بعد عودته من الشام، وكان يطرأ مجلداً حوى شيئاً جماً من الأشعار والتاريخ والتراجم
+            <p change="#d2e73">قبل بضعة أعوام - وقبل أن يهدي الباشا الأب أنستاس نسخته - اجتمعت في (مكتبة السلام) (في بغداد) بالأستاذ الشيخ <persName change="#d2e230" ref="oape:pers:429 viaf:22006374">
+                            <forename xml:lang="ar">محمد</forename>
+                            <forename xml:lang="ar">رضا</forename>
+                            <surname xml:lang="ar">الشبيبي</surname>
+                        </persName> بعد عودته من الشام، وكان يطرأ مجلداً حوى شيئاً جماً من الأشعار والتاريخ والتراجم
 <pb n="n5-p224" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2458.xhtml"/>
 
 
@@ -1331,7 +1341,12 @@
             <p change="#d2e73">في الساعة الحادية عشر ونصف من صباح السبت 6 آب حلف جلالة الملك علي اليمين في البلاط الملكي ليكون رافد (نائب الملك) في غياب أخيه وكأن ذلك بحضور أصحاب المعالي الوزراء ورئيس مجلس الأعيان ونائب رئيس مجلس النواب.</p>
             <p change="#d2e73">
                <hi style="color:red;">4 - </hi>الأمير ولي العهد</p>
-            <p change="#d2e73">في نحو الساعة الثانية بعد الظهر 4 آب وصل العاصمة الأمير (غاز) ولي العهد قادما من لندن إلى فرنسة إلى الإسكندرية على الباخرة ومن مصر القاهرة إلى بغداد على الطيارة ومعه الشيخ <persName>كاظم الدجيلي</persName>
+            <p change="#d2e73">في نحو الساعة الثانية بعد الظهر 4 آب وصل العاصمة الأمير (غاز) ولي العهد قادما من لندن إلى فرنسة إلى الإسكندرية على الباخرة ومن مصر القاهرة إلى بغداد على الطيارة ومعه الشيخ <persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName>
 <pb n="n5-p253" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2487.xhtml"/>
 
 

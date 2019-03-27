@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -176,7 +176,12 @@
 
 من مغاورها المسدودة الأبواب بالحجر الكبير - الذي لا يزحزحه أربعة رجال حتى اليوم وهي علامة القبور القديمة وهذه المغاور أو الكهوف المسدودة الأبواب واقعة تجاه الجنوب الشرقي وهي أربع مغاور فقط ولا يمكن الوصول إليها إلا بسلم لأن ليس ثمة طريق تؤدي إليها وهي في أعلى الجبل وتعلو عن الأرض بين 7 أمتار و10 أمتار والحجر الذي سدت به أبواب تلك المغاور منحوت على قدر الباب كأنه صب في قالب ومنه يظهر أن وضعه قديم.</p>
             <p change="#d2e73">وقد سمعنا كثيرين من معمري الأعراب يقولون أن عريسات كانت في القديم محبساً للنعمان بن المنذر والبعض منهم قال كانت عريسات محبساً لبختنصر. وقد حدثني العالم الفاضل الثقة الشيخ محمد صالح الجزائري النجفي أنه سمع كثيراً من معمري الأعراب يقولون بهذا القول أيضاً والله اعلم بالحقائق. ولعل علماء العاديات يكشفون لنا عن غامض سرها وخفي أمرها وربك علام الغيوب.</p>
-            <byline change="#d2e219">(<persName>كاظم الدجيلي</persName>)</byline>
+            <byline change="#d2e219">(<persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName>)</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>بعض آراء في معنى بغداد</head>
@@ -240,7 +245,10 @@
                <hi style="color:red;">6 - </hi>الخاتمة</p>
             <p change="#d2e73">أزف كلمتي هذه إلى القارئ الأديب قائلاً أن بغداد سميت بأسماء عديدة مختلفة لغايات شتى وليس بلا داعٍ ولا من باب الاتفاق.</p>
             <p change="#d2e73">هذا ورجائي الوطيد ممن له وقوف تام على تاريخ بغداد أن ينتقد مقالي هذا أن رآني قد حدت عن محجة الصواب وزغت عن منهج الحقيقة بشرط أن يكون بأدلة ساطعة وبراهين لامعة حتى لا تفوتني الغاية التي أنشدها. والله الموفق.</p>
-            <byline change="#d2e219"><persName>رزوق عيسى</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>كتاب مقاييس اللغة</head>
@@ -575,7 +583,7 @@
 
 
 وماجوا في ديار نجد وعشائرها وأثاروا حروبا وفتناً أضرت كثيراً من سكان نجد. وبما أنهم لم يثبتوا بين يدي الأمير عبد العزيز السعود لجأوا أخيراً إلى أمير مكة ونفثوا في صدره أنهم يضمون ديار نجد كله إليه (كذا) أن هو مالأهم على ما ينوونه. ولكن هذا لا يقع! ولعلنا نبحث في عدد آخر عن أسباب ذلك وما نجم أو ينجم عنه وعن الحالة الحاضرة وبالله التوفيق.</p>
-            <byline change="#d2e219">صاحب الرياض ومجلة الحياة <persName>سليمان الدخيل</persName></byline>
+            <byline change="#d2e219">صاحب الرياض ومجلة الحياة <persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>

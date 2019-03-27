@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -182,7 +182,7 @@
             <p change="#d2e73">وأمراء نجد</p>
             <p change="#d2e73">جماعة منهم: أمير جيوش نجد (القصيم وما يضم إليها من الملحقات) الأمير محمد بن سعود والأمير عبد الله بن سعود والأمير سعد بن سعود والأمير عبد الرحمن بن سعود والأمير عبد العزيز بن سعود آل فيصل والأمير ناصر بن فيصل بن ناصر والأمير إبراهيم بن عبد الله الثنيان من آل سعود. وما زالوا على هذه الحال إلى أن توفى الأمير سعود بن فيصل سنة 1291هـ (1874م) فبقيت نجد بين آل سعود ولم يمكن منهم أن يستقل بها وحده دون غيره لتفرق كلمتهم وعدم اتفاقهم على واحد يقرونه على الإمارة.</p>
             <p change="#d2e73">إلى هنا نختم هذا الفصل من تاريخ أمراء نجد وسيتلوه فصل آخر في ظهور دولة السعود الجديدة. والله الموفق.</p>
-            <p change="#d2e73"><persName>سليمان الدخيل</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName></p>
             <byline change="#d2e219">صاحب جريدة <title level="j">الرياض</title> ومجلة الحياة
 <pb n="n3-p233" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1245.xhtml"/>
 
@@ -424,7 +424,10 @@
                   <seg> ذهباً عليه من منابع فيك</seg>
                </l>
             </lg>
-            <byline change="#d2e219"><persName>محمد الهاشمي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:566">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">الهاشمي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الكرد الحاليون</head>
@@ -914,7 +917,10 @@
 
 
                <hi style="color:red;">3 - </hi>النهضة (الجريدة)</p>
-            <p change="#d2e73">هذا اسم مما يتفاءل به وعسى أن يصح تحقيقه أو عسى أن يسعى أصحاب هذه الجريدة للحصول على الضالة التي ينشدونها (والنهضة جريدة سياسية عمرانية اجتماعية موقوتة تصدر مرة في الأسبوع) في بغداد لصاحبها ومدبرها مزاحم أفندي الأمين الباجه جي ورئيس تحريرها <persName>إبراهيم حلمي</persName> أفندي. وقد برز منها العدد الأول نهار الجمعة 1 ذي القعدة 1331 الموافق 3 أيلول 1913 وصاحب هذه الصحيفة من الشبان أصحاب الهمة العالية</p>
+            <p change="#d2e73">هذا اسم مما يتفاءل به وعسى أن يصح تحقيقه أو عسى أن يسعى أصحاب هذه الجريدة للحصول على الضالة التي ينشدونها (والنهضة جريدة سياسية عمرانية اجتماعية موقوتة تصدر مرة في الأسبوع) في بغداد لصاحبها ومدبرها مزاحم أفندي الأمين الباجه جي ورئيس تحريرها <persName change="#d2e230" ref="oape:pers:647">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">حلمي</surname>
+                        </persName> أفندي. وقد برز منها العدد الأول نهار الجمعة 1 ذي القعدة 1331 الموافق 3 أيلول 1913 وصاحب هذه الصحيفة من الشبان أصحاب الهمة العالية</p>
             <p change="#d2e73">والكتاب من الكتاب الذين تفتخر بهم بغداد وتتوقع منه السعي الحثيث إلى ترقية الوطن. وكلاهما لا يخاف الانتقاد. ولهذا نوصي المحرر أن يتحرى صدق اللهجة في الكلام فقد قال عن العرب في المقالة الأم: (العرب وهم المعروفون بشدة البأس يؤلفون القسم الأعظم من قطان المملكة فعددهم (إذا) عدت نجد وحضرموت وشرقي جزيرة العرب عثمانية لا يقل عن 20 مليونا) أهـ. فنقول: ولماذا لم يعد أيضاً عرب الجزيرة كلها وديار مصر وطرابلس وفزان وتونس والجزائر ومراكش فلا جرم أنه نسيهم وعسى أن يذكرهم في الأعداد الآتية. ثم أين رأى أن عرب المملكة العثمانية فقط يبلغون 20 مليونا ولو فرضنا أننا عددنا معهم عرب ديار نجد وحضرموت وشرقي جزيرة العرب. أفليس بيده كتب وصف البلدان من عربية وتركية وإفرنجية! فما أسهل عليه مراجعتها والاعتماد عليها! - وقال في الصفحة الثالثة عند كلامه عن الشيخ مبدر الفرعون: (أصاب في الأزمنة الأخيرة عشائر الشامية ظلم وحيف، فقد صارت الضرائب تستهلك كل المحصولات حتى لم يبق بأيدي المزارعين ما يسد الرمق.) قلنا: إننا لا ننكر أن الضرائب بهظت الأعراب لكن بين أن تكون بهظتهم وبين أنها لم تبق في أيديهم ما يسد الرمق بون بين وكلام مخالف للحقيقة فعسى أن لا يكتب في هذه الصحيفة مثل هذه الأقوال الزائفة. - ثم نتمنى أن تصحح المسودة قبل أن يؤمر بطبعها فقد وجدنا في العمود الثاني من الصفحة الثالثة 22 غلطاً من أغلاط الطبع. وهل من الأنصاف أن لا يكون هم القارئ في أثناء المطالعة إلا أن يذب عن فكره ذباب الطبع. ومع كل هذه الشوائب التي لا بد منها في بعض الأعداد لا سيما الأولى منها فإننا نتمنى لهذه الصحيفة الترقي والنجاح وتحقيق الأماني!</p>
             <p change="#d2e73">
                <hi style="color:red;">4 - </hi>عالم الإسلام (مجلة ألمانية)

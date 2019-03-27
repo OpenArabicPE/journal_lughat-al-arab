@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -96,7 +96,10 @@
 <pb n="n8-p242" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4790.xhtml"/>
 
 
-إليها الخليفة أو من ينوب عنه ونقل <persName>جرجي زيدان</persName> في (153: 5) من تاريخ التمدن الإسلامي أن الناصر لدين الله العباسي كتب سنة 607هـ إلى ملوك الأطراف الذين يعترفون بخلافته أن يشربوا له كأس الفتوة ويلبسوا سراويلها وأن ينتسبوا إليه في رمي البندق ويجعلوه قدوة لهم.</p>
+إليها الخليفة أو من ينوب عنه ونقل <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في (153: 5) من تاريخ التمدن الإسلامي أن الناصر لدين الله العباسي كتب سنة 607هـ إلى ملوك الأطراف الذين يعترفون بخلافته أن يشربوا له كأس الفتوة ويلبسوا سراويلها وأن ينتسبوا إليه في رمي البندق ويجعلوه قدوة لهم.</p>
             <p change="#d2e73">التفتي وشعار الفتوة</p>
             <p change="#d2e73">يقال: فتى فلان فلانا تفتيه أي جعله فتى من الفتيان. فتفتى هو أي صار فتى. أما شعار الفتوة فقد كان (سراويل) تسمى سراويل الفتوة وينقش صورة كأس أو سراويل أو صورة كلتيهما فيتخذ الفتى هذه الصورة رمزا إلى انه من الفتيان. وإذا رغب امرؤ في التفتي فتقام له إقامة يشهدها الفتيان فيلبس سراويل الفتوة ويشرب كأس الفتوة. وفي صفحة 80 من نسختنا الخطية لتاريخ (الحوادث الجامعة) في حوادث بغداد وما جاورها ما نصه (وفيها -</p>
             <p change="#d2e73">أي سنة 646 الهجرية - توفي جلال الدين عبد الله بن المختار العلوي الكوفي. كانن عريق النسب كبير القدر أديبا فصيحا، حفظ القرآن في نيف وخمسين يوما. . . وكان يحضر عبد الخليفة الناصر في رمي البندق والفتوة ولعب الحمام، وكان يفتى فيه ويرجع إلى قوله، ولم يزل على ذلك إلى أيام الخليفة المستنصر بالله فأشار عليه أن يلبس سراويل الفتوة من أمير المؤمنين علي عليه السلام وأفتى بجواز ذلك فتوجه الخليفة إلى المشهد ولبس السراويل عند الضريح الشريف، وكان هو النقيب في ذلك) اهـ فالتفتية إذن كانت من حق العلويين ولها عظمة وآبهة يتشرف بها الخلفاء فكيف السوقة؟ وفي صفحة 236 من تاريخ الفخري كلام في الناصر لدين الله منه: (وسمع الحديث النبوي صلوات الله على صاحبه وأسمعه، ولبس لباس الفتوة وألبسه وتفتى له خلق كثير من شرق الأرض وغربها ورمى بالبندق ورمى له ناس كثير) فالناصر لدين الله كان رئيس الفتيان في زمانه وكان الرماة يرمون باسمه والظاهر لنا من هذا انهم يذكرون اسمه حين الرمي.
@@ -136,7 +139,10 @@
                   <seg> كما يرمي الفتى بالزربطانة</seg>
                </l>
             </lg>
-            <p change="#d2e73">وفي مادة (ح س ب) من المصباح المنير ما عبارته: (وقال الأزهري: الحسبان مرام صغار لها نصال دقاق يرمى بجماعة منها في جوف قصبة فإذا نزع في القصبة خرجت الحسبان كأنها قطعة مطر فتفرقت فلا تمر بشيء إلا عقرته) وقال في ب د ق (والبندق أيضاً ما يعمل من الطين ويرمى به الواحدة بندقة) وقال في ج ل هـ (والجلاهق بضم الجيم: البندق المعمول من الطين الواحدة جلاهقة وهو فارسي لان الجيم والقاف لا يجتمعان في كلمة عربية ويضاف القوس إليه للتخصيص فيقال: قوس الجلاهق) وكان الرماة يتخذون البندق من الحجارة والرصاص ايضا، ونقل <persName>جرجي زيدان</persName> في 153: 5 من تاريخ التمدن</p>
+            <p change="#d2e73">وفي مادة (ح س ب) من المصباح المنير ما عبارته: (وقال الأزهري: الحسبان مرام صغار لها نصال دقاق يرمى بجماعة منها في جوف قصبة فإذا نزع في القصبة خرجت الحسبان كأنها قطعة مطر فتفرقت فلا تمر بشيء إلا عقرته) وقال في ب د ق (والبندق أيضاً ما يعمل من الطين ويرمى به الواحدة بندقة) وقال في ج ل هـ (والجلاهق بضم الجيم: البندق المعمول من الطين الواحدة جلاهقة وهو فارسي لان الجيم والقاف لا يجتمعان في كلمة عربية ويضاف القوس إليه للتخصيص فيقال: قوس الجلاهق) وكان الرماة يتخذون البندق من الحجارة والرصاص ايضا، ونقل <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في 153: 5 من تاريخ التمدن</p>
             <p change="#d2e73">الإسلامي عن 90: 3 من تاريخ ابن الأثير أن العرب اقتبست لعبة الرمي بالبندق في أواخر عثمان بن عفان (رض) ونقل عن الأغاني 93: 20 أن رماة البندق في العصر العباسي طائفة كبيرة يخرجون إلى ضواحي المدن يتسابقون في رميه على الطير ونحوه، وقال في ص154 (ومن قبيل رمي البندق رمي النشاب في
 <pb n="n8-p247" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4795.xhtml"/>
 

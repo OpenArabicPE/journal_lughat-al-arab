@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -143,7 +143,11 @@
 
 
 ولكن نفثات أقلامهم باقية على توالي الأعوام سقى الله يصيب الرحمة تربتهم واجزل في دار النعيم ثوابهم.</p>
-            <p change="#d2e73">وأما الجهابذة الذين ما فتئوا حتى الآن متفانين في نصرة اللغة عاقدين الخناصر على الدفاع عن حياض علومها فهم سليمان البستاني، نجيب البستاني، نسيب البستاني، الأب شيخو اليسوعي، سليم بك عنجوري، سعيد الخوري الشرتوني، احمد زكي باشا قسطاكي بك الحمصي، ولي الدين يكن، الدكتور شلبي شميل، خليل المطران، حافظ إبراهيم، احمد شوقي، نقولا الحداد، جماعة من بيت المعلوف مصطفى صادق الرافعي، يوسف جرجس زخم، توفيق اليازجي، خليل سركيس، مجلة المقتطف، مجلة الهلال، مجلة المقتبس (الخ). وعلى أثرهم نذكر أيضاً الأعلام الذين نبغوا في بغداد من القرن الغابر وهم السيد محمود الالوسي، عبد الباقي العمري الأخرس وأما العالمان الفاضلان اللذان تثني بهما الأصابع، في هذا العصر اللامع، فهما الشيخ محمود شكري اللالوسي و<persName>جميل صدقي الزهاوي</persName> من قد استصبح أدباء العراق ببدر علمهما في المعضلات اللغوية وضربت إليهما
+            <p change="#d2e73">وأما الجهابذة الذين ما فتئوا حتى الآن متفانين في نصرة اللغة عاقدين الخناصر على الدفاع عن حياض علومها فهم سليمان البستاني، نجيب البستاني، نسيب البستاني، الأب شيخو اليسوعي، سليم بك عنجوري، سعيد الخوري الشرتوني، احمد زكي باشا قسطاكي بك الحمصي، ولي الدين يكن، الدكتور شلبي شميل، خليل المطران، حافظ إبراهيم، احمد شوقي، نقولا الحداد، جماعة من بيت المعلوف مصطفى صادق الرافعي، يوسف جرجس زخم، توفيق اليازجي، خليل سركيس، مجلة المقتطف، مجلة الهلال، مجلة المقتبس (الخ). وعلى أثرهم نذكر أيضاً الأعلام الذين نبغوا في بغداد من القرن الغابر وهم السيد محمود الالوسي، عبد الباقي العمري الأخرس وأما العالمان الفاضلان اللذان تثني بهما الأصابع، في هذا العصر اللامع، فهما الشيخ محمود شكري اللالوسي و<persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> من قد استصبح أدباء العراق ببدر علمهما في المعضلات اللغوية وضربت إليهما
 <pb n="n1-p420" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P420.xhtml"/>
 
 
@@ -267,7 +271,7 @@
 
 الوهابية أو مذهب السلف</p>
             <p change="#d2e73">(11 - الآثار القديمة فيها) سمعت كثيرين يقولون في جوار الخميسية آثار قديمة لكني لم أتحقق الأمر بنفسي كما لم استطع إلى الآن أن أتتثبت الخبر على أني لا اعجب من ذلك لان شاطئ الفرات كان آهلاً بالسكان في سابق العهد ومدنه كثيرة لا يعرف عددها على التحقيق فإذا ثبت لي صدق النبأ وأمكنني بسطه على وجهٍ مفيد أتيت به قراء لغة العرب إن شاء ربك القدير والسلام.</p>
-            <p change="#d2e73"><persName>سليمان الدخيل</persName> صاحب جريدة <title level="j">الرياض</title> ومجلة الحياة</p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName> صاحب جريدة <title level="j">الرياض</title> ومجلة الحياة</p>
             <p change="#d2e73">البعبع في مصر</p>
             <p change="#d2e73">كتب إلينا العلامة الأستاذ الدكتور اغناز غولدزيهر في بودابشت كتاباً دل على طيب عنصره وكرم أخلاقه ومن جملة ما ذكره تعقيب له على مقالة البعبع قال حرسه الله بحرفه العربي، ونصه البدوي (أستأذن حضرتكم في أن استخرج من حافظتي لأعقب على ما في مجلتكم في الصفحة 70 أو ما يليها بصدد كلامكم عن البعبع وعما
 <pb n="n1-p440" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P440.xhtml"/>
@@ -288,7 +292,7 @@
                   <seg> يكابده حتى يغيب في القبر</seg>
                </l>
             </lg>
-            <p change="#d2e73"><persName>محيي الدين فيض الله الكيلاني</persName>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2435">محيي الدين فيض الله الكيلاني</persName>
 <pb n="n1-p441" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P441.xhtml"/>
 
 
@@ -323,7 +327,12 @@
                   <seg> معارفه منشورة وفضائله</seg>
                </l>
             </lg>
-            <p change="#d2e73"><persName>كاظم الدجيلي</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></p>
             <p change="#d2e73">أرز أو تمن العقر</p>
             <p change="#d2e73">أرز العقر المشهور في العراق ينسب إلى العقر القلعة الحصينة (التي هي اليوم مدينة شهيرة) في جبال الموصل والتي أهلها أكراد وهي شرقي الموصل المعروفة أيضاً باسم عقر الحميدية لا إلى العقر التي هي بين تكريت والموصل كما كتبناه في ص375</p>
             <p change="#d2e73">البربن والبدرايي والإبراهيمي والبريم</p>

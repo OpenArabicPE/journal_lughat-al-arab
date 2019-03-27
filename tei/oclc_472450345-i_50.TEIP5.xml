@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -886,7 +886,10 @@
             <p change="#d2e73">وتثبت هذه النون فيما عدا هذين الموضعين حتى النهي فإنهم يثبتون النون فيه فيقولون (لا تْضِرْبوُنْ ولاَ تْضِرْبِيْنْ).</p>
             <p change="#d2e73">والفعل المضارع مع فاعله قد يقع في كلامهم موقع المصدر فاعلاً أو مفعولاً بدون حرف مصدري لأن الحروف المصدرية معدومة في كلامهم فمن وقوعه فاعلاً قولهم (مَا يْجوز لَكْ تِعْمَلْ هَا الْعمل) أي ما يجوز لك أن تعمل هذا العمل. ومن وقوعه مفعولاً قولهم (أَرِيد أروح إلى فلان) أي أريد أن أروح إلى فلان.</p>
             <p change="#d2e73">ولنذكر لك تصريف الفعل المضارع من الثلاثي المجرد من الأقسام السبعة التي مر ذكرها في تصريف الفعل الماضي.</p>
-            <p change="#d2e73"><persName>معروف الرصافي</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName></p>
             <p change="#d2e73">فنجر عينيه</p>
             <p change="#d2e73">من لغة عوام الشام ومصر قولهم: فلان فنجر عينيه أي حملق. وفي محيط المحيط حملق بهما. وهو خطأ لأنه لا يقال: حملق بعينيه بل حملق فقط. وفنجر، مشتقة من بنجرة الفارسية (وهي بباء مثلثة فارسية تقلب فاء عند التعريب) ومعناها النافذة، كأنه فتحهما كالنافذة بعد أن كانتا مطبقتين أو كالطبقتين.</p>
             <p change="#d2e73">وذكر البستاني في المادة المذكورة: الفناجرة: الخيالة الحاذقون في ركوب الخيل. ولم يذكرها بهذا المعنى سوى فريتغ نقلاً عن كتاب المستفيد في مدينة زبيد في عدة مواطن منه. ونقلها عن البستاني الشرتوني في معجمه ولم يعزها.
@@ -970,7 +973,10 @@
             <p change="#d2e73">واقترحت على بيروس أن يمد شركاً يصطاد به ذلك الفتى ويبعده عن الديار إلى بلاد نازحة بأمل الربح والتجارة ويتآمر على اغتياله في الأقطار الغريبة أو يضع عقبات في سبيل رجوعه إلى الوطن وينشر أخباراً كاذبة تنعيه فإذا تقادم العهد على سفره ويئست شميرام من عودته تداعى بنيان الحب في قلبها فيسهل آنئذ إقامة صرح آخر في هذا القلب يكون بيروس الآمر الناهي فيه والسائد عليه.</p>
             <p change="#d2e73">كان لهذه الألفاظ وقع عظيم في نفس الكاهن الكلداني الأمارة بالسوء فودع نتو وذهب مهرولاً إلى الهيكل وهو مفكر في حل هذه المعضلة ومد شرك الهلاك لشمشو.</p>
             <p change="#d2e73">انقضى ذلك الليل وثلاث أرواح تتصادم في الفضاء الأوسع في نزاع وجدال وهي روح شميرام العاشقة، وروح شمشو التائهة المضطربة، وروح بيروس الظالمة العاتية.</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName></p>
             <p change="#d2e73">القثار والقيثارة</p>
             <p change="#d2e73">أنكر بعضهم ورود هذين اللفظيين في كلام الأقدمين من السلف، قلنا: نعم. لكنهما جاءا في كلام مولدينا فقد ذكر القثار الشقندي (راجع مجلة المقتبس 1: 298 و 437) وذكر القيثارة المسعودي في مروج الذهب (8: 91 من طبعة باريس)، قال عنها: (لها اثنا عشر وتراً) اهـ.
 <pb n="n5-p360" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2594.xhtml"/>

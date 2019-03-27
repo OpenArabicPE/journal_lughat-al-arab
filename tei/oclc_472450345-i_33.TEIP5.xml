@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -150,7 +150,7 @@
             <p change="#d2e73">تنقسم إلى أقسام فمنها عقدة الخطيب، ومنها خيط ينزع من طراز يوضع على قبور بعض الأئمة فيعقد في الرقاب وفي الأرسغ ويخيطه بعضهم بثوبه وبعضهم (بعقاله) وله شأن عظيم عند الأعراب. والنساء يتبركن به ويزعمن أنه يذهب الحمى والصداع وبقية</p>
             <p change="#d2e73">الأمراض.</p>
             <p change="#d2e73">قرأ أحدهم سورة الفلق حتى إذا بلغ إلى قوله: (ومن شر النفاثات في العقد) قال له بدوي لا يحسن القراءة وهمت إنما هي النفاثين. قال: هكذا الآية. قال: إني رأيت الخطباء ينفثون في العقد وليس بينهم امرأة ثة.</p>
-            <byline change="#d2e219"><persName>مسلم بغدادي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2457">مسلم بغدادي</persName>
 <pb n="n3-p454" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1465.xhtml"/>
 
 
@@ -221,7 +221,10 @@
             <p change="#d2e73">الطلاق جائز في الدين اليهودي لأمرين مهمين فقط وهما: 1 - إذا خانت المرأة بعلها ودنست مضجعه بشهادة الجم الغفير. 2 - إذا كانت عاقراً وأراد بعلها أن يقيم له نسلاً فيمكنه أن يطلقها أو يهجرها فإن أبت الزوجة أن تفارق قرينها فراقاً باتاً يجوز لها أن تمكث معه ولكن حذراً من وقوع الخصام والنزاع بين الضرتين تقيم كل من الزوجتين في</p>
             <p change="#d2e73">بيت خاص بها.</p>
             <p change="#d2e73">هذا ولا يجوز لليهودي الأضرار أي التزوج بأكثر من امرأة واحدة اللهم إلا لأسباب صحية أو غيرها من الأسباب التي تتعلق بها سعادة الزوجين وهناؤهما.</p>
-            <p change="#d2e73"><persName>رزوق عيسى</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></p>
             <p change="#d2e73">الرّماحية</p>
             <p change="#d2e73">في ربوع خزاعة بالشامية على مقربة من النجف أنقاض بلدة قائمة على جدول كان ينحط إليها من الفرات، تلك هي بلدة (</p>
          </div>
@@ -519,7 +522,7 @@
                   <seg> فانحتوا منه أصولاً ونجارا</seg>
                </l>
             </lg>
-            <byline change="#d2e219"><persName>عبد الرحمن البنا</persName>ء</byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1980 viaf:267152261514217180001"><forename>عبد الرحمن</forename> <surname>البنا</surname></persName>ء</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>ارتفع أسعار الأرضين في بغداد</head>
@@ -608,7 +611,7 @@
 العراقيين (بماء الدهلة) وهو الغريل أو الغرين إلى أن يعلوها نحو نصف متر واتركها على حالتها إلى أن يصفو فيحول الماء الصافي إلى أرض أخرى بشق جدول صغير يدفعه فيها.</p>
             <p change="#d2e73">فإذا نشفت الدهلة يطلق الماء عليها ثانية ويتصرف فيها كما تصرف فيها في المرة الأولى</p>
             <p change="#d2e73">فإذا يبست كربت كراباً حسناً مرتين. ويعاد هذا العمل مدة الربيع كلها إن أمكن إلى أن يأتي الصيف فتشمس لتحميها الشمس بحرارتها المحرقة وتقتل كل ما تولد فيها من الدود المضر بسبب السماد الكثير الذي ألقى فيها. وإذا فعلت ذلك مدة سنتين أو ثلاث تزول السبخة وتصبح أرضاً جيدة تربي النخل بنوع يدهش العقول ويحير الألباب وإذا أردت أن تزرع في الأرض السبخة التي أصلحتها بعملك هذا نخلاً فازرع فيها شعيراً بعد السنة الأولى التي أغرقتها بالدهلة وأبذر فيها بذراً كثيراً ولا تفشل أن لم ينبت فيها كثيراً في السنة الأولى لأنه ينبت أكثر بل أضعافاً في السنة الثانية وما يليها. وإذا داومت على عملك هذا إلى السنة الثالثة والرابعة والخامسة فيمكنك بعد ذلك أن تزرع فيها ما تشاء وهذا أبين دليل على إمكان تحسين الأرض السبخة وليس كالتجربة بينة قاطعة. أختبر، تعجب. والله الموفق.</p>
-            <byline change="#d2e219"><persName>حنا انطون جرجس</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1616">حنا أنطون جرجس</persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>بقايا بني تغلب</head>
@@ -686,7 +689,7 @@
 
 والقربان، والحراجين، والحفزان، والدغمة، والعجالين والبو رأس، وأما المساعرة والشرافاء فلم تذكر اليوم أفخاذهم.</p>
             <p change="#d2e73">هذا ما أردت إثباته تدويناً للحقائق وحرصاً على أنساب العرب وفوق كل ذي علم عليم.</p>
-            <p change="#d2e73"><persName>سليمان الدخيل</persName> صاحب جريدة <title level="j">الرياض</title></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName> صاحب جريدة <title level="j">الرياض</title></p>
             <p change="#d2e73">(لغة العرب) وإتماماً لهذا البحث الجليل الذي أتحفنا به حضرة صديقنا العزيز سليمان أفندي الدخيل نذكر هنا ما جاء في الكتب عن الدواسر. قال في التعريف. بالمصطلح الشريف، ص 78: (من عرب اليمن: الدواسر وزبيد. كان لي رجال منهم بسبب خيل</p>
             <p change="#d2e73">تسمى للسلطان عندهم. وكنا نكتب إليهم على قدر ما يظهر لنا بالاستخبار عن مكانة الرجل منهم. اهـ ونقل هذا الكلام القلقشندي في كتابه نهاية الأرب في معرفة أنساب العرب، ولم يزد عليه حرفاً واحداً وأما المعاجم اللغوية والمعالم العربية والأعجمية فلم يذكروهم وقد ذكرهم أيضاً السيد إبراهيم فصيح الحيدري في كتابه عنوان المجد، في بيان أحوال بغداد والبصرة ونجد، قال. ومن أعظم عشائر نجد (الدواسر) وهم خلق كثير حاضرة وبادية في غاية القوة والشجاعة والكثرة والعنف وقبائلهم التي في البادية كثيرة منها: المساعرة، وآل بريك، وآل أبو سباع أو المخاريم والرجبان، والخييلات، والشرافاء، والغيثيات، وآل أبي حازم؛ وآل عمار، وشيخهم أبو قويد. قال في نهاية الأرب: وهم بطن من العرب باليمن ولم ينسبهم إلى أحد اهـ.</p>
          </div>

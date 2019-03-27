@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -739,9 +739,17 @@
          <div change="#d2e64" type="item">
             <head>باب المشارفة والانتقاد</head>
             <p change="#d2e73">اللباب في نظر عربي متأمرك</p>
-            <p change="#d2e73">اللباب هو اسم لديوان جمع بين دفتيه مختارات مما نظمه الشاعر العراقي الطائر الصيت البعيد الغاية الفيلسوف <persName>جميل صدقي الزهاوي</persName> وقد أهدى إلينا نسخة منه وكتب عليها بخط يده. . .</p>
+            <p change="#d2e73">اللباب هو اسم لديوان جمع بين دفتيه مختارات مما نظمه الشاعر العراقي الطائر الصيت البعيد الغاية الفيلسوف <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> وقد أهدى إلينا نسخة منه وكتب عليها بخط يده. . .</p>
             <p change="#d2e73">ولما كان للزهاوي عندنا مقام سام ومنزلة رفيعة وكنا من وقت إلى آخر ننقل للقراء مقاطع من شعره البليغ أحببنا أن ينظر في ديوانه جناب الأستاذ البارع داود أفندي جرجس الخوري صاحب الكلية الشرقية في الحاضرة سابقا. ومن كبار حملة الأقلام في المهجر ويقرظه خصوصا وقد وصلنا الديوان وجنابه في مكتب (الرائد) فتصفحه وأعجب بما فيه وها ما قاله تقريظا له:</p>
-            <p change="#d2e73">دفع إلي صديقي الأديب صاحب الرائد ديوان النابغة والشاعر المجيد <persName>جميل صدقي الزهاوي</persName> فيلسوف العراق المشهور وطلب إلي أن أتصفحه وأقول كلمتي فيه. على إن اسم هذا الشاعر ليس جديدا على مسمعي فللزهاوي شهرة واسعة في العالم العربي وليس بين الطبقة النابهة من الناطقين بالضاد من لم يقرأ له كثيرا أو قليلا من المنظومات في مواضيع شتى فقد رنت قصائده في مصر وسوريا ولبنان فضلا عن العراق مسقط رأسه ونالت إعجاب الناس ولا نزال نذكر الحفلات الإكرامية التي أقيمت له في بيروت وسواها إجلالا لعلمه واعترافا بمقامه السامي كشاعر مبرز.</p>
+            <p change="#d2e73">دفع إلي صديقي الأديب صاحب الرائد ديوان النابغة والشاعر المجيد <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> فيلسوف العراق المشهور وطلب إلي أن أتصفحه وأقول كلمتي فيه. على إن اسم هذا الشاعر ليس جديدا على مسمعي فللزهاوي شهرة واسعة في العالم العربي وليس بين الطبقة النابهة من الناطقين بالضاد من لم يقرأ له كثيرا أو قليلا من المنظومات في مواضيع شتى فقد رنت قصائده في مصر وسوريا ولبنان فضلا عن العراق مسقط رأسه ونالت إعجاب الناس ولا نزال نذكر الحفلات الإكرامية التي أقيمت له في بيروت وسواها إجلالا لعلمه واعترافا بمقامه السامي كشاعر مبرز.</p>
             <p change="#d2e73">تصفحت الديوان ولم يكن ما قرأته فيه إلا ليزيدني رسوخا في اعتقادي بأن الزهاوي ليس شاعرا فحسب بل هو شاعر وفيلسوف وعالم ومصلح والقارئ اللبيب يستطيع أن يشاهد ما يثبت للزهاوي هذه الصفات الأربع في كل قصيدة من قصائده وإذا صح قول القائلين (إن الإنشاء هو الرجل) فقد ظهرت عظمة الزهاوي في ديوانه بأجلى مظاهرها فهو رجل شديد الثقة بنفسه فخور بها مغرق
 <pb n="n7-p644" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4293.xhtml"/>
 

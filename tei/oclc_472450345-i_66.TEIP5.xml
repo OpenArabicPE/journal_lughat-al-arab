@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -482,7 +482,10 @@
          </div>
          <div change="#d2e64" type="item">
             <head>الأرملة المرضعة</head>
-            <p change="#d2e73">القصيدة التي ألقاها الأستاذ الشاعر الكبير <persName>معروف الرصافي</persName> في حفلة جمعية حماية الأطفال التي أقيمت في صباح 11 كانون الثاني (يناير) سنة 1929:</p>
+            <p change="#d2e73">القصيدة التي ألقاها الأستاذ الشاعر الكبير <persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName> في حفلة جمعية حماية الأطفال التي أقيمت في صباح 11 كانون الثاني (يناير) سنة 1929:</p>
             <lg>
                <l type="bayt">
                   <seg>لقيتها ليتني ما كنت ألقاها </seg>
@@ -949,7 +952,11 @@
             <head>قبر الإمام أبي يوسف</head>
             <p change="#d2e73">-</p>
             <p change="#d2e73">وقفت في مجلتكم (754: 6 إلى 757) على مقالة شائقة للكاتب الأديب عبد الحميد أفندي عبادة فوجدت صاحبها يتطلب أوثق المصادر وصولا إلى أمنيته والخلة حسنة ممدوحة إذ قلما نجد رجالا يتحرون المصادر الصادقة، بل يبنون غالباً أحكامهم على (قيل وقال). وقد لاحظت أن حضرة الفاضل لم يعثر على محل قبر الإمام أبي يوسف مع صرف جانب كبير من وقته لهذه الغاية، وفي الآخر أنكر أن يكون قبره في مقابر قريش أي في الكاظمية.</p>
-            <p change="#d2e73">ولما كنت ممن انضى رواحل البحث في مثل الموضوع الذي يعالجه الكاتب الألمعي جئت بكلمتي هذه لأدله على تصنيف يحل المعضلة وهو الرحالة البشاري فقد قال في تأليفه (أحسن التقاسيم في معرفة الأقاليم) المطبوع في ليدن سنة 1906 في ص 130 في كلامه عن مشاهد العراق ما هذا حرف: (وببغداد قبر أبي يوسف في مقبرة قريش) وإذا أعترض الكاتب وقال: هذا الكلام يتعلق بأبي يوسف الشاعر قلنا له: لم يتعرض المؤلف لذكر قبور الشعراء والفضلاء والكتاب ومن جرى مجراهم، إنما تكلم على مشاهد الأئمة والصلحاء ومن تزار قبورهم تبركا. ولهذا لم يتعرض في ذلك الفصل إلا لذكر من تستجاب دعوتهم ثم أن تعدادهم مع تسميتهم كاف لإظهار الحقيقة. ولهذا أظن أن المرحوم <persName>محمود شكري الآلوسي</persName> كان قد أستند إلى هذا المؤلف في كلامه عن محل قبر أبي يوسف وأنه في الكاظمية (مقابر قريش).</p>
+            <p change="#d2e73">ولما كنت ممن انضى رواحل البحث في مثل الموضوع الذي يعالجه الكاتب الألمعي جئت بكلمتي هذه لأدله على تصنيف يحل المعضلة وهو الرحالة البشاري فقد قال في تأليفه (أحسن التقاسيم في معرفة الأقاليم) المطبوع في ليدن سنة 1906 في ص 130 في كلامه عن مشاهد العراق ما هذا حرف: (وببغداد قبر أبي يوسف في مقبرة قريش) وإذا أعترض الكاتب وقال: هذا الكلام يتعلق بأبي يوسف الشاعر قلنا له: لم يتعرض المؤلف لذكر قبور الشعراء والفضلاء والكتاب ومن جرى مجراهم، إنما تكلم على مشاهد الأئمة والصلحاء ومن تزار قبورهم تبركا. ولهذا لم يتعرض في ذلك الفصل إلا لذكر من تستجاب دعوتهم ثم أن تعدادهم مع تسميتهم كاف لإظهار الحقيقة. ولهذا أظن أن المرحوم <persName change="#d2e230" ref="oape:pers:264 viaf:47005120">
+                            <forename xml:lang="ar">محمود</forename>
+                            <forename xml:lang="ar">شكري</forename>
+                            <surname xml:lang="ar">الآلوسي</surname>
+                        </persName> كان قد أستند إلى هذا المؤلف في كلامه عن محل قبر أبي يوسف وأنه في الكاظمية (مقابر قريش).</p>
             <p change="#d2e73">وأنت تعلم أن البشاري حجة في ما يقول أولا لأنه كان حيا في المائة الرابعة للهجرة (المائة العاشرة للميلاد) ولأن أبا يوسف توفي في أواخر المائة الثانية للهجرة (أي سنة 182هـ أو 708م)، فشهادته إذن من أحسن الشهادات لقدمها ولا سيما حين تعلم أن ابن خلكان هو من أبناء المائة السابعة للهجرة أو الثالثة عشرة للميلاد - ثانيا لأن البشاري كان ثبتا في ما يرويه ولا يلقي الكلام على عواهنه وكتابه خال من ذكر الخرافات والأوهام وأنواع الأضاليل؛ والإفرنج يجلونه
 <pb n="n7-p151" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3817.xhtml"/>
 
@@ -1237,7 +1244,12 @@
             <p change="#d2e73">6) وأعجبني ذلك إلا وضعكم علامة الاستفهام على كلمة (لطفية) التي كتبتها سهوا (لطيفية) وأظنكم لم تعرفوا هذه الجمهورية الصغيرة.</p>
             <p change="#d2e73">لطفية من حكومات بحر البلطيك أنشئت هذه الجمهورية في 18 تشرين الثاني (نوفمبر) 1918 وهي واقعة في شرقي وجنوبي خليج ريغا. وريغا إحدى مدنها العظمى وسكانها يبلغون زهاء مليوني نسمة وهم خليط من الروس والجرمن والبولنديين والنمسويين والمجر واليهود إلى غيرهم.</p>
             <p change="#d2e73">فإذا رأيتم الفائدة في الإشارة إلى ذلك وتصحيح ما وقع في الجزء السابق ذكره فافعلوه.</p>
-            <p change="#d2e73">لندن: <persName>كاظم الدجيلي</persName></p>
+            <p change="#d2e73">لندن: <persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></p>
             <p change="#d2e73">(لغة العرب) نشكر حضرة الشيخ على إفادته ولو ذكر الاسم بصورة (لاتفية) أو (لتفية) لاهتدينا إليها. أما (لطفية) أو (لطيفية) بهذه الصورة العربية المحضة فمما يوهم القارئ.</p>
             <p change="#d2e73">أسلوب سلامه موسى</p>
             <p change="#d2e73">حضرة الأستاذ العلامة صاحب لغة العرب</p>
@@ -1338,7 +1350,11 @@
             <p change="#d2e73">أحد مشاهير مستشرقي الإنكليز</p>
             <p change="#d2e73">لندن في 5 سبتمبر سنة 1928</p>
             <p change="#d2e73">حضرة الأديب العلامة الأب أنستاس ماري الكرملي المحترم ببغداد.</p>
-            <p change="#d2e73">بعد إهداء ما يليق بمقامكم من الاحترام والتحايا، أني أخبرك بأنه لما رجعت من قضاء فسحتي في اسكوتلاند وجدت هنا طردة محتوية على نسخة من (لغة العرب) ومجلدتين من شعر الشاعر الطائر الصيت الغزير المعاني، الأستاذ <persName>جميل صدقي الزهاوي</persName>، فلا ريب عندي في أن هذه الهدية النفيسة عبارة عن لطفك وحسن ظنك بي. وقد وقعت مني أحسن موقع لا آلوك شكراً عليها. أرجوك أن تبلغ من قبلي حضرة صاحب الديوان المعظم نصيبا وافرا منه وأوكد لك وله أني متشرع في دراسة هذه الآثار دراسة تامة دقيقة بروح أقرب إلى التجلة منه إلى الانتقاد.</p>
+            <p change="#d2e73">بعد إهداء ما يليق بمقامكم من الاحترام والتحايا، أني أخبرك بأنه لما رجعت من قضاء فسحتي في اسكوتلاند وجدت هنا طردة محتوية على نسخة من (لغة العرب) ومجلدتين من شعر الشاعر الطائر الصيت الغزير المعاني، الأستاذ <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName>، فلا ريب عندي في أن هذه الهدية النفيسة عبارة عن لطفك وحسن ظنك بي. وقد وقعت مني أحسن موقع لا آلوك شكراً عليها. أرجوك أن تبلغ من قبلي حضرة صاحب الديوان المعظم نصيبا وافرا منه وأوكد لك وله أني متشرع في دراسة هذه الآثار دراسة تامة دقيقة بروح أقرب إلى التجلة منه إلى الانتقاد.</p>
             <byline change="#d2e219">(انتهى بحروفه)</byline>
          </div>
          <div change="#d2e64" type="item">

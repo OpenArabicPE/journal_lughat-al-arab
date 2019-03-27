@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -191,7 +191,11 @@
 كنقاخٍ وطحلب وجفاخ <gap resp="#org_MS"/> وسنيد وشبرق وطخاة</p>
             <p change="#d2e73">فإلى مثل هذا نوجه أنظار علماء العربية وذلك لينشئوا في أبحاثهم لغة تناسب هذا العصر الذي اتضحت هذا العصر الذي اتضحت فيه أعمال القوى الاجتماعية والطبيعية ليسيروا</p>
             <p change="#d2e73">معها لا ليقضوا في سبيلها جامدين فتقضي الطبيعة على هذا اللسان العربي المبين بمقتضى أصولها المقررة الثبوت.</p>
-            <byline change="#d2e219">النجف: <persName>محمد رضا الشبيبي</persName></byline>
+            <byline change="#d2e219">النجف: <persName change="#d2e230" ref="oape:pers:429 viaf:22006374">
+                            <forename xml:lang="ar">محمد</forename>
+                            <forename xml:lang="ar">رضا</forename>
+                            <surname xml:lang="ar">الشبيبي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أمثال عوام العراق</head>
@@ -324,7 +328,12 @@
 بشيء يدلك على آثرها، لأنها لم تبق عامرة بعد وفاة المتوكل ولا سكنها أحد بعده. قال اليعقوبي (وولى محمد المنتصر بن المتوكل (يعني بعد وفاة أبيه) فانتقل إلى سر من رأى، وأمر الناس جميعاً بالانتقال عن الماحوزة وان يهدموا المنازل ويملوا النقض إلى سر من رأى فانتقل الناس وحملوا نقض المنازل إلى سر من رأى وخربت قصور الجعفري ومساكنه وأسواقه في أسرع مدة وصار الموضع موحشاً لا أنيس به ولا ساكن فيه، والديار بلاقع كأنها لم تعرف ولم تسكن.) فهذا</p>
             <p change="#d2e73">هو السبب الوحيد لإهمال ذكر الجعفرية وعفاء رسمها واندراس أثرها. - ويوجد اليوم في تكريت قوم يعرفون (بالجعافرة) والبعض يسميهم (بالجعفرية) وتظن جماعة من أهل العراق انهم بقية من بقايا أولئك القوم الذين نزلوا بالجعفرية أيام المتوكل وبقى هذا الاسم عليهم. - والحقيقة انهم ليسوا كما يظن بهم، بل هم من ولد رجل اسمه جعفر وقد انتسبوا إليه وهو جدهم الخامس.</p>
             <p change="#d2e73">إلى هنا ينتهي ما كان في غربي سامراء من الإطلال الدوارس المعروفة الأسماء عند أهل تلك الديار. وهو فوق كل علم عليم.</p>
-            <byline change="#d2e219"><persName>كاظم الدجيلي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>مغاصات اللؤلؤ</head>
@@ -361,7 +370,10 @@
 الحجر من رجله ومضى ومعه الحبل وقد شد طرفه بالسفينة فيجره. والقسم الثاني أناس في السفينة يباشرون استخراج الأحجار التي تغوص فيها الغائصون ويباشرون أيضاً جر الغائصين في النوع الثالث وهؤلاء يسمون في اصطلاحهم (سيوب وارضفة) فالسيب له ثلثا الغائص والرضيف له نصف الغائص. وأما اللؤلؤ الحاصل في أيدي الغواصين فغالب المشترى له تجار أهل الكويت. فتارة يبيعونه في البحر وتارة يسافرون به للهند. ويبتدئ سفر الغواصين عند ابتداء دفء البحر ورجوعهم من السفر عند ابتداء برودته. فمدة أقامتهم في البحر أربعة أشهر إلا انهم في أثناء هذه المدة يمضون للميري أو القطيف أو دارى لأجل الراحة والقضاء بعض الحاجات ورواحهم. هذا في كل شهرٍ مرتين. فاستخراج اللؤلؤ من البحر هو الأصل الأصيل لأهل الكويت.</p>
             <p change="#d2e73">والموضع الثاني الذي أريد أن ابحث عنه هو مغاص البحرين الواقع في خليج العجم فانه</p>
             <p change="#d2e73">مشهور منذ الأزمنة العريقة في القدم وهو أكبر مغاص لؤلؤ في العالم على الإطلاق وقد قدر ما يستخرج منه سنوياً بربع مليون ليرة إسترلينية.</p>
-            <byline change="#d2e219"><persName>رزوق عيسى</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المشارفة والانتقاد</head>
@@ -408,7 +420,7 @@
 <pb n="n1-p488" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P488.xhtml"/>
 
 
-(تأليف الإمام العالم العلامة بحر العلوم النقلية والعقلية الرحالة عثمان بن عبد الله بن بشر رحمه الله تعالى. - عنى بتصحيحه محمد بن عبد العزيز بن مانع النجدي ومدير جريدة <title level="j">الرياض</title> <persName>سليمان الدخيل</persName>. الجزء الأول - الطبعة الأولى. طبع في مطبعة الشابندر في بغداد سنة 1328)</p>
+(تأليف الإمام العالم العلامة بحر العلوم النقلية والعقلية الرحالة عثمان بن عبد الله بن بشر رحمه الله تعالى. - عنى بتصحيحه محمد بن عبد العزيز بن مانع النجدي ومدير جريدة <title level="j">الرياض</title> <persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName>. الجزء الأول - الطبعة الأولى. طبع في مطبعة الشابندر في بغداد سنة 1328)</p>
             <p change="#d2e73">نجد من البلاد العربية التي لا نعرف عنها إلا الشيء النزر. وهل من أمرٍ أشهر من مذهب الوهابيين، ومع ذلك فانك لا تجسد أناساً يعرفون أتم المعرفة ما يتعلق بأصل صاحب هذا المذهب ومنشأه والبلاد التي اختلف إليها. ولهذا كل كتاب أو رسالة أو مقالة تكتب في هذا المعنى تحل في القوم احسن محل لقلة ما اتصل إلينا منها ولا سيما إذا كان الكاتب ممن له اطلاع على تلك الأرجاء العربية البحتة.</p>
             <p change="#d2e73">ومن ثم فإننا نرحب بهذا الكتاب كل الترحيب ونتمنى له الرواج والانتشار لان كاتبه ابن بشر الحنبلي (الوهابي) النجدي من اعلم الناس ببلاده وأقوامها ووقائعها. وقد صدر الواقفان على طبعه بترجمة مصنف الكتاب إلا انهما لم يتيسر لهما الحصول على سنة ولادته ووفاته.</p>
             <p change="#d2e73">وهذا الكتاب سقيم الطبع كثير الأغلاط سيئ الورق لا يكاد القارئ يمسه بيده لقبح منظره غير أن محتوياته تهون هذا الخطب وتجرئ المطالع على تصفحه رغماً عن الاشمئزاز الذي يشعر به عند وقوعه بين يديه. فالأمل أن هذه الأمور تصلح في الطبعة الثانية أن شاء الله تعالى.
@@ -521,7 +533,10 @@
             <p change="#d2e73">ادمي</p>
             <p change="#d2e73">(عربية عبرانية) نسبة إلى آدم وآدم معناها الأحمر أو الترابي والجمع أوادم والعامة تتوسع في استعمالها وان كان معناها الأصلي هو الإنسان وقد استعملها ابن خلدون مراراً عديدة في تاريخه بهذا المعنى وجمعها على آدميين. والعامة تستعمل اللفظة تارة بمقام السخرية والازدراء وطوراً بمقام المدح والإطراء، فإذا قال أحدهم مثلا كأنه ادمي كان المراد من كلامه التهكم والاستهزاء بالرجل لتكبره وتصلفه وادعائه الطويل العريض. وإذا قال أن زيداً صار ادمياً كان المقصود منه انه نال منزلة رفيعة وأصبح غنياً ومشهوراً بعد أن كان ذليلاً فقيراً خاملاً وإذا قال أن عمراً ادمي ابن أوادم أو فيه رائحة أوادم كان المعنى</p>
             <p change="#d2e73">انه نجيب شهم لين العريكة دمث الأخلاق متنور العقل والذهن.</p>
-            <byline change="#d2e219">(<persName>رزوق عيسى</persName>)
+            <byline change="#d2e219">(<persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName>)
 <pb n="n2-p1" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P497.xhtml"/>
 
 

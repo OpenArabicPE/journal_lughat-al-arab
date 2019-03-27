@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -890,7 +890,10 @@
             <p change="#d2e73">الفاروق. ومن أراد التبسط في الألفاظ التي وردت في العربية على وزن فاعول فليراجع المزهر 81: 2 - 83 ويجدر بي أن المع إلى آثار الارمية في أسماء البلدان والبقاع والأنهر في العراق فأننا نجد عشرات من تلك الأسماء ارمية الأصل والمعنى منها مندثرة ومنها لا تزال حية. ومن أمثال لك:</p>
             <p change="#d2e73">باقوفا تلكيف بطنايا باجرمي باعذري برطلي تلسقف بادرايا (وهي بدرة). الكرخ ماحوزة بعقوبا باجسرا عقرقوف عبرثا نهر ملكا نهر كلال الحيرة القاطوب الشطرة ديالى كركوك باعشيقا براثا باحمشا مرغا أو مركا</p>
             <p change="#d2e73">وقبل الختام ننبه إلى أننا أغفلنا أصول بعض الألفاظ التي تأتي على ألسنة العامة وهي لا تتفق والآداب.</p>
-            <byline change="#d2e219"><persName>يوسف غنيمة</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>
 <pb n="n4-p588" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2192.xhtml"/>
 
 
@@ -1068,7 +1071,10 @@
             <p change="#d2e73">شد (ساكن) شدوا (مفتوح) شدت (مفتوح) شدن (مفتوح) شديت (فتحة مبسوطة) شديتو (فتحة مبسوطة) شديت (فتحة مبسوطة) شديتن (فتحة مبسوطة) شديت (فتحة مبسوطة) شدينا (فتحة مبسوطة)</p>
             <p change="#d2e73">تصريفه مع الضمائر المنصوبة</p>
             <p change="#d2e73">شده (مفتوح) شدهم (ساكن بلا تضعيف) شدها (ساكن بلا تضعيف) شدهن (ساكن بلا تضعيف) شدك (مفتوح) شدكم (ساكن بلا تضعيف) شدج (مكسور) شدجن (ساكن بلا تضعيف) شدني (ساكن بلا تضعيف) شدنا (ساكن بلا تضعيف)</p>
-            <byline change="#d2e219"><persName>معروف الرصافي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n4-p599" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2203.xhtml"/>
 
 
@@ -1252,7 +1258,10 @@
             <p change="#d2e73">س - على دجلة بليدة هي قضاء تعرف باسم الصويرة فما معناه؟</p>
             <p change="#d2e73">بغداد: س. ك</p>
             <p change="#d2e73">الجواب - هذه الكلمة من غريب ما لعبت به طوارئ اللغة. فالكلمة اصلها (صيرة) ثم صغرت على مألوف عادة أهل البادية في العراق. وصيرة مصحفة عن (زيرة) المقصورة عن (جزيرة) بحذف الجيم من الأول. وسميت جزيرة لأن المياه تحيط بها من كل جانب. فلو لم نتتبع سنة بسنة هذه التحولات في اللفظة لما كنا نهتدي إليها. فقد كانت يوما تسمى (الجزيرة) ثم صارت (زيرة) ف (صيرة) ثم (صويرة).</p>
-            <p change="#d2e73">أما رأي البحاثة <persName>يوسف غنيمة</persName> فالصيرة عنده مشتقة من الصير بمعنى الماء
+            <p change="#d2e73">أما رأي البحاثة <persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> فالصيرة عنده مشتقة من الصير بمعنى الماء
 <pb n="n4-p613" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2217.xhtml"/>
 
 
@@ -1342,7 +1351,13 @@
 برجليه من أجل الصخر.</p>
             <p change="#d2e73">وفي تلك الصفحة ورد قول المؤلف ثلاث مناجد. . . (وهي دواب تشبه اليرابيع) والذي احفظه أن مناجذ تكتب بالمعجمة مفردها خلد بالمهملة أو جلذ بالمعجمة وكلاهما مذكر فكان الأحسن أن يقال ثلاثة مناجذ وإن كان يؤول بالتأنيث، وتشبيه المناجذ باليرابيع بعيد والأحسن بالجرذان أو بالفئران.</p>
             <p change="#d2e73">على إن هذه الخرافة تزداد شناعة في قول المؤلف في ص285 (فأنطلق عمرو فإذا الجرذ يقلب برجليه صخرة ما يقلها (أي يحملها ولعل الصواب ما يقلبها) خمسون رجلا) فهذه خرافة ما وراءها خرافة، فكان يحسن تضعيفها أو جرحها أو إسقاطها بتاتا. إذ لا تتفق وتحقيقات هذا العصر؛ أو لا أقل من أن يسندها إلى أول راو رواها لأني أجل عمرا عن تصديق هذه المزاعم التي تضحك ومما يشهد على وضع هذه الحكاية من أولها إلى آخرها سقم الأبيات الواردة فيها.</p>
-            <p change="#d2e73">وذكر الشارح في ح1 ص337 ابن حذيم وقال عنه (سماه <persName>جرجي زيدان</persName> (هكذا ورد بدون أدنى صفة مدح مع أنه يكيل منها مكاييل ضخمة لمن دون <persName>جرجي زيدان</persName> فضلا وخدمة للعربية) في تاريخ أدب اللغة العربية (م1 ص177) ابن حزيم بالزاي وهو خطأ فاضح. .</p>
+            <p change="#d2e73">وذكر الشارح في ح1 ص337 ابن حذيم وقال عنه (سماه <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> (هكذا ورد بدون أدنى صفة مدح مع أنه يكيل منها مكاييل ضخمة لمن دون <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> فضلا وخدمة للعربية) في تاريخ أدب اللغة العربية (م1 ص177) ابن حزيم بالزاي وهو خطأ فاضح. .</p>
             <p change="#d2e73">) ونحن لا نراه كما يراه الكاتب صاحب التعاليق بل نحمله على لغة أهل الشام ومصر الذين يلفظون الذال زايا. وليس في لغتهم فصاحة وهي لغة معروفة عند العرب قبل الإسلام.</p>
             <p change="#d2e73">وللمحشي جلد عظيم لتتبع صحيح الروايات فلقد اظهر في ح1 ص341 شيئا من هذا القبيل ما لا ينكره ناكر ولا نكير، وكذلك قل عما حققه في ص386 و408 و409</p>
             <p change="#d2e73">وارهف سيفه في ح ص 419 وضرب به ضعفة المفسرين فقد قال عنهم:</p>

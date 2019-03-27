@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -89,7 +89,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>إلى القراء</head>
-            <p change="#d2e73">رواية التمثيل النثرية الشعرية غير معروفة عندنا في العراق، ولما كان ملكنا المحبوب المفدى مطبوعاً على ترقية هذه الديار العريقة في المدينة وساعياً لرفعها إلى المستوى سائر ربوع الحضارة أقترح على الشاعر العصري الفيلسوف <persName>جميل صدقي الزهاوي</persName>، أن يؤلف رواية وطنية المغزى، تدفع الأدب العربي إلى الالتحاق بسائر الأقوام الحية، فنهض الصديق للحال وألف هذه الرواية البديعة التي تبقي له الأثر الطيب، إذ تكون الأولى في ما يؤلف بعد ذلك. ويكون للزهاوي القدم الفاتحة لهذه الدولة الجديدة من الأدب العصري. وكيف لا يكون له السبق في هذا المضمار وهو الذي كان المجلي في عدة مباحث لم يكن لغيره نصيب سوى الاقتداء به دون الالتحاق به؟</p>
+            <p change="#d2e73">رواية التمثيل النثرية الشعرية غير معروفة عندنا في العراق، ولما كان ملكنا المحبوب المفدى مطبوعاً على ترقية هذه الديار العريقة في المدينة وساعياً لرفعها إلى المستوى سائر ربوع الحضارة أقترح على الشاعر العصري الفيلسوف <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName>، أن يؤلف رواية وطنية المغزى، تدفع الأدب العربي إلى الالتحاق بسائر الأقوام الحية، فنهض الصديق للحال وألف هذه الرواية البديعة التي تبقي له الأثر الطيب، إذ تكون الأولى في ما يؤلف بعد ذلك. ويكون للزهاوي القدم الفاتحة لهذه الدولة الجديدة من الأدب العصري. وكيف لا يكون له السبق في هذا المضمار وهو الذي كان المجلي في عدة مباحث لم يكن لغيره نصيب سوى الاقتداء به دون الالتحاق به؟</p>
             <p change="#d2e73">وقعت حوادث هذه الرواية قبل الدستور العثماني بسنتين أو ثلاث. يقف القارئ في مطاويها على (روحية) الشعب يومئذ. ويتحقق ما كان للولاة من الاستبداد والظلم، ويشاهد الماس على اختلاف طبقاتهم كيف كانوا يتزلفون إلى السلطان الجبار (عبد الحميد) فيقصون عليه أو على ممثليه الأحلام الغربية، ويتوسلون إلى بلوغ أمانيهم بالتجسس والوشايات. ولذلك كنت ترى الفظائع والفجائع في كل موطن من الديار الخاضعة لصولجان (الجبار العنيد). ومن الجملة هذه الفاجعة التي تنقشها ريشة مصور الفكر الماهر، وطنينا الزهاوي، فدونها بلوحتها الزاهية الألوان البديعة التمثيل:</p>
             <byline change="#d2e219">(لغة العرب)
 <pb n="n5-p578" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2812.xhtml"/>
@@ -99,7 +103,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>رواية ليلى وسمير</head>
-            <p change="#d2e73">وضعها لتمثل <persName>جميل صدقي الزهاوي</persName></p>
+            <p change="#d2e73">وضعها لتمثل <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName></p>
             <p change="#d2e73">وجعلها تقدمة إلى جلالة الملك المعظم فيصل الأول</p>
             <p change="#d2e73">لا زال الأدب ريان ناشئاً برعايته الملكية</p>
             <p change="#d2e73">(بغداد: 10 تموز سنة 1927)
@@ -2015,7 +2023,11 @@
          <div change="#d2e64" type="item">
             <head>رسالة السواك</head>
             <p change="#d2e73">للمرحوم الشيخ شكري الآلوسي</p>
-            <p change="#d2e73">بينما كنت أقلب كتبي وأوراقي للتفتيش عن كتاب (الضرائر)! عثرت على الجزء الأول من مجلة (الحرية) - المحتجة - لسنتها الأولى، فألقي في روعي أن أتصفح أوراقها، فأنتهي بي التصفح إلى الصفحة 67، فوقع ناظري على مقالة عنوانها (السواك) بقلم الثلث وتحته هذه العبارة (بحث للأمام المرحوم السيد <persName>محمود شكري الآلوسي</persName>) ومن تحت (عني بنشره محمد بهجت الأثرى).</p>
+            <p change="#d2e73">بينما كنت أقلب كتبي وأوراقي للتفتيش عن كتاب (الضرائر)! عثرت على الجزء الأول من مجلة (الحرية) - المحتجة - لسنتها الأولى، فألقي في روعي أن أتصفح أوراقها، فأنتهي بي التصفح إلى الصفحة 67، فوقع ناظري على مقالة عنوانها (السواك) بقلم الثلث وتحته هذه العبارة (بحث للأمام المرحوم السيد <persName change="#d2e230" ref="oape:pers:264 viaf:47005120">
+                            <forename xml:lang="ar">محمود</forename>
+                            <forename xml:lang="ar">شكري</forename>
+                            <surname xml:lang="ar">الآلوسي</surname>
+                        </persName>) ومن تحت (عني بنشره محمد بهجت الأثرى).</p>
             <p change="#d2e73">فأخذت على نفسي أن أقرأ صفحة من المقالة دون أن أجاوزها إلى غيرها لأني كنت مستعجلاً وفي غير هذا الصدد، فإذا في أخريات الصفحة قول صاحب المقالة: (وفي الحديث الصحيح المسواك مطهرة للفم بالكسر أي يطهر الفم كقولهم الولد مجبنة مجهلة مبخلة) فلم أدر أي الكلمتين أراد ضبطها بالكسر؟ أكلمة (مسواك) أم كلمة (مطهرة) لأنه أن أراد تقييد المطهرة فكيف صح أن يناظرها بمجبنة ومجهلة ومبخلة المفتوحة الميمات وأن أراد تقييد ميم مسواك كان تقييداً عبثاً إذ لا حاجة إلى تقييده بالكسر كما لا حاجة إلى تقييد ميم (مفتاح) به لأنها صيغة قياسية.</p>
             <p change="#d2e73">وقد بعثني هذا الارتياب على التفتيش عن الحديث في مظانه فوجدته فيما ظفرت به من الكتب بضبط (المطهرة) بالفتح و (السواك) بالكسر من غير ميم فتأمل!</p>
             <p change="#d2e73">ومما يستلفت نظر المدقق قوله فيما بعد: (والسواك كالمسواك والجمع سوك) وأنت ترى أن ظاهر العبارة يقتضي الإضمار مكان الإظهار بأن يقول: (وهو كالمسواك) فما باله عدل عن مقتضى الظاهر؟ أليس في هذا ما يدل على أنه كان يلفق بين عبارات المؤلفين دون أحكام اللحمة بينها؟! ثم قال (والجمع سوك وأخرجه الشاعر على الأصل فقال عبد الرحمن بن حسان:</p>
@@ -2265,7 +2277,10 @@
             <p change="#d2e73">انحلت عرى الوزارة العسكرية في الأسبوع الأول من شهر كانون الثاني من سنة 1928 وأنشئت الوزارة السعدونية خلفاً لها فأصدر جلالة ملكنا المحبوب في 14 من الشهر المذكور مرسوماً لذلك يؤيد الوزارة الجديدة ودونك أعضاءها:</p>
             <p change="#d2e73">عبد المحسن السعدون: وزير الخارجية ووزير الدفاع وكالة</p>
             <p change="#d2e73">عبد العزيز القصاب: وزير الداخلية</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName>: وزير المالية</p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>: وزير المالية</p>
             <p change="#d2e73">حكمت سليمان: وزير العدلية</p>
             <p change="#d2e73">سلمان البراك: وزير الري والزراعة</p>
             <p change="#d2e73">عبد المحسن شلاش: وزير المواصلات والأشغال</p>

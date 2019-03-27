@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -740,7 +740,10 @@
             <p change="#d2e73">أن اللفيف المفروق له حكم المثال من جهة فائه لكون فائه واوا فتثبت واوه في المضارع ولا تحذف فيقال في مضارع وفى يوفي. ومنه قول شاعرهم: (أهل ألوفا ما وفو، جيف النغل يوفي) وله حكم الناقص من جهة لامه لكون لامه ألفا فتقلب ياء في المضارع ويصرف كالمضارع الناقص هكذا:</p>
             <p change="#d2e73">يْوفي يْوفوُنْ تُوفي يْوَفنْ تْوفي تْوُفون تْوفين تْوفَن أوفي نْوفي.</p>
             <p change="#d2e73">(لغة العرب) الضمة المقلوبة الواردة في هذه المقالة تقابل الحركة المبهمة القصيرة هي التي بالفرنسية حرف الخالية من الحركة.</p>
-            <byline change="#d2e219"><persName>معروف الرصافي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n5-p544" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2778.xhtml"/>
 
 
@@ -772,7 +775,10 @@
             <p change="#d2e73">وبينما هو يجول قامت مشاجرة بين راع من الرعاة واحد الزراع لان الراعي ادخل قطيعه في المزرعة فاتلف شيئا غير يسير من القمح. فتسابا وتشاتما وتلا كما وتدخل في الأمر أصحاب المتخاصمين فكان فريق ينتصر لصاحبه وكادت فجوة الشر تتسع أولم يتوسط في إطفاء نار الفتنة بعض العقلاء والطاعنين في السن واتفقوا على أن يعقدوا لجنة تحكيم يرأسها شمشو الذي كان معروفا عندهم.</p>
             <p change="#d2e73">فاجتمعت تلك اللجنة حالا وحكم شمشو بان يعطي الراعي للزارع عشرين (جوار) من القمح لكل (جان) من الأرض ترعى غنمه فيها.</p>
             <p change="#d2e73">لها تلو</p>
-            <byline change="#d2e219"><persName>يوسف غنيمة</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>
 <pb n="n5-p547" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2781.xhtml"/>
 
 
@@ -893,7 +899,10 @@
                   <seg> وقعت على الشا في فخذها تبرعا</seg>
                </l>
             </lg>
-            <p change="#d2e73">انتهت القائمة التيمورية القيمة. وقد ذكر المرحوم <persName>جرجي زيدان</persName> في تاريخ آداب اللغة</p>
+            <p change="#d2e73">انتهت القائمة التيمورية القيمة. وقد ذكر المرحوم <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في تاريخ آداب اللغة</p>
             <p change="#d2e73">العربية أن في مكتبة باريس الأهلية نسخة من قصيدة نحوية للتفريق بين الضاد والظاء في اللفظ لابن جابر الأندلسي الهواري المتوفي سنة 780 هـ (1378) إلا أنني لما بعثت أسال السيد بلوشي مدير القسم الشرقي في المكتبة الذكورة عن هذه القصيدة أجابني بقوله:</p>
             <p change="#d2e73">إن القصيدة النحوية في الكتبة لمحمد بن علي جابر الهواري هي في التفريق بين القصور والممدود ورقمها 4452 وعدد صفحاتها 135 وتبتدئ بهذا البيت:</p>
             <lg>
@@ -1094,7 +1103,10 @@
 
 
 كان ظهر فيها مجلة بهذا الاسم نفسه في أول تشرين الثاني سنة 1921. وهذا نص ما كان قد كتب على صدرها: (مجلة دار المعلمين تبحث في العلم والأدب والتاريخ والتربية وطرق التدريس الحديثة خاصة. - تصدرها نظارة المعارف في بغداد مرة في الشهر (في 16 صفحة) يقوم بتحريرها معلمو دار المعلمين وطلابها. - مديرها</p>
-            <p change="#d2e73">المسؤول محمد السيد خليل - رئيس التحرير <persName>معروف الرصافي</persName> - نائب المدير المسؤول يوسف عز الدين الناصري - نائب رئيس التحرير طه الراوي - العدد 1 السنة الأولى - 1 تشرين الأول سنة 1921 الموافق 28 محرم سنة 1340 - بدل الاشتراك عن سنة كاملة 4 ربيات داخل القطر ومن نصف السنة ربيتان ونصف وفي خارج القطر 5 ربيات (عن سنة) وثلاث ربيات (عن نصف سنة). - عنوان المراسلات (مجلة دار المعلمين في بغداد) - لا تعاد الرسائل أصحابها أدرجت أو لم تدرج - طبعت بمطبعة العراق بغداد.</p>
+            <p change="#d2e73">المسؤول محمد السيد خليل - رئيس التحرير <persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName> - نائب المدير المسؤول يوسف عز الدين الناصري - نائب رئيس التحرير طه الراوي - العدد 1 السنة الأولى - 1 تشرين الأول سنة 1921 الموافق 28 محرم سنة 1340 - بدل الاشتراك عن سنة كاملة 4 ربيات داخل القطر ومن نصف السنة ربيتان ونصف وفي خارج القطر 5 ربيات (عن سنة) وثلاث ربيات (عن نصف سنة). - عنوان المراسلات (مجلة دار المعلمين في بغداد) - لا تعاد الرسائل أصحابها أدرجت أو لم تدرج - طبعت بمطبعة العراق بغداد.</p>
             <p change="#d2e73">وكان كاغدها من أسوء الورق. وفي الجزء الثاني الذي ظهر في 1ت2 سنة 1921 حذفت أسماء المدير ونائبه واسم رئيس التحرير ونائبه - وفي الجزء 3 منها ارتفعت بدلات الاشتراك فصارت عن سنة 6 ربيات داخل القطر و7 ربيات خارج القطر - وفي الجزء 6 ارتفعت بدلات الاشتراك درجة أخرى فصارت 8 ربيات خارج عن سنة داخل القطر و 12 ربية ونصف خارج القطر. وبعد هذه المهزأة (ولا تقل المهزلة كما ينطق بها كثيرون) انقطعنا عن تتبع ذلك الارتفاع الذاهب صعدا في جو الغلاء. تم احتجبت عن الأنظار.</p>
             <p change="#d2e73">وفي سنة 1924 ظهرت في تلك المدرسة مجلة اتسمت بعنوان (مجلة المعلمين) وأمامنا الجزء الأول منها. ودونك ما كتب على صدره (مجلة علمية أدبية شهرية لصاحبها هاشم السعدي - العدد الأول السنة الأولى - 15 شباط سنة 924 - 10 رجب سنة 342 - محتويات العدد. . . طبعت في مطبعة دار السلام بغداد) - وقد وجدنا في الصفحة الثانية من الغلاف ما هذا نصه (مجلة المعلمين خاصة بالمعلمين والمتعلمين: تبحث في أصول التربية والتدريس نظريا وعلميا وفي جميع ما يجب ويحدث من نظريات الفنون - ولها صفحة للتلاميذ وصفحة للكشافة. تقبل مع الشكر جميع المقالات التي يتحفها بها المعلمون
 <pb n="n5-p566" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2800.xhtml"/>

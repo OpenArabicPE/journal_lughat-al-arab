@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -148,7 +148,10 @@
             <head>ترجمة ابن الفوطي</head>
             <p change="#d2e73">عن الدرر الكامنة لابن حجر</p>
             <p change="#d2e73">-</p>
-            <p change="#d2e73">(لغة العرب) (من غريب حظ بعض المؤلفين المشاهير أن يخمل اسمهم وينبه أسم من هم دونهم. ومن جملة هؤلاء المشاهير الجدراء بالذكر ابن الفوطي. فلقد أهمل ذكره البستاني في دائرة معارفه، ومعلمة الإسلام، و<persName>جرجي زيدان</persName>، وكليمان هوار، وبروكلمن وغيرهم، مع أن تآليفه من أحسن ما جاء في الموضوع الذي تحراه. وقد نقل بعض الكتاب شيئا ليس بقليل عن الأخبار التي ذكرها لكنهم لم يعرفوا صاحبها. وأول من ذكر اسمه وتأليفه مجلة العرفان ثم أشاد باسمه عيسى اسكندر المعلوف في تلك المجلة بصدد نسخة من التصنيف الذي ذكر فيها وهو نسخة في الخزانة الظاهرية في دمشق؛ لكن الذي نوه باسمه وبفضله كل التنويه هو أحد مؤازرينا في هذه المجلة البحاثة المدقق يعقوب أفندي نعوم سركيس فقد اظهر لنا أن الكتاب الذي نقل عنه الأدباء جرجس صفا والأب لويس شيخو واحمد تيمور في المشرق والزهراء هو الحوادث الجامعة لصاحبه ابن الفوطي. (لغة العرب 5: 223 ما يليها) وكان قد ذكر حضرة الصديق يعقوب أفندي إنه يتوقع وجود ترجمته في الدرر الكامنة (ل. ع 5: 223) فلما وقف على هذا النبأ صديقنا الآخر فريتس كرنكو الألماني الذي يطوي بساط أيامه في انكلترة، بعث إلينا بنسخة من تلك الترجمة الواردة في الدرر الكامنة وما أعظم ما كان عجبنا عند وقوفنا على هذه الترجمة وعلى خلوها من ذكر أسم كتاب الحوادث الجامعة، مع أن صاحب كشف الظنون يذكره صريحا في باب الحاء. وممن ترجم ابن الفوطي صاحب فوات الوفيات 1: 272 والترجمة لا تحوي إلا بعض ما جاء في ما كتبه ابن حجر العسقلاني وذكره صاحب فوات الوفيات باسم ابن الفوطي بالغين المعجمة وهو خطأ واضح. ودونك الآن هذه الترجمة):</p>
+            <p change="#d2e73">(لغة العرب) (من غريب حظ بعض المؤلفين المشاهير أن يخمل اسمهم وينبه أسم من هم دونهم. ومن جملة هؤلاء المشاهير الجدراء بالذكر ابن الفوطي. فلقد أهمل ذكره البستاني في دائرة معارفه، ومعلمة الإسلام، و<persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName>، وكليمان هوار، وبروكلمن وغيرهم، مع أن تآليفه من أحسن ما جاء في الموضوع الذي تحراه. وقد نقل بعض الكتاب شيئا ليس بقليل عن الأخبار التي ذكرها لكنهم لم يعرفوا صاحبها. وأول من ذكر اسمه وتأليفه مجلة العرفان ثم أشاد باسمه عيسى اسكندر المعلوف في تلك المجلة بصدد نسخة من التصنيف الذي ذكر فيها وهو نسخة في الخزانة الظاهرية في دمشق؛ لكن الذي نوه باسمه وبفضله كل التنويه هو أحد مؤازرينا في هذه المجلة البحاثة المدقق يعقوب أفندي نعوم سركيس فقد اظهر لنا أن الكتاب الذي نقل عنه الأدباء جرجس صفا والأب لويس شيخو واحمد تيمور في المشرق والزهراء هو الحوادث الجامعة لصاحبه ابن الفوطي. (لغة العرب 5: 223 ما يليها) وكان قد ذكر حضرة الصديق يعقوب أفندي إنه يتوقع وجود ترجمته في الدرر الكامنة (ل. ع 5: 223) فلما وقف على هذا النبأ صديقنا الآخر فريتس كرنكو الألماني الذي يطوي بساط أيامه في انكلترة، بعث إلينا بنسخة من تلك الترجمة الواردة في الدرر الكامنة وما أعظم ما كان عجبنا عند وقوفنا على هذه الترجمة وعلى خلوها من ذكر أسم كتاب الحوادث الجامعة، مع أن صاحب كشف الظنون يذكره صريحا في باب الحاء. وممن ترجم ابن الفوطي صاحب فوات الوفيات 1: 272 والترجمة لا تحوي إلا بعض ما جاء في ما كتبه ابن حجر العسقلاني وذكره صاحب فوات الوفيات باسم ابن الفوطي بالغين المعجمة وهو خطأ واضح. ودونك الآن هذه الترجمة):</p>
             <p change="#d2e73">عبد الرزاق بن أحمد بن محمد بن محمد بن أحمد بن أبي المعالي محمد بن محمود بن أحمد بن محمد بن أبي المعالي المفضل بن عباس بن عبد الله بن معن بن زائدة الشيباني
 <pb n="n6-p648" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3522.xhtml"/>
 
@@ -1128,7 +1131,10 @@
             <p change="#d2e73">اسم المكان ما دل على موضع وقوع الفعل واسم الزمان ما دل على وقت وقوع الفعل. ولهما صيغة واحدة وهي من الثلاثي على وزن (مفعل) بكسر الميم وقد تفتح. وبفتح العين إذا كانت عين مضارعه مضمومة أو مفتوحة نحو مطبخ ومذبح ومنه قولهم وهو من هوساتهم (هاي نكرة الدم وهاي مذبحتهم) وشذ المغرب بكسر الميم والراء لوقت الغروب والمسجد بكسر الجيم لأن عين مضارعهما مضمومة. وإما إذا كانت عين مضارعه مكسور فلا يكون إلا بكسر العين نحو مجلس. وكذلك إذا كان من المثال نحو موجب (موكب). وأما من غير الثلاثي فلم أجده واقعا في كلامهم.</p>
             <p change="#d2e73">(تنبيه) إذا كثر الشيء في المكان فلاسم المكان وزن مفعلة نحو مملحة ومصبغة ومدرسة ومكبرة ومذبحة.</p>
             <p change="#d2e73">ومما شذوا فيه قولهم للمجرة (مسحال الجبش) أي مجر الكبش فإن مسحال هنا أسم مكان للسحل المستعمل في كلامهم بمعنى الجر يقال سحله إذا جره على الأرض. والقياس يقتضي أن يقال مسحل لا مسحال.</p>
-            <byline change="#d2e219">بغداد: <persName>معروف الرصافي</persName>
+            <byline change="#d2e219">بغداد: <persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n6-p689" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3563.xhtml"/>
 
 

@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -399,7 +399,10 @@
 ولم يخطر ببالهم إن في قلبها كنوزا لا نظير لها في عالم العلم والتاريخ.</p>
             <p change="#d2e73">لقد محيت أدب من صحيفة الوجود قبل بضعة آلاف سنة وأصبحت قفرا جرداء فتحولت عنها مجاري الأنهار وسدت الترع فهلك الزرع والضرع وتعطلت فيها أسباب الرخاء والسعادة ولم يسمع في أبنيتها ومنازلها صوت آلات الطرب فتخلى عنها أهلها وهجرها محبوها وباتت تلك الغادة الحسناء كأرملة جالسة على مفارق الطرق تندب حظها وتستعطف المارين بها لإعادة مجدها وإحياء معالم الحضارة في ربوعها ولكن كان ذلك كله عبثا فقد قضى الزمان الخؤون بأن تستأصل شأفة المدنية منها فتصبح مأوى للهوى وبنات آوى ومجثما للبوم تنعق في آكلها وتمسي مكمنا للسفاكين الهاربين من وجه العدل ومرصدا لقطاع الطرق الذين يعيثون في الأرض فسادا.</p>
             <p change="#d2e73">هذا ولم يقم لها أحد المؤرخين ذكرا حتى وفدت على ديار العراق بعثة جامعة شيكاغو وقامت بأعمال الحفر والتنقيب فكشفت النقاب عما حوته من الآثار النفيسة والتحف المستظرفة وأنبأت عشاق التاريخ بعلو منزلتها في الحضارة منذ بزوغ فجر التاريخ في سماء المدنية والعمران.</p>
-            <byline change="#d2e219">بغداد: <persName>رزوق عيسى</persName></byline>
+            <byline change="#d2e219">بغداد: <persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>وزن الفعل الثلاثي بتداخل اللغتين</head>
@@ -462,9 +465,15 @@
 بجانبه من يعنى بأسرار اللغة. فلله دره من محقق!</p>
             <p change="#d2e73">
                <hi style="color:red;">11 - </hi>من غريب أعمال (الخصم) إنه إذا رأى مذهبا في لغتنا ينسب إلى غير المستشرقين لم يقبله فيقول: (أسألك هل وجدت أحدا من المشتغلين بمثل بحثك بين علماء الفرنساويين (هكذا ينسب إلى فرنسة أو فرنسا) أو الإنكليز أو الألمان أو الإيطاليان (كذا ينسب إلى إيطالية أو إيطاليا) يقول بقولك هذا؟) (ص 204) أما هو، فإذا جاءنا برأي من عنده لا يريد منه أن نذكره بسؤاله هذا فإنك تراه يقول مثلا بعد نقل رقيم امرئ القيس: (لي رأيي الخاص (أنا الرجل العبقري) في قراءة اللفظة التي صورها العلامة جويدي هكذا (فراس) وإليك هو. . .) فيا حضرة الأستاذ النجيب والعبقري الداهية والباقعة الفريد دعنا نسألك (هل وجدت أحدا من المشتغلين. . . إلى آخر ما قلت.</p>
-            <p change="#d2e73">الختام إن الرجل لا يكتب عن نية صافية فهو يبوح بما فيها من السيئات في كل عبارة ينطق بها أو يكتبها فقد نقل مثلا ما كنا أدرجناه في المقتطف مأخوذا عن <persName>جرجي زيدان</persName> في كتابه (العرب قبل الإسلام) (ص 202 و203) ولم نزد عليه حرفا. فقال حضرته ما هذا</p>
+            <p change="#d2e73">الختام إن الرجل لا يكتب عن نية صافية فهو يبوح بما فيها من السيئات في كل عبارة ينطق بها أو يكتبها فقد نقل مثلا ما كنا أدرجناه في المقتطف مأخوذا عن <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في كتابه (العرب قبل الإسلام) (ص 202 و203) ولم نزد عليه حرفا. فقال حضرته ما هذا</p>
             <p change="#d2e73">نقله (يظهر أيها الأب إن قراءة جويدي لا تتفق مع قراءتك في إدخال اللام على (فرس) وتكتبها (فراس) ومن الفعل (وكلهم) أي جعلهم قبلها يظهر إن اللام في (للروم) هي حرف الجر المعروف لا أداة التعريف والذي أراه أنا (العلامة الذي لا يشق له غبار وأنا أنا من عرفاني يفوق كل عرفان بشري) 1 - إن قراءة العلامة جويدي أتم من قراءتك وأخلص من شائبة الغرض الظاهرة اظلاله في قرائتك أو نقلك (كذا بحروفه). . .) اهـ. أفرأيتم أيها القراء كيف أن هذا الرجل يسيء بي الظن وكيف إنه يبوح بما في صدره من السخيمة والحقد وتسويد كل أمر أغر آتي به؟ فلعن الله الغايات وما أسوأ نتائجها إذا داخلت صدور حملة العلم!</p>
-            <p change="#d2e73">إن الرقيم الذي نقلنا صورته مأخوذ بحرفه عن كتاب <persName>جرجي زيدان</persName> في الموطن الذي ذكرناه آنفا. فما معنى هذه التقولات التي يتقولها علينا وما معنى هذه الافتراءات المتلونة؟ فإنا لله وإنا إليه راجعون. ولنتركه في شأنه يتخبط في وخزات ضميره قائلين: سكت ألفا ونطق خلفا أو خرفا) هداه الله إلى سواء السبيل. وهذا آخر كلامنا لهذا الصديق.
+            <p change="#d2e73">إن الرقيم الذي نقلنا صورته مأخوذ بحرفه عن كتاب <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في الموطن الذي ذكرناه آنفا. فما معنى هذه التقولات التي يتقولها علينا وما معنى هذه الافتراءات المتلونة؟ فإنا لله وإنا إليه راجعون. ولنتركه في شأنه يتخبط في وخزات ضميره قائلين: سكت ألفا ونطق خلفا أو خرفا) هداه الله إلى سواء السبيل. وهذا آخر كلامنا لهذا الصديق.
 <pb n="n7-p714" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4355.xhtml"/>
 
 

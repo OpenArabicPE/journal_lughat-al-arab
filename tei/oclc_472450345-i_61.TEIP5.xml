@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -1397,7 +1397,10 @@
             <p change="#d2e73">وقد انتظرنا عسى أن نرى لأحد الكرام الكاتبين كلمة في ذلك الموضوع حتى دخلت مجلتكم</p>
             <p change="#d2e73">في سنتها السادسة الجديدة وورد العدد الأول ثم الثاني وليس فيهما شيء عن ذلك. ولم يتح لي الاطلاع من (العرفان) إلا على ذينيك الجزأين فما أدري أأجابت أم كانت من الساكتين فرأيت أن أدلي إليكم بما لدي إذ كنت ابحث في ترجمة الخيزران. ولا جرم أن (لغة العرب) أوسع انتشارا من أن تكون خاصة بما بين النهرين وما حولهما.</p>
             <p change="#d2e73">قال المسعودي في مروج الذهب (وكانت غلة الخيزران مائة ألف الف وستين ألف الف درهم) (207: 2) من الطبعة المصرية ببولاق سنة 1283هـ و (289: 6) من الطبعة الباريسية المشفوعة بترجمة الكتاب الفرنسية ل (بربي دومينار) سنة 1871م فليقابل بما في (العرفان) مع التنبيه إلى أن ذلك إحصاء تقريبي لا يصح أن يعتمد عليه كل الاعتماد كما هو الشان.</p>
-            <p change="#d2e73">أما كون تلك الغلة - وهي في اللغة (الدخل من كراء دار وأجرة غلام وفائدة ارض) - سنوية فهو من زيادات <persName>جرجي زيدان</persName> في تاريخ التمدن الإسلامي (134: 2) كما زاد أن ذلك القدر (نحو نصف خراج المملكة العباسية لذلك العهد) ولعله اعتمد على إحصاء للخراج.</p>
+            <p change="#d2e73">أما كون تلك الغلة - وهي في اللغة (الدخل من كراء دار وأجرة غلام وفائدة ارض) - سنوية فهو من زيادات <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> في تاريخ التمدن الإسلامي (134: 2) كما زاد أن ذلك القدر (نحو نصف خراج المملكة العباسية لذلك العهد) ولعله اعتمد على إحصاء للخراج.</p>
             <p change="#d2e73">عن رباط الفتح - عاصمة المغرب الأقصى -</p>
             <p change="#d2e73">ابن خلدون الصغير
 <pb n="n6-p538" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3412.xhtml"/>

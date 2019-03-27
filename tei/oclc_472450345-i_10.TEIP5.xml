@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -696,7 +696,10 @@
 بغداد قديم إذ قد ورد في تاريخ الآشوريين قبل المسيح بألف وتسعين سنة. فقد جاء في التواريخ المسمارية الخط المكتوبة على الآجر: أن الملك أشور بلكلا رتق ما فتقه أبوه فأخذه بغداد واكتسح أنحاء بابل واضطر الملك مردوخ شايكزر مايي على أن يطلب الصلح.</p>
             <p change="#d2e73">وقد وجد العلماء في نفس بغداد أجراً كثيرا مكتوبا عليه اسم بغداد وبعض الوقائع التي جرت فيها، وعليه فالقول أن اللفظة فارسية أو أرمية أو غير ذلك هو من باب التكلم على أساس غير ثبت. وأما معناها في اللغة الآشورية فلم يهتد إليه العلماء فلعل التبحر في هذه اللغة يكشف القناع عن حقيقة معناه.</p>
             <p change="#d2e73">وأما أسماء بغداد واختلاف اللغات فيها فقد رأيت أنها كثيرة تبلغ العشرين وهي: بغداد. وبغذاذ، وبغداذ. وبغذاد، وبغدان، وبغدين، ومغذان، ومغدان، وبغدام، ومغدام، وبغذان، وبهداد، والزوراء، ومدينة السلام، ودار السلام، وقبة الإسلام، وحاضرة العباسببن، ودار الخلافة، ودار الأمارة العباسية، وأم العراق. إلى غير هذه الأسماء ما يستغني عن ذكرها.</p>
-            <byline change="#d2e219"><persName>رزوق عيسى</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نقد كتاب تاريخ آداب اللغة العربية</head>
@@ -826,7 +829,10 @@
             <p change="#d2e73">آخور</p>
             <p change="#d2e73">فارسية تركية معناها: الاصطبل والمربط. والعامة تستعملها بمعنى مربط الدواب وبمعنى البيت القديم البناء الضيق الفناء العميق الأرض الكثير الرطوبة المظلم المساكن القليل النوافذ الفاسد الهواء الذي لا يصلح للإقامة ولا للسكنى. وذلك لما بين مثل هذه الدور ومرابط الخيل من المشابهة. ويجمعونها على أواخير وقليل منهم يجمعونها على آخورات</p>
             <p change="#d2e73">وقد جاءت هذه اللفظة (بمعنى المربط) متشابهة في عدة لغات كالتركية والفارسية والكردية والأرمنية والسريانية والهندية والروسية أو الفرنسية والإيطالية واللاتينية المولدة والألمانية القديمة العالية إلى آخر تلك اللغات المتناسبة الأصل.</p>
-            <byline change="#d2e219"><persName>رزوق عيسى</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName>
 <pb n="n1-p405" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P405.xhtml"/>
 
 
@@ -869,7 +875,7 @@
             <p change="#d2e73">والصحيح العتاة. وفي ص10 ماثر والصحيح موثر. وفيها: مازر والصحيح مازر. وفيها: للمهظوم والصحيح للمهضوم، وفي ص11: السمحاء والأصح السمحة وحينئذ ينكسر البيت. وقس على ذلك إلى آخر الكتاب. وهو مما يشوه محاسنه فعسى أن تكون الطبعة الثانية خالية من هذه الشوائب.</p>
             <p change="#d2e73">
                <hi style="color:red;">5 - </hi>الحاجيات والكماليات وفي أي منها نحن الآن</p>
-            <p change="#d2e73">خطية تلاها الدكتور <persName>كامل سليمان الخوري عيسى</persName> في نادي الحرية في حمص في 24 ت اغ سنة 1908 ثمن النسخة منها 30 بارة. طبعت في مطبعة التوفيق لنسيب أفندي صبر في بيروت. عدد صفحاتها 22.</p>
+            <p change="#d2e73">خطية تلاها الدكتور <persName change="#d2e230" ref="oape:pers:2196">كامل سليمان الخوري عيسى</persName> في نادي الحرية في حمص في 24 ت اغ سنة 1908 ثمن النسخة منها 30 بارة. طبعت في مطبعة التوفيق لنسيب أفندي صبر في بيروت. عدد صفحاتها 22.</p>
             <p change="#d2e73">وهي خطبة حسنة إبان فيها صاحبها وجوب الابيداء بإصلاح ولا سيما بإصلاح الزراعة، والصناعة، والعلوم، والآداب وقد صدق في كلامه وأجاد في إظهار الأدلة المقنعة. حقق الله الأماني.</p>
          </div>
          <div change="#d2e64" type="item">

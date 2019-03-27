@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -651,7 +651,10 @@
 كال يكيل كيلا فهو كايل. ففي هذا كله يتحول لسانهم من الكاف إلى الجيم الفارسية المثلثة النقط</p>
             <p change="#d2e73">وتحويلهم الكاف إلى الجيم المذكورة اكثر وقوعا في الأسماء ولا حاجة إلى التطويل بذكر جملة من تلك الأسماء هنا بل نذكر لك جملة مما لا تجري فيه لكنتهم ولا يحولون كافه إلى الجيم الفارسية ومن الأسماء: فمن ذلك كتاب وكتب وكذلك الكبة لضرب من الطعام يعملونه. والكبابة للغزل الملفوف والكبر (وزان صرد) لهذا الشجر المعروف. والكرب والكربة لأصول سعف النخل. والكروش جمع كرش. والكحل والمكحلة. والكراث لهذه البقلة المعروفة. والكرد والأكراد والكردي. والكرسي والكراسي. والبكار لأنبوب التارجيلة والكروة والكر والكرة لهذا الجحش الصغير. والكارة للحزمة من الحطب وغيره التي تحمل على الظهر أو على الرأس. والكشمش لضرب من الزبيب. والكافر والكفار. والكلة لهذا الستر الرقيق، والكلام وأن قالوا في الكلمة جلمة بالجيم الفارسية. والكنز والكنوز، والمكنسة، والكون، بمعنى الحرب والفتنة. والكيف بمعنى المسرة وإذا استعملوا اسم استفهام قالوا جيف (بالجيم الفارسية).</p>
             <p change="#d2e73">واعلم أن جميع ما ذكرناه في هذا الباب من الأفعال والأسماء إنما أوردناها على طريق المثال وما أكثرنا من ذكرها وتعدادها إلاَّ لمزيد الإيضاح لأن لكنة العامة في حرفي القاف والكاف لا تقع تحت ضابط يضبطها وإنما العمدة في معرفة مواقعها على السماع.</p>
-            <byline change="#d2e219"><persName>معروف الرصافي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n4-p147" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1771.xhtml"/>
 
 
@@ -816,7 +819,11 @@
             <p change="#d2e73">
                <hi style="color:red;">9 - </hi>محاضرات في تاريخ مدن العراق</p>
             <p change="#d2e73">(في 136 صفحة بقطع 12)</p>
-            <p change="#d2e73">ألقاها <persName>يوسف رزق الله غنيمة</persName> في مدرسة دار المعلمين العليا ببغداد سنة 1922 - 1924، طبع بنفقة المكتبة العصرية في بغداد لصاحبها محمود حلمي</p>
+            <p change="#d2e73">ألقاها <persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <forename xml:lang="ar">رزق الله</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> في مدرسة دار المعلمين العليا ببغداد سنة 1922 - 1924، طبع بنفقة المكتبة العصرية في بغداد لصاحبها محمود حلمي</p>
             <p change="#d2e73">عدد الرجال الذين يقبلون أن ننتقد كتبهم لا يكاد يكون له وجود؛ فإنهم قليلون في بلادنا هذه الشرقية. ولا سيما في العراق؛ أما في سورية والديار المصرية فقد فهم الناس أن لا بد للنقد لإصلاح ما في مؤلفاتنا من الأوهام والأغلاط وسوء المذهب في المباحث العلمية: إذ يغلب فيها الجهل العلم.</p>
             <p change="#d2e73">أما صاحب هذا الكتاب فعجيب في جميع ما يكتب ويتكلم ويرتئي. إذ
 <pb n="n4-p162" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1786.xhtml"/>
@@ -854,7 +861,10 @@
 
 
                <hi style="color:red;">10 - </hi>كتاب مرشد الطلاب إلى قواعد لغة الأعراب</p>
-            <p change="#d2e73">ل<persName>رزوق عيسى</persName> - الجزء الأول في الصرف طبع في المطبعة السريانية الكاثوليكية في بغداد سنة 1922، في 112 صفحة بقطع الثمن الصغير</p>
+            <p change="#d2e73">ل<persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName> - الجزء الأول في الصرف طبع في المطبعة السريانية الكاثوليكية في بغداد سنة 1922، في 112 صفحة بقطع الثمن الصغير</p>
             <p change="#d2e73">كتب الصرف والنحو اكثر من أن تحصى. ابتلانا بها الأقدمون ولا يزال المحدثون يزيدوننا بلاء بتصانيفهم الجديدة. هذا ما يقال بوجه عام عن هذا الصنف من العلم؛ ولو اجتهد الناس بدرس العلوم المفيدة من طبيعيات ومواليد وكيمويات ورياضيات إلى نظائرها لأفادونا اكثر واستفادوا هم أيضا على حد ما يفعل أبناء الغرب.</p>
             <p change="#d2e73">على أن كتاب مرشد الطلاب مفيد من عدة وجوه: أولا لأنه سهل العبارة واضحها قد لا يحتاج المتعلم إلى تلقي معناها عن معلم - ثانيا لأنه حسن التبويب؛ تتسق فصوله اتساقا يأخذ بعضها برقاب بعض - ثالثا لأن في تمارينه وشواهده أقوالا حكيمة ونصائح مفيدة. فالطالب يرضع ألبان الأخلاق الطيبة مع مبادئ القواعد العربية - رابعا: لأن في آخر كل درس خلاصة تحوي لباب ما تعلمه التلميذ في سطور عديدة.</p>
             <p change="#d2e73">هذا من جهة الحسنات التي قلما تشاهد في كتاب صغير من مثله. ولما كان كل تصنيف لا</p>

@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -197,7 +197,7 @@
 وأربعة أثمان من المكاييل المعروفة تنحت من الخشب.</p>
             <p change="#d2e73">وأما الذراع فالمستعمل منها عندهم (الذراع الطبيعية) وهي التي تمتد من رؤوس الأصابع إلى المفرق أي نحو 45 سنتيمتراً. والحاكم نفسه يعين مقدار امتدادها أو طولها على التحقيق.</p>
             <p change="#d2e73">واعلم أنه لا يجوز لأحد أن يعمل الأوزان والمكاييل والمقاييس ما لم يطلع عليها الحاكم ويسمها بخاتمه وقد نقش عليه اسمه أو شعاره دلالة على أنه يجوز العمل بها - وهنالك أشياء تباع جزافاً أو قطراً (أي كوثر كما يقول أهل بغداد) مثل التين والحطب والفحم واللحم والملح وما شابهها فتباع بالتخمين والظن والنظر حسب المراضاة. وبهذا القدر كفاية.</p>
-            <byline change="#d2e219"><persName>سليمان الدخيل</persName> صاحب جريدة <title level="j">الرياض</title></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName> صاحب جريدة <title level="j">الرياض</title></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>برس نمرود</head>
@@ -271,7 +271,7 @@
             <p change="#d2e73">المزية القمرية مزية المعبودة نانا وإلى أوجه الكوكب في هلاله وبدره ومحاقه كانت تحت هدف واحد اسم أنقاضه اليوم (تل إبراهيم الخليل) قريباً من برس نمرود.</p>
             <p change="#d2e73">(وشيدت في برسيا بناءً ركاماً هيكل الإله رمان الذي يفجر في بلادي صاعقة النبوة.</p>
             <p change="#d2e73">فهذه الأبنية والهياكل كانت كلها متجاورة في بقعة بابل، وقد أتينا بذكرها ليعلم القارئ ما كانت عليه تلك الأرض في سابق العهد وإلى ما صارت إليه في هذا الزمن. فسبحان الذي يغير ولا يتغير</p>
-            <byline change="#d2e219">الأب <persName>يوسف لويس الكرملي</persName>
+            <byline change="#d2e219">الأب <persName change="#d2e230" ref="oape:pers:2773"><forename>يوسف</forename> <forename>لويس</forename> <surname>الكرملي</surname></persName>
 <pb n="n3-p404" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1415.xhtml"/>
 
 
@@ -441,7 +441,10 @@
                   <seg> فزلت به في الطريق القدم</seg>
                </l>
             </lg>
-            <byline change="#d2e219"><persName>محمد الهاشمي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:566">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">الهاشمي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>طوب أبو خزامة</head>
@@ -509,7 +512,12 @@
             <p change="#d2e73">ويعتقدون في الصدع الذي في داخل فوهته أن هذا المحل هو مكان أنفه الذي كان فيه خزامة ولما استعصى على السير نتله السلطان مراد من خزامته فخرم أنفه وهذا أثر الخرم باق إلى اليوم.</p>
             <p change="#d2e73">ويذهبون في وجود تسع السمكات الموجودة على ظهره إلى أن السلطان لما خرم أنفه غضب المدفع ورمى بنفسه في دجلة فخاض عليه السلطان مراد وأخرجه واسترضاه ولما خرج بانت على ظهره هذه السمكات ملصوقات إشارة إلى إنه ألقى نفسه حقيقة في دجلة لما سكن من غضبه ورضى على مراد خان أخذ السلطان ينثر له الدخن في ممره على الأرض ليسهل مروره عليها وهو ينساب الهوينا وفي أثناء الحرب نفذ ما عند الجند من البارود والرصاص والقنابل فأخذ الطوب يلهم التراب والحجارة من الأرض ويقذف بها الأعداء فتقع عليهم أشد من وقع القنابل الحقيقية والبارود الحقيقي عليهم وما زال هذا دأبه حتى فتح الله عليه.</p>
             <p change="#d2e73">هذا خلاصة ما تعتقده العوام في (طوب أبو خزامة) وما يحكمونه من الأسباب التي سهلت للسلطان مراد خان فتح بغداد. وفي العراق كثير من مدافن الأئمة والمزارات التي هي أشباه (طوب أبو خزامة) لا بد أن نأتي على ذكرها في فرصة أخرى ولله في خلقه شؤون.</p>
-            <byline change="#d2e219"><persName>كاظم الدجيلي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المال حاكم</head>
@@ -641,7 +649,7 @@
 
 لكن الحكومة الدستورية لم تشأ مجاراة الحكومة السابقة في هذا العمل أيضاً!</p>
             <p change="#d2e73">أما السراكيل أو المشايخ فهم يأخذون خمس حصة الحكومة كما ذكرنا ويأخذون من حصة الفلاح نصفها أو أقل قليلاً من النصف ومن هذا كله تعلم دركة حالة الفلاح العراقي. أنعشه الله وأقاله!</p>
-            <byline change="#d2e219"><persName>أحمد رفيق</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1062">أحمد رفيق</persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أربع أسر بلا أثر</head>
@@ -679,7 +687,7 @@
             <p change="#d2e73">ديروهي (سيدة) التي توفيت في 6 شباط سنة 1837.</p>
             <p change="#d2e73">تريزيا التي توفيت في 1 تموز سنة 1845 وكانت من النساء ألعابدات الناسكات.</p>
             <p change="#d2e73">اغنيس التي توفيت في 11 آب سنة 1871 وهي امرأة الياس عيسى الثانية، شمة (شموني) التي توفيت في 30 آيار سنة 1883 وهي امرأة انطون اسطنبولي الأرمني الكاثوليكي أعني به والد اليزة خاتون (مدام روبين) فسبحان الحي البافقي الذي لا يفنى زلا يزول.</p>
-            <byline change="#d2e219"><persName>الأبيل نرسيس صائغيان</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1306">الأبيل نرسيس صائغيان</persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
@@ -697,14 +705,22 @@
 
 
 لو حصل لنا من يدلنا على خطأنا ويرشدنا إلى الصواب إذ الإنسان موضع الخطاء والنسيان والكمال لله وحده.</p>
-            <p change="#d2e73"><persName>كاظم الدجيلي</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>الهيلاج ومعناها</p>
             <p change="#d2e73">كتبت لغة العرب مقالةً في أصل هذا المعنى ولما كان ختام الكلام حمل القارئ على إبداء رأيه إن كان له رأي يخالف رأي صاحب المقالة جئت بهذه الأسطر لأعرض للمطالع ما عن لي، فأقول: (كدخداه وهيلاج) لفظتان فارسيتان لا يقوم معنى الواحدة منهما بدون الأخرى لأنهما قد ارتبطتا معنى ارتباط الروح بالجسد وعندي أن (كد خداه) محرفة عن (زاد خداه) ومعناها الحرفي (مولود الله) لأن (زاد) بالفارسية (مولود) و (خداه) (الله) فيكون مؤداهما (المولود من الله) وذلك لأن مصدر الروح هو سبحانه عز وجل.</p>
             <p change="#d2e73">أما (هيلاج) فهي عندي مصحفة عن (هل) و (لاش) ومعناهما (دع الجثة الهامدة) أي الموت وبعبارة أخرى (دم سعيداً) أو (عش دهراً طويلاً) أو عن (هج) مقوم و (لش) جثة أي (مقوم الجثة ومصلحها) وصفوة القول أن المرام بهاتين اللفظتين الروح والهيولي (أي المادة) لأن في اصطلاح المنجمين (كدخداه) اسم دليل روح المولود و (هيلاج) اسم دليل جسم المولود وقد استعيرنا مجازاً لأسمى نجمين يراد بهما نجما المولود. وإثباتاً لما نحن بصدده نورد نص صاحب كتاب شفاء الغليل: (كدخداه وهيلاج) هما كوكبا المولود، فلأول لرزقه والثاني لعمره، فإن ولد في صعوده كان زائداً فيه وإن كان في هبوطه كان بعكسه. وهذا مما ذكره الحكماء والمنجمون وأرباب المواليد وعربوه قديماً) اهـ.</p>
             <p change="#d2e73">ومما يؤيد ظني أن (هيلاج) لفظة فارسية اتجار أن الفرس القدماء كانوا يتعاطون علم التنجيم وقد نبغ فيهم منجمون عديدون برعوا في هذا العلم ووضعوا ألفاظا عديدة من جملتها (هيلاج) بمعناها الآنف الذكر.</p>
             <p change="#d2e73">هذا ما عن للخاطر الكليل. ولعلى قد أخطأت أكثر مما أصبت. غير أن أملي في كبار حملة الأقلام هو العذر المشفوع بالسلام.</p>
-            <p change="#d2e73"><persName>رزوق عيسى</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></p>
             <p change="#d2e73">(لغة العرب) لا يكفي للباحث أن يقول أن الكلمة الفلانية هي من الأصل الفلاني ما لم
 <pb n="n3-p431" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1442.xhtml"/>
 
@@ -738,12 +754,15 @@
             <p change="#d2e73">(قد كنت أنكر ما ذكر من هذه الأنهار في أيام بلال حتى رأيت كثيراً من تلك البقاع فربما رأيت في مقدار رمية سهم عدداً من الأنهار صغاراً تجري في كلها زوارق صغار ولكل نهر اسم ينسب إلى صاحبه الذي احتفره أو إلى الناحية التي يصب فيها فجوزت أن يكون ذلك في طول هذه المسافة وعرضها) (لاصطخري 80).</p>
             <p change="#d2e73">وقال نفس هذا القول ابن حوقل في عرض كلامه عن البصرة ودونك إياه (ولها (أي البصرة) نخيل متصلة من عبدسي إلى عبادان نيفاً وخمسين فرسخاً متصلة لا يكون الإنسان منها بمكان إلا وهو في نهر ونخيل أو يكون بحيث يراها) (ابن حوقل 159).</p>
             <p change="#d2e73">فمن وصف ما تقدم يظهر بأجلى وضوح أن أنهر البصرة كانت أضعاف ما ذكره السيد إبراهيم بن صبغة الله الحيدري البغدادي وفي هذا القدر كفاية لما أردنا بيانه والسلام.</p>
-            <p change="#d2e73"><persName>رزوق عيسى</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></p>
             <p change="#d2e73">
                <hi style="color:red;">5 - </hi>رجوع إلى الحق</p>
             <p change="#d2e73">قد اطلعت في مجلتكم على سؤال دبجه يراع أحد الفضلاء في (باب المكاتبة والمذاكرة) ص 374 من مجلد هذه السنة وذلك فيما ظهر للسائل الفاضل من تاريخ إمارة إبراهيم وولده موسى وجده مانع وما فيه من الارتباك ونحن قد ذكرنا ما ذكرناه هناك اعتماداً على (مثير الوجد) وقد أهملنا مراجعة ذلك لكن لما أطلعنا على سؤال السائل فهمنا مما لدينا من الأبحاث إن إمارة مانع كانت في سنة 580هـ وإمارة ربيعة كانت في سنة 627 وإمارة موسى كانت في سنة 645 هجرية فيكون هذا أقرب إلى الصواب مما تقدم وأوفق للمقام</p>
             <p change="#d2e73">هذا ما حققناه. ونحن نشكر السائل الفاضل على انتقاده هذا الذي جعلنا نعتقد أن في مقالتنا هذه حظى في نظره كما أننا سنتابع السير في مثل هذه المواضيع إن شاء الله وإنا نرجو من جميع الأدباء والفضلاء أن يدققوا النظر فيما نكتبه ويذكرونا فيما نهمله وننساه لأن في مثل هذا يكون للإنسان باعثاً للتحري والنشاط.</p>
-            <byline change="#d2e219">صاحب الرياض <persName>سليمان الدخيل</persName>
+            <byline change="#d2e219">صاحب الرياض <persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName>
 <pb n="n3-p434" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1445.xhtml"/>
 
 

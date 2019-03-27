@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -412,7 +412,12 @@
             </lg>
             <p change="#d2e73">إلى غير ذلك من أشعاره الكثيرة.</p>
             <p change="#d2e73">وقد توفى كما هو مذكور في ظهر كتابه سبائك العسجد في بغداد سنة 1242هـ - 1826م ودفن في مقبرة الشيخ معروف الكرخي قرب مرقد زبيدة زوج الرشيد وقد قرأت في بعض المجاميع أنه توفى في سنة 1240هـ وقال مختصر كتابه مطالع السعود توفى سنة 1250هـ وهما خلاف والأول أصح كما تقدم من تاريخ تصنيف كتابه مطالع السعود ولو كان على زعم الأخير لأتم سيرة الوزير داود وأتى بذكر بقية أيامه ولما ترك تصنيفه هذا ناقصاً والله اعلم.</p>
-            <byline change="#d2e219"><persName>كاظم الدجيلي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الشيخ السكير</head>
@@ -596,7 +601,10 @@
 
 
 يعثرون على شيء يخدمون به التاريخ، ويكشفون الستار عن تاريخ هذه البلاد الغامض الذي لم يعرف الباحثون منه إلا نزراً يسيراً لا يفي بالمقصود ولا يشفي غليلاً، فعثروا هناك على آثار قديمة وصخور عليها إشارات وكتابات غريبة يرجع تاريخها إلى عهد الآشوريين، سكان تلك البلاد الأقدمين، وبعض تصاوير ورسوم تفيد التاريخ فائدة كبرى، وقد بعثوا بكثير منها إلى دور التحف في أمهات العواصم الأوربية. فعسى إن اللجان العلمية في أوربا تستنطق تلك الآثار. وتحل تلك الرموز والإشارات. فتحدثنا عن تاريخ تلك البلاد بالنبأ الصحيح.</p>
-            <byline change="#d2e219"><persName>إبراهيم حلمي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:647">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">حلمي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تصرف العرب في الألفاظ الأعجمية</head>
@@ -689,7 +697,7 @@
 فلما سمع الخنوص هذا الكلام وما ضاهاه وكله قارص أو جارح أخذ الحنق منه مأخذه وحاول أن يبطش به كما بطش بصاحبه القتيل ظلماً وزوراً فلم يفلح ساعتئذ وقال له: ويلك! إني لم آت ما أتيت إلا لأنال منصباً جليلاً. واستعبد قوماً ذليلاً. واذرهم من شدة سطوتي في سكرتهم يعمهون. . .</p>
             <p change="#d2e73">أقول: فلما رأيت ذلك الموقف الهائل وما عمل الخبيث الكنود بالأسد الجليل اضطرمت النار في قلبي أي اضطرام. فوثبت حنقاً مغادراً الغار. لا اعي شيئاً من شدة ما تولاني من الغضب المستطار. قاصداً الدنو من الخنوص المستبد لأخذ منه ثار الضرغام. وبينما أنا أسير إليه إذا بصوت أيقظني من نومتي تلك والدموع تنحدر من عيني تحدر القطر من السحب من هول ما رأيت ومن شدة ما تأثرت منه ولما نظرت إلى ما حوالي وجدت الغزالة قد ارتفعت سافرة الوجه عالية الجبين فقلت إنا لله وإنا إليه راجعون. . . .</p>
             <p change="#d2e73">ثم لما ثابت إلي نفسي وأنعمت النظر في حالتنا الاجتماعية التي نحن عليها فهمت إن ما رأيته في الخيال، هو تصوير ما يجري في عالم المثال. وتحقت إن ما وقعنا فيه من البلاء المبين. هو نتيجة ما سعينا إليه في ماضي السنين. ولكن (سيعلم الذين ظلموا أي منقلب ينقلبون. .).</p>
-            <byline change="#d2e219"><persName>محمد فائق الكيلاني</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2398"><forename>محمد</forename> <forename>فائق</forename> <surname>الكيلاني</surname></persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>ألم تر أن الدهر يكتب ما تملي</head>
@@ -937,7 +945,11 @@
                   <seg> (ألم تر أن الدهر يكتب ما تملي)</seg>
                </l>
             </lg>
-            <byline change="#d2e219">النجف: <persName>محمد باقر الشبيبي</persName></byline>
+            <byline change="#d2e219">النجف: <persName change="#d2e230" ref="oape:pers:428">
+                            <forename xml:lang="ar">محمد</forename>
+                            <forename xml:lang="ar">باقر</forename>
+                            <surname xml:lang="ar">الشبيبي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>فوائد لغوية</head>

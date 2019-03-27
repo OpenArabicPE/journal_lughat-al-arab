@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -404,7 +404,10 @@
             <p change="#d2e73">(سكم وسقم وتسقام) عند أهل الزراعة اعد العدة لفلاحة الأرض وزراعتها ويستعمل هذا الحرف في دواوين حكومة العراق واشتقاقه من (س ق م) بمعنى رتب ونظم وقوم وعدل ومسح وحدد.</p>
             <p change="#d2e73">ويقول العراقيون: بكم تسكم عليك الشيء الفلاني؟ أي ما كانت كلفته عليك فيجيب المسؤول تسكم عليَّ بمبلغ كذا، أي كلفني مبلغ كذا. وكل ذلك من الفعل الارمي المذكور فكأن السائل يقول كم ترتب عليك أن تدفع ثمن الشيء الفلاني؟ فيجيب المسؤول ترتب عليَّ أن ادفع كذا.</p>
             <p change="#d2e73">(نعوص الولد) بمعنى بكى، أظن أن أرميتها (ع وص) بمعنى بكى الطفل وصرخ جرو الكلب.</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName></p>
             <p change="#d2e73">(ل. ع.) أن وزن (نفعل الرباعي المجرد لم يذكره أحد من علماء التصريف وهو موجود في لغتنا فقد جاء عندنا نبذر بمعنى بذر: ونخرب القادح الشجرة مثل خربها أي نقبها وهناك أفعال أخرى كثيرة مثل نعظل ونعثل ونقثل ونهبل ونهتر ونهرج ونهشل ونودل ونقحش ونهمس ونفرج إلى غيرها.
 <pb n="n4-p343" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1950.xhtml"/>
 
@@ -606,7 +609,10 @@
             <p change="#d2e73">سيدي صاحب لغة العرب المحترم.</p>
             <p change="#d2e73">وقفت على تعليقكم على معنى كلمة عراق وقد ذهبتم إلى أهنها بمعنى معروق التي معناها المعرض للغرق. وهذا يدعم رأيي القائل أن العراق معناه بين النهرين أي بلاد الماء ولزيادة الإيضاح أقول عثرت مؤخرا في (تاريخ شمروا كد) لمؤلفه الأستاذ كنك ص 14 ج1 و2 على أن أول أسم أطلق على العراق كان لفظة قلم (على وزن سبب) ومعناها (الأرض) ثم أبدلت على توالي الأزمان بكلمة قنجي (وزان عبدي) التي معناها أرض الترع والقصب.</p>
             <p change="#d2e73">ويظهر أن جميع الألفاظ التي أطلقت على ديارنا هذه كانت بمعنى واحد وهو بين النهرين وأن اختلفت باختلاف الأزمان والأقوام والألسنة.</p>
-            <p change="#d2e73"><persName>رزوق عيسى</persName>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName>
 <pb n="n4-p356" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1963.xhtml"/>
 
 

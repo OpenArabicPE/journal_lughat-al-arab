@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -120,9 +120,18 @@
             <head>من هو القرصوني</head>
             <p change="#d2e73">أطالع هذه الأيام مجموعة خطية حوت كتباً طيبة. وهي المجموعة المذكورة في كتابي (مخطوطات الموصل صفحة 237 عدد 175). من جملة ما في هذه المجموعة كتاب (كمال الفرحة في دفع السموم وحفظ الصحة) يليه (مقالة في الحمام). كتب تحت عنوان كمال الفرحة أنه للإمام العالم العلامة (شمس الدين محمد القرصوني الطبيب) وهو في 40 صفحة متوسطة. كتابتها وسطورها مرصوصة كأغلب الكتب التي في هذه المجموعة جاء في المقدمة أنه كتب لقانصوة الغوري. أول الكتاب: (الحمد لله الملك الحليم المدبر الحكيم ذي القوة والسلطان الدائم الباقي وكل من عليها فان. . . الخ).</p>
             <p change="#d2e73">وكتب تحت عنوان (مقالة الحمام) أنه لسيد الحكماء العظام وأوحد الفقهاء الأعلام العالم العامل الحبر البحر الكامل سيدنا الشيخ (بدر الدين محمد القرصوني الحنفي).</p>
-            <p change="#d2e73">ورد ذكر محمد القوصوني الطبيب وتأليفه كمال الفرحة في تاريخ أدب اللغة العربية ل<persName>جرجي زيدان</persName> (3: 250) حيث قيل: (محمد القوصوي الطبيب ألف لأبي النصر قنصوة الغوري كتاب كمال الفرحة في دفع السموم وحفظ الصحة بإشارة منه وفيه تفاصيل مفيدة عن معالجة السموم بعضها لم يأت العلم الحديث بأحسن منها. منه نسخة في المكتبة الخديوية في جملة كتب باشا في 246 ص) أهـ.</p>
-            <p change="#d2e73">فيرى أن <persName>جرجي زيدان</persName> سماه (القوصوي) ولكن في المجموعة التي أبحث عنها جاءت نسبة في كتابه ونسبة ابنه بدر الدين محمد في مقالة في الحمام (القوصوني) بنون قبل ياء النسبة في أربعة أماكن واضحة.</p>
-            <p change="#d2e73">أما الباعث إلى كتابة هذه المقالة فهو أولاً بيان أن من اشتهر بالقوصوني اثنان شمس الدين محمد وأبنه بدر الدين محمد. ثانياً بيان أن النسبة قوصوني كما جاء في هذه المجموعة لا قوصوي كما جاء في كتاب <persName>جرجي زيدان</persName>. ثالثاً تصحيح
+            <p change="#d2e73">ورد ذكر محمد القوصوني الطبيب وتأليفه كمال الفرحة في تاريخ أدب اللغة العربية ل<persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> (3: 250) حيث قيل: (محمد القوصوي الطبيب ألف لأبي النصر قنصوة الغوري كتاب كمال الفرحة في دفع السموم وحفظ الصحة بإشارة منه وفيه تفاصيل مفيدة عن معالجة السموم بعضها لم يأت العلم الحديث بأحسن منها. منه نسخة في المكتبة الخديوية في جملة كتب باشا في 246 ص) أهـ.</p>
+            <p change="#d2e73">فيرى أن <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> سماه (القوصوي) ولكن في المجموعة التي أبحث عنها جاءت نسبة في كتابه ونسبة ابنه بدر الدين محمد في مقالة في الحمام (القوصوني) بنون قبل ياء النسبة في أربعة أماكن واضحة.</p>
+            <p change="#d2e73">أما الباعث إلى كتابة هذه المقالة فهو أولاً بيان أن من اشتهر بالقوصوني اثنان شمس الدين محمد وأبنه بدر الدين محمد. ثانياً بيان أن النسبة قوصوني كما جاء في هذه المجموعة لا قوصوي كما جاء في كتاب <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName>. ثالثاً تصحيح
 <pb n="n8-p165" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4713.xhtml"/>
 
 
@@ -142,7 +151,10 @@
 
 في مدته. . .)</p>
             <p change="#d2e73">الموصل: الدكتور داود الجلبي</p>
-            <p change="#d2e73">(ل. ع) الذي ساق <persName>جرجي زيدان</persName> إلى الوهم قول صاحب كشف الظنون في 1: 491 من طبعة الآستانة: دستور البيمارستان للعلامة أبن القوصوي. ذكر فيه الأمراض والعلاج وأنها من غلبة خلط من أخلاط الأربعة (كذا) أهـ. والصواب أبن القوصوني. كما حققه حضرة صديقنا المدقق. ونزيد على ما تقدم بسطه أن هذا الاسم جاء بصورة مختلفة في الكتب الخطية. وقد لاحظ ذلك طابع كشف الظنون ومترجمه إلى اللاتينية العلامة غستاف فلوجل وهو أول من بعثه من مدفنه إلى عالم الظهور وذلك في سنة 1835 وعنه طبعت نسخة بولاق فنسخه الآستانة وكلتاهما مشحونة غلطاً ووهماً. وقد قال فلوجل: أن بدر الدين محمد بن محمد يعرف بالقرصوني وأبن القوصوني وقوصوني زاده (راجع 7: 1049) وقيسوني زاده وقيسوم زاده (7: 942) قلنا: ولعل كلا من الولد والوالد يعرف بهذا النسب. ولم نجد معنى لهذه النسبة في أي كتاب كان. وعلى كل حال فهي ليست منسوبة إلى مدينة</p>
+            <p change="#d2e73">(ل. ع) الذي ساق <persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> إلى الوهم قول صاحب كشف الظنون في 1: 491 من طبعة الآستانة: دستور البيمارستان للعلامة أبن القوصوي. ذكر فيه الأمراض والعلاج وأنها من غلبة خلط من أخلاط الأربعة (كذا) أهـ. والصواب أبن القوصوني. كما حققه حضرة صديقنا المدقق. ونزيد على ما تقدم بسطه أن هذا الاسم جاء بصورة مختلفة في الكتب الخطية. وقد لاحظ ذلك طابع كشف الظنون ومترجمه إلى اللاتينية العلامة غستاف فلوجل وهو أول من بعثه من مدفنه إلى عالم الظهور وذلك في سنة 1835 وعنه طبعت نسخة بولاق فنسخه الآستانة وكلتاهما مشحونة غلطاً ووهماً. وقد قال فلوجل: أن بدر الدين محمد بن محمد يعرف بالقرصوني وأبن القوصوني وقوصوني زاده (راجع 7: 1049) وقيسوني زاده وقيسوم زاده (7: 942) قلنا: ولعل كلا من الولد والوالد يعرف بهذا النسب. ولم نجد معنى لهذه النسبة في أي كتاب كان. وعلى كل حال فهي ليست منسوبة إلى مدينة</p>
             <p change="#d2e73">قوصوة في يوغوسلافية في بلاد السرب القديمة كما يتبادر الذهب إليه لأول مرة ولا إلى قوص من ديار مصر.</p>
             <p change="#d2e73">قدم اسم مندلي</p>
             <p change="#d2e73">أفادنا حضرة صديقنا المحقق المدقق يعقوب أفندي نعوم سركيس أن اسم (مندلي) بهذه الصورة ورد في كتاب في الأنساب اسمه صحاح الأخبار وهو مطبوع في مصر سنة 1306 وكانت وفاة مؤلفه في سنة 885هـ.</p>

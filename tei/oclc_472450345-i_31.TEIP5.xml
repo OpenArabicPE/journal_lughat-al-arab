@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -276,7 +276,10 @@
             <p change="#d2e73">(24) - (بغداد) في دائرة المعارف للبستاني. وقد استغرقت هذه المادة عدة صفحات حتى أنها لو طبعت على حدة لأصبحت كتاباً قائماً برأسه.</p>
             <p change="#d2e73">هذا جل ما وقفت عليه الآن من تواريخ بغداد القديمة والحديثة وقد فاتني شيء كثير منها بالألمانية والفرنسوية والإنكليزية لا بل وبالعربية نفسها ومن له اطلاع على ما أغفلت ذكره</p>
             <p change="#d2e73">فالرجاء أن يتكرم بإفادتي عنه وإني أشكره سلفاً.</p>
-            <p change="#d2e73"><persName>رزوق عيسى</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName></p>
             <p change="#d2e73">(لغة العرب) لما كانت هذه الأسماء غير وافية كما أشار إليه الكاتب فلا بد إننا نعود إلى هذا الموضوع في فرصةٍ أخرى حذراً من إثارة السأم في الصدور إن أكثرنا الآن من الكلام في جزءٍ واحد.</p>
          </div>
          <div change="#d2e64" type="item">
@@ -472,7 +475,10 @@
                   <seg> فعل الذي يستحثه الدأب</seg>
                </l>
             </lg>
-            <byline change="#d2e219"><persName>محمد الهاشمي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:566">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">الهاشمي</surname>
+                        </persName>
 <pb n="n3-p350" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1362.xhtml"/>
 
 
@@ -596,7 +602,7 @@
                <hi style="color:red;">18 - </hi>العادات والأخلاق</p>
             <p change="#d2e73">أما عادات أهالي هذه البلاد فقد يستغني المطالع عن الوقوف على تفاصيلها إذا علم أن عرب تلك الأنحاء هم العرب الأقدمون الصرف البحث المحض الذين لم يشب نسبهم شائبة، ولم يخالطهم أجنبي الدم أو الدار، ولذا تراهم باقين على عروقهم الطيبة، ومنابتهم القويمة فأخلاقهم أخلاق العرب الأولين من شجاعة وبسالة، من أقدام واقتحام، من جود وكرم، من وفاء وإباء، من صدق وشرف. إلى غيرها من الأوصاف والمناقب الموجودة فيهم التي إن لم تزد فيهم مع الزمان فإنها لم تنقص أبداً، فبلادهم هي البلاد التي تغنى بها الشعراء وأقوامها أولئك الأقوام الذين نبغوا بين مشاهير الرجال الكرام. وكفاهم شرفاً أن الله أمتدحهم بأنهم (أولو قوة وألو باس شديد). وبهذا القدر لهذا البحث كفاية للقنوع، وفي</p>
             <p change="#d2e73">الختام، السلام</p>
-            <byline change="#d2e219"><persName>سليمان الدخيل</persName> صاحب جريدة <title level="j">الرياض</title></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1845 viaf:21058435"><forename>سليمان</forename> <surname>الدخيل</surname></persName> صاحب جريدة <title level="j">الرياض</title></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الأدب خير نسب</head>
@@ -830,7 +836,12 @@
 (برجس) وهو من شيوخ عنزة الفرسان مع التمياط من شيوخ شمر وأسمه مجحم وذلك قبل 25 سنة ونحوها أيضاً لأبن شعلان وأسمه محمد مع رجل من الفضلة من شمر وذلك قبل 4 سنين.</p>
             <p change="#d2e73">فبالله أيها العادل المنصف أمن الحق أن يقال لصاحب هذه الأعمال رذلا لئيما وأن يقال لصاحب الأعمال التي تضادها فاضلا كريما؟</p>
             <p change="#d2e73">فلينصف السائح الغربي نفسه وليجار العراقيين في عاداتهم وأخلاقهم وإذا رأى بعد ذلك طريقاً للذم والانتقاد فله أن يسلكه وإلا كان ذمه إياهم ظلماً وعدواناً.</p>
-            <byline change="#d2e219"><persName>كاظم الدجيلي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>

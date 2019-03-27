@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -327,7 +327,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>نكبة الفلاح</head>
-            <p change="#d2e73">قصيدة من أبدع قصائد فيلسوف الشعراء وشاعر الفلاسفة الأستاذ الكبير <persName>جميل صدقي الزهاوي</persName> وقد صور فيها أفصح تصوير نكبة الفلاح العراقي، تلك النكية التي نزلت به في هذه السنة بفيضان الفرات وقد أنشدها في حفلة تمثيل رواية (الوطن) التي قامت بها فرقة السيدة فاطمة رشدي في ليل 5 حزيران سنة 1929 إسعافا لمرزوءي الفيضان.</p>
+            <p change="#d2e73">قصيدة من أبدع قصائد فيلسوف الشعراء وشاعر الفلاسفة الأستاذ الكبير <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> وقد صور فيها أفصح تصوير نكبة الفلاح العراقي، تلك النكية التي نزلت به في هذه السنة بفيضان الفرات وقد أنشدها في حفلة تمثيل رواية (الوطن) التي قامت بها فرقة السيدة فاطمة رشدي في ليل 5 حزيران سنة 1929 إسعافا لمرزوءي الفيضان.</p>
             <p change="#d2e73">- 1 -</p>
             <lg>
                <l type="bayt">
@@ -801,7 +805,11 @@
                   <seg> طو مثلما طارد الفريسة أجدل</seg>
                </l>
             </lg>
-            <byline change="#d2e219"><persName>جميل صدقي الزهاوي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName>
 <pb n="n7-p533" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4188.xhtml"/>
 
 
@@ -1018,7 +1026,12 @@
             <p change="#d2e73">الكتب التي تبحث عنهم</p>
             <p change="#d2e73">(1): كتاب يبحث عن اليزيدية تأليف أحمد بن محمد الخياط (مخطوط، منه نسخة عند رؤوف أفندي حفيد المصنف في الموصل).</p>
             <p change="#d2e73">(2): رسالة في بيان مذهب الطائفة اليزيدية وحكم أموالهم للشيخ حسين الشفكي الموصلي (مخطوطة، منها نسخة في خزانة الدكتور داود الجلبي الموصلي). وقد نقل الصديق الحسني في خاتمة تأليفه نبذة مبتورة كانت ملحقة بنسخة من كتاب (حسن التصرف) في الخزانة التيمورية وظني أن تلك النبذة الناقصة الآخر منقولة من رسالة الشيخ حسين الشفكي الموصلي فأرجو من الأديب البحاثة الدكتور داود جلبي أن يقابل بينهما ويفيدنا عنها ويوقفنا على الحقيقة.</p>
-            <p change="#d2e73">(3): رسالة عن اليزيدية تأليف الشيخ <persName>كاظم الدجيلي</persName> (مخطوطة).</p>
+            <p change="#d2e73">(3): رسالة عن اليزيدية تأليف الشيخ <persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName> (مخطوطة).</p>
             <p change="#d2e73">(4): كتاب بالإنكليزية عن اليزيديين (مطبوع)</p>
             <p change="#d2e73">(5): كتاب بالفرنسية اسمه (مطبوع).</p>
             <p change="#d2e73">(6): رسالة بالتركية: وصف فيها مؤلفها الوالي نوري باشا دين اليزيديين (مطبوعة). وقد جعل لها ترجمة في الفرنسية وطبعها سنة 1910</p>
@@ -1543,7 +1556,7 @@
             <p change="#d2e73">صحيفة في 8 صفحات مشحونة إعلانات وتعنى بنشرها بلغتنا العربية أو بأي لغة أجنبية كانت وتطبع بمطبعة دار السلام في الحاضرة.</p>
             <p change="#d2e73">
                <hi style="color:red;">77 - </hi>النور بدل الأخلاق</p>
-            <p change="#d2e73">أبدل الشاعر الاستقلالي <persName>عبد الرحمن البنا</persName>ء اسم جريدته (الأخلاق) من (النور) وجعل (أجل غايتها ردع المنافقين) وظهر عددها الأول (وهو 121 من الأخلاق) في 23 حزيران 1929 بحجم أكبر. فنتمنى لها سرعة الانتشار على مثال المسمى الذي اتخذت اسمه.</p>
+            <p change="#d2e73">أبدل الشاعر الاستقلالي <persName change="#d2e230" ref="oape:pers:1980 viaf:267152261514217180001"><forename>عبد الرحمن</forename> <surname>البنا</surname></persName>ء اسم جريدته (الأخلاق) من (النور) وجعل (أجل غايتها ردع المنافقين) وظهر عددها الأول (وهو 121 من الأخلاق) في 23 حزيران 1929 بحجم أكبر. فنتمنى لها سرعة الانتشار على مثال المسمى الذي اتخذت اسمه.</p>
             <p change="#d2e73">الشفق الباكي</p>
             <p change="#d2e73">تتمة</p>
             <p change="#d2e73">وفي ص 730 يقول ناصحا هاديا لمن ينقدون الشيء بعواطفهم لا عقولهم ويلتفتون إلى صاحب الشيء لا إلى الشيء نفسه:</p>
@@ -1718,7 +1731,11 @@
 <pb n="n7-p591" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4246.xhtml"/>
 
 
-               <hi style="color:red;">1 - </hi><persName>جميل صدقي الزهاوي</persName></p>
+               <hi style="color:red;">1 - </hi><persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName></p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>يوسف السويدي. الرئيس</p>
             <p change="#d2e73">

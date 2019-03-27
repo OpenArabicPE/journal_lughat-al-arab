@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -208,7 +208,12 @@
 <pb n="n7-p447" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4107.xhtml"/>
 
 
-أن المخطوط مكتوب في سنة تصنيفه. وهناك كلمات تمكنت من قراءتها هي: (بطرس وملة السريان. ودير الزعفران. وماردين) اهـ. ومن المعلوم أن دير الزعفران هو مر بطريرك السريان اليعاقبة بقرب ماردين ومن المصور نسخة في خزان الكرمليين في بغداد وأخرى عند الشيخ <persName>كاظم الدجيلي</persName> والأصل عند إسمعيل بك اليزيدي.</p>
+أن المخطوط مكتوب في سنة تصنيفه. وهناك كلمات تمكنت من قراءتها هي: (بطرس وملة السريان. ودير الزعفران. وماردين) اهـ. ومن المعلوم أن دير الزعفران هو مر بطريرك السريان اليعاقبة بقرب ماردين ومن المصور نسخة في خزان الكرمليين في بغداد وأخرى عند الشيخ <persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName> والأصل عند إسمعيل بك اليزيدي.</p>
             <p change="#d2e73">الشيخ مند</p>
             <p change="#d2e73">كنت ذكرت في ما سبق كلاما عن مند ولم أكن قد عثرت أن اليزيدية لا يزالون يعرفون (مند) ويعظمونه حتى وقع بيدي أخيرا كتاب بالإنكليزية اسمه (عبادة الملك طاووس تصنيف إمبسن الذي طبعه في سنة 1928 وفيه ذكر مند وذكر عين ماء تنسب إليه وهي</p>
             <p change="#d2e73">في بحزاني ولعل مند هذا هو الذي تكلمت عنه.</p>
@@ -1401,7 +1406,11 @@
                   <seg> وأرى عملي خيرا أو شر</seg>
                </l>
             </lg>
-            <p change="#d2e73">وثانيهما للشيخ <persName>محمد رضا الشبيبي</persName>، ومطلعها:</p>
+            <p change="#d2e73">وثانيهما للشيخ <persName change="#d2e230" ref="oape:pers:429 viaf:22006374">
+                            <forename xml:lang="ar">محمد</forename>
+                            <forename xml:lang="ar">رضا</forename>
+                            <surname xml:lang="ar">الشبيبي</surname>
+                        </persName>، ومطلعها:</p>
             <lg>
                <l type="bayt">
                   <seg>يا قاسم يا بن أبي جامع </seg>
@@ -1486,7 +1495,15 @@
             <p change="#d2e73">بالمطبعة الانبراطورية - يذكر فيها رأيه في اللباب ورباعيات الخيام للأستاذ الفيلسوف الزهاوي.</p>
             <p change="#d2e73">معرض الأفكار الشرقية</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>اللباب - (وهو المختار مما قرضه <persName>جميل صدقي الزهاوي</persName> من الشعر في أدوار حياته) - يصعب علي أن أقدم هذا الديوان الجديد للشاعر <persName>جميل صدقي الزهاوي</persName> إلى القارئ بأحسن مما قدمه المؤلف نفسه وذلك في المقدمة التي أورد في ما يلي ترجمتها بتمامها (هنا المقدمة من أولها إلى آخرها مترجمة إلى الألمانية مع ترجمة الأبيات التالية نظما):</p>
+               <hi style="color:red;">1 - </hi>اللباب - (وهو المختار مما قرضه <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> من الشعر في أدوار حياته) - يصعب علي أن أقدم هذا الديوان الجديد للشاعر <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> إلى القارئ بأحسن مما قدمه المؤلف نفسه وذلك في المقدمة التي أورد في ما يلي ترجمتها بتمامها (هنا المقدمة من أولها إلى آخرها مترجمة إلى الألمانية مع ترجمة الأبيات التالية نظما):</p>
             <lg>
                <l type="bayt">
                   <seg>لقد أظهرت مقتا لها عند نقدها </seg>
@@ -1521,7 +1538,11 @@
 عن رأي الأب</p>
             <p change="#d2e73">اليسوعي لويس شيخو - إن الزهاوي (كشاعر مسلم كما يذكر شيخو) هو الذي ترأس اللجنة التي هيأت الاحتفال بعيد يوبيل الأستاذ الأب أنستاس ماري الكرملي في خريف 1928.</p>
             <p change="#d2e73">رباعيات الخيام</p>
-            <p change="#d2e73">(ترجمها عن الفارسية نثرا ونظما <persName>جميل صدقي الزهاوي</persName>)</p>
+            <p change="#d2e73">(ترجمها عن الفارسية نثرا ونظما <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName>)</p>
             <p change="#d2e73">يورد الزهاوي في هذا الكتيب برهانا ثانيا جديرا بكل اعتبار عن الطريق الجديد الذي يسير عليه. إن رباعيات الخيام لم ينقل منها إلى العربية إلى يومنا هذا إلا القسم القليل؛ بعضها مترجم عن الإنكليزية ففقد الأصل روعته إذ أفرغ في قالب غير قالبه فضاع فيه معناه والبعض الآخر وإن كان مأخوذا مباشرة عن الفارسية إلا أنه - كما شعر الزهاوي - لم يؤد ذلك الجمال الرائع وتلك الأنغام الشعرية التي امتازت بها الرباعيات.</p>
             <p change="#d2e73">أخذ الزهاوي على عهدته القيام بهذا العمل فأتقنه بأسلوب من شأنه أن يمهد لأبناء العربية التقرب من نفسية الشاعر الفارسي ودخائلها وحقا أنه لقد أجاد كل الإجادة في ذلك.</p>
             <p change="#d2e73">أورد الزهاوي رباعيات الخيام - ليس كلها بل 130 رباعية انتقاها لجمالها ولأنها تنم على فلسفته في الحياة ومسلكه في الاجتماع - بالأصل الفارسي أولا ثم مترجمة إلى العربية نثرا ونظما بصورة صحيحة متقنة وفي نهاية المقدمة التي تشيد بذكر الشاعر الفارسي ورباعياته - يلهج الزهاوي بالثناء على ملك العراق الجليل فيصل ركن النهضة العربية ويختمها بالعبارة التالية التي تنم على الآمال التي يضمرها هو وأبناء شعبه لتحقيق تلك الأماني: (حقق الله به آمال الأمة العراقية وسهل لها أن تتقدم في ظل عرشه الوارف حتى تعيد مجدها الغابر ومنزلتها الرفيعة بين الأمم وجعل للأدب العربي في أيام شوكته دولة تضاهي في رفعتها دولة الأدب في الغرب فتزهر في العراق الآثار الثمينة بتنشيطه وتبقى خالدة في طيات الدهر ترتلها الأجيال المقبلة مقرونة إلى اسمه العظيم) فنحن نسدي إلى فيلسوف الشعراء التهنئة على فوزه الأدبي المبين هذا لأنه جاءه بشيء جديد في عالم الأدب الشرقي لم يسبقه إليه أحد.</p>
@@ -2282,7 +2303,10 @@
             <p change="#d2e73">صدرت الإرادة الملكية بناء على ما عرضه رئيس الوزراء بتعيين:</p>
             <p change="#d2e73">توفيق السويدي وزيرا للخارجية والأوقاف</p>
             <p change="#d2e73">عبد العزيز القصاب: وزيرا للداخلية</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName>: وزيرا للمالية</p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>: وزيرا للمالية</p>
             <p change="#d2e73">داود الحيدري: وزيرا للعدلية</p>
             <p change="#d2e73">محمد أمين زكي: وزيرا للدفاع</p>
             <p change="#d2e73">الحاج عبد المحسن الشلاش وزيرا للمواصلات والأشغال</p>

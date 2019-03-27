@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -607,7 +607,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>كلمة في الشعر</head>
-            <p change="#d2e73">أخذ الأستاذ الشاعر العصري <persName>جميل صدقي الزهاوي</persName> في طبع (اللباب) وهو مختار أشعاره. وقد طلبنا إليه أن يذكر لنا ما يرتئيه في الشعر بعد أن فرضه سنين مديدة وقد علمه الاختبار ما لا يعلمه غيره، كما طلبنا إليه أن يبين لنا ما يريد أن يدونه في ديوانه الجديد، فكتب إلينا هذه السطور التي تخلد له الذكر الطيب وتبين للقوم مزايا الشعر العربي الصميم العصري الحقيقي.</p>
+            <p change="#d2e73">أخذ الأستاذ الشاعر العصري <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName> في طبع (اللباب) وهو مختار أشعاره. وقد طلبنا إليه أن يذكر لنا ما يرتئيه في الشعر بعد أن فرضه سنين مديدة وقد علمه الاختبار ما لا يعلمه غيره، كما طلبنا إليه أن يبين لنا ما يريد أن يدونه في ديوانه الجديد، فكتب إلينا هذه السطور التي تخلد له الذكر الطيب وتبين للقوم مزايا الشعر العربي الصميم العصري الحقيقي.</p>
             <p change="#d2e73">(لغة العرب)</p>
             <p change="#d2e73">ما أكثر خلاف المتأدبين في الشعر وفي الجيد منه! ولكل أحد ذراع يقيسه بها، فإن وافقها عدة حسنا. وإن خالفها ظنه سيئا! ولما كان مستوى الأكثرين عندنا في الأدب منحطا، لم يرضوا إلا ما وافق مقاييسهم من الأميال الرجعية وهناك من لا يعجبه من الشعر، إلا ما كان في ألفاظه وأسلوبه تقليد الشعراء الجاهلية، أو صدر الإسلام. وإن كانت معانيه سخيفة لا صلة لها بالشعور العصري. ومن لا يرضيه إلا ما كان في معانيه تقليد لشعراء الغرب، وإن كانت ألفاظه سقيمة وتراكيبه ركيكة وبين أولئك وهؤلاء نفر قليل عددهم، قوي حجتهم، فضلوا ما اجمع إلى حسن الالفاظ، ومتانة التركيب، شعورا عصريا يوائم ثقافة هذا العصر وأبنائه المؤمنين بتطوره، وهؤلاء هم في الحقيقة المجددون.</p>
             <p change="#d2e73">أما التقليد فهو ذميم، سواء كان تقليدا لشعراء العرب الاقدمين، أو لشعراء الغبر المحدثين، فإن لكل أمة شعورا لا يتفق في الغالب وشعور أمة أخرى، قد فرقت بينهما سنة الوراثة في أجيال بعد أجيال، كما أن الموسيقى عندهما لا تتفق.</p>
@@ -658,7 +662,11 @@
 ما قلت أكثر بعد عودتي إلى بغداد.</p>
             <p change="#d2e73">ولما كانت غايتي من هذا الديوان جمع ما وقع عليه اختباري من قصيدي وقد أسقطت كثيرا ما يربط البيت بأخيه لم يبق في أكثرها الاطراد المطلوب ففصلت بين قسم وآخر من القصيدة بخط تنبيها على أن هناك أبياتا قد حذفتها. وعسى أن لا يلتبس مثل هذا بالفواصل الطبيعية منها.</p>
             <p change="#d2e73">بغداد: في شباط سنة 1928</p>
-            <byline change="#d2e219"><persName>جميل صدقي الزهاوي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>ساعة في سدة الهندية</head>
@@ -739,7 +747,10 @@
             <p change="#d2e73">ليس من الآهة مرشدة غيرك - انظري ألي رفقا، اقبلي تضرعي - تكلمي. فها أن الغفران قد منح ليهدئ فؤادك فإلى متى؟ آها يا سيدتي، حولي وجهك ألي - أني كالحمامة أنوح وقد شبعت تنهدات.</p>
             <p change="#d2e73">الكاهن:</p>
             <p change="#d2e73">بالحزن والألم امتلأت روحه تنهدات - يسكب دموعا ويتنهد راثيا</p>
-            <byline change="#d2e219"><persName>يوسف غنيمة</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>
 <pb n="n6-p128" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3002.xhtml"/>
 
 

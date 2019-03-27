@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -270,7 +270,10 @@
 
 
 قرب والده المتوفى بالطاعون سنة 1248هـ عن يمين الذاهب إلى الشيخ معروف الكرخي قريباً من باب مسجده وقبره الآن مشهور يزار، وقد خلف خمسة بنين نبغوا في العلوم والآداب وتسنموا الوظائف السامية وهم عبد الله وعبد الباقي ونعمان وحامد وشاكر، وقد رثاه رجال الأدب بقصائد رنانة جمعت ما قيل فيه من المديح والثناء والتنويه بفضله أثناء حياته في كتاب سمى (حديقة الورود في مدح أبي الثناء شهاب الدين محمود) وهو يطبع اليوم. ومن الله التوفيق.</p>
-            <byline change="#d2e219"><persName>إبراهيم حلمي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:647">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">حلمي</surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نقد الجزء الثاني من كتاب تاريخ آداب اللغة العربية</head>
@@ -384,7 +387,12 @@
             <p change="#d2e73">ومن أشهر (عوارف) السفن (والعوارف جمع عارفة والعارفة عند إعراب العراق هو الذي يتحاكم إليه في الخصومات. وعوارف السفن هم الذين يفصلون الخصومات التي تتعلق بأمور النوتية) هو (غافل الدغاري) في سقي الفرات وقد مر ذكره والحاج (محيسن</p>
             <p change="#d2e73">الغيداوي) من أهل طويريق. (وحسين آل حنظل) من أهل النجف.</p>
             <p change="#d2e73">وفي دجلة (داود الجنابي) من أهل بغداد (والسيد طاهر بن الحاج عبد الله) من أهل بغداد أيضاً. و (هويدي) و (شمندو) وكلاهما من أهل الكوت. وبهذا القدر كفاية والسلام.</p>
-            <byline change="#d2e219"><persName>كاظم الدجيلي</persName></byline>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>إقامة أتون طاباق عمومي</head>
@@ -505,7 +513,10 @@
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
-            <p change="#d2e73">(لغة العرب) حينما كتب الشاب الأديب <persName>إبراهيم حلمي</persName> أفندي مقالة في قبائل أهل البادية المنتشرة بين سامرآء وبغداد سألنا عبد الرزاق بك الشاوي في دجيل إذا كان ما كتبه كاتبنا البغدادي صحيحاً فأجابنا بما يلي وقد نسينا رسالته بين الأوراق فوقعت بيدنا الآن وهي هذه:</p>
+            <p change="#d2e73">(لغة العرب) حينما كتب الشاب الأديب <persName change="#d2e230" ref="oape:pers:647">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">حلمي</surname>
+                        </persName> أفندي مقالة في قبائل أهل البادية المنتشرة بين سامرآء وبغداد سألنا عبد الرزاق بك الشاوي في دجيل إذا كان ما كتبه كاتبنا البغدادي صحيحاً فأجابنا بما يلي وقد نسينا رسالته بين الأوراق فوقعت بيدنا الآن وهي هذه:</p>
             <p change="#d2e73">بنو تميم</p>
             <p change="#d2e73">بنو تميم القانطون في شرقي ناحية (بلد) يربون في الحقيقة على ألف رجل جعل لهم حضرة الكاتب رئيساً واحداً. والحال إنهم على ثلاثة فرق: فرقة كبيرة وهي فرقة (البو حشمة) وعدد رجالها خمسمائة ورئيسها حسين الثامر وهم من أهل السنة. والفرقة الثانية (البو حسان) ورئيسهم مطلق بن عباس السبتي. وعدد أبطالها مائتان. والفرقة الثالثة (العتاتبة) وعدد صناديدها ثلاثمائة. ورئيسها حاتم بن هذال الشوكة. وهاتان الفرقتان شيعيتان. وأما النازلون بحذائهم في الجانب الشرقي من دجلة فهم من بني تميم أيضاً لكن يقال لهم الشريفات وعدد رجالهم مائتان. ورئيسهم ابن مراح. والفرق الثلاث الأولى تزرع على الكرود في أراضي (الخضيرة) في شرقي قرية (بلد) وأما الفرقة الرابعة (فرقة الشريفات) فتزرع أيضاً زرع الكرود لكن في أراضي (الدوجمة).</p>
             <p change="#d2e73">المجمع</p>
@@ -515,7 +526,7 @@
 
 نظارتهم. - وهؤلاء جميعهم ينزلون ما بين دجلة ونهر دجيل. ويزرع بعضهم سقياً على الكرود والبعض الآخر يعنون بتربية المواشي كما ذكر حضرة الكاتب وعدد الجميع كما</p>
             <p change="#d2e73">ذكر آنفاً. وهو فوق كل ذي عليم.</p>
-            <byline change="#d2e219">دجيل: <persName>عبد الرزاق الشاوي الشاهري</persName></byline>
+            <byline change="#d2e219">دجيل: <persName change="#d2e230" ref="oape:pers:1987">عبد الرزاق الشاوي الشاهري</persName></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أسئلة وأجوبة</head>

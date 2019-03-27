@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -135,7 +135,11 @@
             <p change="#d2e73">ومن الغريب في هذا الباب أن العلامة الكبير م. ج. دي خويه. من أعظم علماء البلدان بما يتعلق بالشرق، ولا نظن أن في بلادنا من جاراه أو يجاريه في هذا البحث. ومع ذلك تراه قد وهم وهو أيضاً في هذه القرية أو المدينة أو ما شئت أن تسميها، وذلك أنه فرز في فهرس الأعلام بسما عن بسمى فذكر للأولى أي (بسما) مواقع وجودها من تاريخ الطبري. وذكر الثانية بقوله: (بسمى بالبطيحة) وبين محل وجودها وورودها في التاريخ المذكور، مع أن الحقيقة هي أن الاسمين هما لمسمى واحد لا غير ولو أمعن في نظره لوجد أن ما ظنه قريتين إحداهما قريبة من بانقيا نفسها. ولم يهف علامتنا هذه الهفوة إلاَّ لأنه لم يعرف حدود البطائح أما الآن وقد اطلع القراء على ما ذكره صديقنا الدراك. فلا يغلط الواحد فيها.</p>
             <p change="#d2e73">
                <hi style="color:red;">4 - </hi>أدب أو بسمى في التاريخ القديم</p>
-            <p change="#d2e73">ليس في كتب السلف ما يدلنا على حالة بسما أو بسمى في التاريخ القديم إلاَّ أن الأميركيين الذين نقبوا في تلك الأطلال وقعوا على أنباء تاريخية ممتعة جداً وهنا نترك الكلام لصديقنا البحاثة <persName>يوسف رزق الله غنيمة</persName> ليذكر لنا ما عثروا عليه في هذا الموضوع.
+            <p change="#d2e73">ليس في كتب السلف ما يدلنا على حالة بسما أو بسمى في التاريخ القديم إلاَّ أن الأميركيين الذين نقبوا في تلك الأطلال وقعوا على أنباء تاريخية ممتعة جداً وهنا نترك الكلام لصديقنا البحاثة <persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <forename xml:lang="ar">رزق الله</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> ليذكر لنا ما عثروا عليه في هذا الموضوع.
 <pb n="n5-p70" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2304.xhtml"/>
 
 
@@ -224,7 +228,12 @@
                <hi style="color:red;">16 - </hi>محمد أمين بك ياسين أفندي زاده وله نسبة قرابة لآل السيد فخري فهم أخواله الكرام ترجمته بالمخطوطة في أكثر من صفحة وذكرت أنه طبيب وشاعر بالعربية، وهو الذي قرظ (الروض النضر) كما سبق لعثمان أفندي العمري وقالت أن عمره قريب من ستين، وله نثر وشعر كثيران، أما المرادي فلم يترجمه.</p>
             <p change="#d2e73">
                <hi style="color:red;">17 - </hi>عثمان أفندي ابن علي أفندي العمري نسباً ترجمه المرادي (3: 164) ترجمة أطول</p>
-            <p change="#d2e73">وأوسع مما في المخطوطة، وكتب سيرته الصديق الأستاذ <persName>كاظم الدجيلي</persName> في مجلة لغة العرب هذه (3: 22) وهو مؤلف (الروض النضر في أسماء رجال العصر).</p>
+            <p change="#d2e73">وأوسع مما في المخطوطة، وكتب سيرته الصديق الأستاذ <persName change="#d2e230" ref="oape:pers:396">
+                            <forename xml:lang="ar">كاظم</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah">الدجيلي</addName>
+                            </surname>
+                        </persName> في مجلة لغة العرب هذه (3: 22) وهو مؤلف (الروض النضر في أسماء رجال العصر).</p>
             <p change="#d2e73">
                <hi style="color:red;">18 - </hi>أمين أفندي ابن خير الله العمري هذا لم يترجمه المرادي. بل ترجمته المخطوطة فقالت فيه: (له آثار غريبة في فن لسان العرب قد ألف نسخاً مدونة في أنواع الشعر وأصناف الأدبيات ما لو نظر الناظر فيه لأذعن لمؤلفه وراويه) الخ. وذكرت له تاريخاً لوفاة السيد يحيى فخري المفتي سنة 1187 وترجمته في نحو صفحة.</p>
             <p change="#d2e73">
@@ -511,7 +520,10 @@
             <p change="#d2e73">جِيْتْ جِيْتُو جِيْتِ جِيتَنْ جِيْتُ جِيْنا</p>
             <p change="#d2e73">أما تصريف جا مع ضمائر النصب فهكذا:</p>
             <p change="#d2e73">جاه جاهم جاها جاهنْ جاكْ جاكم جاج جاجُنْ جاني جانا</p>
-            <byline change="#d2e219"><persName>معروف الرصافي</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n5-p97" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2331.xhtml"/>
 
 
@@ -720,10 +732,16 @@
             <p change="#d2e73">- نسب جمع (الأدباء الخمس) (كذا) إلى إسماعيل عبد المجيد مع أنه لمحمد عبد المجيد.</p>
             <p change="#d2e73">- قال عن (أشهر الخطب ومشاهير الخطباء) نشره أميل زيدان وسلامه موسى. والحقيقة أنه تأليف سلامه موسى وقد نشرته مجلة الهلال لصاحبها أميل زيدان.</p>
             <p change="#d2e73">- قال عن كتابي (أمين الريحاني في العراق) ترجمة آثاره. أقوال المشاهير فيه. بينما هو يحوي ترجمته ووصف رحلته في البلدان العربية وحفلات تكريمه في العراق وما قيل فيها. كما أغفل ذكر جامعه (كاتب هذه السطور).</p>
-            <p change="#d2e73">- ذكر عن (المختصر في تاريخ آداب اللغة العربية) ل<persName>جرجي زيدان</persName> أن قد اختصره أنيس الخوري المقدسي (ص8) مع أن المقدسي نظر فيه أما اختصاره فقد كان بقلم مؤلف الكتاب المطول المرحوم زيدان نفسه. ولا تزال مجلة الهلال تعلن في كل جزء من أجزائها عن الكتاب وتنسبه إلى مؤلفه الحقيقي. ولكنه عاد فذكره على الوجه الصحيح (ص27) برقم آخر.</p>
+            <p change="#d2e73">- ذكر عن (المختصر في تاريخ آداب اللغة العربية) ل<persName change="#d2e230" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName> أن قد اختصره أنيس الخوري المقدسي (ص8) مع أن المقدسي نظر فيه أما اختصاره فقد كان بقلم مؤلف الكتاب المطول المرحوم زيدان نفسه. ولا تزال مجلة الهلال تعلن في كل جزء من أجزائها عن الكتاب وتنسبه إلى مؤلفه الحقيقي. ولكنه عاد فذكره على الوجه الصحيح (ص27) برقم آخر.</p>
             <p change="#d2e73">- أشار إلى صدور الجزء الأول فقط من (تاريخ الكويت) (ص11) وقد صدر منه جزءان.</p>
             <p change="#d2e73">- أغفل اسم واضع (تقرير صحة بغداد) للدكتور سامي ذاكراً اسم أسرته فقط.</p>
-            <p change="#d2e73">- قدم وأخر في اسم مؤلف (جغرافية العراق) فسماه عيسى رزوق وهو <persName>رزوق عيسى</persName>.</p>
+            <p change="#d2e73">- قدم وأخر في اسم مؤلف (جغرافية العراق) فسماه عيسى رزوق وهو <persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName>.</p>
             <p change="#d2e73">- نسب (قضية فلسطين) إلى خلف شوقي الداودي (ص24) وهي مترجمة
 <pb n="n5-p111" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2345.xhtml"/>
 
@@ -1079,13 +1097,23 @@
             <p change="#d2e73">
                <hi style="color:red;">3 - </hi>أثر شوقي في أدب الجيل لرفائيل بطي</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>شعر شوقي في جهاد الحياة ل<persName>إبراهيم حلمي العمر</persName></p>
+               <hi style="color:red;">4 - </hi>شعر شوقي في جهاد الحياة ل<persName change="#d2e230" ref="oape:pers:647">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">حلمي</surname>
+                            <surname xml:lang="ar">العمر</surname>
+                        </persName></p>
             <p change="#d2e73">
                <hi style="color:red;">5 - </hi>تأثيرات الشاعر في النهضة القومية للشيخ أحمد</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>شوقي ولا كشوقي (قصيدة) ل<persName>محمد الهاشمي</persName></p>
+               <hi style="color:red;">6 - </hi>شوقي ولا كشوقي (قصيدة) ل<persName change="#d2e230" ref="oape:pers:566">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">الهاشمي</surname>
+                        </persName></p>
             <p change="#d2e73">
-               <hi style="color:red;">7 - </hi>في حفلة شوقي (قصيدة) ل<persName>معروف الرصافي</persName></p>
+               <hi style="color:red;">7 - </hi>في حفلة شوقي (قصيدة) ل<persName change="#d2e230" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName></p>
             <p change="#d2e73">وتخلل الخطب والقصائد أناشيد وطنية تغنى بها طلبة دار المعلمين.</p>
             <p change="#d2e73">
                <hi style="color:red;">21 - </hi>مدرسة واحدة للذكور والإناث في أرفا</p>

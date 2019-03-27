@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -298,7 +298,10 @@
             <p change="#d2e73">إذا رغبنا في أن نقف وقوفاً تاماً على عصر الخزف، ومعرفة الشعوب والأقوام التي سكنت وجه الصحراء، قبل أن مصرت وشيدت فوقها المباني والهياكل، علينا أن نصعد أولا إلى قمة الحفرة وندرس طبقات الأنقاض المختلفة درساً دقيقاً لكي نكشف النقاب عن وجه</p>
             <p change="#d2e73">الحقيقة، ونتحقق الزمن الذي مرت فيه الأجيال قبل بلوغنا إلى قلب الصحراء.</p>
             <p change="#d2e73">أن الآجر العائد إلى دنجي، واور أنجور، في الطبقتين المرتفعتين يعين زمن بناء قمة الرابية في نحو 2450 - 2300 ق. م. ثم أن ذهب نرم سن وآجر سرجون القائمين تحت الطبقتين يرجع بنا إلى قبل ذلك التاريخ بمائتي سنة والآجر المحدد المستطيل المنتمي إلى خمسة عشر حاكماً وأكثر، فإنه سابق لعصر سرجون ويتجاوز عصر الهيكل المشيد بالآجر المسنم وتمثال الملك دا أو دو (داود) بعدة قرون.</p>
-            <byline change="#d2e219"><persName>رزوق عيسى</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName>
 <pb n="n9-p102" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5446.xhtml"/>
 
 
@@ -762,7 +765,7 @@
 
 
 على مقالة تلو</p>
-            <p change="#d2e73">اشكر لصديقي الفاضل <persName>يعقوب سركيس</persName> الأستاذ المحقق توفره على الحقائق التاريخية واستخراجه ما استعجم على الآثاريين من أن (تلو) في هذا الزمان هي: تلهوارة، وأؤيده في أن (تلهوارة) أرمي النجار فأسماء كثير من تلك البقاع تظهر عليه المسحة الآرمية. ففي أخبار أبي العباس ابن أبي احمد الموفق طلحة بن المتوكل على الله العباسي في حربه لصاحب الزنج كما في (2: 344) من شرح ابن أبي الحديد (وأمر أبا حمزة أن ينزل فوهة</p>
+            <p change="#d2e73">اشكر لصديقي الفاضل <persName change="#d2e230" ref="oape:pers:2721">يعقوب سركيس</persName> الأستاذ المحقق توفره على الحقائق التاريخية واستخراجه ما استعجم على الآثاريين من أن (تلو) في هذا الزمان هي: تلهوارة، وأؤيده في أن (تلهوارة) أرمي النجار فأسماء كثير من تلك البقاع تظهر عليه المسحة الآرمية. ففي أخبار أبي العباس ابن أبي احمد الموفق طلحة بن المتوكل على الله العباسي في حربه لصاحب الزنج كما في (2: 344) من شرح ابن أبي الحديد (وأمر أبا حمزة أن ينزل فوهة</p>
             <p change="#d2e73">بردودا فوق واسط). وفي أخبار أعدائه ما نصه (ثم أن سليمان استعد وحشد وفرق أصحابه فجعلهم في ثلاثة أوجه: فرقة من نهر أبان وفرقة من برتمرتا وفرقة من بردودا، فلقيهم أبو العباس فلم يلبثوا أن انهزموا فلحقت طائفة منهم بسوق الخميس، وطائفة بمازروان، وطائفة ببرتمرتا، وسلك آخرون نهر الماذيان واعتصم قوم منهم ببردودا) وفيها (واقبلوا إليه وقد كمنوا زهاء عشرة آلاف في برتمرتا ونحوه من العدة في بئر هثا) وفيها (فكانت معركة من قرية الرمل إلى الرصافة) وفي ص 345 (ومضى جيش الزنج بأجمعه لا ينثني أحد منهم حتى وافوا تهيثا) وفي ص 346 (طهيثا) وكذلك في ص 347 ف (بردودا وبرتمرتا وهثا وطهيثا) من جنس (تل هوارة) ولنا على المقالة تعليقات:</p>
             <p change="#d2e73">
                <hi style="color:red;">1 - </hi>ورد في ص 5 (يعرف عند أهل ذلك الصقع بأبي اسحق) والصواب (بأبي السحق) مصدر الفعل (سحق) لأنه حجر لا بشر ويؤيد لنا التعليل الذي علل به التسمية ونصه (لأنه يتعاطى قوم من أهل القوة شيله فيسحقهم. . .) فلسحقه الناس عرف بأبي السحق.</p>

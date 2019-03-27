@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -683,7 +683,10 @@
 
 المعيبة لها: ديدنك يا بنت الخال الخروج على الدين والاستياء من جميع التقاليد والسنن فلم لا تكونين مثل حتراء حليمة وديعة مسالمة؟</p>
             <p change="#d2e73">شميرام - تثور نفسي من كل معوج لا يتفق والعقل السليم والآداب الصحيحة. فالحلم في غير موطنه ضعف، والوداعة في غير محلها خطل والمسالمة في غير وقتها جبن. ثم تبسمت وقالت له: ما ألومك، يا شمشو، لأن الهوى يعمي ويصم. ثم تفرقا.</p>
-            <p change="#d2e73"><persName>يوسف غنيمة</persName></p>
+            <p change="#d2e73"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName></p>
             <p change="#d2e73">كوريش</p>
             <p change="#d2e73">كوريش هو اسم بابل الحالي، وبابل هو الاسم القديم. وإنما سميت كوريش باسم كورش الملك الفارسي مصغرا للدلالة على التكبير أو التحبيب. وهو الذي ثل عرش إشتياج ملك ماذية في سنة 550 ق. م. وهدم مملكة الكلدانيين في سنة 539 ق. م، فدخل بابل في شهر تشرين الاول من تلك السنة، ومن ذيالك الحين عرفت بابل بكويرش (مصغرة إلى يومنا هذا).</p>
             <p change="#d2e73">كيل</p>
@@ -914,7 +917,10 @@
                <hi style="color:red;">1907 - 1908 </hi>وكتب عن بعثته إلى العراق سفرا جليلا سماه (بعثة في العراق) وهو في مجلدين ضخمين وأفاد العلماء بما دونه عن بلادنا قبل عشرين سنة. واليوم اخذ يصدر مجلة فرنسية موضوعها الإسلام وما يتعلق به من علوم ومعارف وفنون وصنائع. وهي اجل مجلة نعرفها حتى اليوم في هذا البحث. ومن أراد الاشتراك فيها فليراجع الطابع وهو:</p>
             <p change="#d2e73">وكل ما يتعلق بالكتابة والمقالات يعنون باسم صاحبها:</p>
             <p change="#d2e73">12.</p>
-            <p change="#d2e73">ومن أهم أبواب هذه المجلة أنها تذكر جميع الكتب التي تطبع في العالم كله وموضوعها الإسلام أو العرب؛ وربما ذكرت أهم المقالات الواردة في المجلات الشهيرة فلقد نوهت (ص42) بمقالة المطبوعات في العراق لرفائيل بطي الواردة في مجلتنا (أيلول 1926) وأشارت في (ص11) إلى مقالة الألفاظ الارمية في اللغة العراقية العامية التي سبك دررها <persName>يوسف غنيمة</persName> (لغة العرب 1926 - 1927) ومدحت مقالة الرصافي التي وسمها بدفع المراق، في كلام أهل العراق (4: 85 وما يلها)</p>
+            <p change="#d2e73">ومن أهم أبواب هذه المجلة أنها تذكر جميع الكتب التي تطبع في العالم كله وموضوعها الإسلام أو العرب؛ وربما ذكرت أهم المقالات الواردة في المجلات الشهيرة فلقد نوهت (ص42) بمقالة المطبوعات في العراق لرفائيل بطي الواردة في مجلتنا (أيلول 1926) وأشارت في (ص11) إلى مقالة الألفاظ الارمية في اللغة العراقية العامية التي سبك دررها <persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName> (لغة العرب 1926 - 1927) ومدحت مقالة الرصافي التي وسمها بدفع المراق، في كلام أهل العراق (4: 85 وما يلها)</p>
             <p change="#d2e73">ومن الكتب التي نقدتها لغة العرب وذكرتها هذه المجلة البديعة، ما قالته (في ص11) عن كتاب العين الذي كنا بدأنا بنشره وذكرناه في أحد جزئي المجلة اللذين ظهرا قبيل الحرب و (في ص19) إرشاد الغريب لياقوت الحموي و (في ص26) طهارة أهل الكتاب للشيخ أبي عبد الله الزنجاني. وفي
 <pb n="n5-p503" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2737.xhtml"/>
 

@@ -48,7 +48,7 @@
                                 <persName xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName>
                             </editor>
                   <editor xml:lang="ar">
-                     <persName xml:id="persName_195.d1e5884" xml:lang="ar"> 
+                     <persName xml:id="persName_195.d1e5884" xml:lang="ar" change="#d2e230" ref="oape:pers:396"> 
                         <forename xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> 
                         <surname xml:id="surname_195.d1e5888" xml:lang="ar">
                            <addName type="nisbah">الدجيلي</addName>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -198,7 +198,10 @@
             <p change="#d2e73">وتختلف اللهجة حيناً بإقحام الزاي بين كل مقطعين من مقاطع الكلمة. ومنهم من يقحم الفاء عوضاً عن الزاي وربما أقحموا بدلهما غيرهما من الحروف كالراء.</p>
             <p change="#d2e73">وقد سمعت هذه اللهجة منذ طفولتي من والدتي. ومن غريب المصادفات زرت أمس الغابر إحدى العائلات المحترمة وكانت سيدتان تتكلمان (لسان الطير) على سبيل التفكهة. وكان اللفظ المقحم (الفاء).</p>
             <p change="#d2e73">بغداد في 31 - 1 - 31:</p>
-            <byline change="#d2e219"><persName>يوسف غنيمة</persName>
+            <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:2826 viaf:8440744">
+                            <forename xml:lang="ar">يوسف</forename>
+                            <surname xml:lang="ar">غنيمة</surname>
+                        </persName>
 <pb n="n9-p171" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5515.xhtml"/>
 
 
@@ -206,7 +209,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>أيتها الطبيعة!</head>
-            <p change="#d2e73">للأستاذ <persName>جميل صدقي الزهاوي</persName></p>
+            <p change="#d2e73">للأستاذ <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
+                            <forename xml:lang="ar">جميل</forename>
+                            <forename xml:lang="ar">صدقي</forename>
+                            <surname xml:lang="ar">الزهاوي</surname>
+                        </persName></p>
             <lg>
                <l type="bayt">
                   <seg>لقد كان منك إليك السبيل </seg>
@@ -699,7 +706,10 @@
          <div change="#d2e64" type="item">
             <head>العمارة والكوت</head>
             <p change="#d2e73">عود على بدء</p>
-            <p change="#d2e73">كتب الأديب الفاضل <persName>رزوق عيسى</persName> في (هذه المجلة 8: 785) سطوراَ عن الكوت مستنداً فيها إلى فريزر في كتابه المطبوع في سنة 1843 (1258هـ) أراد بذلك أن يؤيدني في أن اسم الكوت هو (كوت العمارة) وقد صور الاسم بالحروف اللاتينية مع علامة ملقاة على حرف ليقرأ عيناً. وإذ لم يشرع الإفرنج - على ما أظن - ولاسيما غير المستشرقين باستعمال هذه العلامة وأمثالها إذا ذاك ولم يكن بيد الكاتب إلاَّ الطبعة الثانية التي كانت في سنة 1924 على ما يبين من كلامه فالذي يتبادر البال إليه أن الكلمة في الطبقة الأولى غفل من هذه العلامة الفارقة. وإذا جاءت في الطبعة الثانية فللمعترض أن يقول أنها وضع ادخلها الناشر الأخير ولاسيما أن فريزر نفسه قد ذكر الكوت بغير علامة بصورة في كتاب المسمى رحلة في كردستان وما بين النهرين المطبوع في سنة 1840 (2: 122) لذلك كان النص الذي أورده الكاتب لا ينتفع به من الوجهة التي قصدها إلاَّ إذا بانت في الطبعة الأولى تلك العلامة على حرف ومع هذا فان النص لا يخلو من فائدة لم يتوخها الكاتب فقد جاء مؤيداً أن دجلة من الكوت فنازلا اسمها العمارة. وأني</p>
+            <p change="#d2e73">كتب الأديب الفاضل <persName change="#d2e230" ref="oape:pers:1725">
+                            <forename>رزوق</forename>
+                            <surname>عيسى</surname>
+                        </persName> في (هذه المجلة 8: 785) سطوراَ عن الكوت مستنداً فيها إلى فريزر في كتابه المطبوع في سنة 1843 (1258هـ) أراد بذلك أن يؤيدني في أن اسم الكوت هو (كوت العمارة) وقد صور الاسم بالحروف اللاتينية مع علامة ملقاة على حرف ليقرأ عيناً. وإذ لم يشرع الإفرنج - على ما أظن - ولاسيما غير المستشرقين باستعمال هذه العلامة وأمثالها إذا ذاك ولم يكن بيد الكاتب إلاَّ الطبعة الثانية التي كانت في سنة 1924 على ما يبين من كلامه فالذي يتبادر البال إليه أن الكلمة في الطبقة الأولى غفل من هذه العلامة الفارقة. وإذا جاءت في الطبعة الثانية فللمعترض أن يقول أنها وضع ادخلها الناشر الأخير ولاسيما أن فريزر نفسه قد ذكر الكوت بغير علامة بصورة في كتاب المسمى رحلة في كردستان وما بين النهرين المطبوع في سنة 1840 (2: 122) لذلك كان النص الذي أورده الكاتب لا ينتفع به من الوجهة التي قصدها إلاَّ إذا بانت في الطبعة الأولى تلك العلامة على حرف ومع هذا فان النص لا يخلو من فائدة لم يتوخها الكاتب فقد جاء مؤيداً أن دجلة من الكوت فنازلا اسمها العمارة. وأني</p>
             <p change="#d2e73">وقد ذكرني ذلك بما كتبه ريج المقيم البريطاني في كتاب حاو رحلاته (2: 165) في تاريخ 14 أيار سنة 1821 (1237هـ) وهاأنذا أضيف ما قاله معرباً إلى ما أوردته سابقاً وهذا قوله:</p>
             <p change="#d2e73">(فقدمنا إلى في الساعة الثامنة وقد شيدت هناك قلعة
 <pb n="n9-p187" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5531.xhtml"/>
