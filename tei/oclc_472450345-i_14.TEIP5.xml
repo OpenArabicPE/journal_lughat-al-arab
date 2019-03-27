@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 14</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1912-08-01">1912-08-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1912-08-01">1912-08-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تيتنيك</head>
@@ -322,7 +322,7 @@
                </l>
             </lg>
             <p change="#d2e73">النجف:</p>
-            <p change="#d2e73">محمد رضا الشبيبي</p>
+            <byline change="#d2e219">محمد رضا الشبيبي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نظرة في العادات</head>
@@ -343,11 +343,11 @@
             <p change="#d2e73">تدرجت هذه الاعتيادات، فاتسعت لها أذهان الخرافيين، وتدحرجت فدخلت قلوبهم، حتى صيرت أذهانهم عشاً لها واهي الدعائم، بل هو (أوهى من بيت العنكبوت). . . مدهشة أنت أيتها العادة. مدهشة سياستك. سياستك تشبه سياسة (الإنكليز) حيث (تدخل في الأذن بغير إذن).</p>
             <p change="#d2e73">آهٍ آهٍ! أخشى أن نقضي سيطرة الغفلة، فتحل طباعنا، وتقضي على نواميس حقائقنا الخرافات الاعتيادية وعلى لبابها الصافي من القشور!!!</p>
             <p change="#d2e73">النجف:</p>
-            <p change="#d2e73">محمد باقر الشبيبي
+            <byline change="#d2e219">محمد باقر الشبيبي
 <pb n="n2-p45" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P541.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>قصر الاخيضر</head>
@@ -570,7 +570,7 @@
 
 
 الأرض، ووضع الخراج، ووضع على رؤوسهم ما بين ثمانية وأربعين درهماً، وأربعة وعشرين درهماً، وأثنى عشر درهماً، وشرط عليهم ضيافة المسلمين وشيئاً من بر وعسل؛ ووجد السواد ستة وثلاثين ألف ألف جريب، فوضع على كل جريب درهماً وقفيزاً. قال أبو عبيد: بلغني أن ذلك القفيز كان مكوكا لهم يدعى السابرقان. وقال يحيى بن آدم وهو المحتوم الحجاجي: وقال محمد بن عبد الله الثقفي: وضع عمر رضه على كل جريب من السواد، عامراً كان أو غامراً، يبلغه الماء: درهما وقفيزاً، وعلى جريب الرطبة خمسة دراهم وخمسة اقفزة، وعلى جريب الكرم عشرة دراهم وعشرة اقفزة ولم يذكر النخل. وعلى رؤوس الرجال ثمانية وأربعين وأربعة وعشرين وأثنى عشر درهماً. وحتم عثمان بن حنيف على رقاب خمسمائة ألف وخمسين ألف علج لأخذ الجزية، وبلغ الخراج في ولايته مائة ألف ألف درهم. (اه عن ياقوت بتصرف قليل في العبارة) فيؤخذ مما تقدم أنه كان لكل رجل من المسلمين ثلاثة فلاحين من النصارى من باب التعديل المتوسط لا من باب الحقيقة. وعليه كان نصارى العراق الفلاحون في عهد علي ثلاثة أضعاف المسلمين، ماعدا من كان منهم في المدن الكبار كبغداد والموصل والبصرة. وكانت مساحة السواد 360. 000. 000 جريب مزروع، والجريب يساوي اليوم ما يسميه الإفرنج بالهكتار فتكون إذاً مساحة الأراضي المزروعة يومئذ 360. 000. 000 مترٍ مربعٍ فأين أولئك السكان من عدد سكان هذا اليوم؟ وأين تلك الارضين المزروعة وخراجها، وأراضي هذا العهد وخراجه؟ أعاد الله كل شيء إلى سابق مجده، وسامق عزه، بمنه وكرمه!</p>
-            <p change="#d2e73">إبراهيم حلمي</p>
+            <byline change="#d2e219">إبراهيم حلمي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>من أسماء ابنة اليوم</head>

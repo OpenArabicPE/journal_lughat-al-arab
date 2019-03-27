@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 51</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1927-09-20">1927-09-20</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1927-09-20">1927-09-20</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نيرب ومكشوفاتها</head>
@@ -672,7 +672,7 @@
 
 أن أقول: أني لا أظن أن هناك مانعا من الاعتماد على هذا المخطوط الفذ وقد نقل عنه من رآه من الكتاب وفيهم احمد تيمور باشا. وقد أكون مخطئا في ظني فلأهل التدقيق والتمحيص البت في منزلة الكتاب بعد وقوفهم على المنشور منه هنا وفي المجلات التي ذكرتها ولا سيما بعد أن بان انه لابن الفوطي على الأرجح وقد قال صاحب فوات الوفيات عنه (الشيخ الإمام المحث المؤرخ. . .) وفي الكلمة التي يقولها المتتبعون يخدمون التاريخ والحقيقة وهما الغاية المتوخاة.</p>
             <p change="#d2e73">بغداد: 25 أيار سنة 1927</p>
-            <p change="#d2e73">يعقوب نعوم سركيس</p>
+            <byline change="#d2e219">يعقوب نعوم سركيس</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الوفاء الحي</head>
@@ -762,11 +762,11 @@
                   <seg> حين ينساه يهون</seg>
                </l>
             </lg>
-            <p change="#d2e73">وهو حي ليس ينسى!
+            <byline change="#d2e219">وهو حي ليس ينسى!
 <pb n="n5-p408" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2642.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تحقيق مواقع بعض المواضع القديمة</head>
@@ -901,7 +901,7 @@
             <p change="#d2e73">وله قرنا عنزة وعلى ظهره أربعة أجنحة كبيرة مبسوطة تلك هي صورة شيطان ريح الجنوب الغربي. التي تقي الإنسان من الأرواح الخبيثة إذا ما علقت على باب البيت أو نوافذه.</p>
             <p change="#d2e73">وأخذت له بعض الأحجار المختلفة الألوان المعروفة بقوتها السحرية في بابل والتي تحفظ من النوائب والبلايا. إذا ما نظمت في خيط ولبست في العنق.</p>
             <p change="#d2e73">وأرسلت هذه التعاويذ إلى حبيبها خلسة وأوصته بالاحتفاظ بها وباتخاذها طلسما. فاحتفى بها لأنه رأى فيها ذخر قوة السحر والوقاية وذخر قوة الحب وذكرى الحبيبة.</p>
-            <p change="#d2e73">يوسف غنيمة</p>
+            <byline change="#d2e219">يوسف غنيمة</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>إلى سعد</head>
@@ -1001,7 +1001,7 @@
             <p change="#d2e73">وقد جمع فريق من الكتبة المواد الظائية وذكروها استطرادا في مؤلفاتهم كالقلقشندي في صبح الأعشى وغيره.</p>
             <p change="#d2e73">وللشيخ طه الراوي البغدادي مقالة نافعة رتبها على ترتيب حروف المعجم وذكر فيها ما يهم ذكره من المواد ذوات الظاء أدرجت في مجلة دار المعلمين البغدادية (1: 128 إلى 134).</p>
             <p change="#d2e73">وللحريري منظومة موجزة أوردها في المقامة السادسة والأربعين المعروفة بالحمصية فيها كثير من الكلم الظائية نستغني عن ذكرها لشهرتها. فلتراجع في محلها.</p>
-            <p change="#d2e73">سبزوار (إيران): محمد مهدي العلوي</p>
+            <byline change="#d2e219">سبزوار (إيران): محمد مهدي العلوي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الأفصح من كلام العرب</head>

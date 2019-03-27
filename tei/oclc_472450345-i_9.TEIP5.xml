@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 9</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1912-03-01">1912-03-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1912-03-01">1912-03-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>السيد صالح القزويني</head>
@@ -161,7 +161,7 @@
 
 
 إعياء النبي القائل لبنات بابل اللواتي ربين في الترف والكسل: (انزلي واجلسي على التراب، أيتها البكر بنت بابل، اجلسي على الأرض، فانه لا عرش لك يا بنت الكلدانيين، ولا تدعين من بعد ناعمة مترفة، خذي الرحى واطحني الدقيق، اكشفي نقابك وشمري الذيل (اشعياء 47: 1 - 2) -. من العجب أم مر على كلام الرب قرون وعصور ولم نر ما يكذب ذاك العقاب الذي عاقب به تلك المدينة العظمى من جراء شعب الله. وكنا نتصور عند سماعنا تلك الجعجعة إننا نسمع دائما ذلك الوعيد يدوي في آذاننا، ولعل تلك النساء كن مولودات في أرض تلك المدينة القديمة بابل العظيمة.</p>
-            <p change="#d2e73">(الأب يوسف لويس الكرملي)</p>
+            <byline change="#d2e219">(الأب يوسف لويس الكرملي)</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>بقايا قصور الخلفاء في مدينة سامراء</head>
@@ -285,7 +285,7 @@
 
 
 تبلغ مسافتها نصف مسير نصف ساعة، ثم إذا جزت تلك الأنقاض وسرت في أرض تقارب مساحتها مساحة تلك الأرض التي غادرتها تقف في قرية الدور.</p>
-            <p change="#d2e73">كاظم الدجيلي</p>
+            <byline change="#d2e219">كاظم الدجيلي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>غنى هيت وذكر معادنها</head>
@@ -365,7 +365,7 @@
 
 
 الغنى والثروة ورقى البلاد، مع انك لوزرت إحدى مدن ديار الإفرنج ولها عين واحدة معدنية الماء أو فيها مادة مفيدة من نفط أو زيت حجري أو قير أو ملح أو كبريت أو فصفور أو نحوها لرأيت أصحابها الثروة يكترون (يضمنون) ما فيها من المرافق ومندفق الريع والإناء. وتحققت أن من عنى باستثمار ما في الطبيعة فالطبيعة تفيض عليه بالفواضل والنعم، عسى أن ييسر الله من يحقق هذه الأماني من أبناء الوطن. وإلا سبقنا الأجانب إلى تلقف ما في أيدينا لأننا لا نعرف قدره. والسلام على من سمع وعمل.</p>
-            <p change="#d2e73">إبراهيم حلمي من طلبة المكتب الإعدادي الملكي</p>
+            <byline change="#d2e219">إبراهيم حلمي من طلبة المكتب الإعدادي الملكي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>هل كان أعشى قيس نصرانياً؟</head>
@@ -448,7 +448,7 @@
 
 
 فلم أر منهم مذ دهتني رزية <gap resp="#org_MS"/> من الدهر إلا من كأني احاره</p>
-            <p change="#d2e73">كاظم الدجيلي</p>
+            <byline change="#d2e219">كاظم الدجيلي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المشارفة والانتقاد</head>
@@ -573,12 +573,12 @@
          <div change="#d2e64" type="item">
             <head>مدارس في البحرين</head>
             <p change="#d2e73">لما يئس أهل البحرين من مطالبة الحكومة بما يعود إلى خيرهم وخيرها اخذوا يجمعون المال من باب الإعانة لفتح مدارس يدرس فيها اللغة العربية والإنكليزية. وفي نيتهم أن يجلبوا لها معلمين من بيروت بشرط أن يكونوا من العرب.</p>
-            <p change="#d2e73">(عن الرياض)</p>
+            <byline change="#d2e219">(عن الرياض)</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تبرع في سبيل كلية الكويت</head>
             <p change="#d2e73">تبرع الشيخ عبد الرحمان ابن الشيخ جاسم من آل إبراهيم بعشرين آلف ربية تشييد هذه الكلية فبلغ مجموع ما جمع في هذا السبيل النافع ثمانيين آلف ربية. والأمل انه يشرع ببناءهما هن قريب.</p>
-            <p change="#d2e73">(الرياض)</p>
+            <byline change="#d2e219">(الرياض)</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>التنقيبات في الاحيمر</head>

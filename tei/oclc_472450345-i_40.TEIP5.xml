@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -249,11 +249,11 @@
                   <seg> والنسل قط لا يرتجي من ايم</seg>
                </l>
             </lg>
-            <p change="#d2e73">البناء
+            <byline change="#d2e219">البناء
 <pb n="n4-p313" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1936.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المحفى العراقي الجديد</head>
@@ -361,11 +361,11 @@
             <p change="#d2e73">السوارية واقعة على ضفة الفرات اليمنى في أراضي آل فتلة. وقد تقدمت في السنتين الأخيرتين تقدما عجيبا فقد أنشئ فيها سوق كبيرة لا يقل جمالها عن جمال أسواق العاصمة؛ وأسست فيها مطاعم للغرباء؛ إلى غير ذلك من وسائل الراحة.</p>
             <p change="#d2e73">والآن تسعى الحكومة في بناء صرح (سراي) لها لتتخذ من هذه البليدة الحديثة (ناحية).</p>
             <p change="#d2e73">ويقال إن في النية تأسيس شعبة في (أم بردية) في أراضي آل إبراهيم؛ كما أن الهمة مبذولة لتسوية طريق تمر عليه السيارات ويمتد من (أبو صخير) إلى السوارية تسهيلا للصلات.</p>
-            <p change="#d2e73">(عن جريدة المعارف)
+            <byline change="#d2e219">(عن جريدة المعارف)
 <pb n="n4-p339" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1946.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الألفاظ الارمية</head>
@@ -483,7 +483,7 @@
             <p change="#d2e73">وهكذا أمضى عمره؛ أمضاه بالدرس والتدريس. بالوعظ والإرشاد بالتأليف والنشر.</p>
             <p change="#d2e73">بمجاهدة الباطل وفرق الابتداع بجمع الكتب ووقفها في سبيل العلم.</p>
             <p change="#d2e73">نعم أمضاه صابرا ومحتسبا اجره على الله. حتى أتاه اليقين صبيحة يوم الأربعاء السابع من المحرم سنة 1317هـ ودفن في مدرسته في جوار مرقد مرجان تحت القبة مقابل الباب. فرزئ الإصلاح برجله الفذ في العراق وفقد العلم ركن نهضته العظيم. وكان نبأ وفاته شديد الوطأة على أهل الإسلام في الأقطار رحمه الله.</p>
-            <p change="#d2e73">محمد بهجة الأثري</p>
+            <byline change="#d2e219">محمد بهجة الأثري</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>دفع أوهام</head>
@@ -577,11 +577,11 @@
             <p change="#d2e73">يأنوح: اسم قرية من عمل عكاء عدد سكانها اليوم 214 نسمة.</p>
             <p change="#d2e73">يأنون: اسم قرية صغيرة من عمل نابلس عدد سكانها اليوم 71 نسمة.</p>
             <p change="#d2e73">هذا ما أردنا إيراده في هذه العجالة وفوق كل ذي علم عليم.</p>
-            <p change="#d2e73">حيفا: عبد الله مخلص
+            <byline change="#d2e219">حيفا: عبد الله مخلص
 <pb n="n4-p354" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1961.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الملا عثمان الموصلي</head>
@@ -599,7 +599,7 @@
             <p change="#d2e73">يقول ما هذه الليلة الباردة</p>
             <p change="#d2e73">هذا ما خطر لي الآن إذ له أمور كثيرة. وكان رحمه الله سحابة لا يدخل الدرهم يده إلا مارا بها، ولو جمع مما حصله من الأستانة لبلغ الألوف من الذهب إنما كان له صاحب هناك يسمى بالملا يونس فكان يعطيه ما يأخذه حتى أن أحد الأفاضل كان يقول اللهم يسر لي من يكون لي مثل عثمان ليونس. وفتح مع شريك حانوتا في الأستانة للوراقة؛ فما جاءه أحد يطلب كتابا بغياب شريكه إلا ومد يده وسلمه إياه بصورة يعجز ذوو الأبصار عن مثلها.</p>
             <p change="#d2e73">وله شعر كثير من ذلك تخميس الهمزية والبردة. وكان في نظم التاريخ أمة وحده فلا يعجزه التاريخ بل متى أخذ السبحة بيده فلا يمضي ربع ساعة حتى يستخرج التاريخ نظما. نعم أن شعره ليس بالعالي الجزل بل يجمع الجزل والركيك.</p>
-            <p change="#d2e73">عبد اللطيف ثنيان</p>
+            <byline change="#d2e219">عبد اللطيف ثنيان</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>معنى كلمة عراق</head>

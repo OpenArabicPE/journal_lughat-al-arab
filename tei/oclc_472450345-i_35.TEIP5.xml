@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 35</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1926-07-01">1926-07-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1926-07-01">1926-07-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>سنتنا الرابعة</head>
@@ -276,7 +276,7 @@
 
 (ملتصقون) وفي ص 136 وهو من كلام قسطاكي أيضاً (فلينظر أولي الألباب) والصواب (أولو الألباب) وفي ص 127 و131 (الاشموني) كذا بفتح الهمزة وإنما هي مضمومة</p>
             <p change="#d2e73">بغداد في 10 حزيران سنة 1926:</p>
-            <p change="#d2e73">محمد بهجة الأثري</p>
+            <byline change="#d2e219">محمد بهجة الأثري</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أخوان الأدب</head>
@@ -317,7 +317,7 @@
 العسكري وتألفت الحكومة النقيبية الموقتة سنة 1921 أسندت إليه وظيفة رئيس كتاب في ديوان مجلس الوزراء وظل في هذه الوظيفة إلى أن قامت عليه نوادبه. وكان قد انتدب قبل بضعة أشهر ليكون عضوا في لجنة الترجمة الكردية التي تشرف عليها وزارة المعارف لترجمة القوانين والكتابات الرسمية ووضع الكتب الدراسية باللغة الكردية.</p>
             <p change="#d2e73">وأصيب أخيرا بضعف شديد وزعم الطبيب الذي عالجه أنه كان مبتلى بداء السل فثقلت وطأته عليه فجأة وأودى بحياته وا أسفاه عليه!</p>
             <p change="#d2e73">(لها تلو)</p>
-            <p change="#d2e73">رفائيل بطي</p>
+            <byline change="#d2e219">رفائيل بطي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>دجلة</head>
@@ -339,11 +339,11 @@
                   <seg> عن شنب أخجلت النيرين</seg>
                </l>
             </lg>
-            <p change="#d2e73">محمد بهجة الأثري
+            <byline change="#d2e219">محمد بهجة الأثري
 <pb n="n4-p26" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1650.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المعاهدة العراقية الإنكليزية التركية</head>
@@ -448,11 +448,11 @@
             <p change="#d2e73">وكتب في أنقرة في 5 حزيران 1926 من ثلاث نسخ</p>
             <p change="#d2e73">توقيع توقيع توقيع</p>
             <p change="#d2e73">(ت رشدي) (آر. سي. لندسي) (نوري السعيد)</p>
-            <p change="#d2e73">(لها تلو)
+            <byline change="#d2e219">(لها تلو)
 <pb n="n4-p33" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1657.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>حروف الكسع في الألفاظ العربية والمعربات</head>

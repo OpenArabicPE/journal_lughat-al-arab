@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 76</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1930-01-01">1930-01-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1930-01-01">1930-01-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>سنتنا الثامنة</head>
@@ -357,11 +357,11 @@
                   <seg> ولسان الحق شكوه فعي!</seg>
                </l>
             </lg>
-            <p change="#d2e73">بغداد: مصطفى جواد
+            <byline change="#d2e219">بغداد: مصطفى جواد
 <pb n="n8-p15" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4563.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الدواخل والكواسع في العربية</head>
@@ -663,11 +663,11 @@
                <hi style="color:red;">8 - </hi>إصلاح الأوهام الواردة في المقال</p>
             <p change="#d2e73">في صفحة 625 س 20 رستم زاد والصواب رستم زال وفي س 21 الونكوهي والصواب الوندكوهي انتسابا إلى جبل آلوند في إيران وفي س 23 فلامرزو والصواب فرامرز وفي س 25: والذين لهم اطلاع تام على الفارسية يقولون أن لهؤلاء الأبطال كتبا مطبوعة بالفارسية. قلنا: أن الكتب المذكورة ليست من وضع أنفسهم وإنما هي لغيرهم ذكر أصحابها سيرة الأبطال المشار إليهم. ثم أن هذه الكتب لا تذكر سيرتهم عن حقيقة وإنما تذكرها بصورة رواية موضوعة كما يفعله أبناء العصر. وفي ص 626 س 1: ويسمون الكتب التي فيها تواريخ الأبطال شاهنامه (والفصحاء يكتبون شاه نامه) قلنا: لم يسم كتاب (عدا</p>
             <p change="#d2e73">كتاب الفردوسي الشاعر) بالشاه نامه.</p>
-            <p change="#d2e73">محمد مهدي العلوي
+            <byline change="#d2e219">محمد مهدي العلوي
 <pb n="n8-p42" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4590.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>لواء الكوت</head>
@@ -740,11 +740,11 @@
                <hi style="color:red;">1 - </hi>في لغة العرب 617: 7 شاه إسماعيل بن حيدر الصفوي الحسني والصواب الحسيني لأن الشاه إسماعيل يتصل نسبه بالإمام موسى الكاظم (ع) ومنه بالإمام الحسين بن علي (ع).</p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>في لغة العرب المحبوبة (740: 7) في ربيع الأول هذا هو الأفصح هذا هو الأفصح فالشهر مقدر وحذف المضاف عادة عند الفصحاء كما في قوله تعالى (واسأل القرية) أي واسأل أهل القرية.</p>
-            <p change="#d2e73">محمد مهدي العلوي
+            <byline change="#d2e219">محمد مهدي العلوي
 <pb n="n8-p48" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4596.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>فوائد لغوية</head>
@@ -811,11 +811,11 @@
                   <seg> كثرة ما توصي وتعاد الرتم</seg>
                </l>
             </lg>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n8-p52" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4600.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
@@ -881,11 +881,11 @@
             <p change="#d2e73">
                <hi style="color:red;">8 - </hi>كنت قد خطأت في (634: 7) من قال (قصدها الناس. . . للاستشفاء لهذه الغاية) لزيادة في قوله لا وجه لها فأشعرتموني - أيها الأب العزيز - أنه توكيد وأرى أن قوله (لهذه الغاية) بعد ذكره (للاستشفاء) هو إبهام للاستشفاء لا توكيد له، فأنه لا يزيده وضوحاً ولا إثباتاً فضلاً على أنه يحتاج إلى متعلق ولا متعلق له بيد أننا لا نمنع أن يقال (لهذه الغاية للاستشفاء) على البدلية لا على التوكيد، وبتقديم المبهم على الموضح لا بالعكس. ومن أدلتكم (لا ولى رجل ذكر) وقد قال الزمخشري في الأساس (امرأة أنثى للكاملة من النساء كما يقال رجل ذكر للكامل)</p>
             <p change="#d2e73">له بقية</p>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n8-p57" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4605.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أسئلة وأجوبة</head>
@@ -1123,11 +1123,11 @@
             <p change="#d2e73">
                <hi style="color:red;">10 - </hi>وذكر في ص15 (أرقعها بسبت وأخصفها بهلب) وفي ص42 ومن جمهرة أشعار العرب من طبعة الاتحاد المصري (أرقعها بسبت واخصفها بعلب قال أبو زيد القرشي (والعلب: السير الذي لم يجد دبغه) وفي هذه الصفحة من الأغاني (أني أتيتك مستحملاً ولم آتيك مستوصفاً) وفي تلك الصفحة، الجمهرة (جئتك مستعطياً لا مستوصفاً)</p>
             <p change="#d2e73">له بقية</p>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n8-p76" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4624.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تاريخ وقائع الشهر في العراق وما جاوره</head>
@@ -1147,7 +1147,7 @@
             <p change="#d2e73">جاء المعتمد السامي الجديد راكباً الطيارة مع قرينته وابنته في الساعة الثالثة بعد الظهر 10ك1 (ديسمبر) سنة 1929 فرحب به الناس على اختلاف طبقاتهم.</p>
             <p change="#d2e73">
                <hi style="color:red;">3 - </hi>خطرات الرصافي</p>
-            <p change="#d2e73">نشر الأستاذ الرصافي في</p>
+            <byline change="#d2e219">نشر الأستاذ الرصافي في</byline>
          </div>
          <div change="#d2e64" type="item">
             <head> العدد </head>

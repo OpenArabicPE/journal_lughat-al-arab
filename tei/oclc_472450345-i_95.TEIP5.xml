@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 95</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1931-10-01">1931-10-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1931-10-01">1931-10-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المشعشعيون ومهديهم</head>
@@ -877,11 +877,11 @@
                   <seg> يذر التعصب في العراق مبارا؟</seg>
                </l>
             </lg>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n9-p740" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P6082.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>كنوز هيكل أدب</head>
@@ -943,11 +943,11 @@
             <p change="#d2e73">ورد في هذه المجلة 6: 29 س 25: (27 رجب هو الأيام المعتبرة لدى الطائفة الجعفرية)، قلنا: لأنه يوم بعث فيه محمد بن عبد الله صلى الله عليه وآله وسلم بالنبوة.</p>
             <p change="#d2e73">وفي ص 32 س 8 (وإذا ذكر صاحب الزمان يقوم الناس على أقدامهم ويقولون: (عجل بالظهور يا صاحب الزمان)) (كذا)، والصواب: وإذا ذكر صاحب الزمان واسمه (القائم) يقوم الناس على أقدامهم وربما قال بعضهم: (عجل بالظهور يا صاحب الزمان) أو ما يقارب معناه.</p>
             <p change="#d2e73">وفي ص 91 س 1: (أكر خسته جاني) الخ ثم فسر الكاتب هذه العبارة بقوله: إذا كنت مريضاً (كذا). وخسته جان ليس بمعنى المريض بل هو الضجر لأن (خسته) بالفارسية معناه التعبان وجان معناه الروح فيكون المراد تعب الروح وهو غير المريض.</p>
-            <p change="#d2e73">محمد مهدي العلوي
+            <byline change="#d2e219">محمد مهدي العلوي
 <pb n="n9-p748" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P6090.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أصل اليزيدية وتاريخهم</head>
@@ -1329,7 +1329,7 @@
             <p change="#d2e73">
                <hi style="color:red;">81 - </hi>ونانة حمرا</p>
             <p change="#d2e73">يقال أن سبب تسميتها هو أن آكلها يتذكرها طول عمره حتى أنه ليئن (وبلسانهم يون) لكونه لا يجد مثل حلاوتها في ثمر من أثمار الأشجار. والونان: الانان.</p>
-            <p change="#d2e73">ب. م. م</p>
+            <byline change="#d2e219">ب. م. م</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>البحر الأحمر لا بحر القلزم</head>
@@ -1358,7 +1358,7 @@
 
 الفارسي (كذا) نحواً من سنتين.</p>
             <p change="#d2e73">وعند الصديق العزيز المحقق يعقوب سركيس مخطوط بالفارسية في تاريخ المشعشعيين لنور الدين بن نعمة الله الموسوي (راجع 8: 508) من لغة العرب، ولعلي باشا كتاب ألفه في غزواته من بغداد إلى سجاد، ومشعشع، في سنة 992 وهو كتاب مختصر في مجلد سماه ظفر نامة راجع (5: 303، 304) من لغة العرب.</p>
-            <p change="#d2e73">مصطفى جواد</p>
+            <byline change="#d2e219">مصطفى جواد</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الدوالي أو العريش</head>
@@ -1477,11 +1477,11 @@
                <hi style="color:red;">1 - </hi>قد مر شيء منها وقد وضع (جمال الدين أبا غانم محمد المذكور في صفحة 19 بين أبي (جرادة) و (الجرمي) ثم ذكره بعد ابن (جلباب) لصفحة 33 وكلاهما واحد.</p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>هشام بن معاوية الضرير ذكر في ص 83 بسطر (11) وهو في سطر (12).</p>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n9-p779" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P6121.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
@@ -1508,11 +1508,11 @@
             <p change="#d2e73">نظرات</p>
             <p change="#d2e73">جاء في 6 ص 92 س9 (احمد بن الحسن بن الحر العاملي) والصواب احمد ابن الحسن الحر العاملي. فأسرة الحر من الأسر الشيعية في جبل عامل بسورية يعرف كل من أبنائها بالحر ويقال أنها تمت بنسبها العريق إلى الحر بن يزيد الرياحي شهيد الطف فحينئذ لا يصح أن نقول: الحسن بن الحر إذ أن الحسن هو ابن علي ابن محمد وليس بابن الحر.</p>
             <p change="#d2e73">وفي 6ص 96 س9 (خزانة كتب النجف آبادي) والنجف آبادي هو الحاج الملا علي محمد النجف آبادي وخزانة كتبه معروفة ب (الحسينية) (عن مجلة المرشد 4: 283). وفي الصفحة المذكورة س25: (ايالة كردستان الإيرانية) وليس في إيران سوى أربع ايالات: (1) ايالة آذربيجان (2) ايالة خراسان (3) ايالة فارس (4) ايالة كرمان. أما كردستان فهي ولاية (انظر كتاب أصول علم جغرافيا للميرزا عبد الرزاق خان السرتيب ص 50 والكتاب مطبوع في طهران في سنة 1328هـ).</p>
-            <p change="#d2e73">محمد مهدي العلوي
+            <byline change="#d2e219">محمد مهدي العلوي
 <pb n="n9-p781" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P6123.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أسئلة وأجوبة</head>

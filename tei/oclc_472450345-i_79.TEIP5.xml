@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 79</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1930-04-01">1930-04-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1930-04-01">1930-04-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الفتوة والفتيان قديما</head>
@@ -1012,7 +1012,7 @@
 في 8 حزيران 1896 وانتقل إلى دار البقاء في 14 يناير 1907.</p>
             <p change="#d2e73">6. (محمد علي) ولد في سنة 1289 (1872) وملك في 19 يناير سنة 1907 واستعفى في 16 يوليو 1909.</p>
             <p change="#d2e73">7. (احمد شاه) ولد في سنة 1898 وبلغ سن الرشد في 1914 وخلع وتوفي في هذا السنة.</p>
-            <p change="#d2e73">(أغلب هذه المقالة معرب عن معلمة الإسلام)</p>
+            <byline change="#d2e219">(أغلب هذه المقالة معرب عن معلمة الإسلام)</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>دار شيعان</head>
@@ -1069,11 +1069,11 @@
             <p change="#d2e73">أرسلنا بهذا الكلم على ما حضرتنا ونحن أول من يتهم نفسه بالخطأ ويقر به إذا ما رآه متبلجاً في سماء التحقيق الصاحية.</p>
             <p change="#d2e73">من الأوهام الشائعة</p>
             <p change="#d2e73">قال أحد الأدباء (وقد زود الوفد العراقي بكل التساهلات المقتضية وكل العطف) وقال أخطأ في قوله (المقتضية) والصواب (المقتضاة) أي اسم مفعول من (اقتضى) والأصل (مقتضية) بفتح الضاد والياء التي قلبت ألفا لانفتاحها وانفتاح ما قبلها. أما (المقتضية) أي اسم فاعل من ذلك الفعل فتستعمل في قولنا (التساهلات المقتضية للنجاح) بمعنى (المستوجبة للنجاح) لا غير.</p>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n8-p291" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4839.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
@@ -1604,11 +1604,11 @@
             <p change="#d2e73">
                <hi style="color:red;">32 - </hi>وجاء في ص223 (استوضعهم أو دعني اماكسهم فقد اشتطوا عليك) وفي أمالي</p>
             <p change="#d2e73">المرتضى 22: 2 (استوضعهم شيئاً أو دعني أماكسهم فقد استطولوا عليك) وفي هذه الصفحة من الأغاني (ومن ملح الدنيا أن تم الصدع بين عمر والثريا) وفي تلك الصفحة من أمالي المرتضى (ومن ملح الدنيا أن يلتئم الصدع بين عمر والثريا)</p>
-            <p change="#d2e73">مصطفى جواد
+            <byline change="#d2e219">مصطفى جواد
 <pb n="n8-p312" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4860.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تاريخ وقائع الشهر في العراق وما جاوره</head>

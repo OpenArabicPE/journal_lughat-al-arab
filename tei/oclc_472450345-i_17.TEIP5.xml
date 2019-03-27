@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 17</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1912-11-01">1912-11-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1912-11-01">1912-11-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نبذة من عادات العراقيين المسلمين</head>
@@ -163,7 +163,7 @@
 
 
 في ما سلف أساتذة العالم ومهذبي أخلاق الشعوب وهكذا يكون الجهل فإنه كقدح السم من شرب منه أودى به.</p>
-            <p change="#d2e73">إبراهيم حلمي</p>
+            <byline change="#d2e219">إبراهيم حلمي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الماليسور</head>
@@ -253,7 +253,7 @@
 
 
 جدي العلامة الشريف اسعد الحيدري، مفتي بغداد، بماله ورجاله في أيام الوزير العلامة داود باشا (الذي ولي بغداد من سنة 1232 - 1244هـ - 1817 - 1828م) بعد أن كان مندرساً مدة طويلة وصار مقاطعة جسيمة. وكان في تصرفنا إلى الطاعون (1241 هـ - 1813م) ثم غصبنا إِياه علي رضا باشا والي بغداد من سنة 1246 - 1252 هـ 1830 - 1836م) وهو موجود إلى الآن، ألا أنه بعد غصبهِ</p>
-            <p change="#d2e73">منا آل إلى الخراب، لأن منفعته ليست كالأول. اهـ</p>
+            <byline change="#d2e219">منا آل إلى الخراب، لأن منفعته ليست كالأول. اهـ</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المرصاع أو الدوامة</head>
@@ -320,7 +320,7 @@
 الظاهر أن الأقدمين من الرومان واليونان لم يعرفوا من المرصاع ألا (الحنبوز) واسمه عند اليونان أي مخروط وأي مخروط صغير أي دائرةٌ بسرعة أو خذروف وعن الرومان أي بقسة أو قطعة خشب من بقسٍ لأن الحنبوز يخرط عندهم من البقس أي المتحرك سريعاً وكان السحرة عند هؤلاء الأقوام يتخذون في سحرهم شيئاً مستديراً يشبه المغزل أو الدوامة أو الخذروف أو الدولاب يكون من نحاس يسمونه (رُنبس) وزان هدهد والظاهر أن العرب عرفوا هذا النوع من اللعب منذ الاعصر القديمة لوروده في شعرهم القديم ولورود مرادفات لهُ عندهم.</p>
             <p change="#d2e73">وأما مخترعه فلا يعرف على التحقيق. - وقد أتينا على هذه المقالة لأن في هذا الشهر</p>
             <p change="#d2e73">يكثر العراقيون من اللعب بالمرصاع. فعسى أن يكون هذا اللهو مشفوعاً بالعلم! والسلام.</p>
-            <p change="#d2e73">حنا ميخا الرَّسام</p>
+            <byline change="#d2e219">حنا ميخا الرَّسام</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الفصاحة وكتاب العراق</head>
@@ -438,7 +438,7 @@
 (امحمله لهديفها عانيتي) يريد بذلك أنها مشحونة إلى أقصى طرفيها.</p>
             <p change="#d2e73">51: (الهمص). بضم الهاء والميم وفي الآخر صاد: خشبة تجمع العطوف عند المؤخر والمقدم في القياريات</p>
             <p change="#d2e73">كاظم الدجيلي</p>
-            <p change="#d2e73">نقد الجزء الثاني من</p>
+            <byline change="#d2e219">نقد الجزء الثاني من</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>كتاب تاريخ آداب اللغة العربية</head>

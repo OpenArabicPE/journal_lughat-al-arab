@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -501,11 +501,11 @@
             <p change="#d2e73">تقصد الفتاة التي تبغي بعلا أحد المساجد ومعها امرأة أو فتاة فتقصد الفتاة طالبة البعل</p>
             <p change="#d2e73">المنارة وتبقى الآخرة تحت المنارة فترمي الفتاة عباءتها أعلى المنارة إلى صاحبتها ثم ينظر إلى سقوطها فإذا انفتحت العباءة عند هبوطها قيل لها أنها ستتزوج وإلا ترجع نادمة يائسة إلى أهلها.</p>
             <p change="#d2e73">وفي بغداد تقصد الفتاة مرقد الشيخ عبد القادر الجيلي (الكيلاني) وتأخذ معها قفلا ومفتاحا فتربط ثوبها بالقفل ثم تضع بجانبها شيئا قليلا من السكر وتحبس في فناء المرقد فيجيء أحد الرجال ويفتح القفل بالمفتاح ثم يأخذهما مع ما لديها من السكر فيكون ذلك علامة لزوال الموانع التي تحول دون الحصول على بعل فتسر بقرب الفرج.</p>
-            <p change="#d2e73">أحمد حامد الصراف
+            <byline change="#d2e219">أحمد حامد الصراف
 <pb n="n5-p271" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2505.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>تاريخ الطباعة العراقية</head>
@@ -552,7 +552,7 @@
 
 بولس بدارو الكلداني أستاذ اللغة الكلدانية في المدرسة الكلدانية في المدرسة الأكليريكية الكلدانية بالموصل طبع سنة 1923 ص80.</p>
             <p change="#d2e73">(10) طقس الخدمة الكنيسة للأيام العادية من كتاب (دقدام ودوثار) باللغة الكلدانية في مجلد ضخم طبع سنة 1925 ص366.</p>
-            <p change="#d2e73">رفائيل بطي</p>
+            <byline change="#d2e219">رفائيل بطي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أصل علامة الفصل عند الغربيين</head>
@@ -1477,11 +1477,11 @@
             <p change="#d2e73">كانت تجتمع أسرة (عائلة) شلمان كرادو يوميا للأكل معا إلا أن النساء يعتزلن الرجال في المآدب.</p>
             <p change="#d2e73">شبت شميرام في ذلك البيت أليفة الدلال وحليفة الشرف تقضي معظم أوقاتها في البطالة ومحادثة جاراتها من السطح وما كانت تترك السطح إلا إذا اشتدت حرارة الشمس وتعود إليه عند الشمس إلى المغيب وكانت تزور أحيانا صديقاتها في بيوتهن أو تذهب إلى التنزه أو إلى الهيكل للصلاة وقلما تعاني مشقة أشغال البيت مثل بنات الأوساط أو الفقراء. وعندما يضيمها الضجر ويلحقها السأم تعمد إلى الخياطة والتطريز وكانت حياتها على هذا الطرز من الفقر والكسل شأن كل بنات بابل المترفهات الناعمات.</p>
             <p change="#d2e73">لما صارت شميرام في فناء الدار رفعت نقابها وعمدت إلى كوز (تنكة) كانت معلقة بجسر الممشى وارتشفت الخمرة التي كانت فيها حتى ثمالتها واتجهت توا إلى غرفتها ومدت الحصير على الأرض واستندت إلى الوسائد الناعمة ثم أطلقت نفسها للهواجس.</p>
-            <p change="#d2e73">يوسف غنيمة
+            <byline change="#d2e219">يوسف غنيمة
 <pb n="n5-p293" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2527.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>فوائد لغوية</head>
@@ -1599,11 +1599,11 @@
             <p change="#d2e73">محمود الملاح</p>
             <p change="#d2e73">الثياب الإفرنجية في العراق</p>
             <p change="#d2e73">لبس الرجال للثياب الإفرنجية لم يدخل بغداد إلا في أواسط القرن التاسع عشر للميلاد. فليحفظ التاريخ.</p>
-            <p change="#d2e73">ديرنرسيس صائغيان
+            <byline change="#d2e219">ديرنرسيس صائغيان
 <pb n="n5-p302" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P2536.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>أسئلة وأجوبة</head>

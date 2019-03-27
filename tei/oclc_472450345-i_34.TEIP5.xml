@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -179,7 +179,7 @@
             <p change="#d2e73">
                <hi style="color:red;">17 - </hi>الوجهة السياسية</p>
             <p change="#d2e73">يقول المعترضون إن المشاغب والقلاقل لم تزل تظهر في أطراف المنتفق والعمارة وتحتاج الحكومة إلى سوق العساكر وإرسال ما يحتاج إليها فكيف تحمل البواخر الأجنبية الأدوات؟ وماذا يكون مصرفها؟ قلنا: أفيظن هؤلاء في أنفسهم أنهم أعقل ممن بيده زمام أمور الدولة؟ أفلا يخطر على باب أولئك الدهاة الصناديد والساسة المحنكين هذه الملاحظة البسيطة؟ على أني أقول: بينما نرى الآن تحت أمرها أربع بواخر ستكون بعد ذلك عشر بل أكثر. وبالطبع يستطيع مالك العشر من نقل ما يريده بأسرع من مالك الأربع. وأما الأجرة أفلا يعلم المعترضون إن العساكر والذخائر إن نقلت مجاناً على البواخر العثمانية يؤخر نقلها الأموال التي يؤخذ عنها أجرة ولولا هي لدخلت الأجرة الصندوق. فالأجرة هي مدفوعة على كل حال إما عيناً وأما بتحويل ضرر أو خسارة تقابلها. فما الفرق حينئذ؟ - قلنا الفرق هو تكثير البواخر وسرعة النقل. فإن كان ذلك عيباً - فلا نحير جواباً!</p>
-            <p change="#d2e73">ع. ن</p>
+            <byline change="#d2e219">ع. ن</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>بيت النمنومي أو بيت جرجية</head>
@@ -416,11 +416,11 @@
                   <seg> خلق الدهر للكرام خصيما</seg>
                </l>
             </lg>
-            <p change="#d2e73">إبراهيم منيب الباجه جي
+            <byline change="#d2e219">إبراهيم منيب الباجه جي
 <pb n="n3-p637" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1588.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الأسطول الطيار</head>
@@ -782,7 +782,7 @@
                   <seg> ومن الفرض طاعة السلطان</seg>
                </l>
             </lg>
-            <p change="#d2e73">مثل بن ناصر الحلي</p>
+            <byline change="#d2e219">مثل بن ناصر الحلي</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>نبذة من تاريخ بغداد والبصرة والمنتفق</head>
@@ -901,7 +901,7 @@
 إسلامبول مخصوص بموجب خط شريف لنظام وترتيب كافة بلاد العثمانلي ومشى بقوة من العساكر وهو مصرف ومفوض في العزل والنصب ولذلك جميع الدراباكية الذين في طريق إسلامبول منهم من قتلهم ومنهم عزلهم ومنهم من ثبتهم وربح تلك الأقطار من الحكام الجائرين على الرعاية حتى انتهى إلى أورقة وأعطى</p>
             <p change="#d2e73">نظامها بقتل جملة من سخطها - كذا) المتضربنين (كذا) وفي أوائل شهر ج (جمادي الأخرى) سنة 1229 جانا خبر للبصرة أنه وصل قريب الموصل والقول عنه أنه قاصد عرب المنتفق الذي وصلت أخبارهم إلى الدولة في عظم دولتهم وبهتهم مال هبد الله باشا ومن هنا ينتج بأن اسعد باشا استدعى حمود لأملا ما والله اعلم.</p>
             <p change="#d2e73">تمت:</p>
-            <p change="#d2e73">نشرها يعقوب نعمة الله سركيس</p>
+            <byline change="#d2e219">نشرها يعقوب نعمة الله سركيس</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المذاكرة والمكاتبة</head>

@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -85,7 +85,7 @@
       <body>
          <div change="#d2e64" type="item">
             <head>العدد 62</head>
-            <p change="#d2e73"> - بتاريخ: <date when="1928-08-01">1928-08-01</date></p>
+            <byline change="#d2e219"> - بتاريخ: <date when="1928-08-01">1928-08-01</date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الأب جوزيف بوشان</head>
@@ -342,7 +342,7 @@
 
 شعراء الجاهلية أدركوا مقام التبريز بين شعراء العرب لما تميزوا به من متانة التراكيب واستقامة الأساليب والاضطلاع من إخراج المعاني الكثيرة بالألفاظ اليسيرة إلا وهم حاملو لوائه وموطدو بنائه. هذا مع بعدهم من</p>
             <p change="#d2e73">سخف الكلام وهجنة التكلف ولا غرو فالكلام رهن خواطرهم والفصاحة أمة مقاولهم).</p>
-            <p change="#d2e73">بركات (السودان): ميشيل سليم كميد</p>
+            <byline change="#d2e219">بركات (السودان): ميشيل سليم كميد</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>الدوشنة</head>
@@ -487,7 +487,7 @@
             <p change="#d2e73">وإما ناحية جرف الصخر فمجموع مقاطعات تراجع المدير في شؤونها.</p>
             <p change="#d2e73">وإما شعبة المسيب فداخله في مركز القضاء وترى معاملات العشائر.</p>
             <p change="#d2e73">وعلى بعد عشرة أميال عن المسيب في وجهة الجنوب أقيم (ناظم) الفرات الكبير (أي ناظم سدة الهندية) الذي سبقنا فبحثنا عنه بحثا مسهبا فيه هذه المجلة (6: 12).</p>
-            <p change="#d2e73">بغداد: السيد عبد الرزاق الحسني</p>
+            <byline change="#d2e219">بغداد: السيد عبد الرزاق الحسني</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>السلطان مراد الرابع في بغداد</head>
@@ -550,7 +550,7 @@
             <p change="#d2e73">
                <hi style="color:red;">11 - </hi>الواحد القهار لا شريك له.</p>
             <p change="#d2e73">انتهى الرقيم. والأرض لله يورثها من يشاء من عباده.</p>
-            <p change="#d2e73">حيفا (فلسطين): عبد الله مخلص</p>
+            <byline change="#d2e219">حيفا (فلسطين): عبد الله مخلص</byline>
          </div>
          <div change="#d2e64" type="item">
             <head>المنجد وما فيه من الأوهام</head>
@@ -565,11 +565,11 @@
             <p change="#d2e73">ففي كلام المنجد تقصير، ولعل أصل اصطلاح السلف: أن الإنسان إذا ضرب مقدم عظم ساقه تألم وهاج مثارا بسورة الغضب.</p>
             <p change="#d2e73">
                <hi style="color:red;">2 - </hi>وقال في (الجزارة): أطراف ما يجزر اعني اليدان والرجلان والرأس. أهـ. فأقول: إنه رفع المفعول به والصواب أن يقول: (أعني اليدين والرجلين والرأس).</p>
-            <p change="#d2e73">الكاظمية: مصطفى جواد
+            <byline change="#d2e219">الكاظمية: مصطفى جواد
 <pb n="n6-p587" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3461.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>محراب جامع الخاصكي</head>
@@ -792,11 +792,11 @@
             <p change="#d2e73">
                <hi style="color:red;">30 - </hi>فلك النجاة لبعض علماء كلبايكان.</p>
             <p change="#d2e73">هذه هي الكتب الخطية الموجودة في خزانة العالم الكبير الحاج الشيخ محمد باقر البيرجندي. وسنذكر في جزء آت بعض الخزائن الأخرى أن شاء الله تعالى.</p>
-            <p change="#d2e73">سبزوار (إيران): محمد مهدي العلوي
+            <byline change="#d2e219">سبزوار (إيران): محمد مهدي العلوي
 <pb n="n6-p594" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3468.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>فوائد لغوية</head>
@@ -853,11 +853,11 @@
             <p change="#d2e73">
                <hi style="color:red;">3 - </hi>وقالوا (ما) نكرة تامة مضاف إليها والمبتدأ المحذوف والخبر الموجود صفة لها. قلت هذا لا يجوز أبدا فأبن أبي الحديد قال (لاسيما وقد ثبت) فأين الخبر حتى نقدر له مبتدأ؟ ولو قدرنا كليهما فما معنى (لا مماثل موجود هو الأمر وقد ثبت)؟ فالصواب ما قلت وما قدرت آنفا.</p>
             <p change="#d2e73">(4) - وقالوا (أن الاسم الواقع بعد (لاسيما) يكون مضافا إليه إذا كان نكرة باعتبار (ما) زائدة وسي مضافا. قلت ذلك جيد ولكنه لا يمكن تطبيقه في كل الأحوال ولذلك نعود إلى التبلبل بإثباته. وقولنا: (ولا مثيل ليوم بدارة جلجل) أصح من قولنا: (ولا مثيل ليوم بدارة جلجل موجود). ومن جعله (تمييزا) فهو متبلبل أيضاً لأن خير قاعدة ما كانت عامة منطبقة على جزيئاتها تمام الانطباق، أضف إلى ذلك إنه غير مألوف لبعده عن الصواب.</p>
-            <p change="#d2e73">الكاظمية: مصطفى جواد
+            <byline change="#d2e219">الكاظمية: مصطفى جواد
 <pb n="n6-p598" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3472.xhtml"/>
 
 
-            </p>
+            </byline>
          </div>
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
