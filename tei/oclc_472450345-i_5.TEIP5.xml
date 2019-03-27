@@ -58,9 +58,9 @@
                             <imprint xml:lang="ar">
                                 <publisher/>
                                 <pubPlace xml:lang="ar">
-                                    <placeName xml:lang="ar" ref="geon:98182">بغداد</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:98182">Baghdād</placeName>
-                                    <placeName xml:lang="en" ref="geon:98182">Baghdad</placeName>
+                                    <placeName xml:lang="ar" ref="oape:place:216 geon:98182" change="#d5e244">بغداد</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="oape:place:216 geon:98182" change="#d5e244">Baghdād</placeName>
+                                    <placeName xml:lang="en" ref="oape:place:216 geon:98182" change="#d5e244">Baghdad</placeName>
                                 </pubPlace>
                                 <date datingMethod="#cal_islamic" when-custom="1329-07-01" when="1911-06-30"/>
                             </imprint>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d5e244" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -107,7 +107,7 @@
 
 وفي السور أيضاً بابان بكبر البابين المذكورين في الحائط الذي يكون عن يسارك إذا دخلت الباب الأكبر. وفي ركن الحائط المذكور من الجانب الآخر باب صغير يعلو الرجل بنصف متر ويقابله باب مثله.</p>
             <p change="#d2e73">وفوق كل باب منهما في راس الحائط روزنتان نافذتان إلى الجهة الأخرى بقدر المشاكي المتقدم ذكرها في الطول والعرض.</p>
-            <p change="#d2e73">وأما فناء المسجد فهو اليوم عبارة عن أنقاض ركام لا غير. إلا أن الدكتور العلامة هرتسفلد كشف تراب جانب منه فأنحسر عن آثار الفوارة التي مر ذكرها واثر رواق. والفناء كله مفروش بالطاباق أو الآجر وقدر ذلك الطاباق هو قدر الآجر المستعمل اليوم في بغداد أي طوله وعرضه (30) سنتيمتراً. وربما كان الطاباق سامراء أكبر بقليل لكنه دون اجر بغداد ثخناً.</p>
+            <p change="#d2e73">وأما فناء المسجد فهو اليوم عبارة عن أنقاض ركام لا غير. إلا أن الدكتور العلامة هرتسفلد كشف تراب جانب منه فأنحسر عن آثار الفوارة التي مر ذكرها واثر رواق. والفناء كله مفروش بالطاباق أو الآجر وقدر ذلك الطاباق هو قدر الآجر المستعمل اليوم في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> أي طوله وعرضه (30) سنتيمتراً. وربما كان الطاباق سامراء أكبر بقليل لكنه دون اجر <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> ثخناً.</p>
             <p change="#d2e73">ومما اكتشفه الدكتور المذكور دكة (أي دكان) قدام الباب الأصلي من الخارج علوها متر ونصف وطولها متران في عرض متر ونصف. وعند الدكان من الخارج قبر طوله ثلاثة أمتار وعرضه متر ونصف. ويظن إنه أطول مما يشاهد لان طرفه داخل تحت الردم.</p>
             <p change="#d2e73">وبينه وبين المصطبة زهاء مترين. ووراء ذلك القبر من الخارج على مسافة (10) أمتارٍ سرداب عمقه (10) أمتار غير أن فيه أنقاضاً كثيرة ولا يعرف مقدار عمقه الأصلي.
 <pb n="n1-p165" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P165.xhtml"/>
@@ -200,7 +200,7 @@
             <p change="#d2e73">ثم إني ما زلت ابحث عن هذه اللفظة لأعرف اصلها ومأتاها فلم اقف على ما فيها من غامض السر إلا في هذه الأيام. وهذا أيضاً من باب التخرص لا من باب التأكيد.</p>
             <p change="#d2e73">أما الواسطة التي اتخذتها للبلوغ إلى غايتي فكانت مقابلة ألفاظ أهل البلاد بعضها ببعض وبما ينطقون في مثل هذه الأحوال.</p>
             <p change="#d2e73">فان أهل الموصل يقولون (جت الدامي) أي جاءت الدامي. ومرادهم بالدامي أو الدامية السعلاة أو شبهها، وطعامها دم ابن ادم، تعضه من موطن من جسده ثم تشرب دمه. والظاهر أن اللفظة صحيحة لان أهل العراق يعرفون أيضاً الدامي ويعنون بها أنثى الغول. والبين أن اللفظ فصيح، وفعل دماه بمعنى أدماه أي أسال دمه قديم، لان الفصحاء يقولون: (الشجة الدامية) ويردون بها الشجة التي تدمي ولا تسيل. فتكون الدامي بمعنى الدامية وفاعل بمعنى فاعلة كثير الورود في كلام العرب ككاعب وناهد وحائض وعارك وهاجن. وعليه فيكون قولهم جاءت الدامي كقولك جاءت السعلاة.</p>
-            <p change="#d2e73">والمسلمون في بغداد يقولون لولدانهم: جاك الواوي، (أي جاءك ابن آوى)، جاك الذيب، (أي جاءك الذئب)، جاك السبعطلان، (أي جاءك السبتلان)، (وهو عامل السلال من نصارى النساطرة يأتي إلى بغداد من كردستان في أيام الشتاء ليكسب دريهمات من عمل لسلال ويرجع بها إلى
+            <p change="#d2e73">والمسلمون في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> يقولون لولدانهم: جاك الواوي، (أي جاءك ابن آوى)، جاك الذيب، (أي جاءك الذئب)، جاك السبعطلان، (أي جاءك السبتلان)، (وهو عامل السلال من نصارى النساطرة يأتي إلى <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> من كردستان في أيام الشتاء ليكسب دريهمات من عمل لسلال ويرجع بها إلى
 <pb n="n1-p172" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P172.xhtml"/>
 
 
@@ -471,7 +471,7 @@
 
 
 من هؤلاء الأنذال مقلقي راحة العموم. والتحقيق جار في تتبعهم والاقتصاص منهم والضرب على أيديهم واستئصال شافتهم.</p>
-            <p change="#d2e73">(غرق سفن جسر بغداد) يعلم القراء أن جسر بغداد الأكبر واقف أو ممتد على سفن أو زوارق تسمى جساريات مفردها جسارية (أي حاملة الجسر). ففي الساعة 7 من نهار السبت 9 أيلول أخذت سفينة من هذه السفن بالرسوب في قعر دجلة بعد أن امتلأ جوفها من الماء ولما بدأت بالغوص تصايح من كان على الجسر وعلى الشاطئ استنجاداً وتخلصاً فلم يكن هناك من مجيب. وكان سائر السفن حسدت أختها البكر فتسابقت في الهبوط في قعر الماء، وعلى هذا الوجه غرقت خمس منها في مدة ساعتين أو تزيد على هذه المدة قليلاً. أفلا يحسن بعد هذا أن يمد على دجلة جسر من حديد كجسر الخر حتى يأمن الناس على نفوسهم.</p>
+            <p change="#d2e73">(غرق سفن جسر <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName>) يعلم القراء أن جسر <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> الأكبر واقف أو ممتد على سفن أو زوارق تسمى جساريات مفردها جسارية (أي حاملة الجسر). ففي الساعة 7 من نهار السبت 9 أيلول أخذت سفينة من هذه السفن بالرسوب في قعر دجلة بعد أن امتلأ جوفها من الماء ولما بدأت بالغوص تصايح من كان على الجسر وعلى الشاطئ استنجاداً وتخلصاً فلم يكن هناك من مجيب. وكان سائر السفن حسدت أختها البكر فتسابقت في الهبوط في قعر الماء، وعلى هذا الوجه غرقت خمس منها في مدة ساعتين أو تزيد على هذه المدة قليلاً. أفلا يحسن بعد هذا أن يمد على دجلة جسر من حديد كجسر الخر حتى يأمن الناس على نفوسهم.</p>
             <p change="#d2e73">(إصدار الخيل إلى بلاد الأجانب) كانت الحكومة قد منعت منعاً باتاً المتاجرين بالخيل العراب إصدارها إلى الديار الأجنبية، ولا سيما إلى ديار الهند، فلما درى بهذا المنع أرباب الخيل اخذوا يرسلونها على الطريق بدلا من إرسالها في البواخر فهم يذهبون بها إلى</p>
             <p change="#d2e73">البصرة فالزبير فالكويت أو المحمرة ومن هناك تنزل في مراكب البحر لتباع في الهند. وهكذا خسرت الحكومة وإدارة المراكب وإدارة المكس (الكمرك) ما تستوفيه من إصدار الخيل. فقد قيل أن في الأسبوع الأول من أيلول سار الباعة بستمائة راس من الجياد عن طريق البر، فالأمل من الحكومة أن تسعى ف إصلاح هذا الخلل المضر بها
 <pb n="n1-p199" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P199.xhtml"/>
@@ -479,8 +479,8 @@
 
 وبأهل الوطن.</p>
             <p change="#d2e73">(صحن الشعلان) اظهر هذا الشيخ سوء نياته في ما آتاه وأجترحه من المنكرات كالعصيان على الدولة وآبائه دفع الزكاة والهجوم على البريد وقطع الطرق وتهييج العشائر على الحكومة ونهب أموال التجار والقوافل وابتداعه رسوماً جديدة لنفسه لم يسبقه إليها أحد إلى آخر ما جاء به، فسعت الحكومة في تعبئة الجيوش لكبح جماحه وردعه عن غيه فلما علم الشيخ بهذا النبأ، نهض مع عشيرته الخزاعل ونزل في عشيرة بني قحيم والبدور وسوف نرى ما تكون النتيجة.</p>
-            <p change="#d2e73">(زوال الهيضة) زالت الهيضة من بغداد وأنفذ مجلس المعارف وإدارة الصحة إلى أصحاب المدارس أمراً بفتح المكاتب، ففتح كثير منها في أوائل تشرين الأول.</p>
-            <p change="#d2e73">(تأثير معالنة إيطالية بالحرب للدولة العثمانية) في اليوم 29 من شهر أيلول أعلنت إيطالية الحرب للدولة العثمانية فاحدث هذا النبأ في بغداد والعراق بأسره هزة أشبهت الهزة الكهربائية واظهر المسلمون من التحمس الوطني والحمية العثمانية ما لا مثيل له وقد عقدت عدة مجالس ومجامع وخطب فيها مصاقع الخطباء وفي مقدمتهم والي الولاية فاظهر السامعون من حسن الالتفات والإجابة ما دفع أكثرهم إلى بذل المال والتطوع في خدمة الوطن العزيز. حقق الله الأماني ونصر المظلوم على الظالم، وكفى به نصيرا.</p>
+            <p change="#d2e73">(زوال الهيضة) زالت الهيضة من <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> وأنفذ مجلس المعارف وإدارة الصحة إلى أصحاب المدارس أمراً بفتح المكاتب، ففتح كثير منها في أوائل تشرين الأول.</p>
+            <p change="#d2e73">(تأثير معالنة إيطالية بالحرب للدولة العثمانية) في اليوم 29 من شهر أيلول أعلنت إيطالية الحرب للدولة العثمانية فاحدث هذا النبأ في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> والعراق بأسره هزة أشبهت الهزة الكهربائية واظهر المسلمون من التحمس الوطني والحمية العثمانية ما لا مثيل له وقد عقدت عدة مجالس ومجامع وخطب فيها مصاقع الخطباء وفي مقدمتهم والي الولاية فاظهر السامعون من حسن الالتفات والإجابة ما دفع أكثرهم إلى بذل المال والتطوع في خدمة الوطن العزيز. حقق الله الأماني ونصر المظلوم على الظالم، وكفى به نصيرا.</p>
             <p change="#d2e73">(ذكر تفصيل واقعة الديوانية) واجه أحد كتاب جريدة الزهور
 <pb n="n1-p200" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P200.xhtml"/>
 

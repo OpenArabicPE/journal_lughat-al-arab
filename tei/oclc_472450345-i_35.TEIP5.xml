@@ -58,9 +58,9 @@
                             <imprint xml:lang="ar">
                                 <publisher/>
                                 <pubPlace xml:lang="ar">
-                                    <placeName xml:lang="ar" ref="geon:98182">بغداد</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:98182">Baghdād</placeName>
-                                    <placeName xml:lang="en" ref="geon:98182">Baghdad</placeName>
+                                    <placeName xml:lang="ar" ref="oape:place:216 geon:98182" change="#d5e244">بغداد</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="oape:place:216 geon:98182" change="#d5e244">Baghdād</placeName>
+                                    <placeName xml:lang="en" ref="oape:place:216 geon:98182" change="#d5e244">Baghdad</placeName>
                                 </pubPlace>
                                 <date datingMethod="#cal_islamic" when-custom="1329-07-01" when="1911-06-30"/>
                             </imprint>
@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d5e244" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -112,7 +112,7 @@
 <pb n="n4-p3" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1627.xhtml"/>
 
 
-الربية سبعة غروش مصرية ونصف غرش. وذلك في بغداد وأما في خارج بغداد فخمس عشرة ربية. والجزء منها بربية ونصف.</p>
+الربية سبعة غروش مصرية ونصف غرش. وذلك في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> وأما في خارج <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> فخمس عشرة ربية. والجزء منها بربية ونصف.</p>
             <p change="#d2e73">9: مبادلات المجلة</p>
             <p change="#d2e73">نبادل مجلتنا أصحاب سائر المجلات، بل الجرائد العربية اليومية التي تظهر في البلاد الضادية اللسان ولا نقبل مبادلة الجرائد الإفرنجية.</p>
             <p change="#d2e73">10: لهذه المجلة إدارتان: الواحدة للتحرير والثانية للإدارة</p>
@@ -125,7 +125,7 @@
          <div change="#d2e64" type="item">
             <head>قرطاجنة</head>
             <p change="#d2e73">قرطاجة. قرية جونا أو دونا قرية حدشة. قرث حدشث</p>
-            <p change="#d2e73">أستأذنكم وأستأذن أخي وصديقي وتلميذي المحبوب أمين بك كسباني في نقل ساحة هذا البحث من سورية إلى العراق ومن بيروت إلى بغداد ومن الكلية إلى الحرية فأقول:</p>
+            <p change="#d2e73">أستأذنكم وأستأذن أخي وصديقي وتلميذي المحبوب أمين بك كسباني في نقل ساحة هذا البحث من سورية إلى العراق ومن بيروت إلى <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> ومن الكلية إلى الحرية فأقول:</p>
             <p change="#d2e73">1: بعض التمهيد</p>
             <p change="#d2e73">تأسست قرطاجنة سنة 869 قبل المسيح في حين لم تكن رومية بعد في حيز
 <pb n="n4-p4" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1628.xhtml"/>
@@ -297,7 +297,7 @@
 كثيرين من المستنيرين في هذا البلد نرى اثر إحدى هذه الثقافات فيه وقد يجمع بعضهم بين طريقتين فيكتسب الاثنتين في تكوين عقليته ونفسه.</p>
             <p change="#d2e73">وقد جمع المرحوم شكري الفضلي بين ثقافتين أهلية ورسمية، فتسنى له الوقوف على علوم الدين والعلوم العربية وبرع في اللغة التركية - لغة الحكم في ذلك العهد - فكانت له كوة اطل منها على الحضارة الغربية، في الكتب التركية المترجمة غالبا والمؤلفة نادرا في هذا الباب، كما أن رسه الكردي دفعه إلى العناية بتعلم الكردية إلى حد الإتقان بل قد أعلمني في حياته أنه نظم الشعر بهذه اللغة.</p>
             <p change="#d2e73">موجز ترجمته:</p>
-            <p change="#d2e73">ينتمي شكري الفضلي إلى أسرة كردية إلاَّ أنه قبل أن تنتعش القضية الكردية ويظهر لها شخصية في هذه الأيام كان قد استعرب حتى أنني لما سألته أن يسطر لي بوجيز الكلام ترجمة حياته الأولى كتب أنه عربي بغدادي ومنها علمت أنه ولد في بغداد سنة 1298 رومية (1882م) وتعلم في الكتاتيب والمدارس الأميرية.</p>
+            <p change="#d2e73">ينتمي شكري الفضلي إلى أسرة كردية إلاَّ أنه قبل أن تنتعش القضية الكردية ويظهر لها شخصية في هذه الأيام كان قد استعرب حتى أنني لما سألته أن يسطر لي بوجيز الكلام ترجمة حياته الأولى كتب أنه عربي بغدادي ومنها علمت أنه ولد في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> سنة 1298 رومية (1882م) وتعلم في الكتاتيب والمدارس الأميرية.</p>
             <p change="#d2e73">ولا اعلم بالتفصيل تربيته الأولى إلاَّ أنني عرفت منه أنه بعد أن حصل ما حصل في التعليم النظامي في المدارس الأهلية
 <pb n="n4-p23" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1647.xhtml"/>
 
@@ -309,8 +309,8 @@
 <pb n="n4-p24" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1648.xhtml"/>
 
 
-يوسف العالية في بغداد من سنة 1908 إلى سنة 1911، ولم تكن أشغاله اليومية لتحول بينه وبين القلم والكتاب فثابر على المطالعة والكتابة في الجرائد والمجلات، باللغتين العربية والتركية ونظم القصائد في اللغات الأربع التي يحسنها وقد نشر في (لغة العرب) جملة مقالات نفيسة عن الأكراد وبلادهم وأحوالهم حتى كانت الحرب العالمية فأضطهد مع من اضطهد من المفكرين والأحرار.</p>
-            <p change="#d2e73">وقد توظف بعد احتلال الإنكليز بغداد سنة 1917 رئيسا لكتاب محكمة الصلح فنظم أوراق المحاكمات باللغة العربية، ثم انتدب للتحرير في ثلاث جرائد أصدرتها السلطة العسكرية في بغداد (العرب) العربية و (إيران وظفر عراق) الفارسيتان و (تي كه يشتن راستي) الكردية. كما حرر بعد أن أوقفت هذه الجرائد في جديدة (الشرق) التي أصدرها في مدينة المنصور السيد حسين أفنان سنة 1921 مدة قصيرة وكاتب جريدة (العراق) بمقالات سياسية نحو عام. وعين عضوا في لجنة ترجمة القوانين العثمانية التي الفت في نظارة العدلية على عهد ناظرها السر بونهام كارتر في حكومة الاحتلال. وبعد أن تقلص ظل الحكم
+يوسف العالية في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> من سنة 1908 إلى سنة 1911، ولم تكن أشغاله اليومية لتحول بينه وبين القلم والكتاب فثابر على المطالعة والكتابة في الجرائد والمجلات، باللغتين العربية والتركية ونظم القصائد في اللغات الأربع التي يحسنها وقد نشر في (لغة العرب) جملة مقالات نفيسة عن الأكراد وبلادهم وأحوالهم حتى كانت الحرب العالمية فأضطهد مع من اضطهد من المفكرين والأحرار.</p>
+            <p change="#d2e73">وقد توظف بعد احتلال الإنكليز <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> سنة 1917 رئيسا لكتاب محكمة الصلح فنظم أوراق المحاكمات باللغة العربية، ثم انتدب للتحرير في ثلاث جرائد أصدرتها السلطة العسكرية في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> (العرب) العربية و (إيران وظفر عراق) الفارسيتان و (تي كه يشتن راستي) الكردية. كما حرر بعد أن أوقفت هذه الجرائد في جديدة (الشرق) التي أصدرها في مدينة المنصور السيد حسين أفنان سنة 1921 مدة قصيرة وكاتب جريدة (العراق) بمقالات سياسية نحو عام. وعين عضوا في لجنة ترجمة القوانين العثمانية التي الفت في نظارة العدلية على عهد ناظرها السر بونهام كارتر في حكومة الاحتلال. وبعد أن تقلص ظل الحكم
 <pb n="n4-p25" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1649.xhtml"/>
 
 
@@ -611,8 +611,8 @@
             <p change="#d2e73">ورئيس اليزيديين في جهات الشيخان ودهوك وزاخو هو سعيد بك ويقال أن وارداته</p>
             <p change="#d2e73">السنوية تربو على (60) ألف ربية.</p>
             <p change="#d2e73">وعدد اليزيديين التابعين لحكومة إروان الأرمنية في جهات اروان وكمري (الكسندروبول) (5) آلاف بيت أي (25) ألف نسمة على وجه التقريب. وقد فتحت لهم الحكومة هناك 11 مكتبا ابتدائيا.</p>
-            <p change="#d2e73">الطاعون في بغداد</p>
-            <p change="#d2e73">في بغداد بعض إصابات بالطاعون في كل يوم في هذا الشهر منها ما يشفى ومنها من يموت بها.</p>
+            <p change="#d2e73">الطاعون في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName></p>
+            <p change="#d2e73">في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> بعض إصابات بالطاعون في كل يوم في هذا الشهر منها ما يشفى ومنها من يموت بها.</p>
             <p change="#d2e73">بين الضفير وعنزة</p>
             <p change="#d2e73">روت (الأوقات العراقية) في البصرة أنه نظرا إلى وقوع الشقاق والخلاف بين قبيلتي عنزة والضفير ينتظر وقوع معارك دموية وغارات متبادلة بين الطرفين
 <pb n="n4-p51" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1675.xhtml"/>
@@ -636,12 +636,12 @@
 
 
 إنكليزيان في اسر الشيخ محمود الكردي</p>
-            <p change="#d2e73">الشيخ محمود الكردي شق عصا الطاعة على الحكومة في ما وراء السليمانية وقد نقلت جريدة (الأوقات البغدادية) البغداد تايمس في قسمها العربي أنه بينما كان سرب من الطيارات البريطانية الحربية قائما مؤدبا الشيخ محمود الكردي وهو حفيد كاكا احمد طرأ خلل على محرك طيارة من تلك الطيارات فاضطرت إلى النزول إلى الأرض وسرعان ما اقبل عليها رجال الشيخ محمود فاسروا الضابط دني (السائق) والضابط هيرست (الراكب)</p>
+            <p change="#d2e73">الشيخ محمود الكردي شق عصا الطاعة على الحكومة في ما وراء السليمانية وقد نقلت جريدة (الأوقات البغدادية) ال<placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> تايمس في قسمها العربي أنه بينما كان سرب من الطيارات البريطانية الحربية قائما مؤدبا الشيخ محمود الكردي وهو حفيد كاكا احمد طرأ خلل على محرك طيارة من تلك الطيارات فاضطرت إلى النزول إلى الأرض وسرعان ما اقبل عليها رجال الشيخ محمود فاسروا الضابط دني (السائق) والضابط هيرست (الراكب)</p>
             <p change="#d2e73">انفضاض الدورة الأولى</p>
             <p change="#d2e73">لمجلس الأمة</p>
             <p change="#d2e73">انفض مجلس الأمة العراقي لدورته الأولى في 14 حزيران 1926 وكان قد مدد مرتين.</p>
             <p change="#d2e73">غرفة الآثار البابلية</p>
-            <p change="#d2e73">احتفل جلالة الملك فيصل المعظم بافتتاح غرفة الآثار البابلية لدار الآثار العراقية المنتقلة إلى بنايتها الجديدة في مطبعة الحكومة في الدنكجية في بغداد في اليوم 14 من حزيران 1926 ومديرة الآثار الشرقية هي المس كرتروديل الكتوم الشرقية لدار الاعتماد البريطاني في بغداد.</p>
+            <p change="#d2e73">احتفل جلالة الملك فيصل المعظم بافتتاح غرفة الآثار البابلية لدار الآثار العراقية المنتقلة إلى بنايتها الجديدة في مطبعة الحكومة في الدنكجية في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> في اليوم 14 من حزيران 1926 ومديرة الآثار الشرقية هي المس كرتروديل الكتوم الشرقية لدار الاعتماد البريطاني في بغداد.</p>
             <p change="#d2e73">وقد نقلت إلى هذه الدار بعد أن كانت في أبنية دار الحكومة (السراي) كما نقلت إدارتها من</p>
             <p change="#d2e73">وزارة الأشغال والمواصلات إلى وزارة المعارف.</p>
             <p change="#d2e73">وزير الداخلية الجديد</p>
@@ -676,7 +676,7 @@
             <p change="#d2e73">مؤتمر مكة للخلافة ومستقبل البلاد الحجازية</p>
             <p change="#d2e73">احتفل في 8 حزيران 1926 بافتتاح ابن سعود سلطان نجد مؤتمر مكة فنظر في مسألة الخلافة ومستقبل البلاد الحجازية</p>
             <p change="#d2e73">ملكة الحجاز</p>
-            <p change="#d2e73">قدمت عاصمة العراق بغداد مساء الجمعة في 11 حزيران صاحبة الجلالة ملكة الحجاز وزوج الملك علي ملك الحجاز سابقا المقيم الآن في بغداد وقد استقبلت استقبالا جديرا بمقامها.</p>
+            <p change="#d2e73">قدمت عاصمة العراق <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> مساء الجمعة في 11 حزيران صاحبة الجلالة ملكة الحجاز وزوج الملك علي ملك الحجاز سابقا المقيم الآن في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> وقد استقبلت استقبالا جديرا بمقامها.</p>
             <p change="#d2e73">بين الإمام يحيى والإمام ابن سعود</p>
             <p change="#d2e73">كان الأخوان قد فتكوا بألفي حاج يماني ولهذا أوغر صدر الإمام يحيى حميد الدين وتوقع الناس أن تنشب الحرب بين الطرفين ولا سيما أن مذهبهم يختلف عن مذهب خصومهم.
 <pb n="n4-p55" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1679.xhtml"/>
