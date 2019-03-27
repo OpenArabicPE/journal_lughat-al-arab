@@ -71,26 +71,26 @@
                            when-custom="1329-07-01"
                            when="1911-06-30"/>
                             </imprint>
-                            <biblScope from="1" to="1" unit="volume"/>
-                            <biblScope from="1" to="1" unit="issue"/>
+                            <biblScope from="5" to="5" unit="volume" change="#d2e215"/>
+                            <biblScope from="6" to="6" unit="issue" change="#d2e215"/>
                             <!-- <biblScope from="505" unit="page">505</biblScope>-->
                         </monogr>
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-03-27"
+                 who="#pers_TG"
+                 xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
-         <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</gi>s.</change>
+         <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <gi xml:lang="en">tei:lb</gi> into <gi xml:lang="en">xml:p</gi>s.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="ar">
-      <pb xmlns:dc="http://purl.org/dc/elements/1.1/"
-          xmlns:html="http://www.w3.org/1999/xhtml"
-          xmlns:opf="http://www.idpf.org/2007/opf"
-          xmlns:xd="http://www.pnp-software.com/XSLTdoc"
+      <pb 
           n="n5-p321"
           ed="shamela"
           corresp="../epub/36540/OEBPS/xhtml/P2555.xhtml"/>
