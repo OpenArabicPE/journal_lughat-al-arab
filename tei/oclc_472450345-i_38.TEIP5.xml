@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-03-27" who="#pers_TG" xml:id="d5e244" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+      <revisionDesc><tei:change when="2019-03-28" who="#pers_TG" xml:id="d2e258" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-03-27" who="#pers_TG" xml:id="d5e244" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-03-27" who="#pers_TG" xml:id="d2e219">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e215">Added volume and issue numbers on the basis of the file names.</change>
          <change when="2019-03-27">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
@@ -84,8 +84,8 @@
       <pb n="n4-p183" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1807.xhtml"/>
       <body>
          <div change="#d2e64" type="item">
-            <head>العدد 38</head>
-            <byline change="#d2e219"> - بتاريخ: <date when="1926-10-01">1926-10-01</date></byline>
+            <head>العدد  <tei:num type="auto-markup" change="#d2e258" value="38" xml:lang="ar">٣٨</tei:num> </head>
+            <byline change="#d2e219"> - بتاريخ: <date when="1926-10-01"> <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num> - <tei:num type="auto-markup" change="#d2e258" value="10" xml:lang="ar">١٠</tei:num> - <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num> </date></byline>
          </div>
          <div change="#d2e64" type="item">
             <head>القارعة</head>
@@ -680,41 +680,41 @@
          <div change="#d2e64" type="item">
             <head>حقائق عن تاريخ العراق</head>
             <p change="#d2e73">يوشي بعض الكتبة، برود مقالات نفيسة عن تاريخ أرض شنعار. أو بلاد آثور؛ ويترجم فريق نبذا جليلة عن الغربيين. في مثل هذه الأبحاث إلى اللغة العربية؛ ثم تضيع مزايا تلك المقالات أو ينقص شيء من روعة تلك النبذ لقلة تدقيق النظر في الحوادث. أو لما يأتيه الكتبة والمترجمون من التصحيف في أسماء الأمكنة والبقاع والأشخاص، فيتيه القارئ في مفاوز تلك الخطيئات ولا يعرف المقصود من ذلك البحث.</p>
-            <p change="#d2e73">ومما قرأته من هذا القبيل؛ مقال ظهر في مجلة <title level="j">المقتطف</title> الغراء في جزء يوليو 1926؛ بعنوان: (في جنوب بلاد العرب مهد العمران) ص41 - 46</p>
-            <p change="#d2e73">جاء في مطلع تلك المقالة: (اشترك المتحف البريطاني ومتحف جامعة فيلادلفيا في إرسال بعثة أثرية إلى العراق برآسة المستر ولي فحصرت هذه البعثة أعمالها أولا في تل الأبيض، اور الكلدانيين، الواقعة على ضفة الفرات الجنوبية تبعد نحو 100 ميل عن <placeName>البصرة</placeName>.) أهـ</p>
+            <p change="#d2e73">ومما قرأته من هذا القبيل؛ مقال ظهر في مجلة <title level="j">المقتطف</title> الغراء في جزء يوليو  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num> ؛ بعنوان: (في جنوب بلاد العرب مهد العمران) ص <tei:num type="auto-markup" change="#d2e258" value="41" xml:lang="ar">٤١</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="46" xml:lang="ar">٤٦</tei:num> </p>
+            <p change="#d2e73">جاء في مطلع تلك المقالة: (اشترك المتحف البريطاني ومتحف جامعة فيلادلفيا في إرسال بعثة أثرية إلى العراق برآسة المستر ولي فحصرت هذه البعثة أعمالها أولا في تل الأبيض، اور الكلدانيين، الواقعة على ضفة الفرات الجنوبية تبعد نحو  <tei:num type="auto-markup" change="#d2e258" value="100" xml:lang="ar">١٠٠</tei:num>  ميل عن <placeName>البصرة</placeName>.) أهـ</p>
             <p change="#d2e73">فإذا بحث الإنسان عن تل الأبيض (؟) في اور، أو جوار
 <pb n="n4-p189" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1813.xhtml"/>
 
 
 اور، لا يعثر عليه ولا يقف على اثر له؛ وان أفنى العمر في سبيل السؤال عنه من الأعراب النازلين في تلك الديار. وبعد أن يرجع خائبا يتضح له أن في نقل الاسم خطأ لا يعرفه إلاَّ من له اطلاع واسع على تاريخ العراق وعلى أسماء تلوله. فالتل الذي أراده صاحب المقال هو (تل العبيد) (وزان زبير) لا (تل الأبيض) وحدث هذا الخطأ من نقل الحروف اللاتينية؛ إلى العربية.</p>
             <p change="#d2e73">وتل العبيد هذا ليس أور الكلدانيين. كما يفهم من مقال المقتطف، بل هو تل صغير منفرد على خط ترعة قديمة على بعد نحو أربعة أميال من غربي المقير. بميلة إلى الشمال الغربي؛ والمقير هي (اور الكلدانيين).</p>
-            <p change="#d2e73">أن البعثة لم تحصر عملها أولا في (تل العبيد) كما جاء في المقتطف؛ بل أنها حفرت أولا في المقير، اور الكلدانيين؛ وذلك في سنة 1922 ولم تحفر في تل العبيد إلاَّ في السنة التالية 1923. وقد نشر المستر ولي في المجلة المسماة في جزءها الصادر في أكتوبر 1923 نتائج نبش البعثة في اور؛ وفي الجزء الصادر في أكتوبر 1924 خلاصة أعمالها في (تل العبيد).
+            <p change="#d2e73">أن البعثة لم تحصر عملها أولا في (تل العبيد) كما جاء في المقتطف؛ بل أنها حفرت أولا في المقير، اور الكلدانيين؛ وذلك في سنة  <tei:num type="auto-markup" change="#d2e258" value="1922" xml:lang="ar">١٩٢٢</tei:num>  ولم تحفر في تل العبيد إلاَّ في السنة التالية  <tei:num type="auto-markup" change="#d2e258" value="1923" xml:lang="ar">١٩٢٣</tei:num> . وقد نشر المستر ولي في المجلة المسماة في جزءها الصادر في أكتوبر  <tei:num type="auto-markup" change="#d2e258" value="1923" xml:lang="ar">١٩٢٣</tei:num>  نتائج نبش البعثة في اور؛ وفي الجزء الصادر في أكتوبر  <tei:num type="auto-markup" change="#d2e258" value="1924" xml:lang="ar">١٩٢٤</tei:num>  خلاصة أعمالها في (تل العبيد).
 <pb n="n4-p190" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1814.xhtml"/>
 
 
-وأول من كشف تل العبيد الدكتور هول سنة 1919 إذ كان ينبش لحساب أمناء المتحفة</p>
+وأول من كشف تل العبيد الدكتور هول سنة  <tei:num type="auto-markup" change="#d2e258" value="1919" xml:lang="ar">١٩١٩</tei:num>  إذ كان ينبش لحساب أمناء المتحفة</p>
             <p change="#d2e73">البريطانية؛ ونشر نتائج أعماله في المجلات الآتية:</p>
-            <p change="#d2e73">سنة 1919 ص22 المجلد التاسع الجزء الثالث سنة 1922 وفي في المجلد الثامن الجزء الثالث والرابع سنة 1922.</p>
+            <p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e258" value="1919" xml:lang="ar">١٩١٩</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="22" xml:lang="ar">٢٢</tei:num>  المجلد التاسع الجزء الثالث سنة  <tei:num type="auto-markup" change="#d2e258" value="1922" xml:lang="ar">١٩٢٢</tei:num>  وفي في المجلد الثامن الجزء الثالث والرابع سنة  <tei:num type="auto-markup" change="#d2e258" value="1922" xml:lang="ar">١٩٢٢</tei:num> .</p>
             <p change="#d2e73">أما قوله: (الواقعة على ضفة الفرات الجنوبية) فلا معنى فيه؛ إذ يجري الفرات من الشمال إلى الجنوب فتكون إحدى ضفتيه شرقية والأخرى غربية وليس هناك ضفة شمالية وضفة جنوبية. وأني أحدس أن كاتب المقال قال في الإنكليزية: أو ما يضارع هذه العبارة ومفادها في القسم الجنوبي من الفرات أو كما يقول العرب: في سقي الفرات الجنوبي. فأن سقي الفرات الشمالي ومثله دجلة في أرض شنعار يطلق عليه (أكد) (وزان شمر) وفيه من المدن القديمة (أجادوا) و (كيش) (وهي الاحيمر). و (بورسيبا) (اي برس نمرود). و (سبر) و (بابل) و (كوثي) (أي تل إبراهيم). ويطلق على سقيهما الجنوبي بلاد شمر (وزان
 <pb n="n4-p191" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1815.xhtml"/>
 
 
 زفر) وفيه من المدن أدب (أي بسمايا) وأما (بضم الأولى وتشديد الثاني المفتوح) (وهي أطلال جوخي) واريدو (وهي أطلال أبو شهرين) وكيسورة (وهي أطلال أبو حطب) و (اور الكلدانيين) وتعرف إطلالها (بالمقير).</p>
-            <p change="#d2e73">وجاء في مقالة المقتطف ما يأتي (نعثرت (أي البعثة) في شتاء سنة 1925 على اقدم آثار العمران في العراق؛ ومنها كتابة معاصرة لملك كان يحسب خرافيا وقطعة من النقش النفيس لم ينتظر العثور عليها هناك. أما الكتابة فتدور على الملك (أني بادا) بن (مس أني بادا) وهي اقدم وثيقة تاريخية مؤرخة الخ. . .</p>
-            <p change="#d2e73">قلنا إن المستر ولي عثر على هذه النفائس الأثرية التاريخية في أواخر سنة 1923 وأكبر دليل على ذلك ما جاء في كتابنا محاضرات في مدن العراق، تلك المحاضرات التي ألقيناها على طلبة دار المعلمين العليا، في السنة المدرسية 1923 - 1924 والمطبوعة في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> سنة 1924؛ حيث ورد في ص115 ما إليك بعضه؛ وقد حفرت في تل اسمه (العبيد) في شمالي (اور) يشتمل على دكان هيكل الآهة الحياة والخصب وظفر الحفارون بثلاثة رقم ومائدتين وجعلان من ذهب؛ يستدل منها إلى إنها من عمل (أي أني بادا) بن (مس أني بادا) أول ملك من سلالة اور
+            <p change="#d2e73">وجاء في مقالة المقتطف ما يأتي (نعثرت (أي البعثة) في شتاء سنة  <tei:num type="auto-markup" change="#d2e258" value="1925" xml:lang="ar">١٩٢٥</tei:num>  على اقدم آثار العمران في العراق؛ ومنها كتابة معاصرة لملك كان يحسب خرافيا وقطعة من النقش النفيس لم ينتظر العثور عليها هناك. أما الكتابة فتدور على الملك (أني بادا) بن (مس أني بادا) وهي اقدم وثيقة تاريخية مؤرخة الخ. . .</p>
+            <p change="#d2e73">قلنا إن المستر ولي عثر على هذه النفائس الأثرية التاريخية في أواخر سنة  <tei:num type="auto-markup" change="#d2e258" value="1923" xml:lang="ar">١٩٢٣</tei:num>  وأكبر دليل على ذلك ما جاء في كتابنا محاضرات في مدن العراق، تلك المحاضرات التي ألقيناها على طلبة دار المعلمين العليا، في السنة المدرسية  <tei:num type="auto-markup" change="#d2e258" value="1923" xml:lang="ar">١٩٢٣</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1924" xml:lang="ar">١٩٢٤</tei:num>  والمطبوعة في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> سنة  <tei:num type="auto-markup" change="#d2e258" value="1924" xml:lang="ar">١٩٢٤</tei:num> ؛ حيث ورد في ص <tei:num type="auto-markup" change="#d2e258" value="115" xml:lang="ar">١١٥</tei:num>  ما إليك بعضه؛ وقد حفرت في تل اسمه (العبيد) في شمالي (اور) يشتمل على دكان هيكل الآهة الحياة والخصب وظفر الحفارون بثلاثة رقم ومائدتين وجعلان من ذهب؛ يستدل منها إلى إنها من عمل (أي أني بادا) بن (مس أني بادا) أول ملك من سلالة اور
 <pb n="n4-p192" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1816.xhtml"/>
 
 
-عاش 4600 ق م. إلاَّ أن البروفسر لنكدن يقول انه عاش 4200 ق م ولم يكن يعرف اسم ابنه حتى الآن ونظرا إلى هذا التاريخ أن (أي أني بادا)</p>
+عاش  <tei:num type="auto-markup" change="#d2e258" value="4600" xml:lang="ar">٤٦٠٠</tei:num>  ق م. إلاَّ أن البروفسر لنكدن يقول انه عاش  <tei:num type="auto-markup" change="#d2e258" value="4200" xml:lang="ar">٤٢٠٠</tei:num>  ق م ولم يكن يعرف اسم ابنه حتى الآن ونظرا إلى هذا التاريخ أن (أي أني بادا)</p>
             <p change="#d2e73">كان قبل سلالة <placeName>مصر</placeName> الأولى. . . إلى آخر ما هناك من وصف الآثار التي وجدت في تل العبيد)</p>
             <p change="#d2e73">قد اثبت المقتطف كلمة (سمر) بالسين المهملة ونحن لا نوافقه على ذلك والأصح شمر بالشين المعجمة وكذلك شمريون وآثار شمرية. ولا يقال سمريون وآثار سمرية. لأن الأصل هو بالشين المعجمة ولا داعي لنا إلى إبدال الأعلام بل يجب أن تروى بحروفها أن أمكن.</p>
             <p change="#d2e73">ومما قرأناه من الأبحاث النفيسة عن بلاد آثور. مقال ممتع نشره العلامة، صاحب الغبطة السيد اغناطيوس أفرام الثاني بطريرك السريان الانطاكي في مجلته (الآثار الشرقية). بعنوان (مملكة آثور) إلا أننا وجدنا فيها من التصحيفات مثل ما وجدناه في المقالة التي وردت في المقتطف ونحن نشير إليها طلبا للحقيقة التي هي ضالة النفوس الكبيرة.</p>
-            <p change="#d2e73">جاء في ص82 من المجلة: (عولوا أن يشيدوا صرحا من اللبن في بابل (تك 11: 4 و9) في محل يسمى (الحله) كذا وصحيحه الحلة بهاء منقوطة.
+            <p change="#d2e73">جاء في ص <tei:num type="auto-markup" change="#d2e258" value="82" xml:lang="ar">٨٢</tei:num>  من المجلة: (عولوا أن يشيدوا صرحا من اللبن في بابل (تك  <tei:num type="auto-markup" change="#d2e258" value="11" xml:lang="ar">١١</tei:num> :  <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="9" xml:lang="ar">٩</tei:num> ) في محل يسمى (الحله) كذا وصحيحه الحلة بهاء منقوطة.
 <pb n="n4-p193" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1817.xhtml"/>
 
 
-أن برج بابل ليس في المحل المسمى اليوم الحلة، فلو قال غبطته: (بالقرب من الحلة) لأصاب بعض المرمى، ولا سيما بعد أن درس علماء الاثار، مسئلة البرج درسا علميا، فهل يريد غبطته ببرج بابل، برج بورسيبا (أي برس نمرود) وهو برج الإله نبو، أم برج أتيمن انكي - وكان في هيكل (بل) المسمى اساكيلا في مدينة بابل. وقد جمع بين هذين الإلهين اشعيا النبي (1: 46) إذ قال، قدجثا (بل) انحنى (نبو) وقد اجمع العلماء الأثريون اليوم على أن برج بابل هو الأخير؛ ويعلم القراء أن البعد بين برس نمرود واخربة بابل نحو ثمانية أميال وكلاهما ليس في الحلة بل بجوارها.</p>
-            <p change="#d2e73">وقال في ص84 وتسقي أراضى آثور؛ ما عدا نهري الدجلة والفرات؛ عدة انهار أخصها نهر البليخ والخابور ويسمى القرنيب والادهم. . .</p>
+أن برج بابل ليس في المحل المسمى اليوم الحلة، فلو قال غبطته: (بالقرب من الحلة) لأصاب بعض المرمى، ولا سيما بعد أن درس علماء الاثار، مسئلة البرج درسا علميا، فهل يريد غبطته ببرج بابل، برج بورسيبا (أي برس نمرود) وهو برج الإله نبو، أم برج أتيمن انكي - وكان في هيكل (بل) المسمى اساكيلا في مدينة بابل. وقد جمع بين هذين الإلهين اشعيا النبي ( <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num> :  <tei:num type="auto-markup" change="#d2e258" value="46" xml:lang="ar">٤٦</tei:num> ) إذ قال، قدجثا (بل) انحنى (نبو) وقد اجمع العلماء الأثريون اليوم على أن برج بابل هو الأخير؛ ويعلم القراء أن البعد بين برس نمرود واخربة بابل نحو ثمانية أميال وكلاهما ليس في الحلة بل بجوارها.</p>
+            <p change="#d2e73">وقال في ص <tei:num type="auto-markup" change="#d2e258" value="84" xml:lang="ar">٨٤</tei:num>  وتسقي أراضى آثور؛ ما عدا نهري الدجلة والفرات؛ عدة انهار أخصها نهر البليخ والخابور ويسمى القرنيب والادهم. . .</p>
             <p change="#d2e73">قلنا الأفصح أن يثبت اسم (دجلة) بدون ال التعريف على ما جاء في كتب العرب الأقدمين والمحدثين؛ والصحيح في القرنيب أن يقول الكرنيب؛ أما نهر الأدهم فهو وهم واضح إذ ليس هناك نهر بهذا الاسم يسقي أراضى آثور؛ وصحيحه نهر العظيم (بضم العين وفتح الظاء كزبير) وقد حدث هذا
 <pb n="n4-p194" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1818.xhtml"/>
 
@@ -725,16 +725,16 @@
 
 
 انه القسم الأسفل من نهر دقوا الذي ينحدر من جبال كردستان.</p>
-            <p change="#d2e73">وفي هذا الموقف أود أن المع إلى ما جاء في مجلة <title level="j">لغة العرب</title> في هذه السنة في جزءها الثالث ص162 - 163 عند نقد كتابي: (محاضرات في مدن العراق) إذ قال كاتب النقد؛ وعظيم بدون ال؛ وهو الذي كان يعرف في عهد العباسيين باسم نهر باعيناثا)</p>
+            <p change="#d2e73">وفي هذا الموقف أود أن المع إلى ما جاء في مجلة <title level="j">لغة العرب</title> في هذه السنة في جزءها الثالث ص <tei:num type="auto-markup" change="#d2e258" value="162" xml:lang="ar">١٦٢</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="163" xml:lang="ar">١٦٣</tei:num>  عند نقد كتابي: (محاضرات في مدن العراق) إذ قال كاتب النقد؛ وعظيم بدون ال؛ وهو الذي كان يعرف في عهد العباسيين باسم نهر باعيناثا)</p>
             <p change="#d2e73">فأجيب على هذا القول: إن العظيم وارد بال التعريف كما ينطق به أعراب تلك الديار ويؤيد ذلك صديقي عبد المجيد الشاوي الذي أسرته من رؤساء عشيرة العبيد النازلة في تلك الأصقاع. ثم أن نهر باعيناثا ليس بالعظيم: وأظن أن حضرة المنتقد ذهب إلى هذا الاستنتاج من فقرة وردت في معجم البلدان؛ وفي مراصد الاطلاع في مادة دجلة إذ جاء هناك؛ ثم ينصب إليها (أي إلى دجلة) نهر عظيم يعرف بنهر باعيناثا. فظن أن (عظيم) اسم علم لنهر مع أنه وصف كما يفهم من العبارة التي قبلها القائلة: (فينصب إليها نهر عظيم يعرف بيرني يخرج من دون أرمينية.</p>
             <p change="#d2e73">ثم أن نهر باعيناثا واقع في الشمال وليس في موقع نهر العظيم، الذي يصب في دجلة، قرب مدينة سامراء كما يستفاد من مادة باعيناثا في معجم البلدان، إذ قال: (قرية كبيرة كالمدينة فوق جزيرة ابن عمر لها نهر كبير يصب في دجلة.) أهـ
 <pb n="n4-p196" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1820.xhtml"/>
 
 
 وقد سماه ابن سرابيون باسنفا كما قال لسترنج</p>
-            <p change="#d2e73">لنعد الآن إلى مجلة <title level="j">الآثار</title> الشرقية، فلقد جاء في ص86؛ يسمى خورصباد (دور شروقين) فلا نعرف من أين أتت القاف في شروقين ولا سيما قد قال غبطته في حاشية ص128 أن معنى دور شروقين دار سرجون. فالصحيح أن تكتب دور شروكين أو شروجين لان اسم الملك يكتب سرجون أو شركون. ويكتب الغربيون اسم هذه المدينة - وقد قال ماسبرو أن لفظة شروكين هي القراءة الصحيحة لاسم سرجون.</p>
-            <p change="#d2e73">وجاء في ص88 و89 اسم انطون رسام ونسب إليه كشف الأبواب النحاسية المعروفة بأبواب بلوات. وكلنا نعرف أن اسمه هرمزد رسام والرجل معروف بحفرياته الأثرية ومؤلفاته فلا يحتمل وقوع غلط في اسمه.</p>
-            <p change="#d2e73">وقال ص91 وقد اتخذ الاثوريون (أشور) الاها وص 132 يستنجد حزقيا على الاثوريين.</p>
+            <p change="#d2e73">لنعد الآن إلى مجلة <title level="j">الآثار</title> الشرقية، فلقد جاء في ص <tei:num type="auto-markup" change="#d2e258" value="86" xml:lang="ar">٨٦</tei:num> ؛ يسمى خورصباد (دور شروقين) فلا نعرف من أين أتت القاف في شروقين ولا سيما قد قال غبطته في حاشية ص <tei:num type="auto-markup" change="#d2e258" value="128" xml:lang="ar">١٢٨</tei:num>  أن معنى دور شروقين دار سرجون. فالصحيح أن تكتب دور شروكين أو شروجين لان اسم الملك يكتب سرجون أو شركون. ويكتب الغربيون اسم هذه المدينة - وقد قال ماسبرو أن لفظة شروكين هي القراءة الصحيحة لاسم سرجون.</p>
+            <p change="#d2e73">وجاء في ص <tei:num type="auto-markup" change="#d2e258" value="88" xml:lang="ar">٨٨</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="89" xml:lang="ar">٨٩</tei:num>  اسم انطون رسام ونسب إليه كشف الأبواب النحاسية المعروفة بأبواب بلوات. وكلنا نعرف أن اسمه هرمزد رسام والرجل معروف بحفرياته الأثرية ومؤلفاته فلا يحتمل وقوع غلط في اسمه.</p>
+            <p change="#d2e73">وقال ص <tei:num type="auto-markup" change="#d2e258" value="91" xml:lang="ar">٩١</tei:num>  وقد اتخذ الاثوريون (أشور) الاها وص  <tei:num type="auto-markup" change="#d2e258" value="132" xml:lang="ar">١٣٢</tei:num>  يستنجد حزقيا على الاثوريين.</p>
             <p change="#d2e73">وقد كتب العرب الآثوريين بالمد والآشوريين بالهمزة. هذا ما أردت أن انبه عليه والسلام.</p>
             <byline change="#d2e219">ي. غنيمة
 <pb n="n4-p197" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1821.xhtml"/>
@@ -744,11 +744,11 @@
          </div>
          <div change="#d2e64" type="item">
             <head>تاريخ الطباعة العراقية</head>
-            <p change="#d2e73">مطابع العراق وثمراتها (من سنة 1856 إلى سنة 1926)</p>
+            <p change="#d2e73">مطابع العراق وثمراتها (من سنة  <tei:num type="auto-markup" change="#d2e258" value="1856" xml:lang="ar">١٨٥٦</tei:num>  إلى سنة  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>تابع مطابع الموصل</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>تابع مطابع الموصل</p>
             <p change="#d2e73">وأسس الآباء الدومنكيون فرعا في مطبعتهم الموصلية جعلوها معملا لتجليد الكتب وتذهيبها على الطراز الإفرنجي الحديث وقد كان الموصليون قبل وجودها يجلدون كتبهم على الطريقة العتيقة.</p>
-            <p change="#d2e73">وأول كتاب طبع فيها (رياضة درب الصليب) سنة 1860.</p>
+            <p change="#d2e73">وأول كتاب طبع فيها (رياضة درب الصليب) سنة  <tei:num type="auto-markup" change="#d2e258" value="1860" xml:lang="ar">١٨٦٠</tei:num> .</p>
             <p change="#d2e73">ومن الذين تولوا فيها الخدمة الكبرى بالتأليف والترجمة والطبع والتصحيح مدة طويلة المثلث الرحمة السيد اقليميس يوسف داود السرياني الموصلي مطران <placeName>دمشق</placeName> اشتغل فيها نحو عشرين عاما ولو بقي في <placeName>الموصل</placeName> يتعهدها بعلمه
 <pb n="n4-p198" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1822.xhtml"/>
 
@@ -758,179 +758,179 @@
 
 
 واشتغل فيها مدة طويلة المرحوم المعلم نعوم فتح الله سحار وأعقبه المعلم سليم حسون الأستاذ في مدرسة الأباء الدومنكيين في ذلك العهد (ومدير جريدة <title level="j">العالم العربي</title> ورئيس تحريرها في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> اليوم).</p>
-            <p change="#d2e73">ولما أعلنت الحرب الكبرى في صيف سنة 1914 كان قد شرع في فتح جادة في <placeName>الموصل</placeName> واحتيج إلى هدم بناء المدرسة للأباء الدومنكيين والمطبعة الملاصقة لها في إنشاء هذه الجادة فهدمت بنايتها وصودرت أدواتها وأجهزتها بتهمة أنها تابعة لإدارة أجانب من الفرنسيين ونقلت بعض أدواتها وحروفها إلى مطبعة الحكومة في <placeName>الموصل</placeName> حيث استعملت في طبع الجريدة الرسمية (<placeName>الموصل</placeName>) وظلت مستعملة إلى هذا اليوم مع تغير الزمان والحكام وزوال الحكم العثماني وحلول الحكم الوطني. وكان والي <placeName>الموصل</placeName> العثماني في زمن إعلان الحرب الكبرى سليمان نظيف بك الكاتب التركي الشهير.</p>
+            <p change="#d2e73">ولما أعلنت الحرب الكبرى في صيف سنة  <tei:num type="auto-markup" change="#d2e258" value="1914" xml:lang="ar">١٩١٤</tei:num>  كان قد شرع في فتح جادة في <placeName>الموصل</placeName> واحتيج إلى هدم بناء المدرسة للأباء الدومنكيين والمطبعة الملاصقة لها في إنشاء هذه الجادة فهدمت بنايتها وصودرت أدواتها وأجهزتها بتهمة أنها تابعة لإدارة أجانب من الفرنسيين ونقلت بعض أدواتها وحروفها إلى مطبعة الحكومة في <placeName>الموصل</placeName> حيث استعملت في طبع الجريدة الرسمية (<placeName>الموصل</placeName>) وظلت مستعملة إلى هذا اليوم مع تغير الزمان والحكام وزوال الحكم العثماني وحلول الحكم الوطني. وكان والي <placeName>الموصل</placeName> العثماني في زمن إعلان الحرب الكبرى سليمان نظيف بك الكاتب التركي الشهير.</p>
             <p change="#d2e73">ومع أن المبعث الدومنكي قد عاد إلى بعض نظامه في <placeName>الموصل</placeName> وأعيد تأسيس مدرسة الأباء وتشييد بنايتها بالمبالغ التي أعطتها حكومة الاحتلال الإنكليزية كتعويضات إلى المبعث تعويضا عما أخذ من بناية المدرسة وعمارة المطبعة للجادة فالمطبعة ما زالت مبعثرة وقد</p>
             <p change="#d2e73">استردوا الموجود من أدواتها وآلاتها غير ما نهب وشتت. ولما يعد تنظيمها وفتحها للشغل فخسرت بخرابها البلاد أداة نافعة في النهضة والعمران.</p>
             <p change="#d2e73">مطبوعاتها:</p>
             <p change="#d2e73">أولا - (الكتب المقدسة والدينية والتقوية وسير القديسين ونحوها)</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>(الكتاب المقدس) في أربعة أجزاء تعريب السيد اقليمس يوسف
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>(الكتاب المقدس) في أربعة أجزاء تعريب السيد اقليمس يوسف
 <pb n="n4-p200" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1824.xhtml"/>
 
 
-داود السرياني مطران <placeName>دمشق</placeName> بقطع الربع (سنة 1871 - 1877 صفحاته 2507)</p>
+داود السرياني مطران <placeName>دمشق</placeName> بقطع الربع (سنة  <tei:num type="auto-markup" change="#d2e258" value="1871" xml:lang="ar">١٨٧١</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1877" xml:lang="ar">١٨٧٧</tei:num>  صفحاته  <tei:num type="auto-markup" change="#d2e258" value="2507" xml:lang="ar">٢٥٠٧</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>(الكتاب المقدس) طبعة أخرى في مجلدات (1874 - 1877 ص3806)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>(الكتاب المقدس) طبعة أخرى في مجلدات ( <tei:num type="auto-markup" change="#d2e258" value="1874" xml:lang="ar">١٨٧٤</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1877" xml:lang="ar">١٨٧٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="3806" xml:lang="ar">٣٨٠٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>(العهد الجديد) طبعة متقنة مع تصاوير (ص744)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>(العهد الجديد) طبعة متقنة مع تصاوير (ص <tei:num type="auto-markup" change="#d2e258" value="744" xml:lang="ar">٧٤٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>(مزامير داود) (1892 ص313)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>(مزامير داود) ( <tei:num type="auto-markup" change="#d2e258" value="1892" xml:lang="ar">١٨٩٢</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="313" xml:lang="ar">٣١٣</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>(الأناجيل المقدسة الأربعة) بقطع صغير (1892 ص518)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>(الأناجيل المقدسة الأربعة) بقطع صغير ( <tei:num type="auto-markup" change="#d2e258" value="1892" xml:lang="ar">١٨٩٢</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="518" xml:lang="ar">٥١٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>(قصص الرسل) (1893 ص166)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>(قصص الرسل) ( <tei:num type="auto-markup" change="#d2e258" value="1893" xml:lang="ar">١٨٩٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="166" xml:lang="ar">١٦٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">7 - </hi>رسائل مار بولس الرسول) (1899 ص567)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num>  - </hi>رسائل مار بولس الرسول) ( <tei:num type="auto-markup" change="#d2e258" value="1899" xml:lang="ar">١٨٩٩</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="567" xml:lang="ar">٥٦٧</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">8 - </hi>(الدرة النفيسة في بيان حقيقة الكنيسة) للبطريرك اغناطيوس بهنام الثاني السرياني (1867 ص322)
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="8" xml:lang="ar">٨</tei:num>  - </hi>(الدرة النفيسة في بيان حقيقة الكنيسة) للبطريرك اغناطيوس بهنام الثاني السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1867" xml:lang="ar">١٨٦٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="322" xml:lang="ar">٣٢٢</tei:num> )
 <pb n="n4-p201" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1825.xhtml"/>
 
 
-               <hi style="color:red;">9 - </hi>(رسالة المقدمة والنتيجة في حقيقة عقد الخطبة والزيجة) للمطران السيد اقليمس يوسف داود السرياني (1874 ص76)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="9" xml:lang="ar">٩</tei:num>  - </hi>(رسالة المقدمة والنتيجة في حقيقة عقد الخطبة والزيجة) للمطران السيد اقليمس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1874" xml:lang="ar">١٨٧٤</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="76" xml:lang="ar">٧٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">10 - </hi>(مختصر صغير في التعليم المسيحي) طبع طبعات متعددة بقطع صغير ص48)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="10" xml:lang="ar">١٠</tei:num>  - </hi>(مختصر صغير في التعليم المسيحي) طبع طبعات متعددة بقطع صغير ص <tei:num type="auto-markup" change="#d2e258" value="48" xml:lang="ar">٤٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">11 - </hi>(مختصر التعليم المسيحي) (طبع 6 مرات ص191)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="11" xml:lang="ar">١١</tei:num>  - </hi>(مختصر التعليم المسيحي) (طبع  <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  مرات ص <tei:num type="auto-markup" change="#d2e258" value="191" xml:lang="ar">١٩١</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">12 - </hi>(خلاصة التعليم المسيحي) - التعليم المنسوب إلى السيد امانتون - عربه المطران السيد اقليمس يوسف داود السرياني (1863 ص23 و254)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="12" xml:lang="ar">١٢</tei:num>  - </hi>(خلاصة التعليم المسيحي) - التعليم المنسوب إلى السيد امانتون - عربه المطران السيد اقليمس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1863" xml:lang="ar">١٨٦٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="23" xml:lang="ar">٢٣</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="254" xml:lang="ar">٢٥٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">13 - </hi>(التراجم السنية للأعياد المارانية) لايليا الثالث البطريرك النسطوري المعروف بابي الحليم الحديثي عني بطبعه وشرحه المطران ميخائيل نعمو الكلداني (بقطع الثمن 1873 ص313) وقد طبع بعد ذلك طبعة جديدة.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="13" xml:lang="ar">١٣</tei:num>  - </hi>(التراجم السنية للأعياد المارانية) لايليا الثالث البطريرك النسطوري المعروف بابي الحليم الحديثي عني بطبعه وشرحه المطران ميخائيل نعمو الكلداني (بقطع الثمن  <tei:num type="auto-markup" change="#d2e258" value="1873" xml:lang="ar">١٨٧٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="313" xml:lang="ar">٣١٣</tei:num> ) وقد طبع بعد ذلك طبعة جديدة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">14 - </hi>(الخطب الباهرة والمواعظ الزاجرة) للأب بولس سنيري اليسوعي تعريب قديم للمطران السيد اقلميس يوسف داود السرياني (1870 ص907 وطبع ثانية 1881</p>
-            <p change="#d2e73">ص913)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="14" xml:lang="ar">١٤</tei:num>  - </hi>(الخطب الباهرة والمواعظ الزاجرة) للأب بولس سنيري اليسوعي تعريب قديم للمطران السيد اقلميس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1870" xml:lang="ar">١٨٧٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="907" xml:lang="ar">٩٠٧</tei:num>  وطبع ثانية  <tei:num type="auto-markup" change="#d2e258" value="1881" xml:lang="ar">١٨٨١</tei:num> </p>
+            <p change="#d2e73">ص <tei:num type="auto-markup" change="#d2e258" value="913" xml:lang="ar">٩١٣</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">15 - </hi>(المواعظ السديدة الأدبية في تثقيف المسيحي في طريقته الدينية)
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="15" xml:lang="ar">١٥</tei:num>  - </hi>(المواعظ السديدة الأدبية في تثقيف المسيحي في طريقته الدينية)
 <pb n="n4-p202" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1826.xhtml"/>
 
 
-للأب سنيري اليسوعي (جزءان 1893 ص475 و456)</p>
+للأب سنيري اليسوعي (جزءان  <tei:num type="auto-markup" change="#d2e258" value="1893" xml:lang="ar">١٨٩٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="475" xml:lang="ar">٤٧٥</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="456" xml:lang="ar">٤٥٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">16 - </hi>(نبذة من القوانين منقولة من المجامع المقدسة) لفائدة الاكليروس السرياني الموصلي (1872 ص49 وطبع مجددا ص32)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num>  - </hi>(نبذة من القوانين منقولة من المجامع المقدسة) لفائدة الاكليروس السرياني الموصلي ( <tei:num type="auto-markup" change="#d2e258" value="1872" xml:lang="ar">١٨٧٢</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="49" xml:lang="ar">٤٩</tei:num>  وطبع مجددا ص <tei:num type="auto-markup" change="#d2e258" value="32" xml:lang="ar">٣٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">17 - </hi>(كلندار السنة الأبرشية <placeName>الموصل</placeName> السريانية) تأليف البطريرك اغناطيوس بهنام الثاني السرياني (1877 ص254)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="17" xml:lang="ar">١٧</tei:num>  - </hi>(كلندار السنة الأبرشية <placeName>الموصل</placeName> السريانية) تأليف البطريرك اغناطيوس بهنام الثاني السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1877" xml:lang="ar">١٨٧٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="254" xml:lang="ar">٢٥٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">18 - </hi>(كلندار حسب طقس الكنيسة السريانية الانطاكية (1887 ص144)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="18" xml:lang="ar">١٨</tei:num>  - </hi>(كلندار حسب طقس الكنيسة السريانية الانطاكية ( <tei:num type="auto-markup" change="#d2e258" value="1887" xml:lang="ar">١٨٨٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="144" xml:lang="ar">١٤٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">19 - </hi>(سيرة القديسين) للمطران السيد اقليمس يوسف داود السرياني (1873 و1890 جزءان ص1650).</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="19" xml:lang="ar">١٩</tei:num>  - </hi>(سيرة القديسين) للمطران السيد اقليمس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1873" xml:lang="ar">١٨٧٣</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="1890" xml:lang="ar">١٨٩٠</tei:num>  جزءان ص <tei:num type="auto-markup" change="#d2e258" value="1650" xml:lang="ar">١٦٥٠</tei:num> ).</p>
             <p change="#d2e73">
-               <hi style="color:red;">20 - </hi>(سيرة أشهر شهداء المشرق) (1900 ص452)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="20" xml:lang="ar">٢٠</tei:num>  - </hi>(سيرة أشهر شهداء المشرق) ( <tei:num type="auto-markup" change="#d2e258" value="1900" xml:lang="ar">١٩٠٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="452" xml:lang="ar">٤٥٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">21 - </hi>(سيرة مار فرنسيس لاسيسي السرافي عربه عن الإيطالية أحد الأباء الكبوشيين (1864 ص400)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="21" xml:lang="ar">٢١</tei:num>  - </hi>(سيرة مار فرنسيس لاسيسي السرافي عربه عن الإيطالية أحد الأباء الكبوشيين ( <tei:num type="auto-markup" change="#d2e258" value="1864" xml:lang="ar">١٨٦٤</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="400" xml:lang="ar">٤٠٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">22 - </hi>(سيرة مار عبد الأحد منشئ رهبانية الواعظين) للأب لافي الدومنكي (1866 ص282)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="22" xml:lang="ar">٢٢</tei:num>  - </hi>(سيرة مار عبد الأحد منشئ رهبانية الواعظين) للأب لافي الدومنكي ( <tei:num type="auto-markup" change="#d2e258" value="1866" xml:lang="ar">١٨٦٦</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="282" xml:lang="ar">٢٨٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">23 - </hi>(الزهرات المقدسة المقطوفة من جنة مار عبد الأحد) (1867 ص452)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="23" xml:lang="ar">٢٣</tei:num>  - </hi>(الزهرات المقدسة المقطوفة من جنة مار عبد الأحد) ( <tei:num type="auto-markup" change="#d2e258" value="1867" xml:lang="ar">١٨٦٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="452" xml:lang="ar">٤٥٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">24 - </hi>(سيرة القديسة تريزة) (1867 ص620)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="24" xml:lang="ar">٢٤</tei:num>  - </hi>(سيرة القديسة تريزة) ( <tei:num type="auto-markup" change="#d2e258" value="1867" xml:lang="ar">١٨٦٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="620" xml:lang="ar">٦٢٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">25 - </hi>(سيرة مار افرام) جمعها أحد الأباء السريان الكاثوليك (1883 ص118)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="25" xml:lang="ar">٢٥</tei:num>  - </hi>(سيرة مار افرام) جمعها أحد الأباء السريان الكاثوليك ( <tei:num type="auto-markup" change="#d2e258" value="1883" xml:lang="ar">١٨٨٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="118" xml:lang="ar">١١٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">26 - </hi>(اسطاخيوس القائد الروماني) (1900 ص234)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="26" xml:lang="ar">٢٦</tei:num>  - </hi>(اسطاخيوس القائد الروماني) ( <tei:num type="auto-markup" change="#d2e258" value="1900" xml:lang="ar">١٩٠٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="234" xml:lang="ar">٢٣٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">27 - </hi>(تحفة الزهور الذكية للنفوس العابدة المسيحية (عن طبعة رومية 1861 ص522)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="27" xml:lang="ar">٢٧</tei:num>  - </hi>(تحفة الزهور الذكية للنفوس العابدة المسيحية (عن طبعة رومية  <tei:num type="auto-markup" change="#d2e258" value="1861" xml:lang="ar">١٨٦١</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="522" xml:lang="ar">٥٢٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">28 - </hi>(زوادة النفس التقية في طريق الحياة المسيحية) (طبع رابعة 1887 ص362)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="28" xml:lang="ar">٢٨</tei:num>  - </hi>(زوادة النفس التقية في طريق الحياة المسيحية) (طبع رابعة  <tei:num type="auto-markup" change="#d2e258" value="1887" xml:lang="ar">١٨٨٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="362" xml:lang="ar">٣٦٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">29 - </hi>(الحرب الروحية) تعريب الأب بطرس فروماج اليسوعي (1868 ص1408)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="29" xml:lang="ar">٢٩</tei:num>  - </hi>(الحرب الروحية) تعريب الأب بطرس فروماج اليسوعي ( <tei:num type="auto-markup" change="#d2e258" value="1868" xml:lang="ar">١٨٦٨</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="1408" xml:lang="ar">١٤٠٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">30 - </hi>(تأملات يومية للقديس الفولس ليكوري) ترجمة جديدة للمطران
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="30" xml:lang="ar">٣٠</tei:num>  - </hi>(تأملات يومية للقديس الفولس ليكوري) ترجمة جديدة للمطران
 <pb n="n4-p203" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1827.xhtml"/>
 
 
-السيد اقليمس يوسف داود السرياني (1860 ص240)</p>
+السيد اقليمس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1860" xml:lang="ar">١٨٦٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="240" xml:lang="ar">٢٤٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">31 - </hi>(الواسطة العظيمة للخلاص) للقديس ليكوري (عدا الطبعة الرومانية 1870</p>
-            <p change="#d2e73">ص352)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="31" xml:lang="ar">٣١</tei:num>  - </hi>(الواسطة العظيمة للخلاص) للقديس ليكوري (عدا الطبعة الرومانية  <tei:num type="auto-markup" change="#d2e258" value="1870" xml:lang="ar">١٨٧٠</tei:num> </p>
+            <p change="#d2e73">ص <tei:num type="auto-markup" change="#d2e258" value="352" xml:lang="ar">٣٥٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">32 - </hi>(المنتخبات الكنبيسية في السيرة القدسية) تعريب الخوري عبد الأحد جرجي (1898 - 1900 في 3 أجزاء ص1160 وطبع المجلدان ال 4 و5 في 1902 - 1903 ص 269 و339)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="32" xml:lang="ar">٣٢</tei:num>  - </hi>(المنتخبات الكنبيسية في السيرة القدسية) تعريب الخوري عبد الأحد جرجي ( <tei:num type="auto-markup" change="#d2e258" value="1898" xml:lang="ar">١٨٩٨</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1900" xml:lang="ar">١٩٠٠</tei:num>  في  <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  أجزاء ص <tei:num type="auto-markup" change="#d2e258" value="1160" xml:lang="ar">١١٦٠</tei:num>  وطبع المجلدان ال  <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  في  <tei:num type="auto-markup" change="#d2e258" value="1902" xml:lang="ar">١٩٠٢</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1903" xml:lang="ar">١٩٠٣</tei:num>  ص  <tei:num type="auto-markup" change="#d2e258" value="269" xml:lang="ar">٢٦٩</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="339" xml:lang="ar">٣٣٩</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">33 - </hi>(مجموع تساعيات لأفضل أعياد السنة) لأحد الآباء الكبوشيين (1869 ص380)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="33" xml:lang="ar">٣٣</tei:num>  - </hi>(مجموع تساعيات لأفضل أعياد السنة) لأحد الآباء الكبوشيين ( <tei:num type="auto-markup" change="#d2e258" value="1869" xml:lang="ar">١٨٦٩</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="380" xml:lang="ar">٣٨٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">34 - </hi>(الكينارة الصهيونية لتسبيح العزة الالاهية) جمعه ونقحه المطران يوسف داود (1864 ص425 ثم 1891 ص372)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="34" xml:lang="ar">٣٤</tei:num>  - </hi>(الكينارة الصهيونية لتسبيح العزة الالاهية) جمعه ونقحه المطران يوسف داود ( <tei:num type="auto-markup" change="#d2e258" value="1864" xml:lang="ar">١٨٦٤</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="425" xml:lang="ar">٤٢٥</tei:num>  ثم  <tei:num type="auto-markup" change="#d2e258" value="1891" xml:lang="ar">١٨٩١</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="372" xml:lang="ar">٣٧٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">35 - </hi>(شرح مختصر في الرهبنة الثالثة الدومنكية) (ص16)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="35" xml:lang="ar">٣٥</tei:num>  - </hi>(شرح مختصر في الرهبنة الثالثة الدومنكية) (ص <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">36 - </hi>(ملخص أخبار الرهبنة الثالثة) (1900 ص260)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="36" xml:lang="ar">٣٦</tei:num>  - </hi>(ملخص أخبار الرهبنة الثالثة) ( <tei:num type="auto-markup" change="#d2e258" value="1900" xml:lang="ar">١٩٠٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="260" xml:lang="ar">٢٦٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">37 - </hi>(رياضة درب الصليب) (1811 ص48)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="37" xml:lang="ar">٣٧</tei:num>  - </hi>(رياضة درب الصليب) ( <tei:num type="auto-markup" change="#d2e258" value="1811" xml:lang="ar">١٨١١</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="48" xml:lang="ar">٤٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">38 - </hi>(مختصر رياضة درب الصليب) (ص32)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="38" xml:lang="ar">٣٨</tei:num>  - </hi>(مختصر رياضة درب الصليب) (ص <tei:num type="auto-markup" change="#d2e258" value="32" xml:lang="ar">٣٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">39 - </hi>تروض في آلام يسوع المسيح لكل جمعة من الصوم الكبير (1863 - ص19)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="39" xml:lang="ar">٣٩</tei:num>  - </hi>تروض في آلام يسوع المسيح لكل جمعة من الصوم الكبير ( <tei:num type="auto-markup" change="#d2e258" value="1863" xml:lang="ar">١٨٦٣</tei:num>  - ص <tei:num type="auto-markup" change="#d2e258" value="19" xml:lang="ar">١٩</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">40 - </hi>(زيارة القربان الأقدس وزيارة مريم العذراء) للقديس ليغوري تعريب جديد للمطران السيد اقليمس يوسف داود السرياني (1869 - 1876 ص320)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="40" xml:lang="ar">٤٠</tei:num>  - </hi>(زيارة القربان الأقدس وزيارة مريم العذراء) للقديس ليغوري تعريب جديد للمطران السيد اقليمس يوسف داود السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1869" xml:lang="ar">١٨٦٩</tei:num>  -  <tei:num type="auto-markup" change="#d2e258" value="1876" xml:lang="ar">١٨٧٦</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="320" xml:lang="ar">٣٢٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">41 - </hi>(شهر قلب يسوع الأقدس) (طبعة ثانية 1883 ص462)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="41" xml:lang="ar">٤١</tei:num>  - </hi>(شهر قلب يسوع الأقدس) (طبعة ثانية  <tei:num type="auto-markup" change="#d2e258" value="1883" xml:lang="ar">١٨٨٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="462" xml:lang="ar">٤٦٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">42 - </hi>(فرض مريم العذراء الصغير بحسب الطقس الدومنكي (1864 ص168 ثم 1889 ص207)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="42" xml:lang="ar">٤٢</tei:num>  - </hi>(فرض مريم العذراء الصغير بحسب الطقس الدومنكي ( <tei:num type="auto-markup" change="#d2e258" value="1864" xml:lang="ar">١٨٦٤</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="168" xml:lang="ar">١٦٨</tei:num>  ثم  <tei:num type="auto-markup" change="#d2e258" value="1889" xml:lang="ar">١٨٨٩</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="207" xml:lang="ar">٢٠٧</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">43 - </hi>(فرض السيدة الصغير بحسب الطقس الروماني (ص165)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="43" xml:lang="ar">٤٣</tei:num>  - </hi>(فرض السيدة الصغير بحسب الطقس الروماني (ص <tei:num type="auto-markup" change="#d2e258" value="165" xml:lang="ar">١٦٥</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">44 - </hi>(المتعبد لمريم) للأب بولس سنيري اليسوعي عربه الأب بطرس فروماج ونقحه المطران يوسف داود (1870 ص261 ثم 1896)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="44" xml:lang="ar">٤٤</tei:num>  - </hi>(المتعبد لمريم) للأب بولس سنيري اليسوعي عربه الأب بطرس فروماج ونقحه المطران يوسف داود ( <tei:num type="auto-markup" change="#d2e258" value="1870" xml:lang="ar">١٨٧٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="261" xml:lang="ar">٢٦١</tei:num>  ثم  <tei:num type="auto-markup" change="#d2e258" value="1896" xml:lang="ar">١٨٩٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">45 - </hi>(الشهر المريمي) (1892 ص251)
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="45" xml:lang="ar">٤٥</tei:num>  - </hi>(الشهر المريمي) ( <tei:num type="auto-markup" change="#d2e258" value="1892" xml:lang="ar">١٨٩٢</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="251" xml:lang="ar">٢٥١</tei:num> )
 <pb n="n4-p204" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1828.xhtml"/>
 
 
-               <hi style="color:red;">46 - </hi>(النزهة في الورود) يمثل ظهور السيدة في لورد عربه عن الفرنسية القس يوسف جرجس السرياني (1893 ص260) وهو اليوم مطران حارستا</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="46" xml:lang="ar">٤٦</tei:num>  - </hi>(النزهة في الورود) يمثل ظهور السيدة في لورد عربه عن الفرنسية القس يوسف جرجس السرياني ( <tei:num type="auto-markup" change="#d2e258" value="1893" xml:lang="ar">١٨٩٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="260" xml:lang="ar">٢٦٠</tei:num> ) وهو اليوم مطران حارستا</p>
             <p change="#d2e73">
-               <hi style="color:red;">47 - </hi>(مصحف الوردية المقدسة) (1867 ص352)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="47" xml:lang="ar">٤٧</tei:num>  - </hi>(مصحف الوردية المقدسة) ( <tei:num type="auto-markup" change="#d2e258" value="1867" xml:lang="ar">١٨٦٧</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="352" xml:lang="ar">٣٥٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">48 - </hi>(شرح مختصر في أخوية الوردية) (طبعة ثانية 1883 ص48)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="48" xml:lang="ar">٤٨</tei:num>  - </hi>(شرح مختصر في أخوية الوردية) (طبعة ثانية  <tei:num type="auto-markup" change="#d2e258" value="1883" xml:lang="ar">١٨٨٣</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="48" xml:lang="ar">٤٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">49 - </hi>(عبادة الوردية المؤبدة) (1880 ص84)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="49" xml:lang="ar">٤٩</tei:num>  - </hi>(عبادة الوردية المؤبدة) ( <tei:num type="auto-markup" change="#d2e258" value="1880" xml:lang="ar">١٨٨٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="84" xml:lang="ar">٨٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">50 - </hi>(طريقة سهلة للتأمل في أسرار الوردية المقدسة) (طبعة ثانية 1885 ص64)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="50" xml:lang="ar">٥٠</tei:num>  - </hi>(طريقة سهلة للتأمل في أسرار الوردية المقدسة) (طبعة ثانية  <tei:num type="auto-markup" change="#d2e258" value="1885" xml:lang="ar">١٨٨٥</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="64" xml:lang="ar">٦٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">51 - </hi>(دستور الوردية المقدسة) (1900 ص61)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="51" xml:lang="ar">٥١</tei:num>  - </hi>(دستور الوردية المقدسة) ( <tei:num type="auto-markup" change="#d2e258" value="1900" xml:lang="ar">١٩٠٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="61" xml:lang="ar">٦١</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">52 - </hi>(ثوب سيدتنا ذات الكرمل) (1881 ص 30 ثم كرر طبعه)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="52" xml:lang="ar">٥٢</tei:num>  - </hi>(ثوب سيدتنا ذات الكرمل) ( <tei:num type="auto-markup" change="#d2e258" value="1881" xml:lang="ar">١٨٨١</tei:num>  ص  <tei:num type="auto-markup" change="#d2e258" value="30" xml:lang="ar">٣٠</tei:num>  ثم كرر طبعه)</p>
             <p change="#d2e73">
-               <hi style="color:red;">53 - </hi>(ثلاثة ينابيع نعم للأنفس المسيحية) (1880 ص96)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="53" xml:lang="ar">٥٣</tei:num>  - </hi>(ثلاثة ينابيع نعم للأنفس المسيحية) ( <tei:num type="auto-markup" change="#d2e258" value="1880" xml:lang="ar">١٨٨٠</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="96" xml:lang="ar">٩٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">54 - </hi>(إكليل البتول الطاهرة مريم) للمطران السيد أدي شير ابرهينا الكلداني (1904 ص57)
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="54" xml:lang="ar">٥٤</tei:num>  - </hi>(إكليل البتول الطاهرة مريم) للمطران السيد أدي شير ابرهينا الكلداني ( <tei:num type="auto-markup" change="#d2e258" value="1904" xml:lang="ar">١٩٠٤</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="57" xml:lang="ar">٥٧</tei:num> )
 <pb n="n4-p205" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1829.xhtml"/>
 
 
-               <hi style="color:red;">55 - </hi>(كتاب المتعبدين لقلب يسوع الأقدس) (1906 ص396)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="55" xml:lang="ar">٥٥</tei:num>  - </hi>(كتاب المتعبدين لقلب يسوع الأقدس) ( <tei:num type="auto-markup" change="#d2e258" value="1906" xml:lang="ar">١٩٠٦</tei:num>  ص <tei:num type="auto-markup" change="#d2e258" value="396" xml:lang="ar">٣٩٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">56 - </hi>(كلندار الأعياد والتذكارات والصيامات حسب الطقس الكلداني) (ص16)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="56" xml:lang="ar">٥٦</tei:num>  - </hi>(كلندار الأعياد والتذكارات والصيامات حسب الطقس الكلداني) (ص <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">57 - </hi>(مجموع صلوات اعتيادية) (ص175)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="57" xml:lang="ar">٥٧</tei:num>  - </hi>(مجموع صلوات اعتيادية) (ص <tei:num type="auto-markup" change="#d2e258" value="175" xml:lang="ar">١٧٥</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">58 - </hi>(فرض الموتى حسب الطقس اللاتيني) (ص52)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="58" xml:lang="ar">٥٨</tei:num>  - </hi>(فرض الموتى حسب الطقس اللاتيني) (ص <tei:num type="auto-markup" change="#d2e258" value="52" xml:lang="ar">٥٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">59 - </hi>(تأملات لكل أيام الشهر) للأب موزاريلي اليسوعي (ص250)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="59" xml:lang="ar">٥٩</tei:num>  - </hi>(تأملات لكل أيام الشهر) للأب موزاريلي اليسوعي (ص <tei:num type="auto-markup" change="#d2e258" value="250" xml:lang="ar">٢٥٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">60 - </hi>(مجموع تسعيات) ترجمة لأحد الأباء الكبوشيين من ماردين (ص377)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="60" xml:lang="ar">٦٠</tei:num>  - </hi>(مجموع تسعيات) ترجمة لأحد الأباء الكبوشيين من ماردين (ص <tei:num type="auto-markup" change="#d2e258" value="377" xml:lang="ar">٣٧٧</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">61 - </hi>(أخوية اسم الله واسم يسوع) (ص22)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="61" xml:lang="ar">٦١</tei:num>  - </hi>(أخوية اسم الله واسم يسوع) (ص <tei:num type="auto-markup" change="#d2e258" value="22" xml:lang="ar">٢٢</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">62 - </hi>(أخوية الوردية المقدسة) (ص48)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="62" xml:lang="ar">٦٢</tei:num>  - </hi>(أخوية الوردية المقدسة) (ص <tei:num type="auto-markup" change="#d2e258" value="48" xml:lang="ar">٤٨</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">63 - </hi>(طريقة جيدة للتأمل في أسرار الوردية المقدسة (ص 40)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="63" xml:lang="ar">٦٣</tei:num>  - </hi>(طريقة جيدة للتأمل في أسرار الوردية المقدسة (ص  <tei:num type="auto-markup" change="#d2e258" value="40" xml:lang="ar">٤٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">64 - </hi>(أخوية زنار مار توما الاكويني) (ص16)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="64" xml:lang="ar">٦٤</tei:num>  - </hi>(أخوية زنار مار توما الاكويني) (ص <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">65 - </hi>(خمسة مزامير القديس بوناونتورا إكراما لمريم العذراء) (ص16)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="65" xml:lang="ar">٦٥</tei:num>  - </hi>(خمسة مزامير القديس بوناونتورا إكراما لمريم العذراء) (ص <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">66 - </hi>(ملخص أخبار الرهبنة الثالثة التوبئية) (ص260)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="66" xml:lang="ar">٦٦</tei:num>  - </hi>(ملخص أخبار الرهبنة الثالثة التوبئية) (ص <tei:num type="auto-markup" change="#d2e258" value="260" xml:lang="ar">٢٦٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">67 - </hi>(الدليل الأمين للمشتركين بأخوية سيدتنا لقلب يسوع الأقدس
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="67" xml:lang="ar">٦٧</tei:num>  - </hi>(الدليل الأمين للمشتركين بأخوية سيدتنا لقلب يسوع الأقدس
 <pb n="n4-p206" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1830.xhtml"/>
 
 
-(ص80)</p>
+(ص <tei:num type="auto-markup" change="#d2e258" value="80" xml:lang="ar">٨٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">68 - </hi>(قوانين أخوية الحبل بلا دنس) (ص 160)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="68" xml:lang="ar">٦٨</tei:num>  - </hi>(قوانين أخوية الحبل بلا دنس) (ص  <tei:num type="auto-markup" change="#d2e258" value="160" xml:lang="ar">١٦٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">69 - </hi>(قرارات ورسائل وأناجيل حسب الطقس الكلداني (3 أجزاء ص116 و108 و120)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="69" xml:lang="ar">٦٩</tei:num>  - </hi>(قرارات ورسائل وأناجيل حسب الطقس الكلداني ( <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  أجزاء ص <tei:num type="auto-markup" change="#d2e258" value="116" xml:lang="ar">١١٦</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="108" xml:lang="ar">١٠٨</tei:num>  و <tei:num type="auto-markup" change="#d2e258" value="120" xml:lang="ar">١٢٠</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">70 - </hi>(ثلاث وأربعون ترنيمة تقوية مأخوذة من الكينارة الصهيونية) (ص74)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="70" xml:lang="ar">٧٠</tei:num>  - </hi>(ثلاث وأربعون ترنيمة تقوية مأخوذة من الكينارة الصهيونية) (ص <tei:num type="auto-markup" change="#d2e258" value="74" xml:lang="ar">٧٤</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">71 - </hi>(سيرة بعض الطوباويين والأتقياء الدومنكيين (ص123)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="71" xml:lang="ar">٧١</tei:num>  - </hi>(سيرة بعض الطوباويين والأتقياء الدومنكيين (ص <tei:num type="auto-markup" change="#d2e258" value="123" xml:lang="ar">١٢٣</tei:num> )</p>
             <p change="#d2e73">
-               <hi style="color:red;">72 - </hi>(استشهاد مار ترسيسيوس) (ص119)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="72" xml:lang="ar">٧٢</tei:num>  - </hi>(استشهاد مار ترسيسيوس) (ص <tei:num type="auto-markup" change="#d2e258" value="119" xml:lang="ar">١١٩</tei:num> )</p>
             <p change="#d2e73">رفائيل بطي</p>
             <p change="#d2e73">استدراك</p>
             <p change="#d2e73">طلب كاتب المقالة في تمهيده لبحثه أن ينتقد الأدباء المحققون مقالاته ويرشدوه إلى مواضع الخطأ فيها ويكملوا النواقص التي يفوته ذكرها، وها قد بعث <persName change="#d2e230" ref="oape:pers:1725">
@@ -939,7 +939,7 @@
                         </persName> بعد اطلاعه على القسم الأول من المقالة المنشورة في الجزء الماضي بهذا الاستدراك:</p>
             <p change="#d2e73">سيدي <persName><addName type="pseudonym">صاحب مجلة <title level="j">لغة</title></addName></persName> العرب المحترم</p>
             <p change="#d2e73">طالعت ما كتبه الأديب رفائيل أفندي بطي في الجزء الثالث من مجلة <title level="j">لغة العرب</title> بعنوان (تاريخ الطباعة العراقية) والذي لفت نظري قول الكاتب:</p>
-            <p change="#d2e73">(وفي هذه السنة عينها (1856) جلب إلى كربلاء أحد أكابر الفرس مطبعة حجرية لا يذكر الناس من نتاجها إلاَّ سفرا بقي بكرا وحيدا) وقد فاته ذكر أول مطبعة حجرية تأسست في الكاظمية وطبع فيها (دوحة الوزراء في تاريخ وقائع الزورآء) تأليف الشيخ رسول أفندي الكركوكي وقد تولى طبع هذا الكتاب مرزا محمد باقر التفليسي بخطه عام 1237هـ 1821م فمن هنا يظهر أن أول مطبعة حجرية نصبت في الكاظمية كانت قبل اكثر من مئة سنة.</p>
+            <p change="#d2e73">(وفي هذه السنة عينها ( <tei:num type="auto-markup" change="#d2e258" value="1856" xml:lang="ar">١٨٥٦</tei:num> ) جلب إلى كربلاء أحد أكابر الفرس مطبعة حجرية لا يذكر الناس من نتاجها إلاَّ سفرا بقي بكرا وحيدا) وقد فاته ذكر أول مطبعة حجرية تأسست في الكاظمية وطبع فيها (دوحة الوزراء في تاريخ وقائع الزورآء) تأليف الشيخ رسول أفندي الكركوكي وقد تولى طبع هذا الكتاب مرزا محمد باقر التفليسي بخطه عام  <tei:num type="auto-markup" change="#d2e258" value="1237" xml:lang="ar">١٢٣٧</tei:num> هـ  <tei:num type="auto-markup" change="#d2e258" value="1821" xml:lang="ar">١٨٢١</tei:num> م فمن هنا يظهر أن أول مطبعة حجرية نصبت في الكاظمية كانت قبل اكثر من مئة سنة.</p>
             <byline change="#d2e219"><persName change="#d2e230" ref="oape:pers:1725">
                             <forename>رزوق</forename>
                             <surname>عيسى</surname>
@@ -959,7 +959,7 @@
             <head>نموذج من تراجم الظرفاء</head>
             <p change="#d2e73">الملا طعمة بن عبد الوهاب</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>كان في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> من نوادر الإعصار يذكرك إذا سمعت أخباره أبا نواس في نوادره وغرائبه.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>كان في <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> من نوادر الإعصار يذكرك إذا سمعت أخباره أبا نواس في نوادره وغرائبه.</p>
             <p change="#d2e73">وهو ربيب الشيخ محمد سعيد الطبقجلي مفتي <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> وجده صبيا يبكي عند
 <pb n="n4-p208" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1832.xhtml"/>
 
@@ -1020,7 +1020,7 @@
                   <seg> بارك عز شأنه في ذا اللقب</seg>
                </l>
             </lg>
-            <p change="#d2e73">وجن طعمة في آخر عمره وتوفي سنة 1315هـ في بيت آل جابر أفندي في الحلة، وقد بلغني أن لديهم مجموعة من شعره ولم يصلني منه إلاَّ شيء قليل أوردته هنا؛</p>
+            <p change="#d2e73">وجن طعمة في آخر عمره وتوفي سنة  <tei:num type="auto-markup" change="#d2e258" value="1315" xml:lang="ar">١٣١٥</tei:num> هـ في بيت آل جابر أفندي في الحلة، وقد بلغني أن لديهم مجموعة من شعره ولم يصلني منه إلاَّ شيء قليل أوردته هنا؛</p>
             <p change="#d2e73">قال وقد سرقوا حذاءه وتركوا له عوضا عنه حذاء طويلا يفضل عن قدمه:</p>
             <lg>
                <l type="bayt">
@@ -1227,19 +1227,19 @@
             <head>استفتاء</head>
             <p change="#d2e73">ما رأي صاحب <title level="j">لغة العرب</title> في الألفاظ العربية التالية وفي ما يقابلها في الفرنسية:</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>السلى (وزان فتى)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>السلى (وزان فتى)</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>الفاقياء (وزان قاصعاء)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>الفاقياء (وزان قاصعاء)</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>السابيآء.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>السابيآء.</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>الحولاء (كنفساء وعنبآء)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>الحولاء (كنفساء وعنبآء)</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>الصاءة أو الصاة (كالساحة أو السحاة)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>الصاءة أو الصاة (كالساحة أو السحاة)</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>السخد (كقفل)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>السخد (كقفل)</p>
             <p change="#d2e73">
-               <hi style="color:red;">7 - </hi>المشيمة (ككريمة)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num>  - </hi>المشيمة (ككريمة)</p>
             <p change="#d2e73">عثرت في أثناء مطالعتي في بعض المجلات والكتب الطبية العربية الحديثة على الفقرات التالية حول النفاس: (ربما كانت الحامل مصابة بارتكاز المشيمة (؟) المعيب. . . فقبل إتمام مدة الحبل (؟). . . وفي آخر دورته الثالثة (؟). . . فتح الفقاء. . . وسال المائع الامنيوسي (؟). . . وبعد وفاتها والكشف على الميت (؟) شوهد في الوريد الفخذي آثار صمامة (؟). . . وما دون ذلك. . .)</p>
             <p change="#d2e73">فان اعترف الرأي العام من باب البديهيات أن اللغة العربية المدونة في المعاجم ليست واحدة بل هي مجموع لغات باد معظمها وربما لم يبق من المتكلمين بها اليوم إلاَّ النزر القليل؛ فرأيي الشخصي هو أن لابد للرأي العام نفسه أن يقرر تقريرا خاليا من كل تردد وتلكؤ فيخصص بكل معنى لفظا واحدا؛ ولا يتخذ الألفاظ المترادفة في المصطلحات العلمية إلاَّ من بعد أن تتوفر لديه الكلم اللازمة لكل معنى ولو كان دقيقا. تلك قاعدة مطلقة لابد من الجري عليها في كل لغة لحسن التفاهم؛ مهما تعاقبت العصور واختلفت الأمم وتفرعت القبائل.</p>
             <p change="#d2e73">أن جهل هذه الفروق في عهدنا هذا؛ أو قل؛ إهمال الوقوف على هذه
@@ -1277,7 +1277,7 @@
             <p change="#d2e73">عمل المحدثين من كتاب العرب في أخذهم تلك المصطلحات عنهم وإدخالهم في كلامهم وهي على ما هي عليه من التشويه الشنيع والتضليل الفظيع بحجة شيوعها وتداولها بين الناس؟ - ذلك عذر اقبح من ذنب ولا اقبله لنفوسهم.</p>
             <p change="#d2e73">آتي الآن إلى الموضوع الذي ارصدت له هذا المقال:</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>السلى</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>السلى</p>
             <p change="#d2e73">من الألفاظ التي اختلف الكتبة في وضعها تعبيرهم بلفظ واحد عن اغشية البيضة المسماة عند الافرنسيين</p>
             <p change="#d2e73">أن هذه الأغشية هي عبارة عن ثلاث طبقات وهي: داخلية ومتوسطة وخارجية وهي متصلة بعضها ببعض بأنسجة ليفية وحشوية فالخارجية منها لاصقة بعضد الرحم الداخلي (أي بجدارها كما يقول بعضهم) حتى ساعة الولادة، فحينئذ تنفصل عنها وتغادرها بعد خروج الوليد منها ومعها مجموع الأغشية وسيأتي ذكرها عند البحث عن الطبقة الداخلية بعيد هذا.
 <pb n="n4-p220" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1844.xhtml"/>
@@ -1289,7 +1289,7 @@
             <p change="#d2e73">الشدائد والصدمات الخارجية من رضوض وغيرها. تلك التي يحتمل وقوعها على البطن فتلقي الجنين منها.</p>
             <p change="#d2e73">وهناك رابطة معنوية أخرى لا يستهان بها تربط المعنى العلمي بالمعنى اللغوي: أن السلى في اللغة مصدر سلي عنه أي طابت نفسه به. فمن ينكر كم تطيب غريزة الجنين حينما يكون في داخل سلاه مصونا من كل أذى في الداخل وفي الخارج. وكذلك قل عن الأم فلابد من أنها تسلو حينما تشعر بأن جنينها في مأمن حصين من كل أذى مرض أو تعرض وما ذاك المأمن سوى هذا السكن.</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>الفاقئآء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>الفاقئآء</p>
             <p change="#d2e73">أما الكلمة الثانية فهي الفاقئآء: فقد جاء عنها في أحد المعاجم اللغوية أنها السابياء التي تنفقئ عن رأس الجنين عند الولادة. وقد قيل عنها أيضاً أنها جليدة رقيقة على أنفه أن لم تكشف عنه مات.
 <pb n="n4-p221" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1845.xhtml"/>
 
@@ -1297,7 +1297,7 @@
 قلنا: أننا في حاجة كبيرة إلى مثل هذا اللفظ الثمين؛ لكن ليس بالمعنى المزدوج الذي ورد في المعجم، إذ في ذلك من الإبهام ما يخرجنا عن تتبع الحقائق بوجوهها العلمية. أننا الآن في الطب في مندوحة عن المرادفات بل حاجتنا إلى معنى مستقل بنفسه غير موجود في لفظ آخر؛ والحال انك تعلم أن السلى في الدور الأخير من الحبل ينبسط انبساطا صريحا عند مستوى عنق الرحم متأثرا من عامل الضغط الشديد الآتي من قبل رأس الجنين أو ينبسط عند قسمها القائم على العنق فيظهر قسم السلى بوضعه هذا بشكل جراب مستطيل في العنق ويتخلل أحيانا المهبل إذ هو النذير بحلول موعد الوضع؛ فينفقئ من شدة الضغط الحاصل في الداخل؛ وأحيانا يضطر الطبيب إلى بزله أو قل إلى فقئه حينما لا يتغلب الضغط من الداخل على صلابة السلى.</p>
             <p change="#d2e73">ولهذا أرى من الأرجح أن تطلق لفظة (فاقئاه) على القسم الأسفل من السلى وذلك القسم الذي لا يرى إلا في الأيام أو الساعات الأخيرة من دور الحبل أو أن شئت فقل في قسم السلى المعد للفقء الخلقي (بكسر الخاء أي الفسيولوجي) أو الجراحي. يقابله في اصطلاح أطباء الفرنسيين ما معناه جراب المياه:</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>السابيآء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>السابيآء</p>
             <p change="#d2e73">جئنا الآن إلى ما يسميه الإفرنج امنيوس وهو إحدى طبقات السلى وهي طبقته الثالثة من الداخل التي فيها الجنين. وعندي أنها لو تسمى في لساننا بالسابيآء لوفت بالمطلوب.</p>
             <p change="#d2e73">ذهب بعضهم إلى أن السابيآء هي المشيمة التي تخرج مع الولد، فلا محل لهذه الفكرة (النظرية)؛ لأن هذا التعريف مبهم إبهام المشيمة الذي تقدم تفسيره؛ إذ لا السابيآء ولا المشيمة ولا أي عضو آخر من الأعضاء الوقتية من أعضاء الرحم يبقى فيها بعد الوضع؛ بل يغادرها جميعها حين مغادرة الجنين للرحم أو بعد مغادرته لها حالا.</p>
             <p change="#d2e73">وقال آخرون: (السابيآء جليدة رقيقة تكون على أنف الجنين فإن لم تكشف عند الولادة مات) لعل أصحاب هذا القول قد أصابوا ظاهر الحقيقة حينما كانوا
@@ -1315,34 +1315,34 @@
 الرقيق الذي يشبه الندى.</p>
             <p change="#d2e73">قلنا: ولعل هؤلاء كانوا اقرب إلى الصواب من غيرهم إليها لولا أن كلمة (الحولاء) موجودة في لساننا وهي عندنا اصلح من غيرها للدلالة على ما نريد به، لأسباب لغوية وخلقية وتشريحية وموضعية، ودونك موجزها:</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>الحولاء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>الحولاء</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>قال اللغويون: حال حولا: تم. وبغير هذا المائع لا يتيسر للجنين أن يتم نموه وتطوره في الرحم بدرجة صحيحة)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>قال اللغويون: حال حولا: تم. وبغير هذا المائع لا يتيسر للجنين أن يتم نموه وتطوره في الرحم بدرجة صحيحة)</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>وقالوا: حال المشي حولا: تغير من الاستواء إلى العوج. وفي هذا المائع (أي الحولاء) يتغير سير الجنين من حالة الاستواء التي كان عليها في الأشهر الخمسة الأولى إلى حالة العوج وهي وضع الجنين في الرحم في الأشهر الأربعة الأخيرة.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>وقالوا: حال المشي حولا: تغير من الاستواء إلى العوج. وفي هذا المائع (أي الحولاء) يتغير سير الجنين من حالة الاستواء التي كان عليها في الأشهر الخمسة الأولى إلى حالة العوج وهي وضع الجنين في الرحم في الأشهر الأربعة الأخيرة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>وقالوا: حال حولا إلى مكان آخر: انقلب. وبغير هذا المائع لا يتيسر للجنين أن ينقلب في داخل الرحم، ولاسيما في الشهر الأخير، إذ يستقر الرأس عند عنق الرحم بعد أن كان قبيل ذلك العهد بجوار قعر الرحم أو في أحد جانبيه.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>وقالوا: حال حولا إلى مكان آخر: انقلب. وبغير هذا المائع لا يتيسر للجنين أن ينقلب في داخل الرحم، ولاسيما في الشهر الأخير، إذ يستقر الرأس عند عنق الرحم بعد أن كان قبيل ذلك العهد بجوار قعر الرحم أو في أحد جانبيه.</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>وقالوا: تحول: تحرك. قلنا ولا تتاح الحركة للجنين بدون المائع والجنين لا يجس أو يشعر به بدونه.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>وقالوا: تحول: تحرك. قلنا ولا تتاح الحركة للجنين بدون المائع والجنين لا يجس أو يشعر به بدونه.</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>وقالوا: حال حولا: حجز حجزا ومنه الحول وهو الحاجز. قلنا: وهذا السائل هو الحاجز أو الوسيط المنيع بين الجنين والسلى لتخفيف الصدمة من الخارج، أو لحجزها عنه كل الحجز مهما كان مصدرها.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>وقالوا: حال حولا: حجز حجزا ومنه الحول وهو الحاجز. قلنا: وهذا السائل هو الحاجز أو الوسيط المنيع بين الجنين والسلى لتخفيف الصدمة من الخارج، أو لحجزها عنه كل الحجز مهما كان مصدرها.</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>وقالوا: الحائل: المتغير اللون. قلنا: ولون هذا المائع يتغير بتغير المواد الممزوجة به</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>وقالوا: الحائل: المتغير اللون. قلنا: ولون هذا المائع يتغير بتغير المواد الممزوجة به</p>
             <p change="#d2e73">من بول وغيره. تلك المواد التي يبرزها الجنين وهو في بطن أمه.</p>
             <p change="#d2e73">هذا ما نراه وإذا صح إطلاق هذا اللفظ على المائع الامنيوسي فلابد من التأمل في مصير كلمة:
 <pb n="n4-p224" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1848.xhtml"/>
 
 
-               <hi style="color:red;">5 - </hi>الصآة أو الصاءة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>الصآة أو الصاءة</p>
             <p change="#d2e73">فالصآة أو الصاءة على ما ورد في كتب اللغة هي الماء الذي في المشيمة والمرجح أن المراد بالصاءة مقدار المائع الامنيوسي الموجود في الفاقئآء وحدها وعلى هذا الوجه نكون قد عينا بصورة واضحة ووافية معنى السلى وما فيه من مائع وهو السابياء وعرفنا ما هي الفاقئاء وما تحويه من الصاءة وهو قسم من السابياء لا غير.</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>السخد</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>السخد</p>
             <p change="#d2e73">وعلى سبيل القياس ترجم الأتراك - وفي مقدمتهم الدكتور يوسف رامي اللبناني أستاذ فن التشريح في الآستانة وواضع اغلب مصطلحات الطب عندهم - كلمة (بالمشيمة) وذهب مذهبه اغلب الأطباء المحدثين من طلاب الجامعة التركية أو من المغرمين بآثار الأستاذ المشار إليه؛ غير أنني لا أوافقهم على هذا اللفظ عند البحث عنها في لغة الضاد.</p>
             <p change="#d2e73">الذي أراه أن المشيمة (وهي عندي اسم وقد تحتمل أن تكون مؤنث مشيم المشتقة مادتها من اصل كلمة شامة فيكون معنى المشيمة التي عليها شامات) أحرى بان تقابل كلمة الإفرنجية، أي الطبقة الثالثة الخارجية التي يتركب منها السلى. والدليل على ذلك إننا لو تأملنا تأمل مشرح في وجه هذه الطبقة الخارجي لرأينا عليها حليمات دقيقة ناتئة، وربما كانت ذات زغب، ولما لم يكن في وسع السلف الأقدمين أن يميزوه آنئذ برؤية العين بين الشامات وبين النتوءات نعتوها بالمشيمة. وهذا ليس بالأمر الغريب، فان بعض العرب المولدين بل العرب الأقدمين أيضاً لم يزالوا يستعملون حتى هذا العهد كلمة (شامة) في مكان (الخال) - ويا ليتهم أطلقوا كلمة (خالية) على المشيمة، أي على هذه الطبقة الثالثة الخارجية، لكانوا اقرب إلى الصواب، لان (الخالة) هي شامة ناتئة على سطح الجلد؛ وأما الشامة فلا تتعدى مستواه السطحي.
 <pb n="n4-p225" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1849.xhtml"/>
 
 
-               <hi style="color:red;">7 - </hi>المشيمة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num>  - </hi>المشيمة</p>
             <p change="#d2e73">بقي علينا قول الغويين أن المشيمة هي (غشاء ولد الإنسان يخرج معه عند الولادة) فهو قول لا يخلو من بعض الحقيقة، فانهم اكتفوا بالتعبير عن مجموع الأغشية (بالمشيمة) وهي إحدى طبقات أغشية البيضة لا غير. وذلك لأنها الطبقة السطحية التي تقع تحت البصر دون غيرها عند خروجها مع الطفل وقد يحتمل أن العرب لم يكونوا واقفين في ذلك العهد على أقسام أغشية البيضة كلها، كما عرفنا إياها اليوم علماء التشريح.</p>
             <p change="#d2e73">وعليه يجدر بنا أن نضع للبلاسنتة اسما غير المشيمة ولعل اسم (السخد) هو الموافق لها كل الموافقة، أنني لا اجهل أن بعض رصفائي سموا (سخدا) السائل الذي في أغشية البيضة استنادا إلى ما ورد في بعض المعاجم القائلة: (السخد ماء أصفر غليظ يخرج مع الولد). بيد أننا نقول: لا يخرج الماء كله مع الولد على ما هو مقرر عند أصحاب الفن. إنما يخرج بعض منه قبله وهو (الفاقئاء) وقد مر بك ذكره، وبعض منه يخرج معه والبعض الآخر بعده وهو الصاءة، وقد يبطيء الولد أحيانا ساعات عديدة في داخل الرحم بعد خزع الأغشية وخروج الماء بكليته ونفاده.</p>
             <p change="#d2e73">وقال آخرون: بل السخد هنة كالكبد والطحال مجتمعة تكون في السلى، وربما لعب بها الصبيان.</p>
@@ -1360,20 +1360,20 @@
          <div change="#d2e64" type="item">
             <head>جواب الاستفتاء</head>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>السلى: لم نجد في الدواوين اللغوية العربية كلمة تقابل غشاء البيضة أي تقابل ما يسميه الإفرنج أما السلى فليس به على ما تتبعناه. والذي ذكرناه في معجمنا العربي الإفرنجي والفرنجي العربي الخطيين أن السلى هو ما يسميه الفرنسيون أو - وبالإنكليزية وباللاتينية وباليونانية أو وهو اسم لما يبقى في الرحم من مشيمة وسخد وسابياء وغشاء ساقط بعد خروج الولد، ثم يطرح بعده - والمادة مشتقة من اصل ممات في لغة الضاد وحي في اللغة الأخت الارمية، من سلى يسلي أي نبذ ونفى، فيكون معناه: الرذالة والنفاية وهو ما يوافق المعنى المطلوب.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>السلى: لم نجد في الدواوين اللغوية العربية كلمة تقابل غشاء البيضة أي تقابل ما يسميه الإفرنج أما السلى فليس به على ما تتبعناه. والذي ذكرناه في معجمنا العربي الإفرنجي والفرنجي العربي الخطيين أن السلى هو ما يسميه الفرنسيون أو - وبالإنكليزية وباللاتينية وباليونانية أو وهو اسم لما يبقى في الرحم من مشيمة وسخد وسابياء وغشاء ساقط بعد خروج الولد، ثم يطرح بعده - والمادة مشتقة من اصل ممات في لغة الضاد وحي في اللغة الأخت الارمية، من سلى يسلي أي نبذ ونفى، فيكون معناه: الرذالة والنفاية وهو ما يوافق المعنى المطلوب.</p>
             <p change="#d2e73">أما ما ذهب إليه الدكتور الصديق من الاشتقاق فخياليا اكثر منه حقيقيا أو لغويا. على أنه قد يصح أن يطلق السلى على ما يسمى بغشاء البيضة لأن صاحب لسان العرب يقول في مادة ح ول: الحولاء. . . وقيل: جلدة تأتي بعد الولد في السلى الاول أهـ. فهذا كلام يشير إلى أن هناك غير سلى واحد. فإذا
 <pb n="n4-p227" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1851.xhtml"/>
 
 
 كان ثان وثالث اتضح أن الكلام عن طبقات السلى، وحينئذ لا يكون هذا إلاَّ غشاء البيضة على ما قاله الطبيب البحاثة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>الفاقياء (ولا تقل الفاقئاء كما في بعض كتب اللغة الحديثة، لأن الفاقئاء هي الأصل والفاقياء هي ما صارت إليه بعد القلب)، ويقال لها الفقء يوافق لما سماه الإفرنج والإنكليز واللاتين قالوا: هي قطعة من غشاء الجنين يدفعها الوليد أمامه وتكون على وجهه حين خروجه، وذلك إذا كانت شديدة القواء.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>الفاقياء (ولا تقل الفاقئاء كما في بعض كتب اللغة الحديثة، لأن الفاقئاء هي الأصل والفاقياء هي ما صارت إليه بعد القلب)، ويقال لها الفقء يوافق لما سماه الإفرنج والإنكليز واللاتين قالوا: هي قطعة من غشاء الجنين يدفعها الوليد أمامه وتكون على وجهه حين خروجه، وذلك إذا كانت شديدة القواء.</p>
             <p change="#d2e73">ومن مرادفاتها عند العرب القضاة (وهي كجمع قاض إلا أنها مفردة من مادة قضى) والمسكة والماسكة والفقأة. قال ابن الأعرابي: الفقأة جلدة رقيقة تكون على الأنف، فإن لم تكشفها مات الولد أهـ. وأما ما يوافق جراب الماء عند العرب فهو في رأينا الحولاء كما سترى.</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>السابياء. هي التي وصلنا إليها نحن أيضاً في تحقيقنا عن هذه اللفظة قبل عدة سنوات، واتبعناه في معجمينا المذكورين. أما ما في كتب اللغة الفرنسية العربية وبالعكس؛ أو ما في الكتب الإنكليزية وبالعكس؛ أو ما في كتب الطب المترجمة إلى العربية فهو غلط ظاهر. - والكلمة مشتقة من اصل حي في الارمية ممات في العربية، معناه الوسخة والقذرة والودكة والدسمة (وكلها بكسر العين). أما ما ذهب إليه الصديق الطبيب النطاسي</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>السابياء. هي التي وصلنا إليها نحن أيضاً في تحقيقنا عن هذه اللفظة قبل عدة سنوات، واتبعناه في معجمينا المذكورين. أما ما في كتب اللغة الفرنسية العربية وبالعكس؛ أو ما في الكتب الإنكليزية وبالعكس؛ أو ما في كتب الطب المترجمة إلى العربية فهو غلط ظاهر. - والكلمة مشتقة من اصل حي في الارمية ممات في العربية، معناه الوسخة والقذرة والودكة والدسمة (وكلها بكسر العين). أما ما ذهب إليه الصديق الطبيب النطاسي</p>
             <p change="#d2e73">من الاشتقاق فلا نوافقه عليه البتة، فهو من الخياليات الشعرية، لا من الحقائق المثبتة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>الحولاء: ذهب الخدن البحاثة إلى أن الحولاء هو السائل الامنيوسي ونحن لا نرى رأيه؛ لأن اللغويين ذكروا بصريح العبارة إنها جلدة (أي جراب) فيها ماء بل قال في اللسان: (الحولاء غلاف أخضر (أي غض أو رخو: لا أخضر اللون كما يتوهمه بعضهم) كأنه دلو عظيمة مملوءة ماء وتنفقئ حين تقع إلى الأرض، ثم يخرج السلى فيه القرنتان ثم يخرج بعد ذلك بيوم أو يومين الصاة. . . ونزلوا في مثل حولاء الناقة. وفي
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>الحولاء: ذهب الخدن البحاثة إلى أن الحولاء هو السائل الامنيوسي ونحن لا نرى رأيه؛ لأن اللغويين ذكروا بصريح العبارة إنها جلدة (أي جراب) فيها ماء بل قال في اللسان: (الحولاء غلاف أخضر (أي غض أو رخو: لا أخضر اللون كما يتوهمه بعضهم) كأنه دلو عظيمة مملوءة ماء وتنفقئ حين تقع إلى الأرض، ثم يخرج السلى فيه القرنتان ثم يخرج بعد ذلك بيوم أو يومين الصاة. . . ونزلوا في مثل حولاء الناقة. وفي
 <pb n="n4-p228" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1852.xhtml"/>
 
 
@@ -1381,9 +1381,9 @@
             <p change="#d2e73">فهذا كلام كثر ما يوافقه (جراب المياه) المعروف عند الإفرنج هذا فضلا عن أن الحولاء تقارب الارمية (حولا) ومعناها الكهف والغار، وما الجراب إلاَّ كهفا وغارا إذا ما وجد في داخل ظرف كبير كالبطن مثلا.</p>
             <p change="#d2e73">أما الاشتقاق الذي ذكره البحاثة فنعتبره خياليا وشعريا لا نصيب له من الحقيقة إلاَّ المشابهة في الحروف. وأما ما يوافق السائل الامنيوسي فهو النخط (كقفل) قال في اللسان: يقال للسخد وهو الماء الذي في المشيمة النخط فإذا أصفر فهو الصفق والصفر (وكلاهما كسبب) والصفار. أهـ</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>الصاءة أو الصآة: هي حقيقة ما يقابلها عند أطباء الفرنسيين ما معناه:</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>الصاءة أو الصآة: هي حقيقة ما يقابلها عند أطباء الفرنسيين ما معناه:</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>أكثر ورود السخد في كتب العرب بمعنى الماء الذي يكون على رأس الولد. هذا هو معناه المشهور كلما ذكروه. على أن بعضهم أورد له معنى لم يذكر لأي لفظة وهو قولهم: السخد هنة كالكبد أو الطحال مجتمعة تكون في السلى وربما لعب بها الصبيان (اللسان بحرفه) فهذا الكلام لا يوافق إلاَّ لما يسميه الإفرنج وقد سماها الإفرنج بهذا الاسم ومعناه (الحلوى) لان للبلاسنتة هيئة مستديرة كهيئة الحلوى التي يصنعونها في بلادهم وهي إسفنجية القوام. وليس للعرب لفظة أخرى لها هذا المعنى أو مثله. وأما أن الاكثرين قالوا إنها المشيمة، فالغلط ظاهر لا يحتاج إلى أن يشار إليه؛ إذ لم يذكر لها العرب معنى كالذي ذكروا للسخد. ولهذا يحسن بنا أن نخصص لفظة السخد للبلاسنتة كما احسن انتقاءها الدكتور البحاثة. ونبقي غيرها لغيرها.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>أكثر ورود السخد في كتب العرب بمعنى الماء الذي يكون على رأس الولد. هذا هو معناه المشهور كلما ذكروه. على أن بعضهم أورد له معنى لم يذكر لأي لفظة وهو قولهم: السخد هنة كالكبد أو الطحال مجتمعة تكون في السلى وربما لعب بها الصبيان (اللسان بحرفه) فهذا الكلام لا يوافق إلاَّ لما يسميه الإفرنج وقد سماها الإفرنج بهذا الاسم ومعناه (الحلوى) لان للبلاسنتة هيئة مستديرة كهيئة الحلوى التي يصنعونها في بلادهم وهي إسفنجية القوام. وليس للعرب لفظة أخرى لها هذا المعنى أو مثله. وأما أن الاكثرين قالوا إنها المشيمة، فالغلط ظاهر لا يحتاج إلى أن يشار إليه؛ إذ لم يذكر لها العرب معنى كالذي ذكروا للسخد. ولهذا يحسن بنا أن نخصص لفظة السخد للبلاسنتة كما احسن انتقاءها الدكتور البحاثة. ونبقي غيرها لغيرها.</p>
             <p change="#d2e73">ومن العجب أن المعربين الأقدمين الفصحاء عربوا كلمة بالمشيمة أو المشيمية ومعناها (شبه المشيمة) تكون في العين وهي الطبقة الموجودة بين الصلبة والشبكة. والحال أن اللفظة الإفرنجية مركبة من اليونانية التي من الواجب علينا أن نسميها (مشيمة) ومعناها الأصلي الغشاء. ومن
 <pb n="n4-p229" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1853.xhtml"/>
 
@@ -1391,23 +1391,23 @@
 ومعناها شبه أو مماثل. إذن كيف قالوا في الكلمة الواحدة مشيمة وذلك للعين، وكيف خالفوها مرة ثانية فسموا البلاسنتة مشيمة وهي غير الأولى؟ فالخطأ واضح صريح. والجري على اصطلاح الأقدمين هو الصحيح ومخالفة المحدثين لهم مذموم على كل حال.</p>
             <p change="#d2e73">أما اشتقاق المشيمة فهو من شام الشيء في الشيء أي ادخله وخبأه فيه ومنه الشيام للكناش. وقد ذكرنا مثل هذا للحولاء وأنها سميت كذلك لأنها تدل على الكهف والغار فهي إذن من هذا القبيل. وعليه يكون معنى الألفاظ المطلوبة هكذا:</p>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>السلى -</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>السلى -</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>الفاقياء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>الفاقياء</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>السابياء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>السابياء</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>الحولاء</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>الحولاء</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>الصاءة أو الصاة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>الصاءة أو الصاة</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>السخد (كقفل)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>السخد (كقفل)</p>
             <p change="#d2e73">
-               <hi style="color:red;">7 - </hi>المشيمة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num>  - </hi>المشيمة</p>
             <p change="#d2e73">
-               <hi style="color:red;">8 - </hi>النخط (كقفل)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="8" xml:lang="ar">٨</tei:num>  - </hi>النخط (كقفل)</p>
             <byline change="#d2e219">
-               <hi style="color:red;">9 - </hi>غشاء البيضة
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="9" xml:lang="ar">٩</tei:num>  - </hi>غشاء البيضة
 <pb n="n4-p230" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1854.xhtml"/>
 
 
@@ -1423,7 +1423,7 @@
 
 
 بعض أنحاء العراق، وكنا قد حضرنا بعضها.</p>
-            <p change="#d2e73">ثم انتقلت هذه الألفاظ من العرب إلى الترك. ولما كان السلطان يحضر عرض جنوده ولاسيما المماليك منهم (أي الينكشرية) كانوا يصرخون في آخر العرض: عره. حزه! كأنهم يتصورون انهم يؤمرون بعد قليل بذبح العدو فيشجع وأحدهم صاحبه على أي قاع الضرر بالعدو أو على قطع رأسه. ولما كان الترك مجاورين للروس تعلم هؤلاء منهم هذا الصراخ في الحرب ثم تلقاه عن الروس مجاوروهم الألمان سنة 1813 وعنهم الفرنسيون فالإنكليز؛ واليوم اكثر الناس استعمالا للكلمتين؛ عره! حزه! أبناء بريطانية الكبرى.</p>
+            <p change="#d2e73">ثم انتقلت هذه الألفاظ من العرب إلى الترك. ولما كان السلطان يحضر عرض جنوده ولاسيما المماليك منهم (أي الينكشرية) كانوا يصرخون في آخر العرض: عره. حزه! كأنهم يتصورون انهم يؤمرون بعد قليل بذبح العدو فيشجع وأحدهم صاحبه على أي قاع الضرر بالعدو أو على قطع رأسه. ولما كان الترك مجاورين للروس تعلم هؤلاء منهم هذا الصراخ في الحرب ثم تلقاه عن الروس مجاوروهم الألمان سنة  <tei:num type="auto-markup" change="#d2e258" value="1813" xml:lang="ar">١٨١٣</tei:num>  وعنهم الفرنسيون فالإنكليز؛ واليوم اكثر الناس استعمالا للكلمتين؛ عره! حزه! أبناء بريطانية الكبرى.</p>
             <p change="#d2e73">ومن الغريب أن الملوك ورجال السياسة يهتفون بأحد هذين اللفظين أو بكليهما عند شرب النخب وهم يريدون بذلك أن (يحيى) الذي يهتفون له، غير عالمين أنهم يدعون عليه بالضرر والقتل.</p>
             <p change="#d2e73">وقت استعمال هذين اللفظين</p>
             <p change="#d2e73">يتلفظ بهما أو بأحدهما بكل ما أوتي الجندي من الشدة في الصوت عند الهجوم على العدو بألواح السلاح أي بالسلاح غير الناري.</p>
@@ -1444,8 +1444,8 @@
          <div change="#d2e64" type="item">
             <head>أسئلة وأجوبة</head>
             <p change="#d2e73">الضراوة</p>
-            <p change="#d2e73">سألنا أحد الأدباء من <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> قال: ذكرت <title level="j">لغة العرب</title> في جزءها الأخير (154: 4) أن الضراوة هي العادة المكتسبة من المداومة على الشيء أو من كثرة مزاولته إياه ونحن لا نوافقها عليه إذ هي ليست بمعنى الفرنسية بل هي بمعنى (العدوة ولزوم الشر) على حد ما جاء في (كتاب كليلة ودمنة المطبوع طبعة جديدة مدرسية مبنية على قدم نسخة مخطوطة مؤرخة وقد أبرزتها بحلتها البديعة مطبعة الأباء اليسوعيين في <placeName>بيروت</placeName> في الباب الثالث وهو باب البوم والغربان إذ جاء في ص174 منه: (واشد من ذلك كله في نفسي ضراوتهن ثم علمهن بمكانكن وجرأتهن عليكم مثل الذي ذقتم منهن. . .)</p>
-            <p change="#d2e73">فقد جاء في آخر الكتاب أي في معجم الألفاظ في ص303 ما نصه: (ضراه: أغراه وهيجه. - الضراوة العداوة ولزوم الشر.) أهـ وهذا كله يفسد رأي ما ذهب إليه صاحب <title level="j">لغة العرب</title>. فكيف الجمع بين هذين القولين؟</p>
+            <p change="#d2e73">سألنا أحد الأدباء من <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> قال: ذكرت <title level="j">لغة العرب</title> في جزءها الأخير ( <tei:num type="auto-markup" change="#d2e258" value="154" xml:lang="ar">١٥٤</tei:num> :  <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num> ) أن الضراوة هي العادة المكتسبة من المداومة على الشيء أو من كثرة مزاولته إياه ونحن لا نوافقها عليه إذ هي ليست بمعنى الفرنسية بل هي بمعنى (العدوة ولزوم الشر) على حد ما جاء في (كتاب كليلة ودمنة المطبوع طبعة جديدة مدرسية مبنية على قدم نسخة مخطوطة مؤرخة وقد أبرزتها بحلتها البديعة مطبعة الأباء اليسوعيين في <placeName>بيروت</placeName> في الباب الثالث وهو باب البوم والغربان إذ جاء في ص <tei:num type="auto-markup" change="#d2e258" value="174" xml:lang="ar">١٧٤</tei:num>  منه: (واشد من ذلك كله في نفسي ضراوتهن ثم علمهن بمكانكن وجرأتهن عليكم مثل الذي ذقتم منهن. . .)</p>
+            <p change="#d2e73">فقد جاء في آخر الكتاب أي في معجم الألفاظ في ص <tei:num type="auto-markup" change="#d2e258" value="303" xml:lang="ar">٣٠٣</tei:num>  ما نصه: (ضراه: أغراه وهيجه. - الضراوة العداوة ولزوم الشر.) أهـ وهذا كله يفسد رأي ما ذهب إليه صاحب <title level="j">لغة العرب</title>. فكيف الجمع بين هذين القولين؟</p>
             <p change="#d2e73">قلنا: شارح اللفظة واهم ووهمه بين لكل ذي عينين، إذ ليس في كتب اللغة ما يؤيد رأيه، بل ولا في كتب الأدب كلها جمعاء. قال في لسان العرب في مادة ضري؛ ضري به ضرا وضراوة؛ نهج به. وقد ضريت بهذا الأمر
 <pb n="n4-p233" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1857.xhtml"/>
 
@@ -1462,7 +1462,7 @@
 والمعهد وضع لما يسميه الفرنسيون وإن كان يأتي بمعان أخرى.</p>
             <p change="#d2e73">فلم يبق لنا إلاَّ أن نضع اسما جديدا لكلمة فاكلتة واحسن ما يؤدي هذا المعنى (متقن) كمصحف (أي بضم الميم وإسكان التاء وفتح القاف وفي الآخر نون) ويجمع على متاقن كمصاحف ومخادع جمع مصحف ومخدع. ومتقن اسم مكان من أتقن الشيء إذا احكمه. والمتعلم لا يدخل تلك المدارس إلاَّ ليحكم درس العلم الذي يتفرغ له. وجماعة معلمي المتقن هم (التقنون) جمع تقن (بكسر الاول أو بفتح فكسر) وكل منهم تقن. قال في اللسان: رجل تقن وتقن: متقن للأشياء حاذق. ورجل تقن (بكسر الأول) هو الحاضر المنطق والجواب. أهـ. ومعلمو المتاقن هم كذلك.</p>
             <p change="#d2e73">الكهربا والكهربية لا الكهرباء والكهربائية</p>
-            <p change="#d2e73">جاء في جريدة <title level="j">الفضيلة</title> في صحيفتها 55 في الصفحة 2 ما هذا نصه:</p>
+            <p change="#d2e73">جاء في جريدة <title level="j">الفضيلة</title> في صحيفتها  <tei:num type="auto-markup" change="#d2e258" value="55" xml:lang="ar">٥٥</tei:num>  في الصفحة  <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  ما هذا نصه:</p>
             <p change="#d2e73">ما قول. . . الأب أنستاس ماري الكرملي في كلمة الكهرباء، هل هي مذكرة أم مؤنثة. وهل يجوز أن يقال (الكهربائية) للدلالة على القوة الكهربائية الخفية التي نستعملها في دفع الترام وسائر المحركات. وإذا كانت هذه الكلمة مذكرة فما هو الفرق بينها وبين كلمة</p>
             <p change="#d2e73">الكهرباء المستعملة للدلالة على الحجر الأصفر الثمين وهل كلمة الكهرباء عربية الأصل؟</p>
             <p change="#d2e73">الكهرباء والصواب كهربا (بدون مد) ولا عبرة بعلامة التأنيث هنا؛ (فهي كزكريآء وعاديآء وارميآء وكلها أسماء رجال). وكذلك خليفة وراوية (لمن يروي الشعر) وعلامة فهي كلم مذكرة أيضا. لأنها وضعت للذكور. وأما الكهربائية والصواب الكهربية فهي غير الكهرباء، فالكهربية: خاصية تكون في بعض الأجسام تجذب إليها في بعض الأحوال الأجسام الخفيفة التي تقرب منها وينقدح من الاحتكاك بها شرارة وإذا قويت أحدثت هزة عصب في الحيوانات. فقولك الكهربية معناها الخاصية الكهربائية فاستغنوا عن الموصوف بالصفة ثم اعتبروها اسما على ما هو معروف في مثل هذه المعاني كالوطنية والقومية والشعوبية بمعنى محبة الوطن وروح القوم ومحبة الشعوب (مع كراهية للعرب) على ما هو مشهور في معاني هذه الألفاظ.</p>
@@ -1484,29 +1484,29 @@
          <div change="#d2e64" type="section">
             <head>باب المشارفة والانتقاد</head>
             <p change="#d2e73">
-               <hi style="color:red;">12 - </hi>الإصابة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="12" xml:lang="ar">١٢</tei:num>  - </hi>الإصابة</p>
             <p change="#d2e73">مجلة أدبية علمية انتقادية تصدر في كل أسبوع مرة، يرأس تحريرها صاحبها <persName change="#d2e230" ref="oape:pers:418 viaf:61517780">
                             <forename xml:lang="ar">جميل</forename>
                             <forename xml:lang="ar">صدقي</forename>
                             <surname xml:lang="ar">الزهاوي</surname>
-                        </persName>، بدل الاشتراك خمس ربيات وللخارج ثماني ربيات صدر جزءها الاول في 8 صفحات بحجم هذه المجلة يوم الجمعة في 10 أيلول 1926.</p>
+                        </persName>، بدل الاشتراك خمس ربيات وللخارج ثماني ربيات صدر جزءها الاول في  <tei:num type="auto-markup" change="#d2e258" value="8" xml:lang="ar">٨</tei:num>  صفحات بحجم هذه المجلة يوم الجمعة في  <tei:num type="auto-markup" change="#d2e258" value="10" xml:lang="ar">١٠</tei:num>  أيلول  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num> .</p>
             <p change="#d2e73">وقد قال صديقنا في سبب إصدارها: (إنا قد ألفينا العربية في العراق لا تستغني في حالها الحاضر عمن يقوم أودها بالتنبيه على ما يقع من الخطأ في كثير من القصيد والمقالات مما ينشر في صحفه. ولا ينحصر هذا الخطأ في اللفظ بل يتجاوزه إلى المعنى الذي هو كل المراد من اللفظ). على أننا نتمنى ان تخلو تلك الصفحات من أغلاط الطبع ونتمنى لها العمر الطويل الهنيء ليستفيد منها القريب والبعيد وينتصر الأدب الحديث على الطراز القديم البالي. وهو لا يكون إلاَّ مكبوة!</p>
             <p change="#d2e73">
-               <hi style="color:red;">13 - </hi>الخليقة ونظامها</p>
-            <p change="#d2e73">بقلم أمين الغريب <persName><addName type="pseudonym">صاحب مجلة <title level="j">الحارس</title></addName></persName> البيروتية في 119 صفحة</p>
-            <p change="#d2e73">قلم الغريب سلس منقاد، لا يطالع القارئ ما يخطه إلاَّ ويرجع عنه حافل الوطاب. وقد وقفنا على ها المصنف فوجدناه من احسن ما لذ وطاب؛ على أننا نأخذ عليه تساهله في مجاراة العوام في بعض الألفاظ كقوله الفرنسوي (ص6) وأشهرها (فيها)؛ وتل بالحري (فيها) واكتشف السيارات الأربع (ص7) والصحيح؛ الفرنسي، وشهرها (بلا ألف)، بل قل، وكشف السيارات الأربعة، لأن مفردها السيار بلا هاء بمعنى الجرم السماوي. - وأوهامه في المصطلحات العلمية اكثر؛ فالرخمة ليست بالشوحة. والشوحة هي الحدأة (ص
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="13" xml:lang="ar">١٣</tei:num>  - </hi>الخليقة ونظامها</p>
+            <p change="#d2e73">بقلم أمين الغريب <persName><addName type="pseudonym">صاحب مجلة <title level="j">الحارس</title></addName></persName> البيروتية في  <tei:num type="auto-markup" change="#d2e258" value="119" xml:lang="ar">١١٩</tei:num>  صفحة</p>
+            <p change="#d2e73">قلم الغريب سلس منقاد، لا يطالع القارئ ما يخطه إلاَّ ويرجع عنه حافل الوطاب. وقد وقفنا على ها المصنف فوجدناه من احسن ما لذ وطاب؛ على أننا نأخذ عليه تساهله في مجاراة العوام في بعض الألفاظ كقوله الفرنسوي (ص <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num> ) وأشهرها (فيها)؛ وتل بالحري (فيها) واكتشف السيارات الأربع (ص <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num> ) والصحيح؛ الفرنسي، وشهرها (بلا ألف)، بل قل، وكشف السيارات الأربعة، لأن مفردها السيار بلا هاء بمعنى الجرم السماوي. - وأوهامه في المصطلحات العلمية اكثر؛ فالرخمة ليست بالشوحة. والشوحة هي الحدأة (ص
 <pb n="n4-p237" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1861.xhtml"/>
 
 
-81) واللقلق هو اسمه المعروف اليوم في العراق وكان يسمى سابقا أبا حديج وأصله أبو حويج؛ لأنهم يتصورون أنه يذهب للحج. وأبو صوي غير اللقلق (ص82) على خلاف ما ذكره. والشبوط من السمك هو غير الطنز والمورينة ليست بالمشبح الذي هو المورو والجري هو السلور وليس بالحنكليس الذي هو الجريث وعند العراقيين المرمريج أو المارماهيج أي</p>
+ <tei:num type="auto-markup" change="#d2e258" value="81" xml:lang="ar">٨١</tei:num> ) واللقلق هو اسمه المعروف اليوم في العراق وكان يسمى سابقا أبا حديج وأصله أبو حويج؛ لأنهم يتصورون أنه يذهب للحج. وأبو صوي غير اللقلق (ص <tei:num type="auto-markup" change="#d2e258" value="82" xml:lang="ar">٨٢</tei:num> ) على خلاف ما ذكره. والشبوط من السمك هو غير الطنز والمورينة ليست بالمشبح الذي هو المورو والجري هو السلور وليس بالحنكليس الذي هو الجريث وعند العراقيين المرمريج أو المارماهيج أي</p>
             <p change="#d2e73">السمك الحية، إلى غير ذلك من المصطلحات. والكهربا مقصور لا ممدود والنسبة إليه الكهربية لا الكهربائية على ما هو شائع على الأقلام. وعسى أن تصلح في الطبعة الثانية.</p>
             <p change="#d2e73">
-               <hi style="color:red;">14 - </hi>في سبيل الشرف</p>
-            <p change="#d2e73">مأساة أدبية تاريخية ذات خمسة فصول في 76 صفحة بقلم جميل البحري طبعت بمطبعة الزهرة في حيفا</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="14" xml:lang="ar">١٤</tei:num>  - </hi>في سبيل الشرف</p>
+            <p change="#d2e73">مأساة أدبية تاريخية ذات خمسة فصول في  <tei:num type="auto-markup" change="#d2e258" value="76" xml:lang="ar">٧٦</tei:num>  صفحة بقلم جميل البحري طبعت بمطبعة الزهرة في حيفا</p>
             <p change="#d2e73">لصديقنا الشاب الهمام جميل البحري فضل على تحسين الروايات، روايات التمثيل فلقد نشر منها: سجين القصر، وقاتل أخيه، وأبو مسلم الخراساني، والخائن، وزهيرة، ووفاء العرب، وهذه روايته السابعة (في سبيل الشرف) كأخواتها حسنة المبنى والمعنى. ترمي إلى أسمى الأخلاق. ويمكن ان يمثلها أبناء المدارس على اختلاف مذاهبهم وأجناسهم، فأنها تعلمهم تعود المكارم والابتعاد عن الدنايا؛ ولهذا نوصي بها كل من يريد ان يهذب أخلاق الناشئة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">15 - </hi>تاريخ الكويت</p>
-            <p change="#d2e73">الجزء الثاني من القسم الأول لمؤلفه عبد العزيز الرشيد (في 263 صفحة)</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="15" xml:lang="ar">١٥</tei:num>  - </hi>تاريخ الكويت</p>
+            <p change="#d2e73">الجزء الثاني من القسم الأول لمؤلفه عبد العزيز الرشيد (في  <tei:num type="auto-markup" change="#d2e258" value="263" xml:lang="ar">٢٦٣</tei:num>  صفحة)</p>
             <p change="#d2e73">بهذا الجزء الثاني تم تاريخ الكويت. وفي هذا المجلد تراجم كثيرين من حكامه ما لا يرى مدونا في كتاب. وفيه أيضاً تفصيل عدة أحداث ووقائع. وقد ألفينا هذا الجزء أحسن من صنوه الأول. وللمؤلف فضل عظيم على أبناء يعرب لأننا لم نجد من دون شيئا في القرون الأخيرة عن تلك الديار، فهي وإن كانت قريبة منا إلا أننا لا نعرف ما يجري فيها. لأن ليس فيها من يفيدنا عنها أدنى فائدة. ولو كان أهل كل كورة منها يفعل ما فعل الشيخ عبد العزيز الرشيد لأفادونا وأفادوا أنفسهم.
 <pb n="n4-p238" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1862.xhtml"/>
 
@@ -1515,7 +1515,7 @@
             <p change="#d2e73">بيد إننا نلح على حضرة الصديق الكاتب أن يختار لنفسه مطبعة حسنة حتى لا يمسخ الكتاب ذاك المسخ الشنيع. إذ لا تخلو صفحة من صفحاته من عدة أغلاط لا تقل عن عشرة</p>
             <p change="#d2e73">في اقل تقدير. وهذا ما يضيع الفائدة من مطالعته ويحرم قراءه عوائد جمة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">16 - </hi>المدرسة والكشاف العراقي</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num>  - </hi>المدرسة والكشاف العراقي</p>
             <p change="#d2e73">(مجلتان بغداديتان في جزء واحد)</p>
             <p change="#d2e73">مجلة نافعة لأبناء المدارس وهي بالحقيقة مجلتان مدمجتان معا وهما مقسومتان قسمين: الاول للمدرسة والثاني للكشاف العراقي - مدير شؤونها محمود نديم وقد وصلنا الجزء الثاني من السنة الأولى من المدرسة ومن السنة الثانية من الكشاف العراقي وهي حسنة التنسيق والتبويب؛ إلا أن الظاهر من كتابها ليسوا من أرباب الفن؛ مع أن المعهود في مثل هذه المجلات أن ينشئ مقالاتها الاحفياء؛ فإن مقالة العناكب والعقارب لا تخلو من غريب الرأي. فقد قال صاحبها: (أعلم أن العناكب ليست حشرات. . . وهي تقوم بعمل مهم في عالم الحشرات). فيظهر من هذا الكلام بعض التناقض. فلو قال مثلا: في عالم الدويبات لكان أحسن. أو لقال في عالم الهوام كما يسميها أجدادنا وكما سترى من كلام الدميري لكان اصدق.</p>
             <p change="#d2e73">وقال: والناس على الغالب لا يحبون جدا العناكب وما اكثر الأشخاص الكبار والصغار الذين يسمونها (المخلوقات المخوفة) فالظاهر من هذا الكلام أن صاحبه عربه عن الإفرنج لأن هذا من تعبيرهم. ويقابله عندنا: والناس على الغالب لا يأنسون بالعناكب وما اكثر الذين يسمونها (المخلوقات المخوفة) وقال: (ولكنها لا تلحق (أي العناكب) أدنى ضرر بالإنسان) ولو قال: ولكنها لا تقتل الإنسان لكان اصح؛ أما لا تضر به أبدا فغير صحيح. فأبو صوفة
@@ -1523,33 +1523,33 @@
 
 
 يلسع كالعقرب. قال الدميري: (أبو صوفة نوع من الرتيلاء يكون غالبا في الأرياف ويضرب لونه إلى الحمرة وله زغب، ومنه اسمه عند أهل <placeName>مصر</placeName>؛ وله في رأسه أربع ابر ينهش بها ونهشته تقرب من لسع العقرب وهو لا ينسج بل يحفر بيته في الأرض ويخرج بالليل كسائر الهوام) أهـ. والرتيلاء أيضاً مخطرة النهش وأن لم تقتل.</p>
-            <p change="#d2e73">وفي المجلة أغلاط كثيرة لا نعرف إلى من ننسبها: أللمطبعة أم للكاتب. فتحنا الصورة الأولى في ص31 فوجدنا المحامات. وفي ص32 كتخريج الضباط وفي ص33 وبين 27 طالب. وفي 34 ثلاثة دور. وفيها استلمت الحكومة وفيها قسما ثالثا ذو صف. وفيها سيتخرج وسيتخرجون. و: فمنهجه أوطأ وفي ص35 ومكتبة. وفيها في بداية تكونها.</p>
-            <p change="#d2e73">وتكرر قوله المرشحين إلى التحصيل في ص36 مرتين. وفي ص37 ليكونوا مدراء. وفي ص38 سبعة أغلاط وفي ص39 ثلاثة أغلاط وفي ص40 ومغطات. وفي ص41 وفي أقدام العنكبوت. . . وفيها على هندامهما. . . وفيها وتستعمل هذه المخالب كذلك. . . وفيها رفيعة الرأس ومدببته. . . وفيها وتستعمل العنكبوت مشعراها. وفيها ثم تتحول إلى شرنقة. . . إلى غير هذه الأوهام والصفحة لا تخلو منها. والأحسن في ما عددناه من التساهل ان يقال: المحاماة. وكإخراج أو تهذيب الضباط. وبين 27 طالبا. وثلاث دور. وتسلمت الحكومة. وقسما ثالثا ذا صف. سيخرج وسيخرجون. فمنهجه أوطأ. وخزانة كتب. وفي بداءة. والمرشحين للتحصيل. ليكونوا مديرين. ومغطاة. وفي أرجل العنكبوت. وعلى هندامها. وتستعمل هذه المخالب أيضا. أي دقيقة الرأس وحادته. أما مدببة فكلمة شامية عامية لا يفهمها العراقيون وليست في المعاجم الفصيحة. وتستعمل مشعريها. وأما قول الكاتب (فبدلا من أن تكون أولا (اسروعا) أو (سرفة) (دودة) ثم تتحول إلى شرنقة. . . فغير راجع إلى جميع الحشرات بل إلى دود الابريسم فقط أو دود القز. ولعله بكلامه هذا يشير إلى ذلك الدود؟</p>
+            <p change="#d2e73">وفي المجلة أغلاط كثيرة لا نعرف إلى من ننسبها: أللمطبعة أم للكاتب. فتحنا الصورة الأولى في ص <tei:num type="auto-markup" change="#d2e258" value="31" xml:lang="ar">٣١</tei:num>  فوجدنا المحامات. وفي ص <tei:num type="auto-markup" change="#d2e258" value="32" xml:lang="ar">٣٢</tei:num>  كتخريج الضباط وفي ص <tei:num type="auto-markup" change="#d2e258" value="33" xml:lang="ar">٣٣</tei:num>  وبين  <tei:num type="auto-markup" change="#d2e258" value="27" xml:lang="ar">٢٧</tei:num>  طالب. وفي  <tei:num type="auto-markup" change="#d2e258" value="34" xml:lang="ar">٣٤</tei:num>  ثلاثة دور. وفيها استلمت الحكومة وفيها قسما ثالثا ذو صف. وفيها سيتخرج وسيتخرجون. و: فمنهجه أوطأ وفي ص <tei:num type="auto-markup" change="#d2e258" value="35" xml:lang="ar">٣٥</tei:num>  ومكتبة. وفيها في بداية تكونها.</p>
+            <p change="#d2e73">وتكرر قوله المرشحين إلى التحصيل في ص <tei:num type="auto-markup" change="#d2e258" value="36" xml:lang="ar">٣٦</tei:num>  مرتين. وفي ص <tei:num type="auto-markup" change="#d2e258" value="37" xml:lang="ar">٣٧</tei:num>  ليكونوا مدراء. وفي ص <tei:num type="auto-markup" change="#d2e258" value="38" xml:lang="ar">٣٨</tei:num>  سبعة أغلاط وفي ص <tei:num type="auto-markup" change="#d2e258" value="39" xml:lang="ar">٣٩</tei:num>  ثلاثة أغلاط وفي ص <tei:num type="auto-markup" change="#d2e258" value="40" xml:lang="ar">٤٠</tei:num>  ومغطات. وفي ص <tei:num type="auto-markup" change="#d2e258" value="41" xml:lang="ar">٤١</tei:num>  وفي أقدام العنكبوت. . . وفيها على هندامهما. . . وفيها وتستعمل هذه المخالب كذلك. . . وفيها رفيعة الرأس ومدببته. . . وفيها وتستعمل العنكبوت مشعراها. وفيها ثم تتحول إلى شرنقة. . . إلى غير هذه الأوهام والصفحة لا تخلو منها. والأحسن في ما عددناه من التساهل ان يقال: المحاماة. وكإخراج أو تهذيب الضباط. وبين  <tei:num type="auto-markup" change="#d2e258" value="27" xml:lang="ar">٢٧</tei:num>  طالبا. وثلاث دور. وتسلمت الحكومة. وقسما ثالثا ذا صف. سيخرج وسيخرجون. فمنهجه أوطأ. وخزانة كتب. وفي بداءة. والمرشحين للتحصيل. ليكونوا مديرين. ومغطاة. وفي أرجل العنكبوت. وعلى هندامها. وتستعمل هذه المخالب أيضا. أي دقيقة الرأس وحادته. أما مدببة فكلمة شامية عامية لا يفهمها العراقيون وليست في المعاجم الفصيحة. وتستعمل مشعريها. وأما قول الكاتب (فبدلا من أن تكون أولا (اسروعا) أو (سرفة) (دودة) ثم تتحول إلى شرنقة. . . فغير راجع إلى جميع الحشرات بل إلى دود الابريسم فقط أو دود القز. ولعله بكلامه هذا يشير إلى ذلك الدود؟</p>
             <p change="#d2e73">على أن مزية المجلة تبقى مما يتباهى به لأنها كثيرة الصور، والطلبة
 <pb n="n4-p240" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1864.xhtml"/>
 
 
 يحبون مشاهدة الصور في كتبهم وجرائدهم ومجلاتهم. ولهذا نتمنى لهذه المجلة المزدوجة نجاحا مزدوجا، سرعة الانتشار بين الطلبة والإقبال على الاشتراك بها من كل حدب وصوب.</p>
             <p change="#d2e73">
-               <hi style="color:red;">17 - </hi>مرقاة المترجم للصفوف العالية في اللغتين الفرنسية</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="17" xml:lang="ar">١٧</tei:num>  - </hi>مرقاة المترجم للصفوف العالية في اللغتين الفرنسية</p>
             <p change="#d2e73">والعربية</p>
-            <p change="#d2e73">تأليف الأب يوسف علوان اللعازري، الجزء الاول بقطع 16 كتاب التلميذ وثمنه أربعة غروش ذهب</p>
+            <p change="#d2e73">تأليف الأب يوسف علوان اللعازري، الجزء الاول بقطع  <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num>  كتاب التلميذ وثمنه أربعة غروش ذهب</p>
             <p change="#d2e73">هذا من الكتب التي يحسن إدخالها في المدارس التي تعلم فيها اللغتان العربية والفرنسية لأن المؤلفات في هذا الصنف قلما تكون وافية بالمقصود فأما أن يكون صاحبها يحسن التعليم ويجهل أصول التأليف وأما أن يكون بالعكس. فالذين يحسنون النظر والعمل قليلون والأب يوسف علوان هو من هذه الطبقة.</p>
-            <p change="#d2e73">على إننا كنا نود أن يتقن العبارة العربية كما أتقن العبارة الفرنسية فقد جاء في ص12 من يتكل على الله لا يخيب. والأفصح لا يخب بحذف الياء. وفيها كشر على أنيابك كل الناس تستهابك. والمشهور هو كشر عن أنيابك كل الناس تهابك. وفي ص17 ليس ألذ للنفس من الصديق الوخي. والمعروف المؤاخي أما الوخي فلا معنى لها هنا. وفي ص23 وها أنا واصف لكم. وهو وهم يركب متنه كل كاتب: وارجح منه وها أنا ذا واصف لكم. وفي ص27 كتاب نعي في موت والده. والمشهور كتاب نعي والد؛ لأن النعي لا يكون إلاَّ في الموت. وفي ص32 (والله اسأل في الختام شفاءك بوقت قريب ودوامك مديدا) وكلمة دوام عامية بمعنى طول العمر لا يعرفها الفصحاء لأن الإنسان لا يدوم على الأرض. وفيها المرجو التكرم بالجواب صحبة ناقله. وهو من تعبير العوام المرذول وأحسن منه مع ناقله.</p>
+            <p change="#d2e73">على إننا كنا نود أن يتقن العبارة العربية كما أتقن العبارة الفرنسية فقد جاء في ص <tei:num type="auto-markup" change="#d2e258" value="12" xml:lang="ar">١٢</tei:num>  من يتكل على الله لا يخيب. والأفصح لا يخب بحذف الياء. وفيها كشر على أنيابك كل الناس تستهابك. والمشهور هو كشر عن أنيابك كل الناس تهابك. وفي ص <tei:num type="auto-markup" change="#d2e258" value="17" xml:lang="ar">١٧</tei:num>  ليس ألذ للنفس من الصديق الوخي. والمعروف المؤاخي أما الوخي فلا معنى لها هنا. وفي ص <tei:num type="auto-markup" change="#d2e258" value="23" xml:lang="ar">٢٣</tei:num>  وها أنا واصف لكم. وهو وهم يركب متنه كل كاتب: وارجح منه وها أنا ذا واصف لكم. وفي ص <tei:num type="auto-markup" change="#d2e258" value="27" xml:lang="ar">٢٧</tei:num>  كتاب نعي في موت والده. والمشهور كتاب نعي والد؛ لأن النعي لا يكون إلاَّ في الموت. وفي ص <tei:num type="auto-markup" change="#d2e258" value="32" xml:lang="ar">٣٢</tei:num>  (والله اسأل في الختام شفاءك بوقت قريب ودوامك مديدا) وكلمة دوام عامية بمعنى طول العمر لا يعرفها الفصحاء لأن الإنسان لا يدوم على الأرض. وفيها المرجو التكرم بالجواب صحبة ناقله. وهو من تعبير العوام المرذول وأحسن منه مع ناقله.</p>
             <p change="#d2e73">على أن هذه الهفوات لا تحرم الناس منفعة الكتاب لأن الغاية منه تعلم الفرنسية لا إتقان العربية؛ إذ يظن الكاتب أن المتعلمين قد احكموا قواعدها قبل تعلم لغة الأجانب. فأصاب.
 <pb n="n4-p241" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1865.xhtml"/>
 
 
-               <hi style="color:red;">18 - </hi>حول سرير الإمبراطور</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="18" xml:lang="ar">١٨</tei:num>  - </hi>حول سرير الإمبراطور</p>
             <p change="#d2e73">ألفه الدكتور كابانيس. نقله بتصرف الدكتور نقولا فياض</p>
-            <p change="#d2e73">عنيت بنشره إدارة الهلال وحقوق الطبع محفوظة لها 1926 بقطع 12</p>
+            <p change="#d2e73">عنيت بنشره إدارة الهلال وحقوق الطبع محفوظة لها  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num>  بقطع  <tei:num type="auto-markup" change="#d2e258" value="12" xml:lang="ar">١٢</tei:num> </p>
             <p change="#d2e73">هذا من احسن هدايا الهلال في هذه السنة لأن الكتاب يبحث عن أكبر ذهنية أنتجه آخر سني القرن الثامن عشر وأوائل القرن التاسع عشر وهو نابوليون بونابرت. إلا أن هذا التصنيف يدرس الرجل الفذ من جهة حالة مرضه التي أثرت فيه وأنشأت في خلقه بعض المعايب وراثة عن أبويه.</p>
             <p change="#d2e73">وقد وجدنا فيه ولعا بعبارات لهج بها العصريون ولم يكن الأقدمون يستعملونها أو كانوا يتخذونها في الندرة. فقد جاء في الصفحة الأولى منه وهي الثامنة من المطبوع؛ أن هذا البحث خلو من الفائدة العلمية. أن يغفل تاريخه الصحي. تتجاوز فائدته الطبية. الوراثة المرضية. هذا المزاج الذي يسمونه الارتريتيكي. إلى حد أنه وهو على سرير الموت كان شغله الشاغل. وهذا التعبير وأن كان جائزا إلا أنه دون ما يأتي في نظر الفصحاء. فالبلغاء يقولون خلو من فائدة العلم. تاريخ صحته. من فائدة الطب. من وراثة المرض. المزاج الحرض (بفتح وكسر والاسم الحرض وزان سبب). إلى حد أنه كان شغله الشاغل وهو</p>
             <p change="#d2e73">على سرير الموت. ومثل هذا التعبير والركة كثير في هذا الكتاب.</p>
             <p change="#d2e73">
-               <hi style="color:red;">19 - </hi>المعارف</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="19" xml:lang="ar">١٩</tei:num>  - </hi>المعارف</p>
             <p change="#d2e73">صحيفة أسبوعية علمية أدبية تصدر في الكاظمية بقرب <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName></p>
-            <p change="#d2e73">صدر العدد الاول من هذه الجريدة في 3 أيلول من هذه السنة لصاحبها سلمان الصفواني ووصلنا منها العدد الثالث فوجدنا فيه مقالة في حديث الأسبوع. وأخرى عنوانها (الزهاوي في الميزان) ونبذا في مواضيع مختلفة. فنتمنى لها طول العمر والرواج بين الناس.</p>
+            <p change="#d2e73">صدر العدد الاول من هذه الجريدة في  <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  أيلول من هذه السنة لصاحبها سلمان الصفواني ووصلنا منها العدد الثالث فوجدنا فيه مقالة في حديث الأسبوع. وأخرى عنوانها (الزهاوي في الميزان) ونبذا في مواضيع مختلفة. فنتمنى لها طول العمر والرواج بين الناس.</p>
             <p change="#d2e73">عذر من القراء</p>
             <p change="#d2e73">لدينا مقالات عديدة كنا نود أن ندرجها في هذا العدد إلا أن تراكم المواد حال دون تحقيق أمنيتنا وكذلك أهدانا بعض المؤلفين كتبهم. فموعدنا في الجزء القادم.
 <pb n="n4-p242" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1866.xhtml"/>
@@ -1560,7 +1560,7 @@
          <div change="#d2e64" type="item">
             <head>باب المكاتبة والمذاكرة</head>
             <p change="#d2e73">اسم <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName></p>
-            <p change="#d2e73">طالعت ما جاء في <title level="j">لغة العرب</title> (80: 4) عن معنى (<placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName>) لاسم مدينة السلام فأني لا اشك في أن الكلمة مأخوذة من الفارسية وأنها مركبة من لفظين (بغ) بمعنى اله و (داذ) بالذال المعجمة كما كان يكتب قديما بمعنى معطى (اسم مفعول من أعطى) ومن المشهور أن في اللغات الآرية الشرقية ولاسيما في الصقلبية بغ وبك أو بالكاف الفارسية اسم اله؛ ولم أر أن الغين تبدل من الكاف العربية في شيء من الألفاظ العربية.</p>
+            <p change="#d2e73">طالعت ما جاء في <title level="j">لغة العرب</title> ( <tei:num type="auto-markup" change="#d2e258" value="80" xml:lang="ar">٨٠</tei:num> :  <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num> ) عن معنى (<placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName>) لاسم مدينة السلام فأني لا اشك في أن الكلمة مأخوذة من الفارسية وأنها مركبة من لفظين (بغ) بمعنى اله و (داذ) بالذال المعجمة كما كان يكتب قديما بمعنى معطى (اسم مفعول من أعطى) ومن المشهور أن في اللغات الآرية الشرقية ولاسيما في الصقلبية بغ وبك أو بالكاف الفارسية اسم اله؛ ولم أر أن الغين تبدل من الكاف العربية في شيء من الألفاظ العربية.</p>
             <p change="#d2e73"><persName>ف. كرنكو</persName></p>
             <p change="#d2e73">(<title level="j">لغة العرب</title>) أن كانت <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> من اصل فارسي فلا نرى وجه وجودها قبل احتلال الفرس لهذه الديار إذ ترى في الرقم الآشورية منذ العهد القديم على ما أثبته الكاتب في موطنه.</p>
             <p change="#d2e73">أما أن الغين لا تبدل من الكاف العربية فنحن لا نوافق عليه حضرة صديقنا العزيز ففي لغتنا نجد بمعنى واحد اغبن من تربك واكبن: كربلت الحنطة وغربلتها التكوير والتغوير؛ كفر وغفر (بمعنى غطى)؛ دكن يومنا ودغن ودجن؛ غنطة وكنظة (أي شق عليه)؛ لاعه ولاكه؛ إلى غيرها وهي كثيرة.</p>
@@ -1576,50 +1576,50 @@
          <div change="#d2e64" type="section">
             <head>تاريخ وقائع الشهر في العراق وما جاوره</head>
             <p change="#d2e73">
-               <hi style="color:red;">1 - </hi>سدة الحفار</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="1" xml:lang="ar">١</tei:num>  - </hi>سدة الحفار</p>
             <p change="#d2e73">تم إنشاء سدة الحفار في لواء الناصرية إنشاء حسنا.</p>
             <p change="#d2e73">
-               <hi style="color:red;">2 - </hi>المدارس الجديدة في العراق</p>
-            <p change="#d2e73">أنشئت في مفتتح سنة الدراسة الجديدة المبتدئة في 15 أيلول 1926 ثلاث مدارس جديدة في لواء اربل: في باتاس وفي مخمور وفي بروست. وأسست مدرسة أولية في تل أعفر.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="2" xml:lang="ar">٢</tei:num>  - </hi>المدارس الجديدة في العراق</p>
+            <p change="#d2e73">أنشئت في مفتتح سنة الدراسة الجديدة المبتدئة في  <tei:num type="auto-markup" change="#d2e258" value="15" xml:lang="ar">١٥</tei:num>  أيلول  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num>  ثلاث مدارس جديدة في لواء اربل: في باتاس وفي مخمور وفي بروست. وأسست مدرسة أولية في تل أعفر.</p>
             <p change="#d2e73">وأنشئت مدرسة بنات أولية في قضاء دهوك في أول سنة الدراسة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">3 - </hi>ولي عهد السلطان ابن السعود</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="3" xml:lang="ar">٣</tei:num>  - </hi>ولي عهد السلطان ابن السعود</p>
             <p change="#d2e73">زار <placeName>مصر</placeName> الأمير سعود ولي عهد السلطان عبد العزيز ابن السعود سلطان نجد وملك الحجاز. وقد تبرع تبرعات كبيرة ولهجت الصحف بمدحه.</p>
             <p change="#d2e73">
-               <hi style="color:red;">4 - </hi>مفاوضات بين فرنسة وابن السعود</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="4" xml:lang="ar">٤</tei:num>  - </hi>مفاوضات بين فرنسة وابن السعود</p>
             <p change="#d2e73">وصل مندوب فرنسي إلى الحجاز لمواصلة مفاوضة السلطان ابن السعود الملك في الحجاز.</p>
             <p change="#d2e73">
-               <hi style="color:red;">5 - </hi>باخرة بريطانية ترفع فوقها العلم العراقي</p>
-            <p change="#d2e73">رفعت البارجة الحربية البريطانية (لورنس) لأول مرة العلم العراقي يوم عيد جلوس جلالة الملك فيصل الاول في 23 آب 1926 وقد اشتركت في الأفراح بإطلاقها 21 طلقة من مدفعها.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="5" xml:lang="ar">٥</tei:num>  - </hi>باخرة بريطانية ترفع فوقها العلم العراقي</p>
+            <p change="#d2e73">رفعت البارجة الحربية البريطانية (لورنس) لأول مرة العلم العراقي يوم عيد جلوس جلالة الملك فيصل الاول في  <tei:num type="auto-markup" change="#d2e258" value="23" xml:lang="ar">٢٣</tei:num>  آب  <tei:num type="auto-markup" change="#d2e258" value="1926" xml:lang="ar">١٩٢٦</tei:num>  وقد اشتركت في الأفراح بإطلاقها  <tei:num type="auto-markup" change="#d2e258" value="21" xml:lang="ar">٢١</tei:num>  طلقة من مدفعها.</p>
             <p change="#d2e73">
-               <hi style="color:red;">6 - </hi>سفينة حربية بريطانية تزور العقبة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="6" xml:lang="ar">٦</tei:num>  - </hi>سفينة حربية بريطانية تزور العقبة</p>
             <p change="#d2e73">زارت السفينة الحربية البريطانية (كورنفلاور) ميناء العقبة وهي زيارة بدأ بها ويكهام قائد السفينة المذكورة منذ عدة سنوات.</p>
             <p change="#d2e73">
-               <hi style="color:red;">7 - </hi>عودة الوفد المالي</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="7" xml:lang="ar">٧</tei:num>  - </hi>عودة الوفد المالي</p>
             <p change="#d2e73">عاد من لندن إلى <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> معالي صبيح بك نشأت وزير المالية أوفد إليها مع مستشار وزارة المالية المستر فرنن في وفد مالي لمهمات اقتصادية ومالية مهمة.
 <pb n="n4-p244" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1868.xhtml"/>
 
 
-               <hi style="color:red;">8 - </hi>جلالة ملكة العراق</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="8" xml:lang="ar">٨</tei:num>  - </hi>جلالة ملكة العراق</p>
             <p change="#d2e73">عادت جلالة ملكة العراق من رحلتها إلى <placeName>الموصل</placeName> وحمام علي (العليل) وبعض الجهات هناك وقد أثنت على طقس <placeName>الموصل</placeName> وموقعها.</p>
             <p change="#d2e73">
-               <hi style="color:red;">9 - </hi>إنهاء خلاف بين عشيرتين</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="9" xml:lang="ar">٩</tei:num>  - </hi>إنهاء خلاف بين عشيرتين</p>
             <p change="#d2e73">وقعت مشادة بين عشيرتي (عشيرة) و (قمر) أدت إلى تعدد الغارات بينهما فجمعت الحكومة بين زعيمي القبيلتين فهد بك الهذال وعقيل بك الياور وألزمتهما بالإقلاع عن الخصومة والغزوات.</p>
             <p change="#d2e73">
-               <hi style="color:red;">10 - </hi>هدية ابن السعود إلى مصطفى كمال</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="10" xml:lang="ar">١٠</tei:num>  - </hi>هدية ابن السعود إلى مصطفى كمال</p>
             <p change="#d2e73">أهدى السلطان عبد العزيز ابن السعود إلى مصطفى كمال باشا رئيس الجمهورية التركية سيفا مرصعا يرجع تاريخه إلى عهد بعيد.</p>
             <p change="#d2e73">
-               <hi style="color:red;">11 - </hi>المدرسة الحربية الملكية</p>
-            <p change="#d2e73">في عاصمة العراق مدرسة حربية اسمها (المدرسة الحربية الملكية) يتخرج فيها ضباط للجيش العراقي أساتذتها عراقيون وبريطانيون نابغون في الفنون العسكرية. قبل في هذه المدرسة هذه السنة 50 طالبا عشرة منهم من أبناء شيوخ العشائر العراقية.</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="11" xml:lang="ar">١١</tei:num>  - </hi>المدرسة الحربية الملكية</p>
+            <p change="#d2e73">في عاصمة العراق مدرسة حربية اسمها (المدرسة الحربية الملكية) يتخرج فيها ضباط للجيش العراقي أساتذتها عراقيون وبريطانيون نابغون في الفنون العسكرية. قبل في هذه المدرسة هذه السنة  <tei:num type="auto-markup" change="#d2e258" value="50" xml:lang="ar">٥٠</tei:num>  طالبا عشرة منهم من أبناء شيوخ العشائر العراقية.</p>
             <p change="#d2e73">
-               <hi style="color:red;">12 - </hi>طابع تذكار مؤتمر مكة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="12" xml:lang="ar">١٢</tei:num>  - </hi>طابع تذكار مؤتمر مكة</p>
             <p change="#d2e73">طبعت وكالة المالية في حكومة الحجاز قدرا معينا من طوابع البريد باسم (تذكار مؤتمر العالم الإسلامي) في مكة وقد نفد اكثر هذه الطوابع المطبوع عليها الختم المذكور.</p>
             <p change="#d2e73">
-               <hi style="color:red;">13 - </hi>حريق في <placeName>البصرة</placeName></p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="13" xml:lang="ar">١٣</tei:num>  - </hi>حريق في <placeName>البصرة</placeName></p>
             <p change="#d2e73">شبت النار ليلا من موقد إحدى القهوات في محلة الخندق فالتهمت النيران القهوة ثم اندلعت ألسنتها إلى الحوانيت المجاورة لها فأحرقت ثلاثة منها وفي الآخر تمكن رجال الإطفاء من</p>
             <p change="#d2e73">إخماد أنفاسها.</p>
             <p change="#d2e73">
-               <hi style="color:red;">14 - </hi>أسعار التمور</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="14" xml:lang="ar">١٤</tei:num>  - </hi>أسعار التمور</p>
             <p change="#d2e73">عقد أصحاب الغيطان والتجار مجلسا في دار هلس أخوان فقرروا فيه أسعار التمر كما يأتي:</p>
             <p change="#d2e73">كارة الحلاوي الكبيرة بسبعمائة وعشرين ربية (والكارة الكبيرة أربعون منا) أما بقية أنواع التمور فلم يبت في أسعارها. وقد شاع أن أصحاب
 <pb n="n4-p245" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1869.xhtml"/>
@@ -1627,13 +1627,13 @@
 
 البساتين طلبوا أن يكون سعر الخضراوي خمسمائة ربية والسائر أربعمائة ربية عن الكارة الواحدة الكبيرة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">15 - </hi>العنزة والضفير</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="15" xml:lang="ar">١٥</tei:num>  - </hi>العنزة والضفير</p>
             <p change="#d2e73">هدأت الحالة بين العشيرتين عنزة والضفير بسعي الحكومة، وقد خرجت الضفير من ضواحي الزبير إلى صفوان وكابدة وكويبداء وشاع أن حمود السويط (مصغر السوط وهو ما يضرب به من جلد مضفور أو نحوه. ويخطئ من يكتب هذا الاسم بصورة الصويط وحمود السويط أحد زعماء الضفير) عقد النية على المجيء إلى <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName> لشؤون له مع الحكومة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">16 - </hi>مهارشة على تخوم العراق</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="16" xml:lang="ar">١٦</tei:num>  - </hi>مهارشة على تخوم العراق</p>
             <p change="#d2e73">وقعت مهارشة بين الشرطة العراقية وبين ذعار الخسرج المنتمين إلى دولة إيران وكانوا قد طرأوا على أراضينا الجزرية لغزو بعض إعرابها وإيقاع الضرر بها فدرت بهم الشرطة ففاجأتهم ودحرتهم فرجعوا القهقري وقد أصيب شرطيان بجروح طفيفة.</p>
             <p change="#d2e73">
-               <hi style="color:red;">17 - </hi>لجنة التخوم العتيدة</p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="17" xml:lang="ar">١٧</tei:num>  - </hi>لجنة التخوم العتيدة</p>
             <p change="#d2e73">كان قد قرر في المعاهدة العراقية البريطانية التركية أن تكون في البلاد لجنة تخوم عتيدة تعقد مرة في كل ستة أشهر ويكون أعضاؤها من الدولتين المتجاورتين العراقية والتركية في موطن معين للنظر في ما حدث أو
 <pb n="n4-p246" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1870.xhtml"/>
 
@@ -1642,8 +1642,8 @@
             <p change="#d2e73">والأعضاء هم متصرف <placeName>الموصل</placeName> ومفتش الإدارة عن العراق؛ ووكيل قائد التخوم ووالي</p>
             <p change="#d2e73">الهكارية عن تركية. وبعد انفضاض عقد الاجتماع يقرر الأعضاء محل اجتماعهم المقبل بعد الستة الأشهر التي تنقضي.</p>
             <p change="#d2e73">
-               <hi style="color:red;">18 - </hi>مركز لاسلكي في الرطبة</p>
-            <p change="#d2e73">فتحت حكومتنا في 11 أيلول مركز برق لاسلكي وديوان بريد في الرطبة (الواقعة على بعد 300 ميل من غربي <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName>) تسهيلا لمصالح المسافرين بين سورية والعراق.
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e258" value="18" xml:lang="ar">١٨</tei:num>  - </hi>مركز لاسلكي في الرطبة</p>
+            <p change="#d2e73">فتحت حكومتنا في  <tei:num type="auto-markup" change="#d2e258" value="11" xml:lang="ar">١١</tei:num>  أيلول مركز برق لاسلكي وديوان بريد في الرطبة (الواقعة على بعد  <tei:num type="auto-markup" change="#d2e258" value="300" xml:lang="ar">٣٠٠</tei:num>  ميل من غربي <placeName change="#d5e244" ref="oape:place:216 geon:98182">بغداد</placeName>) تسهيلا لمصالح المسافرين بين سورية والعراق.
 <pb n="n4-p247" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1871.xhtml"/>
 
 
