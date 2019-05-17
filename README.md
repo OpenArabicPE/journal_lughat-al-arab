@@ -1,5 +1,5 @@
 ---
-title: "Readme: Journal *Lughat al-ʿArab"
+title: "Readme: Journal *Lughat al-ʿArab*"
 author: Till Grallert
 date: 2019-05-17
 ---
