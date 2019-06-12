@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI next="oclc_472450345-i_33.TEIP5.xml" prev="oclc_472450345-i_31.TEIP5.xml" xml:id="oclc_472450345-i_32" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" next="oclc_472450345-i_33.TEIP5.xml" prev="oclc_472450345-i_31.TEIP5.xml" xml:id="oclc_472450345-i_32">
     <teiHeader change="#d2e296" xml:id="teiHeader_1.d2e7">
         <fileDesc change="#d2e296" xml:id="fileDesc_1.d2e9">
             <titleStmt change="#d2e296" xml:id="titleStmt_1.d2e11">
@@ -73,12 +68,12 @@
                         </imprint>
                         <biblScope change="#d2e215 #d2e296" from="3" to="3" unit="volume" xml:id="biblScope_1.d2e157"/>
                         <biblScope change="#d2e215 #d2e296" from="8" to="8" unit="issue" xml:id="biblScope_2.d2e159"/>
-                        <!-- <biblScope from="505" unit="page">505</biblScope>-->
+                        <biblScope from="393" unit="page" change="#d2e408" to="448">393-448</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Page numbers to bibliographic description of the source based on the file's content.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e384">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
             <tei:change when="2019-05-16" who="#pers_TG" xml:id="d3e370" xml:lang="en">Added references to local authority file (
                 <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
@@ -95,7 +90,7 @@
                 <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing 
                 <tei:att xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <change when="2019-04-07" who="#pers_TG" xml:id="d2e347">Marked final 
                 <tei:gi change="#d2e359" xml:id="gi_1.d2e170">p</tei:gi>
                 s inside 
@@ -104,19 +99,19 @@
                 <tei:gi change="#d2e359" xml:id="gi_1.d2e176">byline</tei:gi>
                 ) if they did not exceed a string length of 60.</change>
             <tei:change when="2019-04-06" who="#pers_TG" xml:id="d2e339" xml:lang="en">Automatically split all 
-                <tei:tag change="#d2e359" xml:id="tag_1.d2e181">div type=&quot;section&quot;</tei:tag>
+                <tei:tag change="#d2e359" xml:id="tag_1.d2e181">div type="section"</tei:tag>
                 into subsections of 
-                <tei:tag change="#d2e359" xml:id="tag_1.d2e184">div type=&quot;article&quot;</tei:tag>
+                <tei:tag change="#d2e359" xml:id="tag_1.d2e184">div type="article"</tei:tag>
                 , using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
             <tei:change when="2019-04-04" who="#pers_TG" xml:id="d2e315" xml:lang="en">Marked up dates by automatically wrapping all 
                 <tei:list change="#d2e359" xml:id="list_1.d2e189">
                     <tei:item change="#d2e359" xml:id="item_1.d2e190">
-                        occurrences of &quot;سنة&quot; and &quot;عام&quot; followed by a 
+                        occurrences of "سنة" and "عام" followed by a 
                         <tei:gi change="#d2e359" xml:id="gi_1.d2e192">num</tei:gi>
                         node </tei:item>
                     <tei:item change="#d2e359" xml:id="item_1.d2e195">
-                        <tei:gi change="#d2e359" xml:id="gi_1.d2e196">num</tei:gi>nodes followed by either &quot;هـ&quot; or &quot;م&quot; as indicators of calendars</tei:item>
-                    <tei:item change="#d2e359" xml:id="item_1.d2e199">\d{3,4} followed by either &quot;هـ&quot; or &quot;م&quot; as indicators of calendars.</tei:item>
+                        <tei:gi change="#d2e359" xml:id="gi_1.d2e196">num</tei:gi>nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
+                    <tei:item change="#d2e359" xml:id="item_1.d2e199">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
                 </tei:list>in a 
                 <tei:gi change="#d2e359" xml:id="gi_1.d2e202">date</tei:gi>
                 with the appropriate 
@@ -125,9 +120,9 @@
                 <tei:att change="#d2e359" xml:id="att_1.d2e208">datingMethod</tei:att>
                 attributes</tei:change>
             <tei:change when="2019-04-03" who="#pers_TG" xml:id="d2e307" xml:lang="en">Automatically split all 
-                <tei:tag change="#d2e359" xml:id="tag_1.d2e213">div type=&quot;section&quot;</tei:tag>
+                <tei:tag change="#d2e359" xml:id="tag_1.d2e213">div type="section"</tei:tag>
                 into subsections of 
-                <tei:tag change="#d2e359" xml:id="tag_1.d2e216">div type=&quot;article&quot;</tei:tag>
+                <tei:tag change="#d2e359" xml:id="tag_1.d2e216">div type="article"</tei:tag>
                 , using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
             <change when="2019-03-28" who="#pers_TG" xml:id="d2e296" xml:lang="en">Added automated 
                 <tei:att change="#d2e359" xml:id="att_1.d2e221" xml:lang="en">xml:id</tei:att>
@@ -135,7 +130,7 @@
                 <tei:gi change="#d2e359" xml:id="gi_1.d2e224" xml:lang="en">tei:text</tei:gi>
                 and had no existing 
                 <tei:att change="#d2e359" xml:id="att_1.d2e227" xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <tei:change when="2019-03-28" who="#pers_TG" xml:id="d2e282" xml:lang="en">Added references to local authority file (
                 <tei:ref change="#d2e296" target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e170">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
                 ) and VIAF to 
@@ -150,7 +145,7 @@
                 attributes of all non-Gregorian 
                 <gi change="#d2e296" xml:id="gi_1.d2e187">date</gi>
                 elements.</change>
-            <change when="2019-03-28" who="#pers_TG" xml:id="d2e266" xml:lang="en">Automatically wrapped all occurrences of &quot;sana&quot; and &quot;ʿām&quot; followed by a 
+            <change when="2019-03-28" who="#pers_TG" xml:id="d2e266" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a 
                 <tei:gi change="#d2e296" xml:id="gi_2.d2e192" xml:lang="en">num</tei:gi>
                 node in 
                 <tei:gi change="#d2e296" xml:id="gi_2.d2e195" xml:lang="en">date</tei:gi>
@@ -194,12 +189,12 @@
                 <gi change="#d2e296" xml:id="gi_4.d2e257">l</gi>
                 of 
                 <att change="#d2e296" xml:id="att_2.d2e260">type</att>
-                =&quot;bayt&quot; comprising two 
+                ="bayt" comprising two 
                 <gi change="#d2e296" xml:id="gi_5.d2e264">seg</gi>
                 nodes.</change>
             <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of 
                 <gi change="#d2e296" xml:id="gi_6.d2e271" xml:lang="en">head</gi>
-                of &quot;العدد\s*\d+&quot; that indicate the beginning of a new journal issue into ...
+                of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...
                 <gi change="#d2e296" xml:id="gi_7.d2e274" xml:lang="en">tei:p</gi>
                 s.</change>
             <change when="2019-03-27" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
