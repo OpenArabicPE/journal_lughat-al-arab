@@ -70,7 +70,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e395">Added <tei:gi>graphic</tei:gi> for 56 pages with references to digital images.</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e393">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc><tei:change when="2019-08-20" who="#pers_TG" xml:id="d5e404" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e395">Added <tei:gi>graphic</tei:gi> for 56 pages with references to digital images.</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e393">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e370">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <tei:change when="2019-05-16" who="#pers_TG" xml:id="d3e356" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
          <change when="2019-05-02" who="#pers_TG" xml:id="d2e344" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
@@ -418,7 +418,7 @@
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_5.d2e1064">
             <head change="#d2e282" xml:id="head_5.d2e1066">بلد البوعينين</head>
             <p change="#d2e73 #d2e282" xml:id="p_42.d2e1069">-</p>
-            <p change="#d2e73 #d2e282" xml:id="p_43.d2e1072">جاء في الجزء السابع من مجلة <title level="j" change="#d2e282" xml:id="title_8.d2e1074">لغة العرب</title> ( <tei:num type="auto-markup" change="#d2e258 #d2e282" value="320" xml:lang="ar" xml:id="num_1.d2e1077">٣٢٠</tei:num> :  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e1080">٢</tei:num> ) ذكر بلد البوعينين من الديار التي فيها غواصون. فسألني غير واحد عن السبب الذي سميت بهذا الاسم والى من تنسب ومن هو هذا البوعينين ولماذا سمي بهذا الاسم. فكتبت هذه الأسطر لطب الأدباء المذكورين فأقول:</p>
+            <p change="#d2e73 #d2e282" xml:id="p_43.d2e1072">جاء في الجزء السابع من مجلة <title level="j" change="#d2e282 #d5e404" xml:id="title_8.d2e1074" ref="oape:bibl:1 oclc:472450345">لغة العرب</title> ( <tei:num type="auto-markup" change="#d2e258 #d2e282" value="320" xml:lang="ar" xml:id="num_1.d2e1077">٣٢٠</tei:num> :  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e1080">٢</tei:num> ) ذكر بلد البوعينين من الديار التي فيها غواصون. فسألني غير واحد عن السبب الذي سميت بهذا الاسم والى من تنسب ومن هو هذا البوعينين ولماذا سمي بهذا الاسم. فكتبت هذه الأسطر لطب الأدباء المذكورين فأقول:</p>
             <p change="#d2e73 #d2e282" xml:id="p_44.d2e1084">سميت بلدة البوعينين بهذا الاسم لأن أول من احتل تلك الأرض رجل من العرب كان يعرف بالبوعينين. وكان ذا شدة وبأس وصولة ومراس كان يطوي بساط أيامه في نحو <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1200" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1785-11-04" notAfter="1786-10-23" xml:id="date_4.d2e1086">سنة <tei:num type="auto-markup" change="#d2e258 #d2e282" value="1200" xml:lang="ar" xml:id="num_1.d2e1088">١٢٠٠</tei:num>
                </tei:date> هـ -  <tei:date calendar="#cal_gregorian" when="1785" change="#d2e301 #d2e344" xml:id="date_4.d2e1159">
                   <tei:num type="auto-markup" change="#d2e258 #d2e282" value="1785" xml:lang="ar" xml:id="num_1.d2e1091">١٧٨٥</tei:num>
@@ -447,7 +447,7 @@
                <persName change="#d2e230 #d2e282" ref="oape:pers:1845 viaf:21058435" xml:id="persName_10.d2e1135">
                   <forename change="#d2e282" xml:id="forename_10.d2e1136">سليمان</forename> 
                   <surname change="#d2e282" xml:id="surname_8.d2e1139">الدخيل</surname>
-               </persName> صاحب جريدة <title level="j" change="#d2e282" xml:id="title_9.d2e1142">الرياض</title>
+               </persName> صاحب جريدة <title level="j" change="#d2e282 #d5e404" xml:id="title_9.d2e1142" ref="oape:bibl:41">الرياض</title>
             </byline>
          </div>
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_6.d2e1147">
@@ -457,7 +457,7 @@
                <pb change="#d2e370 #d2e399" ed="print" n="388" facs="#facs_388"/>
 
 
-أنكر بعض كتاب مجلة <title level="j" change="#d2e282" xml:id="title_10.d2e1156">لغة العرب</title> نسبة هذه العادة إلى حادث تاريخي فجئت بهذه الأسطر أؤيد ما كتبته سابقاً في هذا المعنى ( <tei:num type="auto-markup" change="#d2e258 #d2e282" value="311" xml:lang="ar" xml:id="num_1.d2e1159">٣١١</tei:num> :  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e1162">٢</tei:num> ) نقلاً عن الكتبة الأقدمين وهو ما أشرت إليه بوجه الأجمال هناك فأقول:</p>
+أنكر بعض كتاب مجلة <title level="j" change="#d2e282 #d5e404" xml:id="title_10.d2e1156" ref="oape:bibl:1 oclc:472450345">لغة العرب</title> نسبة هذه العادة إلى حادث تاريخي فجئت بهذه الأسطر أؤيد ما كتبته سابقاً في هذا المعنى ( <tei:num type="auto-markup" change="#d2e258 #d2e282" value="311" xml:lang="ar" xml:id="num_1.d2e1159">٣١١</tei:num> :  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e1162">٢</tei:num> ) نقلاً عن الكتبة الأقدمين وهو ما أشرت إليه بوجه الأجمال هناك فأقول:</p>
             <p change="#d2e73 #d2e282" xml:id="p_52.d2e1166">ذكر المولى محمد المحبي صاحب خلاصة الأثر، في أعيان القرن الحادي عشر، في الجزء الثالث من تصنيفه في ترجمة ابن الصغير عمر بن محمد ما انشد إليه البديعي قوله:. . .</p>
             <lg change="#d2e282" xml:id="lg_19.d2e1169">
                <l type="bayt" change="#d2e282" xml:id="l_19.d2e1171">
@@ -666,7 +666,7 @@
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_37.d2e1704"> 
-                  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="30" xml:lang="ar" xml:id="num_1.d2e1706">٣٠</tei:num>  - </hi>إشبينة: هي رباط السفينة والجسر وقد يسمى (رباطاً) وهو حبل ضخم جداً ومثله (الشمندورة) وهو حبل الباخرة في <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e1710">بغداد</placeName>. وكان العرب القدماء يسمون الحبال التي يربطون بها سفنهم (امراساً) وقلوساً و (مراراً) جمع (مرِ) بتشديد الراء وقالوا أمر السفينة أو الشيء بمعنى ربطهما بهذا الحبل الغليظ المتين قال ذلك احمد زكي باشا في مجلة <title level="j" change="#d2e282" xml:id="title_11.d2e1713">المقتبس</title>  
+                  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="30" xml:lang="ar" xml:id="num_1.d2e1706">٣٠</tei:num>  - </hi>إشبينة: هي رباط السفينة والجسر وقد يسمى (رباطاً) وهو حبل ضخم جداً ومثله (الشمندورة) وهو حبل الباخرة في <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e1710">بغداد</placeName>. وكان العرب القدماء يسمون الحبال التي يربطون بها سفنهم (امراساً) وقلوساً و (مراراً) جمع (مرِ) بتشديد الراء وقالوا أمر السفينة أو الشيء بمعنى ربطهما بهذا الحبل الغليظ المتين قال ذلك احمد زكي باشا في مجلة <title level="j" change="#d2e282 #d5e404" xml:id="title_11.d2e1713" ref="oape:bibl:9 oclc:4770057679">المقتبس</title>  
                <tei:num type="auto-markup" change="#d2e258 #d2e282" value="423" xml:lang="ar" xml:id="num_1.d2e1717">٤٢٣</tei:num> :  <tei:num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e1720">٧</tei:num> 
             </p>
             <p change="#d2e73 #d2e282" xml:id="p_107.d2e1724">
@@ -980,7 +980,7 @@
                </l>
             </lg>
             <p change="#d2e73 #d2e282" xml:id="p_199.d2e2490">طعيريزات شيء وعريسات شيء آخر</p>
-            <p change="#d2e73 #d2e282" xml:id="p_200.d2e2493">وقفت على الجزء الثامن من (<title level="j" change="#d2e282" xml:id="title_12.d2e2495">لغة العرب</title>) فرأيت فيها نبذة من تحرير الفاضل <persName change="#d2e230 #d2e282" ref="oape:pers:647" xml:id="persName_12.d2e2498">
+            <p change="#d2e73 #d2e282" xml:id="p_200.d2e2493">وقفت على الجزء الثامن من (<title level="j" change="#d2e282 #d5e404" xml:id="title_12.d2e2495" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>) فرأيت فيها نبذة من تحرير الفاضل <persName change="#d2e230 #d2e282" ref="oape:pers:647" xml:id="persName_12.d2e2498">
                             <forename xml:lang="ar" change="#d2e282" xml:id="forename_12.d2e2500">إبراهيم</forename>
                             <surname xml:lang="ar" change="#d2e282" xml:id="surname_10.d2e2503">حلمي</surname>
                         </persName> أفندي في (طعيريزات) فراقني جداً. لولا أنه زعم تبعاً للأعرابي المصاحب له أن (عربسات) هي (طعيريزات) والحق أنها ليست إياها. فأن عريسات موقعها خلف الرحبة إلى الغرب بمقدار ثلاث ساعات كما اخبرني مدير مال السماوة الحالي علي أفندي البغدادي، قال: خرجت وأنا مدير مال <placeName change="#d2e282" xml:id="placeName_42.d2e2507">النجف</placeName> قبل سنوات مفتشاً في زكاة الأغنام إلى الرحبة وما والاها فرأيت عريسات بمكان بين الرحبة والقادسية والشقيق، وأدخلت خادماً لي في سربها فدخل قليلاً ثم عاد ولم يخبرني بشيء لما عرض له من الظلمة والوجل: قال: وفي الأخيضر

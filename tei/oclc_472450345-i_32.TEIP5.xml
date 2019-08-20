@@ -72,7 +72,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e414">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e410">Added <tei:gi>graphic</tei:gi> for 56 pages with references to digital images.</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Page numbers to bibliographic description of the source based on the file's content.</change>
+        <revisionDesc><tei:change when="2019-08-20" who="#pers_TG" xml:id="d5e419" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e414">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-06-13" who="#pers_TG" xml:id="d2e410">Added <tei:gi>graphic</tei:gi> for 56 pages with references to digital images.</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Page numbers to bibliographic description of the source based on the file's content.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e384">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
             <tei:change when="2019-05-16" who="#pers_TG" xml:id="d3e370" xml:lang="en">Added references to local authority file (
                 <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
@@ -373,7 +373,7 @@
                         <forename change="#d2e296" xml:id="forename_5.d2e604">سليمان</forename>
                         <surname change="#d2e296" xml:id="surname_4.d2e607">الدخيل</surname>
                     </persName>صاحب جريدة 
-                    <title change="#d2e296" level="j" xml:id="title_8.d2e610">الرياض</title></byline>
+                    <title change="#d2e296 #d5e419" level="j" xml:id="title_8.d2e610" ref="oape:bibl:41">الرياض</title></byline>
             </div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_4.d2e614">
                 <head change="#d2e296" xml:id="head_4.d2e616">برس نمرود</head>
@@ -509,7 +509,7 @@
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e854">بغداد</placeName>
                     وقد أنهكه المرض فأشرف على الهلاك وهو يئن وفي خلال أنينه كانت تبدو منه كلمات تفتت الأكباد وتلين الجماد وهو لا يزال يرددها. ومحصلها: (لولا الأمل الذي عشت به لمت قبل خمسين سنة). وبعد أن سمع الشاعر تلك الكلم أخذ ينقب عن أمر الفقير فقيل إنه من البيوتات القديمة وكان لقومه حظ عظيم من الغنى ثم انقلب بهم الدهر حتى أدبر عنهم بتاتاً وانتهى بهم إلى أسوا حال. فقال:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_56.d2e858">(
-                    <title change="#d2e296" level="j" xml:id="title_9.d2e860">لغة العرب</title>
+                    <title change="#d2e296 #d5e419" level="j" xml:id="title_9.d2e860" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                     )</p>
                 <lg change="#d2e296" xml:id="lg_15.d2e864">
                     <l change="#d2e296" type="bayt" xml:id="l_15.d2e866">
@@ -963,7 +963,7 @@
                     <hi change="#d2e296" style="color:red;" xml:id="hi_12.d2e1752">
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e1754" xml:lang="ar">١</tei:num>- </hi>تمهيد</p>
                 <p change="#d2e73 #d2e296" xml:id="p_145.d2e1759">بمناسبة ما حصل في العام الماضي من توالي شكايات الزراع وفي هذه السنة من تشكي الحكومة من الذرعة - واغلب الناس في الولاية فضلاً عن الموجودين خارجاً عنها، بل حتى موظفي (مأموري) الذرعة أنفسهم يجهلون أصولها (ومعاملاتها)، ولا لوم عليهم ولا تثريب لأنها خاصة بالعراق، بل ببعض أنحائه فقط، وذلك على قاعدة أن أحكام حكومتنا العثمانية جارية في الأغلب (على التعامل) (كما يقولون، أي على العادة الجارية في ذلك المحل منذ القدم) فلا تشبه معاملة معاملة حتى في الجنس الواحد - أحببت أن أبين حقيقتها ليعلمها الجميع ويطلعوا على خفاياها إطلاعاً كافياً بحسب الأماكن وقصدت نشر ذلك في مجلة (
-                    <title change="#d2e296" level="j" xml:id="title_10.d2e1761">لغة العرب</title>
+                    <title change="#d2e296 #d5e419" level="j" xml:id="title_10.d2e1761" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                     ) لما هي عليه من كثرة الانتشار ولأن عموم الطبقات الراقية في كل البلاد يعيرونها الالتفات الجدير بها، ولأن مثل هذه الأمور لا فائدة من نشرها في صحف تقرأها العوام، فلهذا رأيت إبقاءها مخلدة في هذا التاريخ؛ والله المستعان.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_146.d2e1765">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_13.d2e1767">
@@ -1374,7 +1374,7 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_18.d2e2436">
                             <tei:num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e2438" xml:lang="ar">٢</tei:num>- </hi>الهيلاج ومعناها</tei:head>
                     <p change="#d2e73 #d2e296" xml:id="p_188.d2e2443">كتبت 
-                        <title change="#d2e296" level="j" xml:id="title_11.d2e2445">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_11.d2e2445" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         مقالةً في أصل هذا المعنى ولما كان ختام الكلام حمل القارئ على إبداء رأيه إن كان له رأي يخالف رأي صاحب المقالة جئت بهذه الأسطر لأعرض للمطالع ما عن لي، فأقول: (كدخداه وهيلاج) لفظتان فارسيتان لا يقوم معنى الواحدة منهما بدون الأخرى لأنهما قد ارتبطتا معنى ارتباط الروح بالجسد وعندي أن (كد خداه) محرفة عن (زاد خداه) ومعناها الحرفي (مولود الله) لأن (زاد) بالفارسية (مولود) و (خداه) (الله) فيكون مؤداهما (المولود من الله) وذلك لأن مصدر الروح هو سبحانه عز وجل.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_189.d2e2449">أما (هيلاج) فهي عندي مصحفة عن (هل) و (لاش) ومعناهما (دع الجثة الهامدة) أي الموت وبعبارة أخرى (دم سعيداً) أو (عش دهراً طويلاً) أو عن (هج) مقوم و (لش) جثة أي (مقوم الجثة ومصلحها) وصفوة القول أن المرام بهاتين اللفظتين الروح والهيولي (أي المادة) لأن في اصطلاح المنجمين (كدخداه) اسم دليل روح المولود و (هيلاج) اسم دليل جسم المولود وقد استعيرنا مجازاً لأسمى نجمين يراد بهما نجما المولود. وإثباتاً لما نحن بصدده نورد نص صاحب كتاب شفاء الغليل: (كدخداه وهيلاج) هما كوكبا المولود، فلأول لرزقه والثاني لعمره، فإن ولد في صعوده كان زائداً فيه وإن كان في هبوطه كان بعكسه. وهذا مما ذكره الحكماء والمنجمون وأرباب المواليد وعربوه قديماً) اهـ.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_190.d2e2452">ومما يؤيد ظني أن (هيلاج) لفظة فارسية اتجار أن الفرس القدماء كانوا يتعاطون علم التنجيم وقد نبغ فيهم منجمون عديدون برعوا في هذا العلم ووضعوا ألفاظا عديدة من جملتها (هيلاج) بمعناها الآنف الذكر.</p>
@@ -1386,7 +1386,7 @@
                         </persName>
                     </p>
                     <p change="#d2e73 #d2e296" xml:id="p_193.d2e2469">(
-                        <title change="#d2e296" level="j" xml:id="title_12.d2e2471">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_12.d2e2471" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         ) لا يكفي للباحث أن يقول أن الكلمة الفلانية هي من الأصل الفلاني ما لم
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1442.xhtml" ed="shamela" n="n3-p431" xml:id="pb_38.d2e2474"/>
@@ -1443,14 +1443,14 @@
                             <tei:num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e2565" xml:lang="ar">٤</tei:num>- </hi>أنهر 
                         <placeName change="#d2e296" xml:id="placeName_52.d2e2569">البصرة</placeName></tei:head>
                     <p change="#d2e73 #d2e296" xml:id="p_207.d2e2572">سيدي الفاضل صاحب (
-                        <title change="#d2e296" level="j" xml:id="title_13.d2e2574">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_13.d2e2574" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         )</p>
                     <p change="#d2e73 #d2e296" xml:id="p_208.d2e2578">سلام واحترام. أما بعد فقد جمعني وبعض الأصحاب بالأمس مجلس أدب فأخذنا نتجاذب أطراف الكلام حتى أفضى بنا الحديث إلى ذكر مجلتكم وخدماتها الجليلة للقطر العراقي خاصة فانبرى أحد الحضور قائلاً لقد قرأت ما ورد في صفحة  
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="220" xml:id="num_1.d2e2580" xml:lang="ar">٢٢٠</tei:num>
                         من (عنوان المجد في بيان أحوال 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_53.d2e2583">بغداد</placeName>
                         والبصرة ونجد) للسيد إبراهيم فصيح بن صبغة الله الحيدري المدرج في الحاشية من (
-                        <title change="#d2e296" level="j" xml:id="title_14.d2e2586">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_14.d2e2586" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         )  
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e2589" xml:lang="ar">٣</tei:num>
                         :  
@@ -1502,7 +1502,7 @@
                     <byline change="#d2e219 #d2e296" xml:id="byline_9.d2e2672">
                         <persName change="#d2e296 #d3e370" ref="oape:pers:1845 viaf:21058435" xml:id="persName_15.d2e2673">
                             <addName change="#d2e296" type="nickname" xml:id="addName_5.d2e2674">صاحب 
-                                <title change="#d2e296" level="j" xml:id="title_15.d2e2676">الرياض</title></addName>
+                                <title change="#d2e296 #d5e419" level="j" xml:id="title_15.d2e2676" ref="oape:bibl:41">الرياض</title></addName>
                         </persName>
                         <persName change="#d2e230 #d2e296" ref="oape:pers:1845 viaf:21058435" xml:id="persName_16.d2e2679">
                             <forename change="#d2e296" xml:id="forename_13.d2e2680">سليمان</forename>
@@ -1638,7 +1638,7 @@
                         <persName change="#d2e296 #d3e370" ref="oape:pers:878 viaf:32272677" xml:id="persName_17.d2e2908">
                             <addName change="#d2e296" type="nickname" xml:id="addName_6.d2e2909">
                                 صاحب مجلة 
-                                <title change="#d2e296" level="j" xml:id="title_16.d2e2911">المقتبس</title></addName>
+                                <title change="#d2e296 #d5e419" level="j" xml:id="title_16.d2e2911" ref="oape:bibl:9 oclc:4770057679">المقتبس</title></addName>
                         </persName>طبع بمطبعة دار الكتب العربية الكبرى على نفقة أصحابها 
                         <tei:date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1913-11-29" notBefore="1912-12-11" type="auto-markup" when-custom="1331" xml:id="date_4.d2e2914">
                             سنة 
@@ -1739,7 +1739,7 @@
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1452.xhtml" ed="shamela" n="n3-p441" xml:id="pb_48.d2e3081"/>
                         <pb change="#d2e384 #d2e414" ed="print" n="441" facs="#facs_440"/>
                         يكون التمر القسب اليابس الغاية في الجودة واليبس (راجع 
-                        <title change="#d2e296" level="j" xml:id="title_17.d2e3083">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_17.d2e3083" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3086" xml:lang="ar">١</tei:num>
                         :  
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="442" xml:id="num_1.d2e3089" xml:lang="ar">٤٤٢</tei:num>
@@ -1747,7 +1747,7 @@
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="443" xml:id="num_1.d2e3093" xml:lang="ar">٤٤٣</tei:num>
                         ) ويقول في بسكرة: (فيها نخل وشجر وقسب جيد) فنحن لا نرى في هذا النص أن الصيحاني أو القسب أو البادرايي تمر واحد. فالصيحاني على ما ذكر اللغويون هو ضرب من تمر المدينة أسود صلب المضغة. والقسب اسم عام يقع على كل تمر (صلب يابس) مهما كان جنسه والبادرايي هو تمر أصفر صلب رقيق اللحم من جنس</p>
                     <p change="#d2e73 #d2e296" xml:id="p_257.d2e3097">(دقلة النور) المعروفة في تونس. وأما الصيحاني فهو عندنا الاشرسي الأسود أي الصرفان (راجع 
-                        <title change="#d2e296" level="j" xml:id="title_18.d2e3099">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_18.d2e3099" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3102" xml:lang="ar">١</tei:num>
                         :  
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="444" xml:id="num_1.d2e3105" xml:lang="ar">٤٤٤</tei:num>
@@ -1767,7 +1767,7 @@
                         <tei:num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3136" xml:lang="ar">٣</tei:num>
                         ماركات</p>
                     <p change="#d2e73 #d2e296" xml:id="p_263.d2e3140">لله در الإفرنج لا يقدمون على أمر إلا ويتقونه كل الإتقان ويحكمونه كل الأحكام. هذا المستشرق الكبير الأستاذ العلامة (الدكتور) مرتين هرتمن من مشاهير العارفين ب
-                        <title change="#d2e296" level="j" xml:id="title_19.d2e3142">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_19.d2e3142" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         والواقفين على أسرارها فقد هجر بلاده
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1453.xhtml" ed="shamela" n="n3-p442" xml:id="pb_49.d2e3145"/>
@@ -2042,7 +2042,7 @@
                         <placeName change="#d2e296" xml:id="placeName_95.d2e3611">النجف</placeName>
                         وقدروا وقتئذ الغرقى بنحو ألفين</p>
                     <p change="#d2e73 #d2e296" xml:id="p_315.d2e3615">إلى ثلاثة آلاف نفس حتى أخذ الأعراب هناك إخراج الجثث بالآلة التي يستخرجون بها السمك ويسمونها (قالة) ولكن يا للأسف ليس رحمة بهم أو لمواراتهم ودفع التعفن لدفع الأمراض بل لسلب ما يكون في جيوبهم من المال وإعادتهم إلى الماء وحيث أن هذا الأمر مما يجب ذكره تخليداً للتاريخ حررت هذه الأسطر لطبعها في مجلة 
-                        <title change="#d2e296" level="j" xml:id="title_20.d2e3617">لغة العرب</title>
+                        <title change="#d2e296 #d5e419" level="j" xml:id="title_20.d2e3617" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         راجياً ممن لديه تاريخ الواقعة باليوم أن يعلن الأمر حفظاً وخدمة للتاريخ الذي هو من أهم الأمور.</p>
                     <byline change="#d2e347" xml:id="p_316.d2e3621">
                         <persName change="#d2e359 #d3e370" ref="oape:pers:3765" xml:id="persName_20.d2e3707">عبد اللطيف ثنيان</persName>
