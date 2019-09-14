@@ -72,7 +72,8 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2019-08-20" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Linked all <tag>pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e404">Added <gi>graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e402">Page numbers to bibliographic description of the source based on the file's content.</change>
+        <revisionDesc>
+<change when="2019-09-14" who="#pers_TG" xml:lang="en">Validated mark-up of articles and sections agains the facsimile</change><change when="2019-08-20" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Linked all <tag>pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e404">Added <gi>graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e402">Page numbers to bibliographic description of the source based on the file's content.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e378">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
             <change when="2019-05-16" who="#pers_TG" xml:id="d3e364" xml:lang="en">Added references to local authority file (
                 <ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>
@@ -301,12 +302,8 @@
                 <p change="#d2e73 #d2e296" xml:id="p_35.d2e523">تنقسم إلى أقسام فمنها عقدة الخطيب، ومنها خيط ينزع من طراز يوضع على قبور بعض الأئمة فيعقد في الرقاب وفي الأرسغ ويخيطه بعضهم بثوبه وبعضهم (بعقاله) وله شأن عظيم عند الأعراب. والنساء يتبركن به ويزعمن أنه يذهب الحمى والصداع وبقية</p>
                 <p change="#d2e73 #d2e296" xml:id="p_36.d2e526">الأمراض.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_37.d2e529">قرأ أحدهم سورة الفلق حتى إذا بلغ إلى قوله: (ومن شر النفاثات في العقد) قال له بدوي لا يحسن القراءة وهمت إنما هي النفاثين. قال: هكذا الآية. قال: إني رأيت الخطباء ينفثون في العقد وليس بينهم امرأة ثة.</p>
-                <byline change="#d2e219 #d2e296" xml:id="byline_2.d2e532">
-                    <persName change="#d2e230 #d2e282 #d2e296" ref="oape:pers:2457" xml:id="persName_6.d2e533">مسلم بغدادي</persName>
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1465.xhtml" ed="shamela" n="n3-p454" xml:id="pb_6.d2e536"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="454" facs="#facs_454"/>
-                </byline>
-            </div>
+                <byline change="#d2e219 #d2e296" xml:id="byline_2.d2e532"> <persName change="#d2e230 #d2e282 #d2e296" ref="oape:pers:2457" xml:id="persName_6.d2e533">مسلم بغدادي</persName> </byline>
+            </div><pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1465.xhtml" ed="shamela" n="n3-p454" xml:id="pb_6.d2e536"/><pb change="#d2e378 #d2e408" ed="print" facs="#facs_454" n="454"/>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_3.d2e540">
                 <head change="#d2e296" xml:id="head_3.d2e542">الزواج عند يهود 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e544">بغداد</placeName></head>
@@ -409,34 +406,12 @@
                     - إذا كانت عاقراً وأراد بعلها أن يقيم له نسلاً فيمكنه أن يطلقها أو يهجرها فإن أبت الزوجة أن تفارق قرينها فراقاً باتاً يجوز لها أن تمكث معه ولكن حذراً من وقوع الخصام والنزاع بين الضرتين تقيم كل من الزوجتين في</p>
                 <p change="#d2e73 #d2e296" xml:id="p_65.d2e727">بيت خاص بها.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_66.d2e731">هذا ولا يجوز لليهودي الأضرار أي التزوج بأكثر من امرأة واحدة اللهم إلا لأسباب صحية أو غيرها من الأسباب التي تتعلق بها سعادة الزوجين وهناؤهما.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_67.d2e734">
-                    <persName change="#d2e230 #d2e282 #d2e296" ref="oape:pers:1725 viaf:97152636060620050511" xml:id="persName_7.d2e735">
-                        <forename change="#d2e296" xml:id="forename_5.d2e737">رزوق</forename>
-                        <surname change="#d2e296" xml:id="surname_4.d2e740">عيسى</surname>
-                    </persName>
-                </p>
-                <p change="#d2e73 #d2e296" xml:id="p_68.d2e744">الرّماحية</p>
-                <p change="#d2e73 #d2e296" xml:id="p_69.d2e747">في ربوع خزاعة بالشامية على مقربة من 
-                    <placeName change="#d2e296" xml:id="placeName_10.d2e749">النجف</placeName>
-                    أنقاض بلدة قائمة على جدول كان ينحط إليها من الفرات، تلك هي بلدة (</p>
+<byline><persName change="#d2e230 #d2e282 #d2e296" ref="oape:pers:1725 viaf:97152636060620050511" xml:id="persName_7.d2e735"><forename change="#d2e296" xml:id="forename_5.d2e737">رزوق</forename> <surname change="#d2e296" xml:id="surname_4.d2e740">عيسى</surname></persName> </byline>
             </div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_4.d2e754">
-                <head change="#d2e296" xml:id="head_4.d2e756">الرماحية</head>
-                <p change="#d2e73 #d2e296" xml:id="p_70.d2e759">) لم يذكرها ياقوت لأنها مستحدثة بعد زمانه قليلاً ولا تكلم عليها الباحثون المتأخرون فيما اعلم ويقول
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1473.xhtml" ed="shamela" n="n3-p462" xml:id="pb_14.d2e761"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="462" facs="#facs_462"/>
-                    بعض المنتسبين إليها طائفة من حاشية السلطان سليم الأول (من 
-                    <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1513-03-17" notBefore="1512-03-29" type="auto-markup" when-custom="0918" xml:id="date_4.d2e763">
-                        سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="918" xml:id="num_1.d2e765" xml:lang="ar">٩١٨</num></date>( 
-                    <date calendar="#cal_gregorian" change="#d2e320 #d2e353" when="1512" xml:id="date_4.d2e825">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1512" xml:id="num_1.d2e768" xml:lang="ar">١٥١٢</num></date>م) - 
-                    <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" type="auto-markup" when="1520" when-custom="0926" xml:id="date_4.d2e771">
-                        سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="926" xml:id="num_1.d2e773" xml:lang="ar">٩٢٦</num></date>( 
-                    <date calendar="#cal_gregorian" change="#d2e320 #d2e353" when="1519" xml:id="date_4.d2e834">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1519" xml:id="num_1.d2e776" xml:lang="ar">١٥١٩</num></date>م) نزلوا هذا المكان فاستطابوه واختاروا الإقامة فيه، وقال لي بعضهم أن هؤلاء من متصوفة الأتراك احتلوها في بدء أمرها وبهم عمرت أوليهم تنسب بعض البقاع إلى الآن؛ وكان العراقيون يسمونهم روماً - على عادتهم في تسمية الأتراك - ثم أضيفت الناحية إليهم وقيل (روم ناحية) ثم ادمجوا الكلمتين فقالوا (الرماحية).</p>
+                <head change="#d2e296" xml:id="head_4.d2e756"><placeName>الرّماحية</placeName> </head>
+<head xml:lang="fr"><foreign xml:lang="fr">Les ruines de Rammahyyeh prés de Nedjef</foreign></head>
+<p change="#d2e73 #d2e296" xml:id="p_69.d2e747">في ربوع خزاعة بالشامية على مقربة من <placeName change="#d2e296" xml:id="placeName_10.d2e749">النجف</placeName> أنقاض بلدة قائمة على جدول <lb/>كان ينحط إليها من الفرات، تلك هي بلدة (الرماحية) لم يذكرها ياقوت لأنها <lb/>مستحدثة بعد زمانه قليلاً ولا تكلم عليها الباحثون المتأخرون فيما اعلم ويقول <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1473.xhtml" ed="shamela" n="n3-p462" xml:id="pb_14.d2e761"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_462" n="462"/> بعض المنتسبين إليها طائفة من حاشية السلطان سليم الأول (من <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1513-03-17" notBefore="1512-03-29" type="auto-markup" when-custom="0918" xml:id="date_4.d2e763"> سنة <num change="#d2e258 #d2e296" type="auto-markup" value="918" xml:id="num_1.d2e765" xml:lang="ar">٩١٨</num></date>( <date calendar="#cal_gregorian" change="#d2e320 #d2e353" when="1512" xml:id="date_4.d2e825"> <num change="#d2e258 #d2e296" type="auto-markup" value="1512" xml:id="num_1.d2e768" xml:lang="ar">١٥١٢</num></date>م) - <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" type="auto-markup" when="1520" when-custom="0926" xml:id="date_4.d2e771"> سنة <num change="#d2e258 #d2e296" type="auto-markup" value="926" xml:id="num_1.d2e773" xml:lang="ar">٩٢٦</num></date>( <date calendar="#cal_gregorian" change="#d2e320 #d2e353" when="1519" xml:id="date_4.d2e834"> <num change="#d2e258 #d2e296" type="auto-markup" value="1519" xml:id="num_1.d2e776" xml:lang="ar">١٥١٩</num></date>م) نزلوا هذا المكان فاستطابوه واختاروا الإقامة فيه، وقال لي بعضهم أن هؤلاء من متصوفة الأتراك احتلوها في بدء أمرها وبهم عمرت أوليهم تنسب بعض البقاع إلى الآن؛ وكان العراقيون يسمونهم روماً - على عادتهم في تسمية الأتراك - ثم أضيفت الناحية إليهم وقيل (روم ناحية) ثم ادمجوا الكلمتين فقالوا (الرماحية).</p>
                 <p change="#d2e73 #d2e296" xml:id="p_71.d2e780">هذا كل ما عند أهلها عنها إجمالاً غير أني لا أعتمد ولا أراه ثبتاً لأن ما انتهى إلينا من أخبار الرماحية يرتقي إلى أبعد من التاريخ الذي عينوه، فإن المولى علي بن محمد المشعشع ملكها في نحو 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1456-12-07" notBefore="1455-12-20" type="auto-markup" when-custom="0860" xml:id="date_4.d2e782">
                         سنة 
@@ -568,303 +543,143 @@
                     <placeName change="#d2e296" xml:id="placeName_22.d2e998">النجف</placeName>
                     ومنذ ذاك الحين خمل ذكر الرماحية ولم يعد يذكرها الناس مدينة كما كانت سابقاً. وتغلب نهر ذياب على نهر الرماحية فاخمل ذكره بالمرة حتى ضربت العرب به المثل فقالت: (طلع فلان طلعة نهر ذياب) يضربونه لمن يقوى على غيره فجأة بعد أن كان ضعيفاً. وسمى نهر ذياب بذلك إضافة إلى رجل كرى النهر المذكور لسقي أراضيه فنسب إليه.</p>
             </div>
-            <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_5.d2e1003">
-                <head change="#d2e296" xml:id="head_5.d2e1005">الطيارون في الشرق</head>
-                <lg change="#d2e296" xml:id="lg_1.d2e1008">
-                    <l change="#d2e296" type="bayt" xml:id="l_1.d2e1010">
-                        <seg change="#d2e296" xml:id="seg_1.d2e1012">لا تطر (فدرين) في الشرق افتخارا </seg>
-                        <seg change="#d2e296" xml:id="seg_2.d2e1015">كم فتىً في الغرب من قبلك طارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_2.d2e1020">
-                    <l change="#d2e296" type="bayt" xml:id="l_2.d2e1022">
-                        <seg change="#d2e296" xml:id="seg_3.d2e1024">(شول رينار) على منطاده </seg>
-                        <seg change="#d2e296" xml:id="seg_4.d2e1027">(لافرنس) البدء قد طار اشتهارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_3.d2e1032">
-                    <l change="#d2e296" type="bayt" xml:id="l_3.d2e1034">
-                        <seg change="#d2e296" xml:id="seg_5.d2e1036">و (بباريس) (البرازيلي) قد </seg>
-                        <seg change="#d2e296" xml:id="seg_6.d2e1039">طار في الجو وحول (البرج) دارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_4.d2e1044">
-                    <l change="#d2e296" type="bayt" xml:id="l_4.d2e1046">
-                        <seg change="#d2e296" xml:id="seg_7.d2e1048">إن تطر فدرين في الشرق فلا </seg>
-                        <seg change="#d2e296" xml:id="seg_8.d2e1051">تحتقره بتعاليك احتقارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_5.d2e1057">
-                    <l change="#d2e296" type="bayt" xml:id="l_5.d2e1059">
-                        <seg change="#d2e296" xml:id="seg_9.d2e1061">وأغضض الطرف إذا ألفيته </seg>
-                        <seg change="#d2e296" xml:id="seg_10.d2e1064">غارقاً في النوم ليلاً ونهارا</seg>
-                    </l>
-                </lg>
-                <p change="#d2e73 #d2e296" xml:id="p_81.d2e1069">فبنوه أبداً في رقدة 
-                    <gap change="#d2e296" resp="#org_MS" xml:id="gap_1.d2e1071"/>
-                    وعليهم نفض الذل غبارا
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1477.xhtml" ed="shamela" n="n3-p466" xml:id="pb_18.d2e1073"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="466" facs="#facs_466"/>
-                    أنت طير في الفضا منطلق 
-                    <gap change="#d2e296" resp="#org_MS" xml:id="gap_2.d2e1075"/>
-                    وهم في قفص الجهل أسارى</p>
-                <lg change="#d2e296" xml:id="lg_6.d2e1078">
-                    <l change="#d2e296" type="bayt" xml:id="l_6.d2e1080">
-                        <seg change="#d2e296" xml:id="seg_11.d2e1082">عاهدوا الدهر بأن لا يقظةً </seg>
-                        <seg change="#d2e296" xml:id="seg_12.d2e1085">لا حراكا لا نهوضا لا وقارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_7.d2e1090">
-                    <l change="#d2e296" type="bayt" xml:id="l_7.d2e1092">
-                        <seg change="#d2e296" xml:id="seg_13.d2e1094">فلقد ضلوا طريقاً بعد ما </seg>
-                        <seg change="#d2e296" xml:id="seg_14.d2e1097">أوضحوا للغرب بالعلم منارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_8.d2e1102">
-                    <l change="#d2e296" type="bayt" xml:id="l_8.d2e1104">
-                        <seg change="#d2e296" xml:id="seg_15.d2e1106">لم لا تبكي عليهم غيرة </seg>
-                        <seg change="#d2e296" xml:id="seg_16.d2e1109">وهم كانوا على الحق غيارى</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_9.d2e1114">
-                    <l change="#d2e296" type="bayt" xml:id="l_9.d2e1116">
-                        <seg change="#d2e296" xml:id="seg_17.d2e1118">(بارنيه) أفصح ولا تهزأ بهم </seg>
-                        <seg change="#d2e296" xml:id="seg_18.d2e1121">فهم من خمرة الجهل سكارى</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_10.d2e1127">
-                    <l change="#d2e296" type="bayt" xml:id="l_10.d2e1129">
-                        <seg change="#d2e296" xml:id="seg_19.d2e1131">عقد الجبين عليهم خنصراً </seg>
-                        <seg change="#d2e296" xml:id="seg_20.d2e1134">وكساهم من ثياب الذل عارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_11.d2e1139">
-                    <l change="#d2e296" type="bayt" xml:id="l_11.d2e1141">
-                        <seg change="#d2e296" xml:id="seg_21.d2e1143">وغدا الفقر عليهم جائراً </seg>
-                        <seg change="#d2e296" xml:id="seg_22.d2e1146">بعدما كانوا أعز الناس جارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_12.d2e1151">
-                    <l change="#d2e296" type="bayt" xml:id="l_12.d2e1153">
-                        <seg change="#d2e296" xml:id="seg_23.d2e1155">أنت (بونيه) على (المرن) إذا </seg>
-                        <seg change="#d2e296" xml:id="seg_24.d2e1158">طرت بالرفق فقد طرت فخارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_13.d2e1163">
-                    <l change="#d2e296" type="bayt" xml:id="l_13.d2e1165">
-                        <seg change="#d2e296" xml:id="seg_25.d2e1167">أنت سلطان على عرش الهوا </seg>
-                        <seg change="#d2e296" xml:id="seg_26.d2e1170">جالس إن رمت منه السير سارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_14.d2e1175">
-                    <l change="#d2e296" type="bayt" xml:id="l_14.d2e1177">
-                        <seg change="#d2e296" xml:id="seg_27.d2e1179">أم ملاك يتهادى في الفضا </seg>
-                        <seg change="#d2e296" xml:id="seg_28.d2e1182">بجناح ساير الريح اقتدارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_15.d2e1187">
-                    <l change="#d2e296" type="bayt" xml:id="l_15.d2e1189">
-                        <seg change="#d2e296" xml:id="seg_29.d2e1191">وله رجلان من تحتهما </seg>
-                        <seg change="#d2e296" xml:id="seg_30.d2e1194">مثل (دولابين) بالقوة دارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_16.d2e1200">
-                    <l change="#d2e296" type="bayt" xml:id="l_16.d2e1202">
-                        <seg change="#d2e296" xml:id="seg_31.d2e1204">أيها الطائر فخراً في العلا </seg>
-                        <seg change="#d2e296" xml:id="seg_32.d2e1207">تنهب الجو غدواً وابتكارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_17.d2e1212">
-                    <l change="#d2e296" type="bayt" xml:id="l_17.d2e1214">
-                        <seg change="#d2e296" xml:id="seg_33.d2e1216">طالما سيرتها منطادة </seg>
-                        <seg change="#d2e296" xml:id="seg_34.d2e1219">في السما لم تتخذ في الأرض دارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_18.d2e1224">
-                    <l change="#d2e296" type="bayt" xml:id="l_18.d2e1226">
-                        <seg change="#d2e296" xml:id="seg_35.d2e1228">كلما تعلو بها تعلو بهاً </seg>
-                        <seg change="#d2e296" xml:id="seg_36.d2e1231">والطويلات لها عدن قصارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_19.d2e1236">
-                    <l change="#d2e296" type="bayt" xml:id="l_19.d2e1238">
-                        <seg change="#d2e296" xml:id="seg_37.d2e1240">خال من أبصرها في جوها </seg>
-                        <seg change="#d2e296" xml:id="seg_38.d2e1243">إن (هالي) (ذنبا) منها استعارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_20.d2e1248">
-                    <l change="#d2e296" type="bayt" xml:id="l_20.d2e1250">
-                        <seg change="#d2e296" xml:id="seg_39.d2e1252">هي كالزورق لكن من رأى </seg>
-                        <seg change="#d2e296" xml:id="seg_40.d2e1255">زورقاً من قبلها في الجو طارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_21.d2e1260">
-                    <l change="#d2e296" type="bayt" xml:id="l_21.d2e1262">
-                        <seg change="#d2e296" xml:id="seg_41.d2e1264">وهي كالوهم على الفكر إذا </seg>
-                        <seg change="#d2e296" xml:id="seg_42.d2e1267">مر في الحال عن العين توارى</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_22.d2e1273">
-                    <l change="#d2e296" type="bayt" xml:id="l_22.d2e1275">
-                        <seg change="#d2e296" xml:id="seg_43.d2e1277">كلما اشتد بها فرط الظما </seg>
-                        <seg change="#d2e296" xml:id="seg_44.d2e1280">وسقاها (الغاز) تشتد أوارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_23.d2e1285">
-                    <l change="#d2e296" type="bayt" xml:id="l_23.d2e1287">
-                        <seg change="#d2e296" xml:id="seg_45.d2e1289">فإذا ما أججت زفرتها </seg>
-                        <seg change="#d2e296" xml:id="seg_46.d2e1292">نفثت من صدرها في الجو نارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_24.d2e1297">
-                    <l change="#d2e296" type="bayt" xml:id="l_24.d2e1299">
-                        <seg change="#d2e296" xml:id="seg_47.d2e1301">وإذا ما غضبت يوم وغىً </seg>
-                        <seg change="#d2e296" xml:id="seg_48.d2e1304">قذفت غيظاً على الخصم شرارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_25.d2e1309">
-                    <l change="#d2e296" type="bayt" xml:id="l_25.d2e1311">
-                        <seg change="#d2e296" xml:id="seg_49.d2e1313">وإذا ما طلبت ثاراً لها </seg>
-                        <seg change="#d2e296" xml:id="seg_50.d2e1316">أدركت عند مناط النجم ثارا</seg>
-                    </l>
-                </lg>
-                <p change="#d2e73 #d2e296" xml:id="p_82.d2e1321">فيها يعرف ما عند العدى 
-                    <gap change="#d2e296" resp="#org_MS" xml:id="gap_3.d2e1323"/>
-                    وبها يستكشف الناس الضرارا
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1478.xhtml" ed="shamela" n="n3-p467" xml:id="pb_19.d2e1325"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="467" facs="#facs_467"/>
-                    كلما زارت بحى خلتها 
-                    <gap change="#d2e296" resp="#org_MS" xml:id="gap_4.d2e1327"/>
-                    غادة تسحب بالمشى الأزارا</p>
-                <lg change="#d2e296" xml:id="lg_26.d2e1330">
-                    <l change="#d2e296" type="bayt" xml:id="l_26.d2e1332">
-                        <seg change="#d2e296" xml:id="seg_51.d2e1334">إن أهل الغرب بالعلم لقد </seg>
-                        <seg change="#d2e296" xml:id="seg_52.d2e1337">ركبوا الريح وقد عافوا المهارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_27.d2e1343">
-                    <l change="#d2e296" type="bayt" xml:id="l_27.d2e1345">
-                        <seg change="#d2e296" xml:id="seg_53.d2e1347">تخذوا العلم بجهد آلة </seg>
-                        <seg change="#d2e296" xml:id="seg_54.d2e1350">صنعوا منها أساطيلا كبارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_28.d2e1355">
-                    <l change="#d2e296" type="bayt" xml:id="l_28.d2e1357">
-                        <seg change="#d2e296" xml:id="seg_55.d2e1359">كل أسطول كطود شامخ </seg>
-                        <seg change="#d2e296" xml:id="seg_56.d2e1362">من رأى الأطواد يقطن البحارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_29.d2e1367">
-                    <l change="#d2e296" type="bayt" xml:id="l_29.d2e1369">
-                        <seg change="#d2e296" xml:id="seg_57.d2e1371">ملكوا الأقطار بالعلم وقد </seg>
-                        <seg change="#d2e296" xml:id="seg_58.d2e1374">سيروا فيها من العلم القطارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_30.d2e1379">
-                    <l change="#d2e296" type="bayt" xml:id="l_30.d2e1381">
-                        <seg change="#d2e296" xml:id="seg_59.d2e1383">جعلوا (الأسلاك) وحياً بينهم </seg>
-                        <seg change="#d2e296" xml:id="seg_60.d2e1386">وأحالوا الفحم بالعلم نضارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_31.d2e1391">
-                    <l change="#d2e296" type="bayt" xml:id="l_31.d2e1393">
-                        <seg change="#d2e296" xml:id="seg_61.d2e1395">سخر العلم لهم ريح الصبا </seg>
-                        <seg change="#d2e296" xml:id="seg_62.d2e1398">فلذا قد ركبوا منه البخارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_32.d2e1403">
-                    <l change="#d2e296" type="bayt" xml:id="l_32.d2e1405">
-                        <seg change="#d2e296" xml:id="seg_63.d2e1407">يا بني الشرق فانتبهوا </seg>
-                        <seg change="#d2e296" xml:id="seg_64.d2e1410">من رقاد فوقكم ألقى التبارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_33.d2e1416">
-                    <l change="#d2e296" type="bayt" xml:id="l_33.d2e1418">
-                        <seg change="#d2e296" xml:id="seg_65.d2e1420">(واطلبوا العلم ولو في الصين) كي </seg>
-                        <seg change="#d2e296" xml:id="seg_66.d2e1423">تدفعوا فيه عن الشرق البوارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_34.d2e1428">
-                    <l change="#d2e296" type="bayt" xml:id="l_34.d2e1430">
-                        <seg change="#d2e296" xml:id="seg_67.d2e1432">فاقتدوا بالغرب كيما تدركوا </seg>
-                        <seg change="#d2e296" xml:id="seg_68.d2e1435">ما مضى واجنوا من العلم ثمارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_35.d2e1440">
-                    <l change="#d2e296" type="bayt" xml:id="l_35.d2e1442">
-                        <seg change="#d2e296" xml:id="seg_69.d2e1444">ودعوا ذكر عظام نخرت </seg>
-                        <seg change="#d2e296" xml:id="seg_70.d2e1447">واذكروا العلم كباراً وصغارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_36.d2e1452">
-                    <l change="#d2e296" type="bayt" xml:id="l_36.d2e1454">
-                        <seg change="#d2e296" xml:id="seg_71.d2e1456">إنما فخر الأولى قد درسوا </seg>
-                        <seg change="#d2e296" xml:id="seg_72.d2e1459">ليس يجدي الحي نفعا وافتخارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_37.d2e1464">
-                    <l change="#d2e296" type="bayt" xml:id="l_37.d2e1466">
-                        <seg change="#d2e296" xml:id="seg_73.d2e1468">(فسليمان) الذي كان مضى </seg>
-                        <seg change="#d2e296" xml:id="seg_74.d2e1471">ببساط الوحي والقدرة طارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_38.d2e1476">
-                    <l change="#d2e296" type="bayt" xml:id="l_38.d2e1478">
-                        <seg change="#d2e296" xml:id="seg_75.d2e1480">إن دور الأنبياء تم بهمٍ </seg>
-                        <seg change="#d2e296" xml:id="seg_76.d2e1483">وزمان الفخر قد شط مزارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_39.d2e1489">
-                    <l change="#d2e296" type="bayt" xml:id="l_39.d2e1491">
-                        <seg change="#d2e296" xml:id="seg_77.d2e1493">فاصنعوا واخترعوا اليوم على </seg>
-                        <seg change="#d2e296" xml:id="seg_78.d2e1496">ودعوا ما كان في الماضي وصارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_40.d2e1501">
-                    <l change="#d2e296" type="bayt" xml:id="l_40.d2e1503">
-                        <seg change="#d2e296" xml:id="seg_79.d2e1505">وأنعشوا ما مات من أجدادكم </seg>
-                        <seg change="#d2e296" xml:id="seg_80.d2e1508">بندى العلم ولا تبقوا حيارى</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_41.d2e1513">
-                    <l change="#d2e296" type="bayt" xml:id="l_41.d2e1515">
-                        <seg change="#d2e296" xml:id="seg_81.d2e1517">فمن العلم هرت أجسامكم </seg>
-                        <seg change="#d2e296" xml:id="seg_82.d2e1520">فالبسوا من حلة العلم شعارا</seg>
-                    </l>
-                </lg>
-                <lg change="#d2e296" xml:id="lg_42.d2e1525">
-                    <l change="#d2e296" type="bayt" xml:id="l_42.d2e1527">
-                        <seg change="#d2e296" xml:id="seg_83.d2e1529">فهو للعالم أم أب </seg>
-                        <seg change="#d2e296" xml:id="seg_84.d2e1532">فانحتوا منه أصولاً ونجارا</seg>
-                    </l>
-                </lg>
-                <byline change="#d2e219 #d2e296" xml:id="byline_3.d2e1537">
-                    <persName change="#d2e230 #d2e296" ref="oape:pers:1980 viaf:267152261514217180001" xml:id="persName_8.d2e1538">
-                        <forename change="#d2e296" xml:id="forename_6.d2e1539">عبد الرحمن</forename>
-                        <surname change="#d2e296" xml:id="surname_5.d2e1542">البنا</surname>
-                    </persName>ء</byline>
-            </div>
+            <div change="#d2e64 #d2e296" subtype="verse" type="item" xml:id="div_5.d2e1003">
+<head change="#d2e296" xml:id="head_5.d2e1005">الطيارون في الشرق</head>
+<head xml:lang="fr">Les Aviateurs dans l'Orient</head>
+<lg change="#d2e296" xml:id="lg_1.d2e1008">
+<l change="#d2e296" type="bayt" xml:id="l_1.d2e1010"> <seg change="#d2e296" xml:id="seg_1.d2e1012">لا تطر (فدرين) في الشرق افتخارا </seg> <seg change="#d2e296" xml:id="seg_2.d2e1015">كم فتىً في الغرب من قبلك طارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_2.d2e1020">
+<l change="#d2e296" type="bayt" xml:id="l_2.d2e1022"> <seg change="#d2e296" xml:id="seg_3.d2e1024">(شول رينار) على منطاده </seg> <seg change="#d2e296" xml:id="seg_4.d2e1027">(لافرنس) البدء قد طار اشتهارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_3.d2e1032">
+<l change="#d2e296" type="bayt" xml:id="l_3.d2e1034"> <seg change="#d2e296" xml:id="seg_5.d2e1036">و (بباريس) (البرازيلي) قد </seg> <seg change="#d2e296" xml:id="seg_6.d2e1039">طار في الجو وحول (البرج) دارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_4.d2e1044">
+<l change="#d2e296" type="bayt" xml:id="l_4.d2e1046"> <seg change="#d2e296" xml:id="seg_7.d2e1048">إن تطر فدرين في الشرق فلا </seg> <seg change="#d2e296" xml:id="seg_8.d2e1051">تحتقره بتعاليك احتقارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_5.d2e1057">
+<l change="#d2e296" type="bayt" xml:id="l_5.d2e1059"> <seg change="#d2e296" xml:id="seg_9.d2e1061">وأغضض الطرف إذا ألفيته </seg> <seg change="#d2e296" xml:id="seg_10.d2e1064">غارقاً في النوم ليلاً ونهارا</seg> </l>
+</lg>
+<p change="#d2e73 #d2e296" xml:id="p_81.d2e1069">فبنوه أبداً في رقدة <gap change="#d2e296" resp="#org_MS" xml:id="gap_1.d2e1071"/> وعليهم نفض الذل غبارا <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1477.xhtml" ed="shamela" n="n3-p466" xml:id="pb_18.d2e1073"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_466" n="466"/> أنت طير في الفضا منطلق <gap change="#d2e296" resp="#org_MS" xml:id="gap_2.d2e1075"/> وهم في قفص الجهل أسارى</p>
+<lg change="#d2e296" xml:id="lg_6.d2e1078">
+<l change="#d2e296" type="bayt" xml:id="l_6.d2e1080"> <seg change="#d2e296" xml:id="seg_11.d2e1082">عاهدوا الدهر بأن لا يقظةً </seg> <seg change="#d2e296" xml:id="seg_12.d2e1085">لا حراكا لا نهوضا لا وقارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_7.d2e1090">
+<l change="#d2e296" type="bayt" xml:id="l_7.d2e1092"> <seg change="#d2e296" xml:id="seg_13.d2e1094">فلقد ضلوا طريقاً بعد ما </seg> <seg change="#d2e296" xml:id="seg_14.d2e1097">أوضحوا للغرب بالعلم منارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_8.d2e1102">
+<l change="#d2e296" type="bayt" xml:id="l_8.d2e1104"> <seg change="#d2e296" xml:id="seg_15.d2e1106">لم لا تبكي عليهم غيرة </seg> <seg change="#d2e296" xml:id="seg_16.d2e1109">وهم كانوا على الحق غيارى</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_9.d2e1114">
+<l change="#d2e296" type="bayt" xml:id="l_9.d2e1116"> <seg change="#d2e296" xml:id="seg_17.d2e1118">(بارنيه) أفصح ولا تهزأ بهم </seg> <seg change="#d2e296" xml:id="seg_18.d2e1121">فهم من خمرة الجهل سكارى</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_10.d2e1127">
+<l change="#d2e296" type="bayt" xml:id="l_10.d2e1129"> <seg change="#d2e296" xml:id="seg_19.d2e1131">عقد الجبين عليهم خنصراً </seg> <seg change="#d2e296" xml:id="seg_20.d2e1134">وكساهم من ثياب الذل عارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_11.d2e1139">
+<l change="#d2e296" type="bayt" xml:id="l_11.d2e1141"> <seg change="#d2e296" xml:id="seg_21.d2e1143">وغدا الفقر عليهم جائراً </seg> <seg change="#d2e296" xml:id="seg_22.d2e1146">بعدما كانوا أعز الناس جارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_12.d2e1151">
+<l change="#d2e296" type="bayt" xml:id="l_12.d2e1153"> <seg change="#d2e296" xml:id="seg_23.d2e1155">أنت (بونيه) على (المرن) إذا </seg> <seg change="#d2e296" xml:id="seg_24.d2e1158">طرت بالرفق فقد طرت فخارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_13.d2e1163">
+<l change="#d2e296" type="bayt" xml:id="l_13.d2e1165"> <seg change="#d2e296" xml:id="seg_25.d2e1167">أنت سلطان على عرش الهوا </seg> <seg change="#d2e296" xml:id="seg_26.d2e1170">جالس إن رمت منه السير سارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_14.d2e1175">
+<l change="#d2e296" type="bayt" xml:id="l_14.d2e1177"> <seg change="#d2e296" xml:id="seg_27.d2e1179">أم ملاك يتهادى في الفضا </seg> <seg change="#d2e296" xml:id="seg_28.d2e1182">بجناح ساير الريح اقتدارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_15.d2e1187">
+<l change="#d2e296" type="bayt" xml:id="l_15.d2e1189"> <seg change="#d2e296" xml:id="seg_29.d2e1191">وله رجلان من تحتهما </seg> <seg change="#d2e296" xml:id="seg_30.d2e1194">مثل (دولابين) بالقوة دارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_16.d2e1200">
+<l change="#d2e296" type="bayt" xml:id="l_16.d2e1202"> <seg change="#d2e296" xml:id="seg_31.d2e1204">أيها الطائر فخراً في العلا </seg> <seg change="#d2e296" xml:id="seg_32.d2e1207">تنهب الجو غدواً وابتكارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_17.d2e1212">
+<l change="#d2e296" type="bayt" xml:id="l_17.d2e1214"> <seg change="#d2e296" xml:id="seg_33.d2e1216">طالما سيرتها منطادة </seg> <seg change="#d2e296" xml:id="seg_34.d2e1219">في السما لم تتخذ في الأرض دارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_18.d2e1224">
+<l change="#d2e296" type="bayt" xml:id="l_18.d2e1226"> <seg change="#d2e296" xml:id="seg_35.d2e1228">كلما تعلو بها تعلو بهاً </seg> <seg change="#d2e296" xml:id="seg_36.d2e1231">والطويلات لها عدن قصارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_19.d2e1236">
+<l change="#d2e296" type="bayt" xml:id="l_19.d2e1238"> <seg change="#d2e296" xml:id="seg_37.d2e1240">خال من أبصرها في جوها </seg> <seg change="#d2e296" xml:id="seg_38.d2e1243">إن (هالي) (ذنبا) منها استعارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_20.d2e1248">
+<l change="#d2e296" type="bayt" xml:id="l_20.d2e1250"> <seg change="#d2e296" xml:id="seg_39.d2e1252">هي كالزورق لكن من رأى </seg> <seg change="#d2e296" xml:id="seg_40.d2e1255">زورقاً من قبلها في الجو طارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_21.d2e1260">
+<l change="#d2e296" type="bayt" xml:id="l_21.d2e1262"> <seg change="#d2e296" xml:id="seg_41.d2e1264">وهي كالوهم على الفكر إذا </seg> <seg change="#d2e296" xml:id="seg_42.d2e1267">مر في الحال عن العين توارى</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_22.d2e1273">
+<l change="#d2e296" type="bayt" xml:id="l_22.d2e1275"> <seg change="#d2e296" xml:id="seg_43.d2e1277">كلما اشتد بها فرط الظما </seg> <seg change="#d2e296" xml:id="seg_44.d2e1280">وسقاها (الغاز) تشتد أوارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_23.d2e1285">
+<l change="#d2e296" type="bayt" xml:id="l_23.d2e1287"> <seg change="#d2e296" xml:id="seg_45.d2e1289">فإذا ما أججت زفرتها </seg> <seg change="#d2e296" xml:id="seg_46.d2e1292">نفثت من صدرها في الجو نارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_24.d2e1297">
+<l change="#d2e296" type="bayt" xml:id="l_24.d2e1299"> <seg change="#d2e296" xml:id="seg_47.d2e1301">وإذا ما غضبت يوم وغىً </seg> <seg change="#d2e296" xml:id="seg_48.d2e1304">قذفت غيظاً على الخصم شرارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_25.d2e1309">
+<l change="#d2e296" type="bayt" xml:id="l_25.d2e1311"> <seg change="#d2e296" xml:id="seg_49.d2e1313">وإذا ما طلبت ثاراً لها </seg> <seg change="#d2e296" xml:id="seg_50.d2e1316">أدركت عند مناط النجم ثارا</seg> </l>
+</lg>
+<p change="#d2e73 #d2e296" xml:id="p_82.d2e1321">فيها يعرف ما عند العدى <gap change="#d2e296" resp="#org_MS" xml:id="gap_3.d2e1323"/> وبها يستكشف الناس الضرارا <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1478.xhtml" ed="shamela" n="n3-p467" xml:id="pb_19.d2e1325"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_467" n="467"/> كلما زارت بحى خلتها <gap change="#d2e296" resp="#org_MS" xml:id="gap_4.d2e1327"/> غادة تسحب بالمشى الأزارا</p>
+<lg change="#d2e296" xml:id="lg_26.d2e1330">
+<l change="#d2e296" type="bayt" xml:id="l_26.d2e1332"> <seg change="#d2e296" xml:id="seg_51.d2e1334">إن أهل الغرب بالعلم لقد </seg> <seg change="#d2e296" xml:id="seg_52.d2e1337">ركبوا الريح وقد عافوا المهارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_27.d2e1343">
+<l change="#d2e296" type="bayt" xml:id="l_27.d2e1345"> <seg change="#d2e296" xml:id="seg_53.d2e1347">تخذوا العلم بجهد آلة </seg> <seg change="#d2e296" xml:id="seg_54.d2e1350">صنعوا منها أساطيلا كبارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_28.d2e1355">
+<l change="#d2e296" type="bayt" xml:id="l_28.d2e1357"> <seg change="#d2e296" xml:id="seg_55.d2e1359">كل أسطول كطود شامخ </seg> <seg change="#d2e296" xml:id="seg_56.d2e1362">من رأى الأطواد يقطن البحارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_29.d2e1367">
+<l change="#d2e296" type="bayt" xml:id="l_29.d2e1369"> <seg change="#d2e296" xml:id="seg_57.d2e1371">ملكوا الأقطار بالعلم وقد </seg> <seg change="#d2e296" xml:id="seg_58.d2e1374">سيروا فيها من العلم القطارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_30.d2e1379">
+<l change="#d2e296" type="bayt" xml:id="l_30.d2e1381"> <seg change="#d2e296" xml:id="seg_59.d2e1383">جعلوا (الأسلاك) وحياً بينهم </seg> <seg change="#d2e296" xml:id="seg_60.d2e1386">وأحالوا الفحم بالعلم نضارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_31.d2e1391">
+<l change="#d2e296" type="bayt" xml:id="l_31.d2e1393"> <seg change="#d2e296" xml:id="seg_61.d2e1395">سخر العلم لهم ريح الصبا </seg> <seg change="#d2e296" xml:id="seg_62.d2e1398">فلذا قد ركبوا منه البخارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_32.d2e1403">
+<l change="#d2e296" type="bayt" xml:id="l_32.d2e1405"> <seg change="#d2e296" xml:id="seg_63.d2e1407">يا بني الشرق فانتبهوا </seg> <seg change="#d2e296" xml:id="seg_64.d2e1410">من رقاد فوقكم ألقى التبارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_33.d2e1416">
+<l change="#d2e296" type="bayt" xml:id="l_33.d2e1418"> <seg change="#d2e296" xml:id="seg_65.d2e1420">(واطلبوا العلم ولو في الصين) كي </seg> <seg change="#d2e296" xml:id="seg_66.d2e1423">تدفعوا فيه عن الشرق البوارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_34.d2e1428">
+<l change="#d2e296" type="bayt" xml:id="l_34.d2e1430"> <seg change="#d2e296" xml:id="seg_67.d2e1432">فاقتدوا بالغرب كيما تدركوا </seg> <seg change="#d2e296" xml:id="seg_68.d2e1435">ما مضى واجنوا من العلم ثمارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_35.d2e1440">
+<l change="#d2e296" type="bayt" xml:id="l_35.d2e1442"> <seg change="#d2e296" xml:id="seg_69.d2e1444">ودعوا ذكر عظام نخرت </seg> <seg change="#d2e296" xml:id="seg_70.d2e1447">واذكروا العلم كباراً وصغارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_36.d2e1452">
+<l change="#d2e296" type="bayt" xml:id="l_36.d2e1454"> <seg change="#d2e296" xml:id="seg_71.d2e1456">إنما فخر الأولى قد درسوا </seg> <seg change="#d2e296" xml:id="seg_72.d2e1459">ليس يجدي الحي نفعا وافتخارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_37.d2e1464">
+<l change="#d2e296" type="bayt" xml:id="l_37.d2e1466"> <seg change="#d2e296" xml:id="seg_73.d2e1468">(فسليمان) الذي كان مضى </seg> <seg change="#d2e296" xml:id="seg_74.d2e1471">ببساط الوحي والقدرة طارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_38.d2e1476">
+<l change="#d2e296" type="bayt" xml:id="l_38.d2e1478"> <seg change="#d2e296" xml:id="seg_75.d2e1480">إن دور الأنبياء تم بهمٍ </seg> <seg change="#d2e296" xml:id="seg_76.d2e1483">وزمان الفخر قد شط مزارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_39.d2e1489">
+<l change="#d2e296" type="bayt" xml:id="l_39.d2e1491"> <seg change="#d2e296" xml:id="seg_77.d2e1493">فاصنعوا واخترعوا اليوم على </seg> <seg change="#d2e296" xml:id="seg_78.d2e1496">ودعوا ما كان في الماضي وصارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_40.d2e1501">
+<l change="#d2e296" type="bayt" xml:id="l_40.d2e1503"> <seg change="#d2e296" xml:id="seg_79.d2e1505">وأنعشوا ما مات من أجدادكم </seg> <seg change="#d2e296" xml:id="seg_80.d2e1508">بندى العلم ولا تبقوا حيارى</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_41.d2e1513">
+<l change="#d2e296" type="bayt" xml:id="l_41.d2e1515"> <seg change="#d2e296" xml:id="seg_81.d2e1517">فمن العلم هرت أجسامكم </seg> <seg change="#d2e296" xml:id="seg_82.d2e1520">فالبسوا من حلة العلم شعارا</seg> </l>
+</lg>
+<lg change="#d2e296" xml:id="lg_42.d2e1525">
+<l change="#d2e296" type="bayt" xml:id="l_42.d2e1527"> <seg change="#d2e296" xml:id="seg_83.d2e1529">فهو للعالم أم أب </seg> <seg change="#d2e296" xml:id="seg_84.d2e1532">فانحتوا منه أصولاً ونجارا</seg> </l>
+</lg>
+<byline change="#d2e219 #d2e296" xml:id="byline_3.d2e1537"> <persName change="#d2e230 #d2e296" ref="oape:pers:1980 viaf:267152261514217180001" xml:id="persName_8.d2e1538"> <forename change="#d2e296" xml:id="forename_6.d2e1539">عبد الرحمن</forename> <surname change="#d2e296" xml:id="surname_5.d2e1542">البناء</surname> </persName></byline>
+</div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_6.d2e1548">
                 <head change="#d2e296" xml:id="head_6.d2e1550">ارتفع أسعار الأرضين في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_23.d2e1552">بغداد</placeName></head>
-                <p change="#d2e73 #d2e296" xml:id="p_83.d2e1555">قرأت في العدد السابع من سنتكم الثالثة في الصحيفة  
-                    <num change="#d2e258 #d2e296" type="auto-markup" value="389" xml:id="num_1.d2e1557" xml:lang="ar">٣٨٩</num>
-                    خبر بيع الأراضي الراجعة إلى الأجنبي زريفي أو ظريفي الصراف في <placeName>الأستانة</placeName> بمبلغ  
-                    <num change="#d2e258 #d2e296" type="auto-markup" value="150" xml:id="num_1.d2e1560" xml:lang="ar">١٥٠</num>
-                    ألف ليرة وعند ذكر ذلك ذكرتم تم أنه قد كان اشتراها 
-                    <date change="#d2e266 #d2e296" type="auto-markup" when="1880" xml:id="date_4.d2e1563">
-                        سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1880" xml:id="num_1.d2e1565" xml:lang="ar">١٨٨٠</num></date>بمبلغ قدره  
-                    <num change="#d2e258 #d2e296" type="auto-markup" value="250" xml:id="num_1.d2e1568" xml:lang="ar">٢٥٠</num>
-                    ألف
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1479.xhtml" ed="shamela" n="n3-p468" xml:id="pb_20.d2e1571"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="468" facs="#facs_468"/>
-                    ليرة وقلتم بعدها (فانظر وتأمل) كأنكم رأيتم الفرق كبيراً والمدة التي هي  
-                    <num change="#d2e258 #d2e296" type="auto-markup" value="34" xml:id="num_1.d2e1574" xml:lang="ar">٣٤</num>
-                    سنة وجيزة بالنسبة إلى هذا الارتفاع العظيم ولذا خطر لي أن أحرر لمجلتكم الزاهرة هذه الأسطر أعلاماً بما وصلت إليه أثمان الأملاك والأراضي في حاضرتنا وما جاورها في هذه الأيام الأخيرة أعني منذ خمس عشرة سنة فقط بل قل من بعد إعلان الدستور فأقول:</p>
+                <p change="#d2e73 #d2e296" xml:id="p_83.d2e1555">قرأت في <ref><bibl><biblScope from="7" to="7" unit="issue">العدد السابع</biblScope> من <biblScope from="3" to="3" unit="volume">سنتكم الثالثة</biblScope> في <biblScope from="389" unit="page">الصحيفة <num change="#d2e258 #d2e296" type="auto-markup" value="389" xml:id="num_1.d2e1557" xml:lang="ar">٣٨٩</num></biblScope></bibl></ref> خبر بيع الأراضي الراجعة إلى الأجنبي زريفي أو ظريفي الصراف في <placeName>الأستانة</placeName> بمبلغ <num change="#d2e258 #d2e296" type="auto-markup" value="150" xml:id="num_1.d2e1560" xml:lang="ar">١٥٠</num> ألف ليرة وعند ذكر ذلك ذكرتم تم أنه قد كان اشتراها <date change="#d2e266 #d2e296" type="auto-markup" when="1880" xml:id="date_4.d2e1563"> سنة <num change="#d2e258 #d2e296" type="auto-markup" value="1880" xml:id="num_1.d2e1565" xml:lang="ar">١٨٨٠</num></date> بمبلغ قدره <num change="#d2e258 #d2e296" type="auto-markup" value="250" xml:id="num_1.d2e1568" xml:lang="ar">٢٥٠</num> ألف <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1479.xhtml" ed="shamela" n="n3-p468" xml:id="pb_20.d2e1571"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_468" n="468"/> ليرة وقلتم بعدها (فانظر وتأمل) كأنكم رأيتم الفرق كبيراً والمدة التي هي <num change="#d2e258 #d2e296" type="auto-markup" value="34" xml:id="num_1.d2e1574" xml:lang="ar">٣٤</num> سنة وجيزة بالنسبة إلى هذا الارتفاع العظيم ولذا خطر لي أن أحرر لمجلتكم الزاهرة هذه الأسطر أعلاماً بما وصلت إليه أثمان الأملاك والأراضي في حاضرتنا وما جاورها في هذه الأيام الأخيرة أعني منذ خمس عشرة سنة فقط بل قل من بعد إعلان الدستور فأقول:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_84.d2e1578">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_18.d2e1580">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e1582" xml:lang="ar">١</num>- </hi>منذ نحو  
@@ -948,11 +763,8 @@
                     ليرة</p>
                 <p change="#d2e73 #d2e296" xml:id="p_94.d2e1740">أو نحوه ولم تزل خالية يباباً فما قولكم في هذا الفرق؟</p>
                 <p change="#d2e73 #d2e296" xml:id="p_95.d2e1743">هذا ما سنح للخاطر في سويعة من الزمن ولو أراد أحد الاستفسار لرأى أن الواحد صار عشرين بل خمسين وربما بلغ مائة وأكثر مما لا يعد ولا يحصى على أن الأعمار لم يقع والترقي لم يحدث والمدنية لم تنتشر والأمن لم يحط والحال لم يتغير فما القول أن توافد الغربيون زرافات ووحدانا على السكة فهذا أمر نوجه إليه أنظار القراء الكرام.</p>
-                <byline change="#d2e219 #d2e296" xml:id="byline_4.d2e1746">ع. . . ن
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1481.xhtml" ed="shamela" n="n3-p470" xml:id="pb_22.d2e1748"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="470" facs="#facs_470"/></byline>
-            </div>
+                <byline change="#d2e219 #d2e296" xml:id="byline_4.d2e1746"><persName>ع. . . ن</persName> </byline>
+            </div><pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1481.xhtml" ed="shamela" n="n3-p470" xml:id="pb_22.d2e1748"/><pb change="#d2e378 #d2e408" ed="print" facs="#facs_470" n="470"/>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_7.d2e1752">
                 <head change="#d2e296" xml:id="head_7.d2e1754">النخل في العراق</head>
                 <p change="#d2e73 #d2e296" xml:id="p_96.d2e1757">
@@ -1154,19 +966,7 @@
             </div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_9.d2e2139">
                 <head change="#d2e296" xml:id="head_9.d2e2141">الكلمات الكردية في العربية الموصلية</head>
-                <p change="#d2e73 #d2e296" xml:id="p_158.d2e2144">(
-                    <title change="#d2e296 #d5e413" level="j" xml:id="title_12.d2e2146" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
-                    ) في 
-                    <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e2149">بغداد</placeName>
-                    اثنان من الأدباء النصارى يعنون بتدوين لغة العوام في <placeName>العراق</placeName> وهما رزوق أفندي عيسى وداود أفندي فتو. أما رزوق أفندي فقد أكمل معجمه وهو كله مسود وأما داود أفندي فإنه أنهاه أيضاً لكنه لم يبوبه تمام التبويب. وكنا قد بدأنا بطبع معجم رزوق أفندي في مجلتنا إلا أن تراكم المواد والمواضيع تحول دون تحقيق الأمنية في بعض الأحيان. أما داود أفندي فتو فقد استل من معجمه الذي سماه (بغية المشتاق، إلى لغة <placeName>العراق</placeName>) مقالة يذكر فيها ما في لغة 
-                    <placeName change="#d2e296" xml:id="placeName_32.d2e2152">الموصل</placeName>
-                    العربية، من الألفاظ الكردية لإنتياب الأكراد تلك المدينة العظمى وهاهي:
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1494.xhtml" ed="shamela" n="n3-p483" xml:id="pb_35.d2e2155"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="483" facs="#facs_483"/>
-                    لما كانت 
-                    <placeName change="#d2e296" xml:id="placeName_33.d2e2157">الموصل</placeName>
-                    قريبة من ديار الأكراد وكان ترددهم إليها لا ينقطع في بحر السنة دخل شيء من لغة المواصلة وهاءنذا أورد بعض تلك الألفاظ على ما تحضرني بدون أن أتبع في سردها ترتيباً. فمنها:</p>
+                <p change="#d2e73 #d2e296" xml:id="p_158.d2e2144">( <title change="#d2e296 #d5e413" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_12.d2e2146">لغة العرب</title> ) في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e2149">بغداد</placeName> اثنان من الأدباء النصارى يعنون بتدوين لغة العوام في <placeName>العراق</placeName> وهما <persName>رزوق أفندي عيسى</persName> و<persName>داود أفندي فتو</persName>. أما رزوق أفندي فقد أكمل معجمه وهو كله مسود وأما داود أفندي فإنه أنهاه أيضاً لكنه لم يبوبه تمام التبويب. وكنا قد بدأنا بطبع معجم رزوق أفندي في مجلتنا إلا أن تراكم المواد والمواضيع تحول دون تحقيق الأمنية في بعض الأحيان. أما داود أفندي فتو فقد استل من معجمه الذي سماه (بغية المشتاق، إلى لغة <placeName>العراق</placeName>) مقالة يذكر فيها ما في لغة <placeName change="#d2e296" xml:id="placeName_32.d2e2152">الموصل</placeName> العربية، من الألفاظ الكردية لإنتياب الأكراد تلك المدينة العظمى وهاهي: <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1494.xhtml" ed="shamela" n="n3-p483" xml:id="pb_35.d2e2155"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_483" n="483"/> لما كانت <placeName change="#d2e296" xml:id="placeName_33.d2e2157">الموصل</placeName> قريبة من ديار الأكراد وكان ترددهم إليها لا ينقطع في بحر السنة دخل شيء من لغة المواصلة وهاءنذا أورد بعض تلك الألفاظ على ما تحضرني بدون أن أتبع في سردها ترتيباً. فمنها:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_159.d2e2161">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_37.d2e2163">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e2165" xml:lang="ar">١</num>- </hi>كزيغ وتلفظ وهو الجابي أو معاون مختار القرية وأصلها (كزير) (وزان صغير) لكن لما كان الموصليون يلفظون الراء غيناً قالوا كزيغ بإسكان الأول.</p>
@@ -1315,7 +1115,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="40" xml:id="num_1.d2e2557" xml:lang="ar">٤٠</num>- </hi>جوال أصلها جال في لسانهم وهو الجوالق بالعربية والجوالق من أصل فارسي وهو كواله.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_199.d2e2562">هذا ما أردت تعليقه في هذه النبذة الوجيزة إظهاراً ما للأكراد من التأثير على البلاد العربية التي يترددون إليها. وهناك غير هذه الألفاظ وقد اكتفينا بهذا الوشل عملاً بكلام الشاعر القنوع القائل:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_200.d2e2565">فاقنع ففي القناعة راحة. واليأس عما فات فهو المطلب</p>
-                <byline change="#d2e219 #d2e296" xml:id="byline_6.d2e2568">داود فتو</byline>
+                <byline change="#d2e219 #d2e296" xml:id="byline_6.d2e2568"><persName><forename>داود</forename> <surname>فتو</surname></persName></byline>
             </div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_10.d2e2572">
                 <head change="#d2e296" xml:id="head_10.d2e2574">التجارة في 
@@ -1533,7 +1333,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_249.d2e2986">كان اتاء الحبوب أدنى من المتوسط وارتفعت أسعاره ارتفاعاً محسوساً بحيث إن المعيشة</p>
                 <p change="#d2e73 #d2e296" xml:id="p_250.d2e2989">أصبحت صعبة لغلائها ومع ذلك فقد شحن من الحنطة والشعير إلى ديار الإفرنج قدر لا يسكت عنه وما بقي منهما في المدينة بأثمان باهظة.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_251.d2e2992">هذا مجمل ما يقال عن البضائع المجلوبة والصادرة ودونك الآن بيان هذه البياعات بالتفصيل.</p>
-                <closer change="#d2e73 #d2e296" xml:id="closer_1.d2e2995">(له تلو)</closer>
+                <closer change="#d2e73 #d2e296" xml:id="closer_1.d2e2995">(<ref>له تلو</ref>)</closer>
                 <byline change="#d2e219 #d2e296" xml:id="byline_7.d2e2999">
                     <persName change="#d2e296 #d3e364" ref="oape:pers:3272" xml:id="persName_11.d2e3000">البر كسبرخان</persName>
                 </byline>
@@ -1573,15 +1373,10 @@
                             <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3060" xml:lang="ar">٣</num>- </hi>زلق الشادي ببيت المكادي</head>
                     <p change="#d2e73 #d2e296" xml:id="p_262.d2e3066">وسألنا المذكور: وما معنى هذا المثل العامي: زلق الشادي ببيت المكادي.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_263.d2e3069">قلنا: معنى الشادي عند العراقيين القرد والكلمة فارسية مبنىً ومعنى لأن الشوادي (القرود) تأتيهم من بلاد الفرس والمكادي (وزان مفاعل) جمع المكدي (بدال مشددة) وهو المتسول المستعطي بلسان العراقيين فيكون المعنى نزل القرد في بيت الفقراء سهواً منه وذلك لأن</p>
-                </div>
+<p>القرد لا ينزل إلا في الدور التي ينتفع مما يجد فيها من الطعام وهذا لا يجده في بيت المكدين. فمعنى المثل إذا قد يزل العالم أو قد يهفو الإنسان مهما كان عارفاً وحكيماً. </p>
+                </div><pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1503.xhtml" ed="shamela" n="n3-p492" xml:id="pb_44.d2e3074"/><pb change="#d2e378 #d2e408" ed="print" facs="#facs_492" n="492"/>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_11.d2e3146">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_264.d2e3072">القرد لا ينزل إلا في الدور التي ينتفع مما يجد فيها من الطعام وهذا لا يجده في بيت المكدين. فمعنى المثل إذا قد يزل العالم أو قد يهفو الإنسان مهما كان عارفاً وحكيماً.
-
-                        <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1503.xhtml" ed="shamela" n="n3-p492" xml:id="pb_44.d2e3074"/>
-                        <pb change="#d2e378 #d2e408" ed="print" n="492" facs="#facs_492"/>
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_85.d2e3076">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3078" xml:lang="ar">٤</num>
-                            - </hi>أصل الجلبة بمعنى الضوضاء</head>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_264.d2e3072"> <hi change="#d2e296" style="color:red;" xml:id="hi_85.d2e3076"> <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3078" xml:lang="ar">٤</num> - </hi>أصل الجلبة بمعنى الضوضاء</head>
                     <p change="#d2e73 #d2e296" xml:id="p_265.d2e3083">وسألنا من 
                         <placeName change="#d2e296" xml:id="placeName_48.d2e3085">الموصل</placeName>
                         : هل الجلبة عربية الأصل بمعنى الضوضاء؟</p>
@@ -1593,15 +1388,8 @@
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_267.d2e3095">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_86.d2e3097">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e3099" xml:lang="ar">٥</num>- </hi>معاني ألفاظ إنكليزية</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_268.d2e3105">وسألنا سلامه أفندي موسى من 
-                        <placeName change="#d2e296" xml:id="placeName_50.d2e3107">مصر</placeName>
-                        <placeName change="#d2e296" xml:id="placeName_51.d2e3110">القاهرة</placeName>
-                        : كيف تترجمون الكلمات الإنكليزية الآتية أو - وما هي أسماء (عروق ورق الشجر)</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_269.d2e3114">قلنا: يقابل - في العربية: القوقس والفوقس (راجع 
-                        <title change="#d2e296 #d5e413" level="j" xml:id="title_15.d2e3116" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
-                        في حاشية ص  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="329" xml:id="num_1.d2e3119" xml:lang="ar">٣٢٩</num>
-                        من السنة   ) وقد ورد في المعاجم الإنكليزية والعربية أو الفرنسية العربية صوف البحر، وقش البحر، وخث الماء، ونبات الماء، والعرب لم تعرف ولا تعرف هذه الألفاظ مرادفات للقوقس اليونانية الأصل. - ويقابل في العربية: بسعيرا (وهي ارمية الأصل) وبطارس (يونانيته) ورقعاء (وجاءت مصفحة رقعا ورقعة ورقعاء وكلها خطأ. وهي عربية) وسرخس وهي أشهر الألفاظ وفارسية الأصل. وشرد (لبنانية قديمة. وزان عنق) وبليخنون (وفي رواية فليخنون وتلك أصح وفي المفردات المطبوعة لأبن البيطار فلحون وهو تصحيف قبيح والكلمة فارسية) وكيلدارو وجيلدارو وهما فارسيتا الأصل. وهذه الألفاظ وردت كلها في مفردات ابن البيطار. فلتراجع وورد في بعض المعاجم الفرنسوية تفسيراً لكلمة العربية اللفظة (خنشار) التي قال عنها في محيط المحيط نبات. ونقلها في دائرة المعارف إلى لكن لم أجدها في دواوين اللغة العربية الفصيحة ولا في سائر الكتب المتقنة التأليف فلتحرر - وأما عروق ورق الشجر، فلم نعثر على اسم لها إنما يوجد (عير) الورقة وهو الخط الذي في وسطها أو العرق الأوسط الذي فيها. وإذا أريد الدلالة على البقية قيل لها (اشاجع) الورقة جمع (أشجع) وهي عروق ظاهر الكف. فيتوسع في معناها من باب</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_268.d2e3105">وسألنا <persName>سلامه أفندي موسى</persName> من <placeName change="#d2e296" xml:id="placeName_50.d2e3107">مصر</placeName> <placeName change="#d2e296" xml:id="placeName_51.d2e3110">القاهرة</placeName> : كيف تترجمون الكلمات الإنكليزية الآتية أو - وما هي أسماء (عروق ورق الشجر)</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_269.d2e3114">قلنا: يقابل - في العربية: القوقس والفوقس (<ref>راجع <bibl><title change="#d2e296 #d5e413" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_15.d2e3116">لغة العرب</title> في حاشية ص <num change="#d2e258 #d2e296" type="auto-markup" value="329" xml:id="num_1.d2e3119" xml:lang="ar">٣٢٩</num> من السنة </bibl></ref>) وقد ورد في المعاجم الإنكليزية والعربية أو الفرنسية العربية صوف البحر، وقش البحر، وخث الماء، ونبات الماء، والعرب لم تعرف ولا تعرف هذه الألفاظ مرادفات للقوقس اليونانية الأصل. - ويقابل في العربية: بسعيرا (وهي ارمية الأصل) وبطارس (يونانيته) ورقعاء (وجاءت مصفحة رقعا ورقعة ورقعاء وكلها خطأ. وهي عربية) وسرخس وهي أشهر الألفاظ وفارسية الأصل. وشرد (لبنانية قديمة. وزان عنق) وبليخنون (وفي رواية فليخنون وتلك أصح وفي المفردات المطبوعة لأبن البيطار فلحون وهو تصحيف قبيح والكلمة فارسية) وكيلدارو وجيلدارو وهما فارسيتا الأصل. وهذه الألفاظ وردت كلها في مفردات ابن البيطار. فلتراجع وورد في بعض المعاجم الفرنسوية تفسيراً لكلمة العربية اللفظة (خنشار) التي قال عنها في محيط المحيط نبات. ونقلها في دائرة المعارف إلى لكن لم أجدها في دواوين اللغة العربية الفصيحة ولا في سائر الكتب المتقنة التأليف فلتحرر - وأما عروق ورق الشجر، فلم نعثر على اسم لها إنما يوجد (عير) الورقة وهو الخط الذي في وسطها أو العرق الأوسط الذي فيها. وإذا أريد الدلالة على البقية قيل لها (اشاجع) الورقة جمع (أشجع) وهي عروق ظاهر الكف. فيتوسع في معناها من باب</p>
                     <p change="#d2e73 #d2e296" xml:id="p_270.d2e3126">المجاز وهو واضح لا يحتاج إلى تأييد.</p>
                 </div>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_11.d2e3201">
@@ -1728,38 +1516,24 @@
                         <pb change="#d2e378 #d2e408" ed="print" n="498" facs="#facs_498"/></p>
                 </div>
             </div>
-            <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_13.d2e3346">
-                <head change="#d2e296" xml:id="head_13.d2e3348">باب المراجعة والمكاتبة</head>
-                <p change="#d2e73 #d2e296" xml:id="p_299.d2e3351">
-                    <hi change="#d2e296" style="color:red;" xml:id="hi_96.d2e3353">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3355" xml:lang="ar">١</num>- </hi>كتاب الألفاظ الكتابية وكتاب ألفاظ الأشباه والنظائر</p>
-                <p change="#d2e73 #d2e296" xml:id="p_300.d2e3360">وكتاب الألفاظ</p>
-                <p change="#d2e73 #d2e296" xml:id="p_301.d2e3363">كتبنا في المقتبس مقالة أثبتنا فيها إن الكتاب المسمى بالألفاظ الكتابية أو كتاب ألفاظ الأشباه والنظائر يسمى على الحقيقة (كتاب الألفاظ) لا غير. وصاحبه هو عبد الرحمن بن عيسى بن حماد الهمداني (بالدال المهملة لا بالمعجمة) نسبة إلى همدان وهي قبيلة ب<placeName>اليمن</placeName> من حمير شهيرة برجالها العظام وليس الهمذاني نسبة إلى همذان وهي بلدة في ديار فارس. وكنا قد قلنا أيضاً إن النسخة التي نشرت في <placeName>الأستانة</placeName> باسم كتاب ألفاظ الأشباه والنظائر كان قد سعى في تعميم فوائدها بالطبع السيد نعمان الآلوسي. وقد اتضح لنا الآن ما يخالف هذا القول فأسرعنا إلى تصحيحه والحقيقة هي أن الطابع وهو أبو ضياء استعار النسخة الآلوسية من السيد المذكور لكي يطبعها على نفقته وهي نسخة قديمة الخط محفوظة إلى الآن في خزانة كتب جامع مرجان التي أوقفها السيد علي الجامع المذكور تعميماً لفوائد العلم على ما هو مشهور عن الأسرة الآلوسية وكان السيد المومأ إليه في ذلك الحين موجوداً في <placeName>الأستانة</placeName> فصحح الملزمة الأولى فقط من الكتاب ثم عاد إلى وطنه لأمور أوجبت رجوعه إلى مسقط رأسه. وبعد أن تم طبعها أرسلت إليه نسخة منها فلما رآها وجد الطابع نسب تصحيحها إليه ترويجاً لمقصده وهو بيعها بأقرب مدة فأسف لذلك. ثم بقي متردداً في نسخته بعد أن وقف على نسخة 
-                    <placeName change="#d2e296" xml:id="placeName_53.d2e3365">بيروت</placeName>
-                    التي طبعت في وقت واحد أو تكاد، فلم يعلم أي النسختين أصح هذا ما تحققناه بعد كتابة ما أدرجناه قبل نحو سنتين فلنتبع الحقيقة وليعمل بها.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_302.d2e3369">
-                    <hi change="#d2e296" style="color:red;" xml:id="hi_97.d2e3371">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3373" xml:lang="ar">٢</num>- </hi>أبو خزامة</p>
-                <p change="#d2e73 #d2e296" xml:id="p_303.d2e3379">هو المدفع الذي ارصدنا له مقالة طويلة حبرها مدير هذه المجلة المسؤول الشيخ كاظم أفندي الدجيلي. وفي اليوم الذي وردتنا مقالته جاءتنا مقالة ثانية في المعنى نفسه من صديقنا الشيخ 
-                    <persName change="#d2e353 #d3e364" ref="oape:pers:1845 viaf:21058435" xml:id="persName_13.d2e3457">
-                        <forename>سليمان</forename>
-                        <roleName type="title">أفندي</roleName>
-                        <surname>الدخيل</surname></persName>فقدمنا الأولى لما فيها من التفاصيل وأجلنا الثانية معتمدين على نشرها في هذا الجز لتكون بمنزلة تتمة للأولى إلا أن كثرة المواد حالت دون تحقيق الأمنية</p>
-                <p change="#d2e73 #d2e296" xml:id="p_304.d2e3382">في هذا العدد أيضاً ولعلنا نثبتها في الجزء القادم. وقد سمعنا من أحد الثقات إن حضرة أستاذنا الشهير والعلامة الكبير السيد محمود شكري أفندي الآلوسي صاحب التآليف الجليلة كان قد وضع في
-
-                    <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1510.xhtml" ed="shamela" n="n3-p499" xml:id="pb_51.d2e3384"/>
-                    <pb change="#d2e378 #d2e408" ed="print" n="499" facs="#facs_499"/>
-                    عهد مشيرية هدايت باشا رسالة سماها: (القول الأنفع، في الردع عن زيارة المدفع) وقد كان قدمها إليه ليمنع العوام مما هو عليه من الاعتقاد الفاسد في هذا المدفع المغاير لما جاءت به شريعة الإسلام، وبحث فيه عن تاريخه والمفاسد التي تنجم عن هذه المعاملة. والرسالة تقع في نحو عشر صحائف وترجمت إلى اللغة العثمانية وقد فقدها السيد الأستاذ منذ سنين فلا يعلم أين صارت. ولعلها توجد يوماً فتبشر بالطبع فيعم نفعها الكبير والصغير والله الميسر.</p>
-            </div>
+            <div change="#d2e64 #d2e296" subtype="section" type="item" xml:id="div_13.d2e3346">
+<head change="#d2e296" xml:id="head_13.d2e3348">باب المراجعة والمكاتبة</head>
+<div subtype="article" type="item">
+<p change="#d2e73 #d2e296" xml:id="p_299.d2e3351"> <hi change="#d2e296" style="color:red;" xml:id="hi_96.d2e3353"> <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3355" xml:lang="ar">١</num>- </hi>كتاب الألفاظ الكتابية وكتاب ألفاظ الأشباه والنظائر وكتاب الألفاظ</p>
+<p change="#d2e73 #d2e296" xml:id="p_301.d2e3363">كتبنا في المقتبس مقالة أثبتنا فيها إن الكتاب المسمى بالألفاظ الكتابية أو كتاب ألفاظ الأشباه والنظائر يسمى على الحقيقة (كتاب الألفاظ) لا غير. وصاحبه هو عبد الرحمن بن عيسى بن حماد الهمداني (بالدال المهملة لا بالمعجمة) نسبة إلى همدان وهي قبيلة ب<placeName>اليمن</placeName> من حمير شهيرة برجالها العظام وليس الهمذاني نسبة إلى همذان وهي بلدة في ديار فارس. وكنا قد قلنا أيضاً إن النسخة التي نشرت في <placeName>الأستانة</placeName> باسم كتاب ألفاظ الأشباه والنظائر كان قد سعى في تعميم فوائدها بالطبع السيد نعمان الآلوسي. وقد اتضح لنا الآن ما يخالف هذا القول فأسرعنا إلى تصحيحه والحقيقة هي أن الطابع وهو أبو ضياء استعار النسخة الآلوسية من السيد المذكور لكي يطبعها على نفقته وهي نسخة قديمة الخط محفوظة إلى الآن في خزانة كتب جامع مرجان التي أوقفها السيد علي الجامع المذكور تعميماً لفوائد العلم على ما هو مشهور عن الأسرة الآلوسية وكان السيد المومأ إليه في ذلك الحين موجوداً في <placeName>الأستانة</placeName> فصحح الملزمة الأولى فقط من الكتاب ثم عاد إلى وطنه لأمور أوجبت رجوعه إلى مسقط رأسه. وبعد أن تم طبعها أرسلت إليه نسخة منها فلما رآها وجد الطابع نسب تصحيحها إليه ترويجاً لمقصده وهو بيعها بأقرب مدة فأسف لذلك. ثم بقي متردداً في نسخته بعد أن وقف على نسخة <placeName change="#d2e296" xml:id="placeName_53.d2e3365">بيروت</placeName> التي طبعت في وقت واحد أو تكاد، فلم يعلم أي النسختين أصح هذا ما تحققناه بعد كتابة ما أدرجناه قبل نحو سنتين فلنتبع الحقيقة وليعمل بها.</p>
+<byline><persName>ساتسنا</persName></byline>
+</div>
+<div subtype="article" type="item">
+<p change="#d2e73 #d2e296" xml:id="p_302.d2e3369"> <hi change="#d2e296" style="color:red;" xml:id="hi_97.d2e3371"> <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3373" xml:lang="ar">٢</num>- </hi>أبو خزامة</p>
+<p change="#d2e73 #d2e296" xml:id="p_303.d2e3379">هو المدفع الذي ارصدنا له مقالة طويلة حبرها مدير هذه المجلة المسؤول الشيخ كاظم أفندي الدجيلي. وفي اليوم الذي وردتنا مقالته جاءتنا مقالة ثانية في المعنى نفسه من صديقنا الشيخ <persName change="#d2e353 #d3e364" ref="oape:pers:1845 viaf:21058435" xml:id="persName_13.d2e3457"> <forename>سليمان</forename> <roleName type="title">أفندي</roleName> <surname>الدخيل</surname></persName>فقدمنا الأولى لما فيها من التفاصيل وأجلنا الثانية معتمدين على نشرها في هذا الجز لتكون بمنزلة تتمة للأولى إلا أن كثرة المواد حالت دون تحقيق الأمنية</p>
+<p change="#d2e73 #d2e296" xml:id="p_304.d2e3382">في هذا العدد أيضاً ولعلنا نثبتها في الجزء القادم. وقد سمعنا من أحد الثقات إن حضرة أستاذنا الشهير والعلامة الكبير السيد محمود شكري أفندي الآلوسي صاحب التآليف الجليلة كان قد وضع في <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1510.xhtml" ed="shamela" n="n3-p499" xml:id="pb_51.d2e3384"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_499" n="499"/> عهد مشيرية هدايت باشا رسالة سماها: (القول الأنفع، في الردع عن زيارة المدفع) وقد كان قدمها إليه ليمنع العوام مما هو عليه من الاعتقاد الفاسد في هذا المدفع المغاير لما جاءت به شريعة الإسلام، وبحث فيه عن تاريخه والمفاسد التي تنجم عن هذه المعاملة. والرسالة تقع في نحو عشر صحائف وترجمت إلى اللغة العثمانية وقد فقدها السيد الأستاذ منذ سنين فلا يعلم أين صارت. ولعلها توجد يوماً فتبشر بالطبع فيعم نفعها الكبير والصغير والله الميسر.</p>
+</div>
+</div>
             <div change="#d2e64 #d2e296" type="section" xml:id="div_14.d2e3388">
                 <head change="#d2e296" xml:id="head_14.d2e3390">باب المشارفة والانتقاد</head>
                 <div change="#d2e307 #d2e353" subtype="article" type="item" xml:id="div_14.d2e3470">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_305.d2e3393">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_98.d2e3395">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3397" xml:lang="ar">١</num>- </hi>فتاة لبنان</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_306.d2e3402">مجلة أدبية علمية روائية تصدر مرة في الشهر لمنشئها سليمة أبي راشد تصدر في 
-                        <placeName change="#d2e296" xml:id="placeName_54.d2e3404">بيروت</placeName>
-                        بدل اشتراكها في الولايات ريالان.</p>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_305.d2e3393"> <hi change="#d2e296" style="color:red;" xml:id="hi_98.d2e3395"> <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3397" xml:lang="ar">١</num>- </hi><title level="j">فتاة لبنان</title></head>
+                    <p change="#d2e73 #d2e296" xml:id="p_306.d2e3402"><bibl><title level="j" type="sub">مجلة أدبية علمية روائية</title> تصدر مرة في الشهر لمنشئها <editor><persName>سليمة أبي راشد</persName></editor> تصدر في <pubPlace><placeName change="#d2e296" xml:id="placeName_54.d2e3404">بيروت</placeName></pubPlace> بدل اشتراكها في الولايات ريالان</bibl>.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_307.d2e3408">منذ عشرين سنة أخذت ذوات الحجال بالتدخل في الصحافة فانشأن نحو  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="25" xml:id="num_1.d2e3410" xml:lang="ar">٢٥</num>
                         مجلة تشهد على أن كواتبها ممن يروق في أصابعهن اليراع كما تروق فيها أعمال الإبرة وأشغال المنزل. ولهذا نرحب بهذه الرصيفة الجديدة متمنين لها العمر الطويل والثبات في جادة الفضل والأدب وأن تكون الكاتبة (سليمة) في ذوقها (رشيدة) لبنت جنسها إلى كل ما به خير هذا الشق وترقيته.</p>
@@ -1771,55 +1545,21 @@
                     <p change="#d2e73 #d2e296" xml:id="p_309.d2e3424">هي رسائل كلها غرر للعلامة المستشرق كراتشقوفسكي وقد أظهر فيها من دلائل الإمعان في طلب الحقائق العلمية والمواضيع العربية ما يشهد له أنه من الحائزين قصبات السبق في هذا الميدان الذي يظلع فيه الجواد وإن كان من العتاق المناسيب فنحن نتمنى له النجاح في كل ما ينمق ويوشى.</p>
                 </div>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3505">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_310.d2e3427">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_100.d2e3429">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3431" xml:lang="ar">٣</num>- </hi>كتاب لطائف السمر، في سكان الزهرة والقمر، أو الغاية،</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_311.d2e3436">في البداءة والنهاية.</p>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_310.d2e3427"> <hi change="#d2e296" style="color:red;" xml:id="hi_100.d2e3429"> <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3431" xml:lang="ar">٣</num>- </hi>كتاب لطائف السمر، في سكان الزهرة والقمر، أو الغاية، في البداءة والنهاية.</head>
                     <p change="#d2e73 #d2e296" xml:id="p_312.d2e3439">وضعه الكاتب الضليع ميخائيل بن انطون الصقال. طبع بمطبعة النجاح بأول درب سعادة ب
                         <placeName change="#d2e296" xml:id="placeName_55.d2e3441">مصر</placeName>
                         <date change="#d2e266 #d2e296" type="auto-markup" when="1907" xml:id="date_4.d2e3444">
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1907" xml:id="num_1.d2e3446" xml:lang="ar">١٩٠٧</num></date>وقيمته ريال مصري.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_313.d2e3450">أهدانا هذه الهدية صديقنا عبد اللطيف أفندي ثنيان من قبل كاتبها وهي:</p>
-                </div>
-                <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3532">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_314.d2e3453">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_101.d2e3455">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3457" xml:lang="ar">١</num>- </hi>رواية من احسن الروايات وضعها مؤلفها ليبين للقارئ بعبارة عربية حسنة
-
-                        <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1511.xhtml" ed="shamela" n="n3-p500" xml:id="pb_52.d2e3461"/>
-                        <pb change="#d2e378 #d2e408" ed="print" n="500" facs="#facs_500"/>
-                        السبك إن النفس خالدة وإن لا بد من عمل الصلاح لمن يريد السعادة الخالدة وإلا فإن في الآخرة (مدينة للتكفير) يعذب فيها من أتى النكرات. على أننا نأخذ على المؤلف أشياء: منها: أنه أدمج فيها فصولاً لغوية في غاية الإفادة لكنها في غير موضعها إذ من شروط الروايات أن تخلو من مثل هذه الفصول التي موطنها كتب اللغة.</head>
-                </div>
-                <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3544">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_315.d2e3465">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_102.d2e3467">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3469" xml:lang="ar">٢</num>- </hi>ذهب في تقرير بعض الحقائق على مذهب خاص به غير متبع فيها مذهبا من المذاهب الدينية المعروفة فالقارئ إذا وقف عليها أو أراد أن يستفيد منها لا يرى نفسه على دين من الأديان وهو عيب فاضح.</head>
-                </div>
-                <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3554">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_316.d2e3474">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_103.d2e3476">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3478" xml:lang="ar">٣</num>- </hi>استعمل في مطاوي كلامه ألفاظا غامضة في حين لا حاجة إليها. وإنما الكاتب يأتي بمثل تلك الكلم إذا اضطرته الضرورة وإلا فأي ضرورة إلى سرد تلك الألفاظ الغريبة التي هي أشبه شيء باللغة الهندية ثم يضطر إلى شرحها في الحاشية بألفاظ أفصح وأبلغ من مفردات المتن. إن هذا العيب شائع في بعض كتابنا وهو من العيوب التي يجب علينا أن نتخلص منها في أقرب وقت. اللهم إلا إذا ألجأتنا الضرورة إليه! أما في الروايات التي يقرأها الجاهل والعالم فيجب أن تكون سهلة العبارة.</head>
-                </div>
-                <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3564">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_317.d2e3483">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_104.d2e3485">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3487" xml:lang="ar">٤</num>- </hi>إن الكاتب وإن كان ضليعاً في تقويم الكلام إلا أنه فاته أود أو أمت في بعض المواطن كقوله مثلاً في ص  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="153" xml:id="num_1.d2e3491" xml:lang="ar">١٥٣</num>
-                        (فشبه الحيوان. . . بعد قوله: المائرات. . . والماصعات. . . والمتخلجات. . . الخ. فكان يجب أن يقول فأشباه الحيوانات حتى يجوز له أن يفسرها بقوله: وهي التي مرتبتها أدنى من الحيوان وقال في حاشية ص  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="156" xml:id="num_1.d2e3494" xml:lang="ar">١٥٦</num>
-                        : ورزق الله حسون وجبرائيل الدلال الحلبيبن والأصح الحلبيان إلى غير إلا أن خلو الكتاب منها يزيده حسناً وإتقاناً.</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_318.d2e3498">وإلا فالكتاب لا يخلو من ابتكار، في الإنشاء والأفكار، وعسى أنم يوفق لتصحيحه على أساليب الروايات العصرية بمنه وكرمه.</p>
+<p change="#d2e73 #d2e296"> <hi change="#d2e296" style="color:red;" xml:id="hi_101.d2e3455"> <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3457" xml:lang="ar">١</num>- </hi>رواية من احسن الروايات وضعها مؤلفها ليبين للقارئ بعبارة عربية حسنة <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1511.xhtml" ed="shamela" n="n3-p500" xml:id="pb_52.d2e3461"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_500" n="500"/> السبك إن النفس خالدة وإن لا بد من عمل الصلاح لمن يريد السعادة الخالدة وإلا فإن في الآخرة (مدينة للتكفير) يعذب فيها من أتى النكرات. على أننا نأخذ على المؤلف أشياء: منها: أنه أدمج فيها فصولاً لغوية في غاية الإفادة لكنها في غير موضعها إذ من شروط الروايات أن تخلو من مثل هذه الفصول التي موطنها كتب اللغة.</p>
+<p change="#d2e73 #d2e296"> <hi change="#d2e296" style="color:red;" xml:id="hi_102.d2e3467"> <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3469" xml:lang="ar">٢</num>- </hi>ذهب في تقرير بعض الحقائق على مذهب خاص به غير متبع فيها مذهبا من المذاهب الدينية المعروفة فالقارئ إذا وقف عليها أو أراد أن يستفيد منها لا يرى نفسه على دين من الأديان وهو عيب فاضح.</p>
+<p change="#d2e73 #d2e296"> <hi change="#d2e296" style="color:red;" xml:id="hi_103.d2e3476"> <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3478" xml:lang="ar">٣</num>- </hi>استعمل في مطاوي كلامه ألفاظا غامضة في حين لا حاجة إليها. وإنما الكاتب يأتي بمثل تلك الكلم إذا اضطرته الضرورة وإلا فأي ضرورة إلى سرد تلك الألفاظ الغريبة التي هي أشبه شيء باللغة الهندية ثم يضطر إلى شرحها في الحاشية بألفاظ أفصح وأبلغ من مفردات المتن. إن هذا العيب شائع في بعض كتابنا وهو من العيوب التي يجب علينا أن نتخلص منها في أقرب وقت. اللهم إلا إذا ألجأتنا الضرورة إليه! أما في الروايات التي يقرأها الجاهل والعالم فيجب أن تكون سهلة العبارة.</p>
+<p change="#d2e73 #d2e296"> <hi change="#d2e296" style="color:red;" xml:id="hi_104.d2e3485"> <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3487" xml:lang="ar">٤</num>- </hi>إن الكاتب وإن كان ضليعاً في تقويم الكلام إلا أنه فاته أود أو أمت في بعض المواطن كقوله مثلاً في ص <num change="#d2e258 #d2e296" type="auto-markup" value="153" xml:id="num_1.d2e3491" xml:lang="ar">١٥٣</num> (فشبه الحيوان. . . بعد قوله: المائرات. . . والماصعات. . . والمتخلجات. . . الخ. فكان يجب أن يقول فأشباه الحيوانات حتى يجوز له أن يفسرها بقوله: وهي التي مرتبتها أدنى من الحيوان وقال في حاشية ص <num change="#d2e258 #d2e296" type="auto-markup" value="156" xml:id="num_1.d2e3494" xml:lang="ar">١٥٦</num> : ورزق الله حسون وجبرائيل الدلال الحلبيبن والأصح الحلبيان إلى غير إلا أن خلو الكتاب منها يزيده حسناً وإتقاناً.</p>
+<p change="#d2e73 #d2e296">وإلا فالكتاب لا يخلو من ابتكار، في الإنشاء والأفكار، وعسى أنم يوفق لتصحيحه على أساليب الروايات العصرية بمنه وكرمه.</p>
                 </div>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3583">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_319.d2e3501">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_105.d2e3503">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3505" xml:lang="ar">٤</num>- </hi>مقدمة السبرمان</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_320.d2e3510">تأليف سلامه موسى، طبع في مطبعة الهلال بالفجالة ب
-                        <placeName change="#d2e296" xml:id="placeName_56.d2e3512">مصر</placeName>
-                        في  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="29" xml:id="num_1.d2e3515" xml:lang="ar">٢٩</num>
-                        صفحة صغيرة</p>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_319.d2e3501"> <hi change="#d2e296" style="color:red;" xml:id="hi_105.d2e3503"> <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3505" xml:lang="ar">٤</num>- </hi><bibl>مقدمة السبرمان <lb/>تأليف <persName>سلامه موسى</persName>، طبع في <orgName>مطبعة <title level="j">الهلال</title></orgName> بالفجالة ب <placeName change="#d2e296" xml:id="placeName_56.d2e3512">مصر</placeName> في <num change="#d2e258 #d2e296" type="auto-markup" value="29" xml:id="num_1.d2e3515" xml:lang="ar">٢٩</num> صفحة صغيرة</bibl></head>
                     <p change="#d2e73 #d2e296" xml:id="p_321.d2e3520">هذه رسالة غريبة الوضع، والعبارة، واللغة، والآراء، وحسبك إن تطلع على إن كاتبها يقول في آخرها: (فهذه الفلسفة الجديدة تحسن الإنسانية الآتية يمنع كل ما فينا من العناصر الرديئة من الوصول إلى نسلنا. وأهم هذه العوامل هو تحريرنا
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1512.xhtml" ed="shamela" n="n3-p501" xml:id="pb_53.d2e3522"/>
@@ -1828,18 +1568,11 @@
                     <p change="#d2e73 #d2e296" xml:id="p_322.d2e3525">قلنا: الإنسان في آدابه وفي مجتمعه كأعضائه المنتظمة فيه. فيها العالي والسافل، الرأس والرجل، العقل والحس. فإن توفق حضرته لأن يلاشى من أعضائه الرجل وما والاها ويبقى فيه الدماغ وما أودعه من القوى العاقلة يستطيع أيضاً أن يرى يوماً أن فلسفته تؤدي به إلى أن تبقى من الإنسان (العالي الذي يرى في نفسه قانوناً لسلوكه وينقرض الضعيف أو المريض). فمن لا يرى ضعف هذه الآراء التي هي أضغاث أحلام ليس إلا ونحن نرى أن السكوت عن مثل هذه الأقوال أصون لشرف الكاتب من التصريح بها وهذا الكاتب من أسوا ما كتب في اللغة العربية وأضرها للآداب والأديان وكفى.</p>
                 </div>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3610">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_323.d2e3528">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_106.d2e3530">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e3532" xml:lang="ar">٥</num>- </hi>الاشتراكية</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_324.d2e3537">لسلامة موسى. طبع بالمطبعة المصرية الأهلية بشارع كلوت بك في  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="23" xml:id="num_1.d2e3539" xml:lang="ar">٢٣</num>
-                        صفحة صغيرة</p>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_323.d2e3528"> <hi change="#d2e296" style="color:red;" xml:id="hi_106.d2e3530"> <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e3532" xml:lang="ar">٥</num>- </hi><bibl><title level="m">الاشتراكية</title> <lb/>ل<author><persName>سلامة موسى</persName></author>. طبع بالمطبعة المصرية الأهلية بشارع كلوت بك في <num change="#d2e258 #d2e296" type="auto-markup" value="23" xml:id="num_1.d2e3539" xml:lang="ar">٢٣</num> صفحة صغيرة</bibl></head>
                     <p change="#d2e73 #d2e296" xml:id="p_325.d2e3543">هذا الكتيب لا يبعد في أفكاره عن أخويه: (مقدمة السبرمان) و (نشوء فكرة الله) فإن صاحبه أنشأه لينور الرأي العام عن ماهية (حقيقة) الاشتراكية وذكر مآثرهم في التشريع وما وصلت إليه حالة العمال من الرفاهية بمساعديهم) (هذه عبارة الكاتب) وإذا وقف عليه القارئ يقول في نفسه وا أسفاه على الوقت الذي أضاعه صاحب هذه الصفحات! ولو استعمله في تصنيف كتيب آخر نافع للألفة لخدمها احسن خدمة هذا فضلاً عن أن هذه الكتب لا تفيد الشرق والشرقيين فائدة تذكر والتي تفيده: الفضل والأدب وحسن الأخلاق والدين والتآليف المفيدة لا غير.</p>
                 </div>
                 <div change="#d2e307 #d2e353" type="item" xml:id="div_14.d2e3629">
-                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_326.d2e3546">
-                        <hi change="#d2e296" style="color:red;" xml:id="hi_107.d2e3548">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e3550" xml:lang="ar">٦</num>- </hi>مجلة الكمال</head>
+                    <head change="#d2e73 #d2e296 #d2e307" xml:id="p_326.d2e3546"> <hi change="#d2e296" style="color:red;" xml:id="hi_107.d2e3548"> <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e3550" xml:lang="ar">٦</num>- </hi>مجلة <title level="j">الكمال</title></head>
                     <p change="#d2e73 #d2e296" xml:id="p_327.d2e3556">بإدارة كمال عباس بدل الاشتراك فيها في 
                         <placeName change="#d2e296" xml:id="placeName_57.d2e3558">بيروت</placeName>
                         والبلاد العثمانية مجيديان وفي 
@@ -1847,18 +1580,7 @@
                         والبلاد الأجنبية نصف ليرة افرنسية تطبع في 
                         <placeName change="#d2e296" xml:id="placeName_59.d2e3564">بيروت</placeName>
                         في المطبعة العثمانية بسوق التجار.</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_328.d2e3568">وهي مجلة شهرية سنتها عشرة أشهر تظهر في  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="48" xml:id="num_1.d2e3570" xml:lang="ar">٤٨</num>
-                        صفحة يدور اغلب مباحثها على مواضيع أدبية ولولا شكلها واسمها لظنها القارئ أنها جريدة لا مجلة. وقد عقد فيها باب عنوانه (كنانة النحوي) يتعرض فيه صاحبه لما يرى من الأغلاط اللغوية والنحوية في الجرائد والمجلات. ولو أرصد هذا الناحي لتصحيح ما يرد في مجلة (
-                        <title change="#d2e315 #d2e353" level="j" xml:id="title_18.d2e3656">كمال</title>
-                        ) لما ورد فيها (نقص) شائن كل الشين. ولا سيما لأن عنوانها يوجب هذه
-
-                        <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1513.xhtml" ed="shamela" n="n3-p502" xml:id="pb_54.d2e3573"/>
-                        <pb change="#d2e378 #d2e408" ed="print" n="502" facs="#facs_502"/>
-                        يوجب هذه المزية. وقد خبط</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_329.d2e3576">هذا النحوي في تخطئة بعض الكتاب خبطاً يدل على أنه هو المخطئ وأنه غير واقف على أسرار اللغة وأما أنه ورد في (الكمال) نقص فهو أكثر من أن يحصى منه ما يتعلق بالرسم ومنه ما يتعلق بالنحو ومنه ما يتعلق باللغة. أما ما يتعلق بالرسم فنذكر منها ما جاء في ص  
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="38" xml:id="num_1.d2e3578" xml:lang="ar">٣٨</num>
-                        في قوله: (نظم اللآل فيها ورد للعامية والفصيحة من الأمثال) والأفصح أن يقال (في ما) بكلمتين. وتكتب كذلك إذا كانت (ما) اسم موصول كما هي بهذا المعنى في العبارة المذكورة. وترسم كلمة واحدة مع (في) إذا كانت حرفاً. وقال: ورد للعامية والأفصح ورد في العامية ومن غلط الرسم: قوله في تلك الصفحة (ابتدأ بالبحث) والأصح (ابتدئ) برسم الهمزة على الياء لأنها للمتكلم لا للمفرد الغائب وأما أغلاطه النحوية فكقوله في تلك الصفحة (والقهاوي) وهذا من جمع العوام لهذه اللفظة. والأصح (القهوات) لأن فعله عند (النحاة) لا تجمع على فعائل إلا في ألفاظ معدودة قليلة ليست هذه منها. ومن ثبت هذا الوادي قوله في تلك الصفحة: وعلى كل فلا أستطيع أن أسجل على نفسي والأفصح بل الأصح: حذف الفاء هنا إذ لا معنى لها وإن وردت في كلام كثيرين من كتاب هذا العهد وأما أغلاطه اللغوية في تلك الصفحة عينها فكقوله: (لأنه يخاف على إمضائه) ولم يرد (الإمضاء) عند الفصحاء بالمعنى الذي يريده وإنما قالوا (التوقيع) وقال أيضاً (في تلك الصفحة دائماً) ولذا أصبت في حل من أمر الأمثال أثبتها أن وفى. وأمحوها إن أخلف. والأصح أن يقول: (ولذا أجاز لي أن أثبت هذه الأمثال إن وفى. وأن أهمل بابها أو أوصده أن اخلف). وإذا تدبر عبارته هنيهة بأن وجه الغلط حالاً.</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_328.d2e3568">وهي مجلة شهرية سنتها عشرة أشهر تظهر في <num change="#d2e258 #d2e296" type="auto-markup" value="48" xml:id="num_1.d2e3570" xml:lang="ar">٤٨</num> صفحة يدور اغلب مباحثها على مواضيع أدبية ولولا شكلها واسمها لظنها القارئ أنها جريدة لا مجلة. وقد عقد فيها باب عنوانه (كنانة النحوي) يتعرض فيه صاحبه لما يرى من الأغلاط اللغوية والنحوية في الجرائد والمجلات. ولو أرصد هذا الناحي لتصحيح ما يرد في مجلة ( <title change="#d2e315 #d2e353" level="j" xml:id="title_18.d2e3656">كمال</title> ) لما ورد فيها (نقص) شائن كل الشين. ولا سيما لأن عنوانها يوجب هذه <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1513.xhtml" ed="shamela" n="n3-p502" xml:id="pb_54.d2e3573"/> <pb change="#d2e378 #d2e408" ed="print" facs="#facs_502" n="502"/> يوجب هذه المزية. وقد خبط هذا النحوي في تخطئة بعض الكتاب خبطاً يدل على أنه هو المخطئ وأنه غير واقف على أسرار اللغة وأما أنه ورد في (الكمال) نقص فهو أكثر من أن يحصى منه ما يتعلق بالرسم ومنه ما يتعلق بالنحو ومنه ما يتعلق باللغة. أما ما يتعلق بالرسم فنذكر منها ما جاء في ص <num change="#d2e258 #d2e296" type="auto-markup" value="38" xml:id="num_1.d2e3578" xml:lang="ar">٣٨</num> في قوله: (نظم اللآل فيها ورد للعامية والفصيحة من الأمثال) والأفصح أن يقال (في ما) بكلمتين. وتكتب كذلك إذا كانت (ما) اسم موصول كما هي بهذا المعنى في العبارة المذكورة. وترسم كلمة واحدة مع (في) إذا كانت حرفاً. وقال: ورد للعامية والأفصح ورد في العامية ومن غلط الرسم: قوله في تلك الصفحة (ابتدأ بالبحث) والأصح (ابتدئ) برسم الهمزة على الياء لأنها للمتكلم لا للمفرد الغائب وأما أغلاطه النحوية فكقوله في تلك الصفحة (والقهاوي) وهذا من جمع العوام لهذه اللفظة. والأصح (القهوات) لأن فعله عند (النحاة) لا تجمع على فعائل إلا في ألفاظ معدودة قليلة ليست هذه منها. ومن ثبت هذا الوادي قوله في تلك الصفحة: وعلى كل فلا أستطيع أن أسجل على نفسي والأفصح بل الأصح: حذف الفاء هنا إذ لا معنى لها وإن وردت في كلام كثيرين من كتاب هذا العهد وأما أغلاطه اللغوية في تلك الصفحة عينها فكقوله: (لأنه يخاف على إمضائه) ولم يرد (الإمضاء) عند الفصحاء بالمعنى الذي يريده وإنما قالوا (التوقيع) وقال أيضاً (في تلك الصفحة دائماً) ولذا أصبت في حل من أمر الأمثال أثبتها أن وفى. وأمحوها إن أخلف. والأصح أن يقول: (ولذا أجاز لي أن أثبت هذه الأمثال إن وفى. وأن أهمل بابها أو أوصده أن اخلف). وإذا تدبر عبارته هنيهة بأن وجه الغلط حالاً.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_330.d2e3582">هذا: وقولنا: (والأصح) يدل على أن كلامه وجها أن أراد أن يتلمسه لها. إذ لا يوجد غلط في العربية إلا وله باب يخرج منه على سنن أصولها القديمة لكن العبرة في مثل هذا المقام أن ينحو الكاتب منحى البلغاء وهذا الذي نلمح إليه في قولنا: (والأفصح) وفوق كل ذي علم عليم.</p>
                 </div>
             </div>
