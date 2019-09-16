@@ -71,7 +71,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-06-13" who="#pers_TG" xml:id="d2e366">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e368" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e366">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e344">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e320" xml:lang="en">Marked up dates by automatically wrapping all <list>
                <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
@@ -99,7 +99,7 @@
    </teiHeader>
    <text xml:lang="ar" change="#d2e296" xml:id="text_1.d2e301">
       <pb n="n7-p1" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3675.xhtml" change="#d2e296" xml:id="pb_1.d2e303"/>
-      <pb change="#d2e344" ed="print" n="1"/>
+      <pb change="#d2e344 #d2e368" ed="print" n="1" edRef="#edition_1"/>
       <body change="#d2e296" xml:id="body_1.d2e305">
          <div change="#d2e64 #d2e296" type="item" subtype="article" xml:id="div_1.d2e307">
             <head change="#d2e296" xml:id="head_1.d2e309">العدد  <num type="auto-markup" change="#d2e258 #d2e296" value="65" xml:lang="ar" xml:id="num_1.d2e311">٦٥</num> 
@@ -115,7 +115,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_2.d2e338">وعلى كل حال نحن جادون في مهمتنا سائرين إلى الأمام مهما كلفنا هذا السعي من الأتعاب والخسائر، والله المستعان.</p>
             <p change="#d2e73 #d2e296" xml:id="p_3.d2e341">وقد خصصنا هذا الجزء بيوبيل صاحب هذه المجلة ذكرنا فيه كل م صلت إلي يدنا في هذا الموضوع، ولا ندعي بأننا أتينا على كل ما قيل في، فنلتمس العذر ممن لم يبلغ إلينا كلامه.
 <pb n="n7-p2" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3676.xhtml" change="#d2e296" xml:id="pb_2.d2e343"/>
-               <pb change="#d2e344" ed="print" n="2"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="2" edRef="#edition_1"/>
 
 
             </p>
@@ -261,7 +261,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_5.d2e635">ولم ننتفع بالعلم إلا صبابة <gap resp="#org_MS" change="#d2e296" xml:id="gap_1.d2e637"/> تجرعها مثر بمشهد مترب
 <pb n="n7-p3" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3677.xhtml" change="#d2e296" xml:id="pb_3.d2e639"/>
-               <pb change="#d2e344" ed="print" n="3"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="3" edRef="#edition_1"/>
 
 
 وما ذل قوم أبرموا وحدة لهم <gap resp="#org_MS" change="#d2e296" xml:id="gap_2.d2e641"/> وإن لم يكونوا ينتمون إلى أب</p>
@@ -393,7 +393,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_6.d2e899">له من ذكاء العقل في العين ومضة <gap resp="#org_MS" change="#d2e296" xml:id="gap_3.d2e901"/> متى صدمت عين المخاطب تخلب
 <pb n="n7-p4" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3678.xhtml" change="#d2e296" xml:id="pb_4.d2e903"/>
-               <pb change="#d2e344" ed="print" n="4"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="4" edRef="#edition_1"/>
 
 
 ورب قصيد فيه تروى كأنها <gap resp="#org_MS" change="#d2e296" xml:id="gap_4.d2e905"/> إذا خطرت أبياتها سرب ربرب</p>
@@ -531,7 +531,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_7.d2e1176">أنا اليوم من كر الحوادث أشيب <gap resp="#org_MS" change="#d2e296" xml:id="gap_5.d2e1178"/> ولمن شعري كله غير أشيب
 <pb n="n7-p5" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3679.xhtml" change="#d2e296" xml:id="pb_5.d2e1180"/>
-               <pb change="#d2e344" ed="print" n="5"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="5" edRef="#edition_1"/>
 
 
 ويا شعر أنت اليوم أكبر مرشد <gap resp="#org_MS" change="#d2e296" xml:id="gap_6.d2e1182"/> لمن ضل عن قصد الطريق الملحب</p>
@@ -582,7 +582,7 @@
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_5.d2e1294">الزهاوي</surname>
                         </persName> رئيسا
 <pb n="n7-p6" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3680.xhtml" change="#d2e296" xml:id="pb_6.d2e1298"/>
-               <pb change="#d2e344" ed="print" n="6"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="6" edRef="#edition_1"/>
 
 
 لها وقد عينوا يوم الاحتفال  <num type="auto-markup" change="#d2e258 #d2e296" value="16" xml:lang="ar" xml:id="num_1.d2e1300">١٦</num>  أيلول من <date when="1928" type="auto-markup" change="#d2e266 #d2e296" xml:id="date_4.d2e1303">سنة <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e1305">١٩٢٨</num>
@@ -609,7 +609,7 @@
             </p>
             <p change="#d2e73 #d2e296" xml:id="p_28.d2e1370">(ملاحظة) وقد نقل يوم الحفلة إلى  <num type="auto-markup" change="#d2e258 #d2e296" value="7" xml:lang="ar" xml:id="num_1.d2e1372">٧</num>  تشرين الأول (أكتوبر) لأسباب يطول ذكرها. والآن نورد صورة الدعوة التي وزعت قبل يوم اليوبيل بأسبوع ثم صورة المنهاج يعقبها الخطب كما تليت في اليوم المذكور.
 <pb n="n7-p7" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3681.xhtml" change="#d2e296" xml:id="pb_7.d2e1375"/>
-               <pb change="#d2e344" ed="print" n="7"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="7" edRef="#edition_1"/>
 
 
             </p>
@@ -652,7 +652,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_43.d2e1493">أشكر ما للسيد الجليل المبجل رئيس الوزارة فخامة محسن بك السعدون من العناية بالعلم والعلماء كما تفعل الوزارات الرشيدة وأكبر برهان على ذلك هو إقامته هذه الحفلة المباركة في داره العامرة بإشراف وزير المعارف المحترم معالي الأستاذ توفيق بك السويدي وأرحب بالذين أجابوني على دعوتي فأولوني الشرف بحضورهم من وزراء فخام ونواب كرام ووجوه وعلماء ومحررين أكفاء.</p>
             <p change="#d2e73 #d2e296" xml:id="p_44.d2e1496">وما الحفل بيوبيل العلامة الكرملي إلا حفل بالعلم في شخصه الذي خدم لغة
 <pb n="n7-p8" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3682.xhtml" change="#d2e296" xml:id="pb_8.d2e1498"/>
-               <pb change="#d2e344" ed="print" n="8"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="8" edRef="#edition_1"/>
 
 
 العرب أكثر من خمسين سنة بأمانة وصدق وهو الحفل الذي أذعنا قبل أشهر نبأه فرددت صداه الصحف في الشرق والغرب وتوالت من كبار المستشرقين في عواصم أوربة ومن المجمع العلمي</p>
@@ -662,7 +662,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_48.d2e1517">في ظل عرش صاحب الجلالة، وفي بيت فخامة رئيس الوزراء، وبإشراف معالي وزير المعارف، ورئاسة فيلسوف <placeName>العراق</placeName> وشاعرة الأعظم، وبمحضر هذه الوجوه الكريمة نكرم اليوم شيخاً من شيوخ اللغة وعلما من أعلام الأدب ورجلا أنقطع في ديره منزويا خمسين حجة يبحث خلالها في كنوز اللغة الفصحى ويدافع عن منزلتها وكرامتها دفاع الصب المغرب عن حبيبته بل دفاع الكمي الشريف عن عرضه وشرفه. في هذا اليوم المبارك نكرم رجلا عربيا عراقيا قد ترك الدنيا وما فيها من زخرف وبهرجة وجمال. واختفى في صومعة تارة يذكر اسم الله وطورا يقلب المعاجم اللاتينية واليونانية ويسترجع ما استعارته الأقوام من الأمة العربية ويسلها من مكمنها ويضيفها إلى أخواتها ويعيدها إلى وطنها الأصلي.</p>
             <p change="#d2e73 #d2e296" xml:id="p_49.d2e1520">نكرم اليوم الأب أنستاس ماري الكرملي العربي محتداً وأرومة ذلك الرجل الذي خدم لغة القرآن منذ حداثته حتى كسته الأعوام إكليلا من أكاليل الوقار وهو (الشيب) الذي يلوح في رأسه وفي عارضيه. واحتفال هذه الوجوه الشريفة بهذا الرجل العالم دليل على أن <placeName>العراق</placeName> الواثب الناهض السباق إلى كل مكرمة يقدر علماءه وعظماءه على اختلاف نحلهم وعقائدهم حق التقدير
 <pb n="n7-p9" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3683.xhtml" change="#d2e296" xml:id="pb_9.d2e1522"/>
-               <pb change="#d2e344" ed="print" n="9"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="9" edRef="#edition_1"/>
 
 
 ويوفيهم حقهم ويجلهم إجلالا عظيما.</p>
@@ -685,7 +685,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_55.d2e1569">وقد نشأ في ذلك اليوم أيضاً أديب كبير وكاتب تحرير هو أبو أسحق الصابئ صاحب الرسائل الشهيرة وكان كاتب الدولة إذ ذاك فتعرف بالسيد الشريف الرضي وتوثقت بينهما عرى الصداقة والمودة وألف الأدب بين قلبيهما حتى أفتتن كل واحد بصاحبه وكان إذا حل شهر رمضان صام أبو أسحق الصابئ مجاراة للرضي وكان إذا قصد أبو أسحق الصابئ الذهاب إلى الرضي مشى إليه
 <pb n="n7-p10" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3684.xhtml" change="#d2e296" xml:id="pb_10.d2e1571"/>
-               <pb change="#d2e344" ed="print" n="10"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="10" edRef="#edition_1"/>
 
 
 حافي الأقدام إجلالا لقدره ولما خطفت يد المنون روح أبي أسحق حزن الرضي حزنا شديدا وبكى صديقه ورثاه بقصيدة عصماء خلد بها ذكر أبي أسحق وهي التي قال في مطلعها:</p>
@@ -724,7 +724,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_60.d2e1647">إن للأب المحتفل به شهرة واسعة في الغرب والشرق ومكانة عظيمة في قلوب العلماء الإجلاء ما يدل على فضله وتضلعه من اللغة ولا أدعي أن الأب معصوم من الخطأ فهو إنسان ولكل إنسان خطيئات وحسنات إلا أن الحسنات يذهبن السيئات ونحن في تكريمنا الأب نكرم العلم في شخصه مقدرين أعماله وحسناته وفضله غير ناظرين إلى شيء سوى ذلك. والواجب على كل شخص منصف أن يفكر في أعمال الرجال لا في الرجال جريا على قاعدة (فكروا في آلاء الله ولا تفكروا في الله) تلك القاعدة العظيمة التي وضعها السادة الصوفية.</p>
             <byline change="#d2e219 #d2e296" xml:id="byline_4.d2e1650">أحمد حامد الصراف
 <pb n="n7-p11" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3685.xhtml" change="#d2e296" xml:id="pb_11.d2e1652"/>
-               <pb change="#d2e344" ed="print" n="11"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="11" edRef="#edition_1"/>
 
 
             </byline>
@@ -755,7 +755,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_74.d2e1723">ذلك أن مجمعنا منذ يوم نشأته وجد في الأب الكرملي العضو الذي يحتاج إليه. والندب الذي يعول في خدمة هذه اللغة عليه.</p>
             <p change="#d2e73 #d2e296" xml:id="p_75.d2e1726">فكنا وإياه من المساندة، وجميل المساعدة، كأننا نعمل بفكر واحد، أو يد واحدة.
 <pb n="n7-p12" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3686.xhtml" change="#d2e296" xml:id="pb_12.d2e1728"/>
-               <pb change="#d2e344" ed="print" n="12"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="12" edRef="#edition_1"/>
 
 
 أشتهر الأب أنستاس في خدمة لغتنا العربية وتحقيق أبحاثها، وكشف الغطاء عما أشتبه حاله من غريب كلماتها - بما لم يشتهر به غيره من علماء اللغة في عصرنا. حتى لم يعد يفهم من اسم (الأب أنستاس) إذا أطلق معنى الإنسان الذي ينطق بل معنى المعجم الذي يدقق ويحقق.</p>
@@ -792,7 +792,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_86.d2e1815">إني سعيد في إرسال تهانئي بخصوص يوبيل الكرملي.</p>
             <p change="#d2e73 #d2e296" xml:id="p_87.d2e1818">باريس: ماسنيون
 <pb n="n7-p13" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3687.xhtml" change="#d2e296" xml:id="pb_13.d2e1820"/>
-               <pb change="#d2e344" ed="print" n="13"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="13" edRef="#edition_1"/>
 
 
 برقية من برلين في  <num type="auto-markup" change="#d2e258 #d2e296" value="16" xml:lang="ar" xml:id="num_1.d2e1822">١٦</num>  أيلول  <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e1825">١٩٢٨</num> 
@@ -812,7 +812,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_96.d2e1867">اكسفرد في  <num type="auto-markup" change="#d2e258 #d2e296" value="22" xml:lang="ar" xml:id="num_1.d2e1869">٢٢</num>  آب <date when="1928" type="auto-markup" change="#d2e266 #d2e296" xml:id="date_4.d2e1872">سنة <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e1874">١٩٢٨</num>
                </date> : المخلص د. س. مرجليوث
 <pb n="n7-p14" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3688.xhtml" change="#d2e296" xml:id="pb_14.d2e1877"/>
-               <pb change="#d2e344" ed="print" n="14"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="14" edRef="#edition_1"/>
 
 
 من الأستاذ فريتس كرنكو</p>
@@ -834,7 +834,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_107.d2e1938">إلى حضرة طاهر أفندي القيسي في لجنة تكريم الكرملي</p>
             <p change="#d2e73 #d2e296" xml:id="p_108.d2e1942">سيدي الفاضل: بلغني دعوة الزهاوي إلى تكريم الأب أنستاس الكرملي في هذه
 <pb n="n7-p15" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3689.xhtml" change="#d2e296" xml:id="pb_15.d2e1944"/>
-               <pb change="#d2e344" ed="print" n="15"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="15" edRef="#edition_1"/>
 
 
 الأيام وكنت أود أن أحضر بنفسي في يوم الحفلة ويطيب لي هذا الأمر حقيقة لأتمكن من أن أبدي إلى الأستاذ المحترم شواعر إعجابي بما أنتج من الأعمال لترقية الدروس العربية ولا سيما لكي أظهر له إخلاص شكري مما أحسن به علي ولا جرم أنك تفهم أن المانع لحضوري هو تقدمي في السن فلا يمكنني أن ابتعد عن مقامي ولهذا أنيب كتابي هذا عني متمنيا لصاحب اليوبيل الأستاذ المكرم كل خير وهناء.</p>
@@ -864,7 +864,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_117.d2e2020">وكنت شارة خل كله شمم <gap resp="#org_MS" change="#d2e296" xml:id="gap_7.d2e2022"/> حيا جلاله ماضيه الإجلاء
 <pb n="n7-p16" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3690.xhtml" change="#d2e296" xml:id="pb_16.d2e2024"/>
-               <pb change="#d2e344" ed="print" n="16"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="16" edRef="#edition_1"/>
 
 
 في نصف قرن بنى علما وتجربة <gap resp="#org_MS" change="#d2e296" xml:id="gap_8.d2e2026"/> وحكمة فوق ما يرجوه بناء</p>
@@ -1002,7 +1002,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_118.d2e2300">أو صورتك بأغراض مزعزعة <gap resp="#org_MS" change="#d2e296" xml:id="gap_9.d2e2302"/> فإنما مقلة الأغراض عمياء
 <pb n="n7-p17" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3691.xhtml" change="#d2e296" xml:id="pb_17.d2e2304"/>
-               <pb change="#d2e344" ed="print" n="17"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="17" edRef="#edition_1"/>
 
 
 أو عاب حكمك من يهوى مجاملة <gap resp="#org_MS" change="#d2e296" xml:id="gap_10.d2e2306"/> فليس في العدل إيثار وإقصاء</p>
@@ -1067,7 +1067,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_124.d2e2455">تدني الممالك والأنا <gap resp="#org_MS" change="#d2e296" xml:id="gap_11.d2e2457"/> م من الممالك والأنام
 <pb n="n7-p18" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3692.xhtml" change="#d2e296" xml:id="pb_18.d2e2459"/>
-               <pb change="#d2e344" ed="print" n="18"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="18" edRef="#edition_1"/>
 
 
 ما الدهر فيك سوى ثوا <gap resp="#org_MS" change="#d2e296" xml:id="gap_12.d2e2461"/> ن من نهار أو ظلام!</p>
@@ -1211,7 +1211,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_125.d2e2747">وقل: السلام عليك يا <gap resp="#org_MS" change="#d2e296" xml:id="gap_13.d2e2749"/> أم الغطارفة الفخام
 <pb n="n7-p19" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3693.xhtml" change="#d2e296" xml:id="pb_19.d2e2751"/>
-               <pb change="#d2e344" ed="print" n="19"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="19" edRef="#edition_1"/>
 
 
 لا تذكري مجرى الجيا <gap resp="#org_MS" change="#d2e296" xml:id="gap_14.d2e2753"/> د ومرتمى الجيش اللهام</p>
@@ -1272,7 +1272,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_130.d2e2876">فندوة الضاد يا ورقاء قد جمعت <gap resp="#org_MS" change="#d2e296" xml:id="gap_15.d2e2878"/> أهل الفصاحة في (<placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_18.d2e2880">بغداد</placeName>) والعظم
 <pb n="n7-p20" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3694.xhtml" change="#d2e296" xml:id="pb_20.d2e2883"/>
-               <pb change="#d2e344" ed="print" n="20"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="20" edRef="#edition_1"/>
 
 
 فأن شهدت بها شمسا ونابغة <gap resp="#org_MS" change="#d2e296" xml:id="gap_16.d2e2885"/> وفيلسوفا غدا كالبدر في الظلم</p>
@@ -1416,7 +1416,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_131.d2e3168">الإسكندرية  <num type="auto-markup" change="#d2e258 #d2e296" value="4" xml:lang="ar" xml:id="num_1.d2e3170">٤</num>  سبتمبر  <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e3173">١٩٢٨</num> : محمد صالح إسماعيل
 <pb n="n7-p21" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3695.xhtml" change="#d2e296" xml:id="pb_21.d2e3176"/>
-               <pb change="#d2e344" ed="print" n="21"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="21" edRef="#edition_1"/>
 
 
 يوبيل الأب أنستاس ماري الكرملي</p>
@@ -1533,7 +1533,7 @@
             <byline change="#d2e219 #d2e296" xml:id="byline_9.d2e3411"> 
                <num type="auto-markup" change="#d2e258 #d2e296" value="9" xml:lang="ar" xml:id="num_1.d2e3413">٩</num>  سبتمبر  <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e3416">١٩٢٨</num> : محمد الأسمر
 <pb n="n7-p22" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3696.xhtml" change="#d2e296" xml:id="pb_22.d2e3419"/>
-               <pb change="#d2e344" ed="print" n="22"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="22" edRef="#edition_1"/>
 
 
             </byline>
@@ -1674,7 +1674,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_134.d2e3696">من يرمق الزهر من بعد القطار <gap resp="#org_MS" change="#d2e296" xml:id="gap_17.d2e3698"/> فلا يلقاه إلاَّ بوجه منه بسام
 <pb n="n7-p23" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3697.xhtml" change="#d2e296" xml:id="pb_23.d2e3700"/>
-               <pb change="#d2e344" ed="print" n="23"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="23" edRef="#edition_1"/>
 
 
 في روضة ظل رجاس ازاهرها <gap resp="#org_MS" change="#d2e296" xml:id="gap_18.d2e3702"/> حتى تفتح أجفان لأكمام</p>
@@ -1806,7 +1806,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_135.d2e3961">قد دنسوا الحق تدنيسا وما ارتدعوا <gap resp="#org_MS" change="#d2e296" xml:id="gap_19.d2e3963"/> عن منكرات بهن الذل والكلب
 <pb n="n7-p24" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3698.xhtml" change="#d2e296" xml:id="pb_24.d2e3965"/>
-               <pb change="#d2e344" ed="print" n="24"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="24" edRef="#edition_1"/>
 
 
 أسدد فمي قبل بوحي بالذي عجزوا <gap resp="#org_MS" change="#d2e296" xml:id="gap_20.d2e3967"/> عن ذكره فزمان البوح مقترب</p>
@@ -1950,7 +1950,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_136.d2e4253">حلو الحديث دميث الخلق ذو أدب <gap resp="#org_MS" change="#d2e296" xml:id="gap_21.d2e4255"/> عال ومجلسه للعلم منتهب
 <pb n="n7-p25" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3699.xhtml" change="#d2e296" xml:id="pb_25.d2e4257"/>
-               <pb change="#d2e344" ed="print" n="25"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="25" edRef="#edition_1"/>
 
 
 طلاب حق وإصلاح ومكرمة <gap resp="#org_MS" change="#d2e296" xml:id="gap_22.d2e4259"/> وصفو علم وفي أعماله سرب</p>
@@ -2008,7 +2008,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_140.d2e4369">دعاني الواجب إلى أن أغيب عن العاصمة يوم يوبيلكم الميمون، فلبيت صوت الواجب وفي قلبي لواعج من الشوق للاشتراك بتكريم العلم في شخصكم النبيل والإشارة بمفاخر لغتنا العربية التي أفنيتم العمر العزيز في الوقوف على أسرارها والبحث عن مكنوناتها الثمينة والتنقيب عن كنوزها العجيبة الساحرة الفتانة.</p>
             <p change="#d2e73 #d2e296" xml:id="p_141.d2e4372">إن حرمت حضور الحفلة وسماع ما يلقى من الدرر المنثورة واللآلئ المنظومة في مدحكم والثناء على خدماتكم المشكورة وأعمالكم المبرورة في الجهاد في سبيل العلم واللغة والتدريس فأن لي من أسباب السرور والحبور ما ينسيني هذا الحرمان ذلك أن فخامة رئيس وزارتنا المحبوب عبد المحسن بك السعدون قد تكفل بإقامة هذه الحفلة في داره العامرة وأن زميلي العزيز معالي توفيق بك السويدي وزير المعارف قد أقام يوبيلكم تحت إشرافه.
 <pb n="n7-p26" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3700.xhtml" change="#d2e296" xml:id="pb_26.d2e4374"/>
-               <pb change="#d2e344" ed="print" n="26"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="26" edRef="#edition_1"/>
 
 
 فنظرا إلى التضامن الموجود بيننا نحن أعضاء الوزارة السعدونية فأني أعد نفسي مشتركا في هذه الحفلة وإن لم أكن حاضرا</p>
@@ -2026,7 +2026,7 @@
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_13.d2e4422">غنيمة</surname>
                         </persName>
                <pb n="n7-p27" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3701.xhtml" change="#d2e296" xml:id="pb_27.d2e4426"/>
-               <pb change="#d2e344" ed="print" n="27"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="27" edRef="#edition_1"/>
 
 
 الأب أنستاس ماري الكرملي</p>
@@ -2038,7 +2038,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_157.d2e4469">ليس من المبالغة أو العصبية أن نضع الأب الكرملي في <placeName>العراق</placeName> تجاه مدرسة عتيدة ب<placeName change="#d2e296" xml:id="placeName_29.d2e4471">مصر</placeName>، وعدة مدارس بسورية، فأننا إذا فهمنا مقومات هذه النهضة أول الأمر علمنا صدق هذه</p>
             <p change="#d2e73 #d2e296" xml:id="p_158.d2e4475">الدعوى، وأننا لم نشتط حين وضعناه في هذه المكانة، فأنه حين حاولت البلاد أن تحيا حياة أدبية أواخر القرن الماضي كانت لوثة العجمة شائعة في الألسن العربية، ولم تكن ترى شخصا يحسن التكلم باللغة الفصيحة، وكانت اللغة العامية خليطا من لهجات شتى، بعيدة النسب عن العربية فضلا عن أن النفس الشرقية كانت مقفرة من أية ثقافة إلا الجهل المطبق، والظلمة الحالكة، والانحلال الشائن، فكان لا بد لكل غيور على هذا الشرق العربي أن ينقذ هذه
 <pb n="n7-p28" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3702.xhtml" change="#d2e296" xml:id="pb_28.d2e4477"/>
-               <pb change="#d2e344" ed="print" n="28"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="28" edRef="#edition_1"/>
 
 
 الطوائف من جهالتها محاولا تقريبها إلى المثل الأعلى لتلك الحضارة الأدبية الماضية مراعيا في ذلك آثار الزمان والمكان، ودواعي الفروق بين الحالة الحاضرة أمامه وبين الحالة السالفة أمام العصر العباسي حيث ازدهرت الدنيا بآثار العربية وكنوزه الثمينة. . . وأي شيء يجب البدء به سوى تقويم الألسنة وتطهيرها من الأخطاء اللفظية والكلمات الأعجمية حتى إذا استقامت واشتد ساعدها كان على المصلح أن ينظر في محاولات أخرى معنوية وموضوعية عله يتم ما بدأ؟!</p>
@@ -2051,7 +2051,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_165.d2e4505">من هذه الميزات ولوعه منذ الصغر باللغة وآدابها، وإذا علمت أن أول دراسته كانت في كتب الصرف تبين لك من أول الأمر ذلك المذهب الذي سيعتنقه هذا الصبي بعد. . . بناء اللغة وتكوينها وفهم أسرارها.</p>
             <p change="#d2e73 #d2e296" xml:id="p_166.d2e4508">ومنها إكبابه الطويل على دراسة اللغة والبحث في معاجمها وجمع الكتب التي تصادفه وتفيده في هذا الباب، فحصل على أكبر قسط من المعارف اللغوية التي
 <pb n="n7-p29" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3703.xhtml" change="#d2e296" xml:id="pb_29.d2e4510"/>
-               <pb change="#d2e344" ed="print" n="29"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="29" edRef="#edition_1"/>
 
 
 تجعله بحق حجة وحده ومرجعا للباحثين.</p>
@@ -2062,7 +2062,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_171.d2e4529">لا أذكر مؤلفاته وآثاره المطبوعة والمخطوطة الباقية والبائدة، لا أذكرها فهي شيء ذائع معروف سيحفظها التاريخ في إثباته، وينتفع بها الناس بعد أن يحصلوا عليها.</p>
             <p change="#d2e73 #d2e296" xml:id="p_172.d2e4532">إنما أذكر (<title level="j" change="#d2e296" xml:id="title_11.d2e4534">لغة العرب</title>) التي كانت - ولا تزال - صدى الحركة اللغوية في العالم العربي وغير العربي، عند كل متعلم وأستاذ، ناشئ وشاد، أذكر (<title level="j" change="#d2e296" xml:id="title_12.d2e4537">لغة العرب</title>) التي عودتنا النقد النزيه، الحق، والتواضع الكريم والاعتراف لكل مجتهد بجهده، وأخيرا كانت خير صلة بين الناطقين بالضاد وخير عامل على حراسة اللغة من عوامل الفناء والجمود والاضطهاد.
 <pb n="n7-p30" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3704.xhtml" change="#d2e296" xml:id="pb_30.d2e4540"/>
-               <pb change="#d2e344" ed="print" n="30"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="30" edRef="#edition_1"/>
 
 
 -  <num type="auto-markup" change="#d2e258 #d2e296" value="5" xml:lang="ar" xml:id="num_1.d2e4542">٥</num>  -</p>
@@ -2087,7 +2087,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_182.d2e4616">حضرة سكرتير لجنة تكريم الأب انستاس المحترم</p>
             <p change="#d2e73 #d2e296" xml:id="p_183.d2e4619">بعد السلام فإني أشكركم على تقديركم إياي باللياقة للاشتراك في الاحتفال الذي ستقيمونه في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_34.d2e4621">بغداد</placeName> في اليوم السادس عشر من شهر أيلول من هذه السنة ومن حيث أني في لندن والشقة بعيدة بيني وبينكم وكثرة النفقات تمنعني من
 <pb n="n7-p31" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3705.xhtml" change="#d2e296" xml:id="pb_31.d2e4624"/>
-               <pb change="#d2e344" ed="print" n="31"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="31" edRef="#edition_1"/>
 
 
 الحضور في ذلك الاحتفال الميمون رأيت أن استعيض بالكتابة عن الحضور بالنفس، متأسيا بقول من قال: (المراسلة نصف المواصلة) فإذا رأيتم ما كتبته مستحقا للقراءة والنشر فافعلوا ذلك وإلا فألقوا به عرض الحائط واتركوه في زوايا الإهمال وأنا لكم من الشاكرين. وفي الختام أهدي جميع أعضاء لجنتكم المحترمين السلام.</p>
@@ -2108,7 +2108,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_192.d2e4670">إن للأب أنستاس فضلا على كثير من شبان <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_35.d2e4672">بغداد</placeName> بل <placeName>العراق</placeName> وكتابه الحاضرين إذ درب</p>
             <p change="#d2e73 #d2e296" xml:id="p_193.d2e4676">الكثيرين منهم على معرفة الآداب العربية وحسن الإنشاء بها بل النبوغ فيها، وأنجى بصنعه الجميل نبغاء الكتاب من الوقوع في أغلاط كانوا يجهلونها قبله
 <pb n="n7-p32" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3706.xhtml" change="#d2e296" xml:id="pb_32.d2e4678"/>
-               <pb change="#d2e344" ed="print" n="32"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="32" edRef="#edition_1"/>
 
 
 لو كان من المتعارف أو المستحسن أن يقص المرء سير الأحياء من غير متاقاة أو محاباة لقصصت عليكم من أخباره الطوال ما يستوعب كل وقتكم.</p>
@@ -2125,7 +2125,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_198.d2e4712">قد كنت أحيانا اسمعه - بغير قصد - بعض الكلم التي لا يجب سماعها المتدينون مثله فيتشاغل عن سماعها بسواها ويغير الموضوع بأدب وحكمة. وإني أتذكر عند كتابة هذه</p>
             <p change="#d2e73 #d2e296" xml:id="p_199.d2e4715">الأسطر حادثة من هذا القبيل حدثت بيني وبينه - شهدها حضرة محمود أفندي الشيخ علي والد المفاضل علي محمود المحامي، وقد يقصها
 <pb n="n7-p33" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3707.xhtml" change="#d2e296" xml:id="pb_33.d2e4717"/>
-               <pb change="#d2e344" ed="print" n="33"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="33" edRef="#edition_1"/>
 
 
 لمن يريد سماعها فظهر فيها الأب مظهر من أتبع المسيح وعمل بأقواله.</p>
@@ -2150,7 +2150,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_206.d2e4768">الكرمل أحق بلاد الله بتكريم العلامة الأب أنستاس ماري الكرملي الذي تشرف بالانتساب إلى هذا الجبل الذي استعير في العهد القديم لعظائم الأمور في حين إنه كان لها من الجلال والجمال بحيث صاروا يعبرون عن وقوع بلية بذبول أشجاره الغضة وأزهاره اليانعة.</p>
             <p change="#d2e73 #d2e296" xml:id="p_207.d2e4771">و (عبد الله المخلص) أولى الناس بتعظيم (عبد يسوع المخلص) الذي أجتمع به لأول مرة في رأس هذا الجبل المشرف على بحر الروم كان فيه منارة علم يستضاء
 <pb n="n7-p34" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3708.xhtml" change="#d2e296" xml:id="pb_34.d2e4773"/>
-               <pb change="#d2e344" ed="print" n="34"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="34" edRef="#edition_1"/>
 
 
 بنورها إلى</p>
@@ -2161,7 +2161,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_212.d2e4789">ولا يهمني قول البعض إن الأب الكرملي يكتب الصفحات الطويلة في سبيل كلمة من كلمات اللغة وأنه لو أنفق هذا الوقت أو بعضه في سبيل آخر لأفاد أكثر فذلكم التطويل دليل الغيرة على اللغة الفصحى وبرهان الاهتمام في الاحتفاظ بذلك التراث الذي ورثناه من الآباء والأجداد ومن علم أن بعض علماء المشرقيات يكتب مئات من الصفحات في سبيل بيت أو قصيدة عربية عذر الأب الغيور على تقصيه وبحثه بل عذله لأنه لم يزد في النكاية بهؤلاء المتشدقين الذين كادوا يفسدون علينا أمر لغتنا.</p>
             <p change="#d2e73 #d2e296" xml:id="p_213.d2e4792">وأذكر أن أحد علماء البيان قال لي مرة أن كتابات صاحبك الأب أنستاس خالية من الصناعات البديعية فلا تجد فيها كناية ولا استعارة ولا عبارة جزلة ضخمة فأجبته أن صديقي الصادق يكتب في موضوعات علمية وبلغة علمية فلو أضطر مرة إلى كتابة خطاب حماسي أو مقال خيالي ربما جاء فيهما بالمبدع وحملك على الاعتراف معي بأن الذي يكتب هذا السهل الممتنع لا يعجز عن الكتابة بذلك الشكل الطنان الرنان الذي لا يسمن ولا يغني من جوع فسكت وانتهى الجدال.
 <pb n="n7-p35" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3709.xhtml" change="#d2e296" xml:id="pb_35.d2e4794"/>
-               <pb change="#d2e344" ed="print" n="35"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="35" edRef="#edition_1"/>
 
 
 وإذا ما ذكرت للأب علمه الجم وفضله الغزير وأنه خير من تضرب له آباط الإبل وتشد</p>
@@ -2173,7 +2173,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_217.d2e4818">
                <persName change="#d2e282 #d2e296" ref="oape:pers:917 viaf:299037057" xml:id="persName_21.d2e4819">عبد الله مخلص</persName>
                <pb n="n7-p36" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3710.xhtml" change="#d2e296" xml:id="pb_36.d2e4822"/>
-               <pb change="#d2e344" ed="print" n="36"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="36" edRef="#edition_1"/>
 
 
 من <placeName>طرابلس</placeName> لبنان</p>
@@ -2188,7 +2188,7 @@
             </p>
             <p change="#d2e73 #d2e296" xml:id="p_226.d2e4863">الداعي جورج يني
 <pb n="n7-p37" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3711.xhtml" change="#d2e296" xml:id="pb_37.d2e4865"/>
-               <pb change="#d2e344" ed="print" n="37"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="37" edRef="#edition_1"/>
 
 
 اليوبيل في التاريخ</p>
@@ -2200,7 +2200,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_232.d2e4887">ثم رأى خلفاء بونيفاشيوس ما ولدته هذه العادة من الخير والنعم على البشر بنتيجة اليوبيل الذي أقيم <date calendar="#cal_gregorian" when="1300" type="auto-markup" change="#d2e266 #d2e296" xml:id="date_4.d2e4889">عام <num type="auto-markup" change="#d2e258 #d2e296" value="1300" xml:lang="ar" xml:id="num_1.d2e4891">١٣٠٠</num>
                </date> م فأحب أن يجدد هذه الذكرى الحميدة في كل خمسين سنة كما هي العادة عند اليهود وهكذا كان. غير أن الناس استطالوا هذه
 <pb n="n7-p38" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3712.xhtml" change="#d2e296" xml:id="pb_38.d2e4894"/>
-               <pb change="#d2e344" ed="print" n="38"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="38" edRef="#edition_1"/>
 
 
 المدة أيضا واسترحموا من (اربانس الثامن) ثم من بولص الثاني أن يجعلا اليوبيل أنواعا. ومنذ ذلك الحين بدأت النصارى تحتفل بذكرى اليوبيل كل  <num type="auto-markup" change="#d2e258 #d2e296" value="33" xml:lang="ar" xml:id="num_1.d2e4896">٣٣</num>  سنة مرة إكراماً للسنين التي قضاها السيد المسيح (ع) على الأرض وبمرور كل  <num type="auto-markup" change="#d2e258 #d2e296" value="25" xml:lang="ar" xml:id="num_1.d2e4899">٢٥</num>  سنة مرة (أي كل ربع قرن) وهي العادة الجارية اليوم فأنهم يحتفلون بيوبيل كل كبير ديني عندهم إذا قضى في منصبه خمسة وعشرين عاماً.</p>
@@ -2220,7 +2220,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_238.d2e4952">وقد سبقت <placeName change="#d2e296" xml:id="placeName_38.d2e4954">مصر</placeName> بقية الأقطار العربية - شأنها في جميع الأمور - فأكرمت بحفلة يوبيل أول أديب عربي نعني به المرحوم سليمان البستاني صاحب المؤلفات القيمة. ومنذ ذلك الوقت أعتاد أدباء العرب أن يكرموا رجالاتهم بحفلات يوبيلية. ومن <placeName change="#d2e296" xml:id="placeName_39.d2e4957">مصر</placeName> أنتقل اليوبيل إلى سورية ومنها إلى <placeName>العراق</placeName>.</p>
             <p change="#d2e73 #d2e296" xml:id="p_239.d2e4961">ولم تقم حتى الآن أية حفلة يوبيلية لأي أديب أو شاعر عراقي. ولكن الهمة الناشطة التي بذلتها جماعة من أدباء <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_40.d2e4963">بغداد</placeName> وفضائلها لإقامة حفلة يوبيلية تكريما للعلامة الأب أنستاس ماري الكرملي صاحب (<title level="j" change="#d2e296" xml:id="title_16.d2e4966">لغة العرب</title> ب<placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_41.d2e4969">بغداد</placeName>) بعثت في القلوب فرحا وحبورا إذ شعر العراقيون بضرورة تقدير خدمات الذين أفنوا أعمارهم وقضوا أوقاتهم في سبيل خدمة بلادهم خدمات جليلة مشكورة. إن كنا قد جهلنا أثمانها وفوائدها الأدبية فالتاريخ مسجلها لحضراتكم بمداد الفخر والمباهاة إذ أنه سيد المنصفين.
 <pb n="n7-p39" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3713.xhtml" change="#d2e296" xml:id="pb_39.d2e4972"/>
-               <pb change="#d2e344" ed="print" n="39"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="39" edRef="#edition_1"/>
 
 
 وقد تقدمني جماعة من الفضلاء فعددوا محاسن الكرملي ومزاياه وأطنبوا في مدح خدماته للغة الشريفة وما أنتجته من ثمار يانعة عادت عليها بالنفع الجزيل ولم يبقوا لي إلا لذكر آية محمدة تفرد بها الأستاذ الكرملي. لهذا اضطررت إلى أن أبحث عن تاريخ اليوبيل والأدوار التي مرت عليه وصورة انتقاله من الصبغة الدينية إلى الشؤون الأدبية والمدنية وأن اكتفى بما قدمه وبأن أختم بحثي قائلاً:</p>
@@ -2233,7 +2233,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_244.d2e4989">إن للإفرنج عادات جميلة في تكريم نوابغهم والاحتفال برجالهم وعظمائهم فلتكريم النوابغ والعظماء فوائد عظيمة ومنافع جزيلة إذ أنه ينهض الهمم ويدفع الناس إلى أن تشرئب أعناقهم إلى ما في قمم المعالي من العز والسعادة الأبدية. وفضلا عن ذلك أن الرجل النابغة</p>
             <p change="#d2e73 #d2e296" xml:id="p_245.d2e4992">نفسه إذا وجد قومه يقدرون له خدماته يضاعف سعيه في سبيل العلم والإصلاح والوطن وغيرها ويزيد شوقه إلى خدمة أمته ووطنه، أما إذا وجد قومه يهينونه ولا يعتنون بأعماله الخطيرة بل ربما كانوا غير مبالين بما قام به من الأفعال الجليلة فبالطبع يتقهقر ويكر راجعا إلى الوراء. و<placeName>العراق</placeName> إذا أرادت أن تنهض من كبوتها وتستوي في مصاف الأمم العظيمة فما عليها إلا أن
 <pb n="n7-p40" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3714.xhtml" change="#d2e296" xml:id="pb_40.d2e4994"/>
-               <pb change="#d2e344" ed="print" n="40"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="40" edRef="#edition_1"/>
 
 
 تحيي مآثر عظماء رجالهم العاملين وعلمائها المصلحين.</p>
@@ -2246,7 +2246,7 @@
                </date> هـ واسماها (<title level="j" change="#d2e296" xml:id="title_17.d2e5035">لغة العرب</title>) كانت سببا عظيما لرقي اللغة ونشر الفصحى من قبرها وستجد لغة عدنان بفضل الكرملي - حياتها الخالدة.</p>
             <p change="#d2e73 #d2e296" xml:id="p_252.d2e5039">الكرملي شيد صروح فن الانتقاد في <placeName>العراق</placeName> فوزن الكتب والآثار في مجلته وفي غيرها بقيمة الإنصاف وانتقدها انتقادا سالما من الأغراض منزها عن شوائب
 <pb n="n7-p41" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3715.xhtml" change="#d2e296" xml:id="pb_41.d2e5041"/>
-               <pb change="#d2e344" ed="print" n="41"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="41" edRef="#edition_1"/>
 
 
 الغايات.</p>
@@ -2264,7 +2264,7 @@
                </date> هـ وهو من أعيان قطرنا والرجاء أن تنال قصيدتهما قبولا لديكم وتكون دليلا على حسن نظر الفارسيين وإجلالهم للعلم وذويه من غير فرق بين قوم ونحلة فأن دولة العلم يجمع تحت لواءها جميع محبيه وأهله. . .</p>
             <p change="#d2e73 #d2e296" xml:id="p_261.d2e5079">المخلص لكم أبو عبد الله الزنجاني
 <pb n="n7-p42" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3716.xhtml" change="#d2e296" xml:id="pb_42.d2e5081"/>
-               <pb change="#d2e344" ed="print" n="42"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="42" edRef="#edition_1"/>
 
 
 (اللجنة) وصلت القصيدتان ولكون حرف المجلة عربيا صرفا لم تتمكن المجلة من درجهما.</p>
@@ -2278,7 +2278,7 @@
             </byline>
          </div>
          <pb n="n7-p43" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3717.xhtml" change="#d2e296" xml:id="pb_43.d2e5110"/>
-         <pb change="#d2e344" ed="print" n="43"/>
+         <pb change="#d2e344 #d2e368" ed="print" n="43" edRef="#edition_1"/>
          <div type="item" subtype="article" change="#d2e296" xml:id="div_15.d2e5112">
             <head change="#d2e296" xml:id="head_15.d2e5114">اللغة العربية في يوبيل <persName change="#d2e296" xml:id="persName_24.d2e5116">الأب أنستاس</persName>
             </head>
@@ -2292,7 +2292,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_272.d2e5141">أيتها الأمم إلى متى وأنتم متفرقون بعلة (برج بابل)؟ أليس الإنسان أخاً الإنسان؟!</p>
             <p change="#d2e73 #d2e296" xml:id="p_273.d2e5144">هلموا وانضموا تحت راية وحدتي واحتشدوا في ساحتي الرحبة متصافحين يدا بيد متفاهمين فما أنتم، بدلا عن هذا التنافر من جراء هذه العجمة، كل واحد منكم كأنه الأخرس مع أنه طلق اللسان أو مثل الطفل أمام الطفل لا يفهم مراما. آه وألف آه!
 <pb n="n7-p44" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3718.xhtml" change="#d2e296" xml:id="pb_44.d2e5146"/>
-               <pb change="#d2e344" ed="print" n="44"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="44" edRef="#edition_1"/>
 
 
 أنا الفتاة العربية غزالة الصحراء! أنا لغة الجدود!</p>
@@ -2308,7 +2308,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_283.d2e5178">سمعتها تقول:</p>
             <p change="#d2e73 #d2e296" xml:id="p_284.d2e5181">أنا أحصل على أرديتي بعرق الجبين وفتيات الأمم تتردى أرديتها وتتزيا بأزيائها بلا عناء وكلها مهيأة وذلك بثمن زهيد من أسواقها القائمة، ومع هذا أني حافظت على جمالي لئلا أبرز إليكم مبتذلة مشوهة الهندام قدام الأمم. وبودي أن أظهركم جميلين معي أمام الناس، من منكم تقرب إلي ولم أبرزه للناس جميلا، هذا علي بن أبي طالب، هذا الجاحظ، هذا جبران، هذا المنفلوطي، هذا الريحاني أينقصهم جمال؟
 <pb n="n7-p45" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3719.xhtml" change="#d2e296" xml:id="pb_45.d2e5183"/>
-               <pb change="#d2e344" ed="print" n="45"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="45" edRef="#edition_1"/>
 
 
 أالذنب ذنبي؟ أجيبوني يرحمكم الله!</p>
@@ -2324,7 +2324,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_294.d2e5215">أليس هذا هو الحبيب؟)</p>
             <p change="#d2e73 #d2e296" xml:id="p_295.d2e5218">هي الفتاة الجميلة غزالة الصحراء! هي لغة الجدود!
 <pb n="n7-p46" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3720.xhtml" change="#d2e296" xml:id="pb_46.d2e5220"/>
-               <pb change="#d2e344" ed="print" n="46"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="46" edRef="#edition_1"/>
 
 
 هو نقطة الضاد هو الأستاذ اللغوي.</p>
@@ -2342,7 +2342,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_307.d2e5258">هو نقطة الضاد هو العلامة اللغوي الأستاذ أنستاس.</p>
             <p change="#d2e73 #d2e296" xml:id="p_308.d2e5261">سمعتها تهتف بصوتها المطرب وهو من ذوات الأوتار: يا فتيان الرافدين ويا فتيان
 <pb n="n7-p47" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3721.xhtml" change="#d2e296" xml:id="pb_47.d2e5263"/>
-               <pb change="#d2e344" ed="print" n="47"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="47" edRef="#edition_1"/>
 
 
 النيل ويا فتيان بردى ويا فتيان <placeName change="#d2e296" xml:id="placeName_49.d2e5265">لبنان</placeName> الساكنين في بلاد العالم الجديد ويا فتيان الصحراء.</p>
@@ -2360,7 +2360,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_320.d2e5307">تستحق الاعتناء التام ومما يجب أن يعرف للقائمين بخدمتها قدرهم. إننا نشارككم في تكريم الأستاذ الكرملي لخدمة تلك اللغة الشريفة الحية ذات البهاء والجلال والحسن والجمال الفتان هذا ما لزم.</p>
             <p change="#d2e73 #d2e296" xml:id="p_321.d2e5310">الكويت: عبد العزيز الرشيد
 <pb n="n7-p48" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3722.xhtml" change="#d2e296" xml:id="pb_48.d2e5312"/>
-               <pb change="#d2e344" ed="print" n="48"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="48" edRef="#edition_1"/>
 
 
 صوت من مرسيلية</p>
@@ -2369,7 +2369,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_324.d2e5322">ربها وقيمها إلا بفضل ما أوتي من سمو المواهب والثبات والصبر على مزاولة المطالب</p>
             <p change="#d2e73 #d2e296" xml:id="p_325.d2e5325">هو جدير بأن يتخذ قدوة في التحري والاجتهاد في استخراج الحقائق المطموسة
 <pb n="n7-p49" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3723.xhtml" change="#d2e296" xml:id="pb_49.d2e5327"/>
-               <pb change="#d2e344" ed="print" n="49"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="49" edRef="#edition_1"/>
 
 
 وإرشاد البصائر إليها توسيعا لنطاق العلم واغتناما لبقاء الذكر؛ ومن ثم كنت أنوي أن أختم الخطبة بزف تهنئة نفيسة للغة نفسها حيث قيض لها من بين الأفواج ممن خاضوا غمرات الحياة ونفضوا أنحاء العلم في الانتهاء بها إلى ذروتها الحرية بالاعتبار من أعطى القدرة على البحث في أوعر مسائلها والإتيان على أطرافها والإحاطة بأكنافها حتى كشف ستر الغموض عنها إلا وهو الإمام الذي ائتمرتم على تكريم صنيعه وتقدير عنائه ووفاء اجره مما حق له أن يكون غرة أقطابها دون أن ينازعه في ذلك منازع.</p>
@@ -2381,7 +2381,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_331.d2e5346">نرى بين الناس من يتعلم العلم لينفع به نفسه فقط، ومنهم من يتعلمه ليفيد به نفسه وغيره، إذ يجعله وسيلة للحصول على حطام هذه الدنيا أو لتقويم أود معاشه، ومنهم من يتعلم العلم ويسبر غوره ويغوص على درره في أغوار بحره حارما نفسه خيراته وثماره اليانعة بها</p>
             <p change="#d2e73 #d2e296" xml:id="p_332.d2e5349">أخوته بلا مقابل يذكر فترى صاحبه يسهر جفنه ويدمي
 <pb n="n7-p50" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3724.xhtml" change="#d2e296" xml:id="pb_50.d2e5351"/>
-               <pb change="#d2e344" ed="print" n="50"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="50" edRef="#edition_1"/>
 
 
 مقلته في التحرير والتحبير خدمة خالصة لأبناء جيله ومن هؤلاء الأفراد الأفذاذ العلامة الكرملي.</p>
@@ -2393,7 +2393,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_337.d2e5372">فاستحكمت منذ ذلك اليوم عرى الصداقة والإخلاص بيننا ولا نزال على ما كنا عليه منذ أول تعارفنا.</p>
             <p change="#d2e73 #d2e296" xml:id="p_338.d2e5375">وللأب أنستاس فضل لا ينكر في تثقيفي وتدريبي على الإنشاء فأنا تلميذه
 <pb n="n7-p51" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3725.xhtml" change="#d2e296" xml:id="pb_51.d2e5377"/>
-               <pb change="#d2e344" ed="print" n="51"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="51" edRef="#edition_1"/>
 
 
 وخريجه وإقرارا بفضله العلمي والأدبي أهديته باكورة تآليفي وهو معجم معربات عوام <placeName>العراق</placeName> لأنه أثر من</p>
@@ -2409,7 +2409,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_344.d2e5404">كثيرون هم أبطال العرب في عصرنا الحاضر، وليست بطولة السيف وقد يعتورها بعض المرات ضعف الاستكانة إلى ما هو أقوى منها من أدوات التدمير العصرية. ولكن البطولة الحقيقية التي نعنيها هي بطولة النبوغ والتبريز في حلبة جهاد يندفع الإنسان فيها، بطولة الخدمة الصحيحة للأدب والعلم، بطولة العمل بقوة نفس وبجد وثبات في سبيل غاية يرمي الإنسان إليها. وفي طليعة أبطال العرب اليوم في هذا النوع من البطولة حضرة العلامة المفضال والفيلسوف اللغوي المحقق الأب انستاس ماري الكرملي العالم العامل بإخلاص وتفان في ميدان الجهاد الواسع الذي نزل فيه منذ أن تذوق طعم الأدب وشعر من نفسه ميلا للغة العرب لغة آبائه وأجداده، ومنذ أن عرف ما خفي على غيره معرفته فيها أي منذ خمسين سنة.</p>
             <p change="#d2e73 #d2e296" xml:id="p_345.d2e5407">عرفنا هذا الرجل النابغة - ومن لا يعرفه - بمباحثه المفيدة المختلفة في أرقى صحف العالم العربي كلها تبحث بحث العارف المتخصص في اللغة وآدابها وفلسفتها في اشتقاقات كلماتها، عرفناه بمجلة (<title level="j" change="#d2e296" xml:id="title_18.d2e5409">لغة العرب</title>) التي أصدرها مدة لجهاده المتواصل وللجهود التي يبذلها للوصول بأبحاثه إلى أقصى حد ممكن من التنقيب والدرس قشعا لغياهب الظلمات وطردا لغيوم الجهل وفتحا لمغالق لا تزال بعيدة المنال على طارقيها في العلوم والمعارف؛ عرفناه أيضا بشخصه الكريم وبعلو
 <pb n="n7-p52" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3726.xhtml" change="#d2e296" xml:id="pb_52.d2e5412"/>
-               <pb change="#d2e344" ed="print" n="52"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="52" edRef="#edition_1"/>
 
 
 نفسه وواسع اطلاعه ورحابة صدره يوم كان بين ظهرانينا في <placeName change="#d2e296" xml:id="placeName_51.d2e5414">حيفا</placeName> وقد قطن الكرمل جبل الوحي في أحد أديار رهبانيته وانفرد فيه إلى الله مستوحيا مبتهلا وقد كان فيه كعبة القصاد من رجال العلم يأتونه من كل حدب وصوب ليقفوا على آرائه الصائبة في اللغة. عرفناه كريم النفس واليد سخياً بعلمه ومعارفه وأدبه لا يخيب سائلاً ولا يرد طالباً. عرفناه أخيراً وعرفه جميع قراء مجلتنا (الزهرة) وقد خصها حضرته في سنتها الخامسة بأبحاثه القيمة حول نقد معجم (أقرب الموارد) وكان له في كل عدد مقال من هذا النوع يذكر له فيشكر عليه ليس منا فقط بل من كل من تابع هاتيك الأبحاث وجنى من فوائدها الجمة. . .</p>
@@ -2421,7 +2421,7 @@
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_17.d2e5438">الزهاوي</surname>
                         </persName> وعضوية أكابر العلماء الأعلام هناك لتكريمه وقد سألت هذه اللجنة العالم العربي أجمع للاشتراك معها في هذا التكريم في حفلة تقام في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_52.d2e5442">بغداد</placeName> في  <num type="auto-markup" change="#d2e258 #d2e296" value="16" xml:lang="ar" xml:id="num_1.d2e5445">١٦</num>  من شهر أيلول الحالي. وإننا من فلسطين البلاد المقدسة، ومن <placeName change="#d2e296" xml:id="placeName_53.d2e5448">حيفا</placeName> ثغر الكرمل البسام إذا ما مددنا يدنا إلى أيدي القائمين بتكريم العلم والنبوغ شخص الأب الكرملي لنصافحها شاكرين لها المسعى فإنما نكون مخلصين بهذه المصافحة وحضرة المكرم عزيز على الجميع حقيق بالتكريم وجدير بكل ما يوجه إليه من الآيات الباهرات في مدحه وتعداد مناقبه وأفضاله.
 <pb n="n7-p53" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3727.xhtml" change="#d2e296" xml:id="pb_53.d2e5451"/>
-               <pb change="#d2e344" ed="print" n="53"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="53" edRef="#edition_1"/>
 
 
 فهنيئا للأب الكرملي بمقامه الرفيع في القلوب وشكرا للعراق وآله على هذا المسعى الخالد الذي يقومون به والله المسؤول أن يجازيهم على الأدب خيرا وأن يطيل بعمر صاحب اليوبيل ليكمل جهاده الأدبي فينال بعد ذلك الإكليل المعد للمجاهدين الأبرار والسلام.</p>
@@ -2435,7 +2435,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_352.d2e5480">اللغة العربية نصف قرن باحثا منقبا، وهو الذي أنشأ مجلته (<title level="j" change="#d2e296" xml:id="title_22.d2e5482">لغة العرب</title>) فكانت أداة وصل بين الشرق والغرب، وهو الذي وضع من المؤلفات زهاء ثلاثين مؤلفا منها (تاريخ <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_56.d2e5485">بغداد</placeName>) و (تاريخ <placeName>العراق</placeName>) و (تاريخ الكرد) و (العرب قبل الإسلام) ومعاجم ثلاثة نادرة لم تطبع بعد، وهو الذي بانتمائه إلى <placeName>العراق</placeName> قد جعل <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_57.d2e5488">بغداد</placeName> قبلة العرب والمستشرقين وقد كنا من الذين بهرهم ذلك النور الثاقب منظوراً إليه يستضيئون به في رحلتهم العلمية المظلمة فكم من المصطلحات الطبية التي وضعها فاحكم وضعها وكم من الألفاظ القديمة التي أحياها بعد إن كانت مندثرة وأن مجلة معهدنا هذه ومؤلفنا (السريريات والمداواة الطبية) الذي أنجز طبع جزئه الأول لبرهان ساطع على ما للعلامة الكرملي على لغة الطب وعلينا من الفضل.</p>
             <p change="#d2e73 #d2e296" xml:id="p_353.d2e5493">فنحن نتمنى لصديقنا ورصيفنا الفاضل يوبيلا مباركا وحياة طويلة لتستفيد البلاد العربية من علومه الغزيرة.
 <pb n="n7-p54" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3728.xhtml" change="#d2e296" xml:id="pb_54.d2e5495"/>
-               <pb change="#d2e344" ed="print" n="54"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="54" edRef="#edition_1"/>
 
 
 إلى الزهاوي الفيلسوف الخطير</p>
@@ -2459,7 +2459,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_360.d2e5544">من علماء القوم وفضلائه وقد دعت هذه اللجنة الكريمة العالم العربي أجمع إلى الاشتراك في احتفال كبير إقامته في السادس عشر من شهر أيلول المنصرم في عاصمة العباسيين لمرور خمسين عاما على جهاد الأب انستاس ماري الكرملي في سبيل اللغة العربية ويا له من جهاد عظيم سيتمتع أبناؤها بثماره الغزيرة الطيبة مدى الأحقاب.</p>
             <p change="#d2e73 #d2e296" xml:id="p_361.d2e5547">قليلون هم أولئك الذي لا يعرفون الأب المحتفى به فهو كتاب التحرير المبدع الذي لم تخل مجلة من مقالاته الرنانة ومباحثه المبتكرة الشائقة وهو اللغوي المدقق الذي أماط اللثام عما جاء في معاجم اللغة من مثل لسان العرب وتاج العروس ومحيط المحيط وأقرب الموارد وغيرها من أغلاط ومفاسد وهو العالم المحقق الذي أراد أن يتفرغ بكليته للغة العرب فأنصب على درس الآرامية والعبرية والحبشية
 <pb n="n7-p55" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3729.xhtml" change="#d2e296" xml:id="pb_55.d2e5549"/>
-               <pb change="#d2e344" ed="print" n="55"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="55" edRef="#edition_1"/>
 
 
 والفارسية والتركية والصابئية وهو صاحب مجلة (<title level="j" change="#d2e296" xml:id="title_24.d2e5551">لغة العرب</title>) الطائرة الصيت والمنقطعة النظير صاحبة الأيادي البيضاء على كثير من الكتبة والمؤلفين.</p>
@@ -2471,7 +2471,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_366.d2e5579">فلم تكد تدور رحى الحرب العالمية وتعلن الأحكام العرفية في البلاد العثمانية ويخلو الجو لحكومتها حتى ساقته في طليعة من ساقتهم إلى بلاد <placeName>الأناضول</placeName> السحيقة ملتقى رجال العلم</p>
             <p change="#d2e73 #d2e296" xml:id="p_367.d2e5582">والفضل والوطنية في ذلك العهد المشؤوم وقد أجتاز في طريقه إليها بحلب حيث جعل سجنه في الغرفة القذرة المظلمة الكائنة تحت درج دار سجن الولاية وترامى خبره إلى الطيب الذكر المرحوم السنيور كاوتيري قنصل دولة إيطاليا بحلب فأخذ يعمل سرا على تخليصه إذ لم يكن في وسعه أن يتوسط علنا لدى المراجع الإيجابية لأن إيطاليا كانت في ذلك الحين على أهبة الانضمام إلى صفوف الحلفاء وكانت حكومة الأتراك حانقة عليها تعمل على كيدها. فأتى دار المطرانية المارونية حيث اختلى بصاحب السيادة المطران ميخائيل أخرس رئيس أساقفة الموارنة وبعد المفاوضة قر رأيهما على إرسال القس اغناطيوس سعد صاحب هذه المجلة إلى افتقاد السجين في سجنه ومراجعة ترجمان الولاية في أمره فذهب كاتب
 <pb n="n7-p56" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3730.xhtml" change="#d2e296" xml:id="pb_56.d2e5584"/>
-               <pb change="#d2e344" ed="print" n="56"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="56" edRef="#edition_1"/>
 
 
 هذه السطور ورأي العالم الكبير المفضال وما هو عليه من سوء الحال وحرج المكان وعرض عليه باسم سيادة الموفد ما يحتاج إليه من الخدم وأطلعه على اهتمام سيادته مع قنصل دولة إيطاليا بأمره وأنه موفد لمراجعة أولياء الأمر في شانة. ثم غادره وسار إلى دائرة الترجمة حيث قابل قدرة بك ترجمان الولاية في ذلك العهد وصاحب الكلمة لدى والي الولاية جلال بك. فلم يسمع الترجمان بوجود الأب الكرملي في السجن حتى دهش لذلك أعظم الدهش وقال له: الكرملي ذلك العالم الكبير هنا! إن أمره يهمني في درجة قصوى وسأصرف جهدي في الإفراج عنه. فأسرع صاحب المجلة فورا إلى سجن الأب والفؤاد منه يطفح بشرا وحبورا وبشره باهتمام قدرة بك بإطلاق سراحه وهو صاحب الحل والربط. فعبس الأب وجهه وقال إن هذا الرجل لهو اعدى أعدائي وقد كاشفني العداء مرارا ب<placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_59.d2e5586">بغداد</placeName>. وقد صدق ظن الأب ففي اليوم الثاني لما عاد إلى زيارته أخبر أنه سبق إلى قيصرية وهناك ذاق من العذاب والتنكيل إشكالا وألوانا. ولكنه ما لبث أن أخلى سبيله وعاد إلى جهاده الواسع في سبيل اللغة والعلم. وهنا نهنئ حضرة الأب العلامة فخر العربية في هذا العصر بيوبيله الخمسيني سائلين الله أن يفسح في أجله ويصل له الأعوام بالأعوام منارا يهتدى به وحجة تساق إليها رواحل الأدباء والعلماء.</p>
@@ -2486,7 +2486,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_371.d2e5604">أريد تعداد تآليفه ولا إذاعة ما فيها من الفوائد للناطقين بالضاد بل جل غايتي من هذه السطور تبيان خصلة من خصاله الحميدة ألا وهي (التقى) شعار الراهب الكامل.</p>
             <p change="#d2e73 #d2e296" xml:id="p_372.d2e5607">التقى! وما التقى؟ التقى ماء المحاسن والفضائل وعصارة المناقب والشمائل، رحيق رباني يسكر الأفئدة الشريفة بشذاه، عاطفة نبيلة تهيم النفوس الكبيرة بهواها، قبس من نور الله تقطن ربوع القلب الأبية، بل شعلة روحية يستنير بها المرء في سبيل المكارم السنية، فلا عجب أذن أن يكون الكرملي هائما بحبها
 <pb n="n7-p57" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3731.xhtml" change="#d2e296" xml:id="pb_57.d2e5609"/>
-               <pb change="#d2e344" ed="print" n="57"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="57" edRef="#edition_1"/>
 
 
 باذلا مهجته منذ صباه باقتباسها.</p>
@@ -2502,7 +2502,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_381.d2e5648">الأسر أيها الكرملي إلى الإمام سر ولا تلتفت إلى الوراء فأن أقوال المتخرصين تذهب أدراج الرياح أدامكم الله لرفع شأن بلادنا العراقية.</p>
             <p change="#d2e73 #d2e296" xml:id="p_382.d2e5651">بغداد: رفائيل بابو اسحق
 <pb n="n7-p58" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3732.xhtml" change="#d2e296" xml:id="pb_58.d2e5653"/>
-               <pb change="#d2e344" ed="print" n="58"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="58" edRef="#edition_1"/>
 
 
 يوبيل الأب الكرملي</p>
@@ -2517,7 +2517,7 @@
                   </addName>
                </persName>
                <pb n="n7-p59" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3733.xhtml" change="#d2e296" xml:id="pb_59.d2e5713"/>
-               <pb change="#d2e344" ed="print" n="59"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="59" edRef="#edition_1"/>
 
 
 من الأستاذ المحقق حبيب الزيات</p>
@@ -2528,7 +2528,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_393.d2e5735">. . . بما أن لجنة اليوبيل عينت اليوم ال  <num type="auto-markup" change="#d2e258 #d2e296" value="16" xml:lang="ar" xml:id="num_1.d2e5737">١٦</num>  من أيلول لإقامة ذلك المهرجان فلماذا ذكرت بعض المجلات كالآثار مثلا أن ذاك العيد أقيم وتم في يومه المعين؟ وإذا كان هناك لجنة فلماذا لم تبلغ إلى أصدقائك العديدين كلمة تبعث بها إليهم منذ أول هذه السنة ليتسنى لهم تهيئة مباحث جدية إكراما لك واحتفاء بك على غير طريق الخطب والمقالات والقصائد؟ وإذا كان قد زرع مثل هذا البلاغ فليس لي ما ألوم به اللجنة الموقرة لأنها فكرت بإيصاله إلى الأعيان البارزين من أبناء الوطن العزيز أو إلى الممتازين بتآليفهم في الآداب الشرقية. أما أنا فقد نسيت لأن جل همي التجارة. على أنه يحق لي أن أحتج وأحتج بكل قواي لكوني صديقك الحميم وما كان يجدر باللجنة أن تجهل صديقا يعرفك منذ أمد بعيد ويعجب بعلمك ودرايتك ولهذا أتيتك لأظهر لك ما يكنه صدري من الحزن والألم بهذا الصدد.</p>
             <p change="#d2e73 #d2e296" xml:id="p_394.d2e5741">لو كنت واقفا على حقائق الأمور كما وقفت عليها الآن لكنت هيأت لك بحثا
 <pb n="n7-p60" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3734.xhtml" change="#d2e296" xml:id="pb_60.d2e5743"/>
-               <pb change="#d2e344" ed="print" n="60"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="60" edRef="#edition_1"/>
 
 
 مبتكرا قبل</p>
@@ -2541,7 +2541,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_401.d2e5775">موضوعي حياة المحتفل به الأب أنستاس ماري الكرملي وخدمته للعلم واللغة العربية.</p>
             <p change="#d2e73 #d2e296" xml:id="p_402.d2e5778">في موضوعي مجال للإسهاب ولكني محصاة علي كلماتي حرصا على وقتكم لذلك سأوجز في القول وسأجاوز المقدمات والتمهيدات ففي حضرتكم وأنتم صفوة أهل الفضل والأدب يتناول الموضوع تواً من غير مقدمات، أي على
 <pb n="n7-p61" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3735.xhtml" change="#d2e296" xml:id="pb_61.d2e5780"/>
-               <pb change="#d2e344" ed="print" n="61"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="61" edRef="#edition_1"/>
 
 
 الطريقة الإنكليزية - في الخطابة والكتابة طبعاً.</p>
@@ -2553,7 +2553,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_406.d2e5814">وبعد أن قسس غادر فرنسة فقام برحلة في بلاد الأندلس وأطلع على مخلفات المجد العربي ثم آب إلى موطنه <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_69.d2e5816">بغداد</placeName> فتولى إدارة المدرسة الكرملية وتعليم العربية والفرنسية فيها كما أخذ على عاتقه الوعظ في الكنيسة، والبحث والكتابة في لغة القرآن.</p>
             <p change="#d2e73 #d2e296" xml:id="p_407.d2e5821">وما لبث أن ترك إدارة المدرسة وتفرغ للوعظ والكتابة والتأليف فشرع يكتب المقالات اللغوية والعلمية في الجرائد والمجلات العربية والفرنسية وليست هناك مجلة عربية راقية إلا وقد حملت بين دفتيها بحثا للأب أنستاس الكرملي ولكنه عادة لا يوقع مقالاته باسمه الصريح لاعتبارات مختلفة أهمها ثوبه الرهباني ولعلي لا أخطئ خطيئة مميتة إذا ما أبحث في هذا الموقف بسر تواقيعه المستعارة فهي كثيرة اذكر منها: (الشيخ بعيث الخضري، وساتسنا، وأمكح - والاسم مؤلف من أول حرف لكلمات اسمه الكامل - وكلدة، وفهر الجابري. ومستهل ومتطفل، ومنتهل، ومبتدئ، ومحب الفجر، وابن الخضراء) والذي يطالع
 <pb n="n7-p62" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3736.xhtml" change="#d2e296" xml:id="pb_62.d2e5823"/>
-               <pb change="#d2e344" ed="print" n="62"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="62" edRef="#edition_1"/>
 
 
 مجلات المشرق والمقتطف والهلال والزهور والمقتبس والمباحث والمنهل وغيرها يعثر على مقالات ممتعة بهذه التواقيع. ولو جمعت مقالات المحتفل به في كتب لجاوزت المجلدات العشرة وأغلب مباحثه لم يطرقها طارق قبله، نظير أبحاثه في الصليب والنور وبني ساسان والخزاعل واليزيدية والصابئة والداوديين والركوسية والشبك والكاكائية والدوطة عند العرب والكفل وإيوان كسرى وعقرقوف والوركاء وبعض هذه المباحث يعد الأب صاحب (<title level="j" change="#d2e296" xml:id="title_31.d2e5825">لغة العرب</title>) أول من كتب فيها في العربية كما أنه أول من كتب عن كتابي اليزيدية المقدسين مصحف رش وجلوة باللغة الفرنسية في مجلة <title level="j" change="#d2e296" xml:id="title_32.d2e5828">النمسية</title> وصدر حديثا</p>
@@ -2566,7 +2566,7 @@
                </date>  وسام وانتخبته وزارة معارفنا أحد مؤسسي المجمع اللغوي الذي ألفته في العام الماضي ولم يعش طويلا.</p>
             <p change="#d2e73 #d2e296" xml:id="p_412.d2e5862">وقد ترجم كثير من مقالات المحتفل به إلى الفرنسية والإنكليزية والألمانية والروسية والإيطالية والأسبانية والتركية وقام بإصلاح كتب ومقالات ورسائل
 <pb n="n7-p63" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3737.xhtml" change="#d2e296" xml:id="pb_63.d2e5864"/>
-               <pb change="#d2e344" ed="print" n="63"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="63" edRef="#edition_1"/>
 
 
 لكثيرين من الكتاب والمؤلفين وقد يبعث إليه أحيانا بعض المؤلفين والكتاب بكتبهم ورسائلهم من <placeName change="#d2e296" xml:id="placeName_71.d2e5866">مصر</placeName> وسورية وأوربة وأميركة ليدقق النظر فيها ويصلحها قبل طبعها.</p>
@@ -2584,7 +2584,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_424.d2e5911">(مختارات المفيد) فيها مقالات عديدة لم تدرج في المجلات والجرائد وفي نيته أن يبرزها إلى النور شيئا بعد شيء.</p>
             <p change="#d2e73 #d2e296" xml:id="p_425.d2e5915">(متفرقات تاريخية) ومعظمها يتناول تاريخ <placeName>العراق</placeName> وأقوامه.
 <pb n="n7-p64" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3738.xhtml" change="#d2e296" xml:id="pb_64.d2e5917"/>
-               <pb change="#d2e344" ed="print" n="64"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="64" edRef="#edition_1"/>
 
 
 (الأنباء التاريخية) وقد حدثنا بها عن أنباء الرافدين وجزيرة العرب في القديم والحديث.</p>
@@ -2604,7 +2604,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_436.d2e5969">(الألفاظ اليونانية في اللغة العربية) وقد نشر منها منا نماذج في مجلة <title level="j" change="#d2e296" xml:id="title_33.d2e5971">المشرق</title> استشهد بهذه الأبحاث على تأثير النهضة المأمونية في العقلية العربية الدكتور رفاعي في كتابه الحديث (عصر المأمون) و (الألفاظ اللاتينية في اللغة العربية) و (الألفاظ الفارسية في اللغة العربية) و (الألفاظ الدخيلة من عبرية وهندية وقبطية وحبشية وتركية في اللغة العربية). و (الألفاظ الأرمية في اللغة العربية). و (الألفاظ العربية في اللغة الفرنسية) ومقالات عديدة في إصلاح أغلاط الكتاب المعاصرين ولغة الدواوين. كما أن له انتقادات خطيرة على معجم دوزي (ملحق المعاجم العربية) ومعجم فريتاغ العربي اللاتيني.</p>
             <p change="#d2e73 #d2e296" xml:id="p_437.d2e5976">وجمع كتاباً نفيساً في (أمثال العوام في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_74.d2e5978">بغداد</placeName> و<placeName change="#d2e296" xml:id="placeName_75.d2e5981">الموصل</placeName> و<placeName>البصرة</placeName>) و (حكايات
 <pb n="n7-p65" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3739.xhtml" change="#d2e296" xml:id="pb_65.d2e5984"/>
-               <pb change="#d2e344" ed="print" n="65"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="65" edRef="#edition_1"/>
 
 
 اللغة الدارجة) وعني بتصحيح كتاب (الإكليل) للهمداني و (الموعب) في اللغة لابن تيان و (مقامات ابن ماري) وكان قد شرع قبل الحرب العظمى بطبع كتاب (العين) للخليل بن أحمد اللغوي العراقي الشهير مع حواش لغوية فاكمل منه  <num type="auto-markup" change="#d2e258 #d2e296" value="144" xml:lang="ar" xml:id="num_1.d2e5986">١٤٤</num>  صفحة وحالت الحرب دون إنجاز البقية. فعسى أن يتيسر من ينفق على طبع هذا الكتاب وسائر مؤلفات الكرملي الخطية لغني بها الخزانة العربية.</p>
@@ -2622,7 +2622,7 @@
                <hi style="color:red;" change="#d2e296" xml:id="hi_16.d2e6036"> 
                   <num type="auto-markup" change="#d2e258 #d2e296" value="2" xml:lang="ar" xml:id="num_1.d2e6038">٢</num>  - </hi>معجم فرنسي عربي يحوي الألفاظ الأعجمية وما قابلها باللغة العربية الفصحى.
 <pb n="n7-p66" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3740.xhtml" change="#d2e296" xml:id="pb_66.d2e6042"/>
-               <pb change="#d2e344" ed="print" n="66"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="66" edRef="#edition_1"/>
 
 
                <hi style="color:red;" change="#d2e296" xml:id="hi_17.d2e6044"> 
@@ -2635,7 +2635,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_450.d2e6073">هذه لمحات من حياة الأب انستاس الذي تحتفلون بيوبيله ذكرتها من غير أن أتعرض لبسط آرائه اللغوية والنحوية وتذكرون أنني عاهدت نفسي على الإيجاز فكان إيجازي هذا التطويل. ولكن ليس الذنب ذنبي بل للرجل حياة حافلة بالعمل طويلة الأثر فأعذروني بكرمكم وشيم العرب الصفح والكرم.</p>
             <p change="#d2e73 #d2e296" xml:id="p_451.d2e6076">رفائيل بطي
 <pb n="n7-p67" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3741.xhtml" change="#d2e296" xml:id="pb_67.d2e6078"/>
-               <pb change="#d2e344" ed="print" n="67"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="67" edRef="#edition_1"/>
 
 
 كلمة <persName change="#d2e230 #d2e296" ref="oape:pers:647" xml:id="persName_32.d2e6080">
@@ -2650,7 +2650,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_455.d2e6102">هذه النهضة المورقة الأغصان الوارفة الظلال أن يكرموا العلم والأدب وخاصة الأدب العربي في شخص هذا العلامة الكبير الذي نحتفل به اليوم تنويها بفضله واعترافا بأياديه البيض.</p>
             <p change="#d2e73 #d2e296" xml:id="p_456.d2e6105">حقا أن قيام هذه الحفلة في دار فخامة السعدون بك الذي أرصد يوما من أيامه الثمينة لتكريم العلم والأدب من جهة واشتراك نخبة فاضلة من زعماء البلاد وقادة حركتها الفكرية وأساطين العلم فيها من جهة أخرى ليذكرنا بتلك الأيام الغابرة التي كانت ساسة العرب ورجالهم وإلى جانبهم شعوبهم الحية الناهضة يحتفلون بنوابغهم وفضلائهم مع قطع النظر عن المذاهب والأديان وبذلك شيدوا لهم مجدا خالدا وحضارة فخمة لا تزال آثارها ماثلة لعيون الباحثين المنقبين، وإذا أقام السعدون بك هذه الحفلة في قصره العامر لتكريم الأدب العربي في شخص الكرملي المفضال، فإنما هو يحذو حذو أجداده العرب الذين كانوا يعملون على بث العلم والعرفان وتنشيط الأدب في ظلال خلفائهم وملوكهم وسلاطينهم وما الملك الأعظم اليوم إلا رمزاً إلى تلك العزائم والهمم التي حمت العلم وذادت عن حياض
 <pb n="n7-p68" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3742.xhtml" change="#d2e296" xml:id="pb_68.d2e6107"/>
-               <pb change="#d2e344" ed="print" n="68"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="68" edRef="#edition_1"/>
 
 
 الأدب فكان وزراؤه بهدية يهتدون وبإرشاده يعملون.</p>
@@ -2663,7 +2663,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_463.d2e6129">تعلمون سادتي أن تنشيط العلماء والأخذ بناصرهم هو من أهم الأسباب المؤدية إلى الرقي والعمران في عصرنا هذا. وبتكريمنا الكرملي اليوم نكرم العلم والعبقرية في هذه البلاد التي تحتاج إلى ذلك بقدر ما يحتاج الجسم إلى الغذاء.</p>
             <p change="#d2e73 #d2e296" xml:id="p_464.d2e6132">يسرني جداً بأن أنتهز هذه الفرصة لأبين إعجابي بالجهود العلمية التي بذلها المحتفل به منذ حداثته حتى الآن في سبيل إعلاء شأن اللغة العربية إذ أصبح منارا يستنير به طلابها وعشاقها حينما كانت مهجورة حتى من أبنائها في هذه البلاد
 <pb n="n7-p69" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3743.xhtml" change="#d2e296" xml:id="pb_69.d2e6134"/>
-               <pb change="#d2e344" ed="print" n="69"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="69" edRef="#edition_1"/>
 
 
 كما كان ذائدا بقلمه عن حوضها المتهدم آنئذ غير هياب وغير مبال بخوض غمار أخطار ذلك في أزمان عصيبة جداً.</p>
@@ -2677,7 +2677,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_471.d2e6164">فسر إذن مزوداً عونه وبركته وحقق ما تأمله فيك البلاد من نفع يعود عليها وعلى لغتها والعلم بالخير الجزيل.</p>
             <p change="#d2e73 #d2e296" xml:id="p_472.d2e6167">توفيق السويدي وزير المعارف
 <pb n="n7-p70" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3744.xhtml" change="#d2e296" xml:id="pb_70.d2e6169"/>
-               <pb change="#d2e344" ed="print" n="70"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="70" edRef="#edition_1"/>
 
 
 قصيدة ميميه</p>
@@ -2757,7 +2757,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_475.d2e6328">أفق كشاده وقلب بازروح لطيف <gap resp="#org_MS" change="#d2e296" xml:id="gap_23.d2e6330"/> بهر كرانه نهان كشت جون ذباب غمام
 <pb n="n7-p71" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3745.xhtml" change="#d2e296" xml:id="pb_71.d2e6332"/>
-               <pb change="#d2e344" ed="print" n="71"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="71" edRef="#edition_1"/>
 
 
 زجذبهء ملكوتم بدل رسيد نويد <gap resp="#org_MS" change="#d2e296" xml:id="gap_24.d2e6334"/> زعطر عالم قد سم شكفته كشت مشام</p>
@@ -2859,7 +2859,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_476.d2e6532">كشيد قائد بختم بصدر محفل قدس <gap resp="#org_MS" change="#d2e296" xml:id="gap_25.d2e6534"/> خجسته محضر وأستاد فيلسوف إمام
 <pb n="n7-p72" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3746.xhtml" change="#d2e296" xml:id="pb_72.d2e6536"/>
-               <pb change="#d2e344" ed="print" n="72"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="72" edRef="#edition_1"/>
 
 
 إمام شيخ أبى عبد الله انكه محضرا</p>
@@ -2967,7 +2967,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_477.d2e6746">من آن شناشم كه بيكرى أست شريف <gap resp="#org_MS" change="#d2e296" xml:id="gap_26.d2e6748"/> كه از شرافت جان دارداز أدب اندام
 <pb n="n7-p73" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3747.xhtml" change="#d2e296" xml:id="pb_73.d2e6750"/>
-               <pb change="#d2e344" ed="print" n="73"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="73" edRef="#edition_1"/>
 
 
 نشار مطلع دوم كنم جواهر شغر <gap resp="#org_MS" change="#d2e296" xml:id="gap_27.d2e6752"/> مكر كه روحم ازجلوه أش شود آرام</p>
@@ -3057,7 +3057,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_478.d2e6925">ميرز أبو الفضل كيهاني
 <pb n="n7-p74" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3748.xhtml" change="#d2e296" xml:id="pb_74.d2e6927"/>
-               <pb change="#d2e344" ed="print" n="74"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="74" edRef="#edition_1"/>
 
 
 قصيدة رائيه</p>
@@ -3154,7 +3154,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_480.d2e7119">وجود عده أز عالمان إنسان دوست <gap resp="#org_MS" change="#d2e296" xml:id="gap_28.d2e7121"/> الكربنود دراين خاكدان كيه شعار
 <pb n="n7-p75" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3749.xhtml" change="#d2e296" xml:id="pb_75.d2e7123"/>
-               <pb change="#d2e344" ed="print" n="75"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="75" edRef="#edition_1"/>
 
 
 نه بد بهاى بشيزى حياترا بجهان <gap resp="#org_MS" change="#d2e296" xml:id="gap_29.d2e7125"/> بسان بيكربى روح عشق بى دلدار</p>
@@ -3256,7 +3256,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_481.d2e7323">فقط نه نسل عرب إذ توميكند تقدير <gap resp="#org_MS" change="#d2e296" xml:id="gap_30.d2e7325"/> تورا رهينه منت بسى نزاد وديار
 <pb n="n7-p76" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3750.xhtml" change="#d2e296" xml:id="pb_76.d2e7327"/>
-               <pb change="#d2e344" ed="print" n="76"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="76" edRef="#edition_1"/>
 
 
 ثنا كرت نه همان روح امرء القيس إست <gap resp="#org_MS" change="#d2e296" xml:id="gap_31.d2e7329"/> روان سعدى مدح توميكند تكرار</p>
@@ -3310,7 +3310,7 @@
             </lg>
             <p change="#d2e73 #d2e296" xml:id="p_482.d2e7429">خسرو
 <pb n="n7-p77" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3751.xhtml" change="#d2e296" xml:id="pb_77.d2e7431"/>
-               <pb change="#d2e344" ed="print" n="77"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="77" edRef="#edition_1"/>
 
 
 كلمة الشكر للأب المحتفل به</p>
@@ -3326,7 +3326,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_488.d2e7462">وبعد هذا يحق لي أن أقول: يا سادتي الأجلاء.</p>
             <p change="#d2e73 #d2e296" xml:id="p_489.d2e7466">إن أحب امرؤ إنساناً لم ير فيه غير المحاسن، وأن كرهه لم يجد فيه سوى المساوئ وقد احسن أحد شعرائنا في قوله:
 <pb n="n7-p78" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3752.xhtml" change="#d2e296" xml:id="pb_78.d2e7468"/>
-               <pb change="#d2e344" ed="print" n="78"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="78" edRef="#edition_1"/>
 
 
 وعين الرضى عن كل عيب كليلة <gap resp="#org_MS" change="#d2e296" xml:id="gap_32.d2e7470"/> كما أن عين السخط تبدي المساوئا</p>
@@ -3337,7 +3337,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_494.d2e7485">حيا الله ملك <placeName>العراق</placeName> المفدى!</p>
             <p change="#d2e73 #d2e296" xml:id="p_495.d2e7489">حيا الله الأمة العربية ولغتها المحبوبة! حيا الله العلم العراقي!
 <pb n="n7-p79" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3753.xhtml" change="#d2e296" xml:id="pb_79.d2e7491"/>
-               <pb change="#d2e344" ed="print" n="79"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="79" edRef="#edition_1"/>
 
 
 عم سعدون مغامس المانع والكرملي</p>
@@ -3347,7 +3347,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_499.d2e7512">وأني لأستأذن كلا من فخامة ألبك وفضيلة الأب في أن أذهب بهما وبالقراء الكرام إلى حادث تاريخي:</p>
             <p change="#d2e73 #d2e296" xml:id="p_500.d2e7515">لا بد وأن الفكر سائد إنه لم يسبق قبل اليوم أن سعدونياً كرم كرملياً - ولو على غير هذا الوجه - لأتساع الفراغ الفاصل بين الفريقين، فيظن إذ ذاك أن ما أبرزه هذا الاحتفاء لهو مما أولده القرن العشرون لكنا إذا تصفحنا التاريخ رأينا هناك تكريم شيخ من بيت فخامته - يوم كان يدعى بيته شبيبيا قبل أن يكون سعدونيا - لأحد الكرمليين من الجدود المعنويين للمحتفى به. فكأن
 <pb n="n7-p80" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3754.xhtml" change="#d2e296" xml:id="pb_80.d2e7517"/>
-               <pb change="#d2e344" ed="print" n="80"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="80" edRef="#edition_1"/>
 
 
 التاريخ أراد بهذا الاحتفاء أن يجدد على الستارة صورة صلة بات عهدها نسيا منسيا خالعا عليها ثوبا قشيبا جديدا تميس فيه تيها ودلالا. وقد تجلى في تلك الحفلة في فخامة ابن سعدون الشبيبي ما ورثه من آبائه الأماجد من مكارم الأخلاق مزدانة بحبه لترقية العلوم ولا سيما تنشيطه للأب - وضمنا تشجيعه لحملة الأقلام كافة - على موالاة خدمة لغتنا الجليلة.</p>
@@ -3364,7 +3364,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_504.d2e7567">تعريب فقرات الكتاب ونص البراءة</p>
             <p change="#d2e73 #d2e296" xml:id="p_505.d2e7570">(. . . في اليوم السابع من هذا الشهر (تشرين الثاني  <num type="auto-markup" change="#d2e258 #d2e296" value="1705" xml:lang="ar" xml:id="num_1.d2e7572">١٧٠٥</num> ) حضرنا إمامه (إمام الأمير مغامس) فرحب بنا وبعد أن هنأه الربان الهولندي التمس منه أن يعطيه عقد اتفاق بين الهولنديين والعرب. فكرم عليه مجيبا طلبه بكل
 <pb n="n7-p81" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3755.xhtml" change="#d2e296" xml:id="pb_81.d2e7575"/>
-               <pb change="#d2e344" ed="print" n="81"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="81" edRef="#edition_1"/>
 
 
 ما يرغب فيه وبعد ذلك أوضح له الهولندي مطلبهم بمذكرة الهولنديين تتعلق بشؤون الشركة فانتهزت هذه الفرصة بتقدمي إليه مذكرة في أمر حماية كنيستنا ودارنا.</p>
@@ -3380,7 +3380,7 @@
             <byline change="#d2e219 #d2e296" xml:id="byline_12.d2e7618">
                <persName change="#d2e296" xml:id="persName_34.d2e7619">يعقوب نعوم سركيس</persName>
                <pb n="n7-p82" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3756.xhtml" change="#d2e296" xml:id="pb_82.d2e7622"/>
-               <pb change="#d2e344" ed="print" n="82"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="82" edRef="#edition_1"/>
 
 
             </byline>
@@ -3395,7 +3395,7 @@
                <date when="1878" type="auto-markup" change="#d2e266 #d2e296" xml:id="date_4.d2e7671">سنة <num type="auto-markup" change="#d2e258 #d2e296" value="1878" xml:lang="ar" xml:id="num_1.d2e7673">١٨٧٨</num>
                </date> ، وهو ما يزال يدرس فيها حتى الآن. ويقابل هذا التاريخ كذلك انقضاء ما يناهز نصف قرن على خدمته الخالصة للغة الضاد سواء بالقول أو اللسان تحبيرا وتدريسا لتلامذته العديدين ومريديه الكثيرين المنتشرين في العالم العربي، دع عنك العلماء المستعربين في أوربا وأمريكا الذين يراسلونه
 <pb n="n7-p83" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3757.xhtml" change="#d2e296" xml:id="pb_83.d2e7677"/>
-               <pb change="#d2e344" ed="print" n="83"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="83" edRef="#edition_1"/>
 
 
 بانتظام للاسترشاد بآرائه الصائبة ومباحثه السديدة، وهي ثقة عالية تفرد بها العلامة الكرملي بين أئمة اللغة العربية المعاصرين، ولا تستكثر على عالم جليل مثله متبحر في فقه لغات جمة ما بين شرقية وغربية. إلى جانب تبحره الفذ في علوم العربية.</p>
@@ -3409,7 +3409,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_520.d2e7701">وقد اغتبطنا لإسناد رئاسة لجنة الاحتفال إلى العلامة الزهاوي فهو قرين صديقه الأب الكرملي في الفضل وذيوع الصيت، كما أنه قرينه في كثرة الحساد له والمتحاملين عليه من أطفال الرجال والمغرورين المفتونين بالشهرة والعظمة على حساب غيرهم!. . .</p>
             <p change="#d2e73 #d2e296" xml:id="p_521.d2e7704">وبديهي أن العلامة الكرملي في غنى كلي عن مظاهر هذه الحفاوة، فهو شيخ وقور متواضع دمث الأخلاق لم يعرف عنه في حياته المباركة أنه حفل مرة بالدعاية لمجهوده القيم. وكم من مرة وافى (<title>المقتطف</title>) وغيره من كبريات المجلات بمباحث لغوية وأدبية شائقة مكتفيا بتذييلها بإمضاء مستعار مثل (فهر الجابري) و (كلدة) ونحو ذلك، بينما جمهور الأدباء كان يكبرها إكبارا غير عالم بشخصية كاتبها الجليل المستتر تواضعا وتفانيا في خدمة العلم والأدب فلا فائدة إذن لمثل الكرملي من احتفال هو في غنى عنه، فمنزلته أسمى مرارا من أي احتفال، وإن لم ننكر أن لمثل هذا الاحتفال فائدة أدبية جليلة تعود على سمعة القطر العراقي. ولكن الفائدة تتحقق أيضاً لفضيلة المحتفل به إذا هي وجهت بالذات نحو أعماله القيمة، فتقدم المساعدات المالية إلى مجلته اللغوية الفريدة التي سدت فراغا عظيما في خدمة فقه اللغة وآدابها، ويعاون فضيلة الأب على نشر
 <pb n="n7-p84" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3758.xhtml" change="#d2e296" xml:id="pb_84.d2e7706"/>
-               <pb change="#d2e344" ed="print" n="84"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="84" edRef="#edition_1"/>
 
 
 مؤلفاته الخطية النفيسة التي يستفيد منها زائروه ومكاتبوه دون أن يستطيع هو نشرها لأنه ليس من رجال المال والدنيا، بل مثله يعيش في تقشف وزهد عيشه العالم المخلص الذي يضحي بكل نفيس حباً في العلم؛ ولذلك نلح على لجنة الاحتفال أن لا تغفل هذه المسألة الهامة من برنامجها برا يجهد هذا الرجل العظيم.</p>
@@ -3421,7 +3421,7 @@
                <hi style="color:red;" change="#d2e296" xml:id="hi_18.d2e7729"> 
                   <num type="auto-markup" change="#d2e258 #d2e296" value="1" xml:lang="ar" xml:id="num_1.d2e7731">١</num>  - </hi>تضحياته الجمة هذا العمر الطويل بالصحة والمال والجهد وبمصلحته الشخصية في سبيل اللغة العدنانية الشريفة رفعا لمكانتها، وصيانة لفرائدها، ودفعا لما يشوه جمالها، وتنقيبا عن حسناتها المستورة.
 <pb n="n7-p85" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3759.xhtml" change="#d2e296" xml:id="pb_85.d2e7735"/>
-               <pb change="#d2e344" ed="print" n="85"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="85" edRef="#edition_1"/>
 
 
                <hi style="color:red;" change="#d2e296" xml:id="hi_19.d2e7737"> 
@@ -3442,7 +3442,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_531.d2e7787">ويحول فراغ (النشء الجديد) دون الاسترسال في التنويه بمنزلة هذا المصلح الكبير الذي يعد بحق إمام أئمة العربية في هذا العصر. فحسبنا هذا التذكير الوجيز لكل من يحترم اللغة القومية والعلم الصراح والفضل الممتاز فيكرم - باشتراكه في تحقيق هذا الواجب - لغته ووطنه ونفسه، وينصف جهد هذا الإمام العلامة الجليل الذي يمثل أرقى ما بلغته ثقافتنا اللغوية!. . .</p>
             <p change="#d2e73 #d2e296" xml:id="p_532.d2e7790">الإسكندرية: المسجل
 <pb n="n7-p86" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3760.xhtml" change="#d2e296" xml:id="pb_86.d2e7792"/>
-               <pb change="#d2e344" ed="print" n="86"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="86" edRef="#edition_1"/>
 
 
 حول يوبيل الكرملي</p>
@@ -3454,7 +3454,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_538.d2e7811">هذه كتبهم قلب صفحاتها المتناثرة ما تجد فيها إلا ما تأباه النفس ويعافه الذوق السليم!!</p>
             <p change="#d2e73 #d2e296" xml:id="p_539.d2e7814">متى كان الكرملي أديبا ومتى كان عالما؟ أفي كتابه (تاريخ العلاق) وهو كتاب ملؤه اللحن والركة والخطأ التاريخي الفاضح؛ ناهيك عما فيه من سموم استعمارية ملاها كتابه الذي لم يصدر إلا لظروف خاصة وخدمة لجهة معينة؟؟
 <pb n="n7-p87" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3761.xhtml" change="#d2e296" xml:id="pb_87.d2e7816"/>
-               <pb change="#d2e344" ed="print" n="87"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="87" edRef="#edition_1"/>
 
 
 أم لمجلته (<title level="j" change="#d2e296" xml:id="title_42.d2e7818">لغة العرب</title>) وهي لا تحمل من (العرب) و (العربية) إلا أسمها فقط. . . حيث تسترجع الكلمات العربية القحة إلى أصول لاتينية وتيوتونية (كذا) وإن كان في تلك الكلمات ما لهجت بذكره العرب في جاهليتها وردد صداه شعراء صدر الإسلام ومؤلفوه.</p>
@@ -3471,7 +3471,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_545.d2e7850">نشرنا في غير هذا المكان. مقالين متناقضين موضوعهما واحد، هو الأب أنستاس ماري الكرملي أولا، وإشاعة الاحتفال بيوبيله (الخمسة والثلاثين) (كذا) ثانيا. .</p>
             <p change="#d2e73 #d2e296" xml:id="p_546.d2e7853">وغايتنا من هذين المقالين، أن نقف (كذا) القراء على مبلغ ما يؤدي بصاحبه التطرف والشذوذ. . (فالمسجل) قد أغرق في مدح الكرملي والإشادة بذكره، حتى أصبح مدحه في نظرنا ذما، وثناؤه إسرافا وشططا وخروجا على حدود الحقيقة والواقع!. .
 <pb n="n7-p88" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3762.xhtml" change="#d2e296" xml:id="pb_88.d2e7855"/>
-               <pb change="#d2e344" ed="print" n="88"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="88" edRef="#edition_1"/>
 
 
 وتطرف صاحب المقال الثاني فجرد الكرملي من صفات العلم وميزات الإطلاع على فقه اللغة وقواعدها. وذلك ما لا يؤيده فيه أحد، مهما بلغت خصومته للكرملي من الشدة والعنف.</p>
@@ -3489,7 +3489,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_554.d2e7912">له، ونحن نذيلها في الحواشي ليطلع عليها أدباؤنا ويحكموا على علم الشيخ ومنزلته من كفايته لنقد الغير. وهذا نص المقال:</p>
             <p change="#d2e73 #d2e296" xml:id="p_555.d2e7915">(في <placeName>العراق</placeName> حركة فكرية مباركة ونهضة علمية ميمونة وفي هذه البلاد نزوع شريف للأدب الغض وتطلع عجيب للحياة العصرية واستعداد قوي للإقتداء بالأمم الراقية واقتباس أساليب المدنية في القرن العشرين والاتصال بأساليب التطور الاجتماعي والانقلاب الأدبي مما لم يسبق له مثيل اللهم إلا في
 <pb n="n7-p89" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3763.xhtml" change="#d2e296" xml:id="pb_89.d2e7917"/>
-               <pb change="#d2e344" ed="print" n="89"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="89" edRef="#edition_1"/>
 
 
 عهد الحضارة العربية وفي غضون دولة العرب في (مطلع الشمس).</p>
@@ -3500,7 +3500,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_560.d2e7933">ويكفي الشيخ الزهاوي من كل هذه الفلسفة!! أن يلقى قصيدة أو مقطوعة على شرط أن تستعاد أبياتها وتقاطع بالتصفيق ولكنه لا يكفيه إلا أن يذكر اسمه مقرونا بأفخم الأوصاف وأضخم النعوت. ففيلسوف العرب وشاعر <placeName>العراق</placeName> الكبير ورسول الحرية الفكرية والتجدد، أوصاف لا تسد حاجة هذا الشيخ.</p>
             <p change="#d2e73 #d2e296" xml:id="p_561.d2e7936">هي فلتة من الأستاذ، وما دفعه إلى هذه الفلتة وما عرضه إلى هذه
 <pb n="n7-p90" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3764.xhtml" change="#d2e296" xml:id="pb_90.d2e7938"/>
-               <pb change="#d2e344" ed="print" n="90"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="90" edRef="#edition_1"/>
 
 
 الهفوة إلا حب الشهرة وأن جاءت من طريق إهانة العرب و<placeName>العراق</placeName>، والشهرة داء الزهاوي العياء.</p>
@@ -3511,7 +3511,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_566.d2e7954">لقد وصفوه بأنه علامة العرب وأنه المثل الأعلى تجمعت فيه مواهب العلماء وأخلاق الأدباء ومادة المؤلفين العظام، ووصفوه بأنه أكبر من خدم لغة التنزيل وأعظم من كتب في تاريخ هذه اللغة وإحياء آدابها (ل. ع: أين وجدت كل ذلك؟) فتجاوزوا في الغلو والإغراق فما كان انستاس ذلك الرجل وليس لأنستاس فضل على اللغة أكثر من فضل غيره من دارسي المفردات.</p>
             <p change="#d2e73 #d2e296" xml:id="p_567.d2e7957">أما أنه من المتبحرين في تاريخ اللغة - فإذا صح ذلك - فما هو بالأول الذي تناول هذا الطرف من أطراف تاريخ اللغة وما كان من المجودين
 <pb n="n7-p91" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3765.xhtml" change="#d2e296" xml:id="pb_91.d2e7959"/>
-               <pb change="#d2e344" ed="print" n="91"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="91" edRef="#edition_1"/>
 
 
 في هذا الفرع ولا من المبرزين في التتبع والاستقراء وتفلية المعاجم والموسوعات وهذه أبحاثه في (<title level="j" change="#d2e296" xml:id="title_45.d2e7961">لغة العرب</title>) تشهد المتخصصين بأن الرجل قد استهدف للغلط والاضطراب مضافاً إلى أن مهمته - التي أستحق عليها التكريم - كانت ولا تزال محصورة في قلب الحقايق (كذا) وتشويه <title level="j" change="#d2e296" xml:id="title_46.d2e7964">لغة العرب</title> الكريمة وتغلط الأئمة والحجج الذين يعول على اختصاصهم في معرفة الأصول والمصادر، وقد حاول جهد الطاقة أن ينكر استقلال لغتنا التي شهدت كل العصور بأنها حية مستقلة لم يضطرب لها وضع ولا كيان. (ل. ع: لماذا لا تؤيد كلامك بالبرهان؟)</p>
@@ -3519,7 +3519,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_569.d2e7971">فالعراق لا يعرف في الكرملي شيئا غير بلاده الإنشاء وسقم العبارة والتكلف في النحت والاشتقاق واستعمال ما لا يصح استعماله من الألفاظ والمفردات وقد وقف نفسه لفائدة المستشرقين وإرشادهم وحبر عدة مقالات في المقتطف والهلال و (المشرق اليسوعية) كلها غرائب وأوهام (كذا) ولا أبالغ إذا قلت إن مهمته كانت ولم تزل سياسية أكثر منها علمية ولغوية (كذا).</p>
             <p change="#d2e73 #d2e296" xml:id="p_570.d2e7974">ولماذا نذهب إلى تلك المجلات فهذه مجلة (<title level="j" change="#d2e315">الآباء</title> الكرمليين) وحدها أكبر دليل على صحة مذهبنا فيه وما يعمله من درس المباحث والعناوين وحسبنا أن
 <pb n="n7-p92" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3766.xhtml" change="#d2e296" xml:id="pb_92.d2e7976"/>
-               <pb change="#d2e344" ed="print" n="92"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="92" edRef="#edition_1"/>
 
 
 نكتفي بالتلميح إلى هذه الأمور تاركين التوسع إلى فرصة أخرى.</p>
@@ -3528,14 +3528,14 @@
             <p change="#d2e73 #d2e296" xml:id="p_573.d2e7986">لقد خاب الأمل بالزهاوي فيا ضيعة الرجاء وعقيدتي وهي عقيدة جمهرة الأدباء (كذا) أن</p>
             <p change="#d2e73 #d2e296" xml:id="p_574.d2e7989">الزهاوي الذي أقدم على تلفيق حفلة اليوبيل متوسلاً في ذلك بألف وسيلة وألف شفيع قد سجل له في أخريات حياته مثلبة ليس لها نظير بين المثالب المحفوظة في التاريخ وكنت حريصاً أن لا تمس شيخوخته المتوجة بالظرف وأن لا يكون أحدوثة غير حسنة للأجيال المقبلة.
 <pb n="n7-p93" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3767.xhtml" change="#d2e296" xml:id="pb_93.d2e7991"/>
-               <pb change="#d2e344" ed="print" n="93"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="93" edRef="#edition_1"/>
 
 
 حقا أن الحفلة كانت موقرة ولكن من هو المحتفل به؟ ومن هي تلك اللجنة التي اقترحت هذا التكريم؟ وإذا استنكرنا هذه الحفلة فإنما نستنكر المبالغة والفضول واصطناع المجاملة، وإذا قرعنا أحد فلا نقرع غير الزهاوي المخدوع.</p>
             <p change="#d2e73 #d2e296" xml:id="p_575.d2e7994">فالحفلة تاريخية والتاريخ سيحفظها كما حفظ غيرها، ولكنها لم تكن للعراق و<placeName>العراق</placeName> برئ من هذه الأخلاق الضعيفة والشعور الركيك وكنا نريد أن يقدم هؤلاء وعلى رأسهم فيلسوف العرب!! على تكريم العلم والأدب في غير الأب الكرملي وفي آباء عراقيين وأبناء وطنيين لهم أثر في خدمة العرب و<placeName>العراق</placeName> ولو كان الأب الكرملي متحليا بتلك الفضيلة لما أنكرنا تكريمه على أيدي هؤلاء وأيدي غيرهم فهل خلت هذه البلاد من أشخاص يستحقون التكريم؟</p>
             <p change="#d2e73 #d2e296" xml:id="p_576.d2e7997">أما وقد تم للزهاوي ما دبرته الدسائس وما خبأته الحيل والمكايد فأنه لا يبالي بالتأنيب والتبكيت ولا يهتم بغضب الأدب الموتور. وماذا يضره من ذلك؟ ولماذا يهتم بسخط الفضيلة؟ وقد ألقى قصيدته وهي كل ما أعده منذ أمد بعيد - مسلما فيها على المستشرقين محبباً عطفهم على سلائل العرب؟ مشجعا صديقه الكرملي على المضي في سبيل الدعوة وطرق التبشير إلى غير ذلك مما يقتضيه الإيمان بالوطن والشعور بالواجب والقيام بما تفرضه كرامة العلم والعلماء، ويعجبك من الأستاذ أن يطري نفسه ويمدح شعره ويذكر جهاده وجهوده وحريته
 <pb n="n7-p94" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3768.xhtml" change="#d2e296" xml:id="pb_94.d2e7999"/>
-               <pb change="#d2e344" ed="print" n="94"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="94" edRef="#edition_1"/>
 
 
 وتجديده.</p>
@@ -3543,13 +3543,13 @@
             <p change="#d2e73 #d2e296" xml:id="p_578.d2e8006">وحسبكم علو كعبه في الشعر والأدب ويكفيكم أنه ما ضم شاعر بين جنبيه نفسا مثل ما ضم الرضي الذي قصر أكابر الشعراء عن اللحاق به وإدراك شأوه ومجاراته في شاعريته العظيمة، أما غيره فأنه ذرة في الهباء وفقاعة على وجه الماء.</p>
             <p change="#d2e73 #d2e296" xml:id="p_579.d2e8009">ويضحكني أنه حاول التشبيه بين شيخ الكتاب والمترسلين أبي إسحاق وبين الأب الكرملي على بعد ما بينهما من أوجه الشبه والتقريب، فما رأيت ولن يرى الناس محاولة أسخف من هذه المحاولة وتخرصا أقبح من هذا التخرص، وهذا دليل آخر على نقص في التربية والغذاء (كذا) في الأخلاق وجهل بضروب المقايسة والتمثيل، ونحن لا ندري كيف يتحقق الشبه بين الصابئ والكرملي
 <pb n="n7-p95" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3769.xhtml" change="#d2e296" xml:id="pb_95.d2e8011"/>
-               <pb change="#d2e344" ed="print" n="95"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="95" edRef="#edition_1"/>
 
 
 فهل كانا متشابهين في الخلق والطباع في العلم والأدب، فهل كان الكرملي يحفظ القرآن ويقتبس من آيه كما كان أبو اسحق، وهل صام رمضان مع المسلمين كما صامه أبو إسحاق متأدبا بالآداب الإسلامية متحلياً بأخلاق علماء العربية إلى غير ذلك من الخلال الطيبة والصفات الحميدة أو ليس ظلما أن يقال إن أنستاس كالصابي جد أبي الحسن هلال صاحب التاريخ.</p>
             <p change="#d2e73 #d2e296" xml:id="p_580.d2e8014">لنترك ناحية الأخلاق والطباع فلا ينقص الكرملي إنه لم يقتد بالصابي وإن كان قدوة حسنة، ولنأتي (كذا) إلى الناحية الثانية من نواحي القياس، فقد ترك أبو اسحق طائفة من الكتب النافعة لم يترك مثلها أحد وحسبنا أن نأخذ من كتب كل منهما مثالين دلالة على أثر الفضل ومبلغ الثقافة والعلم في كل منهما. لقد ذكروا للكرملي ثلاثين مؤلفا في اللغة والأدب والتاريخ واللاهوت أشهرها كتاب الفوز بالمراد في تاريخ <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_84.d2e8016">بغداد</placeName> وكتاب تاريخ <placeName>العراق</placeName>، أما الأول فهو رسالة صغيرة جمعها من هنا وهناك (كذا) كما تجمع الأخبار النافية (كذا) والقصص الباهتة (كذا)، ولو وقع هذا التاريخ المنقوص بين يدي غريب من غرباء الأقطار النائية والأمصار البعيدة لم يعرف منزلة <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_85.d2e8019">بغداد</placeName> التاريخية في العصور الذهبية لما ظن عاصمة الخلافة وقاعدة الحضارة والثقافة إلا قرية محقرة من قرى <placeName>العراق</placeName>، ولو توفر لأحد صغار الطلاب
 <pb n="n7-p96" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3770.xhtml" change="#d2e296" xml:id="pb_96.d2e8022"/>
-               <pb change="#d2e344" ed="print" n="96"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="96" edRef="#edition_1"/>
 
 
 ما توفر له من المأخذ (كذا) والمصادر والوثائق والمستندات لاستطلاع أن يخرج للناس كتابا شيقاً في تاريخ هذه الحاضرة الإسلامية ومؤلفاً ممتعاً مما لا يستطيع المحتفل به أن يؤلف مثله ولو انفق مثل سنين اليوبيل!!</p>
@@ -3579,7 +3579,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_586.d2e8077">وإليك مثالين من أمثلة أبي اسحق الصابي فهما يكفيانك مشقة البحث في آثاره وعناء الوقوف على كل أفكاره فالأول رسائله المعروفة برسائل الصابي، كتبها لما تقلد (ديوان الرسائل) <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0349" type="auto-markup" change="#d2e266 #d3e274 #d2e296" notBefore="0960-03-08" notAfter="0961-02-24" xml:id="date_4.d2e8079">سنة <num type="auto-markup" change="#d2e258 #d2e296" value="349" xml:lang="ar" xml:id="num_1.d2e8081">٣٤٩</num>
                </date>  وهي من أمتع الرسائل وأكثرها فائدة
 <pb n="n7-p97" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3771.xhtml" change="#d2e296" xml:id="pb_97.d2e8084"/>
-               <pb change="#d2e344" ed="print" n="97"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="97" edRef="#edition_1"/>
 
 
 وأغزرها مادة لا يستغني عنها أبلغ المنشئين وأحذق الكتاب وهي مقسمة إلى أبواب في المراسلات والشفاعات والمكاتبات وما أنفذ إلى العمال والمتصرفين والنواحي وفيها كثير من الرسائل الودية فضلا عن المخابرات السياسية والتقاليد الرسمية والمناشير ونحوها وفيها من الفوائد التاريخية والاجتماعية ما يحتاج إليها الأدباء والحكام والولاة والرؤساء.</p>
@@ -3587,7 +3587,7 @@
                </date>  شرح فيها فتح <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_86.d2e8095">بغداد</placeName> وانهزام الأتراك منها</p>
             <p change="#d2e73 #d2e296" xml:id="p_588.d2e8099">ووصف الخلاف، ورسالة على لسان عز الدولة إلى عضد الدولة جواب كتاب بفتح جبال (القفص) بين فارس وكرمان، وقهر البلوص (جيل من الأكراد) (كذا. والرجل يدعي الوقوف على التاريخ مع أن البلوص جيل كالأكراد وليسوا منهم) ورسائل أخرى عن حروب بين البويهيين والحمدانيين وغيرهم وكلها تشتمل على حقائق تاريخية رسمية تفسير بعض ما ألتبس في تاريخ ذلك العصر ومنها صورة عهود أو تقليدات رسمية للولاة والعمال والقضاة صادرة من الخليفة كالعهد الذي قلده الطايع (كذا) لله العباسي أبا الحسن علي بن ركن الدولة على الصلات وأعمال الحرب وفيه أمور مهمة عن السياسة والإدارة والاجتماع مما لا أيتيسر الوقوف عليه في كتب التاريخ ونسخة عهد إلى قاضي القضاة وغيرها إلى القواد والفقهاء وأمراء الحج ومنشورات بعثت
 <pb n="n7-p98" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3772.xhtml" change="#d2e296" xml:id="pb_98.d2e8101"/>
-               <pb change="#d2e344" ed="print" n="98"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="98" edRef="#edition_1"/>
 
 
 إلى الأهلين أو العمال أو القرامطة فضلا عن رسائل خصوصية كتبها الصابي إلى أصدقائه.</p>
@@ -3596,7 +3596,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_591.d2e8113">ولا بد لي هنا من الاستفهام عن الأسباب التي قلبت شكل الحفلة وصيرتها نصف رسمية - إن لم تكن رسمية - وصبغتها بصبغة سياسية وإلا فلماذا تقام في دار رئيس الوزراء وبإشراف وزير المعارف؟.</p>
             <p change="#d2e73 #d2e296" xml:id="p_592.d2e8116">أما السبب الذي نعرفه - وهو غير تلك الأسباب السياسية - فأنه مكشوف فلولا إقامتها في دار فخامة الرئيس لحبطت كل المساعي المبذولة في سبيل هذا التكريم ومع ذلك فقد قوطعت من قبل كثير من الأدباء والمفكرين وقوبلت بالاستهجان وعدت من قبيل التطويح بالأدب والإهانة للأدباء.
 <pb n="n7-p99" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3773.xhtml" change="#d2e296" xml:id="pb_99.d2e8118"/>
-               <pb change="#d2e344" ed="print" n="99"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="99" edRef="#edition_1"/>
 
 
 ومن دواعي الفرح أن كثيرا ممن حضروا الحفلة كانوا متفرجين على هذه الرواية حائرين</p>
@@ -3608,7 +3608,7 @@
                <num type="auto-markup" change="#d2e258 #d2e296" value="25" xml:lang="ar" xml:id="num_1.d2e8139">٢٥</num>  أكتوبر  <num type="auto-markup" change="#d2e258 #d2e296" value="1928" xml:lang="ar" xml:id="num_1.d2e8142">١٩٢٨</num> )</p>
             <p change="#d2e73 #d2e296" xml:id="p_598.d2e8146">يعد الكرملي عن جدارة إمام أئمة العربية في هذا العصر لا لتبحره في علوم اللغة فقط تبحرا منقطع النظير يذكرنا بعهد الإمام الشنقيطي بل لمواهب أخرى فذة. فالرجل راهب متقشف كريم النفس مفروض فيه أنه وهب نفسه للدين ولكن الواقع أنه مفتون فتنة كبرى بعلوم اللغة التي خدمها نصف قرن أجل خدمة وكون بطريقته ونهجه مثلا أعلى لأهل اللغة المحدثين. فهو لم يقصر على استيعاب القديم بل تضلع من لغات شتى غربية وشرقية تضلعا عجيبا. وتذوقها تذوق رجل فنان يستوحي أسرارها. ولهذا السبب تجد فتاويه اللغوية - سواء وافقتها أنت أم خالفتها - دليلاً ناصعاً على تعمقه الكبير في اللغة والأدب بل في لغات وآداب شتى. ومثالا جميلا للأسلوب العلمي النزيه في البحث. وإلى جانب هذا نجد الكرملي ذا شجاعة أدبية نادرة في الشرق العربي على الأخص حيث يؤدي الاستقلال الفكري إلى إيجاد الخصوم الأدعياء ولكن الكرملي لم يكن يبالي بشيء من ذلك في سبيل إعلان ما يعتقده. ويتسع صدره لكل ما يقال أو يكتب
 <pb n="n7-p100" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3774.xhtml" change="#d2e296" xml:id="pb_100.d2e8148"/>
-               <pb change="#d2e344" ed="print" n="100"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="100" edRef="#edition_1"/>
 
 
 ضده من أهل الطوائف والعصبيات الذين يحاربون العلم والنهضة بسلاح الدين أو بسلاح الجمود. وبذلك أكتسب الكرملي احتراماً لطهارة ذمته ورجاحة ذهنه الذي لا يتأثر بشهرة أو صداقة أو قرابة في الحكم على أي عمل أدبي ينقده.</p>
@@ -3616,7 +3616,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_600.d2e8155">الصحيح فلم يخدموا الأدب السامي ولا الثقافة العصرية بل كانوا عقبة في طريقها.</p>
             <p change="#d2e73 #d2e296" xml:id="p_601.d2e8158">هذا هو العلامة الجليل الأب أنستاس ماري الكرملي الذي أحتفل بيوبيله في عاصمة العباسيين في السابع من أكتوبر الجاري احتفالا شائقا بمنزل فخامة رئيس الوزراء محسن بك السعدون وبإشراف وزير المعارف العراقية معالي توفيق بك السويدي وبحضور صفوة أهل العلم والبيان في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_88.d2e8160">بغداد</placeName> ونخبة رجال <placeName>العراق</placeName> من وزراء وأعيان ونواب وعلماء وأدباء ووجهاء وصحفيين وكان فخامة رئيس الوزراء يرحب بالقادمين. وقد أفتتح الشاعر الفيلسوف الكبير الأستاذ الزهاوي الحفلة بخطبة وجيزة مناسبة وخطب بعده سكرتير لجنة الاحتفال الأديب المعروف الأستاذ أحمد أفندي حامد الصراف مدير المطبوعات خطبة بليغة ثم تلا ما جاء من المستشرقين من عواصم الغرب في تهنئة الأستاذ الكرملي. ومن <placeName change="#d2e296" xml:id="placeName_89.d2e8163">مصر</placeName> وسورية وإيران وغيرها من الأقطار الشرقية من برقيات ورسائل وقصائد عربية وفارسية ومن جملتها قصائد الشعراء المصريين الأساتذة أحمد محرم والدكتور أبي شادي ومحمد الأسمر ورسالة الأستاذ الكاتب المجدد أحمد الشايب ثم تلا الأستاذ الزهاوي رسالة المجمع العلمي العربي ب<placeName>دمشق</placeName> في تهنئة الأب الكرملي وإطرائه - تلاها بالوكالة عن المجمع بصفته عضوا فيه. ثم قام الصحفي الأديب الأستاذ رفائيل أفندي بطي وقرأ ترجمة المحتفل به ترجمة مفصلة أجاد فيها. ثم قام الأستاذ الزهاوي وأنشد قصيدته العامرة. وأثره أرتجل الأستاذ الصحفي القدير إبراهيم أفندي حلمي خطبة بليغة نفيسة. وكانت الحفلة شائقة فريدة في بابها
 <pb n="n7-p101" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3775.xhtml" change="#d2e296" xml:id="pb_101.d2e8166"/>
-               <pb change="#d2e344" ed="print" n="101"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="101" edRef="#edition_1"/>
 
 
 وكان التصفيق عجاجا. وفي الختام خطب الأستاذ الكرملي خطبة وجيزة بليغة دلت على سلامة ذوقه ومراعاته الجميلة لمقتضى الحال فقوبلت بإعجاب وافر.</p>
@@ -3625,7 +3625,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_604.d2e8175">عن مجلة (<title level="j" change="#d2e315">النديم</title>) المصرية في عددها ال  <num type="auto-markup" change="#d2e258 #d2e296" value="23" xml:lang="ar" xml:id="num_1.d2e8177">٢٣</num>  من السنة الأولى</p>
             <p change="#d2e73 #d2e296" xml:id="p_605.d2e8182">العلامة الأب أنستاس الكرملي من زعماء الأدب العربي في هذا العصر وهو مشهور بأبحاثه اللغوية التي انتشرت في معظم مجلات الشرق والغرب منذ خمسين عاما ولا يزال دؤوبا على أبحاثه ويصدر مجلته <title level="j" change="#d2e296" xml:id="title_48.d2e8184">لغة العرب</title> الذائعة الصيت من دون كلل ولا ملل ومن غرائب الاتفاق أن <placeName>العراق</placeName> و<placeName change="#d2e296" xml:id="placeName_90.d2e8187">لبنان</placeName> تبادلا قطبين من أقطاب اللغة في منتصف القرن الماضي فأن <persName>الأب لويس شيخو</persName> العلامة المشهور هو من سلالة عراقية أما الأب أنستاس الكرملي فهو من سلالة لبنانية وقد شاءت الظروف والمقادير أن يرأس الكرملي نهضة <placeName>العراق</placeName> اللغوية، ويقوم شيخو بنصيبه من الخدمة العلمية والأدبية في <placeName change="#d2e296" xml:id="placeName_91.d2e8190">لبنان</placeName>! ولكن شتان بين الرجلين فالأول لغوي يغار على لغة القرآن غير صحيحة ولا شائبة فيها ولا مغمزا منقباً على الأسانيد التاريخية ذائدا عن حياضها ومنابعها الصافية؛ أما الأب شيخو فكان يتخذ العلم والأدب وسيلة لبث دعايته الدينية. ولا أدل على الفرق البارز بين الرجلين من أن الأب أنستاس فند أشد تفنيد كتاب شعراء النصرانية وكتب مقالات شائقة أظهر فيها خطأ <persName>الأب لويس شيخو</persName> ونقد افتئاته على الحقيقة والتاريخ وكان في جملة ما قاله أن العجز عن تنصير الأحياء حدا بالأب شيخو إلى تنصير الأموات وحقا أن رجلاً كهذا حريصاً على اللغة والأدب وحقائق التاريخ لا يمكن أن تجهل بلاده مكانته أو يتناسى قومه خدمه فقد تألفت لجنة من خيرة أدباء <placeName>العراق</placeName> برئاسة الأستاذ الكبير جميل صدقي أفندي الزهاوي لإقامة حفلة أنيقة لمناسبة يوبيله الذهبي تعرب فيه العصبة الأدبية في
 <pb n="n7-p102" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3776.xhtml" change="#d2e296" xml:id="pb_102.d2e8193"/>
-               <pb change="#d2e344" ed="print" n="102"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="102" edRef="#edition_1"/>
 
 
 <placeName>العراق</placeName> عن تقديرها لجهوده العلمية وإعجابها بما قدمه إلى لغة الضاد من جليل المآثر ومما جعل لهذه الحفلة أهمية كبرى هو أن فخامة السعدون بك رئيس الوزراء رضي أن تقام في قصره الفخم كما أن معالي توفيق بك السويدي رضي أن يشملها بأشرافه بصفته وزيرا للمعارف ولقد كانت الحفلة على جانب كبير من الأبهة والعظمة إذ أشترك معظم الوزراء وأكابر رجال الدولة وأقطاب الإنكليز وجمهرة صالحة من أدباء <placeName>العراق</placeName> الكبار وخطب فيها كل من الفاضل أحمد حامد الصراف مدير المطبوعات بصفته سكرتيرا للجنة الاحتفال وألقى رفائيل أفندي بطي خطبة ممتعة عن حياة المحتفل به وأعماله في خدمة اللغة وألقى الأستاذ الزهاوي قصيدة عصماء من قصائده المحجلة وارتجل الأستاذ السويدي بك وزير المعارف خطبة شكر لما شهده من عطف بني وطنه عليه ثم الأستاذ <persName change="#d2e230 #d2e296" ref="oape:pers:647" xml:id="persName_38.d2e8195">
@@ -3640,7 +3640,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_609.d2e8219">عن (مجلة <title level="j" change="#d2e315">السيدات</title> والرجال) نقلا عن الجزء السابع من سنتها التاسعة</p>
             <p change="#d2e73 #d2e296" xml:id="p_610.d2e8222">احتفل في هذا الشهر أدباء <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_93.d2e8224">بغداد</placeName> وأعيانها وأهل الفضل فيها برئاسة شاعرهم الحكيم الكبير جميل أفندي صدقي الزهاوي احتفالاً شائقا بيوبيل العلامة اللغوي الأب أنستاس ماري الراهب الكرملي منشئ مجلة <title level="j" change="#d2e296" xml:id="title_49.d2e8227">لغة العرب</title> ومؤلف المعجم اللغوي المقارن بين الألفاظ العربية والرومانية واليونانية والمعلل أصولها. ولحضرة الأب الجليل ضلاعة في اللغة نادرة المثال فضلا عن براعته في اللغتين اليونانية واللاتينية وأهم اللغات الأوربية الحديثة فضلا عن اللغات الشرقية القديمة. وقد خدم اللغة العربية والنهضة الشرقية خدما يستحق لأجلها هذا التكريم وأعظم منه. فنهنئ الأب المحترم بما ناله من حفاوة قومه ونهنئ <placeName>العراق</placeName> بوجوده فيه ونشترك معه بتكريمه.
 <pb n="n7-p103" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3777.xhtml" change="#d2e296" xml:id="pb_103.d2e8230"/>
-               <pb change="#d2e344" ed="print" n="103"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="103" edRef="#edition_1"/>
 
 
 يوبيل الكرملي</p>
@@ -3656,7 +3656,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_616.d2e8273">ورأى أدباء <placeName>العراق</placeName> أن الواجب يدعوهم إلى تكريم مواطنهم النابغة اعترافاً بفضله العظيم فتألفت لجنة في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_95.d2e8275">بغداد</placeName> برئاسة الشاعر الكبير جميل أفندي صدقي الزهاوي لتنظيم حفلة شائقة دعوا إليها رجال العلم والأدب من جميع الأقطار العربية ليشتركوا معهم في تكريم الأب الفاضل.</p>
             <p change="#d2e73 #d2e296" xml:id="p_617.d2e8280">وسنأتي على وصف الحفلة في عدد قادم، مرددين مع سائر المحتفلين آيات الثناء على صاحب اليوبيل سائلين المولى أن يمد بأيامه ويقويه على خدمة لغتنا التي هي في أشد حاجة لأمثاله.
 <pb n="n7-p104" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3778.xhtml" change="#d2e296" xml:id="pb_104.d2e8282"/>
-               <pb change="#d2e344" ed="print" n="104"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="104" edRef="#edition_1"/>
 
 
 اليوبيلات</p>
@@ -3673,7 +3673,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_623.d2e8324">ونوابها وعلمائها وأدبائها للاحتفال بيوبيل حضرة الأستاذ اللغوي الأب انستاس ماري الكرملي وحضر هذا الاحتفال الشائق من الرؤساء الروحانيين حضرة الأب غريغوار رئيس الرسالة الكرملية وحضرة المنسنيور عبد الأحد جرجي بالنيابة عن سيادة المطران جرجس دلال وبالأصالة عن نفسه وحضرة الأب نرسيس صائغيان النائب البطريركي. وهيأت هذا الاحتفال المنقطع النظير لجنة شريفة الأعضاء رئيسها شاعر العرب وفيلسوف الأستاذ جميل صدقي أفندي الزهاوي.</p>
             <p change="#d2e73 #d2e296" xml:id="p_624.d2e8327">ولما تم عقد الجمع أفتتح الاحتفال الأستاذ الزهاوي رئيس لجنة اليوبيل بكلمة ترحيب بالقوم الكرام الذين لبوا دعوته تكريماً للعلم في العالم المحتفى به ثم عقبه أحمد حامد أفندي الصراف كتوم (سكرتير) اللجنة ومدير المطبوعات فتلا بيانا طويلاً ختمه بقراءة كل ما بلغ اللجنة من جميع أنحاء العالم شرقاً وغرباً من التقاريظ والتهانئ لحضرة الأب صاحب اليوبيل ومن الاستحسان لفكرة هذا اليوبيل وقام بعده الأستاذ الزهاوي واسمعنا كلمة أخرى في مديح الأب الأستاذ وردت من المجمع العلمي ب<placeName>دمشق</placeName> ثم تلاه الشاب الأديب والمكاتب التحرير رفائيل
 <pb n="n7-p105" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3779.xhtml" change="#d2e296" xml:id="pb_105.d2e8329"/>
-               <pb change="#d2e344" ed="print" n="105"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="105" edRef="#edition_1"/>
 
 
 أفندي بطي وسرد لنا في خطاب وجيز فصيح ترجمة المحتفل به، وهب تلوه من كرسيه حضرة الأستاذ الزهاوي شاعر العرب وعندليب <placeName>العراق</placeName> وأنشد قصيدة عصماء اهتزت لها الألباب طربا وارتياحا لما جمعت من المعاني الجليلة والمباني البليغة والمبادئ القويمة بحيث أنه اضطر إلى إعادة بعض أبياتها دفعتين أجابه للمعجبين بكلامه والصارخين إليه (أعد أعد) ثم خطب صاحب المعالي توفيق بك السويدي العباسي خطابا شرح فيه فضل الأب أنستاس على اللغة العربية بدقيق أبحاثه.</p>
@@ -3682,7 +3682,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_627.d2e8338">تاركاً أشغاله الخاصة ليتفرغ لأشغالي الشاقة التي كثيراً ما أتعبته بكثرة التنقيب والتدقيق والتفتيش إذ لا يريد أن ينص نصاً إلا يتأكد صحته ويتحقق متانته فأضم إذن اليوم صوتي إلى أصوات جميع المقرظين إياه شرقاً وغرباً لأهنئه معهم بما حصل عليه بجده الحثيث واجتهاده الطويل من وسيع المعارف في آداب اللغة العربية ودقائق معانيها وفصيح مبانيها.</p>
             <p change="#d2e73 #d2e296" xml:id="p_628.d2e8341">حفظه المولى وأطال أيامه فخراً للنصرانية وإعلاء لشأن اللغة العربية التي أغرم بحبها واكب على درسها منذ نعومة أظفاره فرفعت منزلته وأذاعت صيته في الخافقين وخلدت اسمه في الصحائف والمجلات وإلينا كلامه بعينه شاهداً صادقاً على صحة قولنا:. . .
 <pb n="n7-p106" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3780.xhtml" change="#d2e296" xml:id="pb_106.d2e8343"/>
-               <pb change="#d2e344" ed="print" n="106"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="106" edRef="#edition_1"/>
 
 
 يوبيلات!!</p>
@@ -3700,7 +3700,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_638.d2e8399">وتقول العالم العربي الغراء أن رئيس وزارة <placeName>العراق</placeName> أقام الحفلة في داره.</p>
             <p change="#d2e73 #d2e296" xml:id="p_639.d2e8402">أما نحن فنعتقد أن الوزير لم يقم بهذا إلا لاعتبارات ظنها صحيحة، ومنها
 <pb n="n7-p107" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3781.xhtml" change="#d2e296" xml:id="pb_107.d2e8404"/>
-               <pb change="#d2e344" ed="print" n="107"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="107" edRef="#edition_1"/>
 
 
 منع بعض الألسنة من القول أن في الموضوع شيء (كذا) من التعصب الديني! وهو اعتبار غير وجيه لأن العالم العربي كله أشترك في تكريم المقتطف والبستاني وضومط حتى في تكريم الأب شيخو.</p>
@@ -3713,7 +3713,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_645.d2e8429">ورد حضرة الأستاذ الكرملي على حضرات الخطباء فأشاد بفضل حضرة صاحب الجلالة الملك فيصل المعظم بعنايته بالعلم وتكرمه بتشجيع العلماء شأن الملوك المصلحين العظام، وشكر لفخامة السعدون بك والأستاذ الزهاوي وحضرات أعضاء لجنة اليوبيل تكرمهم بإقامة يوبيله، كما شكر حضرات الجهابذة المستشرقين والمستعربين الذين بعثوا إلى اللجنة برسائل التهنئة والتقدير وقال في تواضع أنه لا يستحق كل هذا التقدير من المحتفلين به.</p>
             <p change="#d2e73 #d2e296" xml:id="p_646.d2e8432">ثم ألقى الأديب الفاضل إبراهيم أفندي العمر كلمة ارتجالية تناسب المقام
 <pb n="n7-p108" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3782.xhtml" change="#d2e296" xml:id="pb_108.d2e8434"/>
-               <pb change="#d2e344" ed="print" n="108"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="108" edRef="#edition_1"/>
 
 
 أثنى فيها الثناء المستطاب على فخامة السعدون والأستاذ الكرملي والأستاذ الزهاوي وكان ذلك مسك الختام فأنصرف الأستاذ الكرملي شاكراً لفخامة السعدون تخصيصه داره العامرة لإقامة الحفلة فيها. وأنصرف بعده باقي المدعوين متحدثين بأناقة الحفلة وحسن ترتيبها ووفرة عدد الأفاضل الذين حضروها وكرم فخامة السعدون وتقدير الأستاذ الزهاوي وأنصاره الفضلاء للمساعي القيمة التي بذلها حضرة الأب الورع المحتفل به ولا يزال يبذلها لترقية اللغة العربية.</p>
@@ -3727,7 +3727,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_652.d2e8468">يكون بينهم من يمثل <placeName>العراق</placeName> رسما، في حين أن <placeName>العراق</placeName> هو معدن الآثار ومنبع العلوم والآداب والفنون والحضارة الشرقية الغابرة التي هي مدار أبحاث المؤتمر.</p>
             <p change="#d2e73 #d2e296" xml:id="p_653.d2e8472">وقد تألم بعض المستشرقين المؤتمرين الذين يعرفون <placeName>العراق</placeName> لرؤياهم أن حكومته حرمته حظ الاشتراك في المؤتمر كما أنها حرمت المؤتمر الاستفادة من وجود خبراء العراقيين فيه. ولم يقدر وزير معارف سوريا وممثلها هناك أن
 <pb n="n7-p109" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3783.xhtml" change="#d2e296" xml:id="pb_109.d2e8474"/>
-               <pb change="#d2e344" ed="print" n="109"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="109" edRef="#edition_1"/>
 
 
 يتحمل ذلك إلى النهاية فطلب من الشيخ <persName change="#d2e230 #d2e296" ref="oape:pers:396" xml:id="persName_41.d2e8476">
@@ -3746,7 +3746,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_659.d2e8514">ومن الجدير بالذكر أن حضرة السيد أفنان رئيس التشريفات في وزارة الخارجية العراقية كان (يدشن) في فناء الدار - على سبيل التبرع - فنون التشريفات بثغر باسم، وناظر مرفوع وكلام حلو. أما فخامة السعدون بك فكان هو بنفسه قائما باستقبال المدعوين يعاونه حضرة مرافقه جميل روحي بك.</p>
             <p change="#d2e73 #d2e296" xml:id="p_660.d2e8517">وكان الأستاذ الكرملي صاحب اليوبيل في صدر (الطارمة) يكتنفه الشيخان باقر الشبيبي و<persName change="#d2e282 #d2e296" ref="oape:pers:2070" xml:id="persName_42.d2e8519">علي الشرقي</persName>، والسويدي وزير المعارف والزهاوي رئيس لجنة اليوبيل وساطع الحصري، ورئيس الرهبان الكرمليين. . . ثم الوزراء (ما عدا نوري السعيد والحيدري والشيخ أحمد غنيمة فأنهم كانوا غائبين) ثم بعض رجال
 <pb n="n7-p110" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3784.xhtml" change="#d2e296" xml:id="pb_110.d2e8522"/>
-               <pb change="#d2e344" ed="print" n="110"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="110" edRef="#edition_1"/>
 
 
 الدين والعلم ثم فريق من الأعيان والنواب ورؤساء الدوائر وأرباب الصحافة وحملة الأقلام.</p>
@@ -3762,7 +3762,7 @@
             <p change="#d2e73 #d2e296" xml:id="p_665.d2e8559">وختم الحفلة الأستاذ الكرملي صاحب اليوبيل الذهبي إذ تلا بإيمان قوي وشعور حي كلمة وجيزة قال فيها كل ما يجب أن يقال. وكلمته منشورة في محل آخر من هذا العدد. وكان</p>
             <p change="#d2e73 #d2e296" xml:id="p_666.d2e8562">مسك الختام لكل خطاب وكلام الهتاف الحار بحياة جلالة ملك <placeName>العراق</placeName> الساعي السعي الحثيث إلى تعزيز أسباب العلم ونشره. . .
 <pb n="n7-p111" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3785.xhtml" change="#d2e296" xml:id="pb_111.d2e8564"/>
-               <pb change="#d2e344" ed="print" n="111"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="111" edRef="#edition_1"/>
 
 
 يوبيل انستاس الكرملي</p>
@@ -3779,7 +3779,7 @@
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_32.d2e8613">العمر</surname>
                         </persName> وختم الحفلة الأستاذ بكلمات التواضع العميق ناسبا الإطراء والمديح والفضل إلى أصدقائه الأجلاء أصحاب الهمم العالية البارزة الذين أقاموا له هذه الحفلة لتكريم لغة الضاد الشريفة.
 <pb n="n7-p112" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3786.xhtml" change="#d2e296" xml:id="pb_112.d2e8617"/>
-               <pb change="#d2e344" ed="print" n="112"/>
+               <pb change="#d2e344 #d2e368" ed="print" n="112" edRef="#edition_1"/>
 
 
 يوبيل الكرملي</p>
