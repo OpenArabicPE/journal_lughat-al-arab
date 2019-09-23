@@ -72,7 +72,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2019-09-23" who="#pers_TG" xml:id="d2e423" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e421" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e410" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e423" xml:id="ref_1.d2e172">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e423" xml:id="gi_1.d2e175">titles</gi>s without such references based on  <gi change="#d2e423" xml:id="gi_2.d2e178">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e405">Linked all <tag change="#d2e423" xml:id="tag_1.d2e183">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e401">Added <gi change="#d2e423" xml:id="gi_3.d2e188">graphic</gi> for 57 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Page numbers to bibliographic description of the source based on the file's content.</change>
+        <revisionDesc><tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e434" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2019-09-23" who="#pers_TG" xml:id="d2e423" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e421" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e410" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e423" xml:id="ref_1.d2e172">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e423" xml:id="gi_1.d2e175">titles</gi>s without such references based on  <gi change="#d2e423" xml:id="gi_2.d2e178">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e405">Linked all <tag change="#d2e423" xml:id="tag_1.d2e183">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e401">Added <gi change="#d2e423" xml:id="gi_3.d2e188">graphic</gi> for 57 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Page numbers to bibliographic description of the source based on the file's content.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e376">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
             <change when="2019-05-16" who="#pers_TG" xml:id="d3e362" xml:lang="en">Added references to local authority file (
                 <ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e423" xml:id="ref_2.d2e199">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>
@@ -216,7 +216,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_1.d2e321">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_1.d2e323">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e325" xml:lang="ar">١</num>- </hi>باب البحث</p>
-                <p change="#d2e73 #d2e296" xml:id="p_2.d2e330">نشأت هذه المسألة منذ أن شرعت الحكومة الحاضرة ببيع البواخر العثمانية التي تمخر مياه دجلة بين <placeName change="#d2e423" xml:id="placeName_4.d2e579">البصرة</placeName> و
+                <p change="#d2e73 #d2e296" xml:id="p_2.d2e330">نشأت هذه المسألة منذ أن شرعت الحكومة الحاضرة ببيع البواخر العثمانية التي تمخر مياه دجلة بين <placeName change="#d2e423 #d5e434" xml:id="placeName_4.d2e579" ref="oape:place:210 geon:99532">البصرة</placeName> و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_4.d2e332">بغداد</placeName>
                     وهي التي قام بتأسيسها المرحوم رشيد باشت والي 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e335">بغداد</placeName>
@@ -230,16 +230,16 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e350" xml:lang="ar">٣</num>
                     :  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="561" xml:id="num_1.d2e353" xml:lang="ar">٥٦١</num>
-                    في الحاشية) ثم بتبدل بعض المأمورين أخذت بالانتعاش حتى تولاها (آمر) قومندان بحرية <placeName change="#d2e423" xml:id="placeName_7.d2e608">البصرة</placeName> الميرلوا (أمير اللواء) أمين باشا حوالي 
+                    في الحاشية) ثم بتبدل بعض المأمورين أخذت بالانتعاش حتى تولاها (آمر) قومندان بحرية <placeName change="#d2e423 #d5e434" xml:id="placeName_7.d2e608" ref="oape:place:210 geon:99532">البصرة</placeName> الميرلوا (أمير اللواء) أمين باشا حوالي 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1892-07-25" notBefore="1891-08-07" type="auto-markup" when-custom="1309" xml:id="date_3.d2e356">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1309" xml:id="num_1.d2e358" xml:lang="ar">١٣٠٩</num></date>هـ ( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1891" xml:id="date_3.d2e416">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1891" xml:id="num_1.d2e361" xml:lang="ar">١٨٩١</num></date>م) فتحسنت حالها وبلغت شاواً مهماً ووفر من وارداتها ما قدمه إلى <placeName change="#d2e423" xml:id="placeName_8.d2e622">الأستانة</placeName> لشراء باخرتين تضافان إلى الموجودات وقتئذ فأخذت <placeName change="#d2e423" xml:id="placeName_9.d2e625">الأستانة</placeName> المبلغ ولم تشتر بواخر حتى ضج العموم ولكن بلا جدوى؛ فاشترت الأملاك الخاصة بالسلطان السابق حضرة عبد الحميد خان هذه البواخر الأربع وهي 
-                    <placeName change="#d2e296" xml:id="placeName_6.d2e364">الموصل</placeName>
-                    والفرات والرصافة والبغدادي مع إدارتي <placeName change="#d2e423" xml:id="placeName_11.d2e631">البصرة</placeName> و
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1891" xml:id="num_1.d2e361" xml:lang="ar">١٨٩١</num></date>م) فتحسنت حالها وبلغت شاواً مهماً ووفر من وارداتها ما قدمه إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_8.d2e622" ref="oape:place:3 geon:745044">الأستانة</placeName> لشراء باخرتين تضافان إلى الموجودات وقتئذ فأخذت <placeName change="#d2e423 #d5e434" xml:id="placeName_9.d2e625" ref="oape:place:3 geon:745044">الأستانة</placeName> المبلغ ولم تشتر بواخر حتى ضج العموم ولكن بلا جدوى؛ فاشترت الأملاك الخاصة بالسلطان السابق حضرة عبد الحميد خان هذه البواخر الأربع وهي 
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_6.d2e364" ref="oape:place:211 geon:99072">الموصل</placeName>
+                    والفرات والرصافة والبغدادي مع إدارتي <placeName change="#d2e423 #d5e434" xml:id="placeName_11.d2e631" ref="oape:place:210 geon:99532">البصرة</placeName> و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e367">بغداد</placeName>
-                    وحوض <placeName change="#d2e423" xml:id="placeName_13.d2e637">البصرة</placeName> وما يتبع ذلك من آلات وأدوات في معمل <placeName change="#d2e423" xml:id="placeName_14.d2e641">البصرة</placeName> بمبلغ هو (كما يخطر لي أقل من سبعة آلاف ليرة) وذلك حسب تخمين المخمنين من الملكية والعسكرية. فلما صارت للأملاك السنية توفرت وارداتها وأصبحت كما كانت في زمن أمين باشا فزادت عليها باخرتين وهما (حميدية وبرهانية) ثم أخريين (وهما <placeName change="#d2e423" xml:id="placeName_15.d2e644">البصرة</placeName> و
+                    وحوض <placeName change="#d2e423 #d5e434" xml:id="placeName_13.d2e637" ref="oape:place:210 geon:99532">البصرة</placeName> وما يتبع ذلك من آلات وأدوات في معمل <placeName change="#d2e423 #d5e434" xml:id="placeName_14.d2e641" ref="oape:place:210 geon:99532">البصرة</placeName> بمبلغ هو (كما يخطر لي أقل من سبعة آلاف ليرة) وذلك حسب تخمين المخمنين من الملكية والعسكرية. فلما صارت للأملاك السنية توفرت وارداتها وأصبحت كما كانت في زمن أمين باشا فزادت عليها باخرتين وهما (حميدية وبرهانية) ثم أخريين (وهما <placeName change="#d2e423 #d5e434" xml:id="placeName_15.d2e644" ref="oape:place:210 geon:99532">البصرة</placeName> و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e371">بغداد</placeName>
                     ) فصارت ثمانياً حتى كانت أيام الانقلاب فعادت مع بقية أملاك المخلوع إلى
 
@@ -278,31 +278,31 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e433" xml:lang="ar">٣</num>
                     - لاسترضاء حكومتنا حكومة بريطانيا العظمى توصلاً إلى اتخاذ ذلك ذريعة للحصول على معاونتها (وإن ذلك من الآمال البعيدة) فقررت بيعها فلما بلغ الأمر مسامع الأهالي قامت القيامة وجرت المظاهرات العمومية في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e436">بغداد</placeName>
-                    و<placeName change="#d2e423" xml:id="placeName_18.d2e717">البصرة</placeName> و
-                    <placeName change="#d2e296" xml:id="placeName_10.d2e439">الموصل</placeName>
+                    و<placeName change="#d2e423 #d5e434" xml:id="placeName_18.d2e717" ref="oape:place:210 geon:99532">البصرة</placeName> و
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_10.d2e439" ref="oape:place:211 geon:99072">الموصل</placeName>
                     وأرسلت برقيات الاحتجاج إلى المراجع العالية قائلين: إنهم مستعدون لشراء هذه البواخر بالثمن الذي تعطيه للحكومة الأجنبية أو الشركة حتى أن البعض كان يقول متحمساً: أما ندفع الثمن إعانة ونترك البواخر لحكومتنا المحبوبة ظناً منه أن القول يثمر أو يسمن أو يغني من جوع؛ غير عالم أن المبلغ باهظ. والحق معهم لأن التلفظ بالمليون أمر سهل ومن لم ير في عمره الألف ماذا عليه لو قال مليون؟ فتأخرت الحكومة عن البحث في ذلك ووردت البرقيات بترك الخوض في هذا البحث ظناً من الحكومة إن هذه الشرارة يتبعها الدخان فالنار وهذا الاحتجاج يتبعه التهديد، فشهر السلاح. فقال المتجمهرون: لله الحمد سكتوا فسكتنا غير مراجعين لضمائرهم الحرة الحية في إنهم غير مقتدرين على عقد شركة لذلك حسب قواعدهم المقررة المتعدد: التي لا تقبل سهواً أو غلطاً لأنهم لولا اعتقادهم بأن الشركات مضرة بالمال لعقدوها ولكنهم أن اقتنعوا بمنافعها يتنافسون على الرئاسة فيها وإداراتها حباً بالتصدر والشقشقة الفارغة. خذ لذلك بضعة أمثلة
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1570.xhtml" ed="shamela" n="n3-p619" xml:id="pb_3.d2e443"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="619" facs="#facs_619" edRef="#edition_1" xml:id="pb_6.d2e726"/>
-                    جرت في <placeName change="#d2e423" xml:id="placeName_20.d2e728">العراق</placeName> دليلاً على قولنا هذا:</p>
+                    جرت في <placeName change="#d2e423 #d5e434" xml:id="placeName_20.d2e728" ref="oape:place:209 geon:99237">العراق</placeName> دليلاً على قولنا هذا:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_6.d2e446">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_3.d2e448">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e450" xml:lang="ar">٣</num>- </hi>شركة عربات (عجلات) بين 
-                    <placeName change="#d2e296" xml:id="placeName_11.d2e454">حلب</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_11.d2e454" ref="oape:place:15 geon:170063">حلب</placeName>
                     و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_12.d2e457">بغداد</placeName></p>
                 <p change="#d2e73 #d2e296" xml:id="p_7.d2e460">عقدت شركة لتسيير عربات (عجلات) بين 
-                    <placeName change="#d2e296" xml:id="placeName_13.d2e462">حلب</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_13.d2e462" ref="oape:place:15 geon:170063">حلب</placeName>
                     و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e465">بغداد</placeName>
                     تقطع المسافة بثمانية أيام والشركة مؤلفة من اثنين من أعيان الوطن وهما حضرة محمود أفندي شابندر زاده وعبد الجبار</p>
                 <p change="#d2e73 #d2e296" xml:id="p_8.d2e469">أفندي خياط زاده وصرفا مبالغ على شراء عربات (عجلات) ودواب وبناء مواقع في الطريق وكان معهما مدير البريد الحالي جناب سعيد أفندي وتعهد الأخير بأعمال الشركة وذهب بنفسه إلى 
-                    <placeName change="#d2e296" xml:id="placeName_15.d2e471">حلب</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_15.d2e471" ref="oape:place:15 geon:170063">حلب</placeName>
                     مراراً وتكبد المشاق ولم تمض برهة لا تزيد على الشهرين حتى فسخت الشركة وأنحل عقد المجتمع ولا بد من أنهم تكبدوا أضراراً جسيمة ولا اعلم السبب لذلك وعندي أنه اسم الشركة لا غير.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_9.d2e475">ر 
                     <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e477" xml:lang="ar">٤</num>
                     - شركة تسيير السيارات بين 
-                    <placeName change="#d2e423" xml:id="placeName_26.d2e766">كربلاء</placeName>
+                    <placeName change="#d2e423 #d5e434" xml:id="placeName_26.d2e766" ref="oape:place:372 geon:94824">كربلاء</placeName>
                     و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e480">بغداد</placeName></p>
                 <p change="#d2e73 #d2e296" xml:id="p_10.d2e483">تألفت شركة 
@@ -313,9 +313,9 @@
                     وكانت بتشويقه وكان عمادها حضرة محمود أفندي شابندر زاده لتسيير سيارات (أوتوموبيلات) بين 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_18.d2e493">بغداد</placeName>
                     و
-                    <placeName change="#d2e423" xml:id="placeName_30.d2e785">كربلاء</placeName>
+                    <placeName change="#d2e423 #d5e434" xml:id="placeName_30.d2e785" ref="oape:place:372 geon:94824">كربلاء</placeName>
                     إلى 
-                    <placeName change="#d2e296" xml:id="placeName_19.d2e496">النجف</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_19.d2e496" ref="oape:place:215 geon:98862">النجف</placeName>
                     وهي نافعة بدون شك وتهافت الناس عليها ووزعت أسهمها بأقرب مدة ووضع أصحاب الأسهم الدراهم في البنك (المصرف) العثماني حتى تخيل الوالي المشار إليه أن الأمر قد تم (وكنت معارضاً له أشد المعارضة لأني اعلم بأخلاق أبناء وطني) حتى اجتمع أرباب الأسهم اجتماعهم الأخير لانتخاب رئيس للشركة فحاز الأكثرية عبد الرزاق جلبي الحاج سعودي الصفار ومال البعض إلى جناب محمود أفندي الشابندر وحصل النزاع حتى قارب الأمر المهاترة فأنحل عقد الاجتماع وأسترد كل فرد ما سلم للبنك (المصرف) العثماني وطوى اسم الشركة.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_11.d2e501">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_4.d2e503">
@@ -326,10 +326,10 @@
                 <p change="#d2e73 #d2e296" xml:id="p_13.d2e516">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_5.d2e518">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e520" xml:lang="ar">٦</num>- </hi>شركة بواخر في 
-                    <placeName change="#d2e296" xml:id="placeName_21.d2e524">البصرة</placeName></p>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_21.d2e524" ref="oape:place:210 geon:99532">البصرة</placeName></p>
                 <p change="#d2e73 #d2e296" xml:id="p_14.d2e527">لم يكن داء عدم الائتلاف خاصا ب
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_22.d2e529">بغداد</placeName>
-                    بل بأختها <placeName change="#d2e423" xml:id="placeName_35.d2e824">البصرة</placeName> أيضاً فقد تألفت فيها شركة 
+                    بل بأختها <placeName change="#d2e423 #d5e434" xml:id="placeName_35.d2e824" ref="oape:place:210 geon:99532">البصرة</placeName> أيضاً فقد تألفت فيها شركة 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1889-08-26" notBefore="1888-09-07" type="auto-markup" when-custom="1306" xml:id="date_3.d2e532">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1306" xml:id="num_1.d2e534" xml:lang="ar">١٣٠٦</num></date>هجرية رأس مالها عشرون ألف ليرة لتشتري باخرة بحرية كانت
@@ -342,8 +342,8 @@
                     <hi change="#d2e296" style="color:red;" xml:id="hi_6.d2e545">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="7" xml:id="num_1.d2e547" xml:lang="ar">٧</num>- </hi>شركة معمل الزجاج في الشام</p>
                 <p change="#d2e73 #d2e296" xml:id="p_17.d2e553">تألفت في 
-                    <placeName change="#d2e296" xml:id="placeName_23.d2e555">دمشق</placeName>
-                    <placeName change="#d2e296" xml:id="placeName_24.d2e558">الشام</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_23.d2e555" ref="oape:place:61 geon:170654">دمشق</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_24.d2e558" ref="oape:place:61 geon:170654">الشام</placeName>
                     شركة قامت بأعباء إستحصال امتياز معمل للزجاج وصرفت المبالغ للحصول على هذه الأمنية التي حسدتها عليها البلاد العثمانية فبنت له بناء مهماً جسيماً عند الباب الشرقي وباشرت بالعمل فاحتاجت إلى رأس مال لإدارة المعمل فتوقف أصحاب الأسهم عن الدفع وبقى معطلاً وإذا دام الأمر فستضمحل الأدوات وتتلف الأسهم وتدخل في خبر كان ولا حول ولا قوة إلا بالله.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_18.d2e562">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_7.d2e564">
@@ -376,52 +376,52 @@
                     يقول بعض من يرى الأمور على ظواهرها أن هذه الشركة ستكون الضربة القاضية على تجارة البلاد العراقية وتعليلهم هو:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_29.d2e631">أولاً. لأن الشركة أصبحت في إدارة الإنكليز (لأن لهم أكثر الأسهم) وشركة لنج إنكليزية فسيقع بين الشركتين اتفاق وتكون أجرة النقل حسبما يريدون ولو ضاعفوها أضعافا تتأخر التجارة. قلنا: لو دققوا في الأمر لعلموا إن الرقابة تكون بين الأخوة الأشقاء وبين الوالد وولده ولا مساس لأمر الجنسية في التجارة على أن الحكومة لا بد وأن تكون قررت الأجور فلا يمكن تعديها والشركة بل الشركتان تعلمان أن من الأموال ما لا يمكن إرساله على بواخرها ما لم تكن الأجرة رخيصة كالحبوب مثلاً والأشياء التافهة الثمن فأن زادت الأجرة لا يرسل أحد من تلك الأموال شيئاً فكما أن أصحاب الأموال يفوتهم ربح أموالهم يفوتهم هم أيضاً ربح أجورهم فهم مضطرون إلى تنزيل الأجور عند قلة الحمول كما تفعل الآن شركة لنج والإدارة النهرية فنراهما تتفقان أحيانا عند تراكم الأموال. وتصل أجرة نقل الطن من 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_25.d2e633">بغداد</placeName>
-                    إلى <placeName change="#d2e423" xml:id="placeName_39.d2e937">البصرة</placeName> إلى نحو  
+                    إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_39.d2e937" ref="oape:place:210 geon:99532">البصرة</placeName> إلى نحو  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="25" xml:id="num_1.d2e636" xml:lang="ar">٢٥</num>
                     إلى  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="32" xml:id="num_1.d2e639" xml:lang="ar">٣٢</num>
                     شليناً ولكن عند قلة البضائع ينزلونها إلى سبعة شلينات بل أقل كما هو في موسمنا هذا. على أن بواخر اغا جعفر نقلت الطن بأقل من ثلاثة شلينات ونصف من 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_26.d2e642">بغداد</placeName>
-                    إلى <placeName change="#d2e423" xml:id="placeName_41.d2e950">البصرة</placeName> وذلك عشر الأجرة في أيام كثرة الأموال في أيلول وتشرين الأول وهو موسم التمر. فهل يمكن أن يقال أن أيام الزيادة هي اتفاق من الشركتين ضد التجارة؟</p>
+                    إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_41.d2e950" ref="oape:place:210 geon:99532">البصرة</placeName> وذلك عشر الأجرة في أيام كثرة الأموال في أيلول وتشرين الأول وهو موسم التمر. فهل يمكن أن يقال أن أيام الزيادة هي اتفاق من الشركتين ضد التجارة؟</p>
                 <p change="#d2e73 #d2e296" xml:id="p_30.d2e646">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_12.d2e648">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="13" xml:id="num_1.d2e650" xml:lang="ar">١٣</num>- </hi>اضطرار الشركة إلى تكثير البواخر</p>
                 <p change="#d2e73 #d2e296" xml:id="p_31.d2e655">على أن البواخر العثمانية التي تشتغل الآن في نهر دجلة هي خمس كما ذكرنا وثلاث لشركة لنج ونراها غير كافية لنقل الأموال الواردة من أوربا والهند إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_27.d2e657">بغداد</placeName>
-                    . ولذا نرى الأموال متراكمة اغلب الأوقات في <placeName change="#d2e423" xml:id="placeName_43.d2e968">البصرة</placeName> حتى يضيق عنها نطاق الأماكن المعدة لحفظها ويبقى بعضها مدة ستة أشهر أو أكثر حتى يقل الوارد منها من ديار الأجانب فتأخذ بنقلها</p>
-                <p change="#d2e73 #d2e296" xml:id="p_32.d2e661">وذلك مضر بالتجارة دون شك لأن التاجر الذي يتأخر ماله ب<placeName change="#d2e423" xml:id="placeName_44.d2e974">البصرة</placeName> ستة أشهر ماذا يكون ربحه وخصوصاً إن وصله مال الصيف في الشتاء وبالعكس فيضطر إلى خزنه عنده ستة أشهر أخرى إن كان متمكناً وإلا يبقى عند (المصرف) البنك العثماني في الربى فما كسبه إذاً؟ والحكومة السابقة لم ترد زيادة بواخرها ولم تسمح لشركة
+                    . ولذا نرى الأموال متراكمة اغلب الأوقات في <placeName change="#d2e423 #d5e434" xml:id="placeName_43.d2e968" ref="oape:place:210 geon:99532">البصرة</placeName> حتى يضيق عنها نطاق الأماكن المعدة لحفظها ويبقى بعضها مدة ستة أشهر أو أكثر حتى يقل الوارد منها من ديار الأجانب فتأخذ بنقلها</p>
+                <p change="#d2e73 #d2e296" xml:id="p_32.d2e661">وذلك مضر بالتجارة دون شك لأن التاجر الذي يتأخر ماله ب<placeName change="#d2e423 #d5e434" xml:id="placeName_44.d2e974" ref="oape:place:210 geon:99532">البصرة</placeName> ستة أشهر ماذا يكون ربحه وخصوصاً إن وصله مال الصيف في الشتاء وبالعكس فيضطر إلى خزنه عنده ستة أشهر أخرى إن كان متمكناً وإلا يبقى عند (المصرف) البنك العثماني في الربى فما كسبه إذاً؟ والحكومة السابقة لم ترد زيادة بواخرها ولم تسمح لشركة
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1574.xhtml" ed="shamela" n="n3-p623" xml:id="pb_7.d2e663"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="623" facs="#facs_623" edRef="#edition_1" xml:id="pb_14.d2e979"/>
-                    لنج بتشغيل بواخر أخرى غير الثلاث ولا ترخص أحداً بتشغيل بواخر (وأما مراكب أغا جعفر فإن ولاية <placeName change="#d2e423" xml:id="placeName_45.d2e981">البصرة</placeName> سمحت له موقتاً على أن يكون لبلديتها ربع صافي ريعها برخصة الامتياز) وفضلاً عن ضرر التجارة تضررت شركات الضمان التلف اغلب الأموال المعرضة للأمطار لوجودها تحتها فالشركة التي ترى النفع لا بد وان تزيد بواخرها للأموال الداخلة إلى 
+                    لنج بتشغيل بواخر أخرى غير الثلاث ولا ترخص أحداً بتشغيل بواخر (وأما مراكب أغا جعفر فإن ولاية <placeName change="#d2e423 #d5e434" xml:id="placeName_45.d2e981" ref="oape:place:210 geon:99532">البصرة</placeName> سمحت له موقتاً على أن يكون لبلديتها ربع صافي ريعها برخصة الامتياز) وفضلاً عن ضرر التجارة تضررت شركات الضمان التلف اغلب الأموال المعرضة للأمطار لوجودها تحتها فالشركة التي ترى النفع لا بد وان تزيد بواخرها للأموال الداخلة إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_28.d2e665">بغداد</placeName>
                     وأما الصادرات فلا تعد بالنسبة إلى الواردات إذ هي المهمة جداً. فهل يظن أحد أن شركة تجارية ترى النفع ظاهراً وأن الوابور (الباخرة) الذي تشتريه تستخرج ثمنه في مدة سنة واحدة على الأكثر ولا تعمل عدة بواخر؟ وقد تشبث مدير الإدارة الحالي جناب سويان بك بعقد مقاولة مع شركة لنج على أن تسير باخرة رابعة يكون نصف ريعها للإدارة النهرية العثمانية فقبلت ذلك بكل ارتياح لكن الحكومة لم تقبل فترك البحث.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_33.d2e669">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_13.d2e671">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="14" xml:id="num_1.d2e673" xml:lang="ar">١٤</num>- </hi>أجور نقل الأموال الداخلة</p>
-                <p change="#d2e73 #d2e296" xml:id="p_34.d2e678">أما أجرة نقل الأموال القادمة من <placeName change="#d2e423" xml:id="placeName_47.d2e999">البصرة</placeName> إلى 
+                <p change="#d2e73 #d2e296" xml:id="p_34.d2e678">أما أجرة نقل الأموال القادمة من <placeName change="#d2e423 #d5e434" xml:id="placeName_47.d2e999" ref="oape:place:210 geon:99532">البصرة</placeName> إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_29.d2e680">بغداد</placeName>
                     فهي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="25" xml:id="num_1.d2e683" xml:lang="ar">٢٥</num>
                     شليناً عن كل طن وهي الأجرة الاعتيادية لما يرد رأساً من أوربا والهند إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_30.d2e686">بغداد</placeName>
-                    . وأما ما يشحن من <placeName change="#d2e423" xml:id="placeName_50.d2e1011">البصرة</placeName> فلا بد من زيادة وربما بلغ  
+                    . وأما ما يشحن من <placeName change="#d2e423 #d5e434" xml:id="placeName_50.d2e1011" ref="oape:place:210 geon:99532">البصرة</placeName> فلا بد من زيادة وربما بلغ  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="35" xml:id="num_1.d2e689" xml:lang="ar">٣٥</num>
                     إلى  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="40" xml:id="num_1.d2e692" xml:lang="ar">٤٠</num>
-                    شليناً لأنه يتفق اضطرار التجار إلى جلب أموالهم فيدفعون ما تطلبه الشركات رغماً عنهم. على أن ذلك لا يوافق الشركات لأنهم يضطرون إلى تأخير المقاول عليه رأساً وذلك مضر بسمعتهم. وربما فعلوه طمعاً بالربح. فأجرة الأموال غالباً من <placeName change="#d2e423" xml:id="placeName_51.d2e1021">البصرة</placeName> إلى لندن  
+                    شليناً لأنه يتفق اضطرار التجار إلى جلب أموالهم فيدفعون ما تطلبه الشركات رغماً عنهم. على أن ذلك لا يوافق الشركات لأنهم يضطرون إلى تأخير المقاول عليه رأساً وذلك مضر بسمعتهم. وربما فعلوه طمعاً بالربح. فأجرة الأموال غالباً من <placeName change="#d2e423 #d5e434" xml:id="placeName_51.d2e1021" ref="oape:place:210 geon:99532">البصرة</placeName> إلى لندن  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="30" xml:id="num_1.d2e696" xml:lang="ar">٣٠</num>
                     شليناً والمسافة لا تقل عن أربعين يوماً وهنا ربما وصلت إلى  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="40" xml:id="num_1.d2e699" xml:lang="ar">٤٠</num>
-                    والمسافة ثلاثة أيام إلى أربعةٍ. فما تزيد الشركة بواخرها أو ما يتهاجم عليها المساهمون الذين يعرفون قدر الشركات وفوائدها وإن زيدت - ولا بد من الزيادة - أفما تنتفع منها الولاية بل <placeName change="#d2e423" xml:id="placeName_52.d2e1030">العراق</placeName> كله انتفاعاً اقتصاديا؟</p>
+                    والمسافة ثلاثة أيام إلى أربعةٍ. فما تزيد الشركة بواخرها أو ما يتهاجم عليها المساهمون الذين يعرفون قدر الشركات وفوائدها وإن زيدت - ولا بد من الزيادة - أفما تنتفع منها الولاية بل <placeName change="#d2e423 #d5e434" xml:id="placeName_52.d2e1030" ref="oape:place:209 geon:99237">العراق</placeName> كله انتفاعاً اقتصاديا؟</p>
                 <p change="#d2e73 #d2e296" xml:id="p_35.d2e704">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_14.d2e706">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="15" xml:id="num_1.d2e708" xml:lang="ar">١٥</num>- </hi>نقل الركاب على البواخر</p>
-                <p change="#d2e73 #d2e296" xml:id="p_36.d2e713">عدا ما ذكرناه من نقل الأموال بين <placeName change="#d2e423" xml:id="placeName_53.d2e1046">البصرة</placeName> و
+                <p change="#d2e73 #d2e296" xml:id="p_36.d2e713">عدا ما ذكرناه من نقل الأموال بين <placeName change="#d2e423 #d5e434" xml:id="placeName_53.d2e1046" ref="oape:place:210 geon:99532">البصرة</placeName> و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e715">بغداد</placeName>
                     وما بينهما من المراكز العديدة وهناك أمر أهم من ذلك وهو أمر نقل الركاب الذي يزداد ريعه في بعض الأوقات حتى يفوق أجور الأموال المنقولة. والمسافرون يلاقون الأمرين أيام قلة المياه إذ تتأخر البواخر الموجودة وأخص منها العثمانية ولا سيما الكبيرة منها (
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_32.d2e718">بغداد</placeName>
-                    ) (و<placeName change="#d2e423" xml:id="placeName_56.d2e1055">البصرة</placeName>) فتقطع المسافة التي بين الولايتين في نحو عشرة
+                    ) (و<placeName change="#d2e423 #d5e434" xml:id="placeName_56.d2e1055" ref="oape:place:210 geon:99532">البصرة</placeName>) فتقطع المسافة التي بين الولايتين في نحو عشرة
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1575.xhtml" ed="shamela" n="n3-p624" xml:id="pb_8.d2e721"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="624" facs="#facs_624" edRef="#edition_1" xml:id="pb_16.d2e1061"/>
@@ -434,7 +434,7 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="18" xml:id="num_1.d2e738" xml:lang="ar">١٨</num>
                     و 
                     <num change="#d2e258 #d2e296" type="auto-markup" value="23" xml:id="num_1.d2e741" xml:lang="ar">٢٣</num>
-                    ألف ليرة. وكان قبلها نحو عشرة آلاف. على أن هذا الريع لا يكاد يذكر بازاء الدخل المؤمل لو كانت البواخر حسنة وسريعة لأن السريعة يكون مصرفها من جهة الإحراق أقل بلا ريب والريع أكثر؛ إذ تكثر النقليات ويزداد المسافرون. والبواخر العثمانية مع حداثة أعمالها نزلت إلى دركة سيئة نسبة إلى شركة لنج والسبب هو أولاً لأن الذي اشتراها وهو الموفد لذلك من <placeName change="#d2e423" xml:id="placeName_57.d2e1084">الأستانة</placeName> لم يكن يعلم درجة نزول المياه في دجلة أيام الصيف ولذا أخذت تتأخر خلافاً لبواخر شركة لنج.</p>
+                    ألف ليرة. وكان قبلها نحو عشرة آلاف. على أن هذا الريع لا يكاد يذكر بازاء الدخل المؤمل لو كانت البواخر حسنة وسريعة لأن السريعة يكون مصرفها من جهة الإحراق أقل بلا ريب والريع أكثر؛ إذ تكثر النقليات ويزداد المسافرون. والبواخر العثمانية مع حداثة أعمالها نزلت إلى دركة سيئة نسبة إلى شركة لنج والسبب هو أولاً لأن الذي اشتراها وهو الموفد لذلك من <placeName change="#d2e423 #d5e434" xml:id="placeName_57.d2e1084" ref="oape:place:3 geon:745044">الأستانة</placeName> لم يكن يعلم درجة نزول المياه في دجلة أيام الصيف ولذا أخذت تتأخر خلافاً لبواخر شركة لنج.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_40.d2e745">ثانياً. لأن عملة البواخر العثمانية لا يخافون جزاء ولا يأملون مكافأة بخلاف غيرهم. أما الجزاء فإن الآمر ليس له كلام نافذ ولا يمكنه إخراج أحد من عمله ما لم يراجع المحاسبة فالدفتر دار فنظارة المالية. وأنت تدري إن الموظف (المأمور) الذي يعلم أن ليس لأمره قدرة على إخراجه من عمله إن قصر في خدمته كيف لا يتكاسل في عمله بخلاف المستخدمين في الشركات فإن إبقاءهم منوط بحسن خدمتهم فإن أحسنوا الخدمة داموا وإلا أخرجوا من وظائفهم بأدنى تقرير يدفعه عنهم الربان أو المدير أو غيرهما. ولذا تراهم محافظين على خدماتهم ومن ذا الذي لا يميز بين نظافة وخدمة بواخر شركة لنج والبواخر</p>
                 <p change="#d2e73 #d2e296" xml:id="p_41.d2e749">العثمانية فبتحويل البواخر إلى الشركة المذكورة لا بد من أن تتحسن أحوالها ويدقق في أعمالها فلا يأمر وكيل الربان الباخرة بالوقوف في أثناء الطريق ليأخذ من العرب خروفاً أو نصف حقة من السمن ولو تأخرت الباخرة ساعة أو ساعتين وأحرقت ما تحرقه من الفحم مجاناً. ولذا يزداد الريع لعدم التبذير. وعليه أقول أني متأكد بأن ربع ما يرجع إلى الحكومة سيقابل عموم وارداتها الحاضرة بلا شك ولا شبهة
 
@@ -453,7 +453,7 @@
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_33.d2e777">بغداد</placeName>
                     إذ قلت: ولم يبق اليوم في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_34.d2e780">بغداد</placeName>
-                    و<placeName change="#d2e423" xml:id="placeName_60.d2e1128">البصرة</placeName> من هذه الأسر المستوطنة التي لا ريب في أصلها الحلبي سوى عشر أسر (راجع 
+                    و<placeName change="#d2e423 #d5e434" xml:id="placeName_60.d2e1128" ref="oape:place:210 geon:99532">البصرة</placeName> من هذه الأسر المستوطنة التي لا ريب في أصلها الحلبي سوى عشر أسر (راجع 
                     <title change="#d2e296 #d5e410" level="j" xml:id="title_9.d2e783" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e786" xml:lang="ar">٣</num>
                     :  
@@ -482,12 +482,12 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="60" xml:id="num_1.d2e823" xml:lang="ar">٦٠</num>
                     ،  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="61" xml:id="num_1.d2e826" xml:lang="ar">٦١</num>
-                    ) إذ يدعو القرية المذكورة نمنوم بخلاف نيبهر السائح الدانمركي الذي جال في <placeName change="#d2e423" xml:id="placeName_64.d2e1181">العراق</placeName> 
+                    ) إذ يدعو القرية المذكورة نمنوم بخلاف نيبهر السائح الدانمركي الذي جال في <placeName change="#d2e423 #d5e434" xml:id="placeName_64.d2e1181" ref="oape:place:209 geon:99237">العراق</placeName> 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1766" xml:id="date_3.d2e830">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1766" xml:id="num_1.d2e832" xml:lang="ar">١٧٦٦</num></date>فإنه سماها لملوم وهو اسمها الحقيقي (أنظر كتاب رحلته بالفرنسية المجلد الثاني صحيفة  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="201" xml:id="num_1.d2e835" xml:lang="ar">٢٠١</num>
-                    ) وعليه ليست نمنوم إلا من تصحيف العامة لأسم لملوم كما قد صحفوا كلمة الليمون بصورة نومي الدارجة في كل <placeName change="#d2e423" xml:id="placeName_65.d2e1192">العراق</placeName>.</p>
+                    ) وعليه ليست نمنوم إلا من تصحيف العامة لأسم لملوم كما قد صحفوا كلمة الليمون بصورة نومي الدارجة في كل <placeName change="#d2e423 #d5e434" xml:id="placeName_65.d2e1192" ref="oape:place:209 geon:99237">العراق</placeName>.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_48.d2e840">فعبد الله الذي نحن بصدده - لتردده الكثير إلى قرية لملوم أو نمنوم لغاية البيع فيها وربما للقيام بزراعة بعض الأراضي التي حولها كعادة قوم من نصارى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e842">بغداد</placeName>
                     في ذلك الوقت - لقب بلملومي (ويروي لملومني) أو نمنومي وقد ورد اسمه بهاتين الصورتين أيضاً غير أن الصورة الثانية أي النمنومي درجت وراجت في 
@@ -549,7 +549,7 @@
                     تموز 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1816" xml:id="date_3.d2e945">
                         سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1816" xml:id="num_1.d2e947" xml:lang="ar">١٨١٦</num></date>بعد أن نالته النوائب وخسر كل ماله في التجارة وذاق مرارة شدة العوز والاحتياج مع إنه كان في وسع والدته التي في <placeName change="#d2e423" xml:id="placeName_70.d2e1309">الأستانة</placeName> أن تنشله من هذه المعسرة بما لديها من المال ولكنها أبت أن تصغي إلى توسلات وتحسرات ابنها المنكود الحظ.</p>
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1816" xml:id="num_1.d2e947" xml:lang="ar">١٨١٦</num></date>بعد أن نالته النوائب وخسر كل ماله في التجارة وذاق مرارة شدة العوز والاحتياج مع إنه كان في وسع والدته التي في <placeName change="#d2e423 #d5e434" xml:id="placeName_70.d2e1309" ref="oape:place:3 geon:745044">الأستانة</placeName> أن تنشله من هذه المعسرة بما لديها من المال ولكنها أبت أن تصغي إلى توسلات وتحسرات ابنها المنكود الحظ.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_55.d2e951">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_17.d2e953">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e955" xml:lang="ar">٢</num>- </hi>يوسف نمنومي وأولاده</p>
@@ -633,7 +633,7 @@
                     <hi change="#d2e296" style="color:red;" xml:id="hi_18.d2e1101">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e1103" xml:lang="ar">٣</num>- </hi>جرجس نمنومي ونسله</p>
                 <p change="#d2e73 #d2e296" xml:id="p_63.d2e1108">وكان هذا رجلاً صالحاً يتعاطى البيع والشراء بالمأكولات البخسة الثمن وقد تزوج أولاً بانيسة (أغنيس) ابنة عسكر الكلداني (لعله من 
-                    <placeName change="#d2e296" xml:id="placeName_42.d2e1110">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_42.d2e1110" ref="oape:place:211 geon:99072">الموصل</placeName>
                     ) وكان لأنيسة أختان وهما سيدي وصوفيا التي تزوجها الياس بن عبد الرحيم الكلداني وأخ اسمه عيسى المعروف بعيسى بلانجي وهو زوج كترينة بنت عيسى الخياط والد
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1579.xhtml" ed="shamela" n="n3-p628" xml:id="pb_12.d2e1113"/>
@@ -665,7 +665,7 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1580.xhtml" ed="shamela" n="n3-p629" xml:id="pb_13.d2e1156"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="629" facs="#facs_629" edRef="#edition_1" xml:id="pb_26.d2e1522"/>
-                    وزوجها الثاني كارلوس رينكوس من اسوج الذي كان نجاراً في مركب كمت الإنكليزي ويقال إن والده كان والياً في إحدى مدن أسوج ولم يزل كارلوس في <placeName change="#d2e423" xml:id="placeName_73.d2e1524">بغداد</placeName>.</p>
+                    وزوجها الثاني كارلوس رينكوس من اسوج الذي كان نجاراً في مركب كمت الإنكليزي ويقال إن والده كان والياً في إحدى مدن أسوج ولم يزل كارلوس في <placeName change="#d2e423 #d5e434" xml:id="placeName_73.d2e1524" ref="oape:place:216 geon:98182">بغداد</placeName>.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_65.d2e1159">مريم (مري) التي اعتمدت في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="24" xml:id="num_1.d2e1161" xml:lang="ar">٢٤</num>
                     آب 
@@ -687,7 +687,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1812" xml:id="num_1.d2e1191" xml:lang="ar">١٨١٢</num></date>وهي ابنة عمانوئيل مسيح الكلداني واسم أمها سيدي ابنة ارزوقي فرج أي خالة اوانيس مغاك المعروف بحنا باش وكان لكترينة أخت اسمها انجلة وهي امرأة بدروس الدلال الأرمني الكاثوليكي.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_67.d2e1195">وأعقب جرجي من الزواج الثاني بنتا وثلاثة بنين الذين سمو باسم أبيهم المصحف بصورة جرجي أو جرجية وهذا هو لقبهم الشائع والمعروف اليوم في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_44.d2e1197">بغداد</placeName>
-                    و<placeName change="#d2e423" xml:id="placeName_75.d2e1569">البصرة</placeName>. وأما أولاده فهم:</p>
+                    و<placeName change="#d2e423 #d5e434" xml:id="placeName_75.d2e1569" ref="oape:place:210 geon:99532">البصرة</placeName>. وأما أولاده فهم:</p>
                 <p change="#d2e73 #d2e296" xml:id="p_68.d2e1201">الياس</p>
                 <p change="#d2e73 #d2e296" xml:id="p_69.d2e1204">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_19.d2e1206">
@@ -721,7 +721,7 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1581.xhtml" ed="shamela" n="n3-p630" xml:id="pb_14.d2e1268"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="630" facs="#facs_630" edRef="#edition_1" xml:id="pb_28.d2e1642"/>
-                    احسن قيام وهم اليوم من أفضل البيوت المسيحية في <placeName change="#d2e423" xml:id="placeName_76.d2e1644">العراق</placeName> ورعا وتديناً وقد نالوا أيضاً بكدهم وجهدهم شيئا من الثروة والمنزلة ونبغ منهم كاهنان فاضلان هما من نخبة الأكليرس السرياني وسيأتي ترجمة كل منهما.</p>
+                    احسن قيام وهم اليوم من أفضل البيوت المسيحية في <placeName change="#d2e423 #d5e434" xml:id="placeName_76.d2e1644" ref="oape:place:209 geon:99237">العراق</placeName> ورعا وتديناً وقد نالوا أيضاً بكدهم وجهدهم شيئا من الثروة والمنزلة ونبغ منهم كاهنان فاضلان هما من نخبة الأكليرس السرياني وسيأتي ترجمة كل منهما.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_74.d2e1271">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_23.d2e1273">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e1275" xml:lang="ar">٥</num>- </hi>إلياس جرحي</p>
@@ -748,7 +748,7 @@
                     أيلول سنة</p>
                 <p change="#d2e73 #d2e296" xml:id="p_78.d2e1322">
                     <num change="#d2e258 #d2e296" type="auto-markup" value="1883" xml:id="num_1.d2e1324" xml:lang="ar">١٨٨٣</num>إلى 
-                    <placeName change="#d2e296" xml:id="placeName_45.d2e1327">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_45.d2e1327" ref="oape:place:211 geon:99072">الموصل</placeName>
                     ودخل المدرسة الأكلريكية القائم بإدارتها الأباء الدومنيكيون ورقاه إلى درجة الكهنوت سيادة المطران بهنام بنى إذ كان نائباً رسولياً وذلك في كنيسة الطاهرة الكاتدرائية في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="14" xml:id="num_1.d2e1330" xml:lang="ar">١٤</num>
                     أيار 
@@ -776,7 +776,7 @@
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1582.xhtml" ed="shamela" n="n3-p631" xml:id="pb_15.d2e1367"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="631" facs="#facs_631" edRef="#edition_1" xml:id="pb_30.d2e1746"/>
                     خوريا لسريان 
-                    <placeName change="#d2e296" xml:id="placeName_49.d2e1369">بيروت</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_49.d2e1369" ref="oape:place:26 geon:276781">بيروت</placeName>
                     ثم عاد إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_50.d2e1372">بغداد</placeName>
                     في  
@@ -793,7 +793,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_80.d2e1393">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_25.d2e1395">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e1397" xml:lang="ar">١</num>- </hi>المنتخبات الكنبيسية، في الحياة القدسية، وهي خمسة مجلدات طبعت في مطبعة الأباء الدومنيكيين في 
-                    <placeName change="#d2e296" xml:id="placeName_53.d2e1401">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_53.d2e1401" ref="oape:place:211 geon:99072">الموصل</placeName>
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1898" xml:id="date_3.d2e1404">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1898" xml:id="num_1.d2e1406" xml:lang="ar">١٨٩٨</num></date>إلى 
@@ -808,7 +808,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_82.d2e1427">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_27.d2e1429">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e1431" xml:lang="ar">٣</num>- </hi>سيرة امرأة فاضلة فرنسية وهي السيدة ايونس دكوت نشرت تباعاً في النشرة المسماة (إكليل الورود) التي كانت تطبع في 
-                    <placeName change="#d2e296" xml:id="placeName_54.d2e1435">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_54.d2e1435" ref="oape:place:211 geon:99072">الموصل</placeName>
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1909" xml:id="date_3.d2e1438">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1909" xml:id="num_1.d2e1440" xml:lang="ar">١٩٠٩</num></date>.</p>
@@ -828,7 +828,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_86.d2e1476">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_30.d2e1478">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e1480" xml:lang="ar">٣</num>- </hi>كتاب المسلك الحميد، من مريم العذراء إلى يسوع المجيد، طبع في 
-                    <placeName change="#d2e296" xml:id="placeName_55.d2e1484">بيروت</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_55.d2e1484" ref="oape:place:26 geon:276781">بيروت</placeName>
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1912" xml:id="date_3.d2e1487">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1912" xml:id="num_1.d2e1489" xml:lang="ar">١٩١٢</num></date>في مطبعة الاتحاد.</p>
@@ -864,7 +864,7 @@
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1884" xml:id="date_3.d2e1561">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1884" xml:id="num_1.d2e1563" xml:lang="ar">١٨٨٤</num></date>وأولاده هم:</p>
-                <p change="#d2e73 #d2e296" xml:id="p_93.d2e1567">مدولة المتوفاة قبل بضع سنين (وكانت امرأة جبوري بن فتوحي الحلو) ومريم (امرأة يوسف بن فتوحي الحلو المتوفى) ويعقوب وريجينا (امرأة بجوجو ابنة يوسف نلسن) وجورج المتوفى في <placeName change="#d2e423" xml:id="placeName_89.d2e1948">البصرة</placeName> 
+                <p change="#d2e73 #d2e296" xml:id="p_93.d2e1567">مدولة المتوفاة قبل بضع سنين (وكانت امرأة جبوري بن فتوحي الحلو) ومريم (امرأة يوسف بن فتوحي الحلو المتوفى) ويعقوب وريجينا (امرأة بجوجو ابنة يوسف نلسن) وجورج المتوفى في <placeName change="#d2e423 #d5e434" xml:id="placeName_89.d2e1948" ref="oape:place:210 geon:99532">البصرة</placeName> 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1908" xml:id="date_3.d2e1569">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1908" xml:id="num_1.d2e1571" xml:lang="ar">١٩٠٨</num></date>.
@@ -881,27 +881,27 @@
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1868" xml:id="date_3.d2e1591">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1868" xml:id="num_1.d2e1593" xml:lang="ar">١٨٦٨</num></date>وسافر إلى 
-                    <placeName change="#d2e296" xml:id="placeName_57.d2e1596">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_57.d2e1596" ref="oape:place:211 geon:99072">الموصل</placeName>
                     مع ابن عمه نعوم (الخوري عبد الأحد) للغاية عينها ورسم كاهنا معه باسم يوسف في يوم واحد وبعد رجوعه إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_58.d2e1599">بغداد</placeName>
                     سافر ثانية إلى 
-                    <placeName change="#d2e296" xml:id="placeName_59.d2e1603">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_59.d2e1603" ref="oape:place:211 geon:99072">الموصل</placeName>
                     في شهر حزيران 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1897" xml:id="date_3.d2e1606">
                         سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1897" xml:id="num_1.d2e1608" xml:lang="ar">١٨٩٧</num></date>وذلك تلبية لدعوة غبطة البطريرك بهنان بني ولما عاد إلى الزوراء عينه سيادة المطران اغناطيوس نوري لخدمة جماعة <placeName change="#d2e423" xml:id="placeName_93.d2e1995">البصرة</placeName> السريانية فسافر إليها في شهر كانون الثاني 
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1897" xml:id="num_1.d2e1608" xml:lang="ar">١٨٩٧</num></date>وذلك تلبية لدعوة غبطة البطريرك بهنان بني ولما عاد إلى الزوراء عينه سيادة المطران اغناطيوس نوري لخدمة جماعة <placeName change="#d2e423 #d5e434" xml:id="placeName_93.d2e1995" ref="oape:place:210 geon:99532">البصرة</placeName> السريانية فسافر إليها في شهر كانون الثاني 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1898" xml:id="date_3.d2e1611">
                         سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1898" xml:id="num_1.d2e1613" xml:lang="ar">١٨٩٨</num></date>وسعى هناك بتشييد ثلاثة معابد للسريان والواحد في <placeName change="#d2e423" xml:id="placeName_94.d2e2003">البصرة</placeName> والثاني في العشار على نفقة الخواجا يوسف مارين والثالث في العمارة اللاحقة ب<placeName change="#d2e423" xml:id="placeName_95.d2e2006">البصرة</placeName> واهتم أيضاً بفتح مدرسة للطائفة السريانية وهو الآن ساعٍ وراء ترقيتها وتحسين أمور جماعته بهمة ونشاط. وكان قد رقاه في مدينة <placeName change="#d2e423" xml:id="placeName_96.d2e2010">البصرة</placeName> إلى رتبة الخوري الأسقفي السيد اغناطيوس نوري وذلك عند عودته من الهند في شهر أيار 
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1898" xml:id="num_1.d2e1613" xml:lang="ar">١٨٩٨</num></date>وسعى هناك بتشييد ثلاثة معابد للسريان والواحد في <placeName change="#d2e423 #d5e434" xml:id="placeName_94.d2e2003" ref="oape:place:210 geon:99532">البصرة</placeName> والثاني في العشار على نفقة الخواجا يوسف مارين والثالث في العمارة اللاحقة ب<placeName change="#d2e423 #d5e434" xml:id="placeName_95.d2e2006" ref="oape:place:210 geon:99532">البصرة</placeName> واهتم أيضاً بفتح مدرسة للطائفة السريانية وهو الآن ساعٍ وراء ترقيتها وتحسين أمور جماعته بهمة ونشاط. وكان قد رقاه في مدينة <placeName change="#d2e423 #d5e434" xml:id="placeName_96.d2e2010" ref="oape:place:210 geon:99532">البصرة</placeName> إلى رتبة الخوري الأسقفي السيد اغناطيوس نوري وذلك عند عودته من الهند في شهر أيار 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1900" xml:id="date_3.d2e1616">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1900" xml:id="num_1.d2e1618" xml:lang="ar">١٩٠٠</num></date>وقد ترجم من الفرنسية إلى العربية كتاب ظهور سلطانة لورد وطبعه في 
-                    <placeName change="#d2e296" xml:id="placeName_60.d2e1621">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_60.d2e1621" ref="oape:place:211 geon:99072">الموصل</placeName>
                     وسافر إلى أوربا 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1913" xml:id="date_3.d2e1624">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1913" xml:id="num_1.d2e1626" xml:lang="ar">١٩١٣</num></date>وجلب معه من هناك جملة أشياء</p>
-                <p change="#d2e73 #d2e296" xml:id="p_95.d2e1630">لزينة المعابد التي أقامها في ولاية <placeName change="#d2e423" xml:id="placeName_98.d2e2029">البصرة</placeName>.</p>
+                <p change="#d2e73 #d2e296" xml:id="p_95.d2e1630">لزينة المعابد التي أقامها في ولاية <placeName change="#d2e423 #d5e434" xml:id="placeName_98.d2e2029" ref="oape:place:210 geon:99532">البصرة</placeName>.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_96.d2e1634">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_36.d2e1636">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="9" xml:id="num_1.d2e1638" xml:lang="ar">٩</num>- </hi>رزق الله جرجي</p>
@@ -922,12 +922,12 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1584.xhtml" ed="shamela" n="n3-p633" xml:id="pb_17.d2e1674"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="633" facs="#facs_633" edRef="#edition_1" xml:id="pb_34.d2e2076"/>
-                    والأدباء، اسمه (بيت الحيدرية) وأول من نبه منهم الجد الأعلى الشريف (أحمد الإعرابي) وكان من بادية <placeName change="#d2e423" xml:id="placeName_99.d2e2078">الحجاز</placeName> فتحضر في المدينة فأصبح من أكابرها المعدودين وممن يشار إليه بالبنان. ويتصل نسبه بموسى الكاظم.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_101.d2e1677">وقد هاجر بعض من سلالته إلى <placeName change="#d2e423" xml:id="placeName_100.d2e2084">العراق</placeName>، والبعض الآخر إلى بلاد ما وراء النهر فالذين احتلوا <placeName change="#d2e423" xml:id="placeName_101.d2e2087">العراق</placeName> جاءوه أيضاً من بلاد وراء النهر، وكان أول نزولهم في <placeName change="#d2e423" xml:id="placeName_102.d2e2090">البصرة</placeName> الفيحاء، فأقاموا فيها معززين، وما ابطئوا أن غدوا من ساداتها العظام، ورؤسائها الفخام، يأخذون جزية اليهود والنصارى والصابئة، الذين كانوا يومئذ في 
-                    <placeName change="#d2e296" xml:id="placeName_61.d2e1679">البصرة</placeName>
+                    والأدباء، اسمه (بيت الحيدرية) وأول من نبه منهم الجد الأعلى الشريف (أحمد الإعرابي) وكان من بادية <placeName change="#d2e423 #d5e434" xml:id="placeName_99.d2e2078" ref="oape:place:217 geon:11785447">الحجاز</placeName> فتحضر في المدينة فأصبح من أكابرها المعدودين وممن يشار إليه بالبنان. ويتصل نسبه بموسى الكاظم.</p>
+                <p change="#d2e73 #d2e296" xml:id="p_101.d2e1677">وقد هاجر بعض من سلالته إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_100.d2e2084" ref="oape:place:209 geon:99237">العراق</placeName>، والبعض الآخر إلى بلاد ما وراء النهر فالذين احتلوا <placeName change="#d2e423 #d5e434" xml:id="placeName_101.d2e2087" ref="oape:place:209 geon:99237">العراق</placeName> جاءوه أيضاً من بلاد وراء النهر، وكان أول نزولهم في <placeName change="#d2e423 #d5e434" xml:id="placeName_102.d2e2090" ref="oape:place:210 geon:99532">البصرة</placeName> الفيحاء، فأقاموا فيها معززين، وما ابطئوا أن غدوا من ساداتها العظام، ورؤسائها الفخام، يأخذون جزية اليهود والنصارى والصابئة، الذين كانوا يومئذ في 
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_61.d2e1679" ref="oape:place:210 geon:99532">البصرة</placeName>
                     . ثم أبدلت الجزية بدراهم معينة في عهد السيد عبد الغفور الحيدري مفتي الشافعية في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_62.d2e1682">بغداد</placeName>
-                    . وكان يتقاضاها من خزينة <placeName change="#d2e423" xml:id="placeName_105.d2e2100">البصرة</placeName> وكان لهؤلاء السادة عدة قرى في جوار 
+                    . وكان يتقاضاها من خزينة <placeName change="#d2e423 #d5e434" xml:id="placeName_105.d2e2100" ref="oape:place:210 geon:99532">البصرة</placeName> وكان لهؤلاء السادة عدة قرى في جوار 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_63.d2e1685">بغداد</placeName>
                     مثل شهربان وهبهب وشروين وغيرها. ونحو ثلاثين قرية في نواحي شهرزور وذلك من عهد السلطان سليمان خان (الذي ملك من 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1520" xml:id="date_3.d2e1688">
@@ -946,7 +946,7 @@
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1247" xml:id="num_1.d2e1711" xml:lang="ar">١٢٤٧</num></date>هـ)  
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1831" xml:id="date_3.d2e1772">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1831" xml:id="num_1.d2e1714" xml:lang="ar">١٨٣١</num></date>م) ثم انحصر بهم إفتاء الشافعية فقط. وجميع إجازات علماء <placeName change="#d2e423" xml:id="placeName_108.d2e2140">العراق</placeName> تنتهي إلى الحيدرية وتنتهي إليهم؛ بل وبعض إجازات بلاد الروم (بر <placeName change="#d2e423" xml:id="placeName_109.d2e2143">الأناضول</placeName> أو آسية الصغرى) تنتمي إلى أحمد بن حيدر صاحب المحاكمات الشهير.</p>
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1831" xml:id="num_1.d2e1714" xml:lang="ar">١٨٣١</num></date>م) ثم انحصر بهم إفتاء الشافعية فقط. وجميع إجازات علماء <placeName change="#d2e423 #d5e434" xml:id="placeName_108.d2e2140" ref="oape:place:209 geon:99237">العراق</placeName> تنتهي إلى الحيدرية وتنتهي إليهم؛ بل وبعض إجازات بلاد الروم (بر <placeName change="#d2e423 #d5e434" xml:id="placeName_109.d2e2143" ref="oape:place:238 geon:323835">الأناضول</placeName> أو آسية الصغرى) تنتمي إلى أحمد بن حيدر صاحب المحاكمات الشهير.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_103.d2e1719">وأما الذين ظعنوا إلى ديار ما وراء النهر. فإنهم أصبحوا هناك أيضاً من أمرائها العظام. وفضلائها الكرام بل نشأت منهم الدولة الصفوية، في الديار الفارسية. واتصال هذه الدولة بالحيدرية يرتقي إلى الشيخ صدر الدين ابن القطب الشيخ صفي الدين أبي الفتح إسحاق.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_104.d2e1722">وكان الصفوية على مذهب أجدادهم مذهب السنة والجماعة، ثم تشيعوا، وأول من عدل منهم عن سنة آبائه وزاغ عنها إسماعيل شاه الصفوي وذلك إن واحداً من أصحاب هذا المذهب نفث في صدره أنه إذا تشيع هو وعسكره يقهر عدوه السني السلطان سليم خان ويورده حياض الخاسرين الخاسئين، ففعل، إلا أن الواقع لم يحقق ما كان في النفس من الأمنية.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_105.d2e1725">قال السيد إبراهيم فصيح بن صبغة الله الحيدري، وهو الذي أخذنا عنه معظم
@@ -965,7 +965,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_107.d2e1744">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_38.d2e1746">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e1748" xml:lang="ar">٢</num>- </hi>اسعد صدر الدين</p>
-                <p change="#d2e73 #d2e296" xml:id="p_108.d2e1753">إذا وعيت ما قرأت ثبت لديك أن هذا البيت بل الأولى هذه الدوحة كثيرة الفروع والأفنان وشيجة العروق منشعبة الأغصان، والإحاطة بمن نبغ من رجالها من الصعب العسر الحصول عليه. إلا إننا نذكر بعض من اشتهر ذكره في <placeName change="#d2e423" xml:id="placeName_111.d2e2188">العراق</placeName> وامتد صيته إلى أبعد الأفاق، فمنهم اسعد صدر الدين مفتي الحنفية ب
+                <p change="#d2e73 #d2e296" xml:id="p_108.d2e1753">إذا وعيت ما قرأت ثبت لديك أن هذا البيت بل الأولى هذه الدوحة كثيرة الفروع والأفنان وشيجة العروق منشعبة الأغصان، والإحاطة بمن نبغ من رجالها من الصعب العسر الحصول عليه. إلا إننا نذكر بعض من اشتهر ذكره في <placeName change="#d2e423 #d5e434" xml:id="placeName_111.d2e2188" ref="oape:place:209 geon:99237">العراق</placeName> وامتد صيته إلى أبعد الأفاق، فمنهم اسعد صدر الدين مفتي الحنفية ب
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_66.d2e1755">بغداد</placeName>
                     وهو ابن العلامة عبد الله الحيدري البغدادي وكان من الرجال الدهاة. وكبار الرواة. ذا هيبة ووقار، وجاه كبار، نال من القبول</p>
                 <p change="#d2e73 #d2e296" xml:id="p_109.d2e1760">والكلمة النافذة بين العباد، ما جعله بين أول مستشاري ولاة 
@@ -1001,7 +1001,7 @@
                     في صباه فاستوطنها. وهو شيخ مشايخ علماء 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_70.d2e1816">بغداد</placeName>
                     في عصره وقد أخذ عنه العلم معاصريه في 
-                    <placeName change="#d2e296" xml:id="placeName_71.d2e1819">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_71.d2e1819" ref="oape:place:211 geon:99072">الموصل</placeName>
                     و
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_72.d2e1822">بغداد</placeName>
                     وما بينهما. وكانت وفاته في 
@@ -1510,7 +1510,7 @@
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_7.d2e2807">
                 <head change="#d2e296" xml:id="head_7.d2e2809">نبذة من تاريخ 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_77.d2e2811">بغداد</placeName>
-                    و<placeName change="#d2e423" xml:id="placeName_124.d2e3277">البصرة</placeName> والمنتفق</head>
+                    و<placeName change="#d2e423 #d5e434" xml:id="placeName_124.d2e3277" ref="oape:place:210 geon:99532">البصرة</placeName> والمنتفق</head>
                 <opener change="#d2e423" xml:id="opener_1.d2e3281"><ref target="oclc_472450345-i_23.TEIP5.xml#div_3.d2e788" change="#d2e423" xml:id="ref_6.d2e3282">تابع لما قبله</ref></opener>
                 <p change="#d2e73 #d2e296" xml:id="p_122.d2e2818">وفي هذه الأيام اهتموا الأعيان والمشايخ في صف بقج هدايا إلى أسعد باشا
 
@@ -1523,7 +1523,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1228" xml:id="num_1.d2e2825" xml:lang="ar">١٢٢٨</num></date>هـ) ( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1813" xml:id="date_3.d2e2893">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1813" xml:id="num_1.d2e2828" xml:lang="ar">١٨١٣</num></date>م) وكان الحاج يوسف الزهير شد هدية مفتخرة من قماش وتفاريق وتمام زر</p>
-                <p change="#d2e73 #d2e296" xml:id="p_123.d2e2832">وشوش جوزه ومسابح لولو وأرسلها مع ابنه حاج عيسى قبل توجه ليتسلم والأعيان وما بقي بالبلد سوى ديوان أفنديسي سابقا وضع قايم مقام وهو حمور رستم غا وعنده كم واحد من أوادم الباب وبما أن الشيخ العكيل ناصر الشبلي ممسوك ومحبوس وفي <placeName change="#d2e423" xml:id="placeName_125.d2e3307">البصرة</placeName> نسيبه شيخ مبارك شيخ العكيل حالاً. شرد إلى الزبير ولبسوا عوضه مخرج بن دهام الذي أخوه عند شيخ حمود ولهذه الأسباب وفراغ البلد من الحكام لا زالت الناس يتحسبون من الشر والفساد والأسواق ليس مستأمنة وفي يوم  
+                <p change="#d2e73 #d2e296" xml:id="p_123.d2e2832">وشوش جوزه ومسابح لولو وأرسلها مع ابنه حاج عيسى قبل توجه ليتسلم والأعيان وما بقي بالبلد سوى ديوان أفنديسي سابقا وضع قايم مقام وهو حمور رستم غا وعنده كم واحد من أوادم الباب وبما أن الشيخ العكيل ناصر الشبلي ممسوك ومحبوس وفي <placeName change="#d2e423 #d5e434" xml:id="placeName_125.d2e3307" ref="oape:place:210 geon:99532">البصرة</placeName> نسيبه شيخ مبارك شيخ العكيل حالاً. شرد إلى الزبير ولبسوا عوضه مخرج بن دهام الذي أخوه عند شيخ حمود ولهذه الأسباب وفراغ البلد من الحكام لا زالت الناس يتحسبون من الشر والفساد والأسواق ليس مستأمنة وفي يوم  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="14" xml:id="num_1.d2e2834" xml:lang="ar">١٤</num>
                     صفر 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" type="auto-markup" when="1813" when-custom="1228" xml:id="date_3.d2e2837">
@@ -1538,7 +1538,7 @@
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_78.d2e2851">بغداد</placeName>
                     لأنه حين وصل خبر انكسار الأوضي صار ب
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_79.d2e2854">بغداد</placeName>
-                    فترا واغات الينيجرية حاصر بالقلعة وأختبطت البلد وأما عرب المنتفق لازالوا يتجاسروا على اختلاس خيل وحوايج العسكر الضعيف لأن. . . . لباس القاووق حصل في بهدله واحتقار لا يوصف من العرب إلى أن ضاقت بهم واشتكوا إلى اسعد باشا وحالاً رحل من قرب حمود وبعد عنه كنحو ثلاثة ساعات وتنبه بالأوضى أن ينطروا دوابهم بالليل من الحرامية ومضى الشيخ حمود لمواجهة سعادته وسؤال خاطره فأمر له أن يعطي من <placeName change="#d2e423" xml:id="placeName_128.d2e3335">البصرة</placeName>  
+                    فترا واغات الينيجرية حاصر بالقلعة وأختبطت البلد وأما عرب المنتفق لازالوا يتجاسروا على اختلاس خيل وحوايج العسكر الضعيف لأن. . . . لباس القاووق حصل في بهدله واحتقار لا يوصف من العرب إلى أن ضاقت بهم واشتكوا إلى اسعد باشا وحالاً رحل من قرب حمود وبعد عنه كنحو ثلاثة ساعات وتنبه بالأوضى أن ينطروا دوابهم بالليل من الحرامية ومضى الشيخ حمود لمواجهة سعادته وسؤال خاطره فأمر له أن يعطي من <placeName change="#d2e423 #d5e434" xml:id="placeName_128.d2e3335" ref="oape:place:210 geon:99532">البصرة</placeName>  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="30" xml:id="num_1.d2e2857" xml:lang="ar">٣٠</num>
                     ألف عين نقدي ودفتر تفاصيل وشال وشكر وقهوة يبلغ مقدار  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="20" xml:id="num_1.d2e2860" xml:lang="ar">٢٠</num>
@@ -1552,7 +1552,7 @@
                     ما يخصنا بل يبقى إلى وقت حضور المتسلم وأما التفاصيل والشال وغيره نتوازعه وكل يقدم من عنده ما يحصل إلى ن يصير حاضر إلى وقت مجيء المتسلم على أن يسلموه إلى السيد على ابن سيد حسين وكيل حمود.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_125.d2e2873">وفي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="16" xml:id="num_1.d2e2875" xml:lang="ar">١٦</num>
-                    ص نهار الأربعاء ويوم الخميس دخل إلى <placeName change="#d2e423" xml:id="placeName_129.d2e3362">البصرة</placeName> جملة عربان من المنتفق وغيرهم واختلت البلد لأن البعض منهم مضوا إلى السوق وبلصوا لدكنجيه بشيء يساوي  
+                    ص نهار الأربعاء ويوم الخميس دخل إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_129.d2e3362" ref="oape:place:210 geon:99532">البصرة</placeName> جملة عربان من المنتفق وغيرهم واختلت البلد لأن البعض منهم مضوا إلى السوق وبلصوا لدكنجيه بشيء يساوي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e2878" xml:lang="ar">٥</num>
                     رومي أعطوا  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e2881" xml:lang="ar">٣</num>
@@ -1566,7 +1566,7 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1594.xhtml" ed="shamela" n="n3-p643" xml:id="pb_27.d2e2894"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="643" facs="#facs_643" edRef="#edition_1" xml:id="pb_54.d2e3383"/>
-                    عيسى زهير إلى <placeName change="#d2e423" xml:id="placeName_130.d2e3385">البصرة</placeName> راجعاً من مواجهة اسعد باشا وقد قبل الهدية منه وانعم عليه وأمر بفرس جيدة مرختة أن تعطى له لأجل والده الحاج يوسف مع بير ولدي بخصوص الكمرك أن يعطي  
+                    عيسى زهير إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_130.d2e3385" ref="oape:place:210 geon:99532">البصرة</placeName> راجعاً من مواجهة اسعد باشا وقد قبل الهدية منه وانعم عليه وأمر بفرس جيدة مرختة أن تعطى له لأجل والده الحاج يوسف مع بير ولدي بخصوص الكمرك أن يعطي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e2896" xml:lang="ar">٣</num>
                     في ال  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="100" xml:id="num_1.d2e2899" xml:lang="ar">١٠٠</num>
@@ -1574,16 +1574,16 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="27" xml:id="num_1.d2e2902" xml:lang="ar">٢٧</num>
                     ص وصلوا الأعيان والمشايخ ويوم الاثنين  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="28" xml:id="num_1.d2e2905" xml:lang="ar">٢٨</num>
-                    ص دخل المتسلم سليمان بك فخري زاده الذي هو موصلي الأصل وكان دخوله بالالاى وقرأ فرمان متسلميته من اسعد باشا وجخل معه رستم اغا متسلم <placeName change="#d2e423" xml:id="placeName_131.d2e3401">البصرة</placeName> سابقا لكي يحاسبه وحضر معه كمركجي نعمان اغا وقبطان باشا عمر اغا سهر إبراهيم اغا واستقرت البلد وامنت الناس وحال المتسلم طالع دلال على الحنطة لا أحد يأخذها إلى برات البلد ولمن أهل البحر تنبيه صارم لأنها كانت المن في  
+                    ص دخل المتسلم سليمان بك فخري زاده الذي هو موصلي الأصل وكان دخوله بالالاى وقرأ فرمان متسلميته من اسعد باشا وجخل معه رستم اغا متسلم <placeName change="#d2e423 #d5e434" xml:id="placeName_131.d2e3401" ref="oape:place:210 geon:99532">البصرة</placeName> سابقا لكي يحاسبه وحضر معه كمركجي نعمان اغا وقبطان باشا عمر اغا سهر إبراهيم اغا واستقرت البلد وامنت الناس وحال المتسلم طالع دلال على الحنطة لا أحد يأخذها إلى برات البلد ولمن أهل البحر تنبيه صارم لأنها كانت المن في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="7" xml:id="num_1.d2e2909" xml:lang="ar">٧</num>
                     والرز الجات في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="8" xml:id="num_1.d2e2912" xml:lang="ar">٨</num>
                     والبصري في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e2915" xml:lang="ar">٥</num>
-                    وإذا ما خرج من ذلك شيء إلى خارج <placeName change="#d2e423" xml:id="placeName_132.d2e3414">البصرة</placeName> يتناسب أثمانه من غير تنبيه. ثم في أوايل شهر ربيع الأول رحل اسعد باشا وسار معه شيخ المنتفك حمود ومعه مقدار ألفين خيال برفق الباشا يوصل معه إلى 
+                    وإذا ما خرج من ذلك شيء إلى خارج <placeName change="#d2e423 #d5e434" xml:id="placeName_132.d2e3414" ref="oape:place:210 geon:99532">البصرة</placeName> يتناسب أثمانه من غير تنبيه. ثم في أوايل شهر ربيع الأول رحل اسعد باشا وسار معه شيخ المنتفك حمود ومعه مقدار ألفين خيال برفق الباشا يوصل معه إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_80.d2e2918">بغداد</placeName>
                     ويمروا على العربان والعشاير الذين على طريقهم (وأما ما كان من الأمر الوارد من اسعد باشا بثلاثين</p>
-                <p change="#d2e73 #d2e296" xml:id="p_126.d2e2922">ألف غرش كما تقدم القول وكان رستم غا توجه من <placeName change="#d2e423" xml:id="placeName_134.d2e3423">البصرة</placeName> فقد ترك وما سلموه إلى وكيل حمود ولكن لزم للوزير خاير واشتراها من آل سوق الشيوش بمبلغ  
+                <p change="#d2e73 #d2e296" xml:id="p_126.d2e2922">ألف غرش كما تقدم القول وكان رستم غا توجه من <placeName change="#d2e423 #d5e434" xml:id="placeName_134.d2e3423" ref="oape:place:210 geon:99532">البصرة</placeName> فقد ترك وما سلموه إلى وكيل حمود ولكن لزم للوزير خاير واشتراها من آل سوق الشيوش بمبلغ  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="30" xml:id="num_1.d2e2924" xml:lang="ar">٣٠</num>
                     .  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="0" xml:id="num_1.d2e2927" xml:lang="ar">٠</num>
@@ -1597,7 +1597,7 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e2935" xml:lang="ar">٦</num>
                     وشيخ سالم ألف  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e2939" xml:lang="ar">٤</num>
-                    بأنهم يدفعوا ذلك وبعده يحولهم على الكمرك في <placeName change="#d2e423" xml:id="placeName_135.d2e3446">البصرة</placeName> والحاج عيسى تكفل إلى أصحاب الطلب بالمبلغ وفي أوائل شهر ربيع الأول أنطلب ذلك المبلغ وأما هم أي التجار المذكورين فرضوا منه على التجار الباقين من الإسلام وخصصوا إلى اليهود مبلغ ألف  
+                    بأنهم يدفعوا ذلك وبعده يحولهم على الكمرك في <placeName change="#d2e423 #d5e434" xml:id="placeName_135.d2e3446" ref="oape:place:210 geon:99532">البصرة</placeName> والحاج عيسى تكفل إلى أصحاب الطلب بالمبلغ وفي أوائل شهر ربيع الأول أنطلب ذلك المبلغ وأما هم أي التجار المذكورين فرضوا منه على التجار الباقين من الإسلام وخصصوا إلى اليهود مبلغ ألف  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e2942" xml:lang="ar">٥</num>
                     وللخواجة جبرا  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="700" xml:id="num_1.d2e2945" xml:lang="ar">٧٠٠</num>
@@ -1627,7 +1627,7 @@
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1228" xml:id="num_1.d2e2980" xml:lang="ar">١٢٢٨</num></date>( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1813" xml:id="date_3.d2e3050">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1813" xml:id="num_1.d2e2983" xml:lang="ar">١٨١٣</num></date>م) حضر إلى <placeName change="#d2e423" xml:id="placeName_138.d2e3500">البصرة</placeName> عليوي مقيداً مساق بأمر الباشا وضعوه بالسراي محبوساً وقيل أنه عليه بقتلة ولكنهم مهلوه ب<placeName change="#d2e423" xml:id="placeName_139.d2e3503">البصرة</placeName> إذ أن مستر ريج باليوز الإنكليز صد وبينهم صداقة كلية ويوملوا بخلاصه وإذ قد حضر أمر بالعفو عنه ولكنه محبوس وفي  
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1813" xml:id="num_1.d2e2983" xml:lang="ar">١٨١٣</num></date>م) حضر إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_138.d2e3500" ref="oape:place:210 geon:99532">البصرة</placeName> عليوي مقيداً مساق بأمر الباشا وضعوه بالسراي محبوساً وقيل أنه عليه بقتلة ولكنهم مهلوه ب<placeName change="#d2e423 #d5e434" xml:id="placeName_139.d2e3503" ref="oape:place:210 geon:99532">البصرة</placeName> إذ أن مستر ريج باليوز الإنكليز صد وبينهم صداقة كلية ويوملوا بخلاصه وإذ قد حضر أمر بالعفو عنه ولكنه محبوس وفي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="11" xml:id="num_1.d2e2986" xml:lang="ar">١١</num>
                     جا (أي جمادي الأولى) 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" type="auto-markup" when="1813" when-custom="1228" xml:id="date_3.d2e2989">
@@ -1639,7 +1639,7 @@
                     ومعه بيورلدى من الباشا في إطلاق سيد عليوي من الحبس وإنه يجلس في بيت الإنكليز ويتعين له في الشهر ماية عين لمصروفه وحالاً مضى عبد الرزاق اغا وأخرجه</p>
                 <p change="#d2e73 #d2e296" xml:id="p_127.d2e3001">من السراي وأتى به إلى الفكترى واعطوه أوضتين وقد قبله مستر كوهين بكل كرامة لائقة وبعده في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="18" xml:id="num_1.d2e3003" xml:lang="ar">١٨</num>
-                    جا توجه مركب مناريس وأرسلوه صحبته إلى بوشهر وأما ما كان من طرف سليمان بك متسلم <placeName change="#d2e423" xml:id="placeName_141.d2e3528">البصرة</placeName> فإنه كما تقدم القول يوم وصوله نبه على الحنطة لا تخرج من البلد وقد استقام التنبيه كم يوم قليلة وراحت إليه الناس وتكلموا معه وقبل الرشوة وصاروا يشحنوا بتاتيل إلى البحر وصارت الحنطة قليلة وثمنها من  
+                    جا توجه مركب مناريس وأرسلوه صحبته إلى بوشهر وأما ما كان من طرف سليمان بك متسلم <placeName change="#d2e423 #d5e434" xml:id="placeName_141.d2e3528" ref="oape:place:210 geon:99532">البصرة</placeName> فإنه كما تقدم القول يوم وصوله نبه على الحنطة لا تخرج من البلد وقد استقام التنبيه كم يوم قليلة وراحت إليه الناس وتكلموا معه وقبل الرشوة وصاروا يشحنوا بتاتيل إلى البحر وصارت الحنطة قليلة وثمنها من  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="7" xml:id="num_1.d2e3006" xml:lang="ar">٧</num>
                     إلى  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="8" xml:id="num_1.d2e3009" xml:lang="ar">٨</num>
@@ -1649,9 +1649,9 @@
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="646" facs="#facs_646" edRef="#edition_1" xml:id="pb_60.d2e3540"/>
                     ما تسنهاب المتسلم لأنه افيونجي وكل ساعة عقله في رأي نظير الجهال العديمين المعرفة وعدا ذلك صدر منه شفاعات كلية والدائرة غالبهم صاروا يشربوا عرق وشراب وسكر وهو دائماً مكيف من الأفيون ويحكم حكومات بغير استقامة وصارت الناس تنفر منه والتجار كذلك غالبهم تخاربوا معه ومنهم الحاج يوسف الزهير وطلع للزبير وبقي هناك ومستر كوهين باليوز الإنكليز كذلك احتصر منه وقيل إنه كتب في حقه وقبله موسيو رايمند باليوز فرنسا كان متزاعل معه واقتضى له التوجه ل
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_84.d2e3014">بغداد</placeName>
-                    لسبب وفاة موسيو اندريا كورنسه وتوجه من <placeName change="#d2e423" xml:id="placeName_143.d2e3545">البصرة</placeName> وهو زعلان من المتسلم ولا عاد بوجد في <placeName change="#d2e423" xml:id="placeName_144.d2e3548">البصرة</placeName> أحد راضي منه وفي غرة جا وصل ل
+                    لسبب وفاة موسيو اندريا كورنسه وتوجه من <placeName change="#d2e423 #d5e434" xml:id="placeName_143.d2e3545" ref="oape:place:210 geon:99532">البصرة</placeName> وهو زعلان من المتسلم ولا عاد بوجد في <placeName change="#d2e423 #d5e434" xml:id="placeName_144.d2e3548" ref="oape:place:210 geon:99532">البصرة</placeName> أحد راضي منه وفي غرة جا وصل ل
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_85.d2e3018">بغداد</placeName>
-                    ناتارية بمجدة الطواخ إلى اسعد باشا وصار شنك وفرح وافي الخبر إلى <placeName change="#d2e423" xml:id="placeName_146.d2e3554">البصرة</placeName> في  
+                    ناتارية بمجدة الطواخ إلى اسعد باشا وصار شنك وفرح وافي الخبر إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_146.d2e3554" ref="oape:place:210 geon:99532">البصرة</placeName> في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="11" xml:id="num_1.d2e3021" xml:lang="ar">١١</num>
                     ج (جمادي الأولى) وصار شنك وبعد ذلك في نصف جا نهار السبت طلع الشيخ حمود من 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_86.d2e3024">بغداد</placeName>
@@ -1659,11 +1659,11 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1598.xhtml" ed="shamela" n="n3-p647" xml:id="pb_31.d2e3027"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="647" facs="#facs_647" edRef="#edition_1" xml:id="pb_62.d2e3566"/>
-                    جزيل من الباشا وقد نال من الباشا والدائرة أموال غزيرة لا تحصى ولا تعد عدا حوايل التي صارت له على <placeName change="#d2e423" xml:id="placeName_148.d2e3568">البصرة</placeName> من إيرادها المراد أن حمود بهذه المادة حصل على لكوك (ليس آلاف) لا يتصدق بها.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_128.d2e3030">ولما كان الباشا في السوق عندهم أوهب إلى أخوة حمود غالب كويات <placeName change="#d2e423" xml:id="placeName_149.d2e3574">البصرة</placeName> مثل حمدان ومهيكران والسراجه وغيرهم بأن يكون إيرادهم لهم وأما حمود حين راي كل ذاك الإكرام والإيراد عدا خزنه عبد الله باشا بما أنه عاقل مدبر راي أن ما وهب إلى أخوته أولد له اسم كبير وثنياً ليس له بل لأخوته الذي يرغب أن لا يتقووا ويصير لهم إيراد وافر فأخذ من أخوته الأوامر وردها على اسعد باشا بقوله أنا لا أرغب يصير لك خصاره أنت عليك مصاريف وعساكر وهذا شيء لا يناسب أخذه منك وثانيا حين وهبته ما كنت ولي الأمر والآن أنا أرجعه عليك فقبل كلامه واخذ أوامره التي كان أعطاها ويعلم الله كم من العطايا نال عوضها وأدخلها لخزنته وحرم أخوته منها.</p>
+                    جزيل من الباشا وقد نال من الباشا والدائرة أموال غزيرة لا تحصى ولا تعد عدا حوايل التي صارت له على <placeName change="#d2e423 #d5e434" xml:id="placeName_148.d2e3568" ref="oape:place:210 geon:99532">البصرة</placeName> من إيرادها المراد أن حمود بهذه المادة حصل على لكوك (ليس آلاف) لا يتصدق بها.</p>
+                <p change="#d2e73 #d2e296" xml:id="p_128.d2e3030">ولما كان الباشا في السوق عندهم أوهب إلى أخوة حمود غالب كويات <placeName change="#d2e423 #d5e434" xml:id="placeName_149.d2e3574" ref="oape:place:210 geon:99532">البصرة</placeName> مثل حمدان ومهيكران والسراجه وغيرهم بأن يكون إيرادهم لهم وأما حمود حين راي كل ذاك الإكرام والإيراد عدا خزنه عبد الله باشا بما أنه عاقل مدبر راي أن ما وهب إلى أخوته أولد له اسم كبير وثنياً ليس له بل لأخوته الذي يرغب أن لا يتقووا ويصير لهم إيراد وافر فأخذ من أخوته الأوامر وردها على اسعد باشا بقوله أنا لا أرغب يصير لك خصاره أنت عليك مصاريف وعساكر وهذا شيء لا يناسب أخذه منك وثانيا حين وهبته ما كنت ولي الأمر والآن أنا أرجعه عليك فقبل كلامه واخذ أوامره التي كان أعطاها ويعلم الله كم من العطايا نال عوضها وأدخلها لخزنته وحرم أخوته منها.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_129.d2e3033">وفي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="20" xml:id="num_1.d2e3035" xml:lang="ar">٢٠</num>
-                    جا وصل إلى سوق الشيوخ وهو بنفس وزير وصاحب الأمر والتدبير وثبل طلوعه عزل لمن أراد ونصب لمن أراد وبما أن سليمان بك متسلم <placeName change="#d2e423" xml:id="placeName_150.d2e3583">البصرة</placeName> من صدقانه ما أراد عزله وبقي في <placeName change="#d2e423" xml:id="placeName_151.d2e3586">البصرة</placeName> إلى أن في تاريخ غرة ج (جمادي الثانية) 
+                    جا وصل إلى سوق الشيوخ وهو بنفس وزير وصاحب الأمر والتدبير وثبل طلوعه عزل لمن أراد ونصب لمن أراد وبما أن سليمان بك متسلم <placeName change="#d2e423 #d5e434" xml:id="placeName_150.d2e3583" ref="oape:place:210 geon:99532">البصرة</placeName> من صدقانه ما أراد عزله وبقي في <placeName change="#d2e423 #d5e434" xml:id="placeName_151.d2e3586" ref="oape:place:210 geon:99532">البصرة</placeName> إلى أن في تاريخ غرة ج (جمادي الثانية) 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" type="auto-markup" when="1813" when-custom="1228" xml:id="date_3.d2e3038">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1228" xml:id="num_1.d2e3040" xml:lang="ar">١٢٢٨</num></date>هـ ( 
@@ -1682,7 +1682,7 @@
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="648" facs="#facs_648" edRef="#edition_1" xml:id="pb_64.d2e3614"/>
                     آل جشعم التي تزوجها في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_87.d2e3061">بغداد</placeName>
-                    وبقية البلاد التي على شط العرب منها كان ضابطها هو وإخوانه من سابق والباقي منها حصلت بيده المراد جميع النخيل الذي على شط العرب ويصير منه إيراد للباشا حصل بيد حمود وبيد أخوته وإن شآؤا يسلموا ميريه لأنهم مصرفين بالأمر ويحكموا ولا يحكم عليهم والصغير من عرب المنتفك ب<placeName change="#d2e423" xml:id="placeName_153.d2e3620">البصرة</placeName> يتكلم بنفس عالي لا يرد ولا أحد يقدر يجاوبه والمتسلم سليمان بك مقيماً ب<placeName change="#d2e423" xml:id="placeName_154.d2e3623">البصرة</placeName> بقوة حمود والبلد آلت للخراب من كثرة الظلم وعدم الإلتفاتة إلى معاش الفقرا والجور من طرفه ومن طرف الدائرة على كافة أرباب البضائع لأن كافة لوازمهم بلا قيمة ويلتزم كل منهم أن يبيع بزايد حتى يطالع الفرق وحيث لا يوجد من يمانعه اتصلوا على بيع وقية الباذنجان والقرع والبامية المايه التفاح وهلم جرا بقية الأشياء كافة شي لا يوصف ولا يتصدق حصوله ب<placeName change="#d2e423" xml:id="placeName_155.d2e3626">البصرة</placeName> والجور على التجار في طلب القرض لأن المبالغ الذي كانوا يطلبوها قطعوا منها جانب وافر من كمرك اموال بنكاله والمتسلم مديون مسبوق والهدايا منه متصله للباب وإلى حمود ويكلف التجار إلى قرض والحاج يوسف طلع للزبير من شهر ربيع الثاني وبقي في الزبير والشيخ سالم توجه للكويت وبقية التجار تعادين أيضاً معه وبقي في الميدان الخواجا جبرا أصفر كل كم يوم يطلبوا منه قرضه وبالجهد حتى يخلص منهم مع أن له عندهم قلم دراهم ولولا نظر مستر كوهين باليوز الإنكليز عليه كانوا أخذوا منه كثير.</p>
+                    وبقية البلاد التي على شط العرب منها كان ضابطها هو وإخوانه من سابق والباقي منها حصلت بيده المراد جميع النخيل الذي على شط العرب ويصير منه إيراد للباشا حصل بيد حمود وبيد أخوته وإن شآؤا يسلموا ميريه لأنهم مصرفين بالأمر ويحكموا ولا يحكم عليهم والصغير من عرب المنتفك ب<placeName change="#d2e423 #d5e434" xml:id="placeName_153.d2e3620" ref="oape:place:210 geon:99532">البصرة</placeName> يتكلم بنفس عالي لا يرد ولا أحد يقدر يجاوبه والمتسلم سليمان بك مقيماً ب<placeName change="#d2e423 #d5e434" xml:id="placeName_154.d2e3623" ref="oape:place:210 geon:99532">البصرة</placeName> بقوة حمود والبلد آلت للخراب من كثرة الظلم وعدم الإلتفاتة إلى معاش الفقرا والجور من طرفه ومن طرف الدائرة على كافة أرباب البضائع لأن كافة لوازمهم بلا قيمة ويلتزم كل منهم أن يبيع بزايد حتى يطالع الفرق وحيث لا يوجد من يمانعه اتصلوا على بيع وقية الباذنجان والقرع والبامية المايه التفاح وهلم جرا بقية الأشياء كافة شي لا يوصف ولا يتصدق حصوله ب<placeName change="#d2e423 #d5e434" xml:id="placeName_155.d2e3626" ref="oape:place:210 geon:99532">البصرة</placeName> والجور على التجار في طلب القرض لأن المبالغ الذي كانوا يطلبوها قطعوا منها جانب وافر من كمرك اموال بنكاله والمتسلم مديون مسبوق والهدايا منه متصله للباب وإلى حمود ويكلف التجار إلى قرض والحاج يوسف طلع للزبير من شهر ربيع الثاني وبقي في الزبير والشيخ سالم توجه للكويت وبقية التجار تعادين أيضاً معه وبقي في الميدان الخواجا جبرا أصفر كل كم يوم يطلبوا منه قرضه وبالجهد حتى يخلص منهم مع أن له عندهم قلم دراهم ولولا نظر مستر كوهين باليوز الإنكليز عليه كانوا أخذوا منه كثير.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_130.d2e3065">ومن بعد وصول الشيخ حمود لمكانه توجهت له الهدية من سليمان بك المتسلم
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1600.xhtml" ed="shamela" n="n3-p649" xml:id="pb_33.d2e3067"/>
@@ -1704,11 +1704,11 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3092" xml:lang="ar">٣</num>
                     أيام يسلمهم فمضى خمسة ولم يكن منه شي فتجمعوا بأسلحتهم نهار الخميس  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="25" xml:id="num_1.d2e3095" xml:lang="ar">٢٥</num>
-                    ج وتوجهوا إلى السراي مانعوهم وتوجه شيخهم لعند المتسلم أوعده فأتى ليقنعهم ما أمكن هجموا على السراي وضربوا المتسلم أول بالصخر وبعضهم هجم عليه ليقتله فتحاوطوه الحاضرين وفر بنفسه إلى الحرم فضربوا بعض الاتباع واخذوا من اوضهم بعض الشي وضربوا كم تفك بالسراي وفتحوا الحبس اطلعوا من فيه من ربعهم الحرامية فحالاً لحق إلى السراي الشيخ عبد المحسن رزق ورجعهم واخذ كلام من المتسلم أن يتدارك لهم بعلا يفهم وحالاً المتسلم كتب إلى الشيخ حمود وقوع الأمر وتجاسر العسكر عليه فأرسل له أحد أولاده يقيم في <placeName change="#d2e423" xml:id="placeName_156.d2e3665">البصرة</placeName> حتى لا يصير خلاف من أحد لأن الهيبة والخوف صار إلى حكام العرب وأما. . . ما عاد أحد يخاف منه وبهذه الأيام توجهت عربان من المنتفق على قبيلة بني كعب أي بني عامر وداسوا أراضيهم ونهبوا قيعانهم وحرقوا بيوتهم قصدهم ضبط القيعان وحصل تعدي زائد على بني كعب وراحت الشكوجية إلى حمود وبعض من المشايخ حتى إنهم ارتدوا عنهم
+                    ج وتوجهوا إلى السراي مانعوهم وتوجه شيخهم لعند المتسلم أوعده فأتى ليقنعهم ما أمكن هجموا على السراي وضربوا المتسلم أول بالصخر وبعضهم هجم عليه ليقتله فتحاوطوه الحاضرين وفر بنفسه إلى الحرم فضربوا بعض الاتباع واخذوا من اوضهم بعض الشي وضربوا كم تفك بالسراي وفتحوا الحبس اطلعوا من فيه من ربعهم الحرامية فحالاً لحق إلى السراي الشيخ عبد المحسن رزق ورجعهم واخذ كلام من المتسلم أن يتدارك لهم بعلا يفهم وحالاً المتسلم كتب إلى الشيخ حمود وقوع الأمر وتجاسر العسكر عليه فأرسل له أحد أولاده يقيم في <placeName change="#d2e423 #d5e434" xml:id="placeName_156.d2e3665" ref="oape:place:210 geon:99532">البصرة</placeName> حتى لا يصير خلاف من أحد لأن الهيبة والخوف صار إلى حكام العرب وأما. . . ما عاد أحد يخاف منه وبهذه الأيام توجهت عربان من المنتفق على قبيلة بني كعب أي بني عامر وداسوا أراضيهم ونهبوا قيعانهم وحرقوا بيوتهم قصدهم ضبط القيعان وحصل تعدي زائد على بني كعب وراحت الشكوجية إلى حمود وبعض من المشايخ حتى إنهم ارتدوا عنهم
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1601.xhtml" ed="shamela" n="n3-p650" xml:id="pb_34.d2e3098"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="650" facs="#facs_650" edRef="#edition_1" xml:id="pb_68.d2e3670"/>
-                    بنوعٍ ما ولهذه الخربطات انربط درب الحويزة ودسبول وششتر وبهبهان وما عاد طريق للقواغل التي دائماً يأتي وتجيب أرزاق ومغل إلى <placeName change="#d2e423" xml:id="placeName_157.d2e3673">البصرة</placeName> ونأخذ عوض ذلك مال وسقوطات حتى أن الذهب المسمى (اليلديز) كان  
+                    بنوعٍ ما ولهذه الخربطات انربط درب الحويزة ودسبول وششتر وبهبهان وما عاد طريق للقواغل التي دائماً يأتي وتجيب أرزاق ومغل إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_157.d2e3673" ref="oape:place:210 geon:99532">البصرة</placeName> ونأخذ عوض ذلك مال وسقوطات حتى أن الذهب المسمى (اليلديز) كان  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e3100" xml:lang="ar">٥</num>
                     ل  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e3103" xml:lang="ar">٦</num>
@@ -1736,7 +1736,7 @@
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1228" xml:id="num_1.d2e3141" xml:lang="ar">١٢٢٨</num></date>( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1813" xml:id="date_3.d2e3214">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1813" xml:id="num_1.d2e3144" xml:lang="ar">١٨١٣</num></date>م) دخل القابجي من المحروسة ومعه الطواخ إلى سعادة أفندينا ولي النعم اسعد باشا وصار بدخوله الأي محتفل وحصل الفرح والسرور والقايم بمقام الكهية أرسل مكتوب للمتسلم مع ساعي بالبشارة في وصول الطواخ لأن سعادته معتمد على عزل سليمان بك وكانوا المتقدمين إلى طلب المتسلمية أربعة أولهم إبراهيم اغا الذي كان حكم مرتين ب<placeName change="#d2e423" xml:id="placeName_159.d2e3725">البصرة</placeName> وجار على الناس وثانيهم رستم غا الذي كان قبل سليمان بك وثالثهم بكر آغا ورابعهم مصطفى آغا ابن صاري محمد آغا وسبب عاقة إعطاء المتسلمية لأحدهم حتى تصل الهدية التي موعد بها سليمان بك وأما هو كان مؤخرها لنه محتسب إلى العزل وفي  
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1813" xml:id="num_1.d2e3144" xml:lang="ar">١٨١٣</num></date>م) دخل القابجي من المحروسة ومعه الطواخ إلى سعادة أفندينا ولي النعم اسعد باشا وصار بدخوله الأي محتفل وحصل الفرح والسرور والقايم بمقام الكهية أرسل مكتوب للمتسلم مع ساعي بالبشارة في وصول الطواخ لأن سعادته معتمد على عزل سليمان بك وكانوا المتقدمين إلى طلب المتسلمية أربعة أولهم إبراهيم اغا الذي كان حكم مرتين ب<placeName change="#d2e423 #d5e434" xml:id="placeName_159.d2e3725" ref="oape:place:210 geon:99532">البصرة</placeName> وجار على الناس وثانيهم رستم غا الذي كان قبل سليمان بك وثالثهم بكر آغا ورابعهم مصطفى آغا ابن صاري محمد آغا وسبب عاقة إعطاء المتسلمية لأحدهم حتى تصل الهدية التي موعد بها سليمان بك وأما هو كان مؤخرها لنه محتسب إلى العزل وفي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="25" xml:id="num_1.d2e3147" xml:lang="ar">٢٥</num>
                     ب (رجب)
 
@@ -1745,7 +1745,7 @@
                     نهار الجمعة وصل للبصرة بيرقدار اسعد باشا ومعه صورة فرمان الدولة العلية وجخل في هلاي وتلي الفرمان باسم محمد سعيد باشا والي 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_89.d2e3153">بغداد</placeName>
                     وبصرة وشهر زور وبعده بيورلدى من سعادته بتقرير المتسلمية لسليمان بك وبعده قروا فرمان من الدولة بخصوص انتصار محمد علي باشا والي 
-                    <placeName change="#d2e296" xml:id="placeName_90.d2e3156">مصر</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_90.d2e3156" ref="oape:place:226 geon:360630">مصر</placeName>
                     على الوهابي وبعده بيورلدى بهذا الخصوص وإنه يصير دعا للسلطان محمود خان وصار شنك في الصراي. ومن البلدة والمراكب رموا أطواب وسليمان (بك) أمر على الشنك سبعة أيام الصبح والعصر فيوم الخامس من الشنك نهار الثلثا ضج الخبر في البلد بأن سليمان بك معزول ونصب غيره متسلم ومقبل للبصرة وحالما بلغ إليه الخبر أرسل أخرج الهدية من الماجوة (لأن كان حملها ليرسلها مع الخزندار وخفاها ووزع غير أشياء من عنده.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_134.d2e3160">وثاني يوم نهار الأربعاء في غرة شعبان توجه كعادته إلى الكمرك وفيما هو جالس وصل باش جوقدار متسلم الجديد الذي هو مصطفى اغا ابن صاري محمد اغا ودخل عليه للكمرك ورفعه إلى الصراي وقيل إنه صاح فيه وأقامه بنفس عالي ووضعه في الخزنة وعليه بيرقين براطلية ينطروه وحبس الخزندار ومحرم بك والجبه خانجي في قناق التفنكجي باشي بالحديد وأظهر بيورلدى إلى سليمان أفندي الدفتر دار بأن يكون قايم مقام إلى حضور مصطفى آغا وفرحت الناس في ارتفاع سليمان بك الذي حرق قلوب الفقراء وحالاً ثاني يوم الحنطة أنوجدت بالسيف (وتهاود) ثمنها إلى حد رومي  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e3162" xml:lang="ar">٥</num>
@@ -1765,7 +1765,7 @@
                     شعبان نهار الثلاثاء وصل إلى المناوي وثاني يوم الأربعاء صباحاً  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="22" xml:id="num_1.d2e3183" xml:lang="ar">٢٢</num>
                     شعبان دخل للبلد والأعيان والالاي ما لحق عليه لأنه أسرع بالركوب وجاء ودخل الصراي من باب الشرقي الذي عند باب المطبخ على العشار ليس من باب الكبير حسب العادة وطلع للديوان واجتمعت الأعيان وقرى البيورلدى وصار الشنك وثاني يوم حالاً ابتدأ في تحصيل الطلب الذي عند سليمان بك لأن باقي عليه قلم وافر للباب عدا دين التجار على الكمرك ومنهم (لهم) عليه خاصةً وجميع الوهم الذي كان ملتحق بالناس من جهته ما ظهر له أثر ولا تفاضل في شيء يضر البلد كلياً.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_136.d2e3187">وأما ما حدث بهذه اليام على أهل البلد عموماً أن العادة ب<placeName change="#d2e423" xml:id="placeName_164.d2e3774">البصرة</placeName> في أيام قص العتق (العذق) الذي هو في شهر أيلول وتشرين يصير أمراض حميات وأما بهذه السنة أبتدت الحميات من شهر تموز وتزايدت في شهر آب ومع الحميات حدث نزول نقطة الذي يسموه ضمله كثيرين أنام في حال الحمى ينزل عليهم النزول وسريعاً يموتون حتى أن أناس من المسلمين ومن جملتهم السيد شعبان أحد أعيان البلد مساء كان طيب ما فيه مرض وفي الليل نزل عليه النزول وحالاً مات ومن المسيحيين توفى الخواجه يوسف أصفر وكان مبدأ مرضه في  
+                <p change="#d2e73 #d2e296" xml:id="p_136.d2e3187">وأما ما حدث بهذه اليام على أهل البلد عموماً أن العادة ب<placeName change="#d2e423 #d5e434" xml:id="placeName_164.d2e3774" ref="oape:place:210 geon:99532">البصرة</placeName> في أيام قص العتق (العذق) الذي هو في شهر أيلول وتشرين يصير أمراض حميات وأما بهذه السنة أبتدت الحميات من شهر تموز وتزايدت في شهر آب ومع الحميات حدث نزول نقطة الذي يسموه ضمله كثيرين أنام في حال الحمى ينزل عليهم النزول وسريعاً يموتون حتى أن أناس من المسلمين ومن جملتهم السيد شعبان أحد أعيان البلد مساء كان طيب ما فيه مرض وفي الليل نزل عليه النزول وحالاً مات ومن المسيحيين توفى الخواجه يوسف أصفر وكان مبدأ مرضه في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="24" xml:id="num_1.d2e3189" xml:lang="ar">٢٤</num>
                     تموز شرقي ( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1813" xml:id="date_3.d2e3263">
@@ -1777,7 +1777,7 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1604.xhtml" ed="shamela" n="n3-p653" xml:id="pb_37.d2e3201"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="653" facs="#facs_653" edRef="#edition_1" xml:id="pb_74.d2e3796"/>
-                    العصر تغمده الله برحمته وعندنا بالكنيسة كان واحد ورتبيت اسمه بدروس ورتبيت كاتسياني (كذا) من بلد اقسقه كان مرسل من قبل المجمع المقدس إلى كابول وكابول في قرب كشمير لأن بها جملة مسيحيين بغير راعٍ فأرسل هذا الأب الذي هو من أبناء المدرسة بوظيفة قاصد رسولي لتلك الأقطار وأقام هناك نحو ثمانية سنين من حين طلوعه من <placeName change="#d2e423" xml:id="placeName_165.d2e3798">البصرة</placeName> إلى حين رجوعه وعمد بتلك الأطراف من كبار وصغار ونساء</p>
+                    العصر تغمده الله برحمته وعندنا بالكنيسة كان واحد ورتبيت اسمه بدروس ورتبيت كاتسياني (كذا) من بلد اقسقه كان مرسل من قبل المجمع المقدس إلى كابول وكابول في قرب كشمير لأن بها جملة مسيحيين بغير راعٍ فأرسل هذا الأب الذي هو من أبناء المدرسة بوظيفة قاصد رسولي لتلك الأقطار وأقام هناك نحو ثمانية سنين من حين طلوعه من <placeName change="#d2e423 #d5e434" xml:id="placeName_165.d2e3798" ref="oape:place:210 geon:99532">البصرة</placeName> إلى حين رجوعه وعمد بتلك الأطراف من كبار وصغار ونساء</p>
                 <p change="#d2e73 #d2e296" xml:id="p_137.d2e3205">ورجال. . . عدد  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="1800" xml:id="num_1.d2e3207" xml:lang="ar">١٨٠٠</num>
                     وينيف ودخل للبصرة متوخم من البحر لأنه استقام ستة أشهر من بنكالة للبصرة بمركب عرب وزاد فيه المرض وهو نزيل عند البادرية وتوفى في يوم  
@@ -1789,7 +1789,7 @@
                     تموز شرقي بوفاة صالحة وكان معه ولد نجيب فريد في كل معنى أصحبه معه كل ذلك المدة ومرض في المركب ودفنه عل حافة الشط قبل وصوله للبصرة وهذا الذي زاد مرضه وأحزن قلبه لأنه ابن شقيقته.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_138.d2e3220">وكان عندنا خادم اسمه كيورك أرمني من اسبهان وكثير ولد خدوم عاقل فقد توخم من رائحة المرحوم الورتبيت ومرض ثمانية أيام ويوم الثامن نهار السبت في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="26" xml:id="num_1.d2e3222" xml:lang="ar">٢٦</num>
-                    تموز شرقي أصبح بنشاط وفيما هو كذلك نزل عليه نقطة وغاب عن الوعي وحيث لا يوجد حكيم يفتهم ولا هذا شيء يعرفوه أن يلزم في ذلك الوقت فصادة فما التحق بشيء وفي ظرف ساعة خرج الدم من خشمه وخرجت روحه من جسمه وبقي دمه يجري إلى ثاني يوم لوقت دفنه لأنه ولد دموي وذو قوة ونشاط وفي شهر آب ازدادت الحميات حتى ما بقي بيت خالٍ من مريض أو اثنين ومات من الإسلام كثيرين من جرى النزول وكثيرين من جرى قلة الحكماء أو حكمة الحكيم العجمي الذي يداوي بالبرودات وهذا شيء ضد هواء <placeName change="#d2e423" xml:id="placeName_166.d2e3825">البصرة</placeName> الذي يوافق
+                    تموز شرقي أصبح بنشاط وفيما هو كذلك نزل عليه نقطة وغاب عن الوعي وحيث لا يوجد حكيم يفتهم ولا هذا شيء يعرفوه أن يلزم في ذلك الوقت فصادة فما التحق بشيء وفي ظرف ساعة خرج الدم من خشمه وخرجت روحه من جسمه وبقي دمه يجري إلى ثاني يوم لوقت دفنه لأنه ولد دموي وذو قوة ونشاط وفي شهر آب ازدادت الحميات حتى ما بقي بيت خالٍ من مريض أو اثنين ومات من الإسلام كثيرين من جرى النزول وكثيرين من جرى قلة الحكماء أو حكمة الحكيم العجمي الذي يداوي بالبرودات وهذا شيء ضد هواء <placeName change="#d2e423 #d5e434" xml:id="placeName_166.d2e3825" ref="oape:place:210 geon:99532">البصرة</placeName> الذي يوافق
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1605.xhtml" ed="shamela" n="n3-p654" xml:id="pb_38.d2e3225"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="654" facs="#facs_654" edRef="#edition_1" xml:id="pb_76.d2e3830"/>
@@ -1804,15 +1804,15 @@
                     أيلول شرقي توفت الإمرأة بقي منهم ابنته الكبيرة وابنة صغيرة وابن صغير بسن سبعة سنين فالتزم البادري أن يفرقهم على الجماعة كل واحدة في بيت لأنهم حاصلين في حال الفقر الكلي واغلق البيت.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_141.d2e3243">فالذي رأيناه من الغم والحصر وحالة الناس وخاصة المسيحيين الذين هم قليلين جداً شيء يوعب القلب غماً وحزناً ولا عاد حكاية ولا خبرية مفرحة بل مكدرة ومع هذه الأحوال كساد لا يوصف على كافة السلع والقرش قليل والأموال كثيرة وكل شيء يؤخذ (كذا) من</p>
                 <p change="#d2e73 #d2e296" xml:id="p_142.d2e3246">البصرة بعدكم يوم ينزل ثمنه).</p>
-                <p change="#d2e73 #d2e296" xml:id="p_143.d2e3250">ونرجع لما كنا بصدده من طرف الحكم فقد حكم مصطفى اغا في <placeName change="#d2e423" xml:id="placeName_168.d2e3857">البصرة</placeName> بغير أن يتعدى على أحد ولا قيل عنه ظلم أحداً وفي 
+                <p change="#d2e73 #d2e296" xml:id="p_143.d2e3250">ونرجع لما كنا بصدده من طرف الحكم فقد حكم مصطفى اغا في <placeName change="#d2e423 #d5e434" xml:id="placeName_168.d2e3857" ref="oape:place:210 geon:99532">البصرة</placeName> بغير أن يتعدى على أحد ولا قيل عنه ظلم أحداً وفي 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_94.d2e3252">بغداد</placeName>
                     الحكم مختل بسبب عدم وجود راس لأن الوزير اسعد باشا حدث السن وأخوته لهم كلام وقاسم بيك أخذ ميدان ( 
                     <num change="#d2e258 #d2e296" type="auto-markup" value="0" xml:id="num_1.d2e3255" xml:lang="ar">٠</num>
                     ) كبير وداود أفندي الذي هو مدبر وصاحب رأى سديد ما قبل أن يصير كهية بسبب كثرة الروس ووجود قاسم بيك وتخربط الطرقات بسببه لأن له عداوة عظيمة من عرب آل جربة وشيخهم فارس ولسبب عداوتهم قطعوا طرقات الجزيرة واتصلوا إلى طريق 
-                    <placeName change="#d2e296" xml:id="placeName_95.d2e3258">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_95.d2e3258" ref="oape:place:211 geon:99072">الموصل</placeName>
                     وسلبوا كراوين وناتارية وحصل ضرر عظيم للتجار ثم منهم في الشامية وقطعوا الدرب وكروان 
-                    <placeName change="#d2e296" xml:id="placeName_96.d2e3261">حلب</placeName>
-                    التزم أن يجي على الخابور بسببهم فبهذه الأيام الوزير أرسل إلى عبد الله اغا الذي كان سابقاً حكم في <placeName change="#d2e423" xml:id="placeName_172.d2e3873">البصرة</placeName> جملة سنين بأيام حكم سليمان باشا وهو الشهير فالرأي السديد والتدبير الرشيد ذو العقل الفريد ودعاه لكي يحضر ل
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_96.d2e3261" ref="oape:place:15 geon:170063">حلب</placeName>
+                    التزم أن يجي على الخابور بسببهم فبهذه الأيام الوزير أرسل إلى عبد الله اغا الذي كان سابقاً حكم في <placeName change="#d2e423 #d5e434" xml:id="placeName_172.d2e3873" ref="oape:place:210 geon:99532">البصرة</placeName> جملة سنين بأيام حكم سليمان باشا وهو الشهير فالرأي السديد والتدبير الرشيد ذو العقل الفريد ودعاه لكي يحضر ل
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_97.d2e3264">بغداد</placeName>
                     لأنه مقيماً في بندر بوشهر من مدة ثمانية سنين ومتجنب حكومة العثماني على ما جرى به بأيام علي باشا (وسابقاً سليمان باشا الصغير وبعده
 
@@ -1826,18 +1826,18 @@
                 <p change="#d2e73 #d2e296" xml:id="p_144.d2e3277">حضورك ارجع إلى مكانك وأرسل عبد الله اغا يحضر إلينا وحالاً احضر شيوخ الخزاعل ولبس لهم شيخ من أرادوه وعاد راجعاً إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_99.d2e3279">بغداد</placeName>
                     فهذا ما كان من الوزير.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_145.d2e3283">وأما ما كان من عبد الله اغا فإنه فارق الشيخ وجاء راجعاً إلى سوق الشيوخ أقام كم يوم يستنظر حرمه المقبل من بندر بوشهر وكان الحرم متعوق في الحضور للبصرة وكان توجه الحرم من <placeName change="#d2e423" xml:id="placeName_176.d2e3898">البصرة</placeName> في  
+                <p change="#d2e73 #d2e296" xml:id="p_145.d2e3283">وأما ما كان من عبد الله اغا فإنه فارق الشيخ وجاء راجعاً إلى سوق الشيوخ أقام كم يوم يستنظر حرمه المقبل من بندر بوشهر وكان الحرم متعوق في الحضور للبصرة وكان توجه الحرم من <placeName change="#d2e423 #d5e434" xml:id="placeName_176.d2e3898" ref="oape:place:210 geon:99532">البصرة</placeName> في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="26" xml:id="num_1.d2e3285" xml:lang="ar">٢٦</num>
                     صفر والمشار إليه بهذا التاريخ ركب من سوق الشيوخ وتوجه إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_100.d2e3288">بغداد</placeName>
-                    لمواجهة الوزير الذي كان قريباً سيدخل إلى <placeName change="#d2e423" xml:id="placeName_178.d2e3907">بغداد</placeName>.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_146.d2e3292">وترجع إلى ما يخص مصطفى أغا متسلم <placeName change="#d2e423" xml:id="placeName_179.d2e3913">البصرة</placeName> فقد أقام بالحكومة من غير ظلم ولا تعدي على أحد وجميع الكلام الذي قيل عنه ما ظهر منه شيء.
+                    لمواجهة الوزير الذي كان قريباً سيدخل إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_178.d2e3907" ref="oape:place:216 geon:98182">بغداد</placeName>.</p>
+                <p change="#d2e73 #d2e296" xml:id="p_146.d2e3292">وترجع إلى ما يخص مصطفى أغا متسلم <placeName change="#d2e423 #d5e434" xml:id="placeName_179.d2e3913" ref="oape:place:210 geon:99532">البصرة</placeName> فقد أقام بالحكومة من غير ظلم ولا تعدي على أحد وجميع الكلام الذي قيل عنه ما ظهر منه شيء.
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1607.xhtml" ed="shamela" n="n3-p656" xml:id="pb_40.d2e3294"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="656" facs="#facs_656" edRef="#edition_1" xml:id="pb_80.d2e3918"/>
-                    وكان عند بيت الشيخ درويش باش أعيان <placeName change="#d2e423" xml:id="placeName_180.d2e3920">البصرة</placeName> والموجود الآن الشيخ قاسم (زوج بيبي خدوج بنت شيخ درويش وهي صاحبة الأمر والنهي) وأحد نزيل عندهم اسمه ملا أحمد بن ملا عبود بغدادي محسوب عليهم من أيام أباه فقد حصل منه تعدي على واحد وذاك الإنسان محسوب على التفنكجي باشي واتصلت الحكاية للمتسلم فأرسل في طلبه من بيت الشيخ ما سلموه ارسل ثاني مرة كذلك ما سلموه فقام بنفسه تبديل ومعه التفنكجي باشي وكافة اوادمه وراح إلى بيت الشيخ هاجماً ليأخذ الولد وذاك لما شاف الأمر دخل للحرم. وأوادم بيت الشيخ وقفوا لمقاومة المتسلم وصارت ملاطشة بينهم وطلع الشيخ قاسم وتقاول مع المتسلم وتشاتموا والمتسلم هجم على شيخ قاسم وقامت أهل المشراق جميعهم فالشيخ أمر على المتسلم ورفعه في مكان بالديوانية واشتغلت الفتنة وتكاثرت الناس على أوادم المتسلم وصار الضرب بينهم وانجرح جملة من الناس من الطرفين وواحد كردي كان جاي قريباً من 
+                    وكان عند بيت الشيخ درويش باش أعيان <placeName change="#d2e423 #d5e434" xml:id="placeName_180.d2e3920" ref="oape:place:210 geon:99532">البصرة</placeName> والموجود الآن الشيخ قاسم (زوج بيبي خدوج بنت شيخ درويش وهي صاحبة الأمر والنهي) وأحد نزيل عندهم اسمه ملا أحمد بن ملا عبود بغدادي محسوب عليهم من أيام أباه فقد حصل منه تعدي على واحد وذاك الإنسان محسوب على التفنكجي باشي واتصلت الحكاية للمتسلم فأرسل في طلبه من بيت الشيخ ما سلموه ارسل ثاني مرة كذلك ما سلموه فقام بنفسه تبديل ومعه التفنكجي باشي وكافة اوادمه وراح إلى بيت الشيخ هاجماً ليأخذ الولد وذاك لما شاف الأمر دخل للحرم. وأوادم بيت الشيخ وقفوا لمقاومة المتسلم وصارت ملاطشة بينهم وطلع الشيخ قاسم وتقاول مع المتسلم وتشاتموا والمتسلم هجم على شيخ قاسم وقامت أهل المشراق جميعهم فالشيخ أمر على المتسلم ورفعه في مكان بالديوانية واشتغلت الفتنة وتكاثرت الناس على أوادم المتسلم وصار الضرب بينهم وانجرح جملة من الناس من الطرفين وواحد كردي كان جاي قريباً من 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_101.d2e3296">بغداد</placeName>
-                    قد كان تفنكجي باشي عند باشة الكرد تصوب برصاص وبعده مات ومحمد اغا بن كنعان تفنكجي باشي <placeName change="#d2e423" xml:id="placeName_182.d2e3927">البصرة</placeName> طرمخوه من الضرب بالعصى وبعض من الجوقدارية تجرحوا.</p>
+                    قد كان تفنكجي باشي عند باشة الكرد تصوب برصاص وبعده مات ومحمد اغا بن كنعان تفنكجي باشي <placeName change="#d2e423 #d5e434" xml:id="placeName_182.d2e3927" ref="oape:place:210 geon:99532">البصرة</placeName> طرمخوه من الضرب بالعصى وبعض من الجوقدارية تجرحوا.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_147.d2e3300">وكان إلى مصطفى اغا أخوين لواحد حسين اغا وهو خزينه داره أمر بسحب أطواب ومضى بهم على بيت الشيخ وأخيراً لحقوا الأعيان وتواسطوا المادة وكفوا الناس وسهلوا الطريق للمتسلم حتى جاء للسراي وكان ذلك يوم الأربعاء في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="26" xml:id="num_1.d2e3302" xml:lang="ar">٢٦</num>
                     كانون الثاني غربي ( 
@@ -1853,14 +1853,14 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1608.xhtml" ed="shamela" n="n3-p657" xml:id="pb_41.d2e3320"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="657" facs="#facs_657" edRef="#edition_1" xml:id="pb_82.d2e3957"/>
-                    ولا رضي بما فعل لأن بنت الشيخ مقامها كبير وخاطرها عزيز عنده أولاً لأسمها الشهير بالشيخ درويش والدولة الواسعة والأملاك المتسعة في <placeName change="#d2e423" xml:id="placeName_184.d2e3959">البصرة</placeName> ولكونها تصير بنت عمته لأن سليمان باشا كان خالها فإكراما لخاطرها حالاُ أمر بعزل مصطفى اغا وركب جوقدار من طرفه اسمه عبد الله اغا حضر للبصرة يوم الجمعة في  
+                    ولا رضي بما فعل لأن بنت الشيخ مقامها كبير وخاطرها عزيز عنده أولاً لأسمها الشهير بالشيخ درويش والدولة الواسعة والأملاك المتسعة في <placeName change="#d2e423 #d5e434" xml:id="placeName_184.d2e3959" ref="oape:place:210 geon:99532">البصرة</placeName> ولكونها تصير بنت عمته لأن سليمان باشا كان خالها فإكراما لخاطرها حالاُ أمر بعزل مصطفى اغا وركب جوقدار من طرفه اسمه عبد الله اغا حضر للبصرة يوم الجمعة في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e3322" xml:lang="ar">٦</num>
                     ربيع الأول 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1814-12-12" notBefore="1813-12-24" type="auto-markup" when-custom="1229" xml:id="date_3.d2e3325">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1229" xml:id="num_1.d2e3327" xml:lang="ar">١٢٢٩</num></date>( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1814" xml:id="date_3.d2e3406">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1814" xml:id="num_1.d2e3330" xml:lang="ar">١٨١٤</num></date>م) ومعه مكاتيب إلى صالح أفندي خزنة كاتبي الذي هو الناظر على الكمرك في <placeName change="#d2e423" xml:id="placeName_185.d2e3976">البصرة</placeName> حالاً وأخبره سرا وسلمه الموامر ومعه مكتوب للمتسلم ما فيه شيء من هذا الخصوص ليطمئن ومضى من هناك إلى عند بنت الشيخ دخل عندها وسلمها مكتوب من الوزير وبشرها بأن الأمر طبق مرامها وحالاً أمرت له بثلاثة جوار بخشيش.</p>
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1814" xml:id="num_1.d2e3330" xml:lang="ar">١٨١٤</num></date>م) ومعه مكاتيب إلى صالح أفندي خزنة كاتبي الذي هو الناظر على الكمرك في <placeName change="#d2e423 #d5e434" xml:id="placeName_185.d2e3976" ref="oape:place:210 geon:99532">البصرة</placeName> حالاً وأخبره سرا وسلمه الموامر ومعه مكتوب للمتسلم ما فيه شيء من هذا الخصوص ليطمئن ومضى من هناك إلى عند بنت الشيخ دخل عندها وسلمها مكتوب من الوزير وبشرها بأن الأمر طبق مرامها وحالاً أمرت له بثلاثة جوار بخشيش.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_149.d2e3335">وأما ما كان من المتسلم فإنه تخوس من مجي الجوقدار ولا عنده أثر خبر فدعا صالح أفندي مستخبراً عن مكاتيب التي أتت إليه فطيب خاطره وأمنه وأنكر عليه المر وقال له نروح إلى المناوي لنعد قبطان باشا ونشوف غيش عنده (لأنه يخاف أن يخبره فيعصي أو يشرد وتصير فتنة) فمضوا إلى المناوي وكان قبطان باشا اسمه عبدي اغا الذي كان اغات الاحتساب سابقاً وصالح أفندي أغتنم فرصة وأخبر قبطان باشا ودبروا الأمر بأن يرجعوا جملة بالماجوة وإن الباشا معزوم عند صالح أفندي. فلما وصلوا إلى عند السراي طلعوا كالعادة من قناق التفنكجي باشي وعند الباب قالوا للمتسلم عليك أمر من أفندينا أنت مرفوع وأمروا بمسكه فمسكهوه اوادم الباشا وأما هو أجاب فرمان افندمزندر وما خالف أبدا حالاً أدخلوه في اوضة في قناق التفنكجي باشي ووضعوا في رجليه الحديد وصبوا فيه الرصاص وعلى الباب عشرين تفنكجي ينطروا وطلع صالح أفندي جلس بالديوان وأحضر جميع الأعيان وقرا عليهم بيورلدى ولي النعم في عزل مصطفى اغا ووكالة صالح أفندي وجملة أناس بل أقول اغلب التاي تأسفوا على رفع مصطفى اغا لأنه كما تقدم القول ما صار منه أذية إلى أحد ويخافوا لئلا يتعوضوا بواحد ردي ظالم.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_150.d2e3338">وأما ما كان من طرف الوزير فإنه دخل إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_103.d2e3340">بغداد</placeName>
@@ -1875,16 +1875,16 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1229" xml:id="num_1.d2e3348" xml:lang="ar">١٢٢٩</num></date>هـ) ( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1814" xml:id="date_3.d2e3429">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1814" xml:id="num_1.d2e3351" xml:lang="ar">١٨١٤</num></date>م) وذاك اليوم ما لبس إبراهيم اغا متسلم على 
-                    <placeName change="#d2e296" xml:id="placeName_104.d2e3355">البصرة</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_104.d2e3355" ref="oape:place:210 geon:99532">البصرة</placeName>
                     (وهذا إبراهيم اغا كان حكم</p>
-                <p change="#d2e73 #d2e296" xml:id="p_151.d2e3359">في <placeName change="#d2e423" xml:id="placeName_188.d2e4013">البصرة</placeName> على فرمان سليمان باشا الصغير وظلم وأبدع مظالم أخيراً عزلوه وحكم ثاني مرة في <placeName change="#d2e423" xml:id="placeName_189.d2e4016">البصرة</placeName> في أيام عبد الله باشا وجار على الناس وأخيراً الفقير والتاجر ما عاد فيه احتمال وتقدمت عروضات بحقه ثم تعادى مع بنت الشيخ وتوجهت إلى 
+                <p change="#d2e73 #d2e296" xml:id="p_151.d2e3359">في <placeName change="#d2e423 #d5e434" xml:id="placeName_188.d2e4013" ref="oape:place:210 geon:99532">البصرة</placeName> على فرمان سليمان باشا الصغير وظلم وأبدع مظالم أخيراً عزلوه وحكم ثاني مرة في <placeName change="#d2e423 #d5e434" xml:id="placeName_189.d2e4016" ref="oape:place:210 geon:99532">البصرة</placeName> في أيام عبد الله باشا وجار على الناس وأخيراً الفقير والتاجر ما عاد فيه احتمال وتقدمت عروضات بحقه ثم تعادى مع بنت الشيخ وتوجهت إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_105.d2e3361">بغداد</placeName>
                     في 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1813-01-03" notBefore="1812-01-16" type="auto-markup" when-custom="1227" xml:id="date_3.d2e3364">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1227" xml:id="num_1.d2e3366" xml:lang="ar">١٢٢٧</num></date>( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1812" xml:id="date_3.d2e3448">
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1812" xml:id="num_1.d2e3369" xml:lang="ar">١٨١٢</num></date>م) وطلبت عزله والباشا عزله ونصب مكانه رستم اغا وكما تقدم في هذا التاريخ وقت الذي انتصر اسعد باشا وكان عند المنتفك لبس سليمان بك المقدم ذكره وبعده صار مصطفى اغا فيكون في مضية ثلاثة سنين خمسة متسلمين حكموا ب<placeName change="#d2e423" xml:id="placeName_191.d2e4033">البصرة</placeName>) والمذكور حالا لبس الكرك أرسل باش جوقداره إلى <placeName change="#d2e423" xml:id="placeName_192.d2e4036">البصرة</placeName> يخبر بحكومته وحرر إلى صالح أفندي أن يكون نائبا عنه إلى حين مجيئه فوقع الغم على الفقراء ب<placeName change="#d2e423" xml:id="placeName_193.d2e4039">البصرة</placeName> حيث أن في أيام مصطفى اغا صار بنوع ما رخص فالحنطة البحرية الطبية نزلت إلى سعر  
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1812" xml:id="num_1.d2e3369" xml:lang="ar">١٨١٢</num></date>م) وطلبت عزله والباشا عزله ونصب مكانه رستم اغا وكما تقدم في هذا التاريخ وقت الذي انتصر اسعد باشا وكان عند المنتفك لبس سليمان بك المقدم ذكره وبعده صار مصطفى اغا فيكون في مضية ثلاثة سنين خمسة متسلمين حكموا ب<placeName change="#d2e423 #d5e434" xml:id="placeName_191.d2e4033" ref="oape:place:210 geon:99532">البصرة</placeName>) والمذكور حالا لبس الكرك أرسل باش جوقداره إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_192.d2e4036" ref="oape:place:210 geon:99532">البصرة</placeName> يخبر بحكومته وحرر إلى صالح أفندي أن يكون نائبا عنه إلى حين مجيئه فوقع الغم على الفقراء ب<placeName change="#d2e423 #d5e434" xml:id="placeName_193.d2e4039" ref="oape:place:210 geon:99532">البصرة</placeName> حيث أن في أيام مصطفى اغا صار بنوع ما رخص فالحنطة البحرية الطبية نزلت إلى سعر  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3372" xml:lang="ar">٤</num>
                     وغيرها وقس على ذلك سائر الأشياء تهاودت عن أيام سليمان بك.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_152.d2e3376">وأما ما كان من طرف عبد الله اغا فإنه وصل إلى 
@@ -1901,7 +1901,7 @@
                     وواجه الوزير بكل كرامة والقول إنه أعطاه المقاطعات عن هذه السنة أيضاً أي عن 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1814-12-12" notBefore="1813-12-24" type="auto-markup" when-custom="1229" xml:id="date_3.d2e3396">
                         سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1229" xml:id="num_1.d2e3398" xml:lang="ar">١٢٢٩</num></date>(هـ) وبهذه السنة توجه من قبل <placeName change="#d2e423" xml:id="placeName_196.d2e4075">الدولة العثمانية</placeName> وزير يسمى بابا باشا رجل مدبر عاقل عالم بالأمور فريد عصره في ملك آل عثمان من
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1229" xml:id="num_1.d2e3398" xml:lang="ar">١٢٢٩</num></date>(هـ) وبهذه السنة توجه من قبل <placeName change="#d2e423 #d5e434" xml:id="placeName_196.d2e4075" ref="oape:place:1">الدولة العثمانية</placeName> وزير يسمى بابا باشا رجل مدبر عاقل عالم بالأمور فريد عصره في ملك آل عثمان من
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1610.xhtml" ed="shamela" n="n3-p659" xml:id="pb_43.d2e3401"/>
                     <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="659" facs="#facs_659" edRef="#edition_1" xml:id="pb_86.d2e4080"/>
@@ -1910,7 +1910,7 @@
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1814-12-12" notBefore="1813-12-24" type="auto-markup" when-custom="1229" xml:id="date_3.d2e3401">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1229" xml:id="num_1.d2e3408" xml:lang="ar">١٢٢٩</num></date>جانا خبر للبصرة أنه وصل قريب 
-                    <placeName change="#d2e296" xml:id="placeName_108.d2e3411">الموصل</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_108.d2e3411" ref="oape:place:211 geon:99072">الموصل</placeName>
                     والقول عنه أنه قاصد عرب المنتفق الذي وصلت أخبارهم إلى الدولة في عظم دولتهم وبهتهم مال هبد الله باشا ومن هنا ينتج بأن اسعد باشا استدعى حمود لأملا ما والله اعلم.</p>
                 <closer change="#d2e423" xml:id="closer_1.d2e4095">تمت:</closer>
                 <byline change="#d2e219 #d2e296" xml:id="byline_4.d2e3416">نشرها 
@@ -1986,10 +1986,10 @@
                     أسماء المبعوثين والحقتم ذلك بأنهم سافروا نهار الاثنين  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="10" xml:id="num_1.d2e3542" xml:lang="ar">١٠</num>
                     جمادي الأولى فالذي سافر منهم بذلك التاريخ جميل صدقي أفندي وتوفيق بك فقط وأما مراد بك فهو متأخر إلى اليوم لأشغال له خصوصية وفؤاد أفندي كان في 
-                    <placeName change="#d2e296" xml:id="placeName_112.d2e3545">الشام</placeName>
-                    منفصلاً عن رئاسة محكمة الجزاء الثانية الملغاة ومنها توجه إلى <placeName change="#d2e423" xml:id="placeName_201.d2e4233">الأستانة</placeName> وشوكت باشا سافر نهار السبت  
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_112.d2e3545" ref="oape:place:61 geon:170654">الشام</placeName>
+                    منفصلاً عن رئاسة محكمة الجزاء الثانية الملغاة ومنها توجه إلى <placeName change="#d2e423 #d5e434" xml:id="placeName_201.d2e4233" ref="oape:place:3 geon:745044">الأستانة</placeName> وشوكت باشا سافر نهار السبت  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="7" xml:id="num_1.d2e3549" xml:lang="ar">٧</num>
-                    جمادي الآخرة وساسون أفندي هو في <placeName change="#d2e423" xml:id="placeName_202.d2e4239">الأستانة</placeName> مستشار نظارة التجارة والزراعة.</p>
+                    جمادي الآخرة وساسون أفندي هو في <placeName change="#d2e423 #d5e434" xml:id="placeName_202.d2e4239" ref="oape:place:3 geon:745044">الأستانة</placeName> مستشار نظارة التجارة والزراعة.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_165.d2e3554">وفي الصفحة  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="616" xml:id="num_1.d2e3556" xml:lang="ar">٦١٦</num>
                     نقلتم عن الرياض بحث تعداد النفوس في الولاية وإن الإحصاء في زمن مدحت باشا كان للمسلمين  
@@ -2022,7 +2022,7 @@
                             <persName change="#d2e423" xml:id="persName_9.d2e4301">صاحب مجلة 
                             <title change="#d2e296" level="j" xml:id="title_10.d2e3610">لغة</title></persName></addName>
                     </persName>العرب</p>
-                <p change="#d2e73 #d2e296" xml:id="p_170.d2e3614">بعد التحية والإكرام قرأت المقالة التي كتبتموها عن صيد السمك في <placeName change="#d2e423" xml:id="placeName_203.d2e4310">العراق</placeName> في  
+                <p change="#d2e73 #d2e296" xml:id="p_170.d2e3614">بعد التحية والإكرام قرأت المقالة التي كتبتموها عن صيد السمك في <placeName change="#d2e423 #d5e434" xml:id="placeName_203.d2e4310" ref="oape:place:209 geon:99237">العراق</placeName> في  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3616" xml:lang="ar">٣</num>
                     :  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="519" xml:id="num_1.d2e3619" xml:lang="ar">٥١٩</num>
@@ -2075,8 +2075,8 @@
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3708" xml:lang="ar">١</num>- </hi>المباحث</head>
                     <p change="#d2e73 #d2e296" xml:id="p_182.d2e3713">(مجلة علمية أدبية فكاهية لمنشئيها جرجي وصموئيل ينى. السنة السادسة. قيمة الاشتراك عن سنة  
                         <date calendar="#cal_islamic" change="#d2e315 #d2e350" datingMethod="#cal_islamic" when-custom="0015" xml:id="date_3.d2e3796">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="15" xml:id="num_1.d2e3715" xml:lang="ar">١٥</num></date>فرنكاً في <placeName change="#d2e423" xml:id="placeName_204.d2e4425">طرابلس</placeName> وفي سائر الأماكن يضاف فرنكان على أجرة البريد) وهي شهرية تصدر في <placeName change="#d2e423" xml:id="placeName_205.d2e4428">طرابلس</placeName> 
-                        <placeName change="#d2e296" xml:id="placeName_113.d2e3718">الشام</placeName>
+                            <num change="#d2e258 #d2e296" type="auto-markup" value="15" xml:id="num_1.d2e3715" xml:lang="ar">١٥</num></date>فرنكاً في <placeName change="#d2e423 #d5e434" xml:id="placeName_204.d2e4425" ref="oape:place:30 geon:266826">طرابلس</placeName> وفي سائر الأماكن يضاف فرنكان على أجرة البريد) وهي شهرية تصدر في <placeName change="#d2e423 #d5e434" xml:id="placeName_205.d2e4428" ref="oape:place:30 geon:266826">طرابلس</placeName> 
+                        <placeName change="#d2e296 #d5e434" xml:id="placeName_113.d2e3718" ref="oape:place:61 geon:170654">الشام</placeName>
                         في  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="104" xml:id="num_1.d2e3721" xml:lang="ar">١٠٤</num>
                         صفحات بحجم المجلات الكبيرة</p>
@@ -2105,9 +2105,9 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_49.d2e3763">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3765" xml:lang="ar">٤</num>- </hi>الجزء الثاني من كتاب المطالعات والمراجعات والنقود</head>
                     <p change="#d2e73 #d2e296" xml:id="p_191.d2e3771">والردود لمؤلفه محمد الحسين كاشف الغطاء 
-                        <placeName change="#d2e423" xml:id="placeName_207.d2e4495">النجف</placeName>
+                        <placeName change="#d2e423 #d5e434" xml:id="placeName_207.d2e4495" ref="oape:place:215 geon:98862">النجف</placeName>
                         ي.</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_192.d2e3774">طبع في مطبعة العرفان ب<placeName change="#d2e423" xml:id="placeName_208.d2e4501">صيدا</placeName> 
+                    <p change="#d2e73 #d2e296" xml:id="p_192.d2e3774">طبع في مطبعة العرفان ب<placeName change="#d2e423 #d5e434" xml:id="placeName_208.d2e4501" ref="oape:place:9 geon:268064">صيدا</placeName> 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1913-11-29" notBefore="1912-12-11" type="auto-markup" when-custom="1331" xml:id="date_3.d2e3776">
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1331" xml:id="num_1.d2e3778" xml:lang="ar">١٣٣١</num></date>
@@ -2125,7 +2125,7 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_51.d2e3799">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e3801" xml:lang="ar">٦</num>- </hi>كتاب الإتقان في صرف لغة السريان</head>
                     <p change="#d2e73 #d2e296" xml:id="p_197.d2e3807">للمطران يوسف دريان مطران طرسوس شرفاً والنائب البطريكي الماروني وظيفة. طبع بالمطبعة العلمية ليوسف صادر في 
-                        <placeName change="#d2e296" xml:id="placeName_114.d2e3809">بيروت</placeName>
+                        <placeName change="#d2e296 #d5e434" xml:id="placeName_114.d2e3809" ref="oape:place:26 geon:276781">بيروت</placeName>
                         <date change="#d2e266 #d2e296" type="auto-markup" when="1913" xml:id="date_3.d2e3812">
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1913" xml:id="num_1.d2e3814" xml:lang="ar">١٩١٣</num></date>.</p>
@@ -2144,7 +2144,7 @@
                 </div>
                 <div change="#d2e307 #d2e350 #d2e421" type="item" xml:id="div_11.d2e3923" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_200.d2e3839">على أننا نقول إن هذه الشامات لا نشوه محاسن هذا الكتاب بل ربما حسنته على مذهب من برى 
-                        <placeName change="#d2e296" xml:id="placeName_115.d2e3841">الشام</placeName>
+                        <placeName change="#d2e296 #d5e434" xml:id="placeName_115.d2e3841" ref="oape:place:61 geon:170654">الشام</placeName>
                         محسنات في الوجوه لا مشوهات لها.
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1616.xhtml" ed="shamela" n="n3-p665" xml:id="pb_49.d2e3844"/>
@@ -2265,10 +2265,10 @@
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_229.d2e4066">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_57.d2e4068">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="12" xml:id="num_1.d2e4070" xml:lang="ar">١٢</num>- </hi>ديوان الطباطبائي</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_230.d2e4075">(وهو ديوان السيد إبراهيم الطباطبائي شاعر <placeName change="#d2e423" xml:id="placeName_215.d2e4847">العراق</placeName> الشهير المتوفى 
+                    <p change="#d2e73 #d2e296" xml:id="p_230.d2e4075">(وهو ديوان السيد إبراهيم الطباطبائي شاعر <placeName change="#d2e423 #d5e434" xml:id="placeName_215.d2e4847" ref="oape:place:209 geon:99237">العراق</placeName> الشهير المتوفى 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1902-04-08" notBefore="1901-04-20" type="auto-markup" when-custom="1319" xml:id="date_3.d2e4077">
                             سنة 
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="1319" xml:id="num_1.d2e4079" xml:lang="ar">١٣١٩</num></date>هـ. أذن بنشره وتمثيله للطبع ولداه الفاضلان السيد حسن والسيد محمد. طبع على نفقة شركة عراقية وحقوق الطبع محفوظة لها ومسجلة باسمها رسمياً طبع بمطبعة العرفان في <placeName change="#d2e423" xml:id="placeName_216.d2e4855">صيدا</placeName> 
+                            <num change="#d2e258 #d2e296" type="auto-markup" value="1319" xml:id="num_1.d2e4079" xml:lang="ar">١٣١٩</num></date>هـ. أذن بنشره وتمثيله للطبع ولداه الفاضلان السيد حسن والسيد محمد. طبع على نفقة شركة عراقية وحقوق الطبع محفوظة لها ومسجلة باسمها رسمياً طبع بمطبعة العرفان في <placeName change="#d2e423 #d5e434" xml:id="placeName_216.d2e4855" ref="oape:place:9 geon:268064">صيدا</placeName> 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1914-11-18" notBefore="1913-11-30" type="auto-markup" when-custom="1332" xml:id="date_3.d2e4082">
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1332" xml:id="num_1.d2e4084" xml:lang="ar">١٣٣٢</num></date>هـ. وقيمته بشلكات.)</p>
@@ -2337,14 +2337,14 @@
                     <p change="#d2e73 #d2e296" xml:id="p_243.d2e4206">ومما فات الناشر ذكره في المقدمة حذف اسم صاحب الجوهر (وهو الشيخ محمد حسن المتوفى 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1850-11-05" notBefore="1849-11-17" type="auto-markup" when-custom="1266" xml:id="date_3.d2e4208">
                             سنة 
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="1266" xml:id="num_1.d2e4210" xml:lang="ar">١٢٦٦</num></date>). ومما لم ينتبه إليه الناشر تعديد الأسر الطباطبائية في <placeName change="#d2e423" xml:id="placeName_217.d2e4994">العراق</placeName> أمناً للبس إذ بينها أسرة بحر العلوم التي منها صاحب هذا الديوان. وآل السيد (مير علي) صاحب كتاب الرياض وهذا البيت مقيم في 
-                        <placeName change="#d2e423" xml:id="placeName_218.d2e4997">كربلاء</placeName>
-                        . وآل الطباطبائي في <placeName change="#d2e423" xml:id="placeName_219.d2e5000">البصرة</placeName> وهؤلاء من السنة ومن أجدادهم السيد
+                            <num change="#d2e258 #d2e296" type="auto-markup" value="1266" xml:id="num_1.d2e4210" xml:lang="ar">١٢٦٦</num></date>). ومما لم ينتبه إليه الناشر تعديد الأسر الطباطبائية في <placeName change="#d2e423 #d5e434" xml:id="placeName_217.d2e4994" ref="oape:place:209 geon:99237">العراق</placeName> أمناً للبس إذ بينها أسرة بحر العلوم التي منها صاحب هذا الديوان. وآل السيد (مير علي) صاحب كتاب الرياض وهذا البيت مقيم في 
+                        <placeName change="#d2e423 #d5e434" xml:id="placeName_218.d2e4997" ref="oape:place:372 geon:94824">كربلاء</placeName>
+                        . وآل الطباطبائي في <placeName change="#d2e423 #d5e434" xml:id="placeName_219.d2e5000" ref="oape:place:210 geon:99532">البصرة</placeName> وهؤلاء من السنة ومن أجدادهم السيد
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1620.xhtml" ed="shamela" n="n3-p669" xml:id="pb_53.d2e4213"/>
                         <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="669" facs="#facs_669" edRef="#edition_1" xml:id="pb_106.d2e5006"/>
                         عبد الجليل الطباطبائي صاحب الديوان المطبوع في الهند. ومن الطباطبائيين: السيد كاظم اليزدي نزيل 
-                        <placeName change="#d2e296" xml:id="placeName_120.d2e4215">النجف</placeName>
+                        <placeName change="#d2e296 #d5e434" xml:id="placeName_120.d2e4215" ref="oape:place:215 geon:98862">النجف</placeName>
                         وهو من أكبر علماء الشيعة الحاليين ويتصل أجداد هذا السيد بأجداد آل بحر العلوم بعد عدة أصلاب. وأما سائر من يسمى بالطباطبائيين فليس بينهم قرابة رحم ولا صلة نسب. فهم طباطبائيون في اللفظ لا غير</p>
                     <p change="#d2e73 #d2e296" xml:id="p_244.d2e4219">ومن هفوات الناشر قوله ص  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e4221" xml:lang="ar">٤</num>
@@ -2372,11 +2372,11 @@
                         : (إذا انبعثت تستشيط غضابا.) - وقال في ص  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="35" xml:id="num_1.d2e4261" xml:lang="ar">٣٥</num>
                         : (غريبا أرى غريب الديار) وهذا الشطر لمهيار من قصيدته الفائية في رثاء الحسين.</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_247.d2e4266">وهذا كله لا يزري بحسن الديوان فإنه مما يخلد اسم ناظمه ويبقى له الشهرة الطيبة بين شعراء <placeName change="#d2e423" xml:id="placeName_221.d2e5059">العراق</placeName>.</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_247.d2e4266">وهذا كله لا يزري بحسن الديوان فإنه مما يخلد اسم ناظمه ويبقى له الشهرة الطيبة بين شعراء <placeName change="#d2e423 #d5e434" xml:id="placeName_221.d2e5059" ref="oape:place:209 geon:99237">العراق</placeName>.</p>
                 </div>
             </div>
             <div change="#d2e64 #d2e296" type="section" xml:id="div_12.d2e4271">
-                <head change="#d2e296" xml:id="head_12.d2e4273">تاريخ وقائع الشهر في <placeName change="#d2e423" xml:id="placeName_222.d2e5070">العراق</placeName> وما جاوره</head>
+                <head change="#d2e296" xml:id="head_12.d2e4273">تاريخ وقائع الشهر في <placeName change="#d2e423 #d5e434" xml:id="placeName_222.d2e5070" ref="oape:place:209 geon:99237">العراق</placeName> وما جاوره</head>
                 <div change="#d2e307 #d2e350" subtype="article" type="item" xml:id="div_12.d2e4364">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_248.d2e4276">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_58.d2e4278">
@@ -2385,7 +2385,7 @@
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1621.xhtml" ed="shamela" n="n3-p670" xml:id="pb_54.d2e4287"/>
                         <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" n="670" facs="#facs_670" edRef="#edition_1" xml:id="pb_108.d2e5089"/>
-                        أمر بقتل خاله زامل السبهان وهو الذي سعى السعي الصادق في توطيد أسس الإمارة في حين كانت قد أوشكت أن تنتقض؛ وهو الذي كان يدافع حق الدفاع عن الإمارة كل مرة حاول بعض الأعداء مسها بضر، وهو الذي أصلح ذات البين بين الأمير ابن السعود والأمير ابن الرشيد فطأطأت قبائل شمر رؤوسها لأميرها وهو الذي كفل تربية الأمير الجالس على عرش الإمارة منذ أن كان في المهد إلى أن أجلسه على أريكة الملك بعد أن زحزح عنها أولاد وأحفاد عبيد الرشيد الذين ورثوا الملك بعد قتلهم أخوته. - وسبب قتله على ما يقال هو إباؤه موافقة أوامر الأمير لأن زاملاً لا يحب مقاطعة الأمير ابن السعود. وكان يقولك لا حاجة لنا أن نتدخل في مسألة <placeName change="#d2e423" xml:id="placeName_223.d2e5091">البصرة</placeName> وسياسة الدولة ولهذا اتفق الأمير سعود الصالح السبهان (وهو ابن عم زامل من فخذ السلامة) على قتله (وهو من فخذ العلي وكلاهما أي القاتل والمقتول من آل سبهان) وقتل أربعة معه وهم: سبهان عم زامل، واثنان آخران من أبناء عم زامل. وأرسل الأمير ابن الرشيد سرية إلى بلدة حائل لقتل إبراهيم السبهان المقيم فيها وأودع إدارة الأمور التي كانت بيد زامل إلى القاتل سعود المذكور.</p>
+                        أمر بقتل خاله زامل السبهان وهو الذي سعى السعي الصادق في توطيد أسس الإمارة في حين كانت قد أوشكت أن تنتقض؛ وهو الذي كان يدافع حق الدفاع عن الإمارة كل مرة حاول بعض الأعداء مسها بضر، وهو الذي أصلح ذات البين بين الأمير ابن السعود والأمير ابن الرشيد فطأطأت قبائل شمر رؤوسها لأميرها وهو الذي كفل تربية الأمير الجالس على عرش الإمارة منذ أن كان في المهد إلى أن أجلسه على أريكة الملك بعد أن زحزح عنها أولاد وأحفاد عبيد الرشيد الذين ورثوا الملك بعد قتلهم أخوته. - وسبب قتله على ما يقال هو إباؤه موافقة أوامر الأمير لأن زاملاً لا يحب مقاطعة الأمير ابن السعود. وكان يقولك لا حاجة لنا أن نتدخل في مسألة <placeName change="#d2e423 #d5e434" xml:id="placeName_223.d2e5091" ref="oape:place:210 geon:99532">البصرة</placeName> وسياسة الدولة ولهذا اتفق الأمير سعود الصالح السبهان (وهو ابن عم زامل من فخذ السلامة) على قتله (وهو من فخذ العلي وكلاهما أي القاتل والمقتول من آل سبهان) وقتل أربعة معه وهم: سبهان عم زامل، واثنان آخران من أبناء عم زامل. وأرسل الأمير ابن الرشيد سرية إلى بلدة حائل لقتل إبراهيم السبهان المقيم فيها وأودع إدارة الأمور التي كانت بيد زامل إلى القاتل سعود المذكور.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_250.d2e4290">وفي مناسبة هذا القتل السياسي عددت صدى الدستور قتلى الرشيد وأبناء عمهم آل سبهان في السنوات العشر الأخير فقالت: سالم ومهنا الرشيد اللذان قتلا في حرب الطرفية الشهيرة التي وقعت بين الأمير عبد العزيز الرشيد وبين أمير الكويت وماجد وعبيد الرشيد وفهد السبهان الذين قتلوا في حرب القصيم في محاربتهم الأمير عبد العزيز السعود وعبد العزيز الرشيد الذي قتل في محاربته الأمير عبد العزيز السعود.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_251.d2e4293">أما الذين قتلوا في الفتن التي ثارت بينهم من أجل الإمارة فهم: متعب ومشعل وطلال ومحمد وكلهم من آل الرشيد قتلهم أبناء عمهم سعود وسلطان وفيصل. وعبد الله وسلمان وحمداً وكلهم من بيت الرشيد.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_252.d2e4297">والذين بقوا من بيت الرشيد خمسة وهم: الأمير الحالي وعمره  
@@ -2418,8 +2418,8 @@
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_259.d2e4342">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_62.d2e4344">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e4346" xml:lang="ar">٥</num>- </hi>الإنكليز في 
-                        <placeName change="#d2e296" xml:id="placeName_121.d2e4350">البصرة</placeName></head>
-                    <p change="#d2e73 #d2e296" xml:id="p_260.d2e4353">وضعت إنكلترة في <placeName change="#d2e423" xml:id="placeName_225.d2e5174">البصرة</placeName> سفينة كبيرة فيها دقل عالٍ وفي قمنه قنديل ينار ليلاً لإضاءة مدخل <placeName change="#d2e423" xml:id="placeName_226.d2e5177">البصرة</placeName> الخطر على البواخر القادمة من أسفل الخليج الفارسي.</p>
+                        <placeName change="#d2e296 #d5e434" xml:id="placeName_121.d2e4350" ref="oape:place:210 geon:99532">البصرة</placeName></head>
+                    <p change="#d2e73 #d2e296" xml:id="p_260.d2e4353">وضعت إنكلترة في <placeName change="#d2e423 #d5e434" xml:id="placeName_225.d2e5174" ref="oape:place:210 geon:99532">البصرة</placeName> سفينة كبيرة فيها دقل عالٍ وفي قمنه قنديل ينار ليلاً لإضاءة مدخل <placeName change="#d2e423 #d5e434" xml:id="placeName_226.d2e5177" ref="oape:place:210 geon:99532">البصرة</placeName> الخطر على البواخر القادمة من أسفل الخليج الفارسي.</p>
                 </div>
                 <div change="#d2e307 #d2e350 #d2e421" type="item" xml:id="div_12.d2e4447" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_261.d2e4356">
@@ -2532,9 +2532,9 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="39" xml:id="num_1.d2e4548" xml:lang="ar">٣٩</num>
                     س  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="11" xml:id="num_1.d2e4551" xml:lang="ar">١١</num>
-                    لما فصلت <placeName change="#d2e423" xml:id="placeName_227.d2e5406">البصرة</placeName> عن ولاية 
+                    لما فصلت <placeName change="#d2e423 #d5e434" xml:id="placeName_227.d2e5406" ref="oape:place:210 geon:99532">البصرة</placeName> عن ولاية 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_122.d2e4555">بغداد</placeName>
-                    : إن ولاية <placeName change="#d2e423" xml:id="placeName_229.d2e5412">البصرة</placeName> انفصلت للمرة الأولى عن ولاية 
+                    : إن ولاية <placeName change="#d2e423 #d5e434" xml:id="placeName_229.d2e5412" ref="oape:place:210 geon:99532">البصرة</placeName> انفصلت للمرة الأولى عن ولاية 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_123.d2e4558">بغداد</placeName>
                     في 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1876-01-26" notBefore="1875-02-07" type="auto-markup" when-custom="1292" xml:id="date_3.d2e4561">
@@ -2542,7 +2542,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1292" xml:id="num_1.d2e4563" xml:lang="ar">١٢٩٢</num></date>هـ ( 
                     <date calendar="#cal_gregorian" change="#d2e315 #d2e350" when="1875" xml:id="date_3.d2e4663">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1875" xml:id="num_1.d2e4566" xml:lang="ar">١٨٧٥</num></date>م) فعين لها والياً الوزير ناصر باشا كما روته (سالنامة 
-                    <placeName change="#d2e296" xml:id="placeName_124.d2e4569">البصرة</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_124.d2e4569" ref="oape:place:210 geon:99532">البصرة</placeName>
                     ) الصادرة في 
                     <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1903-03-29" notBefore="1902-04-10" type="auto-markup" when-custom="1320" xml:id="date_3.d2e4572">
                         سنة 
@@ -2570,7 +2570,7 @@
                     الحاشية  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e4611" xml:lang="ar">٢</num>
                     صحيحها: نهر سمرة الذي ذكره ياقوت هو غير النهر الذي ذكرناه نحن (هذا التصحيح من الكاتب الأديب) إذ أن في الأول قبر العزيز عم وهو واقع على نهر دجلة شمالي القرنة. وأما النهر الذي ذكرناه نحن فهو واقع على نهر شط العرب في جنوبي القرنة وداخل في ناحية الهارثة في شمالي مدينة 
-                    <placeName change="#d2e296" xml:id="placeName_125.d2e4614">البصرة</placeName>
+                    <placeName change="#d2e296 #d5e434" xml:id="placeName_125.d2e4614" ref="oape:place:210 geon:99532">البصرة</placeName>
                     . ص  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="61" xml:id="num_1.d2e4618" xml:lang="ar">٦١</num>
                     س  

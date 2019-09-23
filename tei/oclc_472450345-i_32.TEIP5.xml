@@ -72,7 +72,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2019-09-23" who="#pers_TG" xml:id="d2e432" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e430" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e419" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e432" xml:id="ref_1.d2e172">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e432" xml:id="gi_1.d2e175">titles</gi>s without such references based on  <gi change="#d2e432" xml:id="gi_2.d2e178">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e414">Linked all <tag change="#d2e432" xml:id="tag_1.d2e183">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e410">Added <gi change="#d2e432" xml:id="gi_3.d2e188">graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Page numbers to bibliographic description of the source based on the file's content.</change>
+        <revisionDesc><tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e444" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2019-09-23" who="#pers_TG" xml:id="d2e432" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e430" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e419" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e432" xml:id="ref_1.d2e172">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e432" xml:id="gi_1.d2e175">titles</gi>s without such references based on  <gi change="#d2e432" xml:id="gi_2.d2e178">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e414">Linked all <tag change="#d2e432" xml:id="tag_1.d2e183">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e410">Added <gi change="#d2e432" xml:id="gi_3.d2e188">graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e408">Page numbers to bibliographic description of the source based on the file's content.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e384">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
             <change when="2019-05-16" who="#pers_TG" xml:id="d3e370" xml:lang="en">Added references to local authority file (
                 <ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e432" xml:id="ref_2.d2e199">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>
@@ -345,7 +345,7 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="35" xml:id="num_1.d2e559" xml:lang="ar">٣٥</num>
                     طويلة أو  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="40" xml:id="num_1.d2e562" xml:lang="ar">٤٠</num>
-                    طويلة تساوي ريالا فرنسويا. - وقد حاول الأمير ابن رشيد أن يضرب سكة جديدة وجلب لها من الهند مقداراً وافراً من النحاس والفضة ثم أحجم لخوفه من أرباب <placeName change="#d2e432" xml:id="placeName_5.d2e833">الدولة العثمانية</placeName> ومن سوء العقبى. ولعله كان يعود إلى تحقيق فكره في فرصة مناسبة لولا أن الموت عاجله قبل أن يتم ما نواه.</p>
+                    طويلة تساوي ريالا فرنسويا. - وقد حاول الأمير ابن رشيد أن يضرب سكة جديدة وجلب لها من الهند مقداراً وافراً من النحاس والفضة ثم أحجم لخوفه من أرباب <placeName change="#d2e432 #d5e444" xml:id="placeName_5.d2e833" ref="oape:place:1">الدولة العثمانية</placeName> ومن سوء العقبى. ولعله كان يعود إلى تحقيق فكره في فرصة مناسبة لولا أن الموت عاجله قبل أن يتم ما نواه.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_9.d2e566">أما الوزن عندهم فينقسم إلى عدة أقسام ترجع كلها إلى أم واحدة هي (الوزنة) ولوزنة عندهم عبارة عن ثقل  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="64" xml:id="num_1.d2e568" xml:lang="ar">٦٤</num>
                     ريالاً فرنسوياً موزوناً معاً. (والمن) عندهم يساوي  
@@ -382,7 +382,7 @@
                     :  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="333" xml:id="num_1.d2e624" xml:lang="ar">٣٣٣</num>
                     )</p>
-                <p change="#d2e73 #d2e296" xml:id="p_14.d2e628">لما أخذ وجه الشمس يبدو على الأفق حثنا الشوق إلى أن نسرع في الذهاب إلى زيارة برس نمرود قبل أن تؤذينا شمس الربيع بحرارتها، لأن لا ربيع في ربوع <placeName change="#d2e432" xml:id="placeName_7.d2e906">العراق</placeName>. فما كانت الساعة السابعة صباحاً إلا ونحن على ظهور الجياد العراب المتعودة السير في تلك الأرضيين الجليلة القدر والشان في التاريخ وكأن العناية الإلهية رأت أن لا طاقة لنا باحتمال حر النهار أنشأت سحباً في الجو لتظلنا طول سفرنا مع أن وجه سماء <placeName change="#d2e432" xml:id="placeName_8.d2e909">العراق</placeName> سافر في اغلب أيام الربيع. وما كدنا نخرج من الحلة إلا وهبت ريح غربية غريبة بدأت رخاء ثم ما زالت تشتد شيئاً فشيئاً حتى غدت ريحاً صرصراً حدقت بنا من كل جانب، وأخذت تذر علينا تراباً دقيقاً متلززاً متلبداً. وما كانت الساعة العاشرة إلا وغدت الريح أشد ما تكون. وقامت في وجهنا غشاوة من الغبار الدقيق حتى أنه لم يمكنا أن نرى ما بين يدينا على بعد  
+                <p change="#d2e73 #d2e296" xml:id="p_14.d2e628">لما أخذ وجه الشمس يبدو على الأفق حثنا الشوق إلى أن نسرع في الذهاب إلى زيارة برس نمرود قبل أن تؤذينا شمس الربيع بحرارتها، لأن لا ربيع في ربوع <placeName change="#d2e432 #d5e444" xml:id="placeName_7.d2e906" ref="oape:place:209 geon:99237">العراق</placeName>. فما كانت الساعة السابعة صباحاً إلا ونحن على ظهور الجياد العراب المتعودة السير في تلك الأرضيين الجليلة القدر والشان في التاريخ وكأن العناية الإلهية رأت أن لا طاقة لنا باحتمال حر النهار أنشأت سحباً في الجو لتظلنا طول سفرنا مع أن وجه سماء <placeName change="#d2e432 #d5e444" xml:id="placeName_8.d2e909" ref="oape:place:209 geon:99237">العراق</placeName> سافر في اغلب أيام الربيع. وما كدنا نخرج من الحلة إلا وهبت ريح غربية غريبة بدأت رخاء ثم ما زالت تشتد شيئاً فشيئاً حتى غدت ريحاً صرصراً حدقت بنا من كل جانب، وأخذت تذر علينا تراباً دقيقاً متلززاً متلبداً. وما كانت الساعة العاشرة إلا وغدت الريح أشد ما تكون. وقامت في وجهنا غشاوة من الغبار الدقيق حتى أنه لم يمكنا أن نرى ما بين يدينا على بعد  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="20" xml:id="num_1.d2e630" xml:lang="ar">٢٠</num>
                     مترا. ومع هذا كله لم يدر في خلد أحدا منا أن يرجع القهقرى ويعدل عن الإمعان في السير. فما زلنا نصل الوخد بالذميل حتى ضقنا ذرعاً. وكل ذلك لنشاهد ذك البناء القديم الذي يجلب الناس من شاسع الأقطار القاصية. وظللنا سائرين الواحد بجنب الآخر بدون أن نعلم
 
@@ -464,13 +464,13 @@
                 <p change="#d2e73 #d2e296" xml:id="p_36.d2e762">ولما ظهرت راية الإسلام في العالم أخفقت أيضاً على هذه الأنحاء كما نوهنا بذلك في</p>
                 <p change="#d2e73 #d2e296" xml:id="p_37.d2e765">مستهل هذا المقال وأخرب ما بقي من تلك المباني الجليلة واليوم لا يشاهد منها إلا ركام من الأنقاض والغالب فيها آجر أحمر أو قطع من الآجر قد غشت معظم الحيطان التي تتقوم منها أسس هذا البرج ذو الطباق. وعلى قمة هذا الركام يقوم سميط ثخين كل الثخن علوه قراب عشرة أمتار ومبني بالطاباق وقد ضم بعضها إلى بعض بل شدها شداً محكماً ملاط صبر علة نوائب الدهر وكوارثه لا القير كما قد يمكن أن يتصوره بعضهم.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_38.d2e768">وعند أسفل هذا الحائط صخور متكومة إذا فحصها الباحث عن قرب يراها قطعاً ندرت من الحائط وقد فعلت فيها بعض العوامل النارية فعلاً هائلاً لا يمكن إنكاره.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_39.d2e771">من ذلك: أن الآجر ملوي لياً بل مبروم برماً بدون أن يرى فيه البتة أثر كسر بل يبين انه مصهور صهراً. وقد علا غالب وجهه ضرب من الطلاء لا يعرف كنهه ولهذا اختلف العلماء فيه فمن قائل أنه من حريق وقع هناك. ومن ذاهب إلى أن صاعقة انقض عقابها على تلك الأكوام فصهرتها ذاك الصهر العجيب وليس هذا ببعيد في ديار <placeName change="#d2e432" xml:id="placeName_9.d2e1075">العراق</placeName> فإن انقضاض الصواعق على شواهق الأبنية معروف إذ لا تخلو سنة من السنين إلا ويقع حادث أو حادثان من هذا الجنس. فليحفظ.</p>
+                <p change="#d2e73 #d2e296" xml:id="p_39.d2e771">من ذلك: أن الآجر ملوي لياً بل مبروم برماً بدون أن يرى فيه البتة أثر كسر بل يبين انه مصهور صهراً. وقد علا غالب وجهه ضرب من الطلاء لا يعرف كنهه ولهذا اختلف العلماء فيه فمن قائل أنه من حريق وقع هناك. ومن ذاهب إلى أن صاعقة انقض عقابها على تلك الأكوام فصهرتها ذاك الصهر العجيب وليس هذا ببعيد في ديار <placeName change="#d2e432 #d5e444" xml:id="placeName_9.d2e1075" ref="oape:place:209 geon:99237">العراق</placeName> فإن انقضاض الصواعق على شواهق الأبنية معروف إذ لا تخلو سنة من السنين إلا ويقع حادث أو حادثان من هذا الجنس. فليحفظ.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_40.d2e774">ومما استوقف طائر بصرنا هناك مياه الفرات فإن تغير مجراه على الدوام وتنقله من موطن إلى موطن مما يحير له الفكر. فاليوم قد طفحت مياهه على الأرضيين المجاورة لقرب غوره وإندفان عقيقه بما يجره من الطين والغريل، وأصبح الذهاب من برس
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1413.xhtml" ed="shamela" n="n3-p402" xml:id="pb_9.d2e776"/>
                     <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="402" facs="#facs_401" edRef="#edition_1" xml:id="pb_18.d2e1083"/>
                     إلى 
-                    <placeName change="#d2e432" xml:id="placeName_10.d2e1085">كربلاء</placeName>
+                    <placeName change="#d2e432 #d5e444" xml:id="placeName_10.d2e1085" ref="oape:place:372 geon:94824">كربلاء</placeName>
                     من رابع المستحيلات وتبتدئ المستنقعات على بعد مائتي متر من الأخربة وأما في زمان بعثة جسني فإن شواطئ نهر الهندية - (وهو شعبة من الفرات) الذي لم يكن أطول من خمسة أميال - كانت على بعد سبعة أميال عن برس نمرود. أما غوره هناك فليس ببعيد لأن أحد الرجال كان يخوض فيه خوضاً الماء دون نطاقه.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_41.d2e780">ونختم كلامنا عن برس بإيراد ما قرأنا وسمعنا من غرائب الخواطر وهي: أن برس نمرود الذي قد قذف به النوى في قلب الصحراء كان في سابق العهد من الأبنية الداخلة في نطاق بابل. وذهب آخرون إلى أنه كان بين برس وقصر بخت نصر سرب عظيم يجمع الأول إلى الثاني مع أن المسافة بينهما نحو من  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="20" xml:id="num_1.d2e782" xml:lang="ar">٢٠</num>
@@ -721,9 +721,9 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="48" xml:id="num_1.d2e1316" xml:lang="ar">٤٨</num>
                     ساعة متوالية ختمت بانتصار الجنود العثمانية) ولما دخل الجند العثماني 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e1319">بغداد</placeName>
-                    وملك زمامها السلطان مراد خان ولى عليها من قبله والياً هو كجك حسن باشا (أو حسن باشا الصغير) وبعد أن تم ذلك رجع السلطان مراد إلى من حيث جاء وقد ترك المدافع التي أتى بها من <placeName change="#d2e432" xml:id="placeName_14.d2e1652">الأستانة</placeName> والتي غنمها من الشاه عباس لينتفع بها عند الحاجة إليها ولتصد عن 
+                    وملك زمامها السلطان مراد خان ولى عليها من قبله والياً هو كجك حسن باشا (أو حسن باشا الصغير) وبعد أن تم ذلك رجع السلطان مراد إلى من حيث جاء وقد ترك المدافع التي أتى بها من <placeName change="#d2e432 #d5e444" xml:id="placeName_14.d2e1652" ref="oape:place:3 geon:745044">الأستانة</placeName> والتي غنمها من الشاه عباس لينتفع بها عند الحاجة إليها ولتصد عن 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e1322">بغداد</placeName>
-                    هجمات العدو وإلى اليوم تراها مطروحة في قلعة (الطوب خانة) وقد أخبرنا أحد ضباط المدفعية أن الحكومة تريد نقلها إلى <placeName change="#d2e432" xml:id="placeName_16.d2e1658">الأستانة</placeName> لتوضع في محل التحف والآثار القديمة.</p>
+                    هجمات العدو وإلى اليوم تراها مطروحة في قلعة (الطوب خانة) وقد أخبرنا أحد ضباط المدفعية أن الحكومة تريد نقلها إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_16.d2e1658" ref="oape:place:3 geon:745044">الأستانة</placeName> لتوضع في محل التحف والآثار القديمة.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_109.d2e1326">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_2.d2e1328">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e1330" xml:lang="ar">٢</num>- </hi>وصف (طوب أبو خزامة)</p>
@@ -767,24 +767,24 @@
                     و (طوب أبو خزامة)</p>
                 <p change="#d2e73 #d2e296" xml:id="p_113.d2e1398">يحكي الشيوخ من العامة أنه لما أخذ الشاه عباس 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_12.d2e1400">بغداد</placeName>
-                    واستقر بها منع كل فرد من الذهاب إلى <placeName change="#d2e432" xml:id="placeName_20.d2e1742">الأستانة</placeName> وبث الرص والعيون في جميع الطرق المؤدية إليها ثم أنه جعل حضرة الشيخ عبد القادر وحضرة المعظم (أي النعمان بن ثابت أحد أئمة المذاهب الأربعة) وحضرة</p>
+                    واستقر بها منع كل فرد من الذهاب إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_20.d2e1742" ref="oape:place:3 geon:745044">الأستانة</placeName> وبث الرص والعيون في جميع الطرق المؤدية إليها ثم أنه جعل حضرة الشيخ عبد القادر وحضرة المعظم (أي النعمان بن ثابت أحد أئمة المذاهب الأربعة) وحضرة</p>
                 <p change="#d2e73 #d2e296" xml:id="p_114.d2e1404">الشيخ معروف الكرخي والشيخ عمر السهروردي مرابط لخيله وبغاله ولما رأى أهل 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1406">بغداد</placeName>
                     ذلك استشاطوا غضباً فخاطر رجل من بيت السويدي
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1420.xhtml" ed="shamela" n="n3-p409" xml:id="pb_16.d2e1409"/>
                     <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="409" facs="#facs_408" edRef="#edition_1" xml:id="pb_32.d2e1753"/>
-                    بنفسه وصمم على الرواح إلى القسطنطينية وإذا أحس به أحد فإنه يفدي نفسه لهذا السبيل فتزيا بزي درويش إيراني وذهب إلى إسلامبول ولما وردها تخارس لأن أهلها أيضاً منعوا دخول كل من يأتي من نواحي <placeName change="#d2e432" xml:id="placeName_22.d2e1755">العراق</placeName> كي لا يسمع السلطان بخبر سقوط 
+                    بنفسه وصمم على الرواح إلى القسطنطينية وإذا أحس به أحد فإنه يفدي نفسه لهذا السبيل فتزيا بزي درويش إيراني وذهب إلى إسلامبول ولما وردها تخارس لأن أهلها أيضاً منعوا دخول كل من يأتي من نواحي <placeName change="#d2e432 #d5e444" xml:id="placeName_22.d2e1755" ref="oape:place:209 geon:99237">العراق</placeName> كي لا يسمع السلطان بخبر سقوط 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e1411">بغداد</placeName>
-                    فيسوق إليها الجنود ثم أن السويدي لما دخلها (أعني <placeName change="#d2e432" xml:id="placeName_24.d2e1762">الأستانة</placeName>) بقي متخفياً مدة أيام إلى أن توصل إلى خطيب جامع السلطان فظل عنده بصفة طالب علم وخادم له. وفي ذات يوم مرض الخطيب وكان يوم جمعة فلما حان أوان الخطبة والخطيب مريض لم يطق القيام فضلاً عن المسير فتحير في أمره ولما رأى السويدي منه ذلك اغتنم الفرصة وقال له: أنا أنوب عنك خطيباً هذا اليوم فسر بذلك الخطيب لما علمه من علم السويدي وفضله ثم ذهب إلى الجامع ولما رقى المنبر نادى بأعلى صوته: أيها المؤمنون المسلمون إن الدين قد ذهب وإن 
+                    فيسوق إليها الجنود ثم أن السويدي لما دخلها (أعني <placeName change="#d2e432 #d5e444" xml:id="placeName_24.d2e1762" ref="oape:place:3 geon:745044">الأستانة</placeName>) بقي متخفياً مدة أيام إلى أن توصل إلى خطيب جامع السلطان فظل عنده بصفة طالب علم وخادم له. وفي ذات يوم مرض الخطيب وكان يوم جمعة فلما حان أوان الخطبة والخطيب مريض لم يطق القيام فضلاً عن المسير فتحير في أمره ولما رأى السويدي منه ذلك اغتنم الفرصة وقال له: أنا أنوب عنك خطيباً هذا اليوم فسر بذلك الخطيب لما علمه من علم السويدي وفضله ثم ذهب إلى الجامع ولما رقى المنبر نادى بأعلى صوته: أيها المؤمنون المسلمون إن الدين قد ذهب وإن 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e1414">بغداد</placeName>
-                    قد ضبطها الشاه عباس وربط خيله وبغاله في حضرات أئمتها وفعل من المنكرات مالا يوصف ولا يخطر على بال إنسان. فلما سمع الحاضرون كلامه ضجوا بالتكبير وأخذوا بالصراخ والعويل فأخذه السلطان إلى داره وأستقصه القصة من أولها إلى آخرها. ثم بعد ذلك نادى منادي السلطان في <placeName change="#d2e432" xml:id="placeName_26.d2e1768">الأستانة</placeName> أن لا يصحبه من عسكره إلا الكهول والذين يغرز المشط في لحاهم فأخذ الشبان والكهول لا غير وبعد أن تجمع العسكر، سار به قاصداً 
+                    قد ضبطها الشاه عباس وربط خيله وبغاله في حضرات أئمتها وفعل من المنكرات مالا يوصف ولا يخطر على بال إنسان. فلما سمع الحاضرون كلامه ضجوا بالتكبير وأخذوا بالصراخ والعويل فأخذه السلطان إلى داره وأستقصه القصة من أولها إلى آخرها. ثم بعد ذلك نادى منادي السلطان في <placeName change="#d2e432 #d5e444" xml:id="placeName_26.d2e1768" ref="oape:place:3 geon:745044">الأستانة</placeName> أن لا يصحبه من عسكره إلا الكهول والذين يغرز المشط في لحاهم فأخذ الشبان والكهول لا غير وبعد أن تجمع العسكر، سار به قاصداً 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e1417">بغداد</placeName>
                     . ولما صار قرب سامراء، أراد أن يجعل عليهم قائداً محنكاً، ويذهب هو إلى 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_17.d2e1421">بغداد</placeName>
                     متجسساً فأخذ يسأل كل من يرى فيه اللياقة للقيادة: أين 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_18.d2e1424">بغداد</placeName>
-                    ؟ فيجيبه القائد: على بعد يوم منا مثلا، فيأمر بقطع رأسه ثم يسأل الآخر فيجيبه على بعد يومين فيأمر بقطع رأسه أيضاً وهلم جرا حتى قطع رؤوس جماعة من القواد وقد تحير الباقون في جوابه ثم باتوا تلك الليلة وكان عند أحدهم ابن في الثامنة عشرة من عمره ولشدة حبه إياه لم يطق فراقه فوضعه في صندوق يستطيع أن يتنفس فيه وأخذه معه وكان إذا جن الليل يخرجه من الصندوق ويجلس هو وإياه يتسامران وفي تلك الليلة رأى الفتى وجه أبيه متغيراً فقال له: ما بالك يا أبتي؟ فقال إني. سأقتل غداً. فقال: ولم؟ فقال إن السلطان ألقى على القواد سؤالاً وهو: كم المسافة بين سامراء و<placeName change="#d2e432" xml:id="placeName_30.d2e1781">بغداد</placeName>
+                    ؟ فيجيبه القائد: على بعد يوم منا مثلا، فيأمر بقطع رأسه ثم يسأل الآخر فيجيبه على بعد يومين فيأمر بقطع رأسه أيضاً وهلم جرا حتى قطع رؤوس جماعة من القواد وقد تحير الباقون في جوابه ثم باتوا تلك الليلة وكان عند أحدهم ابن في الثامنة عشرة من عمره ولشدة حبه إياه لم يطق فراقه فوضعه في صندوق يستطيع أن يتنفس فيه وأخذه معه وكان إذا جن الليل يخرجه من الصندوق ويجلس هو وإياه يتسامران وفي تلك الليلة رأى الفتى وجه أبيه متغيراً فقال له: ما بالك يا أبتي؟ فقال إني. سأقتل غداً. فقال: ولم؟ فقال إن السلطان ألقى على القواد سؤالاً وهو: كم المسافة بين سامراء و<placeName change="#d2e432 #d5e444" xml:id="placeName_30.d2e1781" ref="oape:place:216 geon:98182">بغداد</placeName>
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1421.xhtml" ed="shamela" n="n3-p410" xml:id="pb_17.d2e1427"/>
                     <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="410" facs="#facs_409" edRef="#edition_1" xml:id="pb_34.d2e1786"/>
@@ -868,7 +868,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_128.d2e1553">ويذهبون في وجود تسع السمكات الموجودة على ظهره إلى أن السلطان لما خرم أنفه غضب المدفع ورمى بنفسه في دجلة فخاض عليه السلطان مراد وأخرجه واسترضاه ولما خرج بانت على ظهره هذه السمكات ملصوقات إشارة إلى إنه ألقى نفسه حقيقة في دجلة لما سكن من غضبه ورضى على مراد خان أخذ السلطان ينثر له الدخن في ممره على الأرض ليسهل مروره عليها وهو ينساب الهوينا وفي أثناء الحرب نفذ ما عند الجند من البارود والرصاص والقنابل فأخذ الطوب يلهم التراب والحجارة من الأرض ويقذف بها الأعداء فتقع عليهم أشد من وقع القنابل الحقيقية والبارود الحقيقي عليهم وما زال هذا دأبه حتى فتح الله عليه.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_129.d2e1557">هذا خلاصة ما تعتقده العوام في (طوب أبو خزامة) وما يحكمونه من الأسباب التي سهلت للسلطان مراد خان فتح 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_32.d2e1559">بغداد</placeName>
-                    . وفي <placeName change="#d2e432" xml:id="placeName_45.d2e1934">العراق</placeName> كثير من مدافن الأئمة والمزارات التي هي أشباه (طوب أبو خزامة) لا بد أن نأتي على ذكرها في فرصة أخرى ولله في خلقه شؤون.</p>
+                    . وفي <placeName change="#d2e432 #d5e444" xml:id="placeName_45.d2e1934" ref="oape:place:209 geon:99237">العراق</placeName> كثير من مدافن الأئمة والمزارات التي هي أشباه (طوب أبو خزامة) لا بد أن نأتي على ذكرها في فرصة أخرى ولله في خلقه شؤون.</p>
                 <byline change="#d2e219 #d2e296" xml:id="byline_6.d2e1563">
                     <persName change="#d2e230 #d2e296" ref="oape:pers:396" xml:id="persName_9.d2e1564">
                         <forename change="#d2e296" xml:id="forename_9.d2e1566" xml:lang="ar">كاظم</forename>
@@ -945,7 +945,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_140.d2e1715">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_10.d2e1717">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e1719" xml:lang="ar">٥</num>- </hi>نشر ألوية الآداب الصحيحة والفضائل القويمة وقطع دابر أهل الفساد.</p>
-                <p change="#d2e73 #d2e296" xml:id="p_141.d2e1724">فلما رآني متطالاً إلى سماع أقواله الدرية قال: ومن أي قطر أنت؟. - قلت له: سيدي إني من ديار <placeName change="#d2e432" xml:id="placeName_46.d2e2107">العراق</placeName> من بلدة دار السلام، دار الحضارة والعمران في سالف الأيام. - فلما سمع</p>
+                <p change="#d2e73 #d2e296" xml:id="p_141.d2e1724">فلما رآني متطالاً إلى سماع أقواله الدرية قال: ومن أي قطر أنت؟. - قلت له: سيدي إني من ديار <placeName change="#d2e432 #d5e444" xml:id="placeName_46.d2e2107" ref="oape:place:209 geon:99237">العراق</placeName> من بلدة دار السلام، دار الحضارة والعمران في سالف الأيام. - فلما سمع</p>
                 <p change="#d2e73 #d2e296" xml:id="p_142.d2e1727">هذه الكلمات أطرق ساعة ثم قال: نعم كانت الزوراء أم العلوم والمدنية، أم الحضارة والعمران، مقر الخلفاء العباسيين، مصدر أنوار العلماء العاملين. نفقت فيها التجارة، وتقدمت فيها الزراعة، واشتهرت فيها أرقى الصناعة، وانبثقت منها أنوار العلوم والفنون، بيد أن دخول (هولاكو) فيها تداعى ذلك البناء، فضلاً عن أنه هدم دور صنائعها وقوض معاهدها ودرس مدارسها وردم أنهرها فأخذت منه ذاك الحين بالهوى العجيب يوماً فيوماً. فلما نظرت ما حل بتلك الحاضرة من الرزايا والبلايا وخيانة الدهر لها لما ظعنت عنها فنزلت ديار الإفرنج واتخذتها إليّ مقراً لأني أيقنت حق اليقين أنها لا تعود إلى ما كانت؛ طالما يكون بيت المال فارغا. وما دام فيها. . . .!
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1429.xhtml" ed="shamela" n="n3-p418" xml:id="pb_25.d2e1729"/>
@@ -962,7 +962,7 @@
                 <p change="#d2e73 #d2e296" xml:id="p_144.d2e1750">
                     <hi change="#d2e296" style="color:red;" xml:id="hi_12.d2e1752">
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e1754" xml:lang="ar">١</num>- </hi>تمهيد</p>
-                <p change="#d2e73 #d2e296" xml:id="p_145.d2e1759">بمناسبة ما حصل في العام الماضي من توالي شكايات الزراع وفي هذه السنة من تشكي الحكومة من الذرعة - واغلب الناس في الولاية فضلاً عن الموجودين خارجاً عنها، بل حتى موظفي (مأموري) الذرعة أنفسهم يجهلون أصولها (ومعاملاتها)، ولا لوم عليهم ولا تثريب لأنها خاصة ب<placeName change="#d2e432" xml:id="placeName_47.d2e2146">العراق</placeName>، بل ببعض أنحائه فقط، وذلك على قاعدة أن أحكام حكومتنا العثمانية جارية في الأغلب (على التعامل) (كما يقولون، أي على العادة الجارية في ذلك المحل منذ القدم) فلا تشبه معاملة معاملة حتى في الجنس الواحد - أحببت أن أبين حقيقتها ليعلمها الجميع ويطلعوا على خفاياها إطلاعاً كافياً بحسب الأماكن وقصدت نشر ذلك في مجلة (
+                <p change="#d2e73 #d2e296" xml:id="p_145.d2e1759">بمناسبة ما حصل في العام الماضي من توالي شكايات الزراع وفي هذه السنة من تشكي الحكومة من الذرعة - واغلب الناس في الولاية فضلاً عن الموجودين خارجاً عنها، بل حتى موظفي (مأموري) الذرعة أنفسهم يجهلون أصولها (ومعاملاتها)، ولا لوم عليهم ولا تثريب لأنها خاصة ب<placeName change="#d2e432 #d5e444" xml:id="placeName_47.d2e2146" ref="oape:place:209 geon:99237">العراق</placeName>، بل ببعض أنحائه فقط، وذلك على قاعدة أن أحكام حكومتنا العثمانية جارية في الأغلب (على التعامل) (كما يقولون، أي على العادة الجارية في ذلك المحل منذ القدم) فلا تشبه معاملة معاملة حتى في الجنس الواحد - أحببت أن أبين حقيقتها ليعلمها الجميع ويطلعوا على خفاياها إطلاعاً كافياً بحسب الأماكن وقصدت نشر ذلك في مجلة (
                     <title change="#d2e296 #d5e419" level="j" xml:id="title_10.d2e1761" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                     ) لما هي عليه من كثرة الانتشار ولأن عموم الطبقات الراقية في كل البلاد يعيرونها الالتفات الجدير بها، ولأن مثل هذه الأمور لا فائدة من نشرها في صحف تقرأها العوام، فلهذا رأيت إبقاءها مخلدة في هذا التاريخ؛ والله المستعان.</p>
                 <p change="#d2e73 #d2e296" xml:id="p_146.d2e1765">
@@ -1072,7 +1072,7 @@
                     <num change="#d2e258 #d2e296" type="auto-markup" value="275" xml:id="num_1.d2e1939" xml:lang="ar">٢٧٥</num>
                     مشارة لا غير. وحاصل شلب المشارة الواحدة هو  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="800" xml:id="num_1.d2e1942" xml:lang="ar">٨٠٠</num>
-                    حقة من حقق <placeName change="#d2e432" xml:id="placeName_49.d2e2341">الأستانة</placeName> فيكون حاصل جميع تلك المشاور  
+                    حقة من حقق <placeName change="#d2e432 #d5e444" xml:id="placeName_49.d2e2341" ref="oape:place:3 geon:745044">الأستانة</placeName> فيكون حاصل جميع تلك المشاور  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="220" xml:id="num_1.d2e1946" xml:lang="ar">٢٢٠</num>
                     .  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="0" xml:id="num_1.d2e1949" xml:lang="ar">٠</num>
@@ -1197,12 +1197,12 @@
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1858" xml:id="date_4.d2e2142">
                         سنة 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1858" xml:id="num_1.d2e2144" xml:lang="ar">١٨٥٨</num></date>وانضمت أملاكها إلى مملكة بريطانيا العظمى وذلك أثر قمع ثورة أثارها العسكر الهندي المدعو سيباهي (وهي كلمة فارسية معناها العسكر).</p>
-                <p change="#d2e73 #d2e296" xml:id="p_169.d2e2149">فهذه الشركة كان لها في <placeName change="#d2e432" xml:id="placeName_51.d2e2561">البصرة</placeName> تجارة واسعة وقنصل حائز على امتيازات جمة منها حرسه الخاص به فإنه كان مؤلفاً من  
+                <p change="#d2e73 #d2e296" xml:id="p_169.d2e2149">فهذه الشركة كان لها في <placeName change="#d2e432 #d5e444" xml:id="placeName_51.d2e2561" ref="oape:place:210 geon:99532">البصرة</placeName> تجارة واسعة وقنصل حائز على امتيازات جمة منها حرسه الخاص به فإنه كان مؤلفاً من  
                     <num change="#d2e258 #d2e296" type="auto-markup" value="50" xml:id="num_1.d2e2151" xml:lang="ar">٥٠</num>
-                    سيباهياً وعند أبواب قصره مدافع مصفوفة وكان يطيعه خيالة يمشون أمامه وبأيديهم الدبابيس المفضضة وغير ذلك من الامتيازات التي لم يحصل على بعضها سفراء انكلترة أنفسهم لدى الباب العالي. هذا في <placeName change="#d2e432" xml:id="placeName_52.d2e2567">البصرة</placeName> وأما في 
+                    سيباهياً وعند أبواب قصره مدافع مصفوفة وكان يطيعه خيالة يمشون أمامه وبأيديهم الدبابيس المفضضة وغير ذلك من الامتيازات التي لم يحصل على بعضها سفراء انكلترة أنفسهم لدى الباب العالي. هذا في <placeName change="#d2e432 #d5e444" xml:id="placeName_52.d2e2567" ref="oape:place:210 geon:99532">البصرة</placeName> وأما في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_35.d2e2154">بغداد</placeName>
                     فكان للشركة عامل أو وكيل للقيام ببعض شؤونها ولتبليغها الأخبار التجارية والسياسية وما</p>
-                <p change="#d2e73 #d2e296" xml:id="p_170.d2e2158">أشبه ذلك بواسطة قنصل <placeName change="#d2e432" xml:id="placeName_54.d2e2576">البصرة</placeName> المنوطة به وكالة 
+                <p change="#d2e73 #d2e296" xml:id="p_170.d2e2158">أشبه ذلك بواسطة قنصل <placeName change="#d2e432 #d5e444" xml:id="placeName_54.d2e2576" ref="oape:place:210 geon:99532">البصرة</placeName> المنوطة به وكالة 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_36.d2e2160">بغداد</placeName>
                     وعرض الوكلاء الذين كانوا غالباً من مسيحيي الشرق وظلت هذه الحالة حتى 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1798" xml:id="date_4.d2e2163">
@@ -1213,10 +1213,10 @@
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1437.xhtml" ed="shamela" n="n3-p426" xml:id="pb_33.d2e2171"/>
                     <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="426" facs="#facs_425" edRef="#edition_1" xml:id="pb_66.d2e2593"/>
-                    فمركار أغا الذي نحن بصدده كان أحد هؤلاء الوكلاء وكان يتعاطى التجارة أيضاً وقد ذكره الرحالة ستيني الإيطالي في كتاب رحلته من <placeName change="#d2e432" xml:id="placeName_57.d2e2595">الأستانة</placeName> إلى <placeName change="#d2e432" xml:id="placeName_58.d2e2598">البصرة</placeName> 
+                    فمركار أغا الذي نحن بصدده كان أحد هؤلاء الوكلاء وكان يتعاطى التجارة أيضاً وقد ذكره الرحالة ستيني الإيطالي في كتاب رحلته من <placeName change="#d2e432 #d5e444" xml:id="placeName_57.d2e2595" ref="oape:place:3 geon:745044">الأستانة</placeName> إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_58.d2e2598" ref="oape:place:210 geon:99532">البصرة</placeName> 
                     <date change="#d2e266 #d2e296" type="auto-markup" when="1781" xml:id="date_4.d2e2173">
                         سنة 
-                        <num change="#d2e258 #d2e296" type="auto-markup" value="1781" xml:id="num_1.d2e2175" xml:lang="ar">١٧٨١</num></date>باسم خوجا مركار ولما كان وقتئذ في <placeName change="#d2e432" xml:id="placeName_59.d2e2606">البصرة</placeName> كان ينوب عنه في 
+                        <num change="#d2e258 #d2e296" type="auto-markup" value="1781" xml:id="num_1.d2e2175" xml:lang="ar">١٧٨١</num></date>باسم خوجا مركار ولما كان وقتئذ في <placeName change="#d2e432 #d5e444" xml:id="placeName_59.d2e2606" ref="oape:place:210 geon:99532">البصرة</placeName> كان ينوب عنه في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e2179">بغداد</placeName>
                     رجل أرمني أيضاً اسمه مانوك وهو إنسان خشن وفظ وطماع ومحب للمال كثيراً واغلب المسافرين الإنكليز كانوا يتشكون من طمع وكلاء الشركة في 
                     <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e2182">بغداد</placeName>
@@ -1334,16 +1334,16 @@
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1440.xhtml" ed="shamela" n="n3-p429" xml:id="pb_36.d2e2379"/>
                         <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="429" facs="#facs_428" edRef="#edition_1" xml:id="pb_72.d2e2820"/>
                         الجرباء والدجدي صفوق. وليس اسم أبي بنية جرينس بل اسمه قرينيص فقلنا إذا كان الأمر كذلك فما المناسبة لدفنه في 
-                        <placeName change="#d2e296" xml:id="placeName_46.d2e2381">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_46.d2e2381" ref="oape:place:215 geon:98862">النجف</placeName>
                         وتشييد هذا البناء على قبره وهو مخالف لمعتقد شمر الغربيين سيما وهم من أهل السنة والجماعة فقال إن قتل بنية كان في أرض الخزاعل وهم الذين دفنوه في 
-                        <placeName change="#d2e296" xml:id="placeName_47.d2e2385">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_47.d2e2385" ref="oape:place:215 geon:98862">النجف</placeName>
                         فقلنا إذا فرضنا جدلاً أنهم دفنوه في الغرى فمن الذي انفق على هذا البناء الفخم والقبة المغشاة بالقاشاني المبالغ الطائلة فلم يأت بدليل مقنع ثم قلنا أما دليلنا نحن على أنه من شمر طوقة فلأن شمر طوقة هم على مذهب الشيعة وهم يدفنون موتاهم في 
-                        <placeName change="#d2e296" xml:id="placeName_48.d2e2388">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_48.d2e2388" ref="oape:place:215 geon:98862">النجف</placeName>
                         و
-                        <placeName change="#d2e432" xml:id="placeName_71.d2e2832">كربلاء</placeName>
+                        <placeName change="#d2e432 #d5e444" xml:id="placeName_71.d2e2832" ref="oape:place:372 geon:94824">كربلاء</placeName>
                         فلا شك أنه كان منهم وهم الذين شيدوا على قبره هذا البناء.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_183.d2e2392">ثم انتبه الحاج عباس العلي السالف الذكر لقولي (دفنه في 
-                        <placeName change="#d2e296" xml:id="placeName_49.d2e2394">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_49.d2e2394" ref="oape:place:215 geon:98862">النجف</placeName>
                         وتشييد البناء على قبره) وقال لي صف لي قبره فوصفته له فقال: (هذا الذي تعنيه هو قبر بنية رئيس عشيرة بني لام وليس قبر بنية الذي جرى الكلام عليه وقد توفى رئيس عشيرة بنى لام المذكور في حدود 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1896-06-11" notBefore="1895-06-24" type="auto-markup" when-custom="1313" xml:id="date_4.d2e2397">
                             سنة 
@@ -1405,7 +1405,7 @@
                     <p change="#d2e73 #d2e296" xml:id="p_199.d2e2505">وفيه في الصحيفة  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="317" xml:id="num_1.d2e2507" xml:lang="ar">٣١٧</num>
                         أن بحيرة 
-                        <placeName change="#d2e296" xml:id="placeName_51.d2e2510">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_51.d2e2510" ref="oape:place:215 geon:98862">النجف</placeName>
                         نشفت منذ 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1888-09-06" notBefore="1887-09-19" type="auto-markup" when-custom="1305" xml:id="date_4.d2e2513">
                             سنة 
@@ -1441,7 +1441,7 @@
                     <head change="#d2e73 #d2e296 #d2e339" xml:id="p_206.d2e2561">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_19.d2e2563">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e2565" xml:lang="ar">٤</num>- </hi>أنهر 
-                        <placeName change="#d2e296" xml:id="placeName_52.d2e2569">البصرة</placeName></head>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_52.d2e2569" ref="oape:place:210 geon:99532">البصرة</placeName></head>
                     <p change="#d2e73 #d2e296" xml:id="p_207.d2e2572">سيدي الفاضل صاحب (
                         <title change="#d2e296 #d5e419" level="j" xml:id="title_13.d2e2574" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         )</p>
@@ -1449,14 +1449,14 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="220" xml:id="num_1.d2e2580" xml:lang="ar">٢٢٠</num>
                         من (عنوان المجد في بيان أحوال 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_53.d2e2583">بغداد</placeName>
-                        و<placeName change="#d2e432" xml:id="placeName_77.d2e3050">البصرة</placeName> ونجد) للسيد إبراهيم فصيح بن صبغة الله الحيدري المدرج في الحاشية من (
+                        و<placeName change="#d2e432 #d5e444" xml:id="placeName_77.d2e3050" ref="oape:place:210 geon:99532">البصرة</placeName> ونجد) للسيد إبراهيم فصيح بن صبغة الله الحيدري المدرج في الحاشية من (
                         <title change="#d2e296 #d5e419" level="j" xml:id="title_14.d2e2586" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
                         )  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e2589" xml:lang="ar">٣</num>
                         :  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="59" xml:id="num_1.d2e2592" xml:lang="ar">٥٩</num>
                         وهو (أما الأنهر والجداول المتفرعة من تلك الأنهر المذكورة فتبلغ أكثر من عشرة آلاف نهر والعشائر الساكنة في هذه المحال بين البساتين لا يحصى عددها. أهـ.) وقد صرح أن في ذلك العدد مبالغة جسيمة.</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_209.d2e2597">هذا ولما كنت قد وقفت في بعض الدواوين على عدد أنهر وجداول <placeName change="#d2e432" xml:id="placeName_78.d2e3066">البصرة</placeName> في أبان عزها أقول: لا يوجد مسحة من المبالغة في قول السيد إبراهيم المذكور لأن أنحاء <placeName change="#d2e432" xml:id="placeName_79.d2e3069">البصرة</placeName> من عهد العباسيين وما بعده مملوءة من جداول وسواقٍ تعد بالمئات لا بل بالألوف واغلب مؤرخي دقائق الحقائق شكوا في صحة
+                    <p change="#d2e73 #d2e296" xml:id="p_209.d2e2597">هذا ولما كنت قد وقفت في بعض الدواوين على عدد أنهر وجداول <placeName change="#d2e432 #d5e444" xml:id="placeName_78.d2e3066" ref="oape:place:210 geon:99532">البصرة</placeName> في أبان عزها أقول: لا يوجد مسحة من المبالغة في قول السيد إبراهيم المذكور لأن أنحاء <placeName change="#d2e432 #d5e444" xml:id="placeName_79.d2e3069" ref="oape:place:210 geon:99532">البصرة</placeName> من عهد العباسيين وما بعده مملوءة من جداول وسواقٍ تعد بالمئات لا بل بالألوف واغلب مؤرخي دقائق الحقائق شكوا في صحة
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1444.xhtml" ed="shamela" n="n3-p433" xml:id="pb_40.d2e2599"/>
                         <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="433" facs="#facs_432" edRef="#edition_1" xml:id="pb_80.d2e3074"/>
@@ -1465,16 +1465,16 @@
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="118" xml:id="num_1.d2e2603" xml:lang="ar">١١٨</num></date>هـ -  
                         <date calendar="#cal_gregorian" change="#d2e315 #d2e359" when="0736" xml:id="date_4.d2e2678">
-                            <num change="#d2e258 #d2e296" type="auto-markup" value="736" xml:id="num_1.d2e2606" xml:lang="ar">٧٣٦</num></date>م أرتاب في صحة هذا العدد وعده من قبيل الأوهام حتى اضطر أخيراً أن يذهب بنفسه إلى <placeName change="#d2e432" xml:id="placeName_80.d2e3087">البصرة</placeName> ليتحقق ما سمعه وذلك في القرن الرابع للهجرة وهاك ما كتبه بعد الفحص والتدقيق:</p>
+                            <num change="#d2e258 #d2e296" type="auto-markup" value="736" xml:id="num_1.d2e2606" xml:lang="ar">٧٣٦</num></date>م أرتاب في صحة هذا العدد وعده من قبيل الأوهام حتى اضطر أخيراً أن يذهب بنفسه إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_80.d2e3087" ref="oape:place:210 geon:99532">البصرة</placeName> ليتحقق ما سمعه وذلك في القرن الرابع للهجرة وهاك ما كتبه بعد الفحص والتدقيق:</p>
                     <p change="#d2e73 #d2e296" xml:id="p_210.d2e2610">(قد كنت أنكر ما ذكر من هذه الأنهار في أيام بلال حتى رأيت كثيراً من تلك البقاع فربما رأيت في مقدار رمية سهم عدداً من الأنهار صغاراً تجري في كلها زوارق صغار ولكل نهر اسم ينسب إلى صاحبه الذي احتفره أو إلى الناحية التي يصب فيها فجوزت أن يكون ذلك في طول هذه المسافة وعرضها) (لاصطخري  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="80" xml:id="num_1.d2e2612" xml:lang="ar">٨٠</num>
                         ).</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_211.d2e2616">وقال نفس هذا القول ابن حوقل في عرض كلامه عن <placeName change="#d2e432" xml:id="placeName_81.d2e3100">البصرة</placeName> ودونك إياه (ولها (أي 
-                        <placeName change="#d2e296" xml:id="placeName_54.d2e2618">البصرة</placeName>
+                    <p change="#d2e73 #d2e296" xml:id="p_211.d2e2616">وقال نفس هذا القول ابن حوقل في عرض كلامه عن <placeName change="#d2e432 #d5e444" xml:id="placeName_81.d2e3100" ref="oape:place:210 geon:99532">البصرة</placeName> ودونك إياه (ولها (أي 
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_54.d2e2618" ref="oape:place:210 geon:99532">البصرة</placeName>
                         ) نخيل متصلة من عبدسي إلى عبادان نيفاً وخمسين فرسخاً متصلة لا يكون الإنسان منها بمكان إلا وهو في نهر ونخيل أو يكون بحيث يراها) (ابن حوقل  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="159" xml:id="num_1.d2e2621" xml:lang="ar">١٥٩</num>
                         ).</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_212.d2e2625">فمن وصف ما تقدم يظهر بأجلى وضوح أن أنهر <placeName change="#d2e432" xml:id="placeName_83.d2e3112">البصرة</placeName> كانت أضعاف ما ذكره السيد إبراهيم بن صبغة الله الحيدري البغدادي وفي هذا القدر كفاية لما أردنا بيانه والسلام.</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_212.d2e2625">فمن وصف ما تقدم يظهر بأجلى وضوح أن أنهر <placeName change="#d2e432 #d5e444" xml:id="placeName_83.d2e3112" ref="oape:place:210 geon:99532">البصرة</placeName> كانت أضعاف ما ذكره السيد إبراهيم بن صبغة الله الحيدري البغدادي وفي هذا القدر كفاية لما أردنا بيانه والسلام.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_213.d2e2628">
                         <persName change="#d2e230 #d2e282 #d2e296" ref="oape:pers:1725 viaf:97152636060620050511" xml:id="persName_14.d2e2629">
                             <forename change="#d2e296" xml:id="forename_12.d2e2631">رزوق</forename>
@@ -1519,10 +1519,10 @@
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_217.d2e2695">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_21.d2e2697">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e2699" xml:lang="ar">١</num>- </hi>أصل الأميرال ومرادفاتها في العربية</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_218.d2e2704">سألنا أحد أدباء <placeName change="#d2e432" xml:id="placeName_84.d2e3208">طرابلس الغرب</placeName>: هل حقيقة أن لفظة الأميرال الإفرنجية هي عربية الأصل؟ وهل استعملها العرب سابقاً. وإن لم يستعملوها فما كانوا يقولون في معناها؟</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_218.d2e2704">سألنا أحد أدباء <placeName change="#d2e432 #d5e444" xml:id="placeName_84.d2e3208" ref="oape:place:222 geon:2210247">طرابلس الغرب</placeName>: هل حقيقة أن لفظة الأميرال الإفرنجية هي عربية الأصل؟ وهل استعملها العرب سابقاً. وإن لم يستعملوها فما كانوا يقولون في معناها؟</p>
                     <p change="#d2e73 #d2e296" xml:id="p_219.d2e2707">ذهب كثير من المستشرقين وجماعة من الباحثين عن أصول المفردات من أبناء العرب المحدثين (متبعين في هذا الرأي الإفرنج المتعربين) إلى أن الأميرال لفظة عربية الأصل من (أمير الماء أو أمير البحر). أما نحن فنوافقهم في بعض الشيء لا في كله ونرى أن الكلمة من العربية (أمير) لا مقطوعة من اللفظتين والسبب هو أن الإفرنج أخذوا عن العرب ما نطقوا به لا غير. والحال أن العرب الأقدمين لم يقولوا البتة: أمير الماء بل أمير البحر، أما أمير الماء فإنهم لم يعرفوها وأما أمير البحر فقد استعملها أبو المحاسن ابن تغري بردى صاحب كتاب النجوم الزاهرة في أخبار ملوك 
-                        <placeName change="#d2e296" xml:id="placeName_55.d2e2709">مصر</placeName>
-                        و<placeName change="#d2e432" xml:id="placeName_86.d2e3217">القاهرة</placeName> وقد طبعه جوينبول ومتثيس وقد توفى مؤلفه 
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_55.d2e2709" ref="oape:place:226 geon:360630">مصر</placeName>
+                        و<placeName change="#d2e432 #d5e444" xml:id="placeName_86.d2e3217" ref="oape:place:226 geon:360630">القاهرة</placeName> وقد طبعه جوينبول ومتثيس وقد توفى مؤلفه 
                         <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1470-07-08" notBefore="1469-07-20" type="auto-markup" when-custom="0874" xml:id="date_4.d2e2712">
                             سنة 
                             <num change="#d2e258 #d2e296" type="auto-markup" value="874" xml:id="num_1.d2e2714" xml:lang="ar">٨٧٤</num></date>هـ ( 
@@ -1534,7 +1534,7 @@
                         وقد أكثر المحدثون من ذكرها. - أما وجودها عند الإفرنج بصورة أميرال فإنه كان عن طريق اللغة اللاتينية المولدة وهذه من العربية أي من الأمير. وكان هذا الاسم يختلف عند العرب الأقدمين باختلاف البلاد ففي ديار المغرب وأفريقية كان يعرف باسم (الملند) وهي من اللغة الإسبانية من (وهي بكسر الميم وفتح اللام المفخمة بعدها نون ساكنة يليها دال مهملة) قال ابن خلدون في مقدمته (ص  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="218" xml:id="num_1.d2e2727" xml:lang="ar">٢١٨</num>
                         من طبعة 
-                        <placeName change="#d2e296" xml:id="placeName_56.d2e2730">بيروت</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_56.d2e2730" ref="oape:place:26 geon:276781">بيروت</placeName>
                         الأولى) في كلامه عن قيادة الأساطيل: هي من مراتب الدولة وخططها في ملك المغرب وأفريقية ومرؤوسة لصاحب السيف</p>
                     <p change="#d2e73 #d2e296" xml:id="p_220.d2e2734">وتحت حكمه في كثير من الأحوال. ويسمى صاحبها في عرفهم (الملند) بتفخيم اللام منقولة من لغة الإفرنجة فإنه أسمها في اصطلاح لغتهم)، اهـ على أن لفظة الملند مصفحة
 
@@ -1545,29 +1545,29 @@
                         : بعد أن فسد ملبد الطاغية النصراني وأخذ ما كان له في البحر من الطرائد والشواني.) وقد يسر عليه هذا التصحيف لقربه من أصل عربي</p>
                     <p change="#d2e73 #d2e296" xml:id="p_221.d2e2743">وهو (لبد) وخلو (لند) منها.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_222.d2e2746">وفي ديار 
-                        <placeName change="#d2e296" xml:id="placeName_57.d2e2748">مصر</placeName>
-                        كان يعرف باسم (أمير البحر) على ما أشرنا إليه. وأما في ديار العرب وبحر فارس وداخل <placeName change="#d2e432" xml:id="placeName_89.d2e3263">العراق</placeName> فكانوا يسمونه الاستيام أو الإشتيام) إلا أنها وردت في معان أخرى وقد ذكرنا ذلك في غير هذا الموضع ولعنا نثبته في عدد مقبل من مجلتنا. ولهذا تكون لفظة أمير البحر أو أمير الأسطول أو (الأمير) وحدها عند وجود القرينة أو دليل في العبارة من أحسن الألفاظ لتأدية الإفرنجية (أميرال).</p>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_57.d2e2748" ref="oape:place:226 geon:360630">مصر</placeName>
+                        كان يعرف باسم (أمير البحر) على ما أشرنا إليه. وأما في ديار العرب وبحر فارس وداخل <placeName change="#d2e432 #d5e444" xml:id="placeName_89.d2e3263" ref="oape:place:209 geon:99237">العراق</placeName> فكانوا يسمونه الاستيام أو الإشتيام) إلا أنها وردت في معان أخرى وقد ذكرنا ذلك في غير هذا الموضع ولعنا نثبته في عدد مقبل من مجلتنا. ولهذا تكون لفظة أمير البحر أو أمير الأسطول أو (الأمير) وحدها عند وجود القرينة أو دليل في العبارة من أحسن الألفاظ لتأدية الإفرنجية (أميرال).</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_11.d2e2825" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_223.d2e2752">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_22.d2e2754">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e2756" xml:lang="ar">٢</num>- </hi>معنى لفظة 
-                        <placeName change="#d2e296" xml:id="placeName_58.d2e2760">البصرة</placeName></head>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_58.d2e2760" ref="oape:place:210 geon:99532">البصرة</placeName></head>
                     <p change="#d2e73 #d2e296" xml:id="p_224.d2e2763">وسألنا من واشنطون صديقنا ب. ب. ب. قال: أود أن أعرف معنى كلمة (
-                        <placeName change="#d2e296" xml:id="placeName_59.d2e2765">البصرة</placeName>
-                        ) فإني أراك تضبطها بالإفرنجية هكذا كما يضبطها العرب الفصحاء في كتبهم لأنهم يقولون: إن معناها الأرض الغليظة التي فيها حجارة تقلع وتقطع حوافر الدواب أو <placeName change="#d2e432" xml:id="placeName_92.d2e3286">البصرة</placeName> حجارة رخوة فيها بياض والحال إني لم أجد في رحلتي إليها حجارة بيضاء أو سوداء في <placeName change="#d2e432" xml:id="placeName_93.d2e3289">البصرة</placeName> أو في قربها. وقد سمعت بعض علمائها الحاليين يقولون: إن الأقدمين اخطئوا في تسميتها ب<placeName change="#d2e432" xml:id="placeName_94.d2e3292">البصرة</placeName> بالفتح وإنما هي بالضم. إذ ليس معناها الحجارة البيضاء بل (الأرض الغمقة أو الكثيرة المياه الراكدة) كما هو الأمر في عهدنا هذا وفي سابق العهد. فما قولكم؟</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_225.d2e2769">لم نجد في كتب اللغة العربية والارمية والفارسية لفظة <placeName change="#d2e432" xml:id="placeName_95.d2e3298">البصرة</placeName> بالضم بالمعنى الذي أشرتم إليه. والذي عندنا أن <placeName change="#d2e432" xml:id="placeName_96.d2e3301">البصرة</placeName> بالفتح (وهو الضبط الصحيح الفصيح) هي الطين العلك أو الأرض الطيبة الحمراء. (معجم ياقوت  
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_59.d2e2765" ref="oape:place:210 geon:99532">البصرة</placeName>
+                        ) فإني أراك تضبطها بالإفرنجية هكذا كما يضبطها العرب الفصحاء في كتبهم لأنهم يقولون: إن معناها الأرض الغليظة التي فيها حجارة تقلع وتقطع حوافر الدواب أو <placeName change="#d2e432 #d5e444" xml:id="placeName_92.d2e3286" ref="oape:place:210 geon:99532">البصرة</placeName> حجارة رخوة فيها بياض والحال إني لم أجد في رحلتي إليها حجارة بيضاء أو سوداء في <placeName change="#d2e432 #d5e444" xml:id="placeName_93.d2e3289" ref="oape:place:210 geon:99532">البصرة</placeName> أو في قربها. وقد سمعت بعض علمائها الحاليين يقولون: إن الأقدمين اخطئوا في تسميتها ب<placeName change="#d2e432 #d5e444" xml:id="placeName_94.d2e3292" ref="oape:place:210 geon:99532">البصرة</placeName> بالفتح وإنما هي بالضم. إذ ليس معناها الحجارة البيضاء بل (الأرض الغمقة أو الكثيرة المياه الراكدة) كما هو الأمر في عهدنا هذا وفي سابق العهد. فما قولكم؟</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_225.d2e2769">لم نجد في كتب اللغة العربية والارمية والفارسية لفظة <placeName change="#d2e432 #d5e444" xml:id="placeName_95.d2e3298" ref="oape:place:210 geon:99532">البصرة</placeName> بالضم بالمعنى الذي أشرتم إليه. والذي عندنا أن <placeName change="#d2e432 #d5e444" xml:id="placeName_96.d2e3301" ref="oape:place:210 geon:99532">البصرة</placeName> بالفتح (وهو الضبط الصحيح الفصيح) هي الطين العلك أو الأرض الطيبة الحمراء. (معجم ياقوت  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e2771" xml:lang="ar">١</num>
                         :  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="636" xml:id="num_1.d2e2774" xml:lang="ar">٦٣٦</num>
-                        ) وهي التي ترى بعد انحسار الماء في ديار <placeName change="#d2e432" xml:id="placeName_97.d2e3310">العراق</placeName> وعليه يكون معنى 
-                        <placeName change="#d2e296" xml:id="placeName_60.d2e2777">البصرة</placeName>
+                        ) وهي التي ترى بعد انحسار الماء في ديار <placeName change="#d2e432 #d5e444" xml:id="placeName_97.d2e3310" ref="oape:place:209 geon:99237">العراق</placeName> وعليه يكون معنى 
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_60.d2e2777" ref="oape:place:210 geon:99532">البصرة</placeName>
                         : الأرض العلكة الطيبة الحمراء كالغريل التي انحسر عنها ماء شط العرب. وهذا موافق للحال أحسن موافقة.</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_226.d2e2781">على غني سمعت أحد الأدباء يقول لي: أن صحيح الرواية في <placeName change="#d2e432" xml:id="placeName_99.d2e3320">البصرة</placeName> هي البسرة (بضم الباء فسكون السين) كما نقلها الإنكليز إلى لغتهم بقولهم. مشتقة من البسر بالضم: وهو الماء الطري الحديث العهد بالمطر والتمر قبل أرطابه.
+                    <p change="#d2e73 #d2e296" xml:id="p_226.d2e2781">على غني سمعت أحد الأدباء يقول لي: أن صحيح الرواية في <placeName change="#d2e432 #d5e444" xml:id="placeName_99.d2e3320" ref="oape:place:210 geon:99532">البصرة</placeName> هي البسرة (بضم الباء فسكون السين) كما نقلها الإنكليز إلى لغتهم بقولهم. مشتقة من البسر بالضم: وهو الماء الطري الحديث العهد بالمطر والتمر قبل أرطابه.
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1447.xhtml" ed="shamela" n="n3-p436" xml:id="pb_43.d2e2783"/>
                         <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="436" facs="#facs_435" edRef="#edition_1" xml:id="pb_86.d2e3325"/>
-                        وكلا الأمرين معروف في <placeName change="#d2e432" xml:id="placeName_100.d2e3327">البصرة</placeName> فإن ماءها كثير جم يجدده المد والجزر على الدوام فهو طري حديث العهد. وهي أيضاً معروفة بكثرة التمر وحسنه ولا سيما رطبها. - قلنا: كل هذا ممكن لكن الرواية هي بالصاد لا بالسين كما رواها جميع المؤرخين واللغويين والأدباء ولم نسمع من ذكرها</p>
+                        وكلا الأمرين معروف في <placeName change="#d2e432 #d5e444" xml:id="placeName_100.d2e3327" ref="oape:place:210 geon:99532">البصرة</placeName> فإن ماءها كثير جم يجدده المد والجزر على الدوام فهو طري حديث العهد. وهي أيضاً معروفة بكثرة التمر وحسنه ولا سيما رطبها. - قلنا: كل هذا ممكن لكن الرواية هي بالصاد لا بالسين كما رواها جميع المؤرخين واللغويين والأدباء ولم نسمع من ذكرها</p>
                     <byline change="#d2e219 #d2e296" xml:id="byline_10.d2e2787">بالسين. فليختر القارئ بعد هذا ما يشاء.</byline>
                 </div>
             </div>
@@ -1645,7 +1645,7 @@
                             <num change="#d2e258 #d2e296" type="auto-markup" value="1331" xml:id="num_1.d2e2916" xml:lang="ar">١٣٣١</num></date>-  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1913" xml:id="num_1.d2e2919" xml:lang="ar">١٩١٣</num>
                         في 
-                        <placeName change="#d2e296" xml:id="placeName_63.d2e2922">مصر</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_63.d2e2922" ref="oape:place:226 geon:360630">مصر</placeName>
                         في  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="320" xml:id="num_1.d2e2925" xml:lang="ar">٣٢٠</num>
                         صفحة من قطع الثمن.</p>
@@ -1662,12 +1662,12 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_28.d2e2943">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e2945" xml:lang="ar">٣</num>- </hi>العرفان</head>
                     <p change="#d2e73 #d2e296" xml:id="p_244.d2e2950">مجلة شهرية سنتها عشرة أشهر تبحث في العلم والأدب والأخلاق والاجتماع وتعتني عناية خاصة بشؤون الشيعة. لمنشئها ومديرها أحمد عارف الزين - قيمة الاشتراك ريال مجيدي</p>
-                    <p change="#d2e73 #d2e296" xml:id="p_245.d2e2953">في <placeName change="#d2e432" xml:id="placeName_104.d2e3526">صيدا</placeName> محل طبعها و 
+                    <p change="#d2e73 #d2e296" xml:id="p_245.d2e2953">في <placeName change="#d2e432 #d5e444" xml:id="placeName_104.d2e3526" ref="oape:place:9 geon:268064">صيدا</placeName> محل طبعها و 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e2955" xml:lang="ar">٥</num>
                         فرنكات في سائر البلاد العثمانية و 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e2958" xml:lang="ar">٦</num>
                         فرنكات في 
-                        <placeName change="#d2e296" xml:id="placeName_64.d2e2961">مصر</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_64.d2e2961" ref="oape:place:226 geon:360630">مصر</placeName>
                         والبلاد الأجنبية تدفع سلفاً.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_246.d2e2965">كانت هذه المجلة تصدر في السابق حتى برز منها أربعة مجلدات ثم خانها بعض المشتركين ولم يؤدوا ما عليهم فقعد عن إصدارها حولاً وهاهي الآن تعود إلى الظهور على تشجيع فئة من الأدباء والفضلاء.</p>
                     <p change="#d2e73 #d2e296" xml:id="p_247.d2e2968">وهذه الوضعية مما يحتاج إليها كل من يهمه الوقوف على فضلاء الشيعة وآدابهم ومؤلفاتهم وكل ما يتعلق بهم. وهي في  
@@ -1724,10 +1724,10 @@
                     <p change="#d2e73 #d2e296" xml:id="p_253.d2e3054">ذكرنا كل ذلك ليرى المطالع ما حوى هذا الكتاب من الفوائد الجليلة إذ جمع صاحبه فيه كل</p>
                     <p change="#d2e73 #d2e296" xml:id="p_254.d2e3058">ما أمكنه تدوينه في ما يتعلق ببحث النخل أو ثمرها التمر. وقد جاء الكتاب في  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="316" xml:id="num_1.d2e3060" xml:lang="ar">٣١٦</num>
-                        صفحة بقطع الثمن وفيه صور عديدة أتقن عملها كل الإتقان فغدا فريداً في بابه لا يستغني عنه من يهمه الوقوف على هذا الشجر لا سيما وإنه سبب ثروة <placeName change="#d2e432" xml:id="placeName_107.d2e3641">العراق</placeName>. ولا يحسن بنا أن نقعد عن التغلغل في تحسين شؤونه وإلا فإن الأميركيين يسبقوننا عن قريب فنتأخر عنهم بمراحل. فلقد نقلوا من تال 
+                        صفحة بقطع الثمن وفيه صور عديدة أتقن عملها كل الإتقان فغدا فريداً في بابه لا يستغني عنه من يهمه الوقوف على هذا الشجر لا سيما وإنه سبب ثروة <placeName change="#d2e432 #d5e444" xml:id="placeName_107.d2e3641" ref="oape:place:209 geon:99237">العراق</placeName>. ولا يحسن بنا أن نقعد عن التغلغل في تحسين شؤونه وإلا فإن الأميركيين يسبقوننا عن قريب فنتأخر عنهم بمراحل. فلقد نقلوا من تال 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_66.d2e3063">بغداد</placeName>
-                        و<placeName change="#d2e432" xml:id="placeName_109.d2e3647">البصرة</placeName> و
-                        <placeName change="#d2e296" xml:id="placeName_67.d2e3066">مصر</placeName>
+                        و<placeName change="#d2e432 #d5e444" xml:id="placeName_109.d2e3647" ref="oape:place:210 geon:99532">البصرة</placeName> و
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_67.d2e3066" ref="oape:place:226 geon:360630">مصر</placeName>
                         وتونس والجزائر وغيرها من ديار النخل فزكا وراع كل الريع لأنهم يتخذون كل الوسائل لتحسينه ولطرد كل آفة عنه - بخلاف ما يجري في بلادنا فإن طريقة غرسه اليوم لم تتغير عما كانت عليه قبل نحو  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3069" xml:lang="ar">٤</num>
                         آلاف سنة في عهد البابليين والكلدانيين.</p>
@@ -1773,19 +1773,19 @@
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1453.xhtml" ed="shamela" n="n3-p442" xml:id="pb_49.d2e3145"/>
                         <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="442" facs="#facs_441" edRef="#edition_1" xml:id="pb_98.d2e3736"/>
                         في شهر آذار من السنة المنصرمة ورحل إلى ديار 
-                        <placeName change="#d2e296" xml:id="placeName_68.d2e3147">الشام</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_68.d2e3147" ref="oape:place:61 geon:170654">الشام</placeName>
                         رحلة جعلها أدبية علمية تاريخية جغرافية فدون ما رآه في كتابه وهو هذا فجاء من أحسن ما كتبه الرحالون بالمعنى الذي أراده وقد هبط أشهر 
-                        <placeName change="#d2e296" xml:id="placeName_69.d2e3150">بلاد الشام</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_69.d2e3150" ref="oape:place:4 geon:6754242">بلاد الشام</placeName>
                         ووصفها وصفاً دقيقاً وهي 
-                        <placeName change="#d2e296" xml:id="placeName_70.d2e3153">حيفا</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_70.d2e3153" ref="oape:place:35 geon:294801">حيفا</placeName>
                         و
-                        <placeName change="#d2e296" xml:id="placeName_71.d2e3157">دمشق</placeName>
-                        و<placeName change="#d2e432" xml:id="placeName_115.d2e3751">بيروت</placeName> وحماة و<placeName change="#d2e432" xml:id="placeName_116.d2e3754">طرابلس</placeName> واللاذقية وحمص وحلب ثم عاد إلى وطنه وقد تعارف في طريقه بكثير من الأدباء والفضلاء والعلماء ونحن نتمنى أن يقدم يوماً إلى</p>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_71.d2e3157" ref="oape:place:61 geon:170654">دمشق</placeName>
+                        و<placeName change="#d2e432 #d5e444" xml:id="placeName_115.d2e3751" ref="oape:place:26 geon:276781">بيروت</placeName> وحماة و<placeName change="#d2e432 #d5e444" xml:id="placeName_116.d2e3754" ref="oape:place:30 geon:266826">طرابلس</placeName> واللاذقية وحمص وحلب ثم عاد إلى وطنه وقد تعارف في طريقه بكثير من الأدباء والفضلاء والعلماء ونحن نتمنى أن يقدم يوماً إلى</p>
                     <p change="#d2e73 #d2e296" xml:id="p_264.d2e3161">الزوراء ليكتب رحلة ثانية مثل رحلته هذه وليس ذلك أمراً صعباً على ذوي الهمم ولا سيما مثل حضرته. قرب الله تلك المدة ومتعنا برؤياه!</p>
                 </div>
             </div>
             <div change="#d2e64 #d2e296" type="section" xml:id="div_15.d2e3165">
-                <head change="#d2e296" xml:id="head_15.d2e3167">تاريخ وقائع الشهر في <placeName change="#d2e432" xml:id="placeName_117.d2e3768">العراق</placeName> وما جاوره</head>
+                <head change="#d2e296" xml:id="head_15.d2e3167">تاريخ وقائع الشهر في <placeName change="#d2e432 #d5e444" xml:id="placeName_117.d2e3768" ref="oape:place:209 geon:99237">العراق</placeName> وما جاوره</head>
                 <div change="#d2e307 #d2e359" subtype="article" type="item" xml:id="div_15.d2e3239">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_265.d2e3170">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_31.d2e3172">
@@ -1812,7 +1812,7 @@
                         سنة (الحاج ذرب) رئيس ناحية الكفل (والكفل مزار مشهور فيه قبر النبي</p>
                     <p change="#d2e73 #d2e296" xml:id="p_270.d2e3212">حزقيال بقرب الحلة) إن جامع الكفل هو للمسلمين وإن الموسويين قد تملكوه بدون حق. والدليل على ذلك وجود منبر هناك ومحفل ومحراب ومئذنة فلما سألت حكومة 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_72.d2e3214">بغداد</placeName>
-                        الموسويين (وكان السؤال في ذلك العهد) عن حقيقة الأمر أنكر الموسويون ما نسب إليهم وأنكروا وجود مئذنة وما يتعلق بها في ذلك الموطن. فندبت الحكومة رجلاً يكشف عن كنه الأمر وعن وجود المئذنة فكان جواب الكشاف بعد الذهاب إلى الموطن المذكور أن لا منارة هناك. فكتب الحاج ذرب إلى <placeName change="#d2e432" xml:id="placeName_119.d2e3825">الأستانة</placeName> ليطلع أولي الأمر على حقيقة المسألة وطلب منهم أن يبعثوا رجلاً ليثبت ما وقع عليه النزاع فبادروا إلى تلبية طلبته وأرسلوا كشافاً لهذه الغاية من <placeName change="#d2e432" xml:id="placeName_120.d2e3828">الأستانة</placeName> نفسها فلما وصل الرجل المذكور إلى 
+                        الموسويين (وكان السؤال في ذلك العهد) عن حقيقة الأمر أنكر الموسويون ما نسب إليهم وأنكروا وجود مئذنة وما يتعلق بها في ذلك الموطن. فندبت الحكومة رجلاً يكشف عن كنه الأمر وعن وجود المئذنة فكان جواب الكشاف بعد الذهاب إلى الموطن المذكور أن لا منارة هناك. فكتب الحاج ذرب إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_119.d2e3825" ref="oape:place:3 geon:745044">الأستانة</placeName> ليطلع أولي الأمر على حقيقة المسألة وطلب منهم أن يبعثوا رجلاً ليثبت ما وقع عليه النزاع فبادروا إلى تلبية طلبته وأرسلوا كشافاً لهذه الغاية من <placeName change="#d2e432 #d5e444" xml:id="placeName_120.d2e3828" ref="oape:place:3 geon:745044">الأستانة</placeName> نفسها فلما وصل الرجل المذكور إلى 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_73.d2e3217">بغداد</placeName>
                         بقي فيها بضعة أيام ثم رجع إلى من حيث أتى وقال: لا يوجد مئذنة في ناحية الكفل. - والحال أنها إلى الآن موجودة والإفرنج وغيرهم من أهل التحقيق صوروها من جهاتها الأربع بحيث لا يمكن أن ينكرها (العناديون) أنفسهم فكيف يمكن الجمع بين الوجود والعدم؟ إن هذه من الخوارق التي لا تجري إلا في بلادنا.</p>
                 </div>
@@ -1821,20 +1821,20 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_33.d2e3223">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3225" xml:lang="ar">٣</num>- </hi>السيد طالب بك النقيب</head>
                     <p change="#d2e73 #d2e296" xml:id="p_272.d2e3230">نشرت جرائد 
-                        <placeName change="#d2e296" xml:id="placeName_74.d2e3232">مصر</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_74.d2e3232" ref="oape:place:226 geon:360630">مصر</placeName>
                         و
-                        <placeName change="#d2e296" xml:id="placeName_75.d2e3235">الشام</placeName>
-                        إن الحكومة عرضت على السيد طالب النقيب منصباً في مجلس الأعيان فرفض وأبى الذهاب إلى <placeName change="#d2e432" xml:id="placeName_124.d2e3855">الأستانة</placeName> كما أنه استعفى من النيابة في مجلس المبعوثين.</p>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_75.d2e3235" ref="oape:place:61 geon:170654">الشام</placeName>
+                        إن الحكومة عرضت على السيد طالب النقيب منصباً في مجلس الأعيان فرفض وأبى الذهاب إلى <placeName change="#d2e432 #d5e444" xml:id="placeName_124.d2e3855" ref="oape:place:3 geon:745044">الأستانة</placeName> كما أنه استعفى من النيابة في مجلس المبعوثين.</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_15.d2e3310" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_273.d2e3239">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_34.d2e3241">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3243" xml:lang="ar">٤</num>- </hi>السكينة في العراق</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_274.d2e3248">تذهب البرقيات تترى من <placeName change="#d2e432" xml:id="placeName_125.d2e3873">العراق</placeName> العربي (هذا كلام جريدة فتى العرب
+                    <p change="#d2e73 #d2e296" xml:id="p_274.d2e3248">تذهب البرقيات تترى من <placeName change="#d2e432 #d5e444" xml:id="placeName_125.d2e3873" ref="oape:place:209 geon:99237">العراق</placeName> العربي (هذا كلام جريدة فتى العرب
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1455.xhtml" ed="shamela" n="n3-p444" xml:id="pb_51.d2e3250"/>
                         <pb change="#d2e384 #d2e414 #d2e430 #d2e432" ed="print" n="444" facs="#facs_443" edRef="#edition_1" xml:id="pb_102.d2e3878"/>
-                        ولم تذكر من أي بلدة تصدر هذه البرقيات) إلى الباب العالي احتجاجاً على تعيين جاويد باشا وحسني باشا في بلاد <placeName change="#d2e432" xml:id="placeName_126.d2e3880">العراق</placeName>. ثم قالت: فحار رجال الحل والعقد في <placeName change="#d2e432" xml:id="placeName_127.d2e3883">الأستانة</placeName> لهذا الأمر والصحف انقسمت فيه إلى قسمين قسم يشجع الحكومة على إخضاعهم بالسيف والسنان وقسم يوصيها بأخذهم باللين والإحسان). قلنا: السكينة سائدة في <placeName change="#d2e432" xml:id="placeName_128.d2e3887">العراق</placeName> وليس فيه ما يقلق الخواطر ويثير عليه غضب الحكومة فالظاهر أن أهل الفتنة أناس قليلون لا يتعد بهم، بل ولا يلتفت إليهم.</p>
+                        ولم تذكر من أي بلدة تصدر هذه البرقيات) إلى الباب العالي احتجاجاً على تعيين جاويد باشا وحسني باشا في بلاد <placeName change="#d2e432 #d5e444" xml:id="placeName_126.d2e3880" ref="oape:place:209 geon:99237">العراق</placeName>. ثم قالت: فحار رجال الحل والعقد في <placeName change="#d2e432 #d5e444" xml:id="placeName_127.d2e3883" ref="oape:place:3 geon:745044">الأستانة</placeName> لهذا الأمر والصحف انقسمت فيه إلى قسمين قسم يشجع الحكومة على إخضاعهم بالسيف والسنان وقسم يوصيها بأخذهم باللين والإحسان). قلنا: السكينة سائدة في <placeName change="#d2e432 #d5e444" xml:id="placeName_128.d2e3887" ref="oape:place:209 geon:99237">العراق</placeName> وليس فيه ما يقلق الخواطر ويثير عليه غضب الحكومة فالظاهر أن أهل الفتنة أناس قليلون لا يتعد بهم، بل ولا يلتفت إليهم.</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_15.d2e3325" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_275.d2e3254">
@@ -1852,7 +1852,7 @@
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_78.d2e3277">بغداد</placeName>
                         الجديد وقائد عسكرها فؤاد أفندي الدفتري مبعوث 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_79.d2e3280">بغداد</placeName>
-                        سابقاً وقد عين مفتشاً للأوقاف في ديار <placeName change="#d2e432" xml:id="placeName_133.d2e3925">العراق</placeName> بمشاهرة  
+                        سابقاً وقد عين مفتشاً للأوقاف في ديار <placeName change="#d2e432 #d5e444" xml:id="placeName_133.d2e3925" ref="oape:place:209 geon:99237">العراق</placeName> بمشاهرة  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="70" xml:id="num_1.d2e3284" xml:lang="ar">٧٠</num>
                         ليرة، ومعه أيضاً حكمت بك قيم مقام مركز 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_80.d2e3287">بغداد</placeName>
@@ -1860,7 +1860,7 @@
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_81.d2e3290">بغداد</placeName>
                         . وللوالي الجديد سيارة (أوتوموبيل) قيمتها  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="600" xml:id="num_1.d2e3293" xml:lang="ar">٦٠٠</num>
-                        ليرة ومعه ألفا حقة من بزر القطن لأحياء زراعة هذا النبت في <placeName change="#d2e432" xml:id="placeName_136.d2e3940">العراق</placeName>. وكان قدوم الجميع في  
+                        ليرة ومعه ألفا حقة من بزر القطن لأحياء زراعة هذا النبت في <placeName change="#d2e432 #d5e444" xml:id="placeName_136.d2e3940" ref="oape:place:209 geon:99237">العراق</placeName>. وكان قدوم الجميع في  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="18" xml:id="num_1.d2e3296" xml:lang="ar">١٨</num>
                         ك  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3299" xml:lang="ar">٢</num>
@@ -1929,7 +1929,7 @@
                         <hi change="#d2e296" style="color:red;" xml:id="hi_43.d2e3415">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="13" xml:id="num_1.d2e3417" xml:lang="ar">١٣</num>- </hi>نفي (علي موسى خان) من مسقط</head>
                     <p change="#d2e73 #d2e296" xml:id="p_294.d2e3422">نفى هذا الرجل وهو من أصحاب المبرات في مسقط بأمر حاكمها وقد أرسل مخفوراً مع سبعة عشر جندياً من عساكر الهند يقودهم ضابط لإيصاله إلى 
-                        <placeName change="#d2e296" xml:id="placeName_84.d2e3424">البصرة</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_84.d2e3424" ref="oape:place:210 geon:99532">البصرة</placeName>
                         . ويقال أن سبب نفيه خوف انكلترة من سطوته ونفوذه لأنه من مخالفي سياستها هناك. أما الرجل فقد سافر من وطنه قاصداً المدينة.</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_15.d2e3506" subtype="article">
@@ -1960,10 +1960,10 @@
                     <p change="#d2e73 #d2e296" xml:id="p_301.d2e3473">قدم في الأسبوع الأول من الشهر المذكور أحد مهرجاهية الهند وهو حاكم (سليم بول) إلى 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_86.d2e3475">بغداد</placeName>
                         لزيارة الكاظمية وسامراء و
-                        <placeName change="#d2e432" xml:id="placeName_142.d2e4160">النجف</placeName>
+                        <placeName change="#d2e432 #d5e444" xml:id="placeName_142.d2e4160" ref="oape:place:215 geon:98862">النجف</placeName>
                         و
-                        <placeName change="#d2e432" xml:id="placeName_143.d2e4163">كربلاء</placeName>
-                        وهذا الفاضل كان في مقدمة الرجال الذين أعانوا <placeName change="#d2e432" xml:id="placeName_144.d2e4166">الدولة العثمانية</placeName> في حربي <placeName change="#d2e432" xml:id="placeName_145.d2e4169">طرابلس</placeName> والبلقان وهم من رؤساء مشاهير الهند. وقد دفع من الإعانات المالية ستة آلاف ليرة من ماله الخاص به. وقد رحب به الناس أينما ذهب وحيثما حل.</p>
+                        <placeName change="#d2e432 #d5e444" xml:id="placeName_143.d2e4163" ref="oape:place:372 geon:94824">كربلاء</placeName>
+                        وهذا الفاضل كان في مقدمة الرجال الذين أعانوا <placeName change="#d2e432 #d5e444" xml:id="placeName_144.d2e4166" ref="oape:place:1">الدولة العثمانية</placeName> في حربي <placeName change="#d2e432 #d5e444" xml:id="placeName_145.d2e4169" ref="oape:place:30 geon:266826">طرابلس</placeName> والبلقان وهم من رؤساء مشاهير الهند. وقد دفع من الإعانات المالية ستة آلاف ليرة من ماله الخاص به. وقد رحب به الناس أينما ذهب وحيثما حل.</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_15.d2e3559" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_302.d2e3479">
@@ -2039,7 +2039,7 @@
                         مثل ذلك البرد عينه فكسر اغلب الألواح المخرمة التي اعتاد أهالي 
                         <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_94.d2e3608">بغداد</placeName>
                         أن يزينوا بها الاطناف ويسمونها (بيجة) (من اللغة الفارسية والسبب إن اغلب أسماء أدوات وأعمال البنائين والنجارين مأخوذة عن الإيرانيين مما لم تزل آثاره إلى اليوم) وقتل عدداً لا يحصى من الطيور البرية التي تقف عادة على قباب الجوامع وذكرت له أيضاً أن في ذلك الهواء غرق عدد غير قليل من السفن الحاملة للزوار في بحيرة 
-                        <placeName change="#d2e296" xml:id="placeName_95.d2e3611">النجف</placeName>
+                        <placeName change="#d2e296 #d5e444" xml:id="placeName_95.d2e3611" ref="oape:place:215 geon:98862">النجف</placeName>
                         وقدروا وقتئذ الغرقى بنحو ألفين</p>
                     <p change="#d2e73 #d2e296" xml:id="p_315.d2e3615">إلى ثلاثة آلاف نفس حتى أخذ الأعراب هناك إخراج الجثث بالآلة التي يستخرجون بها السمك ويسمونها (قالة) ولكن يا للأسف ليس رحمة بهم أو لمواراتهم ودفع التعفن لدفع الأمراض بل لسلب ما يكون في جيوبهم من المال وإعادتهم إلى الماء وحيث أن هذا الأمر مما يجب ذكره تخليداً للتاريخ حررت هذه الأسطر لطبعها في مجلة 
                         <title change="#d2e296 #d5e419" level="j" xml:id="title_20.d2e3617" ref="oape:bibl:1 oclc:472450345">لغة العرب</title>
@@ -2056,7 +2056,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e3636" xml:lang="ar">١</num>
                         - الدكتور (جناب شهاب الدين بك) المفتش العام في اللجنة الصحية المذكورة وهو عثماني؛  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="2" xml:id="num_1.d2e3639" xml:lang="ar">٢</num>
-                        - الدكتور (والتر) طبيب سفارة روسية في <placeName change="#d2e432" xml:id="placeName_155.d2e4361">الأستانة</placeName> وهو روسي؛  
+                        - الدكتور (والتر) طبيب سفارة روسية في <placeName change="#d2e432 #d5e444" xml:id="placeName_155.d2e4361" ref="oape:place:3 geon:745044">الأستانة</placeName> وهو روسي؛  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="3" xml:id="num_1.d2e3642" xml:lang="ar">٣</num>
                         - الدكتور كليمو طبيب سفارة انكلترة في فروق. وهو إنكليزي،  
                         <num change="#d2e258 #d2e296" type="auto-markup" value="4" xml:id="num_1.d2e3645" xml:lang="ar">٤</num>
@@ -2127,7 +2127,7 @@
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_329.d2e3755">
                         <hi change="#d2e296" style="color:red;" xml:id="hi_59.d2e3757">
                             <num change="#d2e258 #d2e296" type="auto-markup" value="27" xml:id="num_1.d2e3759" xml:lang="ar">٢٧</num>- </hi>ابن الرشيد</head>
-                    <p change="#d2e73 #d2e296" xml:id="p_330.d2e3764">خرج من بلاده متجهاً نحو ديار <placeName change="#d2e432" xml:id="placeName_158.d2e4507">العراق</placeName> لتأديب (أي لغزو) بعض القبائل المبثوثة في بواديها.</p>
+                    <p change="#d2e73 #d2e296" xml:id="p_330.d2e3764">خرج من بلاده متجهاً نحو ديار <placeName change="#d2e432 #d5e444" xml:id="placeName_158.d2e4507" ref="oape:place:209 geon:99237">العراق</placeName> لتأديب (أي لغزو) بعض القبائل المبثوثة في بواديها.</p>
                 </div>
                 <div change="#d2e307 #d2e359 #d2e430" type="item" xml:id="div_15.d2e3857" subtype="article">
                     <head change="#d2e73 #d2e296 #d2e307" xml:id="p_331.d2e3767">
@@ -2149,7 +2149,7 @@
                         <num change="#d2e258 #d2e296" type="auto-markup" value="500" xml:id="num_1.d2e3803" xml:lang="ar">٥٠٠</num>
                         عن نفسه و 
                         <num change="#d2e258 #d2e296" type="auto-markup" value="200" xml:id="num_1.d2e3806" xml:lang="ar">٢٠٠</num>
-                        عن نجليه اللذين ذهبا إلى كلية <placeName change="#d2e432" xml:id="placeName_159.d2e4561">الأستانة</placeName> الفرنسوية وهما نجم الدين بك وتوفيق بك وجمع</p>
+                        عن نجليه اللذين ذهبا إلى كلية <placeName change="#d2e432 #d5e444" xml:id="placeName_159.d2e4561" ref="oape:place:3 geon:745044">الأستانة</placeName> الفرنسوية وهما نجم الدين بك وتوفيق بك وجمع</p>
                     <p change="#d2e73 #d2e296" xml:id="p_337.d2e3810">ألفي ليرة من البصريين خدمة للدولة وإعانة لأسطولها.
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1460.xhtml" ed="shamela" n="n3-p449" xml:id="pb_56.d2e3812"/></p>
