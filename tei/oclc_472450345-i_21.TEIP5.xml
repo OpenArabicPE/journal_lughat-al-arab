@@ -65,15 +65,15 @@
                             </imprint>
                             <biblScope from="2" to="2" unit="volume" change="#d2e215 #d2e282" xml:id="biblScope_1.d2e157"/>
                             <biblScope from="9" to="9" unit="issue" change="#d2e215 #d2e282" xml:id="biblScope_2.d2e159"/>
-                            <biblScope from="369" unit="page" change="#d2e393" to="424">369-424</biblScope>
+                            <biblScope from="369" unit="page" change="#d2e393 #d2e417" to="424" xml:id="biblScope_3.d2e160">369-424</biblScope>
                         </monogr>
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e415" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e404" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Linked all <tag>pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e395">Added <gi>graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e393">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc><change when="2019-09-23" who="#pers_TG" xml:id="d2e417" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e415" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-08-20" who="#pers_TG" xml:id="d5e404" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e417" xml:id="ref_1.d2e172">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e417" xml:id="gi_1.d2e175">titles</gi>s without such references based on  <gi change="#d2e417" xml:id="gi_2.d2e178">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e399">Linked all <tag change="#d2e417" xml:id="tag_1.d2e183">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e395">Added <gi change="#d2e417" xml:id="gi_3.d2e188">graphic</gi> for 56 pages with references to digital images.</change><change when="2019-06-13" who="#pers_TG" xml:id="d2e393">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e370">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
-         <change when="2019-05-16" who="#pers_TG" xml:id="d3e356" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
-         <change when="2019-05-02" who="#pers_TG" xml:id="d2e344" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change>
+         <change when="2019-05-16" who="#pers_TG" xml:id="d3e356" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e417" xml:id="ref_2.d2e199">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi change="#d2e417" xml:id="gi_4.d2e202">persName</gi>s without such references based on <gi change="#d2e417" xml:id="gi_5.d2e205">person</gi>s in the local authority file. If the source <gi change="#d2e417" xml:id="gi_6.d2e208">persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
+         <change when="2019-05-02" who="#pers_TG" xml:id="d2e344" xml:lang="en">Added automated <att xml:lang="en" change="#d2e417" xml:id="att_1.d2e214">xml:id</att>s for every element that is a descendant of <gi xml:lang="en" change="#d2e417" xml:id="gi_7.d2e217">tei:text</gi> and had no existing <att xml:lang="en" change="#d2e417" xml:id="att_2.d2e220">xml:id</att> following the pattern "name()_generate-id()".</change>
          <change when="2019-04-07" who="#pers_TG" xml:id="d2e333">Marked final <gi change="#d2e344" xml:id="gi_1.d2e170">p</gi>s inside <gi change="#d2e344" xml:id="gi_1.d2e173">div</gi>s as bylines (<gi change="#d2e344" xml:id="gi_1.d2e176">byline</gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-04-06" who="#pers_TG" xml:lang="en" xml:id="d2e325">Automatically split all <tag change="#d2e344" xml:id="tag_1.d2e181">div type="section"</tag> into subsections of <tag change="#d2e344" xml:id="tag_1.d2e184">div type="article"</tag>, using paragraphs with a length of 30 or less as indicator of a heading.</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e301" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e344" xml:id="list_1.d2e189">
@@ -95,11 +95,11 @@
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e180" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en" change="#d2e282" xml:id="gi_6.d2e257">head</gi> of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en" change="#d2e282" xml:id="gi_7.d2e260">tei:p</gi>s.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <gi xml:lang="en" change="#d2e282" xml:id="gi_8.d2e266">tei:lb</gi> into <gi xml:lang="en" change="#d2e282" xml:id="gi_9.d2e269">xml:p</gi>s.</change>
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en" change="#d2e282" xml:id="gi_10.d2e275">tei:head</gi> into <gi xml:lang="en" change="#d2e282" xml:id="gi_11.d2e278">xml:div</gi>s.</change>
-         <change when="2019-03-27" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+         <change when="2019-03-27" who="#pers_TG" xml:lang="en" change="#d2e417" xml:id="change_24.d2e417">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_369"><graphic xml:id="facs_369-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/369.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_370"><graphic xml:id="facs_370-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/370.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_371"><graphic xml:id="facs_371-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/371.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_372"><graphic xml:id="facs_372-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/372.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_373"><graphic xml:id="facs_373-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/373.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_374"><graphic xml:id="facs_374-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/374.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_375"><graphic xml:id="facs_375-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/375.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_376"><graphic xml:id="facs_376-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/376.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_377"><graphic xml:id="facs_377-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/377.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_378"><graphic xml:id="facs_378-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/378.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_379"><graphic xml:id="facs_379-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/379.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_380"><graphic xml:id="facs_380-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/380.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_381"><graphic xml:id="facs_381-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/381.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_382"><graphic xml:id="facs_382-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/382.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_383"><graphic xml:id="facs_383-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/383.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_384"><graphic xml:id="facs_384-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/384.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_385"><graphic xml:id="facs_385-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/385.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_386"><graphic xml:id="facs_386-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/386.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_387"><graphic xml:id="facs_387-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/387.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_388"><graphic xml:id="facs_388-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/388.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_389"><graphic xml:id="facs_389-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/389.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_390"><graphic xml:id="facs_390-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/390.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_391"><graphic xml:id="facs_391-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/391.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_392"><graphic xml:id="facs_392-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/392.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_393"><graphic xml:id="facs_393-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/393.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_394"><graphic xml:id="facs_394-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/394.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_395"><graphic xml:id="facs_395-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/395.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_396"><graphic xml:id="facs_396-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/396.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_397"><graphic xml:id="facs_397-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/397.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_398"><graphic xml:id="facs_398-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/398.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_399"><graphic xml:id="facs_399-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/399.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_400"><graphic xml:id="facs_400-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/400.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_401"><graphic xml:id="facs_401-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/401.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_402"><graphic xml:id="facs_402-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/402.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_403"><graphic xml:id="facs_403-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/403.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_404"><graphic xml:id="facs_404-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/404.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_405"><graphic xml:id="facs_405-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/405.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_406"><graphic xml:id="facs_406-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/406.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_407"><graphic xml:id="facs_407-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/407.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_408"><graphic xml:id="facs_408-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/408.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_409"><graphic xml:id="facs_409-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/409.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_410"><graphic xml:id="facs_410-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/410.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_411"><graphic xml:id="facs_411-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/411.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_412"><graphic xml:id="facs_412-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/412.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_413"><graphic xml:id="facs_413-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/413.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_414"><graphic xml:id="facs_414-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/414.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_415"><graphic xml:id="facs_415-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/415.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_416"><graphic xml:id="facs_416-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/416.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_417"><graphic xml:id="facs_417-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/417.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_418"><graphic xml:id="facs_418-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/418.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_419"><graphic xml:id="facs_419-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/419.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_420"><graphic xml:id="facs_420-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/420.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_421"><graphic xml:id="facs_421-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/421.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_422"><graphic xml:id="facs_422-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/422.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_423"><graphic xml:id="facs_423-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/423.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_424"><graphic xml:id="facs_424-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/loghat_el_arab/Alsana _2/Issue_9/424.jpg" mimeType="image/jpeg"/></surface></facsimile><text xml:lang="ar" change="#d2e282" xml:id="text_1.d2e287">
       <pb n="n2-p369" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P857.xhtml" change="#d2e282" xml:id="pb_1.d2e289"/>
-      <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="369" facs="#facs_369" edRef="#edition_1"/>
+      <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="369" facs="#facs_369" edRef="#edition_1" xml:id="pb_2.d2e543"/>
       <body change="#d2e282" xml:id="body_1.d2e291">
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_1.d2e293">
             <head change="#d2e282" xml:id="head_1.d2e295">العدد  <num type="auto-markup" change="#d2e258 #d2e282" value="21" xml:lang="ar" xml:id="num_1.d2e297">٢١</num> 
@@ -111,50 +111,50 @@
          </div>
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_2.d2e316">
             <head change="#d2e282" xml:id="head_2.d2e318">صرعى الكتب والمكتبات في العراق</head>
-            <p change="#d2e73 #d2e282" xml:id="p_1.d2e321">لا يعرف على التحقيق الزمن الأول الذي دوّنت الكتب فيه واقتناها الناس على هذه الصورة أو ما يشبهها حسب اختلاف العصور غير أنا نعلم أنه قد قارن عهد وجود الكتب وجودُ أناسٍ فتنوا بها وسحرتهم فبالغوا في جمعها وفي الضنة بها وقد تأنقوا في نسخها ووراقتها وتجليدها وتنضيدها وتحليتها بما لا مزيد فوقه. وربما كان بعض جماعة الكتب من غير قراّئها ولا من المتدبرين لها ولكنه أولع بها فوجد مع جهله لذّة في اقتنائها وارتياحاً إلى الازديادِ منها وطيب نفسِ لا للاستفادة ولكن لمجرَّد انفتاحها وانطباقها وللهو بها كما كان يفعل أحد جماعة الكتب من الفرس في <placeName change="#d2e282" xml:id="placeName_4.d2e323">النجف</placeName> على عهد غير بعيد وقد كانت اليد الطولى للفرس في بث روح المغالاة بالكتب بين أهل <placeName>العراق</placeName> وذلك على عهد هبوطهم هذه الديار وانتيابهم إياها لطلب العلم أو للجوار وفيهم أولاد العلماء والملوك وأهل الجاهِ والثروة فحملوا إلينا خزائن الكتب من بلادهم غير ما جمعوه بعد تمكنهم في
+            <p change="#d2e73 #d2e282" xml:id="p_1.d2e321">لا يعرف على التحقيق الزمن الأول الذي دوّنت الكتب فيه واقتناها الناس على هذه الصورة أو ما يشبهها حسب اختلاف العصور غير أنا نعلم أنه قد قارن عهد وجود الكتب وجودُ أناسٍ فتنوا بها وسحرتهم فبالغوا في جمعها وفي الضنة بها وقد تأنقوا في نسخها ووراقتها وتجليدها وتنضيدها وتحليتها بما لا مزيد فوقه. وربما كان بعض جماعة الكتب من غير قراّئها ولا من المتدبرين لها ولكنه أولع بها فوجد مع جهله لذّة في اقتنائها وارتياحاً إلى الازديادِ منها وطيب نفسِ لا للاستفادة ولكن لمجرَّد انفتاحها وانطباقها وللهو بها كما كان يفعل أحد جماعة الكتب من الفرس في <placeName change="#d2e282" xml:id="placeName_4.d2e323">النجف</placeName> على عهد غير بعيد وقد كانت اليد الطولى للفرس في بث روح المغالاة بالكتب بين أهل <placeName change="#d2e417" xml:id="placeName_5.d2e581">العراق</placeName> وذلك على عهد هبوطهم هذه الديار وانتيابهم إياها لطلب العلم أو للجوار وفيهم أولاد العلماء والملوك وأهل الجاهِ والثروة فحملوا إلينا خزائن الكتب من بلادهم غير ما جمعوه بعد تمكنهم في
 <pb n="n2-p370" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P858.xhtml" change="#d2e282" xml:id="pb_2.d2e326"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="370" facs="#facs_370" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="370" facs="#facs_370" edRef="#edition_1" xml:id="pb_4.d2e586"/>
 
 
-هذه البلاد وغير ما حملَ إليهم من بلاد الهند وغيرها. هذا غير ما كان لإِيران من الفضل في طبع الكتب التي لا تقع تحت حصر من علمية على تشعب فنون العلم ودينية على اختلاف فروع الدين وكلها تحمل إلى <placeName>العراق</placeName> أو إلى <placeName change="#d2e282" xml:id="placeName_5.d2e328">النجف</placeName> حيث اطمأَن العلم والعلماء وشيدت المدارس وأنشئت بيوت الكتب الكبيرة فاقدم إذ ذاك عامةُ الناس على ابتياعها وكان قد نبغ أثناء ذلك قوم معروفون أُولِعوا بجمع الكتب وشغفوا بحبها وبينهم فريق من أبناء الملوك والعلماء وذوو الأسر. والبيوت الأصيلة. وآخرون من الدهماء خلقوا لتصرعهم الكتب فعكفوا على نشدانها وطلبها من مظانها فتيسرَ لهم جمع ما ليس باليسير منها ومن هؤلاء من أدرّكناهم في زماننا هذا كالشيخ (الملا باقر التستري) المتوفى في <placeName change="#d2e282" xml:id="placeName_6.d2e331">النجف</placeName> 
+هذه البلاد وغير ما حملَ إليهم من بلاد الهند وغيرها. هذا غير ما كان لإِيران من الفضل في طبع الكتب التي لا تقع تحت حصر من علمية على تشعب فنون العلم ودينية على اختلاف فروع الدين وكلها تحمل إلى <placeName change="#d2e417" xml:id="placeName_6.d2e588">العراق</placeName> أو إلى <placeName change="#d2e282" xml:id="placeName_5.d2e328">النجف</placeName> حيث اطمأَن العلم والعلماء وشيدت المدارس وأنشئت بيوت الكتب الكبيرة فاقدم إذ ذاك عامةُ الناس على ابتياعها وكان قد نبغ أثناء ذلك قوم معروفون أُولِعوا بجمع الكتب وشغفوا بحبها وبينهم فريق من أبناء الملوك والعلماء وذوو الأسر. والبيوت الأصيلة. وآخرون من الدهماء خلقوا لتصرعهم الكتب فعكفوا على نشدانها وطلبها من مظانها فتيسرَ لهم جمع ما ليس باليسير منها ومن هؤلاء من أدرّكناهم في زماننا هذا كالشيخ (الملا باقر التستري) المتوفى في <placeName change="#d2e282" xml:id="placeName_6.d2e331">النجف</placeName> 
                <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329" type="auto-markup" change="#d2e266 #d3e274 #d2e282" when="1911" xml:id="date_4.d2e334">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1329" xml:lang="ar" xml:id="num_1.d2e336">١٣٢٩</num>
                </date>  فأنه كان مفتوناً بجمع الكتب فتنةً قلَّ أن تعهد في غيره وكان إذا قدّم إلى (معرض الكتب) في <placeName change="#d2e282" xml:id="placeName_7.d2e340">النجف</placeName> كتاب مخطوط بذل النفس والنفيس في سبيله على قلة ذات يِدِهِ وربما تملق لمن ينافسه في الكتاب تملقاً لا مزيد عليه حين (المناداة) على بيعه وقد يقبل المنافسَ ويتعلق به ليتركَ لهُ طلبتهُ. قال بعضهم نافسته يوماً في كتابٍ و (المنادي) ينادي عليه فسألني تركه فما كان منه إلاَّ أن امسكني بيده قائلاً وقد تغيرَ: أَما تخشى الله؟ وله نوادر جمة في باب اقتناء الكتب وقد جاور</p>
-            <p change="#d2e73 #d2e282" xml:id="p_2.d2e344">زماناً ب<placeName>مكة</placeName> واتصل بالشريف هناك واقتنى قسماً من كتبه المخطوطة فيها. وله إلى إيران رِحلات كان أهمَّ ما يحمله عليها جمع الآثار ولقد حصل باجتهاده على أمهات الكتب النفيسة القديمة على اختلاف موضوعاتها وقد شاهدنا بينها كتب الدين والفلسفة
+            <p change="#d2e73 #d2e282" xml:id="p_2.d2e344">زماناً ب<placeName change="#d2e417" xml:id="placeName_10.d2e610">مكة</placeName> واتصل بالشريف هناك واقتنى قسماً من كتبه المخطوطة فيها. وله إلى إيران رِحلات كان أهمَّ ما يحمله عليها جمع الآثار ولقد حصل باجتهاده على أمهات الكتب النفيسة القديمة على اختلاف موضوعاتها وقد شاهدنا بينها كتب الدين والفلسفة
 <pb n="n2-p371" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P859.xhtml" change="#d2e282" xml:id="pb_3.d2e346"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="371" facs="#facs_371" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="371" facs="#facs_371" edRef="#edition_1" xml:id="pb_6.d2e615"/>
 
 
 والفلك والرياضيات والشعر والتاريخ والعربية وكان إذا اقتنى كتاباً كتب عليه بخط بديع (للحقير محمد الباقر) وخط معروف يشار إليه عند الصحفيين وفي أسواق الكتب ومعارضها ولما عرضت كتبه للبيع <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329" type="auto-markup" change="#d2e266 #d3e274 #d2e282" when="1911" xml:id="date_4.d2e348">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1329" xml:lang="ar" xml:id="num_1.d2e350">١٣٢٩</num>
                </date>  وكان فيها اكثر من ألف مجلد مخطوط نودي عليها عدة أسابيع وكنت ممن يحضر المناداة فشاهدت فيما شاهدت ما يدهش المتأَمل من آثارٍ نادرة في بابها ونفائس مخطوطات قليلة الوقوع حتى في أمهات بيوت الكتب الكبيرة في العالم وذلك مثل كتاب (مشارق الأنوار) للقاضي عياض الذي كان يظن أنه أصبح أثراً بعد عين وكتاب (العين) للخليل الفراهيدي وكتاب (الزينة) لأبي حاتم وكتاب (غريب أبي عبيدة) وكتاب (طبقات القراء) وشرح (تذكرة الطوسي) في الفلك للخفري وشرحها أيضاً للسيد الشريف وقد ملكتهما و (القول المأنوس) وهو وجيز حاشيةٍ على القاموس وغير ذلك من شواذّ الأسفار الكبيرة التي لم تمثل بعد للطبع كبعض مؤلفات الثعالبي المعروف ووقفت أيضاً بين كتبه على كتاب (وفَيات الأعيان) بخط مؤلفه قاضي القضاة ابن خلكان هذا عدا ما لا اقدر أن آتي عليه في هذه العجالة وبالجملة ذهبت كتبه بثمن بخس وبيعت بصفقة خاسرة ولو نودي على هذه الكتب في أسواق الغرب لذهبت بزنتها لجيناً على أن مبتاعها غير مغبون.</p>
             <p change="#d2e73 #d2e282" xml:id="p_3.d2e354">وممن عرف في <placeName change="#d2e282" xml:id="placeName_8.d2e356">النجف</placeName> من الغلاة في اقتناء الكتب العالم المحدَث الكبير الشيخ (ميرزا حسين النوري) الطهراني المتوفى قبل اثنتي عشرة سنة تقريباً فقد كان متعلقاً بجمع المخطوطات متفانياً في إحراز
 <pb n="n2-p372" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P860.xhtml" change="#d2e282" xml:id="pb_4.d2e359"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="372" facs="#facs_372" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="372" facs="#facs_372" edRef="#edition_1" xml:id="pb_8.d2e631"/>
 
 
-نفائس الآثار وله نوادر غريبة في هذا السبيل تدل على شديد افتتانه وعظيم بلائه بها منها أنه وجد يوماً في سوق من أسواق <placeName>كربلاء</placeName> كتاباً كان ينشده عند امرأة فاستباعها واستامها عليه فأرضاها ويظهر انه كان ذاهلاً لعثوره نبهاً على ضالته فأنه لما أراد إيفاءها ثمن الكتاب لم يجد عنده شيئاً ولكنه بادرَ فخلع حلةَ ثمينة كانت على متنهِ وباعها في سوقٍ كاسدةٍ بثمنٍ تافهٍ يسير واخذ الكتاب من صاحبته بهذه اللجاجة الغريبة وبالجملة كانت خزانة كتبه من احفل خزائن الكتب الكبيرة ويحكى أنه كان في جملة مخطوطاتها ألف مجلد عليها خطوط مؤلفيها وهذا مما لم يتفق حتى في خزائن كتب</p>
+نفائس الآثار وله نوادر غريبة في هذا السبيل تدل على شديد افتتانه وعظيم بلائه بها منها أنه وجد يوماً في سوق من أسواق <placeName change="#d2e417" xml:id="placeName_12.d2e633">كربلاء</placeName> كتاباً كان ينشده عند امرأة فاستباعها واستامها عليه فأرضاها ويظهر انه كان ذاهلاً لعثوره نبهاً على ضالته فأنه لما أراد إيفاءها ثمن الكتاب لم يجد عنده شيئاً ولكنه بادرَ فخلع حلةَ ثمينة كانت على متنهِ وباعها في سوقٍ كاسدةٍ بثمنٍ تافهٍ يسير واخذ الكتاب من صاحبته بهذه اللجاجة الغريبة وبالجملة كانت خزانة كتبه من احفل خزائن الكتب الكبيرة ويحكى أنه كان في جملة مخطوطاتها ألف مجلد عليها خطوط مؤلفيها وهذا مما لم يتفق حتى في خزائن كتب</p>
             <p change="#d2e73 #d2e282" xml:id="p_4.d2e362">الملوك في القرون الأخيرة فأنا نعرف أميراً من أمراء الهند لم يجمع غير سبعمائة مجلد عليها خطوط المؤلفين وقد كان رحمه الله مصلحاً سالكاً سبيل السلف الصالح وعالماً مؤلفاً حريصاً على نشر العلم ولذلك لم يوصد باب خزانته في وجوه الطلاب ولم يمتنع أن يعير كتبه من يستفيد بها من الناس كما يفعل كثير ممن كنز الكتب وقبض عليها قبضة الشحيح وخصوصاً العامة من جماعتها فانهم لم يذوقوا لذة العلم ولا حملوا بالمعرفة ليهون عليهم بذل أسفارهم في سبيلهما وعلى العكس من ذلك رجل صرعته الكتب وهو قد رضع افاويق العلم وخلصت نيته في نشره فأنا كثيراً ما سمعنا عن السلف الصلحاء انهم حبسوا كتبهم حبساً عاماً على من ينتفع بها من الناس ويؤثر عن بعضهم قوله:</p>
             <p change="#d2e73 #d2e282" xml:id="p_5.d2e366">أن زكاة الكتاب عاريته</p>
             <p change="#d2e73 #d2e282" xml:id="p_6.d2e369">ويوجد اليوم في <placeName change="#d2e282" xml:id="placeName_9.d2e371">النجف</placeName> من العلماء المطبوعين على حب الكتب
 <pb n="n2-p373" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P861.xhtml" change="#d2e282" xml:id="pb_5.d2e374"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="373" facs="#facs_373" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="373" facs="#facs_373" edRef="#edition_1" xml:id="pb_10.d2e651"/>
 
 
-وتفقد الآثار الجامعين لها جماعة منهم الشيخ الفاضل الرفيع القدر الغريب الصبر والثبات (الشيخ علي) من آل كاشف الغطاء وهو الرجل الذي لا يرى إلاَّ مجدّاً في النسخ والتأليف أو عاكفاً على المطالعة أو لهجاً بجمع الكتب وذكرها يقص عليك أحاديثها ويصف لك مظانَّ وجودها ويترجم لك أحوال صرعاها وجماعتها وقد كانت نفسه الكبيرة حملته على الرحلة فجاب بلاد الفرس وبلاد الترك وبلاد <placeName change="#d2e282" xml:id="placeName_10.d2e376">مصر</placeName> وسوريا و<placeName>الحجاز</placeName> ولم تكن رحلته هذه رحلة تسلية وتفكهة لا بل كانت أشبه برحلات منتجعي العلم والرواية من السلف الصالح فأنه كان إذا حط رحلهُ في بلد وجه همه إلى زيارة معاهده العلمية والوقوف على دور كتبه المهمة هكذا كان في <placeName change="#d2e282" xml:id="placeName_11.d2e379">مصر</placeName> و<placeName change="#d2e282" xml:id="placeName_12.d2e382">الشام</placeName> والأستانة وقد ألقن في هذه العاصمة اللغة التركية فشافه كبار ساستها وعلمائها ولم يبق فيها بيتاً من بيوت الكتب إلا زاره واستفاد منهُ وكان إذا أعجبه كتاب لم يكبر عليه نسخه واكتتابه وإن كبر كما فعل يوم كان في <placeName>الأستانة</placeName> فانه أنتسخ فيها لنفسه بنفسه أسفاراً جمة منها كتاب (شرح أبي تمام على مهاجاة جرير والأخطل) وقد وجده منتسخاً بالخط المغربي القديم وهو خط معمي يجهل المشارقة تهجئته فعكف أياماً على تفهمه ومحاكاته بقلمه حتى أتقنه فلم يصعب عليه بعد ذلك أنتساخ الكتاب ونسخ أيضاً ديواني (مهيار) و (كشاجم) ولم يكونا يومئذ مطبوعين وبفضله طبع الأخير على نسخته التي أنتسخها لنفسه وهمته في الصبر على الكتابة مشهودة حتى أنه تناول كتاب (آمالي</p>
+وتفقد الآثار الجامعين لها جماعة منهم الشيخ الفاضل الرفيع القدر الغريب الصبر والثبات (الشيخ علي) من آل كاشف الغطاء وهو الرجل الذي لا يرى إلاَّ مجدّاً في النسخ والتأليف أو عاكفاً على المطالعة أو لهجاً بجمع الكتب وذكرها يقص عليك أحاديثها ويصف لك مظانَّ وجودها ويترجم لك أحوال صرعاها وجماعتها وقد كانت نفسه الكبيرة حملته على الرحلة فجاب بلاد الفرس وبلاد الترك وبلاد <placeName change="#d2e282" xml:id="placeName_10.d2e376">مصر</placeName> وسوريا و<placeName change="#d2e417" xml:id="placeName_15.d2e656">الحجاز</placeName> ولم تكن رحلته هذه رحلة تسلية وتفكهة لا بل كانت أشبه برحلات منتجعي العلم والرواية من السلف الصالح فأنه كان إذا حط رحلهُ في بلد وجه همه إلى زيارة معاهده العلمية والوقوف على دور كتبه المهمة هكذا كان في <placeName change="#d2e282" xml:id="placeName_11.d2e379">مصر</placeName> و<placeName change="#d2e282" xml:id="placeName_12.d2e382">الشام</placeName> والأستانة وقد ألقن في هذه العاصمة اللغة التركية فشافه كبار ساستها وعلمائها ولم يبق فيها بيتاً من بيوت الكتب إلا زاره واستفاد منهُ وكان إذا أعجبه كتاب لم يكبر عليه نسخه واكتتابه وإن كبر كما فعل يوم كان في <placeName change="#d2e417" xml:id="placeName_18.d2e666">الأستانة</placeName> فانه أنتسخ فيها لنفسه بنفسه أسفاراً جمة منها كتاب (شرح أبي تمام على مهاجاة جرير والأخطل) وقد وجده منتسخاً بالخط المغربي القديم وهو خط معمي يجهل المشارقة تهجئته فعكف أياماً على تفهمه ومحاكاته بقلمه حتى أتقنه فلم يصعب عليه بعد ذلك أنتساخ الكتاب ونسخ أيضاً ديواني (مهيار) و (كشاجم) ولم يكونا يومئذ مطبوعين وبفضله طبع الأخير على نسخته التي أنتسخها لنفسه وهمته في الصبر على الكتابة مشهودة حتى أنه تناول كتاب (آمالي</p>
             <p change="#d2e73 #d2e282" xml:id="p_7.d2e386">القاليّ) قبل طبعه وعكف على نسخه في عدة أسابيع وكان الوباء منتشراً حيث أقام فلم يعقه ذلك عن مقصده
 <pb n="n2-p374" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P862.xhtml" change="#d2e282" xml:id="pb_6.d2e388"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="374" facs="#facs_374" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="374" facs="#facs_374" edRef="#edition_1" xml:id="pb_12.d2e674"/>
 
 
-ومما نسخه لنفسه كتاب (نسمة السحر في من تشيع وشعر) وهو كتاب نادر الوجود قل من سمع به ونسخ كتاب (رسائل ابن العميد) الكاتب المعروف وهو يقع في مجلدٍ ضخم ونسخ غير ما رأَيت بهمة غريبة وجد متواصل حتى أنه لو اقتصر على ما ورقّه بيده لحصل على خزانة كتب حافلة لكنه لم يقتصر على ذلك واخذ يتطلب الكتب النادرة ويبتاعها وساعده على نجاح قصده تجواله في البلاد فاشترى من <placeName>الأستانة</placeName> وغيرها من البلاد التي عرج عليها كتباً نفيسةً مخطوطة ومطبوعة فاجتمعت له خزانة كتب لا تزال من أمهات خزائن الكتب العربية وفيها المخطوطات الكثيرة في كثير من الفنون وبعض نسخها قل أن يعرف لها ثانٍ مثل ديوان الشاعر المشهور (الحسين بن الحجاج) العراقي صاحب الدعابة والمجون ومثل كتاب (الطراز) في اللغة للسيد علي خان الأديب المعروف صاحب سلافة العصر وأنوار الربيع وديوان (مهيار) الديلمي تاماً أو قريباً من التمام وديوان السيد الشريف المرتضى وعشرات من أسفار العلم والأدب الشاذة سلف ذكر بعضها ثم أنه لم يقف عند جمع الكتب والتقاط آثارها أو أنتساخها بقلمه فعكف على الكتابة في الأدب والتأليف فيه وقد نجز إلى الآن من مؤلفاته كتاب (فصل الخطاب في الكتابة والكاتب والكتاب) مخطوطاً في مجلدين ضخمين وهو كتاب جامع لم يسبق مؤلف إلى إفراغه بهذا القالب البديع وقد استعان على تأليفه بما وفق لجمعه ونسخه من الكتب وبما حدث على عهده أو ما قبله بقليل مما يدخل في موضوع كتابه وقد ملحه بشذرات من الكتب العلمية الحديثة فجاء كتاباً ممتعاً جامعاً لفنون المعاني حافلاً بضروب المقاصد وقد استمالني منه فصل معجب جاء
+ومما نسخه لنفسه كتاب (نسمة السحر في من تشيع وشعر) وهو كتاب نادر الوجود قل من سمع به ونسخ كتاب (رسائل ابن العميد) الكاتب المعروف وهو يقع في مجلدٍ ضخم ونسخ غير ما رأَيت بهمة غريبة وجد متواصل حتى أنه لو اقتصر على ما ورقّه بيده لحصل على خزانة كتب حافلة لكنه لم يقتصر على ذلك واخذ يتطلب الكتب النادرة ويبتاعها وساعده على نجاح قصده تجواله في البلاد فاشترى من <placeName change="#d2e417" xml:id="placeName_19.d2e676">الأستانة</placeName> وغيرها من البلاد التي عرج عليها كتباً نفيسةً مخطوطة ومطبوعة فاجتمعت له خزانة كتب لا تزال من أمهات خزائن الكتب العربية وفيها المخطوطات الكثيرة في كثير من الفنون وبعض نسخها قل أن يعرف لها ثانٍ مثل ديوان الشاعر المشهور (الحسين بن الحجاج) العراقي صاحب الدعابة والمجون ومثل كتاب (الطراز) في اللغة للسيد علي خان الأديب المعروف صاحب سلافة العصر وأنوار الربيع وديوان (مهيار) الديلمي تاماً أو قريباً من التمام وديوان السيد الشريف المرتضى وعشرات من أسفار العلم والأدب الشاذة سلف ذكر بعضها ثم أنه لم يقف عند جمع الكتب والتقاط آثارها أو أنتساخها بقلمه فعكف على الكتابة في الأدب والتأليف فيه وقد نجز إلى الآن من مؤلفاته كتاب (فصل الخطاب في الكتابة والكاتب والكتاب) مخطوطاً في مجلدين ضخمين وهو كتاب جامع لم يسبق مؤلف إلى إفراغه بهذا القالب البديع وقد استعان على تأليفه بما وفق لجمعه ونسخه من الكتب وبما حدث على عهده أو ما قبله بقليل مما يدخل في موضوع كتابه وقد ملحه بشذرات من الكتب العلمية الحديثة فجاء كتاباً ممتعاً جامعاً لفنون المعاني حافلاً بضروب المقاصد وقد استمالني منه فصل معجب جاء
 <pb n="n2-p375" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P863.xhtml" change="#d2e282" xml:id="pb_7.d2e390"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="375" facs="#facs_375" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="375" facs="#facs_375" edRef="#edition_1" xml:id="pb_14.d2e681"/>
 
 
-المؤلف فيه على وصف دور الكتب التي وقف عليها أو انتهى إليه وصفها سواء كانت في بلاد <placeName>العراق</placeName> بلاده أو في غيرها من البلاد التي جابها في رحلته وقد كان بودنا أن ننقل هذا الفصل عن هذا الكتاب لمكان مناسبته لموضوع المقالة لولا أنّ ضيق نطاق الوقت حال دون ذلك ونحن إذا عنت الفرص فاعلون. ومن مؤلفات هذا الشيخ الكبيرة التي وقف لها حياته كتاب (طبقات الشيعة) على اختلاف الصور وعلى تباين الأحوال فمن طبقات رواتهم ومحدثيهم وحملة أخبارهم إلى طبقات علمائهم وكتابهم وشعرائهم وطبقات ملوكهم ووزرائهم وأمرائهم وقد نجز إلى الآن قسم كبير منه يقع في عدة</p>
+المؤلف فيه على وصف دور الكتب التي وقف عليها أو انتهى إليه وصفها سواء كانت في بلاد <placeName change="#d2e417" xml:id="placeName_20.d2e684">العراق</placeName> بلاده أو في غيرها من البلاد التي جابها في رحلته وقد كان بودنا أن ننقل هذا الفصل عن هذا الكتاب لمكان مناسبته لموضوع المقالة لولا أنّ ضيق نطاق الوقت حال دون ذلك ونحن إذا عنت الفرص فاعلون. ومن مؤلفات هذا الشيخ الكبيرة التي وقف لها حياته كتاب (طبقات الشيعة) على اختلاف الصور وعلى تباين الأحوال فمن طبقات رواتهم ومحدثيهم وحملة أخبارهم إلى طبقات علمائهم وكتابهم وشعرائهم وطبقات ملوكهم ووزرائهم وأمرائهم وقد نجز إلى الآن قسم كبير منه يقع في عدة</p>
             <p change="#d2e73 #d2e282" xml:id="p_8.d2e393">مجلدات وهو دائب السعي وراء إتمامه متصل الاجتهاد في سبيل إنجازه وإذا تم كان أكبر خدمة لهذه الطائفة الإسلامية العظيمة الشان التي قلما انصرف رجالها وخصوصاً المتأخرين منهم إلى وجوه التاريخ وتدوين آثار أسلافهم ومعاصريهم انصراف أهل السنة من إخوانهم المتقدمين والمتأخرين وبالجملة أن حياة هذا الرجل حياة جدٍ وعمل متصلين ونعمت الحياة. ومن صرعى الكتب في <placeName change="#d2e282" xml:id="placeName_13.d2e395">النجف</placeName> اليوم الشيخ (محمد علي الخونساري) فأنه مبالغ في اقتناء الكتب وخصوصاً النادر منها وقد جمع عدداً غير يسير منها ومن مخطوطاته قسم كبير في الفلسفة القديمة ومنهم السيد (محمد) اليزدي فأن لديه خزانة كتب خطيرة حوت كثيراً من الأمهات مثل كتاب (غريب أبي عبيدة) مخطوطاً في القرن الخامس على ما أظن وكتاب (المجمل) في اللغة لابن فارس وغيرهما كثير.</p>
-            <p change="#d2e73 #d2e282" xml:id="p_9.d2e399">ومن عشاق الكتب في <placeName>العراق</placeName> وجماعيها السيد (حسن صدر الدين
+            <p change="#d2e73 #d2e282" xml:id="p_9.d2e399">ومن عشاق الكتب في <placeName change="#d2e417" xml:id="placeName_22.d2e696">العراق</placeName> وجماعيها السيد (حسن صدر الدين
 <pb n="n2-p376" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P864.xhtml" change="#d2e282" xml:id="pb_8.d2e401"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="376" facs="#facs_376" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="376" facs="#facs_376" edRef="#edition_1" xml:id="pb_16.d2e701"/>
 
 
 العاملي) العالم المعروف في الكاظمية فقد انشأ له طلبه الحثيث لها خزانة كتب مهمة بينها قسم كبير من الآثار النادرة ككتاب (العين) وكتاب (الجمهرة) لابن دريد فيها وكتاب (طبقات القراء) ولا نعرف لمن هو فقد ألف جماعة من العلماء في هذا الباب وفيها غير ذلك من نفائس المخطوطات والرجل ممن اشتهر بالتأليف وقد نجز إلى الآن على يده كتاب (تأسيس الشيعة) وهو كتاب تاريخي أدبي جم الفائدة بعثت صاحبه الغيرة على الطائفة فألف كتاباً دَل به على سبقها الفرق الإسلامية في التأليف وانبعاثها قبلها إلى تأسيس العلوم والفنون ولا يزال كتابه هذا مخطوطاً ويسعى مؤلفه طبع كتاب (المجازات النبوية) للسيد الراضي في <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e403">بغداد</placeName> 
@@ -175,7 +175,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="1" xml:lang="ar" xml:id="num_1.d2e438">١</num>  - </hi>تمهيد البحث</p>
             <p change="#d2e73 #d2e282" xml:id="p_11.d2e443">تقدم القول عن موقع أطلال طيزناباذ في الزمن الحالي وآراء الباحثين ممن اشتهروا بطول الباع وبعد النظر في المسائل الأثرية فيما كان لهذه المدينة القديمة العهد في القرن الماضي من الآثار الخطيرة المؤيدة لحدودها والناطقة بخطورة شأنها هذا بعد أن أشبعنا تلك الأقاويل حججاً دامغة. وبراهين قاطعة وهل هناك أدلة وإمارات اقطع من تلك الأدلة والإمارات، لأن بعدها
 <pb n="n2-p377" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P865.xhtml" change="#d2e282" xml:id="pb_9.d2e445"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="377" facs="#facs_377" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="377" facs="#facs_377" edRef="#edition_1" xml:id="pb_18.d2e750"/>
 
 
 عن القادسية، وتوسطها حافة طريق الحجاج من البراهين التي لا تحتمل النقض، هذا فضلا عما رأيناه هناك من الدوارس والأطلال التي أثبتنا وصفها في رسالتنا السابقة، بقي علينا هنا أن نأتي على ما كان في القرون الخالية، والعصور الغابرة من العز والسؤدد وما بلغته من العمران والتقدم ذلك مع الالماع إلى ما قاله شعراء العرب فيها، وتدوين نبذٍ صغيرة من تاريخها المتفرق أيدي سبا في بطون الدفاتر معتمدين في ذلك على اصدق الكتب التاريخية واصح الروايات، وأوثق المصادر وعلى ذلك نقول:</p>
@@ -184,7 +184,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e452">٢</num>  - </hi>مؤسس طيزناباذ ونبذ من أخباره</p>
             <p change="#d2e73 #d2e282" xml:id="p_13.d2e457">لا يختلف اثنان في مؤسس طيزناباذ هو الضيزن بن معاوية بن العبيد السليحي واسم سليح عمر بن طريف بن عمران بن الحاف بن قضاعة - نقلاً عن البلاذري ص  <num type="auto-markup" change="#d2e258 #d2e282" value="284" xml:lang="ar" xml:id="num_1.d2e459">٢٨٤</num>  - وقيل غير ذلك وقد اختلف في نسبه وهو المعروف عند الجرامقة بالساطرون، وضيزناباذ منسوبة إليه، وهي مركبة من كلمتين الأولى (ضيزن) وهو اسم هذا الأمير والثانية (اباذ) وهي كلمة فارسية معناها (العمارة) أي (عمارة الضيزن) وكانت العرب تتلفظ بها بالضاد، إلا أنه لما غلبت الفارسية ضرتها العربية في هذه الأرجاء وكانت الفارسية خالية من الضاد تكلموا بها بالطاء فاشتهرت بها، وكان الضيزن ملكاً من ملوك العرب المعاصرين لسابور ذي الأكتاف ملك الفرس، وكان ذا هيبة ووقار وسطوة تخشى بأُسه اقيال العرب وملوكها، وكانوا يهادونه ويسالمونه خوفاً من بطشه، وهرباً من سيطرته، وكان قد ملك الجزيرة إلى <placeName change="#d2e282" xml:id="placeName_16.d2e462">الشام</placeName> وأخضعها لسلطانه ومما يشهد على ذلك التاريخ، فأن سابور عدو العرب لما سمع
 <pb n="n2-p378" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P866.xhtml" change="#d2e282" xml:id="pb_10.d2e465"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="378" facs="#facs_378" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="378" facs="#facs_378" edRef="#edition_1" xml:id="pb_20.d2e772"/>
 
 
 بما وصل إليه ملوكها من العز والسطوة آلى على نفسه أن يذله فسار إلى بلاد الجزيرة حتى وصل الحضر، وكان الضيزن كثير الجنود مهادناً للروم متحيزاً إليهم يغير رجاله على</p>
@@ -195,7 +195,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="3" xml:lang="ar" xml:id="num_1.d2e484">٣</num>  - </hi>تصحيف الكتاب لاسمها</p>
             <p change="#d2e73 #d2e282" xml:id="p_16.d2e489">طيزناباذ بفتح الطاء المهملة وسكون الياء وراءها زاء معجمة مفتوحة يليها نون وبعدها ألف ثم باء يليها ألف ثم ذال معجمة كذا ضبطها ابن خرداذبه والطبري وابن الأثير وقد صحفها غيرهم تصحيفاً مشيناً، وضبطوها بكسر الطاء كما نبه عليه ياقوت، والأفصح الفتح تقريباً للاسم من اصله المفتوح الأول
 <pb n="n2-p379" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P867.xhtml" change="#d2e282" xml:id="pb_11.d2e491"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="379" facs="#facs_379" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="379" facs="#facs_379" edRef="#edition_1" xml:id="pb_22.d2e801"/>
 
 
 على رواية جميع اللغويين؛ ولعل النساخ هم الذين صحفوها لأنها كلمة أعجمية وقد صح ما قيل فيهم - الناسخ ماسخ - فقد وردت في كتاب البلاذري صفحة  <num type="auto-markup" change="#d2e258 #d2e282" value="255" xml:lang="ar" xml:id="num_1.d2e493">٢٥٥</num>  و <num type="auto-markup" change="#d2e258 #d2e282" value="274" xml:lang="ar" xml:id="num_1.d2e496">٢٧٤</num>  وغيرها من الطبعة الإفرنجية بكسر الطاء والأصح بالفتح وجاءت في الأغاني  <num type="auto-markup" change="#d2e258 #d2e282" value="9" xml:lang="ar" xml:id="num_1.d2e499">٩</num>  -  <num type="auto-markup" change="#d2e258 #d2e282" value="93" xml:lang="ar" xml:id="num_1.d2e502">٩٣</num>  و <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e506">٢</num>  -  <num type="auto-markup" change="#d2e258 #d2e282" value="133" xml:lang="ar" xml:id="num_1.d2e509">١٣٣</num>  باسم طيرناباذ؛ وجاءت مصحفة في بعض نسخ البلاذري بصورة طبرناباذ بالباء الموحدة في الأول، وجاءت في تاريخ ابن دحلان  <num type="auto-markup" change="#d2e258 #d2e282" value="1" xml:lang="ar" xml:id="num_1.d2e512">١</num>  -  <num type="auto-markup" change="#d2e258 #d2e282" value="73" xml:lang="ar" xml:id="num_1.d2e515">٧٣</num>  (طبع <placeName change="#d2e282" xml:id="placeName_17.d2e518">مصر</placeName>) باسم طرناباذ؛ وإذا أردنا أن نتتبع كل التصحيفات التي وردت في هذا الصدد يطول بنا الكلام ولهذا نجتزئ بما ذكرناه.</p>
@@ -206,7 +206,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_19.d2e534">صيتها فطبق الخافقين طيب هوائها؛ وحسن مناخها؛ وجودة شرابها حتى أنه كان يوصف كالقطربلي؛ ولهذا كانت ملوك الفرس الأقدمين، وأمراء المسلمين من بعدهم يتخذونها دار نزهة أو مصيفاً يقضون فيها أيام الفراغ في اللهو واللعب والتمتع بالملذات، وكانت في الزمن الخالي ذات أشجار فنواء؛ ونخيل حسناء؛ ورياض غناء، وجنائن فيحاء، تخرقها الأنهار من كل البقاع تحمل إليها من الفرات؛ وقد ورد ذكرها في أشعار العرب ودواوينهم؛ فوصفوها وصفاً دقيقاً؛ وكانت آثارها قد عفت منذ عهد ياقوت الحموي إذ يقول في معجمه: وهي الآن خراب لم يبق بها إلا اثر قباب يسمونها (قباب أبي نواس) واليها أشار في قوله:</p>
             <p change="#d2e73 #d2e282" xml:id="p_20.d2e538">قالوا تنسك بعد الحج قلت لهم <gap resp="#org_MS" change="#d2e282" xml:id="gap_1.d2e540"/> أرجو الإله وأخشى طيزناباذا
 <pb n="n2-p380" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P868.xhtml" change="#d2e282" xml:id="pb_12.d2e542"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="380" facs="#facs_380" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="380" facs="#facs_380" edRef="#edition_1" xml:id="pb_24.d2e854"/>
 
 
 أخشى قُضيب كرم أن ينازعني <gap resp="#org_MS" change="#d2e282" xml:id="gap_2.d2e544"/> رأس الخطام إذا أسرعت اغذاذا</p>
@@ -234,7 +234,7 @@
                </date> م مع ما سقط من مدن الفرس وحواضرهم أخذت منذ ذلك</p>
             <p change="#d2e73 #d2e282" xml:id="p_24.d2e677">الحين تسير نحو التأخر؛ وفي زمان خلافة عثمان
 <pb n="n2-p381" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P869.xhtml" change="#d2e282" xml:id="pb_13.d2e679"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="381" facs="#facs_381" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="381" facs="#facs_381" edRef="#edition_1" xml:id="pb_26.d2e1000"/>
 
 
 بن عفان اقطعت الأشعث بن قيس الكندي؛ وكان لمحمد بن الأشعث فيها قصر فخيم على عهد الدولة الأموية؛ وبقيت كذلك وهي تقارع الدهر والدهر يقارعها؛ تارة تغلبه؛ وأخرى يغلبها؛ حتى أدركت في أواخر عمرها أوائل الدولة العباسية؛ فتوالت عليها المصائب في أواسط الدولة العباسية وما زالت في نزاع واحتضار حتى فاضت نفسها وأصبحت أثراً بعد عين في القرن الرابع للهجرة؛ فبعثت يد الزمان برسومها ولم يبق منها اليوم إلا تلك الأطلال الدارسة؛ والآثار الطامسة التي أشرنا إليها في النبذة السابقة؛ ومع ذلك فإن تلك الأنقاض تنطق بما كان لها في العهد العهيد من الشان الخطير والعمران الذي ليس له نظير، وربك</p>
@@ -262,7 +262,7 @@
             </lg>
             <p change="#d2e73 #d2e282" xml:id="p_28.d2e730">فهو كالجلد بالتفرد نذل <gap resp="#org_MS" change="#d2e282" xml:id="gap_3.d2e732"/> وشريف إن صاحب القرآنا
 <pb n="n2-p382" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P870.xhtml" change="#d2e282" xml:id="pb_14.d2e734"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="382" facs="#facs_382" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="382" facs="#facs_382" edRef="#edition_1" xml:id="pb_28.d2e1063"/>
 
 
 وسافر إلى بلاد الهند وجعلها دار أقامته إلى أن توفي فيها وله من الكتب كتاب البدائع في الأدب ورسائل في الحديث.</p>
@@ -326,7 +326,7 @@
             </lg>
             <p change="#d2e73 #d2e282" xml:id="p_33.d2e865">كان الدجى مذجن واسود جنحه <gap resp="#org_MS" change="#d2e282" xml:id="gap_4.d2e867"/> على ساحة الغبراء عثير أثمد
 <pb n="n2-p383" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P871.xhtml" change="#d2e282" xml:id="pb_15.d2e869"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="383" facs="#facs_383" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="383" facs="#facs_383" edRef="#edition_1" xml:id="pb_30.d2e1204"/>
 
 
 كان مبادي الصبح والليل حالك <gap resp="#org_MS" change="#d2e282" xml:id="gap_5.d2e871"/> بشارة عيسى للأنام بأحمد</p>
@@ -349,7 +349,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="1821" xml:lang="ar" xml:id="num_1.d2e928">١٨٢١</num>
                </date> م. .
 <pb n="n2-p384" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P872.xhtml" change="#d2e282" xml:id="pb_16.d2e931"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="384" facs="#facs_384" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="384" facs="#facs_384" edRef="#edition_1" xml:id="pb_32.d2e1277"/>
 
 
 ثم غسل وكفن وبقي إلى الصباح فصلي عليه ودفن في سفح جبل قاسيون. . . اهـ</p>
@@ -402,7 +402,7 @@
             </lg>
             <p change="#d2e73 #d2e282" xml:id="p_41.d2e1043">لا يعرفون وداد من صافاهم <gap resp="#org_MS" change="#d2e282" xml:id="gap_6.d2e1045"/> ويرون ذلك شعبةً لضلال
 <pb n="n2-p385" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P873.xhtml" change="#d2e282" xml:id="pb_17.d2e1047"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="385" facs="#facs_385" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="385" facs="#facs_385" edRef="#edition_1" xml:id="pb_34.d2e1396"/>
 
 
 وأما نثره فقد قال فيه الشهاب الالوسي في (المجموعة الوسطى) ما نصه (. . . فهو مما تتمنى النجوم أن تنظم في سلكه ولكن لم يحفظ منه إلا القليل منها مقامة بليغة أنشأها في تحكيم العقل بينه وبين نفسه مقدار نصف كراسة. . .) وقد أعقب أربعة أولاد وهم الشيخ محمد أمين والملا صالح وإسماعيل ومحمود ولم نعثر على تاريخ ولادته رحمه الله رحمة الأبرار</p>
@@ -424,7 +424,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="1785" xml:lang="ar" xml:id="num_1.d2e1091">١٧٨٥</num>
                </date> م. وكان هذا الرجل على ما نقل من الأخبار أعمى. وقد قيل في سبب عماه أخبار مختلفة ترجع إلى ثلاثة وهي ذهب بعضهم إلى انهم سمي بذلك لكونه ولد اكمه أي ولد أعمى العينين. وقال آخرون كان له عينان أخريان فوق العينين الطبيعيتين لكنه ما كان يبصر بهما. والإشارة في قولهم البوعينين أي ذي عينين هي إلى هاتين الباصرتين الزائدتين. وهذا ليس ببعيد فقد ذكر التاريخ مثل هذه الصورة الشاذة. والرأي الثالث وهو الأصح الأقرب إلى الصواب وهو المشهور كل الشهرة على الألسنة هو أن الرجل المذكور ولد بصيراً لكن سملهما أي فقأهما بحديدة محماة أحد أمراء العرب نكاية وتنكيلاً به، أو تعذيباً وانتقاماً. وذلك بعد أن قتل أبويه وإخوانه
 <pb n="n2-p386" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P874.xhtml" change="#d2e282" xml:id="pb_18.d2e1094"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="386" facs="#facs_386" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="386" facs="#facs_386" edRef="#edition_1" xml:id="pb_36.d2e1451"/>
 
 
 فاستحياه لهذه الغاية القاسية الظالمة.</p>
@@ -434,7 +434,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_48.d2e1107">واتفق له ذات مرة أنه بينما كان يغزو في سفينته وهو في الخليج إذ أحاط به العدو إحاطة السوار بالمعصم ولم يتمكن من الفرار لخلو ريح موافقة تسير سفينته فلما رأى عدوه على قاب قوسين منه وأن لا مناص من الهلاك وأنه واقع في قبضة العدو لا محالة عمد إلى الذخيرة فأطلق عليها النار وكانت المؤونة في السفينة التي كان فيها فاندلع لسان اللهب إلى السفينة كلها واحرقها واحرق جميع السفن التي كانت وما عتمت أن أصبحت بعد هنيهة رماداً تذره الريح أو فحماً طاف على وجه الماء. ولم ينل عدوه منه مأرباً.</p>
             <p change="#d2e73 #d2e282" xml:id="p_49.d2e1110">كانت هذه النكبة من اشد النكبات على هذه العشيرة فأفقرتها فاضطرت إلى أن تقيم في قطر وتتعيش كما تتعيش سائر العشائر أي بالكد والكدح إلى أن نجمت أمارة (آل ثاني) في قطر فخضعت تلك العشيرة المرزوءة للشيخ قاسم بن ثاني أمير قطر الحالي. وكان عددها قليلاً لا يزيد على  <num type="auto-markup" change="#d2e258 #d2e282" value="400" xml:lang="ar" xml:id="num_1.d2e1112">٤٠٠</num>  رجل على الأكثر.
 <pb n="n2-p387" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P875.xhtml" change="#d2e282" xml:id="pb_19.d2e1115"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="387" facs="#facs_387" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="387" facs="#facs_387" edRef="#edition_1" xml:id="pb_38.d2e1474"/>
 
 
 ولما قتل الشيخ احمد بن ثاني <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1323" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1905-03-08" notAfter="1906-02-24" xml:id="date_4.d2e1117">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1323" xml:lang="ar" xml:id="num_1.d2e1119">١٣٢٣</num>
@@ -442,19 +442,19 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="1905" xml:lang="ar" xml:id="num_1.d2e1122">١٩٠٥</num>
                </date> م في أثناء القنص وكان سبب قتله ظنه في الأسرة نفسها وكان الشيخ القتيل يستوفي هو بذاته زكاة العشيرة إذ كانت من جملة العشائر الخاضعة له لم تحد عن خضوعها للشيخ الذي وليه بل ثبتت منقادة له بينما كانت تستطيع أن تفلت من أيديه. إلا أنه وقع في <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1328" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1910-01-13" notAfter="1911-01-01" xml:id="date_4.d2e1125">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1328" xml:lang="ar" xml:id="num_1.d2e1127">١٣٢٨</num>
                </date>  حادث أوجب الشيخ أن يؤدب العشيرة (هكذا روى الخبر) فكان من نتيجة ذلك أن أمر بزيادة الزكاة أو الرسوم المضروبة هناك. فضجرت العشيرة من تلك المعاملة وظعنت إلى (الجبيل) (بالتصغير) وهي جزيرة أو شبه جزيرة قريبة من قطر لا تبعد كثيراً عن البحرين وهي على بعد بضع ساعات من كلا البلدين. وقد آلو على أنفسهم أن يعتمدوا عليها وينشئوا بين ظهرانيهم أمارة يقلدون أمرها أميراً يدبرهم ويكون سيدهم ويجعلون بيديه الحل والربط ففعلوا. ثم اخذوا يعنون بشؤون المعيشة بحيث أنهم يستغنون عمن ليس من قومهم فجمعوا أموالهم وسفنهم والتف بعضهم على بعض وتكاتفوا كل التكاتف فكان مجموع سفنهم في عام أول مائة.</p>
-            <p change="#d2e73 #d2e282" xml:id="p_50.d2e1131">ولا يخفى أن في السنة الماضية قد عالج الغياصة من لم يزاولها إلى ذلك العهد. فانهال عليها العرب من كل حدب وصوب أي من الاحساء ونجد والعارض والقصيم. فضلا عن الزبير و<placeName>البصرة</placeName> فإن غاصتها زادوا عدداً عن السنين السابقة حتى أن من ينعم النظر في عدد الغواص وعدد سفنهم لا يصدق بما يقال. على أن الحقيقة هي كما تسمع بها هذا ما اعرفه عن بلدة البوعينين وعن منشئها وأخبارها وعن مبدأ أمر القبيلة وعسى أني لم أخطئ في ما ذكرته والله اعلم.</p>
+            <p change="#d2e73 #d2e282" xml:id="p_50.d2e1131">ولا يخفى أن في السنة الماضية قد عالج الغياصة من لم يزاولها إلى ذلك العهد. فانهال عليها العرب من كل حدب وصوب أي من الاحساء ونجد والعارض والقصيم. فضلا عن الزبير و<placeName change="#d2e417" xml:id="placeName_36.d2e1498">البصرة</placeName> فإن غاصتها زادوا عدداً عن السنين السابقة حتى أن من ينعم النظر في عدد الغواص وعدد سفنهم لا يصدق بما يقال. على أن الحقيقة هي كما تسمع بها هذا ما اعرفه عن بلدة البوعينين وعن منشئها وأخبارها وعن مبدأ أمر القبيلة وعسى أني لم أخطئ في ما ذكرته والله اعلم.</p>
             <byline change="#d2e219 #d2e282" xml:id="byline_5.d2e1134">
                <persName change="#d2e230 #d2e282" ref="oape:pers:1845 viaf:21058435" xml:id="persName_10.d2e1135">
                   <forename change="#d2e282" xml:id="forename_10.d2e1136">سليمان</forename> 
                   <surname change="#d2e282" xml:id="surname_8.d2e1139">الدخيل</surname>
-               </persName> <persName>صاحب جريدة <title level="j" change="#d2e282 #d5e404" xml:id="title_9.d2e1142" ref="oape:bibl:41">الرياض</title></persName>
+               </persName> <persName change="#d2e417" xml:id="persName_11.d2e1513">صاحب جريدة <title level="j" change="#d2e282 #d5e404" xml:id="title_9.d2e1142" ref="oape:bibl:41">الرياض</title></persName>
             </byline>
          </div>
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_6.d2e1147">
             <head change="#d2e282" xml:id="head_6.d2e1149">الضرب على النحاس في أبان الخسوف</head>
-            <p change="#d2e73 #d2e282" xml:id="p_51.d2e1152">الضرب على الطاسات عادة قديمة في <placeName>العراق</placeName> ولا سيما في ديار فارس. وقد
+            <p change="#d2e73 #d2e282" xml:id="p_51.d2e1152">الضرب على الطاسات عادة قديمة في <placeName change="#d2e417" xml:id="placeName_37.d2e1528">العراق</placeName> ولا سيما في ديار فارس. وقد
 <pb n="n2-p388" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P876.xhtml" change="#d2e282" xml:id="pb_20.d2e1154"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="388" facs="#facs_388" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="388" facs="#facs_388" edRef="#edition_1" xml:id="pb_40.d2e1533"/>
 
 
 أنكر بعض كتاب مجلة <title level="j" change="#d2e282 #d5e404" xml:id="title_10.d2e1156" ref="oape:bibl:1 oclc:472450345">لغة العرب</title> نسبة هذه العادة إلى حادث تاريخي فجئت بهذه الأسطر أؤيد ما كتبته سابقاً في هذا المعنى ( <num type="auto-markup" change="#d2e258 #d2e282" value="311" xml:lang="ar" xml:id="num_1.d2e1159">٣١١</num> :  <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e1162">٢</num> ) نقلاً عن الكتبة الأقدمين وهو ما أشرت إليه بوجه الأجمال هناك فأقول:</p>
@@ -477,7 +477,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_56.d2e1210">وفي ديوان أبي بكر العمري ذكر خبر يؤيد وجود مثل هذه العادة في <placeName change="#d2e282" xml:id="placeName_28.d2e1212">دمشق</placeName> 
                <placeName change="#d2e282" xml:id="placeName_29.d2e1215">الشام</placeName> وقد ارتجل أحدهم أبياتاً منها هذا البيت:
 <pb n="n2-p389" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P877.xhtml" change="#d2e282" xml:id="pb_21.d2e1218"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="389" facs="#facs_389" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="389" facs="#facs_389" edRef="#edition_1" xml:id="pb_42.d2e1608"/>
 
 
 عادة البدر يتجلى ليلة الخس <gap resp="#org_MS" change="#d2e282" xml:id="gap_7.d2e1220"/> ف بدق النحاس دفاً عنيفا</p>
@@ -486,37 +486,37 @@
             <p change="#d2e73 #d2e282" xml:id="p_59.d2e1235">الكوفيّة</p>
             <p change="#d2e73 #d2e282" xml:id="p_60.d2e1239">أو الكفية وأنواعها واستعمالها</p>
             <p change="#d2e73 #d2e282" xml:id="p_61.d2e1242">مر الكلام عن أن العرقجين (العرقية) يوضع تحت الفينة (الطربوش) أو تحت الكفية (الكوفية) وقد ذكرنا كلا من العرقية والطربوش بقي علينا الكلام عن الكوفية فنقول:</p>
-            <p change="#d2e73 #d2e282" xml:id="p_63.d2e1254">أهل <placeName>العراق</placeName> لا يعرفون الكوفية إلا بالكفية بدون واوٍ بضم الكاف وتشديد الفاء المكسورة والياء المشددة المفتوحة وهاء في الآخر. وهي لفظة منسوبة إلى الكفة لا إلى الكوفة. والكفة عندهم كل ما استطال ويقولون أيضاً كف الثوب كفاً: إذا تركه بلا هدب. وكلا هذين المعنيين فصيح معروف. ومعلوم أن أهل البادية يلفظون الكاف جيماً مثلثة فارسية فيقولون فيها الجفية.</p>
+            <p change="#d2e73 #d2e282" xml:id="p_63.d2e1254">أهل <placeName change="#d2e417" xml:id="placeName_41.d2e1637">العراق</placeName> لا يعرفون الكوفية إلا بالكفية بدون واوٍ بضم الكاف وتشديد الفاء المكسورة والياء المشددة المفتوحة وهاء في الآخر. وهي لفظة منسوبة إلى الكفة لا إلى الكوفة. والكفة عندهم كل ما استطال ويقولون أيضاً كف الثوب كفاً: إذا تركه بلا هدب. وكلا هذين المعنيين فصيح معروف. ومعلوم أن أهل البادية يلفظون الكاف جيماً مثلثة فارسية فيقولون فيها الجفية.</p>
             <p change="#d2e73 #d2e282" xml:id="p_64.d2e1257">واللفظة الفصيحة المشهورة هي الكوفية بواوٍ. قال صاحب التاج: الكوفية: (ما يلبس على الرأس سميت لاستدارتها) ولم يزد على هذا القدر. وقد ذهب آخرون إلى أن الكوفية مشتقة من الكوفة. ونسبت إليها لأن سكان هذه المدينة كانوا يلبسونها منذ الأزمان القديمة فنسبت إلى بلدتهم. ولعل الأصح أنها رومية الأصل (أي لاتينية مولدة أو -) لأن الاروام هم أول من ادخلها ديار <placeName change="#d2e282" xml:id="placeName_30.d2e1259">الشام</placeName> ومنها انتشرت في سائر ربوع العرب. وهي بلسانهم: أو وقد اشتقوها من كوفة أو كفة أي القدح أو الصحفة أو القصعة وكل منها لا يكون إلا مستديراً وقد وردت هذه الكلمة بهذا المعنى على قلم فرننانس الأسقف المتوفى <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0600" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1203-09-17" notAfter="1204-09-04" xml:id="date_4.d2e1262">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="600" xml:lang="ar" xml:id="num_1.d2e1264">٦٠٠</num>
                </date>  للمسيح أي المتوفى باثنتين وعشرين سنة قبل ظهور الإسلام.
 <pb n="n2-p390" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P878.xhtml" change="#d2e282" xml:id="pb_22.d2e1267"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="390" facs="#facs_390" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="390" facs="#facs_390" edRef="#edition_1" xml:id="pb_44.d2e1654"/>
 
 
-وصاحب التاج لم يصفها لشهرتها بين العرب. ودونك وصفها: كفة مربعة أو تكاد، تطوي على نفسها فيخالف بين زواياها معطوفة إحداها على الأخرى كما يفعل في الوشاح وتلبس فوق الرأس بأن تلقى عليه فيجعل طرفها السائب على الظهر ويقع طرفاها الآخران على الصفحتين اليمنى واليسرى يفعلون ذلك ليتقوا الشمس أو طوارئ الجو وتثبت بواسطة رباط متين كالحبل يعرف عندهم بالعقال. وقد تكون الكوفية من خام أو حرير أو قز أو من نحوها وهي إذا طويت على نفسها يحصل من شكلها مثلث. وإذا كانت من الخام الأبيض سماها أهل بادية <placeName>العراق</placeName> (بالحلالية) وبالقزية (أو الجزية محرف القزية) إن كانت من</p>
+وصاحب التاج لم يصفها لشهرتها بين العرب. ودونك وصفها: كفة مربعة أو تكاد، تطوي على نفسها فيخالف بين زواياها معطوفة إحداها على الأخرى كما يفعل في الوشاح وتلبس فوق الرأس بأن تلقى عليه فيجعل طرفها السائب على الظهر ويقع طرفاها الآخران على الصفحتين اليمنى واليسرى يفعلون ذلك ليتقوا الشمس أو طوارئ الجو وتثبت بواسطة رباط متين كالحبل يعرف عندهم بالعقال. وقد تكون الكوفية من خام أو حرير أو قز أو من نحوها وهي إذا طويت على نفسها يحصل من شكلها مثلث. وإذا كانت من الخام الأبيض سماها أهل بادية <placeName change="#d2e417" xml:id="placeName_43.d2e1656">العراق</placeName> (بالحلالية) وبالقزية (أو الجزية محرف القزية) إن كانت من</p>
             <p change="#d2e73 #d2e282" xml:id="p_65.d2e1270">ابريسم والنجديون يعرفون الكوفية باسم (المحرمة) إذا كانت غير بيضاء وإلا فهي (الغترة) (بكسر الأول)</p>
             <p change="#d2e73 #d2e282" xml:id="p_66.d2e1274">وحضريو <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e1276">بغداد</placeName> ولا سيما نصاراها يريدون بالكوفية المشوش أي المنديل الذي يتمسح به أو يمخط فيه. وذلك لأن الأعراب يمتشون بأحد طرفيها. ولأن أهل المدن استعملوا تلك الكوفية نفسها للمش لا لستر الرأس إذ يستعملون بدلها العمامة. فبقي اسم الشيء عليه وإن تحول استعماله لأمر آخر لأن التسمية هنا واقعة على المادة لا على سواها. كما أن أهل <placeName change="#d2e282" xml:id="placeName_32.d2e1279">الشام</placeName> يريدون بالمحرمة ما يريده البغداديون بالكوفية للسبب المذكور.</p>
             <p change="#d2e73 #d2e282" xml:id="p_67.d2e1283">وأما أهل تونس وما يجاورها فيريدون بالكوفية ضرباً من الكلوتة أو العرقية تكون مطرزة: وتجمع الكوفية على كوافي (بتشديد الياء) والعراقيون يقولون كفافي ويقال فيهما كوفيات وكفيات أيضاً وكلاهما مقبول مأنوس.</p>
             <p change="#d2e73 #d2e282" xml:id="p_68.d2e1286">وقد ذكرت لفظة كوفية في كتاب ألف ليلة وليلة في عدة مواطن. وكانت النساء يومئذ يلبسنها. من ذلك قول المؤلف: خلعت بعض ثيابها وقعدت في قميص رفيع وكوفية حرير. وقوله: كوفيه بألف دينار. وقوله: على رأسها كوفية دق المطرقة مكللة بالفصوص المثمنة. وقوله: فوق رأسها كوفية مطرزة بالذهب مرصعة بالجواهر.
 <pb n="n2-p391" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P879.xhtml" change="#d2e282" xml:id="pb_23.d2e1288"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="391" facs="#facs_391" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="391" facs="#facs_391" edRef="#edition_1" xml:id="pb_46.d2e1680"/>
 
 
-وممن ذكر الكوفية النويري في تاريخ <placeName change="#d2e282" xml:id="placeName_33.d2e1290">مصر</placeName> وكان السلاطين المماليك يتخذونها وقد وردت في جميع كتب السواح الإفرنج الذين جابوا ديار العرب و<placeName>العراق</placeName> وبعض ربوع <placeName change="#d2e282" xml:id="placeName_34.d2e1293">الشام</placeName> منذ ثلاثة قرون فما دون لكنها لم ترد بهذا اللفظ في كتب العرب الأقدمين. والظاهر انهم كانوا يستغنون عن هذا الاسم بآخر كالعمامة والعمار والعميرة والعصابة ونحوها لأن الكوفية من لوازم العميرة.</p>
+وممن ذكر الكوفية النويري في تاريخ <placeName change="#d2e282" xml:id="placeName_33.d2e1290">مصر</placeName> وكان السلاطين المماليك يتخذونها وقد وردت في جميع كتب السواح الإفرنج الذين جابوا ديار العرب و<placeName change="#d2e417" xml:id="placeName_47.d2e1685">العراق</placeName> وبعض ربوع <placeName change="#d2e282" xml:id="placeName_34.d2e1293">الشام</placeName> منذ ثلاثة قرون فما دون لكنها لم ترد بهذا اللفظ في كتب العرب الأقدمين. والظاهر انهم كانوا يستغنون عن هذا الاسم بآخر كالعمامة والعمار والعميرة والعصابة ونحوها لأن الكوفية من لوازم العميرة.</p>
             <p change="#d2e73 #d2e282" xml:id="p_69.d2e1297">وأما الحلالية فأنها مضافة إلى الحلال. كان لونها الأبيض ومادتها المتخذة منها وهي القطن تحل لأن تكون عمرة لجميع الناس بخلاف ما لو كانت من حرير أو لونها أخضر أو أزرق فأنها لا تحل إلا لبعض طبقات الناس.</p>
             <p change="#d2e73 #d2e282" xml:id="p_70.d2e1300">وأما الغترة بكسر وسكون فان اصلها الغثراء على ما نظن. والغثراء ما كثر زئبره من الأكسية والقطائف ونحوها. ولما كانت الكوفية تتخذ عندهم من الأنسجة الكثيرة الزئبر سميت باسمها.</p>
             <p change="#d2e73 #d2e282" xml:id="p_71.d2e1303">وقد تختلف ألوان الكوافي باختلاف لون الثوب الأصلي. ولهذا لا ينظر إلى اللون وهي تكون في الغالب حمراء أو زرقاء أو رمداء أو أن تكون رقعة الثوب بيضاء وما عليها من النقوش زرقاء أو حمراء. ويكون في أطرافها أهداب طوية يعقدها البعض عقداً مختلفة الشكل أو يحبكونها حبكاً على أوضاع غريبة والأكابر يتخذون الكوفيات من الابريسم أو الحرير الذي يدخله القصب أو الكلبدون تدلى أطرافها من جانبي الرأس لتلقى على الفم أيام البرد القارس أو العواصف
 <pb n="n2-p392" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P880.xhtml" change="#d2e282" xml:id="pb_24.d2e1305"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="392" facs="#facs_392" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="392" facs="#facs_392" edRef="#edition_1" xml:id="pb_48.d2e1702"/>
 
 
-الكثيرة الغبار التي تكثر في <placeName>العراق</placeName> لتمنع البرد أو دخول الغبار الفم. . ولهذا سماها العراقيون الكفية من الكف وهو المنع أو من الكفة بضم كما قلنا في أول هذا المقال.</p>
+الكثيرة الغبار التي تكثر في <placeName change="#d2e417" xml:id="placeName_49.d2e1704">العراق</placeName> لتمنع البرد أو دخول الغبار الفم. . ولهذا سماها العراقيون الكفية من الكف وهو المنع أو من الكفة بضم كما قلنا في أول هذا المقال.</p>
             <p change="#d2e73 #d2e282" xml:id="p_72.d2e1309">ومن الغريب أن لفظة الكوفية تكاد تكون في جميع اللغات بلفظ واحد وبمعنى مقارب للمعنى العربي فقد ذكرنا اسمها عند الروم. وأما الإيطاليون فيعرفونها باسم وهو بالأسبانية وبالفرنسوية وبالبرتوغالية قال دوزي المستشرق الشهير: أظن أن الشرقيين اخذوا هذه الكلمة من الإيطاليين لأنه كان لهم في القرون المتوسطة تجارة كبيرة في موانئ <placeName change="#d2e282" xml:id="placeName_35.d2e1311">مصر</placeName> و<placeName change="#d2e282" xml:id="placeName_36.d2e1314">الشام</placeName> وكانوا ينقلون الصليبين من ديارهم إلى ربوع الشرق والظاهر أن الكلمة التركية (اسقوفية) مأخوذة من الأصل الإفرنجي المذكور لأن الرحالة كوتوفيك يقول في كلامه عن البنات اليهوديات في الشرق ما معناه: (ويضعن على رؤوسهن اسقوفية من فضة أو من نحاس مذهب بمنزلة حلية وتتخذها أيضاً الكبيرات سناً منهن بعد أن يكن قد عقصن شعورهن بمهارة ولباقة.)</p>
             <p change="#d2e73 #d2e282" xml:id="p_73.d2e1318">والبائن أن قدماء العرب كانوا يتخذون العمامة فوق الكوفية ولا سيما أهل المدن منهم. وكانوا يسمونها باسم واحد وهو العمامة كما ألمعنا إليه فويق هذا. وقد أشار إلى بعض ذلك الأديب الإنكليزي والمستشرق الكبير (لين في تعليقاته على كتاب ألف ليلة وليلة، قال: يلبس أهل المدن الكوفية وفوقها العمامة، وأظن انه مصيب في قوله هذا. لأن الرجل المذكور من العلماء الذين يشار إليهم بالبنان ومن المتبحرين في اللغة العربية وآدابها ومعرفة الناطقين بها وأحوالهم وأمور معاشهم. فإذا عرفنا ذلك هان علينا فهم كثير من عوائدهم التي لا تتضح إلا بعد الوقوف على هذا النوع من العمرة.</p>
             <p change="#d2e73 #d2e282" xml:id="p_74.d2e1321">وكثيراً ما كانوا يتلثمون بفضلة الكوفية لكي لا يظهروا أنفسهم لأعدائهم فيخفون وجههم كله</p>
             <p change="#d2e73 #d2e282" xml:id="p_75.d2e1324">أو بعضه حسبما يعن لهم أو يشاءون. ولهم أوضاع واصطلاحات في ذلك منها: (الاعتجار) قال صاحب تهذيب الألفاظ: كانت الفرسان في الجاهلية عند اجتماع الناس بعكاظ في وقت الحج يعتجرون (أي يلفون عمامتهم دون
 <pb n="n2-p393" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P881.xhtml" change="#d2e282" xml:id="pb_25.d2e1326"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="393" facs="#facs_393" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="393" facs="#facs_393" edRef="#edition_1" xml:id="pb_50.d2e1728"/>
 
 
 التلحي) لئلا يعرف من قد أصاب من الدماء. فأتى (طريف بن تميم العنبري) سوق عكاظ فرأى قوماً ينظرون بوجهه وكان من مقدمي الفرسان فحسر اللثام وقال أبياتاً منها هذه:</p>
@@ -559,7 +559,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_8.d2e1404"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="1" xml:lang="ar" xml:id="num_1.d2e1406">١</num>  - </hi>(الاتيمة) مصحفة عن تصغير اتمة وزان أكمة. هي حلقة بين الفنة والكلب مربوط بها حبل قصير بهيئة حلقة أخرى.
 <pb n="n2-p394" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P882.xhtml" change="#d2e282" xml:id="pb_26.d2e1410"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="394" facs="#facs_394" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="394" facs="#facs_394" edRef="#edition_1" xml:id="pb_52.d2e1814"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_9.d2e1412"> 
@@ -577,7 +577,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_13.d2e1452"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="6" xml:lang="ar" xml:id="num_1.d2e1454">٦</num>  - </hi>(البيوار) وهو واحد (العمارين) ومحله في صدر السفينة وإذا كان في جنبها سمي (عمرانيا) وهو مشتق من بار الشيء يبور بمعنى زاد
 <pb n="n2-p395" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P883.xhtml" change="#d2e282" xml:id="pb_27.d2e1458"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="395" facs="#facs_395" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="395" facs="#facs_395" edRef="#edition_1" xml:id="pb_54.d2e1864"/>
 
 
 عن الحاجة.</p>
@@ -612,7 +612,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_23.d2e1548"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="16" xml:lang="ar" xml:id="num_1.d2e1550">١٦</num>  - </hi>(الدراب) وزان شداد: لوحة يبلغ عرضها نحو  <num type="auto-markup" change="#d2e258 #d2e282" value="30" xml:lang="ar" xml:id="num_1.d2e1554">٣٠</num>  سنتيمتراً
 <pb n="n2-p396" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P884.xhtml" change="#d2e282" xml:id="pb_28.d2e1557"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="396" facs="#facs_396" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="396" facs="#facs_396" edRef="#edition_1" xml:id="pb_56.d2e1965"/>
 
 
 توضع على طول السفينة من الجانبين إذا شحنت ويخشى عليها طفح الماء والغرق عند اضطراب الأمواج. والدراب يوضع للمهيلة والبلم وما شاكلهما ولا يوضع للسفينة.</p>
@@ -633,7 +633,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_28.d2e1608"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="21" xml:lang="ar" xml:id="num_1.d2e1610">٢١</num>  - </hi>(التروسي): حبل يشد بطرف الفرمل الدقيق وهو الأعلى ويكون في طرفه الأعلى بكرة تسمى بكرة الرويس يطول بها الحبل ويقصر وذلك عند
 <pb n="n2-p397" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P885.xhtml" change="#d2e282" xml:id="pb_29.d2e1614"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="397" facs="#facs_397" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="397" facs="#facs_397" edRef="#edition_1" xml:id="pb_58.d2e2024"/>
 
 
 نشر الشراع فقط.</p>
@@ -662,7 +662,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_36.d2e1696"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="29" xml:lang="ar" xml:id="num_1.d2e1698">٢٩</num>  - </hi>(الشفيرة): حاشية الشراع السفلى.
 <pb n="n2-p398" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P886.xhtml" change="#d2e282" xml:id="pb_30.d2e1702"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="398" facs="#facs_398" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="398" facs="#facs_398" edRef="#edition_1" xml:id="pb_60.d2e2114"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_37.d2e1704"> 
@@ -688,7 +688,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_43.d2e1778"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="36" xml:lang="ar" xml:id="num_1.d2e1780">٣٦</num>  - </hi>(الطخماخ) بضم فسكون مدقة من الخشب يدق بها الوتد الذي يشد به رباط السفينة والكلمة تركية من (دقماق): بمعناه.
 <pb n="n2-p399" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P887.xhtml" change="#d2e282" xml:id="pb_31.d2e1784"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="399" facs="#facs_399" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="399" facs="#facs_399" edRef="#edition_1" xml:id="pb_62.d2e2198"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_44.d2e1786"> 
@@ -713,7 +713,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_50.d2e1850"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="43" xml:lang="ar" xml:id="num_1.d2e1852">٤٣</num>  - </hi>الفرمل خشبة تكون على عرض الدقل وعلى طول السفينة يشد بها الشراع وينشر عليها أيضاً واسمه عند القدماء المشحور والممسوك أيضاً قال الخليل في كتاب العين في باب الجيم والشين والثنائي: (. . . والمشحور الممسوك وهي خشبة فيها شراع السفينة.)
 <pb n="n2-p400" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P888.xhtml" change="#d2e282" xml:id="pb_32.d2e1856"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="400" facs="#facs_400" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="400" facs="#facs_400" edRef="#edition_1" xml:id="pb_64.d2e2272"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_51.d2e1858"> 
@@ -746,7 +746,7 @@
                <hi style="color:red;" change="#d2e282" xml:id="hi_60.d2e1943"> 
                   <num type="auto-markup" change="#d2e258 #d2e282" value="53" xml:lang="ar" xml:id="num_1.d2e1945">٥٣</num>  - </hi>(الكلخة) وتسمى أيضاً (زغبة السكان) خشبة خفيفة طولها نحو ذراع وعرضها زهاء  <num type="auto-markup" change="#d2e258 #d2e282" value="20" xml:lang="ar" xml:id="num_1.d2e1949">٢٠</num>  سنتيمتراً تسمر بطرف خشبة القائم من الأعلى وهي التي تدخل فيها خشبة الكانة.
 <pb n="n2-p401" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P889.xhtml" change="#d2e282" xml:id="pb_33.d2e1952"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="401" facs="#facs_401" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="401" facs="#facs_401" edRef="#edition_1" xml:id="pb_66.d2e2370"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_61.d2e1954"> 
@@ -774,7 +774,7 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="61" xml:lang="ar" xml:id="num_1.d2e2020">٦١</num>  - </hi>(المردى) عندهم بفتح الميم ويسميه البعض (مردا) بالألف القائمة في الأخر: والأول محرف عن فصيح وفصيحة (بضم الميم) قال الخليل في كتاب العين في باب الدال والراء مع الميم: (. . . والمراد دفعك السفينة بالمردى أي خشبة يدفع بها الملاح والفعل</p>
             <p change="#d2e73 #d2e282" xml:id="p_136.d2e2026">مرديمرد.) وقال الإسكافي في مبادئ اللغة  <num type="auto-markup" change="#d2e258 #d2e282" value="19" xml:lang="ar" xml:id="num_1.d2e2028">١٩</num> : (القيقلان خشبة يدفع بها ورأسها في الأرض وانشد. . .)
 <pb n="n2-p402" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P890.xhtml" change="#d2e282" xml:id="pb_34.d2e2031"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="402" facs="#facs_402" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="402" facs="#facs_402" edRef="#edition_1" xml:id="pb_68.d2e2451"/>
 
 
 إلا أننا نستغرب صورة هذا اللفظ. إذ لم نجد له أثراً في كتب اللغة ونظن أن صحيحه القلقلان بقافين ولامين من القلقلة وهي الدفع.</p>
@@ -798,9 +798,9 @@
                   <num type="auto-markup" change="#d2e258 #d2e282" value="67" xml:lang="ar" xml:id="num_1.d2e2084">٦٧</num>  - </hi>(الهنزة) وزان نملة حبل يشد به الفرمل والقلادة ويوصل (بالفوقية).</p>
             <p change="#d2e73 #d2e282" xml:id="p_143.d2e2089">
                <hi style="color:red;" change="#d2e282" xml:id="hi_75.d2e2091"> 
-                  <num type="auto-markup" change="#d2e258 #d2e282" value="68" xml:lang="ar" xml:id="num_1.d2e2093">٦٨</num>  - </hi>(الهواليش) جمع واحدها (هالوش) وهي الأوتاد جمع وتد. ويسمي أهل <placeName>العراق</placeName> الوتد (وداً) وهو فصيح في لغة تميم ذكره الخليل في العين يسمونه أيضاً (ثباتاً) بكسر الثاء كسراً غير بين ويجمعونه على (ثباتات).
+                  <num type="auto-markup" change="#d2e258 #d2e282" value="68" xml:lang="ar" xml:id="num_1.d2e2093">٦٨</num>  - </hi>(الهواليش) جمع واحدها (هالوش) وهي الأوتاد جمع وتد. ويسمي أهل <placeName change="#d2e417" xml:id="placeName_55.d2e2517">العراق</placeName> الوتد (وداً) وهو فصيح في لغة تميم ذكره الخليل في العين يسمونه أيضاً (ثباتاً) بكسر الثاء كسراً غير بين ويجمعونه على (ثباتات).
 <pb n="n2-p403" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P891.xhtml" change="#d2e282" xml:id="pb_35.d2e2097"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="403" facs="#facs_403" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="403" facs="#facs_403" edRef="#edition_1" xml:id="pb_70.d2e2522"/>
 
 
                <hi style="color:red;" change="#d2e282" xml:id="hi_76.d2e2099"> 
@@ -823,7 +823,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_146.d2e2140">هذا الرجل هو جراح فرنسوي المولد، تلميذ مدرسة ليون الطبية، وكان قد ناوأه بعض الحساد، فهاجر إلى أميركة ديار الحرية، واخذ بمتابعة أشغاله العظيمة، وهي التي فتحت له باب سمعة لا يغلق البتة. وقد نال في دار العلماء الطائرة الصيت في نيويرك المعروفة باسم (روكفلر) منزلة رفيعة في التحقيق وسعة الاطلاع.</p>
             <p change="#d2e73 #d2e282" xml:id="p_147.d2e2143">وما برح كريل دياره إلا وأسف على فراقه جم من الأفاضل المشاهير الذين يقدرون العلم وحملته حق قدره إذ أيقنوا انه يرحل إلى بلاد ينقل إليها خبرته وتوغله في المباحث الطبية الدقيقة. على أن أسفهم تضاعف حينما طالعوا في الصحف والمجلات السيارة ما رفعه إلى مجمع تقدم الطب في باريس؛ وخلاصته أنه توفق لأن يحيي في سائل صناعي حيوان وهي عبارة عن قلبه ورئتيه وأنبوب معدته وكليتيه وكان قد استلها جملة واحدة من داخله برفق عجيب. وحالما استلها غطها كتلة واحدة في ابزن أو طست مملؤ محلولاً خاصاً. وقد حافظ على حرارتها بالدرجة المعهودة في جسم الحيوان نفسه، وأبقى التنفس على حالته الأولى بمسبار أثبته في قصبة الرئة، وقد ابرز طرف المعي خارجاً من الابزن إقامة لمخرج صناعي له يعمل عمله المألوف.
 <pb n="n2-p404" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P892.xhtml" change="#d2e282" xml:id="pb_36.d2e2145"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="404" facs="#facs_404" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="404" facs="#facs_404" edRef="#edition_1" xml:id="pb_72.d2e2575"/>
 
 
 ولما تم هذا العمل كان يستطيع كل أحد أن يرى مشهداً في أقصى الغرابة وهو انه يعاين جميع الأعضاء تتم وظائفها كأنها لم تخرج من موطنها، يشاهد القلب يديم نبضه بدون خلل في الحركة، والرئتين تتنفسان على مألوف عادتهما، والمعدة والأمعاء تهضم الأطعمة احسن هضم، والكبد والكليتين تفرز مفرزاتها بينما يبقى الدم في أوعيته برباطات ويجول في مجالاته بدون انقطاع، متنقلاًَ من عضو إلى عضو، متخذاً من الرئتين الاكسيجين الضروري لحياة الخلايا ولما يعود إلى مقره الأول يغزر الحامض الكربوني المنبعث من</p>
@@ -833,7 +833,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_151.d2e2158">فتحقق مما تقدم بسطه انك ترى جميع مظاهر الحياة النباتية بينة ومحفوظة في تلك الأخطاء وإن نزعت من موطنها. ويمكن للباحث أن يتبع مدة ساعات أسرار الحياة التي تتدفق في مجاري تلك الأعضاء الموضوعة في بوقالة تلك الأسرار التي كانت قد بقيت غامضة إلى عهد هذا الطبيب النطاسي والبارع الفذ.</p>
             <p change="#d2e73 #d2e282" xml:id="p_152.d2e2161">هذا وليس في علم وظائف الأعضاء من الاختبارات ما يضاهي هذه التجارب الغريبة التي تدهش كل إنسان، ولا سيما لأنها وضعت أسرار الحياة الغامضة على طرف الثمام.
 <pb n="n2-p405" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P893.xhtml" change="#d2e282" xml:id="pb_37.d2e2163"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="405" facs="#facs_405" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="405" facs="#facs_405" edRef="#edition_1" xml:id="pb_74.d2e2595"/>
 
 
 وإن قلنا أن مختبرات كريل تنتهي عند هذا الحد فنكون قد ظلمناه وبخسنا حقه وغضضنا من فضله. فثم أمور حديثة اطلعنا عليها وهي ليست إلا صفحة من صفحات أعماله التي يستقريها منذ بضع سنوات. وهو بحث يتصل كل الاتصال بأبحاثه السابقة عن الغرز الحيواني</p>
@@ -843,7 +843,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_156.d2e2176">واعلم أن اختبارات كريل لحفظ الحياة خارجاً عن مجموع الأعضاء تقسم إلى طائفتين:</p>
             <p change="#d2e73 #d2e282" xml:id="p_157.d2e2179">وقد عانى في الطائفة الأولى أحياء أخطاء كاملة في سوائل صناعية. والى هذه الطائفة ترجع تجاربه التي رفع رفيعتها إلى مجمع ترقي العلوم الطبية الفرنسية. فلا فائدة إلى العود إلى هذا الموضوع بعد أن بسطنا الكلام فيه بسطاً كافياً شافياً إلا أننا نقول: لا يسوغ لنا أن ننسى في هذا الصدد الأشغال التي تمت قبله على أيدي مختبرين سبقوه إليها. فلقد عنى منذ زمن مديد بذماء بعض الأعضاء المنفصلة
 <pb n="n2-p406" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P894.xhtml" change="#d2e282" xml:id="pb_38.d2e2181"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="406" facs="#facs_406" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="406" facs="#facs_406" edRef="#edition_1" xml:id="pb_76.d2e2615"/>
 
 
 وقد قيض لأحدهم أن يحفظ قلب ضفدع حياً مدة  <num type="auto-markup" change="#d2e258 #d2e282" value="33" xml:lang="ar" xml:id="num_1.d2e2183">٣٣</num>  يوماً بعد أن غطه في سائل صناعي. وقد شوهد قلب أرنب ينبض مدة نهار بانتظام عجيب لا خلل فيه. بل وأنعش أحدهم قلب جثة هامدة بشرية بعد أن مضى على وفاة صاحبها عشرون ساعة. وبحث آخر على هذا الوجه في حفظ الأمعاء وأحشاء أخرى أما فضل كريل فأنه متوقف على حفظ حياة هذه الأشلاء (مجموعة معاً وخارجاً عن مقرها مع إبقاء تعلق الواحد بالآخر يربطها دوران الدم جارياً فيها ومنها وإليها.)</p>
@@ -851,7 +851,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_159.d2e2190">وعنايته بها هنا لا تقوم على مربى صناعي بل على قطرة جبلة دموية وضعها على زجاجة وجعل عليها جزيئاً في منتهى الصغر من جزيئات النسيج الذي يراد استنباته.</p>
             <p change="#d2e73 #d2e282" xml:id="p_160.d2e2193">فإذا دقق الباحث نظره في هذه المستنبتات بواسطة المجهر يرى أول مظهر فيها نمو الخلايا المبذورة. ثم أن هذه الخلايا تتكاثر بسرعة عجيبة مدهشة منبعثة مئات بل ألوفاً من القطعة الأولى. ثم تتخطى متشععة متوجهة حول محيط القطرة المستنبتة وتهجم عليها هجوماً وحشياً.
 <pb n="n2-p407" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P895.xhtml" change="#d2e282" xml:id="pb_39.d2e2195"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="407" facs="#facs_407" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="407" facs="#facs_407" edRef="#edition_1" xml:id="pb_78.d2e2631"/>
 
 
 وعند تكاثرها على هذا الوجه تحفظ مزية خلايا الأعضاء التي خرجت منها وذلك في مدة طويلة بكفاية. فإن قطعة قلب جنين دجاجة نزع في  <num type="auto-markup" change="#d2e258 #d2e282" value="17" xml:lang="ar" xml:id="num_1.d2e2197">١٧</num>  كانون الثاني <date when="1912" type="auto-markup" change="#d2e266 #d2e282" xml:id="date_4.d2e2200">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1912" xml:lang="ar" xml:id="num_1.d2e2202">١٩١٢</num>
@@ -861,7 +861,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_163.d2e2219">اجل أننا اضطررنا إلى الآن إلى أن نبحث عن مجموعة الأعضاء التي تبدو فيها مظاهر حياة الخلايا والى أن ننشد ضالتها في مجموع الأعضاء كلها التي تتصل بها ولهذا كان يقع في نتائجها خطأ لا مناص منه لأنه من المحال أن ينزع ما هو خاص بالخلية نفسها من عمل سائر مجموع الأخطاء. وأما بعد الآن وبعد تحقيقات كريل فنستطيع أن نتتبع حياة الخلية المنفردة معتمدين على الأساليب التي قرر أسسها نابغة هذا العصر الجديد بل ونطلع على وظائفها الخاصة بها دون غيرها. وهذا ما يحمل العلماء على أن يعقدوا بناصية هذه الأصول المكينة شأناً جليلاً ومستقبلاً باهراً، والله الموفق.</p>
             <byline change="#d2e219 #d2e282" xml:id="byline_7.d2e2222">
                <persName change="#d2e344 #d3e356" xml:id="persName_12.d2e2286" ref="oape:pers:3299">
-                            <roleName type="title">الدكتور</roleName>جاك آميو</persName>
+                            <roleName type="title" change="#d2e417" xml:id="roleName_2.d2e2664">الدكتور</roleName>جاك آميو</persName>
             </byline>
          </div>
          <div change="#d2e64 #d2e282" type="section" xml:id="div_10.d2e2226">
@@ -869,7 +869,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_164.d2e2231">السليقة والسليقية والهداية والوهم بمعنى</p>
             <p change="#d2e73 #d2e282" xml:id="p_165.d2e2234">سألنا أحد الأدباء من الإصلاحية (من أعمال <placeName change="#d2e282" xml:id="placeName_40.d2e2236">الموصل</placeName>) ما احسن لفظة
 <pb n="n2-p408" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P896.xhtml" change="#d2e282" xml:id="pb_40.d2e2239"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="408" facs="#facs_408" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="408" facs="#facs_408" edRef="#edition_1" xml:id="pb_80.d2e2685"/>
 
 
 عربية ترادف أو تقابل كلمة لأني أرى بعضهم وضع لها كلمة السوق الطبيعي أو الانسياق كما جاء في المقتبس  <num type="auto-markup" change="#d2e258 #d2e282" value="426" xml:lang="ar" xml:id="num_1.d2e2241">٤٢٦</num> :  <num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e2244">٧</num>  ولا أرى ذلك موافقاً لوضع الألفاظ العربية فإن لم نقبلها فأي حرف يتخذ عوضاً منها.</p>
@@ -879,7 +879,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_169.d2e2258">فالظاهر من هذا القول الطويل أن السليقي خاص بالكلام واللغة. وأما السليقة فخاصة</p>
             <p change="#d2e73 #d2e282" xml:id="p_170.d2e2261">بغيرهما. ولو أردنا أن نطلب من أبناء الغرب أن يشرحوا لنا كلمة
 <pb n="n2-p409" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P897.xhtml" change="#d2e282" xml:id="pb_41.d2e2263"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="409" facs="#facs_409" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="409" facs="#facs_409" edRef="#edition_1" xml:id="pb_82.d2e2711"/>
 
 
 لما تكلموا بأحسن ما نطق به هؤلاء العرب.</p>
@@ -888,7 +888,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_173.d2e2272">وقد استعمل الجاحظ في هذا المعنى كلمة هداية في كتاب الحيوان. وقال صاحب الكليات: الهداية. . . أيضاً: الإلهام نحو (أعطى كل شيءٍ خلقه ثم هدى) أي ألهمهم المعاش. قلت وأمر المعاش يحوي عدة أمور منها الاحتيال على الرزق واتخاذ الوسائل اللازمة للحصول على الطعام والشراب والسكنى إلى غيرها. وقال أيضاً بعد ذلك. إن هداية الله مع تنوعها على أنواع لا تكاد تنحصر في أجناس مترتبة منها: انفسية، كإضافة القوى الطبيعية والحيوانية والقوى المدركة والمشاعر الظاهرة والباطنة ومنها: آفاقية، فأما تكوينية معربة عن الحق بلسان الحال وهي نصب الأدلة المودعة في كل فرد فرد من أفراد العلم. وأما تنزيلية مفصحة عن تفاصيل الأحكام النظرية والعملية بلسان المقال بإرسال الرسل وإنزال الكتب. ومنها الهداية الخاصة وهي كشف الأسرار على قلب المهدي بالوحي والإلهام.</p>
             <p change="#d2e73 #d2e282" xml:id="p_174.d2e2276">ومما جاء في كلامهم بهذا المعنى: الواهمة والوهم قالوا: الواهمة قوة الوهم والوهم على ما جاء في كليات أبي البقاء. هو عبارة عما يقع في الحيوان من جنس المعرفة من غير سبب موضوع للعلم. وهذا أصرح تعريف ورد في كلام
 <pb n="n2-p410" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P898.xhtml" change="#d2e282" xml:id="pb_42.d2e2278"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="410" facs="#facs_410" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="410" facs="#facs_410" edRef="#edition_1" xml:id="pb_84.d2e2728"/>
 
 
 العرب مطابق كل المطابقة لما نطق به علماء هذا الزمان ولهذا فإتخاذ هذا اللفظ من احسن ما جاء في هذا المعنى. وقال الجرجاني: الوهم قوة جسمانية للإنسان محلها آخر التجويف الأوسط من الدماغ من شأنها إدراك المعاني الجزئية المتعلقة بالمحسوسات كشجاعة زيد وسخاوته. وهذه القوة هي التي</p>
@@ -918,7 +918,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_180.d2e2336">أولى في البيت حكاية وذلك أنه كان لا يحسن الرمي واحب أن يتبدح عند أصحابه فقال: أولى. وضرب بيده على الأخرى. فقال: أولي. فحكي ذلك. اهـ</p>
             <p change="#d2e73 #d2e282" xml:id="p_181.d2e2339">وقال في الكليات ص  <num type="auto-markup" change="#d2e258 #d2e282" value="149" xml:lang="ar" xml:id="num_1.d2e2341">١٤٩</num>  معنى قوله تعالى: فأولى لهم. فويل لهم.
 <pb n="n2-p411" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P899.xhtml" change="#d2e282" xml:id="pb_43.d2e2344"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="411" facs="#facs_411" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="411" facs="#facs_411" edRef="#edition_1" xml:id="pb_86.d2e2796"/>
 
 
 دعاء عليهم بأن يليهم المكروه أو يؤول إليه أمرهم فأنه (افعل) من الولي أو (فعلى) من آل. وقال الاصبهاني في المفردات في غريب القرآن: قيل: أولى لك فأولى من هذا معناه العقاب أولى لك بك. وقيل هذا فعل المتعدي بمعنى القرب وقيل معناه أنزجر.</p>
@@ -929,7 +929,7 @@
             <p change="#d2e73 #d2e282" xml:id="p_186.d2e2360">قلنا: للفانوس معنيان النمام والمصباح فإن كان بمعنى النمام فاللفظة عربية فصيحة قديمة. وهي وإن كانت ثلاثية التركيب إلا أنها ترجع إلى أصل ثنائي كما قرره اللغوييون المعاصرون من أعراب وأغراب. أي أن مادة ف ن س مأخوذة من مادة ن س بزيادة الفاء في الأول ومنه النسيسة أي النميمة. فالفانوس النمام فاعول بمعنى فاعل للمبالغة وهو كثير في العربية.</p>
             <p change="#d2e73 #d2e282" xml:id="p_187.d2e2363">وأما إذا كان بمعنى المصباح فليس بعربي الأصل وإن قال به صاحب القاموس إذ هذا نص عبارته: الفانوس: النمام. . . وكأن فانوس الشمع منه. وقد خالفه صاحب محيط المحيط إذ قال: الفانوس النمام. وكان فانوس المصباح مأخوذ منه لأنه لو كان مأخوذاً من معنى النمام فأحر بلفظة النمام نفسها أن تأتي بهذا المعنى وكذلك كل ما جاء من مرادفاتها. وليس الأمر كذلك. فأن الفانوس المصباح مولدة دخيلة وهي من اليونانية من فانوس زنة ومعنى وهي مشتقة عندهم من فعل أي أنار فيكون معنى الكلمة المنير أو آلة الإنارة أو كما قال العرب المنوار وهي الكلمة الفصيحة المقابلة لفانوس الدخيلة.
 <pb n="n2-p412" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P900.xhtml" change="#d2e282" xml:id="pb_44.d2e2365"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="412" facs="#facs_412" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="412" facs="#facs_412" edRef="#edition_1" xml:id="pb_88.d2e2819"/>
 
 
 والفعل اليوناني يفيد المعنيين: الإنارة والنميمة. فلعل كلا المعنيين مأخوذ من اليونان لأن صاحب لسان العرب لم يذكر من معاني مادة فنس إلا قوله: الفنس: الفقر المدقع. قال الأزهري الأصل فيه الفلس: اسم من الإفلاس فأبدلت اللام نوناً كما ترى. قلنا: وأما نحن فأننا نظن أن الفنس يرجع إلى لفظ ثنائي وهو فس الممات بالعربية الموجودة في الارمية ومعناه فص أي عرق العظم وجرده من لحمه أو انتزع ما عليه: والدليل على أن اللفظ ممات في العربية انهم ذكروا الفسيس وقالوا عنه: الضعيف العقل أو البدن، ونزيد: الضعيف مالاً أيضاً. لأن كل ذلك من المجاز مأخوذ من الفس بمعنى الانتزاع أو التعرق. وإذا انتزع من الإنسان ما فيه أصبح فقيراً علماً وجسماً وحالاً ومالاً. وفوق كل ذي علم عليم.</p>
@@ -937,15 +937,15 @@
          <div change="#d2e64 #d2e282" type="item" subtype="article" xml:id="div_11.d2e2369">
             <head change="#d2e282" xml:id="head_11.d2e2371">باب المكاتبة والمطارحة</head>
             <p change="#d2e73 #d2e282" xml:id="p_188.d2e2374">هل أصاب <persName change="#d2e344 #d3e356" xml:id="persName_13.d2e2440" ref="oape:pers:771 viaf:77068906">
-                            <roleName type="rank">الاب</roleName>
-                            <forename>لويس</forename>
-                            <surname>شيخو</surname>
+                            <roleName type="rank" change="#d2e417" xml:id="roleName_3.d2e2832">الاب</roleName>
+                            <forename change="#d2e417" xml:id="forename_12.d2e2835">لويس</forename>
+                            <surname change="#d2e417" xml:id="surname_10.d2e2838">شيخو</surname>
                         </persName>؟</p>
             <p change="#d2e73 #d2e282" xml:id="p_189.d2e2377">كتب إلينا أحد الأدباء ما هذا نصه: وقع بيدي العدد الثاني من المشرق فرأيت فيه هذه العبارة في باب المطبوعات ( <num type="auto-markup" change="#d2e258 #d2e282" value="157" xml:lang="ar" xml:id="num_1.d2e2379">١٥٧</num> :  <num type="auto-markup" change="#d2e258 #d2e282" value="15" xml:lang="ar" xml:id="num_1.d2e2382">١٥</num> ): ولعلمنا أن حضرته (أي صاحب كتاب التعبد ليسوع طفل براغ) يحب الانتقادات اللغوية نذكر له بعض أغلاط وقعت في كتابه كقوله مثلاً ص  <num type="auto-markup" change="#d2e258 #d2e282" value="9" xml:lang="ar" xml:id="num_1.d2e2385">٩</num>  س  <num type="auto-markup" change="#d2e258 #d2e282" value="1" xml:lang="ar" xml:id="num_1.d2e2388">١</num>  (كذا والأصح س  <num type="auto-markup" change="#d2e258 #d2e282" value="11" xml:lang="ar" xml:id="num_1.d2e2391">١١</num> ) (الكلمة المتجسدة والصواب هنا المتجسد) أي ابن الله ليوافق قوله بالمذكر انتقل من أحشاء مريم وقوله (ص  <num type="auto-markup" change="#d2e258 #d2e282" value="10" xml:lang="ar" xml:id="num_1.d2e2395">١٠</num>  س  <num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e2398">٧</num> ) لولا إياك والصواب لولاك وقوله (ص  <num type="auto-markup" change="#d2e258 #d2e282" value="11" xml:lang="ar" xml:id="num_1.d2e2401">١١</num>  س  <num type="auto-markup" change="#d2e258 #d2e282" value="13" xml:lang="ar" xml:id="num_1.d2e2404">١٣</num> ) يسرع غلطة طبعية يريد يسوع وقوله (ص  <num type="auto-markup" change="#d2e258 #d2e282" value="12" xml:lang="ar" xml:id="num_1.d2e2407">١٢</num>  س  <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e2410">٢</num> ) والدموع التي فاضها والصواب أفاضها وقوله (فيها س  <num type="auto-markup" change="#d2e258 #d2e282" value="3" xml:lang="ar" xml:id="num_1.d2e2414">٣</num> ) يسمعه للناس والصواب يسمعه الناس إذ اسمع يتعدى إلى مفعولين وقوله (فيها س  <num type="auto-markup" change="#d2e258 #d2e282" value="8" xml:lang="ar" xml:id="num_1.d2e2417">٨</num> ) أن تنزلي لكي تلينيه والصواب تنزل لكي تلينه عائد إلى (الصراخ) هذا بعض ما لحظناه في الصفحات الأولى. كلام المنتقد وهو ل. ش.</p>
             <p change="#d2e73 #d2e282" xml:id="p_190.d2e2421">فسألنا الكاتب المذكور: هل أصاب صاحب المشرق في كلامه هذا؟</p>
             <p change="#d2e73 #d2e282" xml:id="p_191.d2e2424">قلنا: أما تذكير نعت الكلمة فجائز لأن مدلوله مذكر. لكن ذلك لا
 <pb n="n2-p413" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P901.xhtml" change="#d2e282" xml:id="pb_45.d2e2426"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="413" facs="#facs_413" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="413" facs="#facs_413" edRef="#edition_1" xml:id="pb_90.d2e2894"/>
 
 
 يمنع تأنيثه جرياً على اللفظ إذ هذا غير محظور ولهذا لا يحق له أن يقول: (والصواب) بل (ويجوز) ولا سيما إذا دللت على تذكيره شيئاً تذكره في العبارة التالية فقد قال الفراء في كلمة سلطان: السلطان عند العرب: الحجة يذكر ويؤنث فمن ذكره ذهب به إلى معنى الرجل ومن أنثه ذهب به إلى معنى الحجة (راجع أيضاً التاج في سلط) وقال الجوهري في مادة خ ل ف: الخليفة قد يؤنث قال صاحب التاج معقباً: قال شيخنا في الإسناد ونحوه مراعاةً للفظه كما حكاه الفراء وانشد:</p>
@@ -960,14 +960,14 @@
             <p change="#d2e73 #d2e282" xml:id="p_194.d2e2448">والبصريون يقولون هو خفض والفراء يقول وإن كان في لفظ الخفض فهو في موضع الرفع قال وهو أقيس القولين تقول. لولاك ما قلت ولولاي ولولاها ولولاهم. والأجود لولا أنت كما قال عز وجل: لولا انتم لكنا مؤمنين، فانظر بعد ذلك أين بقي كلام المنتقد وقوله: والصواب. . .</p>
             <p change="#d2e73 #d2e282" xml:id="p_195.d2e2451">وأما قوله: يسرع غلطة طبعية يريد يسوع. قلنا: إن في الكتاب عدة أغلاط طبع لكن هذه (أي يسرع) ليس منها كأنه قد كتب على حضرة المنتقد أن لا يصيب في كلمة واحدة مما ينطق به وعبارتنا هي هذه نعيدها هنا ليطلع عليها القارئ: فبهذه الصورة يسرع لإنسان الإله منذ دخوله العالم في أن يتألم ويعمل أعمال التوبة. فلو أبدلنا يسرع (من الإسراع) بيسوع لما استقام هناك معنى. فلينصفنا حضرة المنتقد وليقر بغلطه.
 <pb n="n2-p414" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P902.xhtml" change="#d2e282" xml:id="pb_46.d2e2453"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="414" facs="#facs_414" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="414" facs="#facs_414" edRef="#edition_1" xml:id="pb_92.d2e2923"/>
 
 
 وأما قوله: (والدموع التي فاضها والصواب أفاضها) قلنا: إنما أردنا والدموع التي فاض بها عينه فحذفنا الجار ووصلنا. والوصل بعد حذف الجار باب معروف عند النحاة. قال ابن عقيل: إن الفعل اللازم يصل إلى مفعوله بحرف جر نحو مررت بزيد. وقد يحذف حرف الجر فيصل إلى مفعوله بنفسه نحو مررت زيداً (قلنا) وعلى هذا النحو جرينا في قولنا والدموع التي فاضها فلا غبار عليه بشهادة النحاة كلهم أجمعين.</p>
             <p change="#d2e73 #d2e282" xml:id="p_196.d2e2456">وكذلك لم يصب في تصحيحه يسمعه للناس نعم أن (اسمع) يتعدى إلى مفعولين لكن قد تقحم اللام أو تزاد بين الفعل المتعدي ومفعوله فتسمى حينئذ (اللام المعترضة) كما نص عليها النحاة واللغويون ومثلوا له قولهم: ضربت لزيد قال الشاعر:</p>
             <lg change="#d2e282" xml:id="lg_29.d2e2460">
                <l type="bayt" change="#d2e282" xml:id="l_29.d2e2462">
-                  <seg change="#d2e282" xml:id="seg_57.d2e2464">وملكت ما بين <placeName>العراق</placeName> ويثرب </seg>
+                  <seg change="#d2e282" xml:id="seg_57.d2e2464">وملكت ما بين <placeName change="#d2e417" xml:id="placeName_58.d2e2936">العراق</placeName> ويثرب </seg>
                   <seg change="#d2e282" xml:id="seg_58.d2e2467"> ملكاً أجار لمسلم ومعاهد</seg>
                </l>
             </lg>
@@ -985,14 +985,14 @@
                             <surname xml:lang="ar" change="#d2e282" xml:id="surname_10.d2e2503">حلمي</surname>
                         </persName> أفندي في (طعيريزات) فراقني جداً. لولا أنه زعم تبعاً للأعرابي المصاحب له أن (عربسات) هي (طعيريزات) والحق أنها ليست إياها. فأن عريسات موقعها خلف الرحبة إلى الغرب بمقدار ثلاث ساعات كما اخبرني مدير مال السماوة الحالي علي أفندي البغدادي، قال: خرجت وأنا مدير مال <placeName change="#d2e282" xml:id="placeName_42.d2e2507">النجف</placeName> قبل سنوات مفتشاً في زكاة الأغنام إلى الرحبة وما والاها فرأيت عريسات بمكان بين الرحبة والقادسية والشقيق، وأدخلت خادماً لي في سربها فدخل قليلاً ثم عاد ولم يخبرني بشيء لما عرض له من الظلمة والوجل: قال: وفي الأخيضر
 <pb n="n2-p415" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P903.xhtml" change="#d2e282" xml:id="pb_47.d2e2510"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="415" facs="#facs_415" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="415" facs="#facs_415" edRef="#edition_1" xml:id="pb_94.d2e2985"/>
 
 
 سرب مثل سربها دخلته ووصفه لي وصفاً مجملاً. هذا ما أردت</p>
             <p change="#d2e73 #d2e282" xml:id="p_201.d2e2514">أن أثبته خدمة للحقيقة والسلام.</p>
             <byline change="#d2e219 #d2e282" xml:id="byline_8.d2e2517">
                <persName change="#d2e344 #d3e356" xml:id="persName_15.d2e2585" ref="oape:pers:3938">محمد ابن 
-                            <roleName type="honorific">الشيخ</roleName>
+                            <roleName type="honorific" change="#d2e417" xml:id="roleName_4.d2e2996">الشيخ</roleName>
                             طاهر السماوي</persName>
             </byline>
          </div>
@@ -1008,7 +1008,7 @@
                   </date> .</p>
                <p change="#d2e73 #d2e282" xml:id="p_206.d2e2565">ولما اخذ يطبع الجزء الثالث ويبوب له الفهارس المختلفة العميمة الفائدة وقف على نسختنا الخطية الموجودة في دير المبعث في <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_43.d2e2567">بغداد</placeName> فتكلم عنها كلاماً يشف عن سعة علم ونقد بصر دقيق وانتفع منها. واهتم بها اشد الاهتمام. وهذا الجزء الثالث يحوي أربعة فهارس ومعجماً وخاتمة وتذييلات.
 <pb n="n2-p416" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P904.xhtml" change="#d2e282" xml:id="pb_48.d2e2570"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="416" facs="#facs_416" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="416" facs="#facs_416" edRef="#edition_1" xml:id="pb_96.d2e3052"/>
 
 
 ففي الفهرس الأول ترى ذكر القصائد مرتبة بحسب رويها وبحرها. وفي الفهرس الثاني ذكر ما ورد من المعارضات والعبارات الشبيهة لما جاء في شعر الفرزدق. وفي الفهرس الثالث أسماء المشاهير الذين ذكروا في الديوان من رجاله وقبائله وغيرها. وفي الفهرس</p>
@@ -1017,7 +1017,7 @@
                </p>
                <p change="#d2e73 #d2e282" xml:id="p_209.d2e2582">وقيمة الجزء الأول والثاني  <num type="auto-markup" change="#d2e258 #d2e282" value="67" xml:lang="ar" xml:id="num_1.d2e2584">٦٧</num>  فرنكاً و <num type="auto-markup" change="#d2e258 #d2e282" value="50" xml:lang="ar" xml:id="num_1.d2e2587">٥٠</num>  سنتيماً وقيمة الجزء الثالث  <num type="auto-markup" change="#d2e258 #d2e282" value="42" xml:lang="ar" xml:id="num_1.d2e2590">٤٢</num>  فرنكاً و <num type="auto-markup" change="#d2e258 #d2e282" value="50" xml:lang="ar" xml:id="num_1.d2e2593">٥٠</num>  سنتيماً. وقد طبع بمطبعة بريل في ليدن من ديار هولندة وكاغده من أجود الكاغد وأثمنه. ويسوؤنا أن نقول أن فيه عيباً وهذا العيب هو حروفه فأنها غير جميلة بل قديمة الطراز قبيحة الرسم شوهاء المنظر؛ ولهذا تأسفنا اشد الأسف لوجود هذه الشائبة فيه: ولا سيما لأن كتابة بعض حروفه مخالفة لأصول الكتابة العربية فأن الكلمة جحاجح مثلاً وما شابهها من الكلم التي فيها الجيم والحاء والخاء يزيد فيها سناً فيكتبها بخلاف الأصول المتعارفة وهذا عيب فاضح. وما عدا ذلك فأن الكتاب درة من الدرر الغوالي:
 <pb n="n2-p417" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P905.xhtml" change="#d2e282" xml:id="pb_49.d2e2596"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="417" facs="#facs_417" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="417" facs="#facs_417" edRef="#edition_1" xml:id="pb_98.d2e3082"/>
 
 
 ولعلك تجد السعر فاحشاً. ولكن لو رأيت ما فيه من المحاسن لقلت أنه ليس شيئاً يذكر ولعل هناك سبباً آخر يمنع بعضهم من شراء هذا الكنز وهو كثرة ما فيه من الأبيات التي تخجل أناس هذا العصر. وتمجها آدابهم لكن العتب على الناظم لا على الطابع. ولا شك أنه أراد ناشره أن يطبع منه نسخة تكون لأبناء المدارس يحذف منه هذه المنديات ويطهر الكتاب من هذه الأوساخ الشائنة حرصاً على حفظ الآداب.</p>
@@ -1027,7 +1027,7 @@
                   <hi style="color:red;" change="#d2e282" xml:id="hi_79.d2e2601"> 
                      <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e2603">٢</num>  - </hi>كتاب آداب العرب</head>
                <p change="#d2e73 #d2e282" xml:id="p_211.d2e2608">تأليف <persName change="#d2e344 #d3e356" xml:id="persName_16.d2e2674" ref="oape:pers:3153">إبراهيم 
-                            <roleName type="title">بك</roleName>
+                            <roleName type="title" change="#d2e417" xml:id="roleName_5.d2e3101">بك</roleName>
                             العرب</persName>
                </p>
                <p change="#d2e73 #d2e282" xml:id="p_212.d2e2612">قررت نظارة المعارف العمومية طبع هذا الكتاب على نفقتها وتدريسه في المدارس الابتدائية بنين وبنات. وفي مدارس المعلمات السنية ومدارس معلمي الكتاتيب. - حقوق الطبع محفوظة للنظارة -. المطبعة الأميرية ب<placeName change="#d2e282" xml:id="placeName_44.d2e2614">مصر</placeName>  
@@ -1035,7 +1035,7 @@
                <p change="#d2e73 #d2e282" xml:id="p_213.d2e2621">ما تراه هنا ليس اسم كتاب بل اسم درة ترصع بها تيجان الملوك. ويتنافس في اقتنائها كل من يود اكتناز الخزائن النفيسة التي لا يتطرق إليها الفناء أو الفساد. - وهذه الدرة هي عبارة عن أمثال حكمية منظومة نظماً رائعاً رائقاً يلج الأذن بلا أذن ويصل القلب بدون أدنى تكلف. أقوالها آية في البلاغة والحكمة فهي كتاب كل إنسان يريد أن يجمع إلى بلاغة الإنشاء وسلاسته حكمة سليمانية وعقلاً صائباً لقمانياً.</p>
                <p change="#d2e73 #d2e282" xml:id="p_214.d2e2624">ومع كل هذا التقريظ الذي هو دون ما يستحقه هذا السفر الجليل فأنه لا يخلو من بعض أغلاط طبع أو لغة أو تعبير من ذلك ما جاء في ص  <num type="auto-markup" change="#d2e258 #d2e282" value="89" xml:lang="ar" xml:id="num_1.d2e2626">٨٩</num>  قوله: الأرنب وطير الشرشور ولو قال الأرنب والشرشور لكان احسن لأنك لا تقول مثلاً: (العقاب وحيوان الحمار). بل والحمار أو والحيوان الحمار أو والحمار الحيوان. وكذلك يقال والشرشور أو الطير الشرشور أو الشرشور الطير. وقال في حاشية تلك الصفحة (طائر يسمى الرقش والأصح البرقش وقال: في تلك الصفحة يجتمعان في الدجى والفجر، ذلك في العش وذا في الجحر) والحال أن (ذلك) ترجع إلى الأرنب. و (ذا) ترجع إلى الشرشور كما هو مقرر في كتب القوم. من رجوع أسماء الإشارة إلى مدلولاتها
 <pb n="n2-p418" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P906.xhtml" change="#d2e282" xml:id="pb_50.d2e2629"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="418" facs="#facs_418" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="418" facs="#facs_418" edRef="#edition_1" xml:id="pb_100.d2e3125"/>
 
 
 البعيد للبعيد والقريب للقريب. فإذا سلمنا ذلك فكيف يكون العش للأرنب والجحر للشرشور وإنما الأمر بالعكس. وقال أيضاً فيها:</p>
@@ -1059,7 +1059,7 @@
                </p>
                <p change="#d2e73 #d2e282" xml:id="p_220.d2e2674">كثير تصدوا لجمع بعض الكتب الأدبية واغلبهم كانوا كحاطبي ليل لأنهم جمعوا بين البعرة والدرة وأما حضرة يوسف أفندي البستاني فأنه جمع بذوق سليم أمثال الشرق والغرب فأصبح كتابه ديواناً يجد فيه المطالع حكمة سكان الخافقين ويمكنه أن يقابل فيه بين أمثال وأمثال. وقد بوب مواضعه أبواباً تسهل على الطالب الرجوع إلى ضالته بدون أدنى عناء. - وكنا نود أن تكون عبارته صحيحة لا شائبة فيها إلا أنه ورد مثلا في ص  <num type="auto-markup" change="#d2e258 #d2e282" value="93" xml:lang="ar" xml:id="num_1.d2e2676">٩٣</num> : لقد كنت مغبوطاً فأصبحت مرحوماً ولئن كنت مرتفعاً فقد أصبحت متضعاً. ولو قال: وأني وإن كنت مرتفعاً. . . لكان اصح وافصح وكثيراً ما استعمل لئن في غير موقعها. والظاهر انه لم يرد أن يقوم أود الكلام حرصا على اصله المنقول عنه. وقال ص  <num type="auto-markup" change="#d2e258 #d2e282" value="94" xml:lang="ar" xml:id="num_1.d2e2679">٩٤</num>  ولما فرغت الفلاسفة من الكلام قامت زوجة اسكندر (روكسندرة) ابنة الملك داريوس ملك العجم. والأصح أن تورد أسماء الشرقيين بموجب ما ينطقون بها لا بموجب ما يرويه الإفرنج ولفظة روكسندرة لا توافق رواية الشرقيين ولا رواية الغربيين. أما الشرقيين فيسمونها (روشنك) وأما الإفرنج فيعرفونها باسم (روكسان وأما داريوس فالأصح أن يقال فيه (دارا) كما هو مشهور لأن داريوس هي من رواية الإفرنج.
 <pb n="n2-p419" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P907.xhtml" change="#d2e282" xml:id="pb_51.d2e2682"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="419" facs="#facs_419" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="419" facs="#facs_419" edRef="#edition_1" xml:id="pb_102.d2e3187"/>
 
 
 وما هذه الأمور إلا طفيفة والكتاب جدير بالاقتناء لاحتوائه على مفاخر حكم الشرق والغرب.</p>
@@ -1094,7 +1094,7 @@
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_11.d2e2836" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_231.d2e2763">
                   <hi style="color:red;" change="#d2e282" xml:id="hi_84.d2e2765"> 
-                     <num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e2767">٧</num>  - </hi>مختصر الوقعة (أي وقعة <placeName>كربلاء</placeName>)</head>
+                     <num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e2767">٧</num>  - </hi>مختصر الوقعة (أي وقعة <placeName change="#d2e417" xml:id="placeName_65.d2e3292">كربلاء</placeName>)</head>
                <p change="#d2e73 #d2e282" xml:id="p_232.d2e2772">طبع في مطبعة الحبل المتين في <placeName change="#d2e282" xml:id="placeName_48.d2e2774">النجف</placeName> 
                   <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1330" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1911-12-22" notAfter="1912-12-09" xml:id="date_4.d2e2777">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1330" xml:lang="ar" xml:id="num_1.d2e2779">١٣٣٠</num>
                   </date>  في  <num type="auto-markup" change="#d2e258 #d2e282" value="32" xml:lang="ar" xml:id="num_1.d2e2782">٣٢</num>  صفحة</p>
@@ -1107,7 +1107,7 @@
                <p change="#d2e344" xml:id="p_225.d2e2873">وقد صادف طبعه في غرة شهر الربيع الثاني <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1320" type="auto-markup" change="#d2e266 #d3e274 #d2e282" notBefore="1902-04-10" notAfter="1903-03-29" xml:id="date_4.d2e2801">سنة <num type="auto-markup" change="#d2e258 #d2e282" value="1320" xml:lang="ar" xml:id="num_1.d2e2803">١٣٢٠</num>
                   </date> . طبعت في مطبعة الحبل المتين في <placeName change="#d2e282" xml:id="placeName_49.d2e2806">النجف</placeName> الأشرف في  <num type="auto-markup" change="#d2e258 #d2e282" value="36" xml:lang="ar" xml:id="num_1.d2e2809">٣٦</num>  صفحة.</p>
                <pb n="n2-p420" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P908.xhtml" change="#d2e282" xml:id="pb_52.d2e2812"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="420" facs="#facs_420" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="420" facs="#facs_420" edRef="#edition_1" xml:id="pb_104.d2e3343"/>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_11.d2e2889" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_235.d2e2799">
@@ -1132,7 +1132,7 @@
             </div>
          </div>
          <div change="#d2e64 #d2e282" type="section" xml:id="div_13.d2e2875">
-            <head change="#d2e282" xml:id="head_13.d2e2877">تاريخ وقائع الشهر في <placeName>العراق</placeName> وما جاوره</head>
+            <head change="#d2e282" xml:id="head_13.d2e2877">تاريخ وقائع الشهر في <placeName change="#d2e417" xml:id="placeName_70.d2e3421">العراق</placeName> وما جاوره</head>
             <div type="item" subtype="article" change="#d2e293 #d2e344" xml:id="div_12.d2e2956">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_243.d2e2880">
                   <hi style="color:red;" change="#d2e282" xml:id="hi_88.d2e2882"> 
@@ -1152,7 +1152,7 @@
                <p change="#d2e73 #d2e282" xml:id="p_252.d2e2971">كان ثمن حقة المعلاق قبل  <num type="auto-markup" change="#d2e258 #d2e282" value="15" xml:lang="ar" xml:id="num_1.d2e2973">١٥</num>  سنة    بارة وأما اليوم فثمنها  <num type="auto-markup" change="#d2e258 #d2e282" value="3" xml:lang="ar" xml:id="num_1.d2e2979">٣</num>  غروش</p>
                <p change="#d2e73 #d2e282" xml:id="p_253.d2e2984">كان ثمن حقة سمك البز قبل  <num type="auto-markup" change="#d2e258 #d2e282" value="15" xml:lang="ar" xml:id="num_1.d2e2986">١٥</num>  سنة    غروش وأما اليوم فثمنها  <num type="auto-markup" change="#d2e258 #d2e282" value="18" xml:lang="ar" xml:id="num_1.d2e2992">١٨</num>  غرشاً
 <pb n="n2-p421" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P909.xhtml" change="#d2e282" xml:id="pb_53.d2e2995"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="421" facs="#facs_421" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="421" facs="#facs_421" edRef="#edition_1" xml:id="pb_106.d2e3519"/>
 
 
 كان ثمن حقة السمك مهما كان  <num type="auto-markup" change="#d2e258 #d2e282" value="2" xml:lang="ar" xml:id="num_1.d2e2997">٢</num>  غرشين وأما اليوم فثمنها  <num type="auto-markup" change="#d2e258 #d2e282" value="10" xml:lang="ar" xml:id="num_1.d2e3001">١٠</num>  غروش</p>
@@ -1178,7 +1178,7 @@
                      <num type="auto-markup" change="#d2e258 #d2e282" value="3" xml:lang="ar" xml:id="num_1.d2e3064">٣</num>  - </hi>الأشقياء في قرفة وأبي غريب</head>
                <p change="#d2e73 #d2e282" xml:id="p_264.d2e3069">في جوار قرفة وأبي غريب (في حدود ولاية <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_53.d2e3071">بغداد</placeName> من جهة <placeName change="#d2e282" xml:id="placeName_54.d2e3074">الموصل</placeName>) أشقياء أصلهم من أكراد الزنكنة (المعروفين عند العرب في سابق العهد ببني ساسان) (والدلو والطلبانية وقد شردوا من وجه الحكومة العثمانية التي تتاثرهم لجرائم اقترفوها أو لافتراءات خافوا سوء عاقبتها فأقاموا بين العشائر الإيرانية القريبة من التخوم العثمانية واتخذوا لأنفسهم الشقاوة صنعة ومورد رزق فكلما وجدوا فرصة دخلوا الحدود العثمانية من قضاءي خانقين
 <pb n="n2-p422" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P910.xhtml" change="#d2e282" xml:id="pb_54.d2e3077"/>
-                  <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="422" facs="#facs_422" edRef="#edition_1"/>
+                  <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="422" facs="#facs_422" edRef="#edition_1" xml:id="pb_108.d2e3609"/>
 
 
 وخراسان فقره تبه فأبي غريب حيث يصادفون القوافل القادمة من <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_55.d2e3079">بغداد</placeName> أو الذاهبة إليها فيقتلون بعض رجالها ويسلبون أموالها ويرجعون بغنائمهم إلى من حيث أتوا بدون أن تجد فرسان لدرك الوقت اللازم لتعقبهم وتنكل بهم. - ويبلغ عدد هؤلاء الأشقياء ثلاثين أو أربعين فارساً متمرناً على الرماية والفروسية ولهذا يحتاج القبض عليهم إلى قوة من جند الدرك أو النظامية تعادلهم أو تزيدهم عدداً وعدداً كما انه ينبغي أن تخصص هذه القوة بتأثرهم الأشرار بدون أن تشغل بعمل آخر غير أن مدير ناحية قراتبة واسمه عبد العزيز آغا وهو من عشيرة الزنكنة في هذا القضاء اخذ من رجاله هذه المرة الأخيرة بضعة عشر رجلا وأضاف إليهم ما لديه من فرسان الدرك وتأثر هؤلاء الأشقياء الأشرار بنفسه فاسترد منهم أموال قافلة بتماهها وقتل فرسين لهم ولكنهم نجوا منه لتفوقهم عدداً وعادوا إلى من حيث آتو.</p>
@@ -1191,7 +1191,7 @@
                   <hi style="color:red;" change="#d2e282" xml:id="hi_91.d2e3101"> 
                      <num type="auto-markup" change="#d2e258 #d2e282" value="4" xml:lang="ar" xml:id="num_1.d2e3103">٤</num>  - </hi>تصرم حبال الأحزاب في <placeName change="#d2e282" xml:id="placeName_58.d2e3107">البصرة</placeName>
                </head>
-               <p change="#d2e73 #d2e282" xml:id="p_269.d2e3110">اتفق أشراف <placeName>البصرة</placeName> وزعماؤها وأعيانها على أن يتركوا الأحزاب السياسية على اختلاف أنواعها وأن لا ينتموا إلى حزب أو جماعة وتعاهدوا على أن يكونوا يداً واحدة عاملة في حفظ الوطن وسلامته</p>
+               <p change="#d2e73 #d2e282" xml:id="p_269.d2e3110">اتفق أشراف <placeName change="#d2e417" xml:id="placeName_78.d2e3647">البصرة</placeName> وزعماؤها وأعيانها على أن يتركوا الأحزاب السياسية على اختلاف أنواعها وأن لا ينتموا إلى حزب أو جماعة وتعاهدوا على أن يكونوا يداً واحدة عاملة في حفظ الوطن وسلامته</p>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3166" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_270.d2e3113">
@@ -1199,7 +1199,7 @@
                      <num type="auto-markup" change="#d2e258 #d2e282" value="5" xml:lang="ar" xml:id="num_1.d2e3117">٥</num>  - </hi>زيادة مياه الفراتين</head>
                <p change="#d2e344" xml:id="p_253.d2e3176">زادت مياه دجلة والفرات في هذا الشهر اثر الأمطار الغزيرة التي وقعت في شهر كانون الثاني. وقد زاد الفرات زيادة كافية ليجري منه الماء إلى الحسينية إلا أن هذا الماء غير وافٍ بالمقصود</p>
                <pb n="n2-p423" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P911.xhtml" change="#d2e282" xml:id="pb_55.d2e3125"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="423" facs="#facs_423" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="423" facs="#facs_423" edRef="#edition_1" xml:id="pb_110.d2e3669"/>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3181" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_271.d2e3123">
@@ -1213,7 +1213,7 @@
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_273.d2e3140">
                   <hi style="color:red;" change="#d2e282" xml:id="hi_94.d2e3142"> 
                      <num type="auto-markup" change="#d2e258 #d2e282" value="7" xml:lang="ar" xml:id="num_1.d2e3144">٧</num>  - </hi>قتل ناظم باشا والي <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_59.d2e3148">بغداد</placeName> السابق</head>
-               <p change="#d2e73 #d2e282" xml:id="p_274.d2e3152">ناظم باشا يعد من ولاة <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_60.d2e3154">بغداد</placeName> الكبار وقد أقرت الحكومة بفضله فقلدته أمراً ذا خطر في المملكة وهو منصب نظارة الحربية وقيادة الجيش العامة. وقد أنبانا البرق انه قتل في <placeName>الأستانة</placeName> في  <num type="auto-markup" change="#d2e258 #d2e282" value="24" xml:lang="ar" xml:id="num_1.d2e3157">٢٤</num>  من الشهر الماضي وقتل معه اثنان من حاشيته. ودفنوا جميعهم بأبهة عظيمة.</p>
+               <p change="#d2e73 #d2e282" xml:id="p_274.d2e3152">ناظم باشا يعد من ولاة <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_60.d2e3154">بغداد</placeName> الكبار وقد أقرت الحكومة بفضله فقلدته أمراً ذا خطر في المملكة وهو منصب نظارة الحربية وقيادة الجيش العامة. وقد أنبانا البرق انه قتل في <placeName change="#d2e417" xml:id="placeName_81.d2e3709">الأستانة</placeName> في  <num type="auto-markup" change="#d2e258 #d2e282" value="24" xml:lang="ar" xml:id="num_1.d2e3157">٢٤</num>  من الشهر الماضي وقتل معه اثنان من حاشيته. ودفنوا جميعهم بأبهة عظيمة.</p>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3219" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_275.d2e3161">
@@ -1225,7 +1225,7 @@
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_277.d2e3186">
                   <hi style="color:red;" change="#d2e282" xml:id="hi_96.d2e3188"> 
                      <num type="auto-markup" change="#d2e258 #d2e282" value="9" xml:lang="ar" xml:id="num_1.d2e3190">٩</num>  - </hi>دعاء الإسرائيليين لنصر الدولة</head>
-               <p change="#d2e73 #d2e282" xml:id="p_278.d2e3195">اجتمع الإسرائيليون صباح  <num type="auto-markup" change="#d2e258 #d2e282" value="11" xml:lang="ar" xml:id="num_1.d2e3197">١١</num>  شباط في اعظم كنيس لهم ليطلبوا إلى الله نصر <placeName>الدولة العثمانية</placeName> فشهد الحفلة أكابر الإسرائيليين وسراتهم وفقراؤهم من رجال ونساء من شبان وشابات من أطفال وشيوخ وممن حضر الأدعية والي الولاية ووكيل آمر الموقع ورؤساء الدواوين العسكرية والملكية وبعد الصلاة انتثر عقد المجتمعين بكل هدوء وسلام.</p>
+               <p change="#d2e73 #d2e282" xml:id="p_278.d2e3195">اجتمع الإسرائيليون صباح  <num type="auto-markup" change="#d2e258 #d2e282" value="11" xml:lang="ar" xml:id="num_1.d2e3197">١١</num>  شباط في اعظم كنيس لهم ليطلبوا إلى الله نصر <placeName change="#d2e417" xml:id="placeName_82.d2e3760">الدولة العثمانية</placeName> فشهد الحفلة أكابر الإسرائيليين وسراتهم وفقراؤهم من رجال ونساء من شبان وشابات من أطفال وشيوخ وممن حضر الأدعية والي الولاية ووكيل آمر الموقع ورؤساء الدواوين العسكرية والملكية وبعد الصلاة انتثر عقد المجتمعين بكل هدوء وسلام.</p>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3260" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_279.d2e3201">
@@ -1239,14 +1239,14 @@
                      <num type="auto-markup" change="#d2e258 #d2e282" value="11" xml:lang="ar" xml:id="num_1.d2e3220">١١</num>  - </hi>تخلية سبيل مشايخ عشيرة آل فتلة</head>
                <p change="#d2e344" xml:id="p_259.d2e3287">ظهر اليوم للعيان بأدلة ناصعة أن مشايخ آل فتلة أبرياء مما اتهموا به وحالما اتضح الأمر لأصحاب الحل والربط أطلقوا من سجنهم في  <num type="auto-markup" change="#d2e258 #d2e282" value="13" xml:lang="ar" xml:id="num_1.d2e3227">١٣</num>  شباط بإرادة سنية ونحن نهنئهم بهذا الفوز المبين ونطلب لهم إلى الله أن يحفظهم من كل ضرر ومن كيد الكائدين والمفسدين.</p>
                <pb n="n2-p424" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P912.xhtml" change="#d2e282" xml:id="pb_56.d2e3230"/>
-               <pb change="#d2e370 #d2e399 #d2e415" ed="print" n="424" facs="#facs_424" edRef="#edition_1"/>
+               <pb change="#d2e370 #d2e399 #d2e415 #d2e417" ed="print" n="424" facs="#facs_424" edRef="#edition_1" xml:id="pb_112.d2e3803"/>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3295" subtype="article">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_282.d2e3225">
                   <hi style="color:red;" change="#d2e282" xml:id="hi_99.d2e3232"> 
                      <num type="auto-markup" change="#d2e258 #d2e282" value="12" xml:lang="ar" xml:id="num_1.d2e3234">١٢</num>  - </hi>سفر المسيو بولس ب. يوينوي</head>
-               <p change="#d2e73 #d2e282" xml:id="p_283.d2e3240">في  <num type="auto-markup" change="#d2e258 #d2e282" value="15" xml:lang="ar" xml:id="num_1.d2e3242">١٥</num>  شباط غادر مدينتنا الزارع العالم الأديب المسيو بولس ب يوينوي وهو شاب فاضل عارف بالزراعة حق المعرفة وقد أتى ديار <placeName>العراق</placeName> وما والاها ليبحث عن النخل وغرسه والعناية به. وقد أتى باسم جمعية تهتم بغرس النخل في بستان معروف باسم بساتين الهند الغربية في التادنا (من ديار كاليفرنية) وقد اخذ من <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_61.d2e3245">بغداد</placeName>  
-                  <num type="auto-markup" change="#d2e258 #d2e282" value="1300" xml:lang="ar" xml:id="num_1.d2e3248">١٣٠٠</num>  تالة اغلبها من الزهدي (الازاذ) وهو يأخذ مثل هذا المقدار من <placeName change="#d2e282" xml:id="placeName_62.d2e3251">البصرة</placeName>. ويشتري أيضاً مقادير عظيمة من ديار <placeName change="#d2e282" xml:id="placeName_63.d2e3254">مصر</placeName> والجزائر مراكش وتونس. وقد غرس الأميركيون قبل  <num type="auto-markup" change="#d2e258 #d2e282" value="25" xml:lang="ar" xml:id="num_1.d2e3258">٢٥</num>  سنة شيئاً من نخل <placeName>العراق</placeName> فجاء على احسن ما يرجى ويؤمل. حتى أن حجم الجذوع زاد هناك عن حجمه هنا بكثير. وقد ألف الرجل المذكور مقالات في هذا الموضوع ونشرها في المجلات الأميركية. ولابد أننا نتعرض لذكرها. وقد علق في مذكرته أشياء كثيرة عن غرس هذا الصنف من الأشجار وله نية أن يدون كل تلك الفوائد في سفر ضخم. ويجمع أيضاً كل ما كتبه العرب في السابق. وقد أقام عندنا مقدار سبعة أسابيع مع أخيه. وكان أخوه قد سبقه</p>
+               <p change="#d2e73 #d2e282" xml:id="p_283.d2e3240">في  <num type="auto-markup" change="#d2e258 #d2e282" value="15" xml:lang="ar" xml:id="num_1.d2e3242">١٥</num>  شباط غادر مدينتنا الزارع العالم الأديب المسيو بولس ب يوينوي وهو شاب فاضل عارف بالزراعة حق المعرفة وقد أتى ديار <placeName change="#d2e417" xml:id="placeName_83.d2e3822">العراق</placeName> وما والاها ليبحث عن النخل وغرسه والعناية به. وقد أتى باسم جمعية تهتم بغرس النخل في بستان معروف باسم بساتين الهند الغربية في التادنا (من ديار كاليفرنية) وقد اخذ من <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_61.d2e3245">بغداد</placeName>  
+                  <num type="auto-markup" change="#d2e258 #d2e282" value="1300" xml:lang="ar" xml:id="num_1.d2e3248">١٣٠٠</num>  تالة اغلبها من الزهدي (الازاذ) وهو يأخذ مثل هذا المقدار من <placeName change="#d2e282" xml:id="placeName_62.d2e3251">البصرة</placeName>. ويشتري أيضاً مقادير عظيمة من ديار <placeName change="#d2e282" xml:id="placeName_63.d2e3254">مصر</placeName> والجزائر مراكش وتونس. وقد غرس الأميركيون قبل  <num type="auto-markup" change="#d2e258 #d2e282" value="25" xml:lang="ar" xml:id="num_1.d2e3258">٢٥</num>  سنة شيئاً من نخل <placeName change="#d2e417" xml:id="placeName_87.d2e3841">العراق</placeName> فجاء على احسن ما يرجى ويؤمل. حتى أن حجم الجذوع زاد هناك عن حجمه هنا بكثير. وقد ألف الرجل المذكور مقالات في هذا الموضوع ونشرها في المجلات الأميركية. ولابد أننا نتعرض لذكرها. وقد علق في مذكرته أشياء كثيرة عن غرس هذا الصنف من الأشجار وله نية أن يدون كل تلك الفوائد في سفر ضخم. ويجمع أيضاً كل ما كتبه العرب في السابق. وقد أقام عندنا مقدار سبعة أسابيع مع أخيه. وكان أخوه قد سبقه</p>
                <p change="#d2e73 #d2e282" xml:id="p_284.d2e3262">بأسبوعين إلى <placeName change="#d2e282" xml:id="placeName_64.d2e3264">البصرة</placeName>. أوصلهما الله إلى ديارهما بسلام!</p>
             </div>
             <div type="item" change="#d2e293 #d2e344 #d2e415" xml:id="div_12.d2e3333" subtype="article">
