@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns:tei="http://www.tei-c.org/ns/1.0"
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:mods="http://www.loc.gov/mods/v3"
-                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods ID="oclc_472450345-i_4-div_1.d2e307-mods">
@@ -16,7 +16,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -36,7 +39,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -47,14 +50,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>121</start>
+               <end>121</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_1.d2e307</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_1.d2e307</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -73,7 +80,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -93,7 +103,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -104,14 +114,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>121</start>
+               <end>129</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_2.d2e316</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_2.d2e316</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -125,64 +139,10 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">لغة العرب</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
-            <namePart type="family" xml:lang="ar">الكرملي</namePart>
-            <namePart type="given" xml:lang="ar">أنستاس</namePart>
-            <namePart type="given" xml:lang="ar">ماري</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <name type="personal" xml:lang="ar">
-            <namePart type="family" xml:lang="ar">الدجيلي</namePart>
-            <namePart type="given" xml:lang="ar">كاظم</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
-            <place>
-               <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
-            </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>1</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start/>
-               <end/>
-            </extent>
-         </part>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_3.d2e495</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods ID="oclc_472450345-i_4-div_4.d2e594-mods">
-      <titleInfo>
-         <title xml:lang="">فصل في دير القائم الأقصى</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
+      <name type="personal"
+            xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:3345">
          <namePart type="family" xml:lang="">الشماس فرنسيس اوغسطين جبران</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -193,7 +153,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -213,7 +176,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -224,14 +187,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>129</start>
+               <end>134</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_4.d2e594</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_3.d2e495</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -241,63 +208,6 @@
    <mods ID="oclc_472450345-i_4-div_5.d2e730-mods">
       <titleInfo>
          <title xml:lang="">ماذا يرى اليوم في سامراء</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">لغة العرب</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
-            <namePart type="family" xml:lang="ar">الكرملي</namePart>
-            <namePart type="given" xml:lang="ar">أنستاس</namePart>
-            <namePart type="given" xml:lang="ar">ماري</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <name type="personal" xml:lang="ar">
-            <namePart type="family" xml:lang="ar">الدجيلي</namePart>
-            <namePart type="given" xml:lang="ar">كاظم</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
-            <place>
-               <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
-            </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>1</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start/>
-               <end/>
-            </extent>
-         </part>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_5.d2e730</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods ID="oclc_472450345-i_4-div_6.d2e953-mods">
-      <titleInfo>
-         <title xml:lang="">(للبحث صلة)</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -317,7 +227,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -337,7 +250,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -348,14 +261,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>134</start>
+               <end>146</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_6.d2e953</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_5.d2e730</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -364,7 +281,7 @@
    </mods>
    <mods ID="oclc_472450345-i_4-div_7.d2e976-mods">
       <titleInfo>
-         <title xml:lang="">إفادة لمجلتي المشرق والعلم</title>
+         <title xml:lang="">إفادة لمجلتي المشرق و العلم</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -374,7 +291,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -394,7 +314,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -405,14 +325,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>147</start>
+               <end>148</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_7.d2e976</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_7.d2e976</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -431,7 +355,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -451,7 +378,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -462,14 +389,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>148</start>
+               <end>149</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_8.d2e1029</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_8.d2e1029</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -488,7 +419,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -508,7 +442,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -519,14 +453,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>149</start>
+               <end>152</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_9.d2e1069</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_9.d2e1069</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -545,7 +483,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -565,7 +506,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -576,14 +517,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>152</start>
+               <end>153</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_10.d2e1192</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_10.d2e1192</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -612,7 +557,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -632,7 +580,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -643,14 +591,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>153</start>
+               <end>155</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_11.d2e1209</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_11.d2e1209</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -679,7 +631,10 @@
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -699,7 +654,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -710,14 +665,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>156</start>
+               <end>156</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_12.d2e1390</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_12.d2e1390</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -731,12 +690,24 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:2089">
+         <namePart type="family" xml:lang="">عمانوئيل فتح الله عمانوئيل</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
@@ -756,7 +727,7 @@
             <place>
                <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -767,14 +738,18 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>156</start>
+               <end>160</end>
             </extent>
          </part>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-03-28" usage="primary display">https://github.com/OpenArabicPE/journal_lughat-al-arab/blob/master/xml/oclc_472450345.TEIP5.xml#div_13.d2e1409</url>
+         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_13.d2e1409</url>
       </location>
       <language>
          <languageTerm type="code"
