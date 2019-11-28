@@ -2,7 +2,7 @@
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
-   <mods ID="oclc_472450345-i_3-div_7.d2e854-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">سفرة إلى كربلاء والحلة ونواحيها</title>
       </titleInfo>
@@ -10,10 +10,10 @@
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
-            xml:lang="ar"
+            xml:lang=""
             authority="oape"
             valueURI="oape:pers:2089">
-         <namePart type="family" xml:lang="">عمانوئيل فتح الله عمانوئيل</namePart>
+         <namePart>عمانوئيل فتح الله عمانوئيل</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -21,6 +21,7 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
+            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
@@ -34,7 +35,10 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="oape"
+               valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -42,9 +46,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">بغداد</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1911-09-01</dateIssued>
             <issuance>continuing</issuance>
@@ -61,18 +67,21 @@
                <end>109</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_472450345-i_3-div_7.d2e854</identifier>
          <identifier type="jid">14</identifier>
          <identifier type="OCLC">472450345</identifier>
          <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
+         <identifier type="URI">oclc_472450345-i_3</identifier>
       </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-09-23" usage="primary display">https://OpenArabicPE.github.io/journal_lughat-al-arab/xml/oclc_472450345.TEIP5.xml#div_7.d2e854</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_3.TEIP5.xml#div_7.d2e854</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_3.TEIP5.xml#div_7.d2e854</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
       </language>
    </mods>
 </modsCollection>
