@@ -64,6 +64,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2020-04-15" who="#pers_TG" xml:lang="en">Validated and added mark-up of bibliographic information.</change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e417" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e412" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml"
@@ -709,13 +710,15 @@
                   >تلقينا بفرح هذا البيان ووقفنا على ما فيه وعلى تقدم هذا المعهد معهد العلم فوجدناه أنتقل من طور الصبوة إلى طور الكمال ونحن نتمنى له العروج في سلم الترقي الدائم. أن ربك على كل شيءٍ قدير.</p>
             </div>
             <div change="#d2e64 #d2e296 #d2e390" subtype="article" type="item" xml:id="div_12.d2e1527">
-               <head change="#d2e390" xml:id="head_13.d2e1529"><title change="#d5e377 #d2e390" level="j" ref="oape:bibl:11 oclc:792754974" xml:id="title_10.d2e1530">البيان</title></head>
-               <p change="#d2e73 #d2e296" xml:id="p_91.d2e1250"
-                  >مجلة تبحث في الأدب والتاريخ والفلسفة والأخلاق والتربية والاجتماع والنقد والروايات والصحة وتدبير المنزل وتعنى بنشر آثار الغرب وآثار العرب وتضرب بسهم في كل فن ومطلب، لصاحبها <persName
-                  change="#d2e390" xml:id="persName_7.d2e1535">عبد الرحمن البرقوقي</persName> ومنشئيها <persName change="#d2e390" xml:id="persName_8.d2e1538">عبد الرحمن البرقوقي</persName> و<persName
-                  change="#d2e390" xml:id="persName_9.d2e1541">محمد السباعي</persName>، وتظهر آخر كل شهر عربي في <num change="#d2e258 #d2e296" type="auto-markup" value="80" xml:id="num_1.d2e1252"
-                  xml:lang="ar">٨٠</num> صفحة وقيمة اشتراكها في السنة قرشا ومحل أدارتها بشارع عبد العزيز في <placeName change="#d2e296 #d5e401" ref="oape:place:226 geon:360630"
-                  xml:id="placeName_20.d2e1258">مصر</placeName>.</p>
+               <head change="#d2e390" xml:id="head_13.d2e1529"><bibl next="#bibl_2" xml:id="bibl_1"><title change="#d5e377 #d2e390" level="j" xml:id="title_10.d2e1530">البيان</title></bibl></head>
+               <p change="#d2e73 #d2e296" xml:id="p_91.d2e1250"><bibl ns:frequency="monthly" prev="#bibl_1" subtype="journal" type="periodical" xml:id="bibl_2"
+                  xmlns:ns="https://openarabicpe.github.io/ns"
+                  >مجلة تبحث في الأدب والتاريخ والفلسفة والأخلاق والتربية والاجتماع والنقد والروايات والصحة وتدبير المنزل وتعنى بنشر آثار الغرب وآثار العرب وتضرب بسهم في كل فن ومطلب، لصاحبها <editor
+                  type="owner"><persName change="#d2e390" xml:id="persName_7.d2e1535">عبد الرحمن البرقوقي</persName></editor> ومنشئيها <editor><persName change="#d2e390" xml:id="persName_8.d2e1538"
+                  >عبد الرحمن البرقوقي</persName></editor> و<editor><persName change="#d2e390" xml:id="persName_9.d2e1541">محمد السباعي</persName></editor>، وتظهر آخر كل شهر عربي في <biblScope
+                  from="1" to="80" unit="page"><num change="#d2e258 #d2e296" type="auto-markup" value="80" xml:id="num_1.d2e1252" xml:lang="ar"
+                  >٨٠</num> صفحة</biblScope> وقيمة اشتراكها في السنة قرشا ومحل أدارتها <pubPlace>بشارع عبد العزيز في <placeName change="#d2e296 #d5e401" ref="oape:place:226 geon:360630"
+                  xml:id="placeName_20.d2e1258">مصر</placeName></pubPlace>.</bibl></p>
                <p change="#d2e73 #d2e296" xml:id="p_92.d2e1262">وقد طالعناها فوقفنا على هذه العبارة في ص <num change="#d2e258 #d2e296" type="auto-markup" value="7" xml:id="num_1.d2e1264" xml:lang="ar"
                   >٧</num> إذ يقول الرصيف <persName change="#d2e390" xml:id="persName_10.d2e1556"
                   >عبد الحمن أفندي البرقوقي</persName>: (أشركت في أمري آخي وصديقي الكاتب الكبير محمد السباعي أمكن من علمت في آداب العرب والمغرب واخلب من سمعت بياناً. وأكثرهم في مناحي البيان افتنانا)</p>
@@ -740,7 +743,7 @@
                   >هذا من جهة الإنشاء والتعريب وأما من جهة المواضيع فإننا رأينا منقوشا على صدر المجلة مواد كثيرة مختلفة لم نجد في مثانيها إلا ما يحصر في ثلاثة فصول.</p>
                <p change="#d2e73 #d2e296" xml:id="p_99.d2e1307"
                   >ومن اغرب ما رأينا في هذه المجلة مقالة التطفيل. فأي فائدة يا ترى أن نتعلم كيف يكون وكيف يتطرق إليه. ذلك إذاً فصل من الفصول النوافل التي نحن الآن في غنى عنها. - وهناك غير ما انتقدناه من التعبير والتنسيق والتفصيل إلا أن هذا كله لا يحط شيئاً من رفيع مقام المجلة لأنه قد قيل:</p>
-               <byline change="#d2e219 #d2e296" xml:id="byline_5.d2e1310">كفى المرء نبلاً أن تعد معايبه</byline>
+               <p change="#d2e219 #d2e296" xml:id="byline_5.d2e1310">كفى المرء نبلاً أن تعد معايبه</p>
             </div>
             <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_14.d2e1314">
                <head change="#d2e296" xml:id="head_14.d2e1316">تحريم نقل الجنائز</head>
