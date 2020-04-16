@@ -3,7 +3,8 @@
 <?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI next="oclc_472450345-i_4.TEIP5.xml" prev="oclc_472450345-i_2.TEIP5.xml" xml:id="oclc_472450345-i_3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<TEI next="oclc_472450345-i_4.TEIP5.xml" prev="oclc_472450345-i_2.TEIP5.xml" xml:id="oclc_472450345-i_3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns"
+   xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader change="#d2e282" xml:id="teiHeader_1.d2e7">
       <fileDesc change="#d2e282" xml:id="fileDesc_1.d2e9">
          <titleStmt change="#d2e282" xml:id="titleStmt_1.d2e11">
@@ -656,9 +657,10 @@
             <head change="#d2e282" xml:id="head_9.d2e1002">باب المشارفة </head>
             <div subtype="article" type="item">
                <head><bibl next="#bibl_2" xml:id="bibl_1">مجلة <title change="#d5e368 #d2e381" level="j" ref="oape:bibl:33 oclc:1034551122" xml:id="title_14.d2e1360">الآثار</title></bibl></head>
-               <p change="#d2e73 #d2e282" xml:id="p_98.d2e1008"><bibl next="#bibl_3" prev="#bibl_1" subtype="journal" type="periodical" xml:id="bibl_2">مجلة عامة الأبحاث تصدر في <pubPlace><placeName
-                  change="#d2e381 #d5e392" ref="oape:place:166 geon:266045" xml:id="placeName_53.d2e1366">زحلة</placeName></pubPlace> في نصف كل شهر وهي اليوم شهرية موقتاً. وتطبع في <placeName
-                  change="#d2e282 #d5e392" ref="oape:place:61 geon:170654" xml:id="placeName_33.d2e1010">دمشق</placeName>. لمنشئها ومديرها المسؤول الكاتب الشهير صديقنا ورصيفنا <editor type="owner"
+               <p change="#d2e73 #d2e282" xml:id="p_98.d2e1008"><bibl next="#bibl_3" oape:frequency="monthly" prev="#bibl_1" subtype="journal" type="periodical" xml:id="bibl_2"
+                  >مجلة عامة الأبحاث تصدر في <pubPlace><placeName change="#d2e381 #d5e392" ref="oape:place:166 geon:266045" xml:id="placeName_53.d2e1366"
+                  >زحلة</placeName></pubPlace> في نصف كل شهر وهي اليوم شهرية موقتاً. وتطبع في <placeName change="#d2e282 #d5e392" ref="oape:place:61 geon:170654" xml:id="placeName_33.d2e1010"
+                  >دمشق</placeName>. لمنشئها ومديرها المسؤول الكاتب الشهير صديقنا ورصيفنا <editor type="owner"
                   ><persName>عيسى أفندي أسكندر المعلوف</persName></editor> اللبناني. بدل اشتراكها في البلاد العثمانية <num change="#d2e258 #d2e282" type="auto-markup" value="6" xml:id="num_1.d2e1013"
                   xml:lang="ar">٦</num> فرنكات ونصف. وفي الديار الخارجية <num change="#d2e258 #d2e282" type="auto-markup" value="10" xml:id="num_1.d2e1016" xml:lang="ar">١٠</num> فرنكات</bibl>.</p>
                <p change="#d2e73 #d2e282" xml:id="p_99.d2e1020"><bibl prev="#bibl_2" xml:id="bibl_3">برز <biblScope from="1" to="1" unit="issue">عددها الأول</biblScope> في <date
