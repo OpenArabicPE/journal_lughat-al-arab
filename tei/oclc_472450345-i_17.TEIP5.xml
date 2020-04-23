@@ -21,7 +21,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e296 #d2e440" xml:id="publicationStmt_1.d2e41" xml:lang="en">
-            <authority><tei:persName xml:id="pers_TG"><tei:forename>Till</tei:forename><tei:surname>Grallert</tei:surname></tei:persName></authority>
+            <authority><tei:persName><tei:forename>Till</tei:forename><tei:surname>Grallert</tei:surname></tei:persName></authority>
             <pubPlace><placeName>Beirut</placeName></pubPlace>
             <date when="2019">2019</date>
             <availability status="restricted">
@@ -43,10 +43,10 @@
                   <idno change="#d2e296" type="URI" xml:id="idno_5.d2e93">http://shamela.ws/index.php/book/36540</idno>
                   <textLang change="#d2e296" mainLang="ar" xml:id="textLang_1.d2e96"/>
                   <editor change="#d2e296" xml:id="editor_1.d2e98" xml:lang="ar"> <persName change="#d2e296" ref="oape:pers:227 viaf:39370998" xml:id="persName_3.d2e100" xml:lang="ar"> <roleName
-                     change="#d2e296" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar">الأب</roleName> <forename change="#d2e296" xml:id="forename_2.d2e105" xml:lang="ar">أنستاس</forename>
-                     <forename change="#d2e296" xml:id="forename_3.d2e108" xml:lang="ar">ماري</forename> <surname change="#d2e296" xml:id="surname_2.d2e111" xml:lang="ar"> <addName change="#d2e296"
-                     type="nisbah" xml:id="addName_1.d2e113" xml:lang="ar">الكرملي</addName> </surname> </persName> <persName change="#d2e296" xml:id="persName_4.d2e118" xml:lang="ar-Latn-x-ijmes"
-                     >al-Abb Anastās Mārī al-Karamlī</persName> </editor>
+                     change="#d2e296" subtype="religious" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar">الأب</roleName> <forename change="#d2e296" xml:id="forename_2.d2e105" xml:lang="ar"
+                     >أنستاس</forename> <forename change="#d2e296" xml:id="forename_3.d2e108" xml:lang="ar">ماري</forename> <surname change="#d2e296" xml:id="surname_2.d2e111" xml:lang="ar"> <addName
+                     change="#d2e296" type="nisbah" xml:id="addName_1.d2e113" xml:lang="ar">الكرملي</addName> </surname> </persName> <persName change="#d2e296" xml:id="persName_4.d2e118"
+                     xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName> </editor>
                   <editor change="#d2e296" xml:id="editor_2.d2e122" xml:lang="ar"> <persName change="#d2e230" ref="oape:pers:396" xml:id="persName_195.d1e5884" xml:lang="ar"> <forename
                      xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> <surname xml:id="surname_195.d1e5888" xml:lang="ar"> <addName change="#d2e296" type="nisbah" xml:id="addName_2.d2e131"
                      >الدجيلي</addName> </surname> </persName> </editor>
@@ -66,7 +66,7 @@
       </fileDesc>
       <revisionDesc>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e440" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
-         <change when="2019-10-28" who="#pers_TG" xml:id="d4e435" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
+         <change when="2019-10-28" who="#pers_TG" xml:id="d4e435" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e424" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml"
             >../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
          <change when="2019-09-23" who="#pers_TG" xml:id="d2e413" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en"
@@ -102,7 +102,7 @@
             xml:id="att_1.d2e200" xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change>
          <change when="2019-03-28" who="#pers_TG" xml:id="d2e282" xml:lang="en">Added references to local authority file (<ref change="#d2e296"
             target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e170">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi change="#d2e296"
-            xml:id="gi_1.d2e173">persName</gi>s without such references based on <gi change="#d2e296" xml:id="gi_1.d2e176">person</gi>s in the local authority file. If the source <gi change="#d2e296"
+            xml:id="gi_1.d2e172">persName</gi>s without such references based on <gi change="#d2e296" xml:id="gi_1.d2e176">person</gi>s in the local authority file. If the source <gi change="#d2e296"
             xml:id="gi_1.d2e179">persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
          <change when="2019-03-28" who="#pers_TG" xml:id="d3e274" xml:lang="en">Automatically added computed Gregorian dates to the <att change="#d2e296" xml:id="att_1.d2e184"
             >when</att> attributes of all non-Gregorian <gi change="#d2e296" xml:id="gi_1.d2e187">date</gi> elements.</change>
@@ -650,11 +650,11 @@
             <head change="#d2e296" xml:id="head_6.d2e1213">الفصاحة وكتاب العراق</head>
             <p change="#d2e73 #d2e296" xml:id="p_90.d2e1216">كتب لي أن اطلع على <bibl subtype="newspaper" type="periodical" xml:id="bibl_1"><biblScope from="297" to="297" unit="issue">العدد <num
                change="#d2e258 #d2e296" type="auto-markup" value="297" xml:id="num_1.d2e1218" xml:lang="ar">٢٩٧</num></biblScope> من جريدة <title change="#d2e296 #d5e389" level="j"
-               ref="oape:bibl:3 oclc:1034545644" xml:id="title_9.d2e1221">الزهور</title> ال<pubPlace><placeName>بغداد</placeName></pubPlace>ية، المنتشر عددها هذا في <date calendar="#cal_islamic"><num
-               change="#d2e258 #d2e296" type="auto-markup" value="23" xml:id="num_1.d2e1224" xml:lang="ar">٢٣</num> رمضان سنة <num change="#d2e258 #d2e296" type="auto-markup" value="1330"
-               xml:id="num_1.d2e1229" xml:lang="ar">١٣٣٠</num> </date></bibl> فرأَيت في صدره مقالةً لفتى عراقي، كتبها في موضوع (الفصاحة وكتاب <placeName change="#d2e413 #d5e424"
-               ref="oape:place:209 geon:99237" xml:id="placeName_26.d2e1555">العراق</placeName>) وأنه لمبحث جم الفائدة طرق بابه جمع من أدبائنا، في بلاد <placeName change="#d2e296 #d5e424"
-               ref="oape:place:226 geon:360630" xml:id="placeName_14.d2e1232">مصر</placeName> و<placeName change="#d2e296 #d5e424" ref="oape:place:61 geon:170654" xml:id="placeName_15.d2e1236"
+               ref="oape:bibl:3 oclc:1034545644" xml:id="title_9.d2e1221">الزهور</title> البغدادية، المنتشر عددها هذا في <date calendar="#cal_islamic"><num change="#d2e258 #d2e296" type="auto-markup"
+               value="23" xml:id="num_1.d2e1224" xml:lang="ar">٢٣</num> رمضان سنة <num change="#d2e258 #d2e296" type="auto-markup" value="1330" xml:id="num_1.d2e1229" xml:lang="ar">١٣٣٠</num>
+               </date></bibl> فرأَيت في صدره مقالةً لفتى عراقي، كتبها في موضوع (الفصاحة وكتاب <placeName change="#d2e413 #d5e424" ref="oape:place:209 geon:99237" xml:id="placeName_26.d2e1555"
+               >العراق</placeName>) وأنه لمبحث جم الفائدة طرق بابه جمع من أدبائنا، في بلاد <placeName change="#d2e296 #d5e424" ref="oape:place:226 geon:360630" xml:id="placeName_14.d2e1232"
+               >مصر</placeName> و<placeName change="#d2e296 #d5e424" ref="oape:place:61 geon:170654" xml:id="placeName_15.d2e1236"
                >الشام</placeName> وهاهو قد تطاولت إليه أعناق العراقيين فعسى أن تعيه آذان حملة الأقلام منهم، فيتورّعوا في <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P689.xhtml"
                ed="shamela" n="n2-p193" xml:id="pb_25.d2e1239"/> <pb change="#d2e356 #d2e384 #d2e411 #d2e413" ed="print" edRef="#edition_1" facs="#facs_193" n="193" xml:id="pb_50.d2e1567"
                /> الكتابة، ويتقوا أن يسقطوا فيها، كما سقطوا من قبل. وقد رأيت أنا هذا العاجز أن أخوض عباب البحث، إجابة لكاتب المقالة، وفضلت أن تكون مقالته نفسها محط النظر، لما رأَيت من رغبته في تصحيح سقطات الكاتبين وقد كان يسرني أن يسبق إلى الكتابة في ذلك، كاتب من افصح كتاب <placeName
