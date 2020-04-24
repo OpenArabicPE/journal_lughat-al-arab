@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
 <TEI next="oclc_472450345-i_13.TEIP5.xml" prev="oclc_472450345-i_11.TEIP5.xml" xml:id="oclc_472450345-i_12" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader change="#d2e296" xml:id="teiHeader_1.d2e7">
       <fileDesc change="#d2e296" xml:id="fileDesc_1.d2e9">
@@ -64,6 +60,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e408" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e403" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e392" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml"
@@ -393,8 +390,9 @@
                >اشتقاقه من قول العامة: (جلجل عليه) بفتح الجيمين المثلثتين وسكون اللامين وجلجل أي كل كل كل. وكله بمعنى كلله أي ألبسه الإكليل قال صاحب القاموس: وكلل فلاناً البسه الإكليل. وقال شارحه وكذلك كله. اه. أو هي بمعنى كلله بالحجارة أي علاه بها (كما استدرك عليه الشارح) إلا أن كل تتعدى بنفسها والعامة تعدى جلجل بعلي وهي عندهم بمعنى صار عليه كالإكليل أو علاه الإكليل على ما ذكرنا من اختلاف المأخذ. وكله معناها ألبسه الإكليل أو علاه والفرق بين علا عليه وعلاه يعرفه من مارس اللهجة أو نقول انه مشتق من قولهم (جل عليه) بمعنى جلجل عليه والفرق بينهما كما يشهد له استعمال العامة أن الأولى تفيد المبالغة لأنها مأخوذة من المؤكد دون الثانية والأولى اقرب إلى (الجليلو) معنى والثانية لفظاً لان الجليلو فيه جيم مثلثة واحدة وكذا (جل) والذي أظنه انه مشتق من الأولى ومثل هذا الحذف أعنى حذف الجيم من الجليلو الموجودة في المشتق منه سهل عند العامة وذلك لوجود معنى الكثرة في الجليلو وان ألغيت في الاستعمال وأطلق على الواحد. وشاهدي أن التسمية قارنت رؤيته بتلك الحالة وإلا لما صح نحته من هذه اللفظة لان تلك الحالة بها كانت المناسبة بين المعنيين. هذا هو الذي أظنه في <pb
                change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P466.xhtml" ed="shamela" n="n1-p466" xml:id="pb_10.d2e558"/> <pb change="#d2e340 #d2e363 #d2e379 #d2e381" ed="print"
                edRef="#edition_1" facs="#facs_466" n="466" xml:id="pb_20.d2e749"/> اشتقاق هذه الكلمة وإذا</p>
-            <p change="#d2e73 #d2e296" xml:id="p_25.d2e561">أنصفت الصواب ولم أجازف في القول القي معرفة اصلها على عاتق من يعرفه بل هو سؤال القيه أمام قراء مجلة <title change="#d2e296 #d5e368" level="j"
-               ref="oape:bibl:1 oclc:472450345" xml:id="title_9.d2e563">لغة العرب</title> الغراء وأستميحهم نشر ما تسمح به قرائحهم.</p>
+            <p change="#d2e73 #d2e296" xml:id="p_25.d2e561">أنصفت الصواب ولم أجازف في القول القي معرفة اصلها على عاتق من يعرفه بل هو سؤال القيه أمام قراء <bibl change="#d2e439" subtype="journal"
+               type="periodical">مجلة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_9.d2e563"
+               >لغة العرب</title></bibl> الغراء وأستميحهم نشر ما تسمح به قرائحهم.</p>
             <p change="#d2e73 #d2e296" xml:id="p_26.d2e568">كيف تقوله العامة</p>
             <p change="#d2e73 #d2e296" xml:id="p_27.d2e571"
                >عرس، العين مشتركة الحركة بين الفتح والكسر. والراء والسين ساكنتان وعند أضافتها إلى ما بعدها تحرك بحركة مشتركة. الجليلو الجيم أيضاً مشتركة الحركة واللام الأولى مكسورة واللام الثانية مضمومة.</p>
@@ -649,12 +647,13 @@
                <pb change="#d2e340 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_488" n="488" xml:id="pb_64.d2e1426"/>
                <p change="#d2e381" xml:id="p_105.d2e1428"
                   >(تأليف الإمام العالم العلامة بحر العلوم النقلية والعقلية الرحالة عثمان بن عبد الله بن بشر رحمه الله تعالى. - عنى بتصحيحه محمد بن عبد العزيز بن مانع النجدي و<persName
-                  change="#d2e381" xml:id="persName_10.d2e1430"><addName change="#d2e381" type="nickname" xml:id="addName_4.d2e1431">مدير جريدة <title change="#d2e296 #d5e368" level="j"
-                  ref="oape:bibl:41" xml:id="title_10.d2e1175">الرياض</title></addName></persName> <persName change="#d2e230 #d2e296" ref="oape:pers:1845 viaf:21058435" xml:id="persName_10.d2e1178">
-                  <forename change="#d2e296" xml:id="forename_9.d2e1179">سليمان</forename> <surname change="#d2e296" xml:id="surname_7.d2e1182">الدخيل</surname>
-                  </persName>. الجزء الأول - الطبعة الأولى. طبع في مطبعة الشابندر في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1185">بغداد</placeName>
-                  <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1911-01-01" notBefore="1910-01-13" type="auto-markup" when-custom="1328"
-                  xml:id="date_3.d2e1189">سنة <num change="#d2e258 #d2e296" type="auto-markup" value="1328" xml:id="num_1.d2e1191" xml:lang="ar">١٣٢٨</num> </date> )</p>
+                  change="#d2e381" xml:id="persName_10.d2e1430"><addName change="#d2e381" type="nickname" xml:id="addName_4.d2e1431">مدير <bibl change="#d2e439" subtype="newspaper" type="periodical"
+                  >جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:41" xml:id="title_10.d2e1175">الرياض</title></bibl></addName></persName> <persName change="#d2e230 #d2e296"
+                  ref="oape:pers:1845 viaf:21058435" xml:id="persName_10.d2e1178"> <forename change="#d2e296" xml:id="forename_9.d2e1179">سليمان</forename> <surname change="#d2e296"
+                  xml:id="surname_7.d2e1182">الدخيل</surname> </persName>. الجزء الأول - الطبعة الأولى. طبع في مطبعة الشابندر في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182"
+                  xml:id="placeName_13.d2e1185">بغداد</placeName> <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e296" datingMethod="#cal_islamic" notAfter="1911-01-01"
+                  notBefore="1910-01-13" type="auto-markup" when-custom="1328" xml:id="date_3.d2e1189">سنة <num change="#d2e258 #d2e296" type="auto-markup" value="1328" xml:id="num_1.d2e1191"
+                  xml:lang="ar">١٣٢٨</num> </date> )</p>
                <p change="#d2e73 #d2e296" xml:id="p_108.d2e1195"
                   >نجد من البلاد العربية التي لا نعرف عنها إلا الشيء النزر. وهل من أمرٍ أشهر من مذهب الوهابيين، ومع ذلك فانك لا تجسد أناساً يعرفون أتم المعرفة ما يتعلق بأصل صاحب هذا المذهب ومنشأه والبلاد التي اختلف إليها. ولهذا كل كتاب أو رسالة أو مقالة تكتب في هذا المعنى تحل في القوم احسن محل لقلة ما اتصل إلينا منها ولا سيما إذا كان الكاتب ممن له اطلاع على تلك الأرجاء العربية البحتة.</p>
                <p change="#d2e73 #d2e296" xml:id="p_109.d2e1198"
@@ -671,8 +670,8 @@
             <div change="#d2e307 #d2e315" subtype="article" type="item" xml:id="div_7.d2e1234">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_111.d2e1212"> <hi change="#d2e296" style="color:red;" xml:id="hi_12.d2e1214"> <num change="#d2e258 #d2e296" type="auto-markup" value="1"
                   xml:id="num_1.d2e1216" xml:lang="ar">١</num> - </hi>أمراء العرب</head>
-               <p change="#d2e73 #d2e296" xml:id="p_112.d2e1221">نمى إلى جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:41" xml:id="title_11.d2e1223"
-                  >الرياض</title> تفصيل المعركة التي جرت بين ابن الرشيد وبين عشيرة المنتفق التي آبت إلا ركوب مطايا العصيان والضلال وذلك على الصورة الآتية:</p>
+               <p change="#d2e73 #d2e296" xml:id="p_112.d2e1221">نمى إلى <bibl change="#d2e439" subtype="newspaper" type="periodical">جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:41"
+                  xml:id="title_11.d2e1223">الرياض</title></bibl> تفصيل المعركة التي جرت بين ابن الرشيد وبين عشيرة المنتفق التي آبت إلا ركوب مطايا العصيان والضلال وذلك على الصورة الآتية:</p>
                <p change="#d2e73 #d2e296" xml:id="p_113.d2e1227"
                   >ذهب ابن الرشيد إلى الخميسية للامتيار (وبلسان أهل البادية للمسابلة وبغبارة أخرى لمشتري ما يحتاج إليه من طعام وذخيرة ولباس للسنة كلها) فعارضته العشائر المعادية واجتمعت عليه من باب مدينة <placeName
                   change="#d2e296 #d5e392" ref="oape:place:215 geon:98862" xml:id="placeName_14.d2e1229">النجف</placeName> (المعروفة أيضاً باسم المشهد أو مشهد علي) إلى باب مدينة <placeName
@@ -702,8 +701,9 @@
                   >البصرة</placeName> عن المبعوثين الآتية أسماؤهم وهم: <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P491.xhtml" ed="shamela" n="n1-p491" xml:id="pb_35.d2e1284"/> <pb
                   change="#d2e340 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_491" n="491" xml:id="pb_70.d2e1570"
                   /> حضرة <persName>السيد طالب بك النقيب</persName> وقد أعيد انتخابه للمرة الثانية، و<persName>عبد الله بك الزهير</persName> <persName change="#d2e296 #d3e326" ref="oape:pers:2937"
-                  xml:id="persName_11.d2e1286"> <addName change="#d2e296" type="nickname" xml:id="addName_4.d2e1287">صاحب جريدة <title change="#d2e296" level="j" xml:id="title_12.d2e1289"
-                  >الدستور</title> </addName> </persName>، وحضرة <persName>عبد الوهاب باشا القرطاس</persName>، و<persName>احمد أفندي</persName> رئيس محكمة الجزاء.</p>
+                  xml:id="persName_11.d2e1286"> <addName change="#d2e296" type="nickname" xml:id="addName_4.d2e1287">صاحب <bibl change="#d2e439" subtype="newspaper" type="periodical">جريدة <title
+                  change="#d2e296" level="j" xml:id="title_12.d2e1289">الدستور</title></bibl> </addName>
+                  </persName>، وحضرة <persName>عبد الوهاب باشا القرطاس</persName>، و<persName>احمد أفندي</persName> رئيس محكمة الجزاء.</p>
                <p change="#d2e73 #d2e296" xml:id="p_122.d2e1293">وانتخب <persName>فؤاد أفندي الدفتري البغدادي</persName> و<bibl><editor><persName>نوري أفندي</persName></editor> راس كتاب <textLang
                   otherLangs="ota">القسم التركي</textLang> في جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:3 oclc:1034545644" xml:id="title_13.d2e1295"
                   >الزهور</title></bibl> البغدادية نائبين عن <placeName change="#d2e381 #d5e392" ref="oape:place:372 geon:94824" xml:id="placeName_21.d2e1587">كربلاء</placeName>.</p>

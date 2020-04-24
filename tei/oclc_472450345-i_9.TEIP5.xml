@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
 <TEI next="oclc_472450345-i_10.TEIP5.xml" prev="oclc_472450345-i_8.TEIP5.xml" xml:id="oclc_472450345-i_9" xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns"
    xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader change="#d2e282" xml:id="teiHeader_1.d2e7">
@@ -65,6 +61,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2020-04-15" who="#pers_TG" xml:lang="en">Validated and added mark-up on the basis of the facsimiles</change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e434" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e429" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -887,9 +884,9 @@
                <p change="#d2e73 #d2e282" xml:id="p_134.d2e1756">قدم دار السلام في هذا الشهر احمد بك أحد أبناء السعود من أمراء نجد، وقد حل ضيفا في دار <persName change="#d2e325 #d3e336"
                   ref="oape:pers:1845 viaf:21058435" xml:id="persName_20.d2e1831"> <forename change="#d2e407" xml:id="forename_16.d2e2210">سليمان</forename> <roleName change="#d2e407" type="title"
                   xml:id="roleName_8.d2e2213">أفندي</roleName> <surname change="#d2e407" xml:id="surname_14.d2e2216">الدخيل</surname> </persName> <persName change="#d2e407"
-                  xml:id="persName_21.d2e2220">صاحب جريدة <title change="#d2e282 #d5e383" level="j" ref="oape:bibl:41" xml:id="title_9.d2e1758"
-                  >الرياض</title></persName>. والغاية من قدومه بحقوق النيابة <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P367.xhtml" ed="shamela" n="n1-p367" xml:id="pb_39.d2e1761"/> <pb
-                  change="#d2e350 #d2e378 #d2e405 #d2e407" ed="print" edRef="#edition_1" facs="#facs_367" n="367" xml:id="pb_78.d2e2227"/> لديار نجد.</p>
+                  xml:id="persName_21.d2e2220">صاحب <bibl change="#d2e469" subtype="newspaper" type="periodical">جريدة <title change="#d2e282 #d5e383" level="j" ref="oape:bibl:41"
+                  xml:id="title_9.d2e1758">الرياض</title></bibl></persName>. والغاية من قدومه بحقوق النيابة <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P367.xhtml" ed="shamela" n="n1-p367"
+                  xml:id="pb_39.d2e1761"/> <pb change="#d2e350 #d2e378 #d2e405 #d2e407" ed="print" edRef="#edition_1" facs="#facs_367" n="367" xml:id="pb_78.d2e2227"/> لديار نجد.</p>
             </div>
             <div change="#d2e64 #d2e282" subtype="article" type="item" xml:id="div_13.d2e1765">
                <head change="#d2e282" xml:id="head_13.d2e1767">الأمراض في البلدة</head>
