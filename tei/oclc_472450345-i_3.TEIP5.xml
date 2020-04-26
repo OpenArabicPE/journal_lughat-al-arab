@@ -61,6 +61,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e438" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e408" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e403" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -686,7 +689,7 @@
                change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_112" n="112" xml:id="pb_64.d2e1430"/> في قلعة المدفعية ثم أنفاده إلى <placeName
                change="#d2e282 #d5e392" ref="oape:place:15 geon:170063" xml:id="placeName_35.d2e1063"
                >حلب</placeName> الشهباء. أما سبب هذا الانقلاب فطويل الشؤون، كثير الشجون، نورد مضامينه ملخصيه عن عدة أعداد صحف <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182"
-               xml:id="placeName_36.d2e1066">بغداد</placeName> ولا سيما عن <bibl subtype="newspaper" type="periodical">جريدة <title change="#d2e282 #d5e368" level="j" ref="oape:bibl:3 oclc:1034545644"
+               xml:id="placeName_36.d2e1066">بغداد</placeName> ولا سيما عن <bibl subtype="newspaper" type="periodical">جريدة <title change="#d2e282 #d5e368 #d3e438" level="j" ref="oape:bibl:532"
                xml:id="title_12.d2e1069">الزهور</title></bibl> الغراء، فنقول:</p>
             <p change="#d2e73 #d2e282" xml:id="p_105.d2e1073">إن أعراب <placeName change="#d2e381 #d5e392" ref="oape:place:209 geon:99237" xml:id="placeName_60.d2e1445"
                >العراق</placeName> من اشد الناس دهاء وذكاء وهي تميل من ذاتها إلى الفتك والغزو والحرب وان لم تحتج إلى ما يقوم بها عيشها. وإنما تفعل هذه الأفعال ظناً منها أنها من علامات البسالة والشجاعة والأقدام على الأمور الجسام. على أنها تسكن وتستكين إذا رأت من الحكومة ما تكبح به جماحها. والعكس بالعكس.</p>

@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e468" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e438" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e433" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -1297,8 +1300,8 @@
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_198.d2e2711"> <hi change="#d2e296" style="color:red;" xml:id="hi_44.d2e2713"> <num change="#d2e258 #d2e296" type="auto-markup" value="2"
                   xml:id="num_1.d2e2715" xml:lang="ar">٢</num> - </hi>طغيان الماء في لواء <placeName change="#d2e411 #d5e422" ref="oape:place:372 geon:94824" xml:id="placeName_116.d2e3278"
                   >كربلاء</placeName> </head>
-               <p change="#d2e73 #d2e296" xml:id="p_199.d2e2720">كتب إلى <bibl subtype="newspaper" type="periodical" xml:id="bibl_1"><title change="#d2e339 #d5e398" level="j"
-                  ref="oape:bibl:3 oclc:1034545644" xml:id="title_15.d2e2810"
+               <p change="#d2e73 #d2e296" xml:id="p_199.d2e2720">كتب إلى <bibl subtype="newspaper" type="periodical" xml:id="bibl_1"><title change="#d2e339 #d5e398 #d3e468" level="j"
+                  ref="oape:bibl:532" xml:id="title_15.d2e2810"
                   >الزهور</title></bibl> أن الماء طغى فأحاط بأطراف اللواء فأقام الأهلون سدة محكمة لحفظ البيوت من الغرق ويقدر الضرر الناتج من طغيان الماء بأكثر من <num change="#d2e258 #d2e296"
                   type="auto-markup" value="15" xml:id="num_1.d2e2722" xml:lang="ar">١٥</num> ألف ليرة (كذا) والعهدة على الكاتب.</p>
                <p change="#d2e73 #d2e296" xml:id="p_200.d2e2727">ابن الرشيد وابن سويط</p>
@@ -1421,7 +1424,7 @@
             <div change="#d2e307 #d2e339 #d2e409" subtype="article" type="item" xml:id="div_11.d2e3080">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_233.d2e2977"> <hi change="#d2e296" style="color:red;" xml:id="hi_59.d2e2979"> <num change="#d2e258 #d2e296" type="auto-markup" value="18"
                   xml:id="num_1.d2e2981" xml:lang="ar">١٨</num> - </hi>القنصل الإنكليزي في نجد</head>
-               <p change="#d2e73 #d2e296" xml:id="p_234.d2e2986">ذكرت <title change="#d2e339" level="j" xml:id="title_16.d2e3092"
+               <p change="#d2e73 #d2e296" xml:id="p_234.d2e2986">ذكرت <title change="#d2e339 #d3e468" level="j" ref="oape:bibl:150" xml:id="title_16.d2e3092"
                   >الدستور</title> ما ملخصه: وصل القنصل الإنكليزي بلدة (المجمعة) قاعدة (سدير) ولما أراد دخولها مانعه الأهلون. ولكنه بادر (على ما يقال) إلى إرسال هدايا إلى أميرها عبد الله العسكر ومن جملتها نظارة وساعة وبعد ذلك خرج إليه الأمير بنفسه وصحب القنصل وادخله البلدة بين لعنات الأهالي المتحشدة على طريقه. فطاف القنصل في شوارعها ثم علا (المرقب) وهو تل شامخ مطل عليها واخذ صورتها الشمسية ثم ذهب وزار الأمير عبد العزيز السعود في موضع اسمه (الخفس) وطلب منه ابتياع (<placeName
                   change="#d2e296" xml:id="placeName_105.d2e2988">عمان</placeName>) بالثمن الذي يريده. بيد أن الأمير لم يحفل بكلامه.</p>
             </div>
@@ -1435,7 +1438,7 @@
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_237.d2e3008"> <hi change="#d2e296" style="color:red;" xml:id="hi_61.d2e3010"> <num change="#d2e258 #d2e296" type="auto-markup" value="20"
                   xml:id="num_1.d2e3012" xml:lang="ar">٢٠</num> - </hi>هجوم الأعراب في ساحل بلبول</head>
                <p change="#d2e73 #d2e296" xml:id="p_238.d2e3017">أفرغت سفينة شراعية لأهالي البحرين أكياس أرز في ساحل بلبول فهجمت عليها عشائر البادية فنهبتها.</p>
-               <byline change="#d2e339" xml:id="byline_8.d2e3128">(عن <title change="#d2e339" level="j" xml:id="title_17.d2e3130">الدستور</title>)</byline>
+               <byline change="#d2e339" xml:id="byline_8.d2e3128">(عن <title change="#d2e339 #d3e468" level="j" ref="oape:bibl:150" xml:id="title_17.d2e3130">الدستور</title>)</byline>
             </div>
             <div change="#d2e307 #d2e339 #d2e409" subtype="article" type="item" xml:id="div_11.d2e3134">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_239.d2e3020"> <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1014.xhtml" ed="shamela" n="n2-p589" xml:id="pb_53.d2e3022"/> <pb
@@ -1464,12 +1467,12 @@
             <div change="#d2e307 #d2e339 #d2e409" subtype="article" type="item" xml:id="div_11.d2e3186">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_246.d2e3069"> <hi change="#d2e296" style="color:red;" xml:id="hi_65.d2e3071"> <num change="#d2e258 #d2e296" type="auto-markup" value="24"
                   xml:id="num_1.d2e3073" xml:lang="ar">٢٤</num> - </hi>أدب <bibl subtype="newspaper" type="periodical" xml:id="bibl_2"><editor type="editor"><persName change="#d2e339 #d3e350"
-                  ref="oape:pers:3717" xml:id="persName_17.d2e3195">صلاح الدين الكركوكي</persName></editor> المدير المسؤول لجريدة <title change="#d2e339 #d5e398" level="j"
-                  ref="oape:bibl:3 oclc:1034545644" xml:id="title_18.d2e3198">الزهور</title></bibl> </head>
+                  ref="oape:pers:3717" xml:id="persName_17.d2e3195">صلاح الدين الكركوكي</persName></editor> المدير المسؤول لجريدة <title change="#d2e339 #d5e398 #d3e468" level="j" ref="oape:bibl:532"
+                  xml:id="title_18.d2e3198">الزهور</title></bibl> </head>
                <p change="#d2e73 #d2e296" xml:id="p_248.d2e3082">جاء إدارة مجلتنا حضرة الفاضل الزول! والشاب المهذب! <persName change="#d2e339 #d3e350" ref="oape:pers:3716" xml:id="persName_18.d2e3203"
                   >صلاح الدين <roleName change="#d2e411" type="title" xml:id="roleName_4.d2e3754"
                   >أفندي</roleName> الكركوكي</persName> (أو الكركوكلي كما يسمى نفسه) وطلب إلينا أن نطلعه على مدرستنا. فسألنا مديرها فقال: راجعوا رئيس المبعث فراجعناه فقال: ليستأذن حضرته القنصل الفرنسي بذلك. ثم أعطيناه قوانين المدرسة ونظامها وخطتها. فكتب حضرته في أول عدد صدر من <title
-                  change="#d2e339 #d5e398" level="j" ref="oape:bibl:3 oclc:1034545644" xml:id="title_19.d2e3206">الزهور</title> بعد زيارته إيانا أي في العدد <num change="#d2e258 #d2e296"
+                  change="#d2e339 #d5e398" level="j" ref="oape:bibl:532" xml:id="title_19.d2e3206">الزهور</title> بعد زيارته إيانا أي في العدد <num change="#d2e258 #d2e296"
                   type="auto-markup" value="386" xml:id="num_1.d2e3084" xml:lang="ar"
                   >٣٨٦</num> هذا الأمر كما وقع ثم قال: (نه دبه جكمزي بيله ميورز. يالكز فرانسزارك بوقبا لقلرينه بيان تأسف أيدرز.) أي: (ماذا نقول؟ - لا ندري إلا أننا</p>
                <p change="#d2e73 #d2e296" xml:id="p_249.d2e3088">نتأسف على ما أظهره الفرنسويون من هذه الفظاظة (أو سوء الأدب) - قلنا: لو كان كل إنسان <pb change="#d2e296"

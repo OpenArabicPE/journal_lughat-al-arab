@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e481" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e456" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e451" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e439" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml"
@@ -1589,7 +1592,7 @@
                <p change="#d2e73 #d2e282" xml:id="p_238.d2e2813"
                   >وثبت أيضاً ثباتاً محققاً أن عجمي بك المذكور هجم على قصر هاشم بك آل النقيب وهو القصر الواقع في الشعيبة فأخذ جميع ما فيه من أثاث وفرش وأقام فيه  <num change="#d2e258 #d2e282"
                   type="auto-markup" value="25" xml:id="num_1.d2e2815" xml:lang="ar">٢٥</num>  رجلاً من أتباعه.</p>
-               <byline change="#d2e344" xml:id="byline_6.d2e2913">(عن <title change="#d2e344" level="j" xml:id="title_18.d2e2915">الدستور</title>)</byline>
+               <byline change="#d2e344" xml:id="byline_6.d2e2913">(عن <title change="#d2e344 #d3e481" level="j" ref="oape:bibl:150" xml:id="title_18.d2e2915">الدستور</title>)</byline>
             </div>
             <div change="#d2e293 #d2e344 #d2e426" subtype="article" type="item" xml:id="div_13.d2e2919">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_240.d2e2823"> <hi change="#d2e282" style="color:red;" xml:id="hi_47.d2e2825"> <num change="#d2e258 #d2e282" type="auto-markup" value="14"

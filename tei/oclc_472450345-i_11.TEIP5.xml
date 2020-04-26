@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e481" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e449" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e444" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -919,7 +922,7 @@
                   xml:id="num_1.d2e1258" xml:lang="ar">١</num> - </hi>ابن السعود والشيابين   </head>
                <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P454.xhtml" ed="shamela" n="n1-p454" xml:id="pb_46.d2e1262"/>
                <pb change="#d2e365 #d2e393 #d2e420 #d2e422" ed="print" edRef="#edition_1" facs="#facs_454" n="454" xml:id="pb_92.d2e1810"/>
-               <p change="#d2e422" xml:id="p_94.d2e1812">أخبرت <title change="#d2e422" level="j" xml:id="title_21.d2e1814"
+               <p change="#d2e422" xml:id="p_94.d2e1812">أخبرت <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:41" xml:id="title_21.d2e1814"
                   >الرياض</title> أن الأمير عبد العزيز باشا السعود غزا بجيشه الجرار القبائل العاصية من عتيبة وهم الشيابين فاخذ منهم غنائم كثيرة واحسن تأديبهم وقد أخلدت اليوم هذه الأعراب إلى السكون والراحة وعدلوا عن إثارة نيران الفتن وانتشر بين ظهرانيهم فكر الاتحاد العربي أي المطالبة بإرسال مبعوثين من جميع البلاد العربية ليشاركوا إخوانهم ويكونوا يداً واحدة عَلَى الأعداء.</p>
             </div>
             <div change="#d2e307 #d2e339 #d2e420" subtype="article" type="item" xml:id="div_9.d2e1336">
@@ -931,7 +934,7 @@
             <div change="#d2e307 #d2e339 #d2e420" subtype="article" type="item" xml:id="div_9.d2e1349">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_110.d2e1277"> <hi change="#d2e296" style="color:red;" xml:id="hi_4.d2e1279"> <num change="#d2e258 #d2e296" type="auto-markup" value="3"
                   xml:id="num_1.d2e1281" xml:lang="ar">٣</num>  - </hi>لجنة نجدية</head>
-               <p change="#d2e73 #d2e296" xml:id="p_111.d2e1287">علمت <title change="#d2e422" level="j" xml:id="title_22.d2e1847"
+               <p change="#d2e73 #d2e296" xml:id="p_111.d2e1287">علمت <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:41" xml:id="title_22.d2e1847"
                   >الرياض</title> من مصدر ثقة أن الباب العالي أرسل لجنة قوامها عالم ونباتي ومهندس وجغرافي ومكتشف معادن للوقوف على تلك الديار وما فيها وقوفاً تاماً وإحصاء نفوسها وعشائرها والاطلاع على
 <pb
                   change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P455.xhtml" ed="shamela" n="n1-p455" xml:id="pb_47.d2e1289"/> <pb change="#d2e365 #d2e393 #d2e420 #d2e422" ed="print"
@@ -964,31 +967,34 @@
 
 
 فهي هذه وقد أحطنا بقوسين ما لم يظهر منها عدد بل اخذ بها أصحابها امتيازاً لإصدارها وهي هذه:</p>
-               <p change="#d2e73 #d2e296" xml:id="p_118.d2e1336"><title change="#d2e422" level="j" xml:id="title_23.d2e1914">سيف الحق</title>. <title change="#d2e422" level="j"
-                  xml:id="title_24.d2e1917">الحقوق</title>. (<title change="#d2e422" level="j" xml:id="title_25.d2e1920">الرياحين</title>)، <title change="#d2e422" level="j" xml:id="title_26.d2e1923"
-                  xml:lang="ota">يكي موده</title>. <title change="#d2e422" level="j" xml:id="title_27.d2e1926">خان لذهب</title>، <title change="#d2e422" level="j" xml:id="title_28.d2e1929"
-                  >دونيلا</title>. <title change="#d2e422" level="j" xml:id="title_29.d2e1933">صائب</title>. (<title change="#d2e422" level="j" xml:id="title_30.d2e1936">الوطن</title>)، <title
-                  change="#d2e422" level="j" xml:id="title_31.d2e1939">أخوت</title>. <title change="#d2e422" level="j" xml:id="title_32.d2e1942">قلنج</title>. <title change="#d2e422" level="j"
-                  xml:id="title_33.d2e1945">العلم</title> (بفتح العين واللام). <title change="#d2e422" level="j" xml:id="title_34.d2e1948">الرقيب</title>. <title change="#d2e422" level="j"
-                  xml:id="title_35.d2e1952">تفكر</title>، <title change="#d2e422" level="j" xml:id="title_36.d2e1955">خان جغان</title>. <title change="#d2e422" level="j" xml:id="title_37.d2e1958"
-                  >الأسرار</title>. <title change="#d2e422" level="j" xml:id="title_38.d2e1961">سبيل الرشاد</title>، <title change="#d2e422" level="j" xml:id="title_39.d2e1964"
-                  >أفكار عمومية</title>. <title change="#d2e422" level="j" xml:id="title_40.d2e1967">تعاون</title>. <title change="#d2e422" level="j" xml:id="title_41.d2e1971">وجدان</title>. <title
-                  change="#d2e422" level="j" xml:id="title_42.d2e1974">بالك</title>. <title change="#d2e422" level="j" xml:id="title_43.d2e1977">البلبل</title>. (<title change="#d2e422" level="j"
-                  xml:id="title_44.d2e1980">جهينة</title>)، <title change="#d2e422" level="j" xml:id="title_45.d2e1983">يلديرم بين النهرين</title>، <title change="#d2e422" level="j"
-                  xml:id="title_46.d2e1986">الصاعقة</title>. <title change="#d2e422" level="j" xml:id="title_47.d2e1990">الرصافة</title>. (<title change="#d2e422" level="j" xml:id="title_48.d2e1993"
-                  >عصا موسى</title>)، <title change="#d2e422" level="j" xml:id="title_49.d2e1996">المضحكات</title>. <title change="#d2e422" level="j" xml:id="title_50.d2e1999">القسطاس</title>. <title
-                  change="#d2e422" level="j" xml:id="title_51.d2e2002">خردلة العلوم</title>، (<title change="#d2e422" level="j" xml:id="title_52.d2e2005">الكرخ</title>)، <title change="#d2e422"
-                  level="j" xml:id="title_53.d2e2009">روضه</title>، (<title change="#d2e422" level="j" xml:id="title_54.d2e2012">لسان</title>)، <title change="#d2e422" level="j"
-                  xml:id="title_55.d2e2015">العراق</title>. <title change="#d2e422" level="j" xml:id="title_56.d2e2018">الحقيقة</title>، (<title change="#d2e422" level="j" xml:id="title_57.d2e2021"
-                  >الشرق</title>)، (<title change="#d2e422" level="j" xml:id="title_58.d2e2024">رعد</title>)، (<title change="#d2e422" level="j" xml:id="title_59.d2e2028">لسان الصدق</title>)، <title
-                  change="#d2e422" level="j" xml:id="title_60.d2e2031">بغداد</title>. <title change="#d2e422" level="j" xml:id="title_61.d2e2034">الإرشاد</title>. <title change="#d2e422" level="j"
-                  xml:id="title_62.d2e2037">الانقلاب</title>. <title change="#d2e422" level="j" xml:id="title_63.d2e2040">الظرائف</title>. <title change="#d2e422" level="j" xml:id="title_64.d2e2043"
-                  >تنوير الأفكار</title>. <title change="#d2e422" level="j" xml:id="title_65.d2e2047">الوجدان</title>. <title change="#d2e422" level="j" xml:id="title_66.d2e2050"
-                  >كرمه ونرمه</title>. <title change="#d2e422" level="j" xml:id="title_67.d2e2053">مصبح الشرق</title> وعليه فالباقي من الجرائد هو <title change="#d2e422" level="j"
-                  xml:id="title_68.d2e2056">الزورآء</title> <title change="#d2e422" level="j" xml:id="title_69.d2e2059">الزهور</title>، <title change="#d2e422" level="j" xml:id="title_70.d2e2062"
-                  >الرياض</title>، <title change="#d2e422" level="j" xml:id="title_71.d2e2066">المصباح</title>، <title change="#d2e422" level="j" xml:id="title_72.d2e2069">صدى بابل</title>، <title
-                  change="#d2e422" level="j" xml:id="title_73.d2e2072">النوادر</title>، والمجلات الحية هي: <title change="#d2e422" level="j" xml:id="title_74.d2e2075">العلم</title> (بكسر الأول) <title
-                  change="#d2e422" level="j" xml:id="title_75.d2e2078">الحياة</title> <title change="#d2e296 #d5e398" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_17.d2e1341"
+               <p change="#d2e73 #d2e296" xml:id="p_118.d2e1336"><title change="#d2e422" level="j" xml:id="title_23.d2e1914">سيف الحق</title>. <title change="#d2e422 #d3e481" level="j"
+                  ref="oape:bibl:536" xml:id="title_24.d2e1917">الحقوق</title>. (<title change="#d2e422" level="j" xml:id="title_25.d2e1920">الرياحين</title>)، <title change="#d2e422" level="j"
+                  xml:id="title_26.d2e1923" xml:lang="ota">يكي موده</title>. <title change="#d2e422" level="j" xml:id="title_27.d2e1926">خان لذهب</title>، <title change="#d2e422" level="j"
+                  xml:id="title_28.d2e1929">دونيلا</title>. <title change="#d2e422" level="j" xml:id="title_29.d2e1933">صائب</title>. (<title change="#d2e422 #d3e481" level="j" ref="oape:bibl:61"
+                  xml:id="title_30.d2e1936">الوطن</title>)، <title change="#d2e422" level="j" xml:id="title_31.d2e1939">أخوت</title>. <title change="#d2e422" level="j" xml:id="title_32.d2e1942"
+                  >قلنج</title>. <title change="#d2e422" level="j" xml:id="title_33.d2e1945">العلم</title> (بفتح العين واللام). <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:530"
+                  xml:id="title_34.d2e1948">الرقيب</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:537" xml:id="title_35.d2e1952">تفكر</title>، <title change="#d2e422" level="j"
+                  xml:id="title_36.d2e1955">خان جغان</title>. <title change="#d2e422" level="j" xml:id="title_37.d2e1958">الأسرار</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:320"
+                  xml:id="title_38.d2e1961">سبيل الرشاد</title>، <title change="#d2e422" level="j" xml:id="title_39.d2e1964">أفكار عمومية</title>. <title change="#d2e422" level="j"
+                  xml:id="title_40.d2e1967">تعاون</title>. <title change="#d2e422" level="j" xml:id="title_41.d2e1971">وجدان</title>. <title change="#d2e422" level="j" xml:id="title_42.d2e1974"
+                  >بالك</title>. <title change="#d2e422" level="j" xml:id="title_43.d2e1977">البلبل</title>. (<title change="#d2e422" level="j" xml:id="title_44.d2e1980">جهينة</title>)، <title
+                  change="#d2e422" level="j" xml:id="title_45.d2e1983">يلديرم بين النهرين</title>، <title change="#d2e422" level="j" xml:id="title_46.d2e1986">الصاعقة</title>. <title change="#d2e422"
+                  level="j" xml:id="title_47.d2e1990">الرصافة</title>. (<title change="#d2e422" level="j" xml:id="title_48.d2e1993">عصا موسى</title>)، <title change="#d2e422 #d3e481" level="j"
+                  ref="oape:bibl:540" xml:id="title_49.d2e1996">المضحكات</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:212" xml:id="title_50.d2e1999">القسطاس</title>. <title
+                  change="#d2e422" level="j" xml:id="title_51.d2e2002">خردلة العلوم</title>، (<title change="#d2e422 #d3e481" level="j" ref="oape:bibl:215" xml:id="title_52.d2e2005"
+                  >الكرخ</title>)، <title change="#d2e422" level="j" xml:id="title_53.d2e2009">روضه</title>، (<title change="#d2e422" level="j" xml:id="title_54.d2e2012">لسان</title>)، <title
+                  change="#d2e422 #d3e481" level="j" ref="oape:bibl:196" xml:id="title_55.d2e2015">العراق</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:30 oclc:1034550756"
+                  xml:id="title_56.d2e2018">الحقيقة</title>، (<title change="#d2e422" level="j" xml:id="title_57.d2e2021">الشرق</title>)، (<title change="#d2e422" level="j" xml:id="title_58.d2e2024"
+                  >رعد</title>)، (<title change="#d2e422" level="j" xml:id="title_59.d2e2028">لسان الصدق</title>)، <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:285"
+                  xml:id="title_60.d2e2031">بغداد</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:93" xml:id="title_61.d2e2034">الإرشاد</title>. <title change="#d2e422" level="j"
+                  xml:id="title_62.d2e2037">الانقلاب</title>. <title change="#d2e422" level="j" xml:id="title_63.d2e2040">الظرائف</title>. <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:498"
+                  xml:id="title_64.d2e2043">تنوير الأفكار</title>. <title change="#d2e422" level="j" xml:id="title_65.d2e2047">الوجدان</title>. <title change="#d2e422" level="j"
+                  xml:id="title_66.d2e2050">كرمه ونرمه</title>. <title change="#d2e422" level="j" xml:id="title_67.d2e2053">مصبح الشرق</title> وعليه فالباقي من الجرائد هو <title
+                  change="#d2e422 #d3e481" level="j" ref="oape:bibl:42" xml:id="title_68.d2e2056">الزورآء</title> <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:532"
+                  xml:id="title_69.d2e2059">الزهور</title>، <title change="#d2e422 #d3e481" level="j" ref="oape:bibl:41" xml:id="title_70.d2e2062">الرياض</title>، <title change="#d2e422" level="j"
+                  xml:id="title_71.d2e2066">المصباح</title>، <title change="#d2e422" level="j" xml:id="title_72.d2e2069">صدى بابل</title>، <title change="#d2e422" level="j" xml:id="title_73.d2e2072"
+                  >النوادر</title>، والمجلات الحية هي: <title change="#d2e422" level="j" xml:id="title_74.d2e2075">العلم</title> (بكسر الأول) <title change="#d2e422 #d3e481" level="j"
+                  ref="oape:bibl:39" xml:id="title_75.d2e2078">الحياة</title> <title change="#d2e296 #d5e398" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_17.d2e1341"
                   >لغة العرب</title>، <title change="#d2e422" level="j" xml:id="title_77.d2e2085">لاغير</title>، فليتدبر العقلاء. <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P457.xhtml"
                   ed="shamela" n="n1-p457" xml:id="pb_49.d2e1344"/> </p>
             </div>

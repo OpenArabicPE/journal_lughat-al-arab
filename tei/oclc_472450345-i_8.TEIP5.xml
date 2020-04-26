@@ -61,6 +61,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e487" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e457" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e452" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -824,8 +827,8 @@
                <p change="#d2e73 #d2e296" xml:id="p_143.d2e1524">وسلبت جماعة من عشيرة التومان وهي من سكن (حويجة العبيد رجلا من قضاء عانة اسمه السيد احمد الراوي <num change="#d2e258 #d2e296"
                   type="auto-markup" value="83" xml:id="num_1.d2e1526" xml:lang="ar"
                   >٨٣</num> رأساً من الشاه فاستردها أيضاً المدير المذكور. فمثل هذا يجب أن يكون أرباب الحكومة لأن الأمور لتي أتاها وان كانت لا تعد شيئاً بالنسبة إلى الأعمال العظيمة إلا إنها تدل على نفس عظيمة فعسى أن يكون المتوظفين مثله.</p>
-               <note change="#d2e344" place="inline" type="bibliographic" xml:id="p_144.d2e1530">(ملخص عن <bibl subtype="newspaper" type="periodical"><title level="j"
-                  >الزهور</title> البغدادية</bibl>)</note>
+               <note change="#d2e344" place="inline" type="bibliographic" xml:id="p_144.d2e1530">(ملخص عن <bibl subtype="newspaper" type="periodical"><title change="#d3e487" level="j"
+                  ref="oape:bibl:532">الزهور</title> البغدادية</bibl>)</note>
             </div>
             <div change="#d2e307 #d2e356 #d2e427" subtype="article" type="item" xml:id="div_11.d2e1605">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_145.d2e1533"> <hi change="#d2e296" style="color:red;" xml:id="hi_20.d2e1535"> <num change="#d2e258 #d2e296" type="auto-markup" value="9"
@@ -860,7 +863,7 @@
                <p change="#d2e73 #d2e296" xml:id="p_152.d2e1602">الحكومة تستجلي الأمر وتؤدي لكل ذي حق حقه. لان الأمور بقيت معلقة بهذه الصورة الآن.</p>
             </div>
             <div change="#d2e307 #d2e356 #d2e427" subtype="article" type="item">
-               <head><bibl next="#bibl_2" xml:id="bibl_1"><title level="j">الحقوق</title></bibl></head>
+               <head><bibl next="#bibl_2" xml:id="bibl_1"><title change="#d3e487" level="j" ref="oape:bibl:536">الحقوق</title></bibl></head>
                <p change="#d2e73 #d2e296" xml:id="p_154.d2e1609"><bibl oape:frequency="weekly" prev="#bibl_1" subtype="newspaper" type="periodical" xml:id="bibl_2"
                   >جريدة يومية تنشر في <pubPlace><placeName>دار السلام</placeName></pubPlace> إلا إنها تصدر الآن أسبوعية وهي (محبة للحقيقة وخادمة للحق) <textLang mainLang="ota" otherLangs="ar"
                   >اغلب مندرجاتها باللغة التركية وفيها ما يقارب العمود باللغة العربية</textLang> صدر <biblScope from="1" to="2" unit="issue">عددها الأول</biblScope> في <date calendar="#cal_gregorian"
@@ -871,7 +874,7 @@
                   ><persName>اصغر زاده معروف أفندي</persName></editor> ومحررها <editor><persName>معروف أفندي</persName></editor></bibl></p>
             </div>
             <div change="#d2e307 #d2e356 #d2e427" subtype="article" type="item">
-               <head><bibl next="#bibl_4" xml:id="bibl_3"><title level="j">المضحكات</title></bibl></head>
+               <head><bibl next="#bibl_4" xml:id="bibl_3"><title change="#d3e487" level="j" ref="oape:bibl:540">المضحكات</title></bibl></head>
                <p change="#d2e73 #d2e296" xml:id="p_156.d2e1629"><bibl oape:frequency="weekly" prev="#bibl_3" subtype="newspaper" type="periodical" xml:id="bibl_4"
                   >جريدة هزلية فكاهية تصدر في <pubPlace><placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e1631"
                   >بغداد</placeName></pubPlace> مرة في الأسبوع موقتا وقد برز <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P326.xhtml" ed="shamela" n="n1-p326" xml:id="pb_38.d2e1634"/> <pb
@@ -922,10 +925,10 @@
                   >بغداد</placeName>، لكنهم لو يؤلفوا كتاباً قائماً برأسه في الألفاظ والمفردات. ومم خاض عباب هذا الموضوع أحد أبناء <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182"
                   xml:id="placeName_42.d2e1731"
                   >بغداد</placeName> من النصارى وهو <bibl><author><persName>القس جبرائيل أوساني الكلدانى</persName></author> وقد نشر مقالة طويلة في هذا البحث أدرجها في مجلة <textLang mainLang="en"
-                  >أميركية</textLang> اسمها (<title change="#d2e315 #d2e356" level="j" xml:id="title_11.d2e1809">مجلة اللجنة الأميركية الشرقية</title>) في <biblScope from="22" to="22" unit="volume"
-                  >سنتها الثانية والعشرين</biblScope> التي صدرت في <date change="#d2e266 #d2e296" type="auto-markup" when="1901" xml:id="date_4.d2e1734">سنة <num change="#d2e258 #d2e296"
-                  type="auto-markup" value="1901" xml:id="num_1.d2e1736" xml:lang="ar">١٩٠١</num> </date> في <biblScope from="97" unit="page">الصفحة <num change="#d2e258 #d2e296" type="auto-markup"
-                  value="97" xml:id="num_1.d2e1739" xml:lang="ar">٩٧</num></biblScope> وما يليها وعنوان المقالة: (<title level="a"
+                  >أميركية</textLang> اسمها (<title change="#d2e315 #d2e356 #d3e487" level="j" ref="oape:bibl:541" xml:id="title_11.d2e1809">مجلة اللجنة الأميركية الشرقية</title>) في <biblScope
+                  from="22" to="22" unit="volume">سنتها الثانية والعشرين</biblScope> التي صدرت في <date change="#d2e266 #d2e296" type="auto-markup" when="1901" xml:id="date_4.d2e1734">سنة <num
+                  change="#d2e258 #d2e296" type="auto-markup" value="1901" xml:id="num_1.d2e1736" xml:lang="ar">١٩٠١</num> </date> في <biblScope from="97" unit="page">الصفحة <num
+                  change="#d2e258 #d2e296" type="auto-markup" value="97" xml:id="num_1.d2e1739" xml:lang="ar">٩٧</num></biblScope> وما يليها وعنوان المقالة: (<title level="a"
                   >اللغة العامية البغدادية</title>)</bibl> والمستشرقون الذين طرقوا باب هذا البحث هم: الدكتور ماينر والدكتور يحيى الدانمركي وغيرهما. <pb change="#d2e296"
                   corresp="../epub/36540/OEBPS/xhtml/P329.xhtml" ed="shamela" n="n1-p329" xml:id="pb_41.d2e1743"/> </p>
             </div>

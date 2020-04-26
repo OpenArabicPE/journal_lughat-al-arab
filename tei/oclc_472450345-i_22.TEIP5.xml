@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e453" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e423" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e418" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -1368,7 +1371,7 @@
                   xml:id="num_1.d2e2384" xml:lang="ar">١</num>  - </hi>مرض الغنم</head>
                <p change="#d2e73 #d2e282" xml:id="p_209.d2e2389"
                   >وقع داء في الغنم منذ أوائل شهر شباط ولا سيما في الغنم الموجودة في جوار قضاء خراسان. وقد سافر إلى المحل المذكور فاروقي أفندي مفتش بياطرة الولاية ليطلع على هذا المرض وقد تحقق بعد الفحص انه حاصل من قلة الأمطار. وقد مات بهذا المرض اكثر من عشرين بالمائة وليس له علاج آخر سوى كثرة العشب والكلا. وقد وقع مثل هذا الداء في غنم قضاء (بدرة) (بادورايا)</p>
-               <byline change="#d2e325" xml:id="byline_8.d2e2466">(عن <title change="#d2e325 #d5e383" level="j" ref="oape:bibl:3 oclc:1034545644" xml:id="title_12.d2e2468">الزهور</title>)</byline>
+               <byline change="#d2e325" xml:id="byline_8.d2e2466">(عن <title change="#d2e325 #d5e383" level="j" ref="oape:bibl:532" xml:id="title_12.d2e2468">الزهور</title>)</byline>
             </div>
             <div change="#d2e293 #d2e325 #d2e394" subtype="article" type="item" xml:id="div_12.d2e2472">
                <head change="#d2e73 #d2e282 #d2e293" xml:id="p_211.d2e2395"> <hi change="#d2e282" style="color:red;" xml:id="hi_32.d2e2397"> <num change="#d2e258 #d2e282" type="auto-markup" value="2"

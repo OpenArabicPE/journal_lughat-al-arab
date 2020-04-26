@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e438" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e408" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e403" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -684,7 +687,7 @@
             <div change="#d2e307 #d2e315 #d2e379" subtype="article" type="item" xml:id="div_7.d2e1264">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_115.d2e1242"> <hi change="#d2e296" style="color:red;" xml:id="hi_13.d2e1244"> <num change="#d2e258 #d2e296" type="auto-markup" value="2"
                   xml:id="num_1.d2e1246" xml:lang="ar">٢</num> - </hi>طاعة العشائر</head>
-               <p change="#d2e73 #d2e296" xml:id="p_116.d2e1251">كتب إلى <title change="#d2e381" level="j" xml:id="title_12.d2e1526"
+               <p change="#d2e73 #d2e296" xml:id="p_116.d2e1251">كتب إلى <title change="#d2e381 #d3e438" level="j" ref="oape:bibl:41" xml:id="title_12.d2e1526"
                   >الرياض</title> ما ملخصه: لما رأت عشيرة البدور ما أوقعه ابن الرشيد بعشائر الضفير سلمت إلى الحكومة ما كان عليها من متأخر البأج (الكودة) وهو عبارة عن عشرة آلاف راس غنم. وكذلك فعلت عشيرة (أبي عظم). أما عشيرة البو شرف الحكام فأنها أظهرت من المقاومة ما سبب تلف أملاكها. ولهذا داخل الرعب قلوب عصاة العشائر ومن ثم أصبح رجوعهم إلى المسالة والأمن قريب الوقوع. والفضل في ذلك كله راجع إلى حضرة</p>
                <p change="#d2e73 #d2e296" xml:id="p_117.d2e1254">متصرف الناصرية فريد بك الذي يفرغ كل وسعه لتامين لواء المنتفق.</p>
             </div>
@@ -702,11 +705,11 @@
                   change="#d2e340 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_491" n="491" xml:id="pb_70.d2e1570"
                   /> حضرة <persName>السيد طالب بك النقيب</persName> وقد أعيد انتخابه للمرة الثانية، و<persName>عبد الله بك الزهير</persName> <persName change="#d2e296 #d3e326" ref="oape:pers:2937"
                   xml:id="persName_11.d2e1286"> <addName change="#d2e296" type="nickname" xml:id="addName_4.d2e1287">صاحب <bibl change="#d2e439" subtype="newspaper" type="periodical">جريدة <title
-                  change="#d2e296" level="j" xml:id="title_12.d2e1289">الدستور</title></bibl> </addName>
+                  change="#d2e296 #d3e438" level="j" ref="oape:bibl:150" xml:id="title_12.d2e1289">الدستور</title></bibl> </addName>
                   </persName>، وحضرة <persName>عبد الوهاب باشا القرطاس</persName>، و<persName>احمد أفندي</persName> رئيس محكمة الجزاء.</p>
                <p change="#d2e73 #d2e296" xml:id="p_122.d2e1293">وانتخب <persName>فؤاد أفندي الدفتري البغدادي</persName> و<bibl><editor><persName>نوري أفندي</persName></editor> راس كتاب <textLang
-                  otherLangs="ota">القسم التركي</textLang> في جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:3 oclc:1034545644" xml:id="title_13.d2e1295"
-                  >الزهور</title></bibl> البغدادية نائبين عن <placeName change="#d2e381 #d5e392" ref="oape:place:372 geon:94824" xml:id="placeName_21.d2e1587">كربلاء</placeName>.</p>
+                  otherLangs="ota">القسم التركي</textLang> في <bibl type="periodical" subtype="newspaper">جريدة <title change="#d2e296 #d5e368" level="j" ref="oape:bibl:532" xml:id="title_13.d2e1295"
+                                    >الزهور</title></bibl> البغدادية</bibl> نائبين عن <placeName change="#d2e381 #d5e392" ref="oape:place:372 geon:94824" xml:id="placeName_21.d2e1587">كربلاء</placeName>.</p>
                <p change="#d2e73 #d2e296" xml:id="p_123.d2e1299">وعين <persName>إسماعيل حقي بك البابان</persName> المبعوث عن <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182"
                   xml:id="placeName_16.d2e1301">بغداد</placeName> سابقاً نائباً عن لواء <placeName>الديوانية</placeName>.</p>
                <p change="#d2e73 #d2e296" xml:id="p_124.d2e1305">وانتخب مبعوثاً عن لواء <placeName>المنتفق</placeName> <persName>جميل صدقي أفندي الزهاوي</persName>.</p>

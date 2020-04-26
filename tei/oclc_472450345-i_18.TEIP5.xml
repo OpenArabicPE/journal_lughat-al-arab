@@ -60,6 +60,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e465" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e435" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e430" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -651,8 +654,8 @@
 
 
 لما تعوده من صدق اللهجة وحرية الضمير في أبناء قومه ولم يدر (شتان بين مشرق ومغرب)</p>
-            <p change="#d2e73 #d2e282" xml:id="p_45.d2e993">والذي حداني على كتابة هذه الأسطر هو ما كتبته <bibl change="#d2e445" subtype="journal" type="periodical">مجلة <title change="#d2e282"
-               level="j" xml:id="title_8.d2e995">الالستراسيون</title></bibl> الباريسية من مقالة تحت عنوان (<placeName change="#d2e408 #d5e419" ref="oape:place:220 geon:104515"
+            <p change="#d2e73 #d2e282" xml:id="p_45.d2e993">والذي حداني على كتابة هذه الأسطر هو ما كتبته <bibl change="#d2e445" subtype="journal" type="periodical">مجلة <title change="#d2e282 #d3e465"
+               level="j" ref="oape:bibl:107" xml:id="title_8.d2e995">الالستراسيون</title></bibl> الباريسية من مقالة تحت عنوان (<placeName change="#d2e408 #d5e419" ref="oape:place:220 geon:104515"
                xml:id="placeName_31.d2e1340">مكة</placeName> الثانية) على رواية رجل غربي أقام في <placeName change="#d2e408 #d5e419" ref="oape:place:372 geon:94824" xml:id="placeName_32.d2e1343"
                >كربلاء</placeName> مدة. ولما كان الكاتب والراوي قد اخطأا فيما كتبا في عدة مواضع من المقالة نفسها، أحببت نشرها لأعلق عليها بعض الحواشي إيضاحاً لما التبس عليهما أو إصلاحاً لخطأهما. لأن المقالة تمس الفرقة التي أنا منها ولأن أهل <placeName
                change="#d2e408 #d5e419" ref="oape:place:220 geon:104515" xml:id="placeName_33.d2e1346">مكة</placeName> أدرى بشعابها. وإليك المقالة برمتها معربة بقلم صاحب المجلة. قال الكاتب:</p>
@@ -1111,7 +1114,7 @@
                <p change="#d2e73 #d2e282" xml:id="p_119.d2e1790"
                   >والكتاب يصور الجيم العربية بحرف الفرنسوية وهو خطا بين فأن الجيم الفرنسوية يقابلها الزاء المنقوطة بثلاث وأما الجيم العربية فهي أو بعلامة خصوصية يصطلح عليها كما فعل <persName
                   change="#d2e282 #d3e347" ref="oape:pers:2939" xml:id="persName_11.d2e1792"> <addName change="#d2e282" type="nickname" xml:id="addName_6.d2e1793">صاحب <bibl change="#d2e445"
-                  subtype="journal" type="periodical">مجلة <title change="#d2e282" level="j" xml:id="title_16.d2e1795">الانثربوس</title></bibl> </addName>
+                  subtype="journal" type="periodical">مجلة <title change="#d2e282 #d3e465" level="j" ref="oape:bibl:108" xml:id="title_16.d2e1795">الانثربوس</title></bibl> </addName>
                   </persName> التي تنشر في فينا. وهو يسقط الهمزة من جميع الألفاظ التي فيها همزة فيقول مثلاً: مؤمن الجزايري والأصح مؤمن الجزائري بهمز الواو في مؤمن وهمزة مكسورة بين الألف والراء في الجزائري. ويذكر (المتكلمين) بصورتها العربية المرفوعة (أي المتكلمون) والأوفق أن يقول أو أن يتصرف بإعراب اللفظة بحسب مواقعها من رفع ونصب وجر. ولو كان يبقيها على حالة النصب أو الجر لكان احسن من اتخاذها بحالة الرفع ورود الحالتين بخلاف الرفع فانه اقل وروداً.</p>
                <p change="#d2e73 #d2e282" xml:id="p_120.d2e1799"
                   >وذكر الحلاجي المنسوبة بصورة أي بالنسبة الفرنسوية والعربية معا. والأصح أن يتصرف بها على الوجه العربي أو على الوجه الفرنسوي لا بكليهما معاً لما ينشأ من الثقل باتخاذ هذا اللفظ المزدوج النسبة.</p>

@@ -61,6 +61,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e481" xml:lang="en">Added references to local authority file (<tei:ref
+            target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml"
+            >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e451" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e445" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
@@ -944,7 +947,7 @@
             <head change="#d2e296" xml:id="head_10.d2e1701">باب المشارفة والانتقاد</head>
             <div change="#d2e307 #d2e350" subtype="article" type="item" xml:id="div_10.d2e1753">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_164.d2e1704"> <hi change="#d2e296" style="color:red;" xml:id="hi_10.d2e1706"> <num change="#d2e258 #d2e296" type="auto-markup" value="1"
-                  xml:id="num_1.d2e1708" xml:lang="ar">١</num> - </hi> <bibl next="#bibl_2" xml:id="bibl_1"><title change="#d2e296" level="j" xml:id="title_12.d2e1711"
+                  xml:id="num_1.d2e1708" xml:lang="ar">١</num> - </hi> <bibl next="#bibl_2" xml:id="bibl_1"><title change="#d2e296 #d3e481" level="j" ref="oape:bibl:319" xml:id="title_12.d2e1711"
                   >سبل الرشاد</title> (مجلة <pubPlace><placeName>بغداد</placeName></pubPlace>ية)</bibl></head>
                <p change="#d2e73 #d2e296" xml:id="p_165.d2e1715"><bibl oape:frequency="monthly" prev="#bibl_1" subtype="journal" type="periodical" xml:id="bibl_2"><title level="j" type="sub"
                   >مجلة دينية علمية اجتماعية فلسفية تاريخية</title>، تصدر في الشهر مرة. <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P532.xhtml" ed="shamela" n="n2-p36"
@@ -952,7 +955,7 @@
                   unit="page">في <num change="#d2e258 #d2e296" type="auto-markup" value="32" xml:id="num_1.d2e1719" xml:lang="ar">٣٢</num> صحيفة</biblScope>) لصاحبها ومديرها المسؤول: <editor
                   type="owner"
                   ><persName>محمد رشيد الصفار</persName></editor>. - يحرر فيها أحد فضلاء الهيئة العلمية. - اشتراكها السنوي ريال مجيدي في الممالك العثمانية. وفي البلاد الأجنبية يضاف عليها أجرة البريد ونصف القيمة لتلاميذ المدارس والعلماء ورؤساء الأديان على اختلافها. - نقلنا هنا بالحرف والرسم ما جاء على غلاف المجلة</bibl>. واليك فهرس أبحاث هذا العدد:</p>
-               <p change="#d2e73 #d2e296" xml:id="p_166.d2e1723">فاتحة الكلام. <title change="#d2e296" level="j" xml:id="title_13.d2e1725"
+               <p change="#d2e73 #d2e296" xml:id="p_166.d2e1723">فاتحة الكلام. <title change="#d2e296 #d3e481" level="j" ref="oape:bibl:319" xml:id="title_13.d2e1725"
                   >سبل الرشاد</title>. التفكير والتدبر. كلمات من الحكم. نبذة من الأدب. تاريخ <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_45.d2e1728"
                   >بغداد</placeName> للعلامة شكري أفندي آل الالوسي. المتولد والمتوالد من الحيوان. منشور من باب مشيخة عموم السادات الصوفية بالديار المصرية. مراتب الكمال. مدرسة الإمام الأعظم رضه. كلية الإمام الأعظم. الفلسفة والفلاسفة. تاريخ صدور المجلة. وقيمة النسخة غرشان.</p>
                <p change="#d2e73 #d2e296" xml:id="p_167.d2e1732"
@@ -962,7 +965,7 @@
             </div>
             <div change="#d2e307 #d2e350 #d2e421" subtype="article" type="item" xml:id="div_10.d2e1788">
                <head change="#d2e73 #d2e296 #d2e307" xml:id="p_168.d2e1739"> <hi change="#d2e296" style="color:red;" xml:id="hi_11.d2e1741"> <num change="#d2e258 #d2e296" type="auto-markup" value="2"
-                  xml:id="num_1.d2e1743" xml:lang="ar">٢</num> - </hi> <bibl next="#bibl_4" xml:id="bibl_3"><title change="#d2e296" level="j" xml:id="title_14.d2e1746"
+                  xml:id="num_1.d2e1743" xml:lang="ar">٢</num> - </hi> <bibl next="#bibl_4" xml:id="bibl_3"><title change="#d2e296 #d3e481" level="j" ref="oape:bibl:315" xml:id="title_14.d2e1746"
                   >دير القمر</title> (جريدة)</bibl></head>
                <p change="#d2e73 #d2e296" xml:id="p_169.d2e1750"><bibl oape:frequency="weekly" prev="#bibl_3" subtype="newspaper" type="periodical" xml:id="bibl_4"
                   >جريدة لبنانية عامة، تصدر موقتاً مرة في الأسبوع في <pubPlace><placeName change="#d2e296" xml:id="placeName_47.d2e1752">دير القمر</placeName></pubPlace> (<placeName
