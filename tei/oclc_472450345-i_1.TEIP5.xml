@@ -16,7 +16,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e296 #d2e372" xml:id="publicationStmt_1.d2e41" xml:lang="en">
-            <authority><tei:persName xml:id="pers_TG"><tei:forename>Till</tei:forename><tei:surname>Grallert</tei:surname></tei:persName></authority>
+            <authority><tei:persName><tei:forename>Till</tei:forename><tei:surname>Grallert</tei:surname></tei:persName></authority>
             <pubPlace><placeName>Beirut</placeName></pubPlace>
             <date when="2019">2019</date>
             <availability status="restricted">
@@ -38,7 +38,7 @@
                   <idno change="#d2e296" type="URI" xml:id="idno_5.d2e93">http://shamela.ws/index.php/book/36540</idno>
                   <textLang change="#d2e296" mainLang="ar" xml:id="textLang_1.d2e96"/>
                   <editor change="#d2e296" xml:id="editor_1.d2e98" xml:lang="ar"> <persName change="#d2e296" ref="oape:pers:227 viaf:39370998" xml:id="persName_3.d2e100" xml:lang="ar"> <roleName
-                     change="#d2e296" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar">الأب</roleName> <forename change="#d2e296" xml:id="forename_2.d2e105" xml:lang="ar">أنستاس</forename>
+                     change="#d2e296" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar" subtype="religious">الأب</roleName> <forename change="#d2e296" xml:id="forename_2.d2e105" xml:lang="ar">أنستاس</forename>
                      <forename change="#d2e296" xml:id="forename_3.d2e108" xml:lang="ar">ماري</forename> <surname change="#d2e296" xml:id="surname_2.d2e111" xml:lang="ar"> <addName change="#d2e296"
                      type="nisbah" xml:id="addName_1.d2e113" xml:lang="ar">الكرملي</addName> </surname> </persName> <persName change="#d2e296" xml:id="persName_4.d2e118" xml:lang="ar-Latn-x-ijmes"
                      >al-Abb Anastās Mārī al-Karamlī</persName> </editor>
@@ -50,7 +50,7 @@
                      <pubPlace change="#d2e296" xml:id="pubPlace_2.d2e142" xml:lang="ar"> <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_1.d2e144" xml:lang="ar"
                         >بغداد</placeName> <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_2.d2e147" xml:lang="ar-Latn-x-ijmes">Baghdād</placeName> <placeName
                         change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_3.d2e150" xml:lang="en">Baghdad</placeName> </pubPlace>
-                     <date change="#d2e296" datingMethod="#cal_islamic" when="1911-07-01" when-custom="1329-07-01" xml:id="date_2.d2e154"/>
+                     <date change="#d2e296" datingMethod="#cal_islamic" when="1911-07-01" when-custom="1329-07-01" xml:id="date_2.d2e154" type="official"/>
                   </imprint>
                   <biblScope change="#d2e215 #d2e296" from="1" to="1" unit="volume" xml:id="biblScope_1.d2e157"/>
                   <biblScope change="#d2e215 #d2e296" from="1" to="1" unit="issue" xml:id="biblScope_2.d2e159"/>
@@ -65,7 +65,7 @@
             >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e372" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
-         <change when="2019-10-28" who="#pers_TG" xml:id="d4e367" xml:lang="en" xmlns="">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
+         <change when="2019-10-28" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e356" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml"
             >../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
          <change when="2019-09-23" who="#pers_TG" xml:id="d2e344" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en"
@@ -657,8 +657,8 @@
                >(وبيوت أكثرهم ليست إلا مدارس ونوادي علم. إذ ترى فيهم من ينضم إلى رفيقٍ ثانٍ له أو إلى ثالث أو أكثر حسبما يتفقون عليه فيجتمعون في بيتٍ واحد منهم. أو انهم يجتمعون في كل يوم في بيت غير البيت الأول في بيت الرفيق على التوالي فيتدارسون في الكتب التي وقعت بأيديهم وهكذا يفعلون حتى النهاية على ما كان جارياً في سالف الزمن في أنديتهم ومجالسهم ومجتمعاتهم).</p>
             <byline change="#d2e219 #d2e296" xml:id="byline_2.d2e844"> <persName change="#d2e230 #d2e296" ref="oape:pers:1845 viaf:21058435" xml:id="persName_7.d2e845"> <forename change="#d2e296"
                xml:id="forename_6.d2e846">سليمان</forename> <surname change="#d2e296" xml:id="surname_5.d2e849">الدخيل</surname> </persName>: <persName change="#d2e344" xml:id="persName_8.d2e1107"
-               >صاحب <bibl change="#d2e382" subtype="newspaper" type="periodical">جريدة <title change="#d2e296 #d5e331" level="j" ref="oape:bibl:41" xml:id="title_9.d2e852"
-               >الرياض</title></bibl></persName> ومنشئها.</byline>
+               >صاحب جريدة <title change="#d2e296 #d5e331" level="j" ref="oape:bibl:41" xml:id="title_9.d2e852"
+               >الرياض</title></persName> ومنشئها.</byline>
          </div>
          <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_9.d2e857">
             <head change="#d2e296" xml:id="head_9.d2e859">التأسل والتأسن</head>
@@ -832,9 +832,10 @@
                   >(حوادث الناصرية) جاء في بعض الرسائل البرقية الموثوق بها انه لما كانت عشائر البدور تضيق الخناق على الأعراب الموجودين في (المائعة) والمحاصرين فيها وكان هؤلاء إلى حاجة ماسة إلى القوت سارت باخرتان من مركز الناصرية اسم الواحدة (فرات) وفيها مدفعان واسم الثانية (استيم بوط) وفيها بندقية آلية (ماكينولى تفنك) ولما وصلتا إلى المحل المرغوب إليه قابلها الأعراب بإطلاق الرصاص فأمطر عليهم العسكر حينئذٍ مطرا من الرصاص فتبددوا بعد أن قتل منهم جم غفير وهدمت المدافع قلاعهم وحصونهم. وإذ ذاك</p>
                <p change="#d2e73 #d2e296" xml:id="p_131.d2e1126">تيسر للمحاصرين أن يتلمسوا الطعام الذي جاء به لهم العسكر المظفر.</p>
                <p change="#d2e73 #d2e296" xml:id="p_132.d2e1129"
-                  >وفي رسالة برقية أخرى: انقسمت عشيرة الحسينات إلى فرقتين إحداهما مهادنة للبدور والثانية متفقة مع سعدون باشا. فلما وقع هذا النفور بين الجمعين المفترقين تقاتلا في محل يبعد عن الناصرية نحو نصف ساعة فلما علمت الحكومة بأمر هؤلاء الأعراب أنفذت إليهم باخرة لتصلح ذات البين فلما دنت من موطنهم تفرقوا تحت كل كوكب أما الآن فالظاهر أن الأمن سائد في تلك الأرجاء بفضل سعي الحكومة. (عن <bibl type="periodical" subtype="newspaper"
-                  change="#d2e344" xml:id="bibl_3.d2e1454"><title change="#d2e344" level="j" xml:id="title_13.d2e1455">الرصافة</title> ببعض تصرف. في <biblScope change="#d2e344" from="66" to="66"
-                  unit="issue" xml:id="biblScope_6.d2e1458">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="66" xml:id="num_1.d2e1131" xml:lang="ar">٦٦</num></biblScope></bibl> )</p>
+                  >وفي رسالة برقية أخرى: انقسمت عشيرة الحسينات إلى فرقتين إحداهما مهادنة للبدور والثانية متفقة مع سعدون باشا. فلما وقع هذا النفور بين الجمعين المفترقين تقاتلا في محل يبعد عن الناصرية نحو نصف ساعة فلما علمت الحكومة بأمر هؤلاء الأعراب أنفذت إليهم باخرة لتصلح ذات البين فلما دنت من موطنهم تفرقوا تحت كل كوكب أما الآن فالظاهر أن الأمن سائد في تلك الأرجاء بفضل سعي الحكومة. (عن <bibl
+                  change="#d2e344" subtype="newspaper" type="periodical" xml:id="bibl_3.d2e1454"><title change="#d2e344" level="j" xml:id="title_13.d2e1455">الرصافة</title> ببعض تصرف. في <biblScope
+                  change="#d2e344" from="66" to="66" unit="issue" xml:id="biblScope_6.d2e1458">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="66" xml:id="num_1.d2e1131" xml:lang="ar"
+                  >٦٦</num></biblScope></bibl> )</p>
             </div>
             <div change="#d2e344" subtype="article" type="item" xml:id="div_17.d2e1465">
                <p change="#d2e73 #d2e296" xml:id="p_133.d2e1135">(تأمير الشيخ مصبح) الشيخ مصبح رجل بدوي لا تملك يداه <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P36.xhtml" ed="shamela"
@@ -862,9 +863,9 @@
                <p change="#d2e73 #d2e296" xml:id="p_138.d2e1165">بيد أن الوالي حسين جلال بك اصدر أمراً باتاً في <num change="#d2e258 #d2e296" type="auto-markup" value="26" xml:id="num_1.d2e1167"
                   xml:lang="ar">٢٦</num> جمادي الأولى ( <num change="#d2e258 #d2e296" type="auto-markup" value="24" xml:id="num_1.d2e1170" xml:lang="ar"
                   >٢٤</num> أيار) إلى المدير: أن لم يأخذ الشيخ مصبح بالسير حالاً اضربوه بالسلاح. فلما رأى أن لا مفر من هذا القضاء المبرم غادرها صاغراً مرغماً. فانقطعت بذهابه جرثومة الفساد والإفساد (<bibl
-                  change="#d2e344" xml:id="bibl_5.d2e1518"><title change="#d2e344 #d3e402" level="j" ref="oape:bibl:532" xml:id="title_15.d2e1519">الزهور</title> <biblScope
-                  change="#d2e344" from="84" to="84" unit="issue" xml:id="biblScope_8.d2e1522">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="84" xml:id="num_1.d2e1173" xml:lang="ar"
-                  >٨٤</num></biblScope> </bibl>)</p>
+                  change="#d2e344" xml:id="bibl_5.d2e1518"><title change="#d2e344 #d3e402" level="j" ref="oape:bibl:532" xml:id="title_15.d2e1519">الزهور</title> <biblScope change="#d2e344" from="84"
+                  to="84" unit="issue" xml:id="biblScope_8.d2e1522">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="84" xml:id="num_1.d2e1173" xml:lang="ar">٨٤</num></biblScope>
+                  </bibl>)</p>
             </div>
             <div change="#d2e344" subtype="article" type="item" xml:id="div_21.d2e1531">
                <p change="#d2e73 #d2e296" xml:id="p_139.d2e1177">(الصحة في <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e1179"
@@ -878,9 +879,10 @@
                   >بغداد</placeName>) يفضي إلى الخندق ليغسل ما فيه من الأقذار والأوضار ثم يمضي بوجهه إلى منفذ آخر يفضي إلى الشط وحينئذ لا يبقى ماء في الخندق ولا في الدفرة. وإذا تم ذلك يباشر بدفن خندق المدينة الذي لم يعد ينفع شيئاً البتة.</p>
                <p change="#d2e73 #d2e296" xml:id="p_141.d2e1197">وإذ قد ظهر في هذه الأيام اثر للوباء في <placeName change="#d2e344 #d5e356" ref="oape:place:210 geon:99532"
                   xml:id="placeName_48.d2e1557"
-                  >البصرة</placeName> وظهرت بعض إصابات بالهيضة في العزير فيجب أن نتخذ الذرائع اللازمة لحفظ الصحة في دار الولاية واعتناء البلدية بالتطهير والتنظيف فوق ما كان يجري في السابق. وان ترمى أقذار البواليع والكنف في غير ضاحية المدينة لما ينشأ منها من الأمراض. وان تتخذ الوسائل اللازمة لكي لا يضر جواره بأحدٍ. (عن <bibl type="periodical" subtype="newspaper"
-                  change="#d2e344" xml:id="bibl_6.d2e1560"><title change="#d2e344" level="j" xml:id="title_16.d2e1561">الرصافة</title> ببعض تصرف <biblScope change="#d2e344" from="67" to="67"
-                  unit="issue" xml:id="biblScope_9.d2e1564">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="67" xml:id="num_1.d2e1202" xml:lang="ar">٦٧</num></biblScope> </bibl>)</p>
+                  >البصرة</placeName> وظهرت بعض إصابات بالهيضة في العزير فيجب أن نتخذ الذرائع اللازمة لحفظ الصحة في دار الولاية واعتناء البلدية بالتطهير والتنظيف فوق ما كان يجري في السابق. وان ترمى أقذار البواليع والكنف في غير ضاحية المدينة لما ينشأ منها من الأمراض. وان تتخذ الوسائل اللازمة لكي لا يضر جواره بأحدٍ. (عن <bibl
+                  change="#d2e344" subtype="newspaper" type="periodical" xml:id="bibl_6.d2e1560"><title change="#d2e344" level="j" xml:id="title_16.d2e1561">الرصافة</title> ببعض تصرف <biblScope
+                  change="#d2e344" from="67" to="67" unit="issue" xml:id="biblScope_9.d2e1564">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="67" xml:id="num_1.d2e1202" xml:lang="ar"
+                  >٦٧</num></biblScope> </bibl>)</p>
             </div>
          </div>
          <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_13.d2e1207">
