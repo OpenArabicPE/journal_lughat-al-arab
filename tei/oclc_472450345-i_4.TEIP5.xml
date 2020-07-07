@@ -41,7 +41,7 @@
                   <imprint change="#d2e296" xml:id="imprint_1.d2e138" xml:lang="ar">
                      <publisher change="#d2e296" xml:id="publisher_1.d2e140"/>
                      <pubPlace change="#d2e296" xml:id="pubPlace_2.d2e142" xml:lang="ar"> <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_1.d2e144" xml:lang="ar">بغداد</placeName> <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_2.d2e147" xml:lang="ar-Latn-x-ijmes">Baghdād</placeName> <placeName change="#d5e244 #d2e296" ref="oape:place:216 geon:98182" xml:id="placeName_3.d2e150" xml:lang="en">Baghdad</placeName> </pubPlace>
-                     <date change="#d2e296" datingMethod="#cal_islamic" when="1911-10-01" when-custom="1329-10-01" xml:id="date_2.d2e154"/>
+                     <date change="#d2e296 #d3e466" datingMethod="#cal_islamic" when="1911-09-25" when-custom="1329-10-01" xml:id="date_2.d2e154"/>
                   </imprint>
                   <biblScope change="#d2e215 #d2e296" from="1" to="1" unit="volume" xml:id="biblScope_1.d2e157"/>
                   <biblScope change="#d2e215 #d2e296" from="4" to="4" unit="issue" xml:id="biblScope_2.d2e159"/>
@@ -50,7 +50,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e446" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
+      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e466" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change><tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e446" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e417" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
          <change when="2019-10-28" who="#pers_TG" xml:id="d4e412" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
