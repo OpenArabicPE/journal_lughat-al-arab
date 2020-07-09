@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e502" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
+      <revisionDesc><change when="2020-07-09" who="#pers_TG" xml:id="d3e510" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e502" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e481" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e449" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
@@ -283,13 +283,11 @@
          <tei:graphic change="#d4e444" mimeType="image/jpeg" url="../images/sakhrit/oclc_472450345-v_1-i_11-img_456.jpg" xml:id="facs_456-g_2"/>
       </surface>
    </facsimile>
-   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar">
+   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar"><pb change="#d2e365 #d2e393 #d2e420 #d2e422" ed="print" edRef="#edition_1" facs="#facs_409" n="409" xml:id="pb_2.d2e531"/><front change="#d3e510"><tei:div change="#d3e510" type="masthead"><tei:bibl><title change="#d2e296" level="j" xml:lang="ar">لغة العرب</title><lb/><title change="#d2e296" level="j" type="sub" xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</title><lb/><tei:biblScope unit="issue" from="11" to="11">الجزء ١١</tei:biblScope> من <tei:biblScope unit="volume" from="1" to="1">السنة ١</tei:biblScope> عن <date calendar="#cal_islamic" xml:lang="ar" from="1912-04-18" to="1912-05-17" from-custom="1330-05-01" to-custom="1330-05-30" datingMethod="#cal_islamic">شهر جمادى الاولى سنة ١٣٣٠</date> = <date calendar="#cal_gregorian" xml:lang="ar" from="1912-04-01" to="1912-04-30">شهر نيسان سنة ١٩١٢</date></tei:bibl></tei:div></front>
       <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P409.xhtml" ed="shamela" n="n1-p409" xml:id="pb_1.d2e303"/>
-      <pb change="#d2e365 #d2e393 #d2e420 #d2e422" ed="print" edRef="#edition_1" facs="#facs_409" n="409" xml:id="pb_2.d2e531"/>
+      
       <body change="#d2e296" xml:id="body_1.d2e305">
-         <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_1.d2e307">
-            <head change="#d2e296" xml:id="head_1.d2e309">العدد  <num change="#d2e258 #d2e296" type="auto-markup" value="11" xml:id="num_1.d2e311" xml:lang="ar">١١</num> </head>
-         </div>
+         
          <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_2.d2e316">
             <head change="#d2e296" xml:id="head_2.d2e318">نظر <lb change="#d2e420 #d2e422" ed="print" edRef="#edition_1" xml:id="lb_1.d2e548"/>تاريخ لغوي انتقادي</head>
             <note change="#d2e422" place="inline" type="bibliographic" xml:id="note_1.d2e551"><p change="#d2e73 #d2e296" xml:id="p_2.d2e324"><bibl change="#d2e422" xml:id="bibl_1.d2e553">بعث إلينا حضرة الكاتب اللوذعي، والشاب الألمعي، <persName change="#d2e422" xml:id="persName_6.d2e555">يوسف أفندي يعقوب</persName> مسيح بهذه المقالة</bibl> التي جمعت فأوعت، وزفها إلى القراء بحلة وشاها قلمه البليغ، ودبجتها براعته الحسناء، فنوجه إليها الأنظار ونستوقف على أفنانها أطيار الأفكار</p><p change="#d2e73 #d2e296" xml:id="p_3.d2e327">(<title change="#d2e296 #d5e398" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_8.d2e329">لغة العرب</title>)</p></note>

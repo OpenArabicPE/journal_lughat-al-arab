@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e459" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
+      <revisionDesc><change when="2020-07-09" who="#pers_TG" xml:id="d3e467" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e459" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e438" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e408" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
@@ -248,13 +248,11 @@
          <tei:graphic change="#d4e403" mimeType="image/jpeg" url="../images/sakhrit/oclc_472450345-v_1-i_3-img_120.jpg" xml:id="facs_120-g_2"/>
       </surface>
    </facsimile>
-   <text change="#d2e282" xml:id="text_1.d2e287" xml:lang="ar">
+   <text change="#d2e282" xml:id="text_1.d2e287" xml:lang="ar"><pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_81" n="81" xml:id="pb_2.d2e473"/><front change="#d3e467"><tei:div change="#d3e467" type="masthead"><tei:bibl><title change="#d2e282" level="j" xml:lang="ar">لغة العرب</title><lb/><title change="#d2e282" level="j" type="sub" xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</title><lb/><tei:biblScope unit="issue" from="3" to="3">الجزء ٣</tei:biblScope> من <tei:biblScope unit="volume" from="1" to="1">السنة ١</tei:biblScope> عن <date calendar="#cal_islamic" xml:lang="ar" from="1911-08-26" to="1911-09-24" from-custom="1329-09-01" to-custom="1329-09-30" datingMethod="#cal_islamic">شهر رمضان سنة ١٣٢٩</date> = <date calendar="#cal_gregorian" xml:lang="ar" from="1911-09-01" to="1911-09-30">شهر ايلول سنة ١٩١١</date></tei:bibl></tei:div></front>
       <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P81.xhtml" ed="shamela" n="n1-p81" xml:id="pb_1.d2e289"/>
-      <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_81" n="81" xml:id="pb_2.d2e473"/>
+      
       <body change="#d2e282" xml:id="body_1.d2e291">
-         <div change="#d2e64 #d2e282" subtype="article" type="item" xml:id="div_1.d2e293">
-            <head change="#d2e282" xml:id="head_1.d2e295">العدد <num change="#d2e258 #d2e282" type="auto-markup" value="3" xml:id="num_1.d2e297" xml:lang="ar">٣</num> </head>
-         </div>
+         
          <div change="#d2e64 #d2e282" subtype="article" type="item" xml:id="div_2.d2e302">
             <head change="#d2e282" xml:id="head_2.d2e304">آثار سامراء الخالية وسامراء الحالية</head>
             <p change="#d2e73 #d2e282" xml:id="p_1.d2e307">سامراء من المدن القديمة الحضارة والعمران، وقد سبق وجودها ظهور الإسلام بقرون عديدة، ومن بعد أن بلغت ابعد شأوٍ في المدينة، أخذت بالهبوط والهوى شان كل موجود، حتى كان عصر المعتصم فقام وبناها ثم نزلها <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e282" datingMethod="#cal_islamic" notAfter="0836-12-17" notBefore="0835-12-30" type="auto-markup" when-custom="0221" xml:id="date_3.d2e309">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="221" xml:id="num_1.d2e311" xml:lang="ar">٢٢١</num> </date> هـ ( <date calendar="#cal_gregorian" change="#d2e298 #d2e381" when="0836" xml:id="date_4.d2e499"> <num change="#d2e258 #d2e282" type="auto-markup" value="836" xml:id="num_1.d2e314" xml:lang="ar">٨٣٦</num>

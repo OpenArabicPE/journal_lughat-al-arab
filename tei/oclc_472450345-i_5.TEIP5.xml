@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e471" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
+      <revisionDesc><change when="2020-07-09" who="#pers_TG" xml:id="d3e479" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e471" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e450" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2020-04-15" who="#pers_TG" xml:lang="en">Validated and added mark-up of bibliographic information.</change>
@@ -249,14 +249,11 @@
          <tei:graphic change="#d4e412" mimeType="image/jpeg" url="../images/sakhrit/oclc_472450345-v_1-i_5-img_200.jpg" xml:id="facs_200-g_2"/>
       </surface>
    </facsimile>
-   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar">
+   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar"><pb change="#d2e345 #d2e372 #d2e388 #d2e390" ed="print" edRef="#edition_1" facs="#facs_161" n="161" xml:id="pb_2.d2e482"/><front change="#d3e479"><tei:div change="#d3e479" type="masthead"><tei:bibl><title change="#d2e296" level="j" xml:lang="ar">لغة العرب</title><lb/><title change="#d2e296" level="j" type="sub" xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</title><lb/><tei:biblScope unit="issue" from="5" to="5">الجزء ٥</tei:biblScope> من <tei:biblScope unit="volume" from="1" to="1">السنة ١</tei:biblScope> عن <date calendar="#cal_islamic" xml:lang="ar" from="1911-10-24" to="1911-11-22" from-custom="1329-11-01" to-custom="1329-11-30" datingMethod="#cal_islamic">شهر ذو القعدة سنة ١٣٢٩</date> = <date calendar="#cal_gregorian" xml:lang="ar" from="1911-11-01" to="1911-11-30">شهر تسرين الثاني سنة ١٩١١</date></tei:bibl></tei:div></front>
       <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P161.xhtml" ed="shamela" n="n1-p161" xml:id="pb_1.d2e303"/>
-      <pb change="#d2e345 #d2e372 #d2e388 #d2e390" ed="print" edRef="#edition_1" facs="#facs_161" n="161" xml:id="pb_2.d2e482"/>
+      
       <body change="#d2e296" xml:id="body_1.d2e305">
-         <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_1.d2e307">
-            <head change="#d2e296" xml:id="head_1.d2e309">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="5" xml:id="num_1.d2e311" xml:lang="ar">٥</num> </head>
-            <byline change="#d2e219 #d2e296" xml:id="byline_1.d2e315"> - بتاريخ: <date change="#d2e296" when="1911-11-01" xml:id="date_3.d2e317"> <num change="#d2e258 #d2e296" type="auto-markup" value="1911" xml:id="num_1.d2e319" xml:lang="ar">١٩١١</num> - <num change="#d2e258 #d2e296" type="auto-markup" value="11" xml:id="num_1.d2e322" xml:lang="ar">١١</num> - <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e325" xml:lang="ar">١</num> </date> </byline>
-         </div>
+         
          <div change="#d2e64 #d2e296" next="oclc_472450345-i_9.TEIP5.xml#div_3.d2e568" subtype="article" type="item" xml:id="div_2.d2e330">
             <head change="#d2e296" xml:id="head_2.d2e332">وصف أطلال سامراء</head>
             <p change="#d2e73 #d2e296" xml:id="p_1.d2e335">إذا خرجت من سامراء وصرت وراء سورها، وقعت في مسجد (الملوية)، وذلك على بعد <num change="#d2e258 #d2e296" type="auto-markup" value="500" xml:id="num_1.d2e337" xml:lang="ar">٥٠٠</num> متر تقريبا: وهو هذا الجامع الذي قال عنه اليعقوبي: (وبنى المتوكل بن المعتصم المسجد الجامع في أول الحير في موضع واسع خارج المنازل لا يتصل به شيء من القطائع والأسواق وأتقنه ووسعه واحكم بناءه وجعل فيه فوارة ماء (أي شاذروانا) لا ينقطع ماؤها، وجعل الطرق إليه من ثلثة صفوف واسعة عظيمة من الشارع الذي يأخذ من وادي إبراهيم بن رياح، في كل صف حوانيت فيها أصناف التجارات والصناعات والبياعات، عرض كل صف مائة <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P162.xhtml" ed="shamela" n="n1-p162" xml:id="pb_2.d2e340"/> <pb change="#d2e345 #d2e372 #d2e388 #d2e390" ed="print" edRef="#edition_1" facs="#facs_162" n="162" xml:id="pb_4.d2e522"/> ذراع بالذراع السوداء، لئلا يضيق عليه الدخول إلى المسجد إذا حضر المسجد في الجميع في جيوشه وجموعه وبخيلة ورجله، ومن كل صفٍ إلى الصف الذي يليه دروب وسكك فيها قطائع جماعة من عامة الناس، فاتسعت على الناس المنازل والدور، واتسع أهل الأسواق والمهن والصناعات في تلك الحوانيت والأسواق التي في صفوف المسجد الجامع.) اهـ.</p>
