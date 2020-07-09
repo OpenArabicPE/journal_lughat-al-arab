@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e487" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
+      <revisionDesc><change when="2020-07-09" who="#pers_TG" xml:id="d3e495" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e487" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e465" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e435" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
@@ -282,13 +282,11 @@
          <tei:graphic change="#d4e430" mimeType="image/jpeg" url="../images/sakhrit/oclc_472450345-v_2-i_6-img_264.jpg" xml:id="facs_264-g_2"/>
       </surface>
    </facsimile>
-   <text change="#d2e282" xml:id="text_1.d2e287" xml:lang="ar">
+   <text change="#d2e282" xml:id="text_1.d2e287" xml:lang="ar"><pb change="#d2e362 #d2e390 #d2e406 #d2e408" ed="print" edRef="#edition_1" facs="#facs_217" n="217" xml:id="pb_2.d2e517"/><front change="#d3e495"><tei:div change="#d3e495" type="masthead"><tei:bibl><title change="#d2e282" level="j" xml:lang="ar">لغة العرب</title><lb/><title change="#d2e282" level="j" type="sub" xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</title><lb/><tei:biblScope unit="issue" from="6" to="6">الجزء ٦</tei:biblScope> من <tei:biblScope unit="volume" from="2" to="2">السنة ٢</tei:biblScope> عن <date calendar="#cal_islamic" xml:lang="ar" from="1912-12-11" to="1913-01-09" from-custom="1331-01-01" to-custom="1331-01-30" datingMethod="#cal_islamic">شهر محرم سنة ١٣٣١</date> = <date calendar="#cal_gregorian" xml:lang="ar" from="1912-12-01" to="1912-12-31">شهر كانون الاول سنة ١٩١٢</date></tei:bibl></tei:div></front>
       <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P705.xhtml" ed="shamela" n="n2-p217" xml:id="pb_1.d2e289"/>
-      <pb change="#d2e362 #d2e390 #d2e406 #d2e408" ed="print" edRef="#edition_1" facs="#facs_217" n="217" xml:id="pb_2.d2e517"/>
+      
       <body change="#d2e282" xml:id="body_1.d2e291">
-         <div change="#d2e64 #d2e282" subtype="article" type="item" xml:id="div_1.d2e293">
-            <head change="#d2e282" xml:id="head_1.d2e295">العدد  <num change="#d2e258 #d2e282" type="auto-markup" value="18" xml:id="num_1.d2e297" xml:lang="ar">١٨</num> </head>
-         </div>
+         
          <div change="#d2e64 #d2e282" subtype="article" type="item" xml:id="div_2.d2e302">
             <head change="#d2e282" xml:id="head_2.d2e304">السويديون</head>
             <p change="#d2e73 #d2e282" xml:id="p_1.d2e307">السويديون أسرة شريفة كريمة عريقة الفضل والنسب والعلم والأدب نبغ منها رجال مبرزون في فنون المعارف والآداب العربية في عصور مختلفة وقد صنفوا التصانيف المفيدة والتآليف العديدة فأفادوا من جاء بعدهم ببعضها إن لم يكن بجميعها كما استفادوا هم من الذين قبلهم.</p>

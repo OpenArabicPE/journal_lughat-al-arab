@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2020-07-07" who="#pers_TG" xml:id="d3e502" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
+      <revisionDesc><change when="2020-07-09" who="#pers_TG" xml:id="d3e510" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e502" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change>
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e481" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e451" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change>
@@ -251,14 +251,11 @@
          <tei:graphic change="#d4e445" mimeType="image/jpeg" url="../images/sakhrit/oclc_472450345-v_2-i_1-img_040.jpg" xml:id="facs_40-g_2"/>
       </surface>
    </facsimile>
-   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar">
+   <text change="#d2e296" xml:id="text_1.d2e301" xml:lang="ar"><pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_1" n="1" xml:id="pb_2.d2e515"/><front change="#d3e510"><tei:div change="#d3e510" type="masthead"><tei:bibl><title change="#d2e296" level="j" xml:lang="ar">لغة العرب</title><lb/><title change="#d2e296" level="j" type="sub" xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</title><lb/><tei:biblScope unit="issue" from="1" to="1">الجزء ١</tei:biblScope> من <tei:biblScope unit="volume" from="2" to="2">السنة ٢</tei:biblScope> عن <date calendar="#cal_islamic" xml:lang="ar" from="1912-06-16" to="1912-07-15" from-custom="1330-07-01" to-custom="1330-07-30" datingMethod="#cal_islamic">شهر رجب سنة ١٣٣٠</date> = <date calendar="#cal_gregorian" xml:lang="ar" from="1912-06-01" to="1912-06-30">شهر حزيران سنة ١٩١٢</date></tei:bibl></tei:div></front>
       <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P497.xhtml" ed="shamela" n="n2-p1" xml:id="pb_1.d2e303"/>
-      <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_1" n="1" xml:id="pb_2.d2e515"/>
+      
       <body change="#d2e296" xml:id="body_1.d2e305">
-         <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_1.d2e307">
-            <head change="#d2e296" xml:id="head_1.d2e309">العدد <num change="#d2e258 #d2e296" type="auto-markup" value="13" xml:id="num_1.d2e311" xml:lang="ar">١٣</num> </head>
-            <byline change="#d2e219 #d2e296" xml:id="byline_1.d2e315"> - بتاريخ: <date change="#d2e296" when="1912-06-01" xml:id="date_3.d2e317"> <num change="#d2e258 #d2e296" type="auto-markup" value="1912" xml:id="num_1.d2e319" xml:lang="ar">١٩١٢</num> - <num change="#d2e258 #d2e296" type="auto-markup" value="6" xml:id="num_1.d2e322" xml:lang="ar">٦</num> - <num change="#d2e258 #d2e296" type="auto-markup" value="1" xml:id="num_1.d2e325" xml:lang="ar">١</num> </date> </byline>
-         </div>
+         
          <div change="#d2e64 #d2e296" subtype="article" type="item" xml:id="div_2.d2e330">
             <head change="#d2e296" xml:id="head_2.d2e332">سنتنا الثانية</head>
             <p change="#d2e73 #d2e296" xml:id="p_1.d2e335">قد بلغنا، بحوله تعالى، السنة الثانية من مجلتنا؛ وقد رأينا من حسن التفات العلماء إلينا على اختلاف مذاهبهم وديارهم، ما يدفعنا إلى إتمام ما بدأنا به؛ ومن يطالع أعداد مجلتنا من أولها إلى آخرها، يرى أننا لم نبتعد عن الخطة التي اختططناها لأنفسنا ولو قيد ذرة.</p>
