@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
 <TEI change="#d2e477" next="oclc_472450345-i_4.TEIP5.xml" prev="oclc_472450345-i_2.TEIP5.xml" xml:id="oclc_472450345-i_3" xml:lang="" xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:oape="https://openarabicpe.github.io/ns" xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader change="#d2e282 #d2e477" xml:id="teiHeader_1.d2e7" xml:lang="">
@@ -18,8 +22,8 @@
             </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e282 #d2e408" xml:id="publicationStmt_1.d2e41" xml:lang="en">
-            <authority change="#d2e462 #d2e477" xml:id="authority_1.d2e52" xml:lang="en"><tei:persName change="#d2e477"  xml:lang="en"><tei:forename change="#d2e462 #d2e477"
-               xml:id="forename_2.d2e54" xml:lang="en">Till</tei:forename><tei:surname change="#d2e462 #d2e477" xml:id="surname_2.d2e55" xml:lang="en">Grallert</tei:surname></tei:persName></authority>
+            <authority change="#d2e462 #d2e477" xml:id="authority_1.d2e52" xml:lang="en"><tei:persName change="#d2e477" xml:lang="en"><tei:forename change="#d2e462 #d2e477" xml:id="forename_2.d2e54"
+               xml:lang="en">Till</tei:forename><tei:surname change="#d2e462 #d2e477" xml:id="surname_2.d2e55" xml:lang="en">Grallert</tei:surname></tei:persName></authority>
             <pubPlace change="#d2e462 #d2e477" xml:id="pubPlace_1.d2e57" xml:lang="en"><placeName change="#d2e462 #d2e477" xml:id="placeName_1.d2e58" xml:lang="en">Beirut</placeName></pubPlace>
             <date change="#d2e462 #d2e477" when="2019" xml:id="date_1.d2e60" xml:lang="en">2019</date>
             <availability change="#d2e462 #d2e477" status="restricted" xml:id="availability_1.d2e63" xml:lang="en">
@@ -42,10 +46,10 @@
                   <idno change="#d2e282 #d2e477" type="URI" xml:id="idno_5.d2e93" xml:lang="ar">http://shamela.ws/index.php/book/36540</idno>
                   <textLang change="#d2e282" mainLang="ar" xml:id="textLang_1.d2e96"/>
                   <editor change="#d2e282" xml:id="editor_1.d2e98" xml:lang="ar"> <persName change="#d2e282" ref="oape:pers:227 viaf:39370998" xml:id="persName_3.d2e100" xml:lang="ar"> <roleName
-                     change="#d2e282" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar" subtype="religious">الأب</roleName> <forename change="#d2e282" xml:id="forename_2.d2e105" xml:lang="ar">أنستاس</forename>
-                     <forename change="#d2e282" xml:id="forename_3.d2e108" xml:lang="ar">ماري</forename> <surname change="#d2e282" xml:id="surname_2.d2e111" xml:lang="ar"> <addName change="#d2e282"
-                     type="nisbah" xml:id="addName_1.d2e113" xml:lang="ar">الكرملي</addName> </surname> </persName> <persName change="#d2e282" xml:id="persName_4.d2e118" xml:lang="ar-Latn-x-ijmes"
-                     >al-Abb Anastās Mārī al-Karamlī</persName> </editor>
+                     change="#d2e282" subtype="religious" type="rank" xml:id="roleName_1.d2e102" xml:lang="ar">الأب</roleName> <forename change="#d2e282" xml:id="forename_2.d2e105" xml:lang="ar"
+                     >أنستاس</forename> <forename change="#d2e282" xml:id="forename_3.d2e108" xml:lang="ar">ماري</forename> <surname change="#d2e282" xml:id="surname_2.d2e111" xml:lang="ar"> <addName
+                     change="#d2e282" type="nisbah" xml:id="addName_1.d2e113" xml:lang="ar">الكرملي</addName> </surname> </persName> <persName change="#d2e282" xml:id="persName_4.d2e118"
+                     xml:lang="ar-Latn-x-ijmes">al-Abb Anastās Mārī al-Karamlī</persName> </editor>
                   <editor change="#d2e282" xml:id="editor_2.d2e122" xml:lang="ar"> <persName change="#d2e230" ref="oape:pers:396" xml:id="persName_195.d1e5884" xml:lang="ar"> <forename
                      xml:id="forename_224.d1e5885" xml:lang="ar">كاظم</forename> <surname xml:id="surname_195.d1e5888" xml:lang="ar"> <addName change="#d2e282 #d2e477" type="nisbah"
                      xml:id="addName_2.d2e131" xml:lang="ar">الدجيلي</addName> </surname> </persName> </editor>
@@ -54,7 +58,7 @@
                      <pubPlace change="#d2e282" xml:id="pubPlace_2.d2e142" xml:lang="ar"> <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_1.d2e144" xml:lang="ar"
                         >بغداد</placeName> <placeName change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_2.d2e147" xml:lang="ar-Latn-x-ijmes">Baghdād</placeName> <placeName
                         change="#d5e244 #d2e282" ref="oape:place:216 geon:98182" xml:id="placeName_3.d2e150" xml:lang="en">Baghdad</placeName> </pubPlace>
-                     <date change="#d2e282 #d3e459" datingMethod="#cal_islamic" when="1911-08-26" when-custom="1329-09-01" xml:id="date_2.d2e154" type="official"/>
+                     <date change="#d2e282 #d3e459" datingMethod="#cal_islamic" type="official" when="1911-08-26" when-custom="1329-09-01" xml:id="date_2.d2e154"/>
                   </imprint>
                   <biblScope change="#d2e215 #d2e282" from="1" to="1" unit="volume" xml:id="biblScope_1.d2e157"/>
                   <biblScope change="#d2e215 #d2e282" from="3" to="3" unit="issue" xml:id="biblScope_2.d2e159"/>
@@ -74,13 +78,13 @@
          <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e438" xml:lang="en">Added references to local authority file (<tei:ref change="#d2e462 #d2e477"
             target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:id="ref_1.d2e198" xml:lang="en"
             >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e201" xml:lang="en"
-            >titles</tei:gi>s without such references based on  <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e203" xml:lang="en"
+            >titles</tei:gi>s without such references based on <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e203" xml:lang="en"
             >biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <tei:change change="#d2e462" when="2020-04-24" who="#pers_TG" xml:id="change_3.d2e206" xml:lang="en">Automatically wrapped all <tag change="#d2e462 #d2e477" xml:id="tag_1.d2e208"
             xml:lang="en">title level="j"</tag> preceded by مجلة or جريدة in a <tag change="#d2e462 #d2e477" xml:id="tag_2.d2e210" xml:lang="en">bibl type="periodical"</tag></tei:change>
          <change when="2019-11-28" who="#pers_TG" xml:id="d2e408" xml:lang="en">Added <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e214" xml:lang="en">publicationStmt</tei:gi>.</change>
-         <change when="2019-10-28" who="#pers_TG" xml:id="d4e403" xml:lang="en">Added links to local facsimile files for each <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e219"
-            xml:lang="en">surface</tei:gi> element.</change>
+         <change when="2019-10-28" who="#pers_TG" xml:id="d4e403" xml:lang="en">Added links to local facsimile files for each <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e219" xml:lang="en"
+            >surface</tei:gi> element.</change>
          <tei:change when="2019-09-23" who="#pers_TG" xml:id="d5e392" xml:lang="en">Added references to local authority file (<tei:ref change="#d2e462 #d2e477"
             target="../data/tei/gazetteer_levant-phd.TEIP5.xml" xml:id="ref_1.d2e225" xml:lang="en">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi
             change="#d2e462 #d2e477" xml:id="gi_2.d2e228" xml:lang="en">placeName</tei:gi>s without such references based on <tei:gi change="#d2e462 #d2e477" xml:id="gi_2.d2e230" xml:lang="en"
@@ -119,7 +123,7 @@
             xml:id="att_4.d2e257" xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change>
          <change when="2019-03-28" who="#pers_TG" xml:id="d3e274" xml:lang="en">Automatically added computed Gregorian dates to the <att change="#d2e282 #d2e477" xml:id="att_1.d2e170" xml:lang="en"
             >when</att> attributes of all non-Gregorian <gi change="#d2e282 #d2e477" xml:id="gi_1.d2e173" xml:lang="en">date</gi> elements.</change>
-         <change when="2019-03-28" who="#pers_TG" xml:id="d2e266" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <gi change="#d2e282" xml:id="gi_2.d2e178"
+         <change when="2019-03-28" who="#pers_TG" xml:id="d2e266" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <gi change="#d2e282" xml:id="gi_2.d2e17"
             xml:lang="en">num</gi> node in <gi change="#d2e282" xml:id="gi_2.d2e181" xml:lang="en">date</gi>.</change>
          <change when="2019-03-28" who="#pers_TG" xml:id="d2e258" xml:lang="en">Wrapped all numerals in <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e186" xml:lang="en">num</gi> with <att
             change="#d2e282 #d2e477" xml:id="att_2.d2e189" xml:lang="en"
@@ -131,9 +135,9 @@
          <change when="2019-03-27" who="#pers_TG" xml:id="d2e230" xml:lang="en">Added references to local authority file (<ref change="#d2e282 #d2e477"
             target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e205" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi
             change="#d2e282 #d2e477" xml:id="gi_2.d2e208" xml:lang="en">persName</gi>s without such references based on <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e211" xml:lang="en"
-            >person</gi>s in the local authority file. If the source <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e214" xml:lang="en"
+            >person</gi>s in the local authority file. If the source <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e21" xml:lang="en"
             >persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
-         <change change="#d2e477" when="2019-03-27" who="#pers_TG" xml:id="d2e219" xml:lang="">Marked final <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e219" xml:lang="">p</gi>s inside <gi
+         <change change="#d2e477" when="2019-03-27" who="#pers_TG" xml:id="d2e219" xml:lang="">Marked final <gi change="#d2e282 #d2e477" xml:id="gi_2.d2e21289" xml:lang="">p</gi>s inside <gi
             change="#d2e282 #d2e477" xml:id="gi_2.d2e222" xml:lang="">div</gi>s as bylines (<gi change="#d2e282 #d2e477" xml:id="gi_2.d2e225" xml:lang=""
             >byline</gi>) if they did not exceed a string length of 60.</change>
          <change change="#d2e477" when="2019-03-27" who="#pers_TG" xml:id="d2e215" xml:lang="">Added volume and issue numbers on the basis of the file names.</change>
@@ -379,11 +383,11 @@
                change="#d2e258 #d2e282" type="auto-markup" value="262" xml:id="num_1.d2e389" xml:lang="ar">٢٦٢</num> </date> هـ ( <num change="#d2e258 #d2e282" type="auto-markup" value="836"
                xml:id="num_1.d2e392" xml:lang="ar">٨٣٦</num> - <date calendar="#cal_gregorian" change="#d2e298 #d2e381 #d2e477" when="0876" xml:id="date_9.d2e598" xml:lang="ar"> <num
                change="#d2e258 #d2e282" type="auto-markup" value="876" xml:id="num_1.d2e395" xml:lang="ar">٨٧٦</num>
-               </date> م) بل ومرجع دولة الخلافة العظمى، وان شئت فقل بدون غلو ومبالغته (سرة العالم المتمدن) في ذلك الأوان، ولذا تراكمت فيها كنوز لا يفي تعدادها اللسان، وثروة تخالها من نتاج عالم الخيال. لا من نتاج عالم المثال. وبعبارة أخرى: كانت سامراء تحقيق حكايات</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_14.d2e399" xml:lang="ar">ألف ليلة وليلة.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_15.d2e402" xml:lang="ar">التي تخال أنها من أوضاع الوهم والتصور الفارغ. <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P85.xhtml"
-               ed="shamela" n="n1-p85" xml:id="pb_5.d2e404"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_85" n="85" xml:id="pb_10.d2e612"
-               /> على أن تاريخ سامراء ليس من الأمور المجهولة. فان ما أثبته مؤرخو العرب ووصافوا بلدانهم المعاصرون لزهوها وغضارتها كالطبري والبلاذري واليعقوبي وغيرهم لا يبقى ريباً في صدر المستريب. لا بل قد كتب اليعقوبي فصلاً نفيساً مفيداً للمسافر فائدة تشبه فائدة كتاب (بيدكر) اليوم ليطلع على ما يعثر عليه في تطوافه في سر من رأى وقد عقد هذا الفصل في مؤلفه الجليل (كتاب البلدان).</p>
+               </date> م) بل ومرجع دولة الخلافة العظمى، وان شئت فقل بدون غلو ومبالغته (سرة العالم المتمدن) في ذلك الأوان، ولذا تراكمت فيها كنوز لا يفي تعدادها اللسان، وثروة تخالها من نتاج عالم الخيال. لا من نتاج عالم المثال. وبعبارة أخرى: كانت سامراء تحقيق حكايات <title
+               level="m">ألف ليلة وليلة</title>. التي تخال أنها من أوضاع الوهم والتصور الفارغ. <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P85.xhtml" ed="shamela" n="n1-p85"
+               xml:id="pb_5.d2e404"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_85" n="85" xml:id="pb_10.d2e612"/> </p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:lang="ar"
+               >على أن تاريخ سامراء ليس من الأمور المجهولة. فان ما أثبته مؤرخو العرب ووصافوا بلدانهم المعاصرون لزهوها وغضارتها كالطبري والبلاذري واليعقوبي وغيرهم لا يبقى ريباً في صدر المستريب. لا بل قد كتب اليعقوبي فصلاً نفيساً مفيداً للمسافر فائدة تشبه فائدة كتاب (بيدكر) اليوم ليطلع على ما يعثر عليه في تطوافه في سر من رأى وقد عقد هذا الفصل في مؤلفه الجليل (كتاب البلدان).</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_16.d2e408" xml:lang="ar"
                >أما الأسباب التي حملت المعتصم بالله بن هارون الرشيد على بناء هذه المدينة الطائرة الشهرة فكانت سياسية ودينية معاً. فان الخليفة المذكور كان ينتصر للمعتزلة وأي انتصار حتى أن مسلمي <placeName
                change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e410" xml:lang="ar"
@@ -406,16 +410,18 @@
                >وأذ لم تخرب هذه المدينة لا بالحرب ولا بالحرق ولا بالاكتساح ولا بزلزلة الأرض ولا بمرض من الأمراض الوافدة الجارفة بل بمهاجرة أصحابها لها، مهاجرة متصلة الأوائل بالأواخر، فلا يأمل الناقب العثور على الكنوز المذكورة في كتاب ألف ليلة وليلة لان سكانها اخذوا معهم <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P87.xhtml" ed="shamela" n="n1-p87" xml:id="pb_7.d2e439"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_87" n="87" xml:id="pb_14.d2e651"/> عند انحدارهم إلى <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e441" xml:lang="ar"
-               >بغداد</placeName> على دجلة كل ما يحمل وينقل ويفيدهم ولو فائدة زهيدة. حتى انهم اخذوا معهم مرادي السقوف وحراديها وأبواب الدور. وكل ما ضاهى هذه الأمور. على أن العلماء من المنقبين، أهل البحث والتحقيق، لا يطلبون اليوم الركائز والدفائن. ولا الإغلاق ونفائس المعادن. إنما همهم تنوير الأفكار في ما يتعلق بأمر تاريخ عمران ابن آدم في سابق العهد. فالعراق العربي هو من البلاد التي يحق للعلماء أن يتباهوا ويتفاخروا بأرضه، لما فيه من الآثار العادية، لكل عصر من العصور الخالية، ومع ذلك لا ترى إلا أناسا يعدون على الأصابع عرفوا مكانه هذه الديار الرفيعة القدر، وأنزلوها حق منزلتها.</p>
+               >بغداد</placeName> على دجلة كل ما يحمل وينقل ويفيدهم ولو فائدة زهيدة. حتى انهم اخذوا معهم مرادي السقوف وحراديها وأبواب الدور. وكل ما ضاهى هذه الأمور. </p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:lang="ar"
+               >على أن العلماء من المنقبين، أهل البحث والتحقيق، لا يطلبون اليوم الركائز والدفائن. ولا الإغلاق ونفائس المعادن. إنما همهم تنوير الأفكار في ما يتعلق بأمر تاريخ عمران ابن آدم في سابق العهد. فالعراق العربي هو من البلاد التي يحق للعلماء أن يتباهوا ويتفاخروا بأرضه، لما فيه من الآثار العادية، لكل عصر من العصور الخالية، ومع ذلك لا ترى إلا أناسا يعدون على الأصابع عرفوا مكانه هذه الديار الرفيعة القدر، وأنزلوها حق منزلتها.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_21.d2e445" xml:lang="ar"
                >وعلى كل حال فان التنقيب الحديث الطريقة العلمية يرى لأول مرة في سامراء، وهي الطريقة التي اتبعت في البحث عن آثار الجزيرة (بين النهرين) وبلاد الروم (بر <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:238 geon:323835" xml:id="placeName_11.d2e659" xml:lang="ar">الأناضول</placeName>) وبلاد اليونان منذ <num change="#d2e258 #d2e282"
                type="auto-markup" value="70" xml:id="num_1.d2e447" xml:lang="ar"
                >٧٠</num> سنة. وذلك نشداً لضالة العمران الإسلامي في الديار المذكورة، ومن ثم فالتنقيب الجاري اليوم في سامراء هو جليل القدر والخطر ووحيد المثال، لان الدكتور العلامة هرتسفلد يتوخى الطريقة القربى للبلوغ إلى تحقيق ما في الأمنية.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_22.d2e452" xml:lang="ar"
-               >هذا فضلا عن أن البحث عن حضارة الإسلام اخذ مأخذاً عجيباً في ديار الإفرنج منذ عشرين عاماً، لاسيما بعدما أثبته وقرره علماء أذكياء نجباء لا يشق لهم غبار، يعدون من</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_23.d2e455" xml:lang="ar">الطبقة الأولى في التدقيق والتحقيق، <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P88.xhtml" ed="shamela"
-               n="n1-p88" xml:id="pb_8.d2e457"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_88" n="88" xml:id="pb_16.d2e674"
+               >هذا فضلا عن أن البحث عن حضارة الإسلام اخذ مأخذاً عجيباً في ديار الإفرنج منذ عشرين عاماً، لاسيما بعدما أثبته وقرره علماء أذكياء نجباء لا يشق لهم غبار، يعدون من الطبقة الأولى في التدقيق والتحقيق، <pb
+               change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P88.xhtml" ed="shamela" n="n1-p88" xml:id="pb_8.d2e457"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
+               facs="#facs_88" n="88" xml:id="pb_16.d2e674"
                /> مثل تيودور نولدكه في استراسبورغ. وانياز غولدزهير في بودابست وككبار المستشرقين الهولنديين مثل ده غوية واسنوك هوغرنية وغيرهما الذين غاصوا على دور الحقائق في بحار المشكلات والمعضلات المتعلقة بالإسلام، على وجه لم يسبقهم إليه سابق.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_24.d2e460" xml:lang="ar"
                >ومما ساعد أيضاً في توسيع نطاق العلوم العربية (ديوان الرقم العربية) للدكتور مكس ون برحم وكتاب تاريخ الإسلام للبرنس ليونه كائتاني وكتاب الموسوعات الإسلامية الذي يولف بمراقبة الأستاذ هوتسما في ليدن وبنظارة مجامع العلم الدولية الأوربية ففي هذا الكتاب بل البحر المحيط تجد جميع المباحث المتعلقة بديار الإسلام كلها قاطبة وذلك من بلاد الأندلس إلى الصين، مع ذكر جميع الألفاظ التي وردت على السنة المسلمين، أوعنت على بالهم، أو خطرت في خيالهم، أو أبرزته مخيلتهم وقريحتهم، أو اتصلت إليه حضارتهم الخاصة بهم. أما الكتبة الذين يشتركون في إنشاء هذا الديوان الواسع المباحث والأكناف فهم عبارة عن جيش لهام، أسلحته الأقلام، وميدانه مطالب العلماء الأعلام، وقد جمعت أبطاله الصناديد المغاوير، من جميع الديار والأصقاع، وهم يدأبون <pb
@@ -432,8 +438,9 @@
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_28.d2e478" xml:lang="ar"
                >فقد ثبت لديك بعد هذا كله أن لا غاية لهؤلاء العلماء الإعلام إلا الهيام بالصناعة الإسلامية الفنية ولا سيما الهيام بفن الأبنية، والأسلوب المتخذة لتزيينه وتزويقه وتحسينه، أساليب متحدة به اتحاداً لا محيد عنه. <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P90.xhtml" ed="shamela" n="n1-p90" xml:id="pb_10.d2e480"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
-               facs="#facs_90" n="90" xml:id="pb_20.d2e700"
-               /> ولقد كانت الصنائع الفنية الإسلامية في القرن الثالث للهجرة، تكون مجهولة إلى عهدنا. ولهذا أصبحت نتائج التنقيبات في الغابة القصوى من الخطر والشان العلمي، وأول ما شرع به في سامراء كان رفع كل ما يغشى أخربة الجامع الأعظم الذي بناه المتوكل على الله، والمنارة الغريبة البناء الموجودة فيه، وهي المنارة المعروفة باسم (الملوية) وقد بنيت على غرار برج بابل أو الزقورة أو الذكورة البابلية.</p>
+               facs="#facs_90" n="90" xml:id="pb_20.d2e700"/> </p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:lang="ar"
+               >ولقد كانت الصنائع الفنية الإسلامية في القرن الثالث للهجرة، تكون مجهولة إلى عهدنا. ولهذا أصبحت نتائج التنقيبات في الغابة القصوى من الخطر والشان العلمي، وأول ما شرع به في سامراء كان رفع كل ما يغشى أخربة الجامع الأعظم الذي بناه المتوكل على الله، والمنارة الغريبة البناء الموجودة فيه، وهي المنارة المعروفة باسم (الملوية) وقد بنيت على غرار برج بابل أو الزقورة أو الذكورة البابلية.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_29.d2e483" xml:lang="ar"
                >وبعد أن ظهر للعيان صحن الجامع بانت كل البيان البناية الداخلية وعمد الرخام وما يزينه في الداخل من نقوش مطبوعة وتصاوير ملونة وفسيفساء. ولقد دقق الدكتور هرتسفلد نظره في بعض دور الخاصة المجاورة للمدينة الحديثة فإذا هو أمام مدينة مدفونة في الشرق دفن بمبائي في الغرب. ووجد غرفاً وحجراً وردهاتٍ قد زينت جدرانها وغشيت حيطانها بتصاوير شرقية منقوشة نقشاً بارزاً وغائراً في الجص وهي في غاية البهاء والجمال، وكلها محفوظة احسن الحفظ، كان البناة قد غادروها قبل أن يدخلها أهل البحث. هذا ولا ترى النقش على الجص فقط بل انك تشاهد تصاوير ملونة في مواضع الجص الفارغة من النقوش، وهناك أيضاً تصاوير مختلفة الألوان بل وصور أناس كلها ملونة على أبدع مثال وهو أمر في غاية الندرة في تاريخ الصناعة الإسلامية أن فنية وان بنائية.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_30.d2e486" xml:lang="ar">وخلاصة القول انك تجد في سامراء كنوز فن ودفائن صناعة لم تسمع يمثلها من أفواه الناس والمسافرين، كما لم تشاهد العينان <pb
@@ -451,10 +458,11 @@
                facs="#facs_92" n="92" xml:id="pb_24.d2e731"
                /> العاجل. ومما يساعد على ذلك قانون الآثار والعاديات نفسه ذاك القانون الذي يمنع كل المنع نقل الآثار القديمة بأي وجهٍ كان. ومع ذلك فان المتاجرين بها يتخذون أدق الوسائل وأوفاها بالمطلوب لتحقيق أمانيهم، أي انهم يتوصلون إلى مشترى ما يريدون بدون أن يقعوا في شرك التبعة المشؤومة، لأنهم يتخذون من الظواهر ما ينيلهم مرغوبهم وينجيهم من البلايا التي يقع في مهاويها من لا يحسن مزاولة هذه التجارة وإذا أنعمت النظر في ما يباع ويشتري في أسواق باريس من الآثار العادية تجد ثلاثة أرباعها قادمة من البلاد العثمانية، وقد بعث بها إلى فرنسة خفيةً وتهريباً، فتباع هناك بأثمان باهضة ينتفع بها من يشتريها فتخسرها الدولة خسارة لا مقابل لها، بل ويخسرها أصحاب تلك الديار التي كانت فيها، لا بل ويفقد منافعها أصحاب دور التحف الإفرنجية والعثمانية كما يفقد منافعها من قد الهج بجمعها ليستفيد منها فائدة علمية، ومن يفقدها العلم وأصحابه كل الفقد لأنها تقع بيد جهلة لا يعرفون قدرها. أذلاهم لهم إلا هم جمع المال بأي واسطة كانت وعلى أي وجه يكون، أريد بهم تجار الآثار العادية في باريس.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_36.d2e509" xml:lang="ar"
-               >فمما تقدم ذكره وتقريره ترى النتائج المشؤومة التي تتولد من قانون حصر الآثار المثبت في قوانيين الدولة، وكيف انه مضر بالعلم. فإذا لابد من اتخاذ ما يبعد هذا الخطر ويفيد</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_37.d2e512" xml:lang="ar">الدولة والأمة ولهذا اعرض هذا الفكر: <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P93.xhtml" ed="shamela"
-               n="n1-p93" xml:id="pb_13.d2e514"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_93" n="93" xml:id="pb_26.d2e741"
-               /> إن قانون حصر الآثار القديمة لا يتكفل لنا أبداً بحفظها في محلها ولا في محل آخر خاص بها. وهي طامة كبرى لا يعرف عقباها الوخيمة إلا من يقدر التحف حق قدرها. وإننا لا نظن مثلاً أن المتحفة الشاهانية تعنى باتخاذ الوسائط اللازمة والناس المهرة لنزع ما على جدران وحيطان سامراء من المزينات والمزوقات والمحسنات البنائية وجعلها في صناديق ونقلها إلى الآستانة، لأنه قبل أن يخطر لها هذا الخاطر تسبقهم الأمطار والأرياح وسائر عوامل الجو إلى إيقاع الأضرار بهذه الكنوز الصناعية فضلاً عن وصول أيدي تجار العاديات إليها فتبعث بها ولا تبقى ولا تذر، وتنزع ما هنالك من عجب التصاوير والنقوش حتى لا تبقى لها أدنى اثر.</p>
+               >فمما تقدم ذكره وتقريره ترى النتائج المشؤومة التي تتولد من قانون حصر الآثار المثبت في قوانيين الدولة، وكيف انه مضر بالعلم. فإذا لابد من اتخاذ ما يبعد هذا الخطر ويفيد الدولة والأمة ولهذا اعرض هذا الفكر: <pb
+               change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P93.xhtml" ed="shamela" n="n1-p93" xml:id="pb_13.d2e514"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
+               facs="#facs_93" n="93" xml:id="pb_26.d2e741"/> </p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:lang="ar"
+               >إن قانون حصر الآثار القديمة لا يتكفل لنا أبداً بحفظها في محلها ولا في محل آخر خاص بها. وهي طامة كبرى لا يعرف عقباها الوخيمة إلا من يقدر التحف حق قدرها. وإننا لا نظن مثلاً أن المتحفة الشاهانية تعنى باتخاذ الوسائط اللازمة والناس المهرة لنزع ما على جدران وحيطان سامراء من المزينات والمزوقات والمحسنات البنائية وجعلها في صناديق ونقلها إلى الآستانة، لأنه قبل أن يخطر لها هذا الخاطر تسبقهم الأمطار والأرياح وسائر عوامل الجو إلى إيقاع الأضرار بهذه الكنوز الصناعية فضلاً عن وصول أيدي تجار العاديات إليها فتبعث بها ولا تبقى ولا تذر، وتنزع ما هنالك من عجب التصاوير والنقوش حتى لا تبقى لها أدنى اثر.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_38.d2e517" xml:lang="ar">نعم قد عني محبو الآثار في ديار <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:226 geon:360630"
                xml:id="placeName_11.d2e519" xml:lang="ar"
                >مصر</placeName> بحفظ ما يجدونه فيها وقد اخذوا جميع الوسائط اللازمة للانتفاع بما يكتشفونه. وربما كانت تلك الوسائط تضاهي الوسائط المتخذة في بلاد الافرنج، بل ولعلها تفوقها بكثير لحداثتها ووفائها بالغرض على احسن وجه، لكن أين بلادنا من ديار <placeName
@@ -469,161 +477,86 @@
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_40.d2e535" xml:lang="ar">مفاخرة تعود فائدتها علينا وعلى بلادنا العربية أن الله على كل شيء قدير وبالإجابة جدير.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_41.d2e538" xml:lang="ar"
                >وسنكتب في وصف سامراء ووصف ما شاهدناه فيها من الآثار الطوامس، والطلول الدوارس، وصفا يفيد متبعي الآثار، ومقتبسي الأخبار مما يدهش القارئ ويبهر السامع في العدد الآتي وما بعده أن شاء الله تعالى.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_42.d2e541" xml:lang="ar">للبحث صلة</p>
+            <closer change="#d2e73 #d2e282 #d2e477" xml:id="p_42.d2e541" xml:lang="ar"><ref>للبحث صلة</ref></closer>
             <byline change="#d2e219 #d2e282 #d2e477" xml:id="byline_1.d2e544" xml:lang="ar">م. <persName change="#d2e230 #d2e282 #d2e477" ref="oape:pers:396" xml:id="persName_6.d2e546" xml:lang="ar">
                <forename change="#d2e282" xml:id="forename_5.d2e548" xml:lang="ar">كاظم</forename> <surname change="#d2e282" xml:id="surname_4.d2e551" xml:lang="ar"> <addName change="#d2e282 #d2e477"
                type="nisbah" xml:id="addName_3.d2e553" xml:lang="ar">الدجيلي</addName> </surname> </persName> </byline>
          </div>
          <div change="#d2e64 #d2e282 #d2e477" subtype="article" type="item" xml:id="div_4.d2e559" xml:lang="ar">
             <head change="#d2e282 #d2e477" xml:id="head_4.d2e561" xml:lang="ar">يقظة العلم في ديار العراق</head>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_43.d2e564" xml:lang="ar">أسلفنا القول في العدد الأول من هذه
-               المجلة ما كان لأهل <placeName change="#d2e381 #d5e392 #d2e477"
-               ref="oape:place:209 geon:99237" xml:id="placeName_16.d2e796" xml:lang="ar">العراق</placeName> من
-               اليد العاملة في جمع شتات <title change="#d2e282 #d5e368 #d2e477"
-               level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_9.d2e566" xml:lang="ar">لغة العرب</title> قبيل
-               الإسلام وبعيده. <pb change="#d2e282"
-               corresp="../epub/36540/OEBPS/xhtml/P95.xhtml" ed="shamela" n="n1-p95" xml:id="pb_15.d2e569"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_95"
-               n="95" xml:id="pb_30.d2e804"
-               /> على أن فضلهم يبدو كل البدو بل
-               كالشمس في رائعة النهار، إذا ما نظرنا إلى ما أتاه العباسيون من جلائل المآثر لتدون
-               اللغة وجميع علومها العربية، ترجمة الأسفار الأعجمية، واتخاذ كل ما يسير بها وبأهلها
-               سيراً حثيثاً إلى بلوغ ابعد شأوٍ في العمران والحضارة والتبسط فيهما.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_43.d2e564" xml:lang="ar">أسلفنا القول في العدد الأول من هذه المجلة ما كان لأهل <placeName change="#d2e381 #d5e392 #d2e477"
+               ref="oape:place:209 geon:99237" xml:id="placeName_16.d2e796" xml:lang="ar">العراق</placeName> من اليد العاملة في جمع شتات <title change="#d2e282 #d5e368 #d2e477" level="j"
+               ref="oape:bibl:1 oclc:472450345" xml:id="title_9.d2e566" xml:lang="ar">لغة العرب</title> قبيل الإسلام وبعيده. <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P95.xhtml"
+               ed="shamela" n="n1-p95" xml:id="pb_15.d2e569"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_95" n="95" xml:id="pb_30.d2e804"
+               /> على أن فضلهم يبدو كل البدو بل كالشمس في رائعة النهار، إذا ما نظرنا إلى ما أتاه العباسيون من جلائل المآثر لتدون اللغة وجميع علومها العربية، ترجمة الأسفار الأعجمية، واتخاذ كل ما يسير بها وبأهلها سيراً حثيثاً إلى بلوغ ابعد شأوٍ في العمران والحضارة والتبسط فيهما.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_44.d2e572" xml:lang="ar"
-               >وما زال الأمر على تقدم ونجاح حتى عصر
-               المأمون، فان العربية وعلومها بلغت في عهده مناط العيوق، ثم وقفت حيناً من الزمن كأنها
-               تكبدت سماءها، ومن بعده أخذت بالانحدار المتئد متبعة سنة الشروق والغروب. - ولما سقطت
-                  <placeName
+               >وما زال الأمر على تقدم ونجاح حتى عصر المأمون، فان العربية وعلومها بلغت في عهده مناط العيوق، ثم وقفت حيناً من الزمن كأنها تكبدت سماءها، ومن بعده أخذت بالانحدار المتئد متبعة سنة الشروق والغروب. - ولما سقطت <placeName
                change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e574" xml:lang="ar"
-               >بغداد</placeName> على يد هولاكو، غربت شمس العربية
-               وعلومها، وخبت انوارها، وادلهمت دياجير الجهل، وتلبدت سماء <placeName change="#d2e381 #d5e392 #d2e477"
-               ref="oape:place:209 geon:99237" xml:id="placeName_18.d2e812" xml:lang="ar"
-               >العراق</placeName> بالسحب المكفهرة، أو أن شئت فقل:
-               أصيب العلم وذووه ورافعو ألويته بداهية لم تضارعها داهية في سابق تاريخها أهوت بهم إلى
-               قعر الذل والهوان، بل إلى أقصى دركات الخمول والجمود.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_45.d2e578" xml:lang="ar">وهل تخال أن النوائب وقفت عند ذاك الحد؟ -
-               كلا، فأنها سارت في وجهها صارعة أم <placeName
-               change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_19.d2e818" xml:lang="ar"
-               >العراق</placeName>
-               وبناتها وبنياتها، كإنها تحاول التشفي من ترقيها السابق، والانتقام من تقدمها الحثيث حتى
-               إنها لم تبق لكان هذه الديار المنكوبة الأهم التخلص من دوائرها، والإفلات من سطواتها
-               وفتكاتها.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_46.d2e581" xml:lang="ar">نعم اشتهر بعد ذلك جماعة من أهل العلم
-               والأدب والفضل والكتابة <pb change="#d2e282"
+               >بغداد</placeName> على يد هولاكو، غربت شمس العربية وعلومها، وخبت انوارها، وادلهمت دياجير الجهل، وتلبدت سماء <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237"
+               xml:id="placeName_18.d2e812" xml:lang="ar"
+               >العراق</placeName> بالسحب المكفهرة، أو أن شئت فقل: أصيب العلم وذووه ورافعو ألويته بداهية لم تضارعها داهية في سابق تاريخها أهوت بهم إلى قعر الذل والهوان، بل إلى أقصى دركات الخمول والجمود.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_45.d2e578" xml:lang="ar">وهل تخال أن النوائب وقفت عند ذاك الحد؟ - كلا، فأنها سارت في وجهها صارعة أم <placeName change="#d2e381 #d5e392 #d2e477"
+               ref="oape:place:209 geon:99237" xml:id="placeName_19.d2e818" xml:lang="ar"
+               >العراق</placeName> وبناتها وبنياتها، كإنها تحاول التشفي من ترقيها السابق، والانتقام من تقدمها الحثيث حتى إنها لم تبق لكان هذه الديار المنكوبة الأهم التخلص من دوائرها، والإفلات من سطواتها وفتكاتها.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_46.d2e581" xml:lang="ar">نعم اشتهر بعد ذلك جماعة من أهل العلم والأدب والفضل والكتابة <pb change="#d2e282"
                corresp="../epub/36540/OEBPS/xhtml/P96.xhtml" ed="shamela" n="n1-p96" xml:id="pb_16.d2e583"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_96"
                n="96" xml:id="pb_32.d2e826"
-               /> لكنهم لقلتهم عدوا من نوادر الزمان
-               وفلتات بوائق الأيام. بيد أن بعضهم شدا اللغة ألا فارسية فنظم بها وانشأ وحرر وحبر وكتب
-               التواريخ، ومع ذلك لم يرفع له منار كما رفع لمن تقدمه من أبناء هذه اللغة الضادية.</p>
+               /> لكنهم لقلتهم عدوا من نوادر الزمان وفلتات بوائق الأيام. بيد أن بعضهم شدا اللغة ألا فارسية فنظم بها وانشأ وحرر وحبر وكتب التواريخ، ومع ذلك لم يرفع له منار كما رفع لمن تقدمه من أبناء هذه اللغة الضادية.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_47.d2e587" xml:lang="ar"
-               >وبقيت الأمور تجري على غير هدى: بين سير
-               إلى الإمام، ورجوع إلى الوراء، وخبط أو جمع بينهما، حتى كان عصر حكومة سليمان باشا
-               الكتخدا أو القتيل في فجر القرن الثاني عشر من التاريخ الهجري فاخذ العلماء والأدباء
-               يتنفسون الصعداء، من تلك البرجاء، مستنشقين نسيم الراحة والطمأنينة، متمنيين بأيامه،
-               متفائلين بيده عودة عهد غضارة لذاك كالمأمون للرشيد مع حفظ قاعدته النسبة لكل واحد بموجب
-               عهده ومقدرته ومنشأه.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_48.d2e590" xml:lang="ar">ولابد من أن نذكر طرفاً من ترجمة كل من
-               هذين الياشوبن الوزيرين حتى يجوز إنا بعد</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_49.d2e593" xml:lang="ar">ذلك أن نتكلم عمن نبغوا في عصرهما أو
-               اشتهروا بعدهما.</p>
+               >وبقيت الأمور تجري على غير هدى: بين سير إلى الإمام، ورجوع إلى الوراء، وخبط أو جمع بينهما، حتى كان عصر حكومة سليمان باشا الكتخدا أو القتيل في فجر القرن الثاني عشر من التاريخ الهجري فاخذ العلماء والأدباء يتنفسون الصعداء، من تلك البرجاء، مستنشقين نسيم الراحة والطمأنينة، متمنيين بأيامه، متفائلين بيده عودة عهد غضارة لذاك كالمأمون للرشيد مع حفظ قاعدته النسبة لكل واحد بموجب عهده ومقدرته ومنشأه.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_48.d2e590" xml:lang="ar"
+               >ولابد من أن نذكر طرفاً من ترجمة كل من هذين الياشوبن الوزيرين حتى يجوز إنا بعد ذلك أن نتكلم عمن نبغوا في عصرهما أو اشتهروا بعدهما.</p>
          </div>
          <div change="#d2e64 #d2e282 #d2e462 #d2e477" subtype="article" type="item" xml:id="div_4.d2e1140" xml:lang="ar">
-            <head change="#d2e462 #d2e477" xml:id="head_4.d2e1142" xml:lang="ar"> ترجمة سليمان باشا القتيل</head>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_51.d2e599" xml:lang="ar">كان سليمان باشا القتيل والكتخدا، الثالث
-               ممن تسمى بهذا الاسم من ولاة <placeName
-               change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e601" xml:lang="ar"
-               >بغداد</placeName>،
-               وهو ابن أخت علي باشا القتيل، وزر على <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e604"
-               xml:lang="ar">بغداد</placeName> <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e282 #d2e477" datingMethod="#cal_islamic" notAfter="1807-03-09" notBefore="1806-03-21"
-               type="auto-markup" when-custom="1221" xml:id="date_3.d2e607" xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="1221" xml:id="num_1.d2e609" xml:lang="ar"
-               >١٢٢١</num> </date> هـ ( <date calendar="#cal_gregorian" change="#d2e298 #d2e381 #d2e477" when="1806" xml:id="date_11.d2e856" xml:lang="ar"> <num change="#d2e258 #d2e282"
-               type="auto-markup" value="1806" xml:id="num_1.d2e612" xml:lang="ar">١٨٠٦</num>
-               </date> م) ولما تولى الوزارة سار في الرعية سيرة حسنة حميدة، ورغب في العلوم، ونكب عن
-               الأبحاث الفلسفية التي <pb change="#d2e282"
-               corresp="../epub/36540/OEBPS/xhtml/P97.xhtml" ed="shamela" n="n1-p97" xml:id="pb_17.d2e615"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_97"
-               n="97" xml:id="pb_34.d2e865"
-               /> كان قد الهج بها في غلوائه، ومنع
-               العمال من اخذ الرشا والهدايا، وكان يعاقب من يخالفه اشد المعاقبة وكان يتجسس الأخبار
-               ليقف على من يتطلب السحت أو يأتي هذه الدناءة، واكرم العلماء واحتفى بهم والتفرغ للصلاح
-               وأعمال البر. وكان ممن نال الحظوة عنده الشيخ علي بن محمد السويدي وكان هذا الرجل من
-               مشاهير ذلك الأوان بعلمه وفضله وفضليته.</p>
+            <head change="#d2e462 #d2e477" xml:id="head_4.d2e1142" xml:lang="ar"> ترجمة <persName>سليمان باشا</persName> القتيل</head>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_51.d2e599" xml:lang="ar">كان سليمان باشا القتيل والكتخدا، الثالث ممن تسمى بهذا الاسم من ولاة <placeName change="#d5e244 #d2e282 #d2e477"
+               ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e601" xml:lang="ar">بغداد</placeName>، وهو ابن أخت <persName>علي باشا</persName> القتيل، وزر على <placeName
+               change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e604" xml:lang="ar">بغداد</placeName> <date calendar="#cal_islamic"
+               change="#d2e266 #d3e274 #d2e282 #d2e477" datingMethod="#cal_islamic" notAfter="1807-03-09" notBefore="1806-03-21" type="auto-markup" when-custom="1221" xml:id="date_3.d2e607"
+               xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="1221" xml:id="num_1.d2e609" xml:lang="ar">١٢٢١</num> </date> هـ ( <date calendar="#cal_gregorian"
+               change="#d2e298 #d2e381 #d2e477" when="1806" xml:id="date_11.d2e856" xml:lang="ar"> <num change="#d2e258 #d2e282" type="auto-markup" value="1806" xml:id="num_1.d2e612" xml:lang="ar"
+               >١٨٠٦</num> </date> م) ولما تولى الوزارة سار في الرعية سيرة حسنة حميدة، ورغب في العلوم، ونكب عن الأبحاث الفلسفية التي <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P97.xhtml"
+               ed="shamela" n="n1-p97" xml:id="pb_17.d2e615"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_97" n="97" xml:id="pb_34.d2e865"
+               /> كان قد الهج بها في غلوائه، ومنع العمال من اخذ الرشا والهدايا، وكان يعاقب من يخالفه اشد المعاقبة وكان يتجسس الأخبار ليقف على من يتطلب السحت أو يأتي هذه الدناءة، واكرم العلماء واحتفى بهم والتفرغ للصلاح وأعمال البر. وكان ممن نال الحظوة عنده الشيخ علي بن محمد السويدي وكان هذا الرجل من مشاهير ذلك الأوان بعلمه وفضله وفضليته.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_52.d2e618" xml:lang="ar">وكانت ديار <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_22.d2e870"
-               xml:lang="ar"
-               >العراق</placeName> في ذلك العهد عرضة لمساوئ أهل
-               البادية وسكان جبل سنجار، ففكر الوزير بان يمثل بهؤلاء المفسدين العائثين بالبلاد
-               ليستريح الناس منهم ويطمئنوا بالا.</p>
+               xml:lang="ar">العراق</placeName> في ذلك العهد عرضة لمساوئ أهل البادية وسكان جبل سنجار، ففكر الوزير بان يمثل بهؤلاء المفسدين العائثين بالبلاد ليستريح الناس منهم ويطمئنوا بالا.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_53.d2e622" xml:lang="ar">فلما كانت <date calendar="#cal_islamic" change="#d2e266 #d3e274 #d2e282 #d2e477" datingMethod="#cal_islamic"
                notAfter="1810-02-04" notBefore="1809-02-16" type="auto-markup" when-custom="1224" xml:id="date_3.d2e624" xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="1224"
                xml:id="num_1.d2e626" xml:lang="ar">١٢٢٤</num> </date> هـ ( <date calendar="#cal_gregorian" change="#d2e298 #d2e381 #d2e477" when="1809" xml:id="date_13.d2e883" xml:lang="ar"> <num
                change="#d2e258 #d2e282" type="auto-markup" value="1809" xml:id="num_1.d2e629" xml:lang="ar">١٨٠٩</num>
-               </date> م) غزا فيها ديار بكر بجيش لهام لتأديب أعراب الضفير وقبيلة من عنزة كان كبيرها
-               الدريعي. وكان خروجه من الزوراء في الخامس والعشرين من محرم ( <num
-               change="#d2e258 #d2e282" type="auto-markup" value="12" xml:id="num_1.d2e632" xml:lang="ar">١٢</num> آذار) فلما جاوز <placeName change="#d2e282 #d5e392 #d2e477"
-               ref="oape:place:211 geon:99072" xml:id="placeName_17.d2e635" xml:lang="ar"
-               >الموصل</placeName> شن
-               الغارة على اليزيدية فصبح القرية المعروفة باسم (البلد) وغنم وقتل وسبى. ثم تحصن أهلها
-               بثنية من ثنايا سنجار ثنية لا تراهم فعدل عنهم.</p>
+               </date> م) غزا فيها ديار بكر بجيش لهام لتأديب أعراب الضفير وقبيلة من عنزة كان كبيرها الدريعي. وكان خروجه من الزوراء في الخامس والعشرين من محرم ( <num change="#d2e258 #d2e282"
+               type="auto-markup" value="12" xml:id="num_1.d2e632" xml:lang="ar">١٢</num> آذار) فلما جاوز <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:211 geon:99072"
+               xml:id="placeName_17.d2e635" xml:lang="ar"
+               >الموصل</placeName> شن الغارة على اليزيدية فصبح القرية المعروفة باسم (البلد) وغنم وقتل وسبى. ثم تحصن أهلها بثنية من ثنايا سنجار ثنية لا تراهم فعدل عنهم.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_54.d2e639" xml:lang="ar"
-               >ثم توجه الوالي إلى الضفير والعنزيين فلما
-               هبط البلدة المعروفة باسم (العين) الواقعة بين حران ونصيبين جاءه رسول من قبل رئيس الجند
-               الذين في ماردين يطلب منه المدد، ولما لم يكن له بد أن يمده هو بنفسه أنقذ إليه أخاه في
-               الرضاعة (احمد بيك) بباقي العسكر ليزحفوا <pb
+               >ثم توجه الوالي إلى الضفير والعنزيين فلما هبط البلدة المعروفة باسم (العين) الواقعة بين حران ونصيبين جاءه رسول من قبل رئيس الجند الذين في ماردين يطلب منه المدد، ولما لم يكن له بد أن يمده هو بنفسه أنقذ إليه أخاه في الرضاعة (احمد بيك) بباقي العسكر ليزحفوا <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P98.xhtml" ed="shamela" n="n1-p98" xml:id="pb_18.d2e641"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_98" n="98" xml:id="pb_36.d2e900"
-               /> على الضفير وتوجه هو إلى ديار، بكر
-               فلما وصل إلى قرية يقال لها (ديرك) حاصرها. فخضع أهلها وأدوا ما عليهم من الخراج. ثم
-               توجه منها إلى ماردين ولما أوشك الوصول إليها جاءه اخوة في الرضاعة احمد بيك وقد كسره
-               الضفير وقتلوا من عسكره خلقاً كثيراً فأراد الوزير الكرة على الضفير لكن لم تساعده
-               الأحوال، لان عسكر الأكراد تخلف عنه، ولذا عدل عن مناجزتهم وحاول الرجوع إلى <placeName
+               /> على الضفير وتوجه هو إلى ديار، بكر فلما وصل إلى قرية يقال لها (ديرك) حاصرها. فخضع أهلها وأدوا ما عليهم من الخراج. ثم توجه منها إلى ماردين ولما أوشك الوصول إليها جاءه اخوة في الرضاعة احمد بيك وقد كسره الضفير وقتلوا من عسكره خلقاً كثيراً فأراد الوزير الكرة على الضفير لكن لم تساعده الأحوال، لان عسكر الأكراد تخلف عنه، ولذا عدل عن مناجزتهم وحاول الرجوع إلى <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_24.d2e902" xml:lang="ar">بغداد</placeName>.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_55.d2e644" xml:lang="ar">فلما وصل <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:211 geon:99072" xml:id="placeName_18.d2e646"
-               xml:lang="ar">الموصل</placeName> أقام فيها ثلاثة أيام ثم رأى في
-               خلالها أن الأصلح له أن يسرع في</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_56.d2e650" xml:lang="ar"
-               >الرجوع إلى دار السلام ويبرز منها أوامره
-               وزواجره سياسية للولاية ففعل ونجح لأنه قهر بني عبد الجليل في <placeName change="#d2e282 #d5e392 #d2e477"
-               ref="oape:place:211 geon:99072" xml:id="placeName_19.d2e652" xml:lang="ar">الموصل</placeName> عند خروجهم عن الطاعة وان كان خسر
-               في الموقعة واليها احمد باشا.</p>
+               xml:lang="ar">الموصل</placeName> أقام فيها ثلاثة أيام ثم رأى في خلالها أن الأصلح له أن يسرع في</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_56.d2e650" xml:lang="ar">الرجوع إلى دار السلام ويبرز منها أوامره وزواجره سياسية للولاية ففعل ونجح لأنه قهر بني عبد الجليل في <placeName
+               change="#d2e282 #d5e392 #d2e477" ref="oape:place:211 geon:99072" xml:id="placeName_19.d2e652" xml:lang="ar"
+               >الموصل</placeName> عند خروجهم عن الطاعة وان كان خسر في الموقعة واليها احمد باشا.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_57.d2e656" xml:lang="ar">وبعد أن انتشر الأمن في ديار <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237"
-               xml:id="placeName_27.d2e920" xml:lang="ar">العراق</placeName> اخذ الوزير بمد أروقة العلم وضرب
-               خيامه، فانشأ في <placeName change="#d5e244 #d2e282 #d2e477"
-               ref="oape:place:216 geon:98182" xml:id="placeName_20.d2e658" xml:lang="ar"
-               >بغداد</placeName> عدة مدارس، وأعاد بناء ما كان منها
-               دوارس، وشيد المساجد والجوامع، وأجرى على العلماء دافق سيول الوظائف والرواتب، وكافأ أهل
-               الفضل والأدب بما لا يفي وصفه اليراع فكان هذا الوزر أول من أيقظ العلم والمنتمين إليه
-               بعد ذاك السبات العميق ثم جاء بعده بقليل داود باشا فأنهضه النهضة التي خلدت له الأثر
-               المحمود والذكر الطيب.</p>
+               xml:id="placeName_27.d2e920" xml:lang="ar">العراق</placeName> اخذ الوزير بمد أروقة العلم وضرب خيامه، فانشأ في <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182"
+               xml:id="placeName_20.d2e658" xml:lang="ar"
+               >بغداد</placeName> عدة مدارس، وأعاد بناء ما كان منها دوارس، وشيد المساجد والجوامع، وأجرى على العلماء دافق سيول الوظائف والرواتب، وكافأ أهل الفضل والأدب بما لا يفي وصفه اليراع فكان هذا الوزر أول من أيقظ العلم والمنتمين إليه بعد ذاك السبات العميق ثم جاء بعده بقليل داود باشا فأنهضه النهضة التي خلدت له الأثر المحمود والذكر الطيب.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_58.d2e662" xml:lang="ar"
-               >وكان سليمان باشا شاباً متوقد الفؤاد، حسن
-               الشمائل، جليل المناقب، كثير الحسنات والميزات محباً للعدل والقسط، كريماً، عارفاً بأمور
-               الدنيا والدين، وديعاً، مطلعاً أتم الاطلاع على أمور <pb
+               >وكان سليمان باشا شاباً متوقد الفؤاد، حسن الشمائل، جليل المناقب، كثير الحسنات والميزات محباً للعدل والقسط، كريماً، عارفاً بأمور الدنيا والدين، وديعاً، مطلعاً أتم الاطلاع على أمور <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P99.xhtml" ed="shamela" n="n1-p99" xml:id="pb_19.d2e664"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_99" n="99" xml:id="pb_38.d2e931"
-               /> السياسة لين العريكة، رقيق العواطف
-               دقيق الشعور، محبوباً لدى الكبار والصغار، ألغى بعض الضرائب القديمة وجميع الرسوم التي
-               أقامها الولاة الذين سبقوه ولا وجه حسن لها وكانت قد أضرت بالبلاد وأهلها كالاحتساب
-               وتحصيل الرسم ومباشرة الخدمة وضبط المخلفات وغيرها وابطل القتل إلا ما كان منه بمنزلة
-               القصاص. والخلاصة: اتخذ له أئمة جماعة الحنفيين.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_59.d2e668" xml:lang="ar">ومما أتاه من الحسنات انه أمر أن ينفق على
-               قضاة <placeName change="#d5e244 #d2e282 #d2e477"
-               ref="oape:place:216 geon:98182" xml:id="placeName_21.d2e670" xml:lang="ar">بغداد</placeName> من مال خزانته الخاصة وأجرى مثل ذلك
-               على سائر قضاة ديار <placeName
+               /> السياسة لين العريكة، رقيق العواطف دقيق الشعور، محبوباً لدى الكبار والصغار، ألغى بعض الضرائب القديمة وجميع الرسوم التي أقامها الولاة الذين سبقوه ولا وجه حسن لها وكانت قد أضرت بالبلاد وأهلها كالاحتساب وتحصيل الرسم ومباشرة الخدمة وضبط المخلفات وغيرها وابطل القتل إلا ما كان منه بمنزلة القصاص. والخلاصة: اتخذ له أئمة جماعة الحنفيين.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_59.d2e668" xml:lang="ar">ومما أتاه من الحسنات انه أمر أن ينفق على قضاة <placeName change="#d5e244 #d2e282 #d2e477"
+               ref="oape:place:216 geon:98182" xml:id="placeName_21.d2e670" xml:lang="ar">بغداد</placeName> من مال خزانته الخاصة وأجرى مثل ذلك على سائر قضاة ديار <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_30.d2e940" xml:lang="ar"
-               >العراق</placeName>
-               ونوابها الراجعين إليه. وكانت أرزاقهم في السابق غير معينة تأتيهم من حسنات
-               المسلمين.</p>
+               >العراق</placeName> ونوابها الراجعين إليه. وكانت أرزاقهم في السابق غير معينة تأتيهم من حسنات المسلمين.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_60.d2e674" xml:lang="ar"
-               >ومن غرائب ما وقع لهذا الوزير الخطير انه
-               من بعد أن نسخ تلك الرسوم الباهظة والضرائب الرازحة زادت واردات الخزانة أضعاف إضعاف ما
-               كان يدخلها سابقاً وساد الأمن والسلام في جميع البلاد مع انه أزال كل تعذيب من أي نوع
-               كان أن صلباً وان قتلاً.</p>
+               >ومن غرائب ما وقع لهذا الوزير الخطير انه من بعد أن نسخ تلك الرسوم الباهظة والضرائب الرازحة زادت واردات الخزانة أضعاف إضعاف ما كان يدخلها سابقاً وساد الأمن والسلام في جميع البلاد مع انه أزال كل تعذيب من أي نوع كان أن صلباً وان قتلاً.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_61.d2e677" xml:lang="ar"
-               >ومع ما كان الرجل العظيم من الأوصاف
-               العجيبة طوحه غروره في مالا تحمده عقباه لأنه اعتزل الناس واخذ يعمل بما يوحيه إليه
-               عنفوان شبابه وإشارة المعجبين به ممن يخاف أن ينبهه على زلله لئلا يفقد حسن التفاته
-               إليه. ولهذا تتابعت عليه المصائب والنوائب حتى لم تبق له مجالاً، وفي النهاية أفضت به
-               إلى عزله. ثم لما تظاهر بالعصيان قتل قبل أن يبلغ</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_62.d2e680" xml:lang="ar">السنة الثلاثين من عمره على يد أحد أعراب
-               الدفافعة <date calendar="#cal_islamic"
+               >ومع ما كان الرجل العظيم من الأوصاف العجيبة طوحه غروره في مالا تحمده عقباه لأنه اعتزل الناس واخذ يعمل بما يوحيه إليه عنفوان شبابه وإشارة المعجبين به ممن يخاف أن ينبهه على زلله لئلا يفقد حسن التفاته إليه. ولهذا تتابعت عليه المصائب والنوائب حتى لم تبق له مجالاً، وفي النهاية أفضت به إلى عزله. ثم لما تظاهر بالعصيان قتل قبل أن يبلغ</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_62.d2e680" xml:lang="ar">السنة الثلاثين من عمره على يد أحد أعراب الدفافعة <date calendar="#cal_islamic"
                change="#d2e266 #d3e274 #d2e282 #d2e477" datingMethod="#cal_islamic" notAfter="1811-01-25" notBefore="1810-02-06" type="auto-markup" when-custom="1225" xml:id="date_3.d2e682"
                xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="1225" xml:id="num_1.d2e684" xml:lang="ar">١٢٢٥</num> </date> هـ <pb change="#d2e282"
                corresp="../epub/36540/OEBPS/xhtml/P100.xhtml" ed="shamela" n="n1-p100" xml:id="pb_20.d2e687"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
@@ -632,6 +565,7 @@
          </div>
          <div change="#d2e64 #d2e282 #d2e477" subtype="article" type="item" xml:id="div_5.d2e694" xml:lang="ar">
             <head change="#d2e282 #d2e477" xml:id="head_5.d2e696" xml:lang="ar">مؤسس الصهيونية</head>
+            <head xml:lang="fr">Sabbethai, ou le fondateur des Sionistes</head>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_63.d2e699" xml:lang="ar"
                >كثر في هذه الأيام ذكر الصهيونية، واغلب الناس لا يعرفون من أمرهم شيئاً، كم لا يدرون عن مؤسسهم ما يبل صدى تشوقهم إلى الوقوف على دخلة نيته الأولى، وقد كتب بهذا الصدد أحد أدباء <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:3 geon:745044" xml:id="placeName_31.d2e978" xml:lang="ar">الأستانة</placeName> رسالة إلى <bibl change="#d2e439 #d2e462 #d2e477"
@@ -659,8 +593,7 @@
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_68.d2e737" xml:lang="ar">ومن جملة ما حل به من النوائب انه دخل <date calendar="#cal_gregorian" change="#d2e266 #d2e282 #d2e477"
                type="auto-markup" when="1665" xml:id="date_3.d2e739" xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup" value="1665" xml:id="num_1.d2e741" xml:lang="ar">١٦٦٥</num>
                </date> م <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:3 geon:745044" xml:id="placeName_37.d2e1038" xml:lang="ar"
-               >الأستانة</placeName> فعلم بأمره السلطان فاعتقله في قصر ابيدوس، وأذن له بعض الحرية لاسيما أن يقابل تلامذته ويجاذبهم أطراف</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_69.d2e745" xml:lang="ar">الكلام.</p>
+               >الأستانة</placeName> فعلم بأمره السلطان فاعتقله في قصر ابيدوس، وأذن له بعض الحرية لاسيما أن يقابل تلامذته ويجاذبهم أطراف الكلام.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_70.d2e748" xml:lang="ar"
                >واتفق له أن في ذلك الحين حدث له ما بقي له شهرة حالته أي انتحاله الإسلام لاسيما أن السلطان وعده بالهيل والهيلمان أن اسلم. فظن هذا المسيح الممسوخ انه ألم يلب طلب الباديشاه، يخرج من هذه الدنيا بصفقة المغبون أو بسمة الملعون، فلبى طلب الخاقان واسلم. <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P102.xhtml" ed="shamela" n="n1-p102" xml:id="pb_22.d2e750"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
@@ -714,7 +647,7 @@
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P105.xhtml" ed="shamela" n="n1-p105" xml:id="pb_25.d2e850"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
                edRef="#edition_1" facs="#facs_105" n="105" xml:id="pb_50.d2e1169"/> </p>
          </div>
-         <div change="#d2e64 #d2e282 #d2e477" subtype="article" type="item" xml:id="div_7.d2e854" xml:lang="ar">
+         <div change="#d2e64 #d2e282 #d2e477" next="oclc_472450345-i_4.TEIP5.xml#div_13.d2e1409" subtype="article" type="item" xml:id="div_7.d2e854" xml:lang="ar">
             <head change="#d2e282 #d2e477" xml:id="head_7.d2e856" xml:lang="ar">سفرة إلى <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:372 geon:94824" xml:id="placeName_42.d2e1177"
                xml:lang="ar">كربلاء</placeName> والحلة ونواحيها</head>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_81.d2e859" xml:lang="ar"
@@ -766,30 +699,32 @@
                corresp="../epub/36540/OEBPS/xhtml/P109.xhtml" ed="shamela" n="n1-p109" xml:id="pb_29.d2e937"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_109" n="109" xml:id="pb_58.d2e1283"/> كل سنة اكثر من مائتي ألف زائر يأتونها من جميع البلاد عن طريق <placeName change="#d5e244 #d2e282 #d2e477"
                ref="oape:place:216 geon:98182" xml:id="placeName_30.d2e939" xml:lang="ar">بغداد</placeName> ليذهبوا إلى <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:372 geon:94824"
-               xml:id="placeName_49.d2e1288" xml:lang="ar">كربلاء</placeName>. إما عدد سكانها</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_91.d2e944" xml:lang="ar"
-               >المقيمين فيها فيقدر بستة الآلاف نسمة. وكان في نية مدحت باشا أن يجعل ممر السكة الحديدية في المسيب على جسر يركب الفرات.</p>
+               xml:id="placeName_49.d2e1288" xml:lang="ar"
+               >كربلاء</placeName>. إما عدد سكانها المقيمين فيها فيقدر بستة الآلاف نسمة. وكان في نية مدحت باشا أن يجعل ممر السكة الحديدية في المسيب على جسر يركب الفرات.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_92.d2e947" xml:lang="ar"
                >برحنا المسيب في الساعة السابعة وعشر دقائق ونحو الساعة الحادية عشرة وصلنا إلى (الإمام عون بن عبد الله بن جعفر الطيار) وهو الذي قال عنه في أسد الغابة هو عون بن جعفر بن أبى طالب بن عبد المطلب القرشي الهاشمي والده جعفر ذو الجناحين ولم يقل: عون بن عبد الله وإنما عبد الله هو أخوه على أن الذي نقلناه هو ما سمعناه. وهناك ضريح يقال انه ضريحه تظلله قبة معقودة من الحجر القاشاني فوقفنا هنيهة لنريح دوابنا ثم أسرعنا في السير إلى نحو الساعة الواحدة وكنا نمر ببساتين <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:372 geon:94824" xml:id="placeName_50.d2e1298" xml:lang="ar"
                >كربلاء</placeName> فاجتازت عجلاتنا تلك الخمائل إلى أن انتهينا إلى المدينة.</p>
-            <closer change="#d2e73 #d2e282 #d2e477" xml:id="p_93.d2e950" xml:lang="ar">الباقي للآتي</closer>
-            <byline change="#d2e219#d2e73 #d2e282 #d2e477" xml:id="p_94.d2e953" xml:lang="ar"> <persName change="#d2e230 #d2e282 #d2e477" ref="oape:pers:2089" xml:id="persName_7.d2e954" xml:lang="ar"
+            <closer change="#d2e73 #d2e282 #d2e477" xml:id="p_93.d2e950" xml:lang="ar"><ref target="oclc_472450345-i_4.TEIP5.xml#div_13.d2e1409">الباقي للآتي</ref></closer>
+            <byline change="#d2e219 #d2e73 #d2e282 #d2e477" xml:id="p_94.d2e953" xml:lang="ar"> <persName change="#d2e230 #d2e282 #d2e477" ref="oape:pers:2089" xml:id="persName_7.d2e954" xml:lang="ar"
                >عمانوئيل فتح الله عمانوئيل</persName> مضبوط</byline>
          </div>
-         <div change="#d2e64 #d2e282 #d2e477" subtype="article" type="item" xml:id="div_8.d2e961" xml:lang="ar">
-            <head change="#d2e282 #d2e477" xml:id="head_8.d2e963" xml:lang="ar">باب التقريط</head>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_95.d2e966" xml:lang="ar">كتاب الإرشاد لمن أنكر المبدأ والنبوة والمعاد</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_96.d2e969" xml:lang="ar">طبع بمطبعة الآداب في <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182"
-               xml:id="placeName_31.d2e971" xml:lang="ar">بغداد</placeName>، تأليف واعظ زاده أبى إسماعيل السيد مصطفى نوري الحسيني الحنفي مبعوث <placeName change="#d5e244 #d2e282 #d2e477"
-               ref="oape:place:216 geon:98182" xml:id="placeName_32.d2e974" xml:lang="ar">بغداد</placeName>. عدد صفحاته <num change="#d2e258 #d2e282" type="auto-markup" value="93"
-               xml:id="num_1.d2e977" xml:lang="ar">٩٣</num> <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P110.xhtml" ed="shamela" n="n1-p110" xml:id="pb_30.d2e980"/> <pb
-               change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_110" n="110" xml:id="pb_60.d2e1333"/> ويليه زهر الربى في حرمة الربى. له أيضاً، من ص <num
-               change="#d2e258 #d2e282" type="auto-markup" value="94" xml:id="num_1.d2e982" xml:lang="ar">٩٤</num> إلى <num change="#d2e258 #d2e282" type="auto-markup" value="102"
-               xml:id="num_1.d2e986" xml:lang="ar">١٠٢</num> ويعقبه: المطالب المنفية في الذب عن الإمام أبى حنيفة في <num change="#d2e258 #d2e282" type="auto-markup" value="24" xml:id="num_1.d2e989"
-               xml:lang="ar">٢٤</num> صفحة له أيضاً ويتلوه: خلاصة المقال فيشد الرحال في <num change="#d2e258 #d2e282" type="auto-markup" value="18" xml:id="num_1.d2e992" xml:lang="ar"
-               >١٨</num> ص. له أيضاً. ويختم الكتاب <num change="#d2e258 #d2e282" type="auto-markup" value="6" xml:id="num_1.d2e995" xml:lang="ar"
-               >٦</num> صفحات (فقط) لتصحيح الأغلاط الواردة فيه. وهو كتاب جدل ودفاع وذب يفيد جماعة من أنكر من المسلمين، بعض الحقائق المدونة في أسفار الأيمة والدين، عسى تكون براهينه مقنعة لمن أنكرها. وهادية إياهم إلى سواء الصراط المستقيم.</p>
+         <div change="#d2e64 #d2e282 #d2e477" type="section" xml:id="div_8.d2e961" xml:lang="ar">
+            <head change="#d2e282 #d2e477" xml:id="head_8.d2e963" xml:lang="ar">باب التقريظ</head>
+            <div subtype="article" type="item">
+               <p change="#d2e73 #d2e282 #d2e477" xml:id="p_95.d2e966" xml:lang="ar"><bibl>كتاب الإرشاد لمن أنكر المبدأ والنبوة والمعاد طبع بمطبعة الآداب في <placeName change="#d5e244 #d2e282 #d2e477"
+                  ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e971" xml:lang="ar">بغداد</placeName>، تأليف واعظ زاده أبى إسماعيل السيد مصطفى نوري الحسيني الحنفي مبعوث <placeName
+                  change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_32.d2e974" xml:lang="ar">بغداد</placeName>. عدد صفحاته <num change="#d2e258 #d2e282"
+                  type="auto-markup" value="93" xml:id="num_1.d2e977" xml:lang="ar">٩٣</num></bibl> </p>
+               <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P110.xhtml" ed="shamela" n="n1-p110" xml:id="pb_30.d2e980"/>
+               <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_110" n="110" xml:id="pb_60.d2e1333"/>
+               <p change="#d2e73 #d2e282 #d2e477" xml:lang="ar">ويليه زهر الربى في حرمة الربى. له أيضاً، من ص <num change="#d2e258 #d2e282" type="auto-markup" value="94" xml:id="num_1.d2e982"
+                  xml:lang="ar">٩٤</num> إلى <num change="#d2e258 #d2e282" type="auto-markup" value="102" xml:id="num_1.d2e986" xml:lang="ar"
+                  >١٠٢</num> ويعقبه: المطالب المنفية في الذب عن الإمام أبى حنيفة في <num change="#d2e258 #d2e282" type="auto-markup" value="24" xml:id="num_1.d2e989" xml:lang="ar"
+                  >٢٤</num> صفحة له أيضاً ويتلوه: خلاصة المقال فيشد الرحال في <num change="#d2e258 #d2e282" type="auto-markup" value="18" xml:id="num_1.d2e992" xml:lang="ar"
+                  >١٨</num> ص. له أيضاً. ويختم الكتاب <num change="#d2e258 #d2e282" type="auto-markup" value="6" xml:id="num_1.d2e995" xml:lang="ar"
+                  >٦</num> صفحات (فقط) لتصحيح الأغلاط الواردة فيه. وهو كتاب جدل ودفاع وذب يفيد جماعة من أنكر من المسلمين، بعض الحقائق المدونة في أسفار الأيمة والدين، عسى تكون براهينه مقنعة لمن أنكرها. وهادية إياهم إلى سواء الصراط المستقيم.</p>
+            </div>
          </div>
          <div change="#d2e64 #d2e282 #d2e477" type="section" xml:id="div_9.d2e1000" xml:lang="ar">
             <head change="#d2e282 #d2e477" xml:id="head_9.d2e1002" xml:lang="ar">باب المشارفة </head>
@@ -824,260 +759,125 @@
          <div change="#d2e64 #d2e282 #d2e477" subtype="article" type="item" xml:id="div_10.d2e1051" xml:lang="ar">
             <head change="#d2e282 #d2e477" xml:id="head_10.d2e1053" xml:lang="ar">تاريخ وقائع <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_55.d2e1416"
                xml:lang="ar">العراق</placeName> وما جاوره</head>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_104.d2e1056" xml:lang="ar">(سعدون باشا والمنتفق) لا حديث اليوم في
-                  <placeName change="#d2e381 #d5e392 #d2e477"
-               ref="oape:place:209 geon:99237" xml:id="placeName_56.d2e1422" xml:lang="ar">العراق</placeName> إلا ما يدور قطبه على سعدون باشا
-               والمنتفق على سعدون وإرساله إلى <placeName
-               change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_34.d2e1058" xml:lang="ar">بغداد</placeName>
-               وسجنه <pb change="#d2e282"
-               corresp="../epub/36540/OEBPS/xhtml/P112.xhtml" ed="shamela" n="n1-p112" xml:id="pb_32.d2e1061"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
-               facs="#facs_112" n="112" xml:id="pb_64.d2e1430"/> في قلعة المدفعية ثم أنفاده إلى
-                  <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:15 geon:170063"
-               xml:id="placeName_35.d2e1063" xml:lang="ar">حلب</placeName> الشهباء. أما سبب هذا الانقلاب فطويل
-               الشؤون، كثير الشجون، نورد مضامينه ملخصيه عن عدة أعداد صحف <placeName
-               change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_36.d2e1066" xml:lang="ar">بغداد</placeName> ولا سيما عن <bibl change="#d2e462 #d2e477"
-               subtype="newspaper" type="periodical" xml:id="bibl_7.d2e1754" xml:lang="ar">جريدة <title change="#d2e282 #d5e368 #d3e438 #d2e477" level="j" ref="oape:bibl:532" xml:id="title_12.d2e1069"
-               xml:lang="ar">الزهور</title></bibl> الغراء، فنقول:</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_104.d2e1056" xml:lang="ar">(سعدون باشا والمنتفق) لا حديث اليوم في <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237"
+               xml:id="placeName_56.d2e1422" xml:lang="ar">العراق</placeName> إلا ما يدور قطبه على سعدون باشا والمنتفق على سعدون وإرساله إلى <placeName change="#d5e244 #d2e282 #d2e477"
+               ref="oape:place:216 geon:98182" xml:id="placeName_34.d2e1058" xml:lang="ar">بغداد</placeName> وسجنه <pb change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P112.xhtml" ed="shamela"
+               n="n1-p112" xml:id="pb_32.d2e1061"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1" facs="#facs_112" n="112" xml:id="pb_64.d2e1430"
+               /> في قلعة المدفعية ثم أنفاده إلى <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:15 geon:170063" xml:id="placeName_35.d2e1063" xml:lang="ar"
+               >حلب</placeName> الشهباء. أما سبب هذا الانقلاب فطويل الشؤون، كثير الشجون، نورد مضامينه ملخصيه عن عدة أعداد صحف <placeName change="#d5e244 #d2e282 #d2e477"
+               ref="oape:place:216 geon:98182" xml:id="placeName_36.d2e1066" xml:lang="ar">بغداد</placeName> ولا سيما عن <bibl change="#d2e462 #d2e477" subtype="newspaper" type="periodical"
+               xml:id="bibl_7.d2e1754" xml:lang="ar">جريدة <title change="#d2e282 #d5e368 #d3e438 #d2e477" level="j" ref="oape:bibl:532" xml:id="title_12.d2e1069" xml:lang="ar"
+               >الزهور</title></bibl> الغراء، فنقول:</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_105.d2e1073" xml:lang="ar">إن أعراب <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_60.d2e1445"
                xml:lang="ar"
-               >العراق</placeName> من اشد الناس دهاء وذكاء وهي تميل
-               من ذاتها إلى الفتك والغزو والحرب وان لم تحتج إلى ما يقوم بها عيشها. وإنما تفعل هذه
-               الأفعال ظناً منها أنها من علامات البسالة والشجاعة والأقدام على الأمور الجسام. على
-               أنها تسكن وتستكين إذا رأت من الحكومة ما تكبح به جماحها. والعكس بالعكس.</p>
+               >العراق</placeName> من اشد الناس دهاء وذكاء وهي تميل من ذاتها إلى الفتك والغزو والحرب وان لم تحتج إلى ما يقوم بها عيشها. وإنما تفعل هذه الأفعال ظناً منها أنها من علامات البسالة والشجاعة والأقدام على الأمور الجسام. على أنها تسكن وتستكين إذا رأت من الحكومة ما تكبح به جماحها. والعكس بالعكس.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_106.d2e1076" xml:lang="ar"
-               >ولما أسفر وجه الدستور عن حسنه البديع
-               ظن بعض الرعاع أن الحرية هي الاندفاع إلى المعاصي والمنكرات وإتيان كل محظور، ومن جملة
-               من شق عصا الطاعة العشائر المنبثة على ضفتي الفرات وفي سقيه حتى انقطعت حبال المواصلات
-               بين (القرنة) إلى (الناصرية) ومنها إلى (السماوة) وكل ذلك في شهر ربيع الثاني من هذه
-               السنة (نيسان <num
+               >ولما أسفر وجه الدستور عن حسنه البديع ظن بعض الرعاع أن الحرية هي الاندفاع إلى المعاصي والمنكرات وإتيان كل محظور، ومن جملة من شق عصا الطاعة العشائر المنبثة على ضفتي الفرات وفي سقيه حتى انقطعت حبال المواصلات بين (القرنة) إلى (الناصرية) ومنها إلى (السماوة) وكل ذلك في شهر ربيع الثاني من هذه السنة (نيسان <num
                change="#d2e258 #d2e282" type="auto-markup" value="1911" xml:id="num_1.d2e1078" xml:lang="ar"
-               >١٩١١</num> ) فلما رأى آل سعدون عبث العشائر في
-               تلك الديار تركت أملاكها وعبرت إلى جهة الشامية للتخلص من بغي تلك الأقوام الطاغية.</p>
+               >١٩١١</num> ) فلما رأى آل سعدون عبث العشائر في تلك الديار تركت أملاكها وعبرت إلى جهة الشامية للتخلص من بغي تلك الأقوام الطاغية.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_107.d2e1082" xml:lang="ar">ولما شاع مجيء ناظم باشا إلى <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182"
                xml:id="placeName_37.d2e1084" xml:lang="ar"
-               >بغداد</placeName> وانه قد قدم لإصلاحه وترقية شؤونه
-               طار فرحا السعدونيون واظهروا من السرور ما لم يخف على أحد. فسبب هذا الفرح ما آثار في
-               صدور أولئك الناس اشد الحقد عليهم، وجزموا بان السعدون يكونون عوناً ويداً للحكومة. ومنذ
-                  <pb
+               >بغداد</placeName> وانه قد قدم لإصلاحه وترقية شؤونه طار فرحا السعدونيون واظهروا من السرور ما لم يخف على أحد. فسبب هذا الفرح ما آثار في صدور أولئك الناس اشد الحقد عليهم، وجزموا بان السعدون يكونون عوناً ويداً للحكومة. ومنذ <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P113.xhtml" ed="shamela" n="n1-p113" xml:id="pb_33.d2e1087"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
-               edRef="#edition_1" facs="#facs_113" n="113" xml:id="pb_66.d2e1462"/> ذاك اليوم اخذوا ينظرون إليهم
-               نظرهم إلى أعدائهم أو إلى كابحي جماحهم.</p>
+               edRef="#edition_1" facs="#facs_113" n="113" xml:id="pb_66.d2e1462"/> ذاك اليوم اخذوا ينظرون إليهم نظرهم إلى أعدائهم أو إلى كابحي جماحهم.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_108.d2e1091" xml:lang="ar"
-               >وكانت عشيرة الضفير موالية لآل سعدون
-               ومحبة له غاية المحبة حتى أنها كانت تود أن تفديه بحياتها. ثم انقلبت الأمور ظهراً لبطن
-               وإذا بالضفير قد أصبحت من اشد أصبحت من اشد الناس عدواة له. والسبب على أثبته الرواة هو
-               انه لما كان سعدون باشا في شهر محرم (كانون الثاني <num
+               >وكانت عشيرة الضفير موالية لآل سعدون ومحبة له غاية المحبة حتى أنها كانت تود أن تفديه بحياتها. ثم انقلبت الأمور ظهراً لبطن وإذا بالضفير قد أصبحت من اشد أصبحت من اشد الناس عدواة له. والسبب على أثبته الرواة هو انه لما كان سعدون باشا في شهر محرم (كانون الثاني <num
                change="#d2e258 #d2e282" type="auto-markup" value="1911" xml:id="num_1.d2e1093" xml:lang="ar"
-               >١٩١١</num> )
-               نزيل (الروضة) ومعه جميع عشائر الموالية له دبت عقارب الفتنة إليه وإلى الضفير فوقع
-               الخلاف بين الفريقين وللحال انفصلت الضفير إليه وغادرته إلى مكان قصي فحاول سعدون باشا
-               إلى إعادة المياه إلى مجاريها فلم يفلح وأظهرت العشيرة أعذاراً هي أو هي من بيت
-               العنكبوت. فبعث إليها رسولاً ابنه (ثامر بك) مرة ثانية وقال</p>
+               >١٩١١</num> ) نزيل (الروضة) ومعه جميع عشائر الموالية له دبت عقارب الفتنة إليه وإلى الضفير فوقع الخلاف بين الفريقين وللحال انفصلت الضفير إليه وغادرته إلى مكان قصي فحاول سعدون باشا إلى إعادة المياه إلى مجاريها فلم يفلح وأظهرت العشيرة أعذاراً هي أو هي من بيت العنكبوت. فبعث إليها رسولاً ابنه (ثامر بك) مرة ثانية وقال</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_109.d2e1097" xml:lang="ar"
-               >له: أن لم تجبك اخفرها جرياً على سنن
-               الأعراب وأمرائهم) (والخفر عندهم أن يأخذ الأمير الكبير من العشيرة العاصية بعضاً من
-               ابلها بموجب الجرم الذي ركبت متنه تأديباً لها). فذهب الولد ووافى (ابن حويط) رئيس عشيرة
-               الضفير وبلغه رسالة أبيه. فلم يعبأ ابن حويط بقوله، فأراد ثامر الخفر فمنعه الحاضرون عن
-               مد يده بما سمع من إطلاق الرصاص، وعلى هذا الوجه رجع ثامر بك بما رجع به حنين بعد أن قتل
-               رجل من رجاله وامرأة ضفيرية.</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_110.d2e1100" xml:lang="ar"
-               >وفي تلك الأثناء اخذ بعض محبي السلم
-               الوسائل لإصلاح ذات البين بين سعدون وشيخ الكويت فرحب بها سعدون بدون شرط وعاد <pb change="#d2e282"
-               corresp="../epub/36540/OEBPS/xhtml/P114.xhtml" ed="shamela" n="n1-p114" xml:id="pb_34.d2e1102"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
-               facs="#facs_114" n="114" xml:id="pb_68.d2e1479"
-               /> أدراجه إلى دياره ومعه الضفير وفي
-               القلوب من الذخل والغيظ والموجدة مالا يخفى على أحدٍ حتى بلغ صداه إلى ابن الرشيد لنصرته
-               على الضفير لاسيما لأنها اعتدت عليه بتعرضها لقوافله سابقاً أخذها منه عدداً من الإبل
-               وكان قد امتنع من التنكيل بها محبة لسعدون صديقه.</p>
+               >له: أن لم تجبك اخفرها جرياً على سنن الأعراب وأمرائهم) (والخفر عندهم أن يأخذ الأمير الكبير من العشيرة العاصية بعضاً من ابلها بموجب الجرم الذي ركبت متنه تأديباً لها). فذهب الولد ووافى (ابن حويط) رئيس عشيرة الضفير وبلغه رسالة أبيه. فلم يعبأ ابن حويط بقوله، فأراد ثامر الخفر فمنعه الحاضرون عن مد يده بما سمع من إطلاق الرصاص، وعلى هذا الوجه رجع ثامر بك بما رجع به حنين بعد أن قتل رجل من رجاله وامرأة ضفيرية.</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_110.d2e1100" xml:lang="ar">وفي تلك الأثناء اخذ بعض محبي السلم الوسائل لإصلاح ذات البين بين سعدون وشيخ الكويت فرحب بها سعدون بدون شرط وعاد <pb
+               change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P114.xhtml" ed="shamela" n="n1-p114" xml:id="pb_34.d2e1102"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
+               edRef="#edition_1" facs="#facs_114" n="114" xml:id="pb_68.d2e1479"
+               /> أدراجه إلى دياره ومعه الضفير وفي القلوب من الذخل والغيظ والموجدة مالا يخفى على أحدٍ حتى بلغ صداه إلى ابن الرشيد لنصرته على الضفير لاسيما لأنها اعتدت عليه بتعرضها لقوافله سابقاً أخذها منه عدداً من الإبل وكان قد امتنع من التنكيل بها محبة لسعدون صديقه.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_111.d2e1105" xml:lang="ar"
-               >فلما أحس ابن حويط بقدوم ابن الرشيد
-               وانه يكون ظهر السعدون شعر بحرج الموقف ولهذا أسرع في الذهاب أمامه واستقباله ولما
-               تلاقيا طلب ابن حويط من ابن الرشيد العفو والصفح فعفا عنه، ثم طلب إليه أن يتوسط بينه
-               وبين سعدون لعقد عرى الصلح بينهما، فلبى طلبه، فسار للحال ابن سبهان ومعه شيوخ الضفير
-               إلى سعدون باشا وأقنعوه بقبول الصلح فلم يقبل إلا بعد اللتيا والتي وبشرط أن تدفع الضفير
-               خفر <num
+               >فلما أحس ابن حويط بقدوم ابن الرشيد وانه يكون ظهر السعدون شعر بحرج الموقف ولهذا أسرع في الذهاب أمامه واستقباله ولما تلاقيا طلب ابن حويط من ابن الرشيد العفو والصفح فعفا عنه، ثم طلب إليه أن يتوسط بينه وبين سعدون لعقد عرى الصلح بينهما، فلبى طلبه، فسار للحال ابن سبهان ومعه شيوخ الضفير إلى سعدون باشا وأقنعوه بقبول الصلح فلم يقبل إلا بعد اللتيا والتي وبشرط أن تدفع الضفير خفر <num
                change="#d2e258 #d2e282" type="auto-markup" value="300" xml:id="num_1.d2e1107" xml:lang="ar">٣٠٠</num> بعير و <num change="#d2e258 #d2e282" type="auto-markup" value="70"
-               xml:id="num_1.d2e1110" xml:lang="ar">٧٠</num> جواداً. فقبلت ودفعت إلى سعدون ما طلبه أعطى هذا من هذا الخفر
-                  <num change="#d2e258 #d2e282" type="auto-markup" value="70"
+               xml:id="num_1.d2e1110" xml:lang="ar">٧٠</num> جواداً. فقبلت ودفعت إلى سعدون ما طلبه أعطى هذا من هذا الخفر <num change="#d2e258 #d2e282" type="auto-markup" value="70"
                xml:id="num_1.d2e1113" xml:lang="ar">٧٠</num> بعيراً و <num change="#d2e258 #d2e282" type="auto-markup" value="15" xml:id="num_1.d2e1116" xml:lang="ar"
-               >١٥</num> فرساً هدية لابن الرشيد.
-               وهنا روايتان: الرواية الأولى هي أن ابن الرشيد فرقها على عشائره التي كانت الضفير قد
-               أخذت جمالها سابقاً. والثانية: انه وهبها للضفير.</p>
+               >١٥</num> فرساً هدية لابن الرشيد. وهنا روايتان: الرواية الأولى هي أن ابن الرشيد فرقها على عشائره التي كانت الضفير قد أخذت جمالها سابقاً. والثانية: انه وهبها للضفير.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_112.d2e1120" xml:lang="ar"
-               >وبعد هذا الوفاق رجع كل منهم إلى قومه.
-               وأما ابن الرشيد فانه من بعد أن أقام بين ظهرانيهم يومين بعد الوفاق ظعن عن ديارهم. على
-               أن الدسائس لازالت تجري أفاعيها تحت ظواهر الصلح حتى ابتعد ابن الرشيد فقامت الضفير على
-               سعدون حتى خذلته وليس من العجب أن يخذل سعدون لأنه لم يكن مستعداً لمثل هذه الخيانة
-               وانجلت الموقعة عن قتل في الفريقين وممن عرف عن القتلى ثلاثة من السعدون وثلاثة <pb
+               >وبعد هذا الوفاق رجع كل منهم إلى قومه. وأما ابن الرشيد فانه من بعد أن أقام بين ظهرانيهم يومين بعد الوفاق ظعن عن ديارهم. على أن الدسائس لازالت تجري أفاعيها تحت ظواهر الصلح حتى ابتعد ابن الرشيد فقامت الضفير على سعدون حتى خذلته وليس من العجب أن يخذل سعدون لأنه لم يكن مستعداً لمثل هذه الخيانة وانجلت الموقعة عن قتل في الفريقين وممن عرف عن القتلى ثلاثة من السعدون وثلاثة <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P115.xhtml" ed="shamela" n="n1-p115" xml:id="pb_35.d2e1122"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
-               edRef="#edition_1" facs="#facs_115" n="115" xml:id="pb_70.d2e1501"/> من شيوخ الضفير. وكانت هذه الوقعة
-               في <num change="#d2e258 #d2e282" type="auto-markup" value="22"
+               edRef="#edition_1" facs="#facs_115" n="115" xml:id="pb_70.d2e1501"/> من شيوخ الضفير. وكانت هذه الوقعة في <num change="#d2e258 #d2e282" type="auto-markup" value="22"
                xml:id="num_1.d2e1124" xml:lang="ar">٢٢</num> ربيع الأول من هذه السنة ( <num change="#d2e258 #d2e282" type="auto-markup" value="24" xml:id="num_1.d2e1127" xml:lang="ar"
-               >٢٤</num> آذار
-                  <date change="#d2e266 #d2e282 #d2e477" type="auto-markup" when="1911" xml:id="date_3.d2e1130" xml:lang="ar">سنة <num change="#d2e258 #d2e282"
-               type="auto-markup" value="1911" xml:id="num_1.d2e1132" xml:lang="ar">١٩١١</num> </date> ) في موضع اسمه</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_113.d2e1136" xml:lang="ar">(الحسينية قرب (شقراء) التي فيها قصر
-               سعدون باشا.</p>
+               >٢٤</num> آذار <date change="#d2e266 #d2e282 #d2e477" type="auto-markup" when="1911" xml:id="date_3.d2e1130" xml:lang="ar">سنة <num change="#d2e258 #d2e282" type="auto-markup"
+               value="1911" xml:id="num_1.d2e1132" xml:lang="ar">١٩١١</num> </date> ) في موضع اسمه (الحسينية قرب (شقراء) التي فيها قصر سعدون باشا.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_114.d2e1140" xml:lang="ar"
-               >فلما بلغت الأمور هذا المبلغ كتب محمد
-               العصيمي من أعيان الزبير كتاباً إلى سعدون بتاريخ آخر ربيع الثاني (أواخر نيسان) يقول له
-               فيه أن يرسل يوسف بك ابن أخيه إلى أنحاء الزبير لينضم إلى عشيرة بني مالك ويقطع الطريق
-               عن قوافل الضفير التي آذنت لها الحكومة أن تأتي إلى الزبير. فأجاب طلبه السعدون وذهب
-               يوسف بك حتى وصل إلى مسافة ميل من بلدة الزبير فاخذ من العشيرة المعادية ثمانية بعران
-               ولما رأى أن لا قبل له بإتمام ما بدأ به لمقاومة الضفير له لجأ إلى قصر خالد العون في
-               (الشعبية) إحدى ضواحي الزبير الذي اتخذه العصيمي مقاماً له.</p>
+               >فلما بلغت الأمور هذا المبلغ كتب محمد العصيمي من أعيان الزبير كتاباً إلى سعدون بتاريخ آخر ربيع الثاني (أواخر نيسان) يقول له فيه أن يرسل يوسف بك ابن أخيه إلى أنحاء الزبير لينضم إلى عشيرة بني مالك ويقطع الطريق عن قوافل الضفير التي آذنت لها الحكومة أن تأتي إلى الزبير. فأجاب طلبه السعدون وذهب يوسف بك حتى وصل إلى مسافة ميل من بلدة الزبير فاخذ من العشيرة المعادية ثمانية بعران ولما رأى أن لا قبل له بإتمام ما بدأ به لمقاومة الضفير له لجأ إلى قصر خالد العون في (الشعبية) إحدى ضواحي الزبير الذي اتخذه العصيمي مقاماً له.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_115.d2e1143" xml:lang="ar"
-               >ثم كتب محمد العصيمي ليوسف بك أن يرغم
-               العشيرة ويسلبها وينهها انتقاماً من الزبيريين (الذين استقبحوا عمل العصيمي) فحاصرها
-               يوسف بك في <num
-               change="#d2e258 #d2e282" type="auto-markup" value="2" xml:id="num_1.d2e1145" xml:lang="ar">٢</num> جمادي الأولى ( <num change="#d2e258 #d2e282" type="auto-markup" value="1"
-               xml:id="num_1.d2e1148" xml:lang="ar">١</num> أيار) حتى انقطعت السبل بين <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_62.d2e1531"
-               xml:lang="ar">البصرة</placeName> والزبير وغلت الأطعمة غلاء فاحشا
-               وخاف الناس على أنفسهم إلى أن من الله بالفرج على عباده.</p>
+               >ثم كتب محمد العصيمي ليوسف بك أن يرغم العشيرة ويسلبها وينهها انتقاماً من الزبيريين (الذين استقبحوا عمل العصيمي) فحاصرها يوسف بك في <num change="#d2e258 #d2e282" type="auto-markup"
+               value="2" xml:id="num_1.d2e1145" xml:lang="ar">٢</num> جمادي الأولى ( <num change="#d2e258 #d2e282" type="auto-markup" value="1" xml:id="num_1.d2e1148" xml:lang="ar"
+               >١</num> أيار) حتى انقطعت السبل بين <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_62.d2e1531" xml:lang="ar"
+               >البصرة</placeName> والزبير وغلت الأطعمة غلاء فاحشا وخاف الناس على أنفسهم إلى أن من الله بالفرج على عباده.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_116.d2e1152" xml:lang="ar"
-               >ولم تنتبه الأمور إلى هذا الحد بل آلت
-               إلى صورة أشنع وافظع: زار تسعة من شيوخ البدور في عيد الأضحى من هذه السنة عجيمي بك ابن
-               سعدون باشا ولعلهم فعلوا ذلك حباً بالسلام والرجوع إلى الاتفاق <pb
+               >ولم تنتبه الأمور إلى هذا الحد بل آلت إلى صورة أشنع وافظع: زار تسعة من شيوخ البدور في عيد الأضحى من هذه السنة عجيمي بك ابن سعدون باشا ولعلهم فعلوا ذلك حباً بالسلام والرجوع إلى الاتفاق <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P116.xhtml" ed="shamela" n="n1-p116" xml:id="pb_36.d2e1154"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
                edRef="#edition_1" facs="#facs_116" n="116" xml:id="pb_72.d2e1539"
-               /> والوئام، لاسيما وان عجيمي
-               المذكور أمنهم على أنفسهم وعاهدهم العهود الوثيقة أن لا يؤذيهم، ثم بعد ذلك غدر بهم كما
-               غدروا هم بابيه فقتل سبعة منهم وفدى اثنان نفسيهما بمال طائل فافلتا. ولما سمعت العشائر
-               بهذه الخيانة التي لم تكن ألا بآمر من سعدون باشا هاجت وماجت والت على نفسها أن تنتقم من
-               سعدون مهما كلفها من المال والرجال وخلعت طاعته ولم يبق من العشائر الموالية له سوى
-               الضفير وهذه أيضاً لم تبق على حبها له لأنه غزا عنزة مع الضفير ومع بعض عشائر السماوة
-               وكانوا له بمقام الخدم والعبيد منقادين لجميع أوامره وزواجره وما كان يكرم أحداً منهم
-               غير رؤسائهم فانه كان يكسوهم ثياباً في السنة مرة لا غير وبعد انتصاره نوى أن يحرم عشائر
-               السماوة من الغنيمة. فأنكر الضفير عليه هذا العمل، ومن ثم تحكمت النفرة بين سعدون باشا
-               وبين العشيرة المذكورة وأصبح سعدون وحيداً شريداً طريداً، لا يرق عليه قلب، ولا يعطف
-               عليه عاطف.</p>
+               /> والوئام، لاسيما وان عجيمي المذكور أمنهم على أنفسهم وعاهدهم العهود الوثيقة أن لا يؤذيهم، ثم بعد ذلك غدر بهم كما غدروا هم بابيه فقتل سبعة منهم وفدى اثنان نفسيهما بمال طائل فافلتا. ولما سمعت العشائر بهذه الخيانة التي لم تكن ألا بآمر من سعدون باشا هاجت وماجت والت على نفسها أن تنتقم من سعدون مهما كلفها من المال والرجال وخلعت طاعته ولم يبق من العشائر الموالية له سوى الضفير وهذه أيضاً لم تبق على حبها له لأنه غزا عنزة مع الضفير ومع بعض عشائر السماوة وكانوا له بمقام الخدم والعبيد منقادين لجميع أوامره وزواجره وما كان يكرم أحداً منهم غير رؤسائهم فانه كان يكسوهم ثياباً في السنة مرة لا غير وبعد انتصاره نوى أن يحرم عشائر السماوة من الغنيمة. فأنكر الضفير عليه هذا العمل، ومن ثم تحكمت النفرة بين سعدون باشا وبين العشيرة المذكورة وأصبح سعدون وحيداً شريداً طريداً، لا يرق عليه قلب، ولا يعطف عليه عاطف.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_117.d2e1157" xml:lang="ar"
-               >ولما كان بقاء سعدون باشا في مقامه مما
-               يزعج الخواطر ويقلقها ويديم الاضطراب في أرجاء المنتفق، كتب رؤساء العشائر رسالة ونفذوها
-               إلى ولايتي <placeName
-               change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_63.d2e1544" xml:lang="ar">البصرة</placeName> و<placeName change="#d5e244 #d2e282 #d2e477"
-               ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e1159" xml:lang="ar"
-               >بغداد</placeName> وقد ذيلها أربعة عشر رئيساً
-               باسمائهم، وهذا بعض ما فيها نقلاً عن جريدة مصباح الشرق في عددها <num change="#d2e258 #d2e282" type="auto-markup" value="47"
-               xml:id="num_1.d2e1162" xml:lang="ar">٤٧</num> بدون إصلاح عبارتها المغلوطة:</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_118.d2e1166" xml:lang="ar">من المعلوم أن الدور البائد باستبداد
-               حمولة آل سعدون على لواء المنتفقك <pb change="#d2e282"
+               >ولما كان بقاء سعدون باشا في مقامه مما يزعج الخواطر ويقلقها ويديم الاضطراب في أرجاء المنتفق، كتب رؤساء العشائر رسالة ونفذوها إلى ولايتي <placeName change="#d2e381 #d5e392 #d2e477"
+               ref="oape:place:210 geon:99532" xml:id="placeName_63.d2e1544" xml:lang="ar">البصرة</placeName> و<placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182"
+               xml:id="placeName_38.d2e1159" xml:lang="ar">بغداد</placeName> وقد ذيلها أربعة عشر رئيساً باسمائهم، وهذا بعض ما فيها نقلاً عن جريدة مصباح الشرق في عددها <num change="#d2e258 #d2e282"
+               type="auto-markup" value="47" xml:id="num_1.d2e1162" xml:lang="ar">٤٧</num> بدون إصلاح عبارتها المغلوطة:</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_118.d2e1166" xml:lang="ar">من المعلوم أن الدور البائد باستبداد حمولة آل سعدون على لواء المنتفقك <pb change="#d2e282"
                corresp="../epub/36540/OEBPS/xhtml/P117.xhtml" ed="shamela" n="n1-p117" xml:id="pb_37.d2e1168"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_117" n="117" xml:id="pb_74.d2e1558"
-               /> كانت حياة عموم الرعية مستغرقة،
-               ولما تحقق لدى الحكومة جهزت جنداً كافياً فأخرجتهم إلى جهة الشامية وبقوا مدة سنين
-               فاستراحت الأهالي وكسبت الأمنية وكانت الأميرية تعطى من قبل الأهالي.</p>
+               /> كانت حياة عموم الرعية مستغرقة، ولما تحقق لدى الحكومة جهزت جنداً كافياً فأخرجتهم إلى جهة الشامية وبقوا مدة سنين فاستراحت الأهالي وكسبت الأمنية وكانت الأميرية تعطى من قبل الأهالي.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_119.d2e1171" xml:lang="ar"
-               >أما من مدة ثمان سنين، فبواسطة أهل
-               الغرض عبر سعدون من الشامية إلى جزيرة الغراف وذلك في زمان ولاية مصطفى نوري باشا، واخذ
-               العهود عليهم لإحياء مشيخة آبائه وأجداده، والذي يمتنع ينهب ماله ويسفك دمه فصارت السلطة
-               عليهم ولما تمكن هجم على قضاء الشطرة وقتل رهطاً من الجند وضايقها، حتى اضطر الأهالي إلى
-               دفع الأموال لخلاصهم من القتل، ثم ارتحل وهجم على قضاء السوق ونهب واحرق، ولما تحققت
-               معاملته لدى الحكومة ساقت الجند مع الفريق محمد باشا بعد أن استغاث اللواء وعشائره، ففر
-               إلى الكويت ثم عاد بواسطة العفو وشيد قلعة المائعة ووضع فيها ما تمكن من الذخيرة، ثم
-               تسلط على العشائر واخذ يجلب رؤساءهم والذي لم يوافقه يقتله، وهكذا استمرت أفعاله
-               والحكومة كانت تراها ولم تعاقبه لإطماعها فيه، إلى زمن الوالي السابق مخلص باشا فساق
-               عليه الجند وأمر بقلع المائعة، ولما انفصل من وظيفته رجع واستمر على جوره، حتى بزغ
-               الدستور وتلطف الباري علينا بالعدل فما لبث أن عاد لحانته الأولى أيضاً وجرى ما جرى منه
-               من سفك الدماء وقتل الأنفس. ونظراً لما شاهدته العشائر من انتصار حكومة المركز أخيراً،
-               وإعطاء القوة إلى سعدون وولده صاروا مأيوسين ومحاذرين من تسلط سعدون وولده، لعلمهم
-               بمعاملاته السابقة من قتل النفوس والفعل الشنيع الذي <pb
+               >أما من مدة ثمان سنين، فبواسطة أهل الغرض عبر سعدون من الشامية إلى جزيرة الغراف وذلك في زمان ولاية مصطفى نوري باشا، واخذ العهود عليهم لإحياء مشيخة آبائه وأجداده، والذي يمتنع ينهب ماله ويسفك دمه فصارت السلطة عليهم ولما تمكن هجم على قضاء الشطرة وقتل رهطاً من الجند وضايقها، حتى اضطر الأهالي إلى دفع الأموال لخلاصهم من القتل، ثم ارتحل وهجم على قضاء السوق ونهب واحرق، ولما تحققت معاملته لدى الحكومة ساقت الجند مع الفريق محمد باشا بعد أن استغاث اللواء وعشائره، ففر إلى الكويت ثم عاد بواسطة العفو وشيد قلعة المائعة ووضع فيها ما تمكن من الذخيرة، ثم تسلط على العشائر واخذ يجلب رؤساءهم والذي لم يوافقه يقتله، وهكذا استمرت أفعاله والحكومة كانت تراها ولم تعاقبه لإطماعها فيه، إلى زمن الوالي السابق مخلص باشا فساق عليه الجند وأمر بقلع المائعة، ولما انفصل من وظيفته رجع واستمر على جوره، حتى بزغ الدستور وتلطف الباري علينا بالعدل فما لبث أن عاد لحانته الأولى أيضاً وجرى ما جرى منه من سفك الدماء وقتل الأنفس. ونظراً لما شاهدته العشائر من انتصار حكومة المركز أخيراً، وإعطاء القوة إلى سعدون وولده صاروا مأيوسين ومحاذرين من تسلط سعدون وولده، لعلمهم بمعاملاته السابقة من قتل النفوس والفعل الشنيع الذي <pb
                change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P118.xhtml" ed="shamela" n="n1-p118" xml:id="pb_38.d2e1173"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
                edRef="#edition_1" facs="#facs_118" n="118" xml:id="pb_76.d2e1565"
-               /> صدر من عجيمي فوقعت مناوشة خفيفة
-               بين عشائر والبدور والجند، وعند دخوله إلى اللواء صارت مصادمة بنفس اللواء حتى تلفت جملة
-               نفوس واحترقت جملة بيوت وانتهبت، وترك الناس يقتلون بعضهم بعضاً فلم يصلحوا ذات بينهم
-               ولا اخرجوا سعدون من قلعة المائعة وقد كان ذلك غاية ما تطلبه البدور من الحكومة، وقد
-               سحبوا تلغرافات إلى المقامات العالية شارحين</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_120.d2e1177" xml:lang="ar"
-               >الحال طالبين إخراجه من المائعة ووضع
-               مفرزة فيها من العساكر المظفرة لإصلاح الطرق قيها والأمنية منتظرين الجواب.</p>
+               /> صدر من عجيمي فوقعت مناوشة خفيفة بين عشائر والبدور والجند، وعند دخوله إلى اللواء صارت مصادمة بنفس اللواء حتى تلفت جملة نفوس واحترقت جملة بيوت وانتهبت، وترك الناس يقتلون بعضهم بعضاً فلم يصلحوا ذات بينهم ولا اخرجوا سعدون من قلعة المائعة وقد كان ذلك غاية ما تطلبه البدور من الحكومة، وقد سحبوا تلغرافات إلى المقامات العالية شارحين</p>
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_120.d2e1177" xml:lang="ar">الحال طالبين إخراجه من المائعة ووضع مفرزة فيها من العساكر المظفرة لإصلاح الطرق قيها والأمنية منتظرين الجواب.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_121.d2e1180" xml:lang="ar"
-               >فإذا لم يصدر الأمر بإجراء الإيجاب على
-               النظام تتحد عشائر البدور مع الضفير والشيخ مبارك الصباح وتتصل قبائل لواء المنتفك في
-               معيته والي الآن ما حصلت النتيجة ولا صدر أمر بإجرائها.</p>
+               >فإذا لم يصدر الأمر بإجراء الإيجاب على النظام تتحد عشائر البدور مع الضفير والشيخ مبارك الصباح وتتصل قبائل لواء المنتفك في معيته والي الآن ما حصلت النتيجة ولا صدر أمر بإجرائها.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_122.d2e1183" xml:lang="ar"
-               >أما الضفير فقد ثم اتفاقهم مع الشيخ
-               مبارك الصباح وأما عشائره البدور وقبائل لواء المنتفك ففي المخابرة والمذاكرة وإذا بقى
-               هذا الحال ولم يصدر أمر بإجلاء سعدون وقلع المائعة لقطع دابر الفساد وإصلاح الحال ووضع
-               مفرزة من الحكومة إلى إصلاح أحوال <placeName
+               >أما الضفير فقد ثم اتفاقهم مع الشيخ مبارك الصباح وأما عشائره البدور وقبائل لواء المنتفك ففي المخابرة والمذاكرة وإذا بقى هذا الحال ولم يصدر أمر بإجلاء سعدون وقلع المائعة لقطع دابر الفساد وإصلاح الحال ووضع مفرزة من الحكومة إلى إصلاح أحوال <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:209 geon:99237" xml:id="placeName_65.d2e1577" xml:lang="ar"
-               >العراق</placeName>
-               وحقن دماء المسلمين وتخليصهم من يد سعدون وأولاده وتعيين مأمورين إلى اللواء خالين من
-               الغرض محافظين حقوق الدولة والملة فيسعون إلى إصلاح هذه المفاسد قبل أن تكون ولاية
-                  <placeName
+               >العراق</placeName> وحقن دماء المسلمين وتخليصهم من يد سعدون وأولاده وتعيين مأمورين إلى اللواء خالين من الغرض محافظين حقوق الدولة والملة فيسعون إلى إصلاح هذه المفاسد قبل أن تكون ولاية <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_66.d2e1580" xml:lang="ar">البصرة</placeName> مسرحاً للأجانب. اهـ</p>
-            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_123.d2e1186" xml:lang="ar">ولما تريثت الحكومة في إصدار أمرها
-               تحالفت العشائر على مناهضة <pb change="#d2e282"
+            <p change="#d2e73 #d2e282 #d2e477" xml:id="p_123.d2e1186" xml:lang="ar">ولما تريثت الحكومة في إصدار أمرها تحالفت العشائر على مناهضة <pb change="#d2e282"
                corresp="../epub/36540/OEBPS/xhtml/P119.xhtml" ed="shamela" n="n1-p119" xml:id="pb_39.d2e1188"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
                facs="#facs_119" n="119" xml:id="pb_78.d2e1588"
-               /> سعدون وضبطت قلعة صغيرة قتل في
-               أثناء أخذها اثنان من رؤساء المنتفق فطلب حينئذٍ سعدون من الحكومة إرسال الطعام إلى أهل
-               بيته بواسطة البواخر ففعلت وأرسلت معها العساكر، فلما علمت العشائر بذلك أمطرت الرصاص
-               على المركب وعلى من فيها فقابلها الجند بالمثل ذهاباً وإياباً ودام إطلاق البنادق من
-               الجانبين اكثر من <num
+               /> سعدون وضبطت قلعة صغيرة قتل في أثناء أخذها اثنان من رؤساء المنتفق فطلب حينئذٍ سعدون من الحكومة إرسال الطعام إلى أهل بيته بواسطة البواخر ففعلت وأرسلت معها العساكر، فلما علمت العشائر بذلك أمطرت الرصاص على المركب وعلى من فيها فقابلها الجند بالمثل ذهاباً وإياباً ودام إطلاق البنادق من الجانبين اكثر من <num
                change="#d2e258 #d2e282" type="auto-markup" value="12" xml:id="num_1.d2e1190" xml:lang="ar">١٢</num> ساعة.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_124.d2e1194" xml:lang="ar"
-               >وبعد أن تحققت العشائر وجود سعدون في
-               اللواء حاصرته اشد الحصار لا كراهه على الخروج من تلك الديار فخرج بعد حصار دام يومين
-               وليلتين وبخروجه انتهى الحصار. أما العشائر التي ناوأته في تلك الواقعة فكانت البدور
-               والغزي والحسينات والبوعظم والعساكرة.</p>
+               >وبعد أن تحققت العشائر وجود سعدون في اللواء حاصرته اشد الحصار لا كراهه على الخروج من تلك الديار فخرج بعد حصار دام يومين وليلتين وبخروجه انتهى الحصار. أما العشائر التي ناوأته في تلك الواقعة فكانت البدور والغزي والحسينات والبوعظم والعساكرة.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_125.d2e1197" xml:lang="ar"
-               >بعد أن أهين سعدون هذه الإهانة وتثبت أن
-               كل هذه البلايا التي نزلت به كانت بسبب الضفير إلى على نفسه أن يطاردها ولو بذل دمه في
-               سبيل تحقيق أمنيته فما زال وراءها حتى أتى الزبير فسمع هناك بقدوم صديقه الحميم السيد
-               طالب باشا مبعوث <placeName
+               >بعد أن أهين سعدون هذه الإهانة وتثبت أن كل هذه البلايا التي نزلت به كانت بسبب الضفير إلى على نفسه أن يطاردها ولو بذل دمه في سبيل تحقيق أمنيته فما زال وراءها حتى أتى الزبير فسمع هناك بقدوم صديقه الحميم السيد طالب باشا مبعوث <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_67.d2e1599" xml:lang="ar"
-               >البصرة</placeName> إلى المدينة عائداً من الآستانة
-               فاحب مواجهته وكتب إليه رسالة ليعرف منه إذا كان هناك مانع يحول دون زيارته فأجابه
-               المبعوث أن لا مانع من دخوله <placeName
+               >البصرة</placeName> إلى المدينة عائداً من الآستانة فاحب مواجهته وكتب إليه رسالة ليعرف منه إذا كان هناك مانع يحول دون زيارته فأجابه المبعوث أن لا مانع من دخوله <placeName
                change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_68.d2e1602" xml:lang="ar">البصرة</placeName>.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_126.d2e1201" xml:lang="ar">فذهب ولما وصل إلى <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532"
-               xml:id="placeName_69.d2e1609" xml:lang="ar">البصرة</placeName> نزل به ضيفاً. وحالما علة والي
-               ولاية <placeName change="#d2e381 #d5e392 #d2e477"
-               ref="oape:place:210 geon:99532" xml:id="placeName_70.d2e1612" xml:lang="ar">البصرة</placeName> بدخول</p>
+               xml:id="placeName_69.d2e1609" xml:lang="ar">البصرة</placeName> نزل به ضيفاً. وحالما علة والي ولاية <placeName change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532"
+               xml:id="placeName_70.d2e1612" xml:lang="ar">البصرة</placeName> بدخول</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_127.d2e1204" xml:lang="ar"
-               >سعدون باشا المدينة أنبأ بلسان البرق
-               لجنة التحقيق والأجراء بموافاة الشيخ المذكور فورد الجواب بالقبض عليه وإرساله إلى
-                  <placeName
-               change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e1206" xml:lang="ar"
-               >بغداد</placeName> مخفوراً. فأرسل إليه آمر المبدرقة
-               (أي قومندان الجاندرمة) وقت القيلولة وطلب إليه أن يواجه والي الولاية، فلبى الطلب
-               مسرعاً <pb
-               change="#d2e282" corresp="../epub/36540/OEBPS/xhtml/P120.xhtml" ed="shamela" n="n1-p120" xml:id="pb_40.d2e1209"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print"
-               edRef="#edition_1" facs="#facs_120" n="120" xml:id="pb_80.d2e1623"/> فلما وصل دار الحكومة قيل له أن
-               الوالي في العشار (محلة من محلات <placeName
-               change="#d2e381 #d5e392 #d2e477" ref="oape:place:210 geon:99532" xml:id="placeName_72.d2e1625" xml:lang="ar"
-               >البصرة</placeName>
-               واقعة على شط العرب) فركب العجلة، ولما وصل الحي المذكور قيل له انه في المركب وما كادت
-               أقدامه تطأ باخرة (مسعودي) إلا وشعر بأنه محاط بالخفر وانه ينقل إلى <placeName
+               >سعدون باشا المدينة أنبأ بلسان البرق لجنة التحقيق والأجراء بموافاة الشيخ المذكور فورد الجواب بالقبض عليه وإرساله إلى <placeName change="#d5e244 #d2e282 #d2e477"
+               ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e1206" xml:lang="ar"
+               >بغداد</placeName> مخفوراً. فأرسل إليه آمر المبدرقة (أي قومندان الجاندرمة) وقت القيلولة وطلب إليه أن يواجه والي الولاية، فلبى الطلب مسرعاً <pb change="#d2e282"
+               corresp="../epub/36540/OEBPS/xhtml/P120.xhtml" ed="shamela" n="n1-p120" xml:id="pb_40.d2e1209"/> <pb change="#d2e336 #d2e363 #d2e379 #d2e381" ed="print" edRef="#edition_1"
+               facs="#facs_120" n="120" xml:id="pb_80.d2e1623"/> فلما وصل دار الحكومة قيل له أن الوالي في العشار (محلة من محلات <placeName change="#d2e381 #d5e392 #d2e477"
+               ref="oape:place:210 geon:99532" xml:id="placeName_72.d2e1625" xml:lang="ar"
+               >البصرة</placeName> واقعة على شط العرب) فركب العجلة، ولما وصل الحي المذكور قيل له انه في المركب وما كادت أقدامه تطأ باخرة (مسعودي) إلا وشعر بأنه محاط بالخفر وانه ينقل إلى <placeName
                change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_40.d2e1211" xml:lang="ar">بغداد</placeName> فوصلها في <num change="#d2e258 #d2e282" type="auto-markup"
-               value="27" xml:id="num_1.d2e1214" xml:lang="ar">٢٧</num> تموز وانزل في دار خاصة به عينتها له الحكومة وجعلت له خدماً
-               على نفقته ثم في <num change="#d2e258 #d2e282"
-               type="auto-markup" value="3" xml:id="num_1.d2e1217" xml:lang="ar">٣</num> آب نقل إلى قلعة المدفعية الواقعة على
-               دجلة. وفي ليل <num change="#d2e258 #d2e282"
-               type="auto-markup" value="20" xml:id="num_1.d2e1221" xml:lang="ar">٢٠</num> آب سافر إلى <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:15 geon:170063"
-               xml:id="placeName_41.d2e1224" xml:lang="ar">حلب</placeName> الشهباء عن طريق <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:211 geon:99072" xml:id="placeName_42.d2e1227"
-               xml:lang="ar">الموصل</placeName> لمحاكمته هناك والله اعلم بمصير
-               الأمور.</p>
+               value="27" xml:id="num_1.d2e1214" xml:lang="ar">٢٧</num> تموز وانزل في دار خاصة به عينتها له الحكومة وجعلت له خدماً على نفقته ثم في <num change="#d2e258 #d2e282" type="auto-markup"
+               value="3" xml:id="num_1.d2e1217" xml:lang="ar">٣</num> آب نقل إلى قلعة المدفعية الواقعة على دجلة. وفي ليل <num change="#d2e258 #d2e282" type="auto-markup" value="20"
+               xml:id="num_1.d2e1221" xml:lang="ar">٢٠</num> آب سافر إلى <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:15 geon:170063" xml:id="placeName_41.d2e1224" xml:lang="ar"
+               >حلب</placeName> الشهباء عن طريق <placeName change="#d2e282 #d5e392 #d2e477" ref="oape:place:211 geon:99072" xml:id="placeName_42.d2e1227" xml:lang="ar"
+               >الموصل</placeName> لمحاكمته هناك والله اعلم بمصير الأمور.</p>
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_128.d2e1231" xml:lang="ar"
-               >أما أعراب المنتفق فقد أخلدت إلى السكون
-               والراحة ريثما تجد لها ما يثير غضبها وفق الله الجميع إلا ما به خير العباد ونفع
-               البلاد.</p>
+               >أما أعراب المنتفق فقد أخلدت إلى السكون والراحة ريثما تجد لها ما يثير غضبها وفق الله الجميع إلا ما به خير العباد ونفع البلاد.</p>
          </div>
          <div change="#d2e64 #d2e282 #d2e462 #d2e477" subtype="article" type="item" xml:id="div_12.d2e1969" xml:lang="ar">
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_129.d2e1234" xml:lang="ar"
-               >في المدينة بضع إصابات بالهيضة أما
-               الوفيات فتكاد لا تكون شيئاً مذكوراً. إلا أن هذا العرض يفتك في المحمرة والوفيات فيها
-               من <num change="#d2e258 #d2e282"
-               type="auto-markup" value="25" xml:id="num_1.d2e1236" xml:lang="ar">٢٥</num> إلى <num change="#d2e258 #d2e282" type="auto-markup" value="30" xml:id="num_1.d2e1239" xml:lang="ar"
-               >٣٠</num> في اليوم مع أن المدينة
-               قليلة السكان.</p>
+               >في المدينة بضع إصابات بالهيضة أما الوفيات فتكاد لا تكون شيئاً مذكوراً. إلا أن هذا العرض يفتك في المحمرة والوفيات فيها من <num change="#d2e258 #d2e282" type="auto-markup" value="25"
+               xml:id="num_1.d2e1236" xml:lang="ar">٢٥</num> إلى <num change="#d2e258 #d2e282" type="auto-markup" value="30" xml:id="num_1.d2e1239" xml:lang="ar"
+               >٣٠</num> في اليوم مع أن المدينة قليلة السكان.</p>
          </div>
          <div change="#d2e64 #d2e282 #d2e462 #d2e477" subtype="article" type="item" xml:id="div_13.d2e1981" xml:lang="ar">
             <p change="#d2e73 #d2e282 #d2e477" xml:id="p_130.d2e1243" xml:lang="ar">قدم إلى <placeName change="#d5e244 #d2e282 #d2e477" ref="oape:place:216 geon:98182" xml:id="placeName_43.d2e1245"
-               xml:lang="ar">بغداد</placeName> واليها الجديد احمد جمال بك نهار
-               السبت <num change="#d2e258 #d2e282" type="auto-markup" value="26" xml:id="num_1.d2e1248" xml:lang="ar"
+               xml:lang="ar">بغداد</placeName> واليها الجديد احمد جمال بك نهار السبت <num change="#d2e258 #d2e282" type="auto-markup" value="26" xml:id="num_1.d2e1248" xml:lang="ar"
                >٢٦</num> آب وقرء الفرمان نهار الأربعاء <num change="#d2e258 #d2e282" type="auto-markup" value="30" xml:id="num_1.d2e1251" xml:lang="ar">٣٠</num> آب. <pb change="#d2e282"
                corresp="../epub/36540/OEBPS/xhtml/P121.xhtml" ed="shamela" n="n1-p121" xml:id="pb_41.d2e1254"/> </p>
          </div>
