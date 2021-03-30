@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e395" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e395" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e393" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e391" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e374" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e379" xml:lang="en">Added <tei:gi change="#d2e374 #d2e391" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e377" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e375" change="#d2e391" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e395" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e397" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e395" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e393" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e391" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e374" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e379" xml:lang="en">Added <tei:gi change="#d2e374 #d2e391" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e377" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e375" change="#d2e391" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e353" change="#d2e391" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-06" who="#pers_TG" xml:lang="en" xml:id="d2e344">Automatically split all <tag change="#d2e374 #d2e391" xml:id="tag_1.d2e185" xml:lang="en">div type="section"</tag> into subsections of <tag change="#d2e374 #d2e391" xml:id="tag_2.d2e187" xml:lang="en">div type="article"</tag>, using paragraphs with a length of 30 or less as indicator of a heading.</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e320" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e374 #d2e391" xml:id="list_1.d2e192" xml:lang="en">
@@ -160,61 +160,39 @@
          <div change="#d2e64 #d2e296 #d2e391" type="item" subtype="article" xml:id="div_4.d2e434" xml:lang="ar">
             <head change="#d2e296 #d2e391" xml:id="head_4.d2e436" xml:lang="ar">آلتون كوبري في التاريخ</head>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_18.d2e439" xml:lang="ar">آلتون كوبري ويجوز كتابتها بصورة (التون كبري) قصبة في لواء كركوك واقعة بين جسرين قائمين على فرعي الزاب الصغير الذي يقال له أيضاً الزاب الأصغر وبتعبير آخر الزاب الأسفل ويقال للفرع آلتون صو وتعريبه الحرفي (الماء الذهب) ومعناه (نهر الذهب). ومعنى التون كوبري جسر الذهب ولا بد أن القائل آلتون كوبري أراد أن يقول آلتون صو كوبريسي أي جسر نهر الذهب فاستطال الجملة فاختصرها. وقد ذهب إلى القول بهذا الاختصار معلمة الإسلام وكذلك حضرة الأب صاحب هذه المجلة ( ٥  ( ١٩٢٧  -  ٢٨ ):  ٣٦٢ ) ورجعت معلمة الإسلام قولها على قول من ينسب الاسم إلى وفرة الدخل الذي يؤخذ عن العبور. وبعض العراقيين منا يعرب آلتون كوبري مع اختصاره فيقول (القنطرة) كما قال الأب في كلامه الذي أشرت إليه أما الحكومة فتكتبها في ما تصدره من الرسميات بصورة التون كوبري.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_19.d2e454" xml:lang="ar">ويروى بعض الناس عن سبب تسمية آلتون كوبري أن للسلطان مراد الرابع حينما جاء <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e456" xml:lang="ar">بغداد</placeName> في سنة ١٠٤٨
-                 هـ ( 
-                  ١٦٣٨
-                م) أمر بتشييد جسر هنالك فإبان من أمر بذلك حاجته إلى مال كثير فتقدم إليه الشروع وان تبلغ النفقات ثقل الجسر ذهباً ولا يمكننا أن نقبل هذا السبب للتسمية - على فرض صحة الأمر بالبناء وتداول الكلام عن النفقات - لوجود نهر هناك اسمه التون صو قبل مجيء السلطان مراد إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e467" xml:lang="ar">بغداد</placeName> فضلاً عن اسم آلتون كوبري كان معروفاً قبل زمن السلطان المار الذكر بنحو ثلاثة قرون على اقل تقدير. وقد سمع أيضاً حضرة
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_19.d2e454" xml:lang="ar">ويروى بعض الناس عن سبب تسمية آلتون كوبري أن للسلطان مراد الرابع حينما جاء <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e456" xml:lang="ar">بغداد</placeName> في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1048" from="1638" to="1639">سنة ١٠٤٨ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1638">١٦٣٨ م)</date>  أمر بتشييد جسر هنالك فإبان من أمر بذلك حاجته إلى مال كثير فتقدم إليه الشروع وان تبلغ النفقات ثقل الجسر ذهباً ولا يمكننا أن نقبل هذا السبب للتسمية - على فرض صحة الأمر بالبناء وتداول الكلام عن النفقات - لوجود نهر هناك اسمه التون صو قبل مجيء السلطان مراد إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e467" xml:lang="ar">بغداد</placeName> فضلاً عن اسم آلتون كوبري كان معروفاً قبل زمن السلطان المار الذكر بنحو ثلاثة قرون على اقل تقدير. وقد سمع أيضاً حضرة
 <pb n="n8-p728" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5271.xhtml" change="#d2e296" xml:id="pb_6.d2e470"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="728" edRef="#edition_1" xml:id="pb_12.d2e568"/>
 
 
-الأب صاحب المجلة أن باني القنطرتين اللتين في آلتون كوبري هو السلطان كما أن سالنامة <placeName change="#d2e296 #d2e391" xml:id="placeName_8.d2e473" xml:lang="ar">الموصل</placeName> لسنة ١٣٢٥
-                هـ ( 
-                  ١٩٠٧
-                م) (ص  ٢١٥ ) كانت قد قالت ما تعريبه: (إن هذا الجسر العظيم أسس في عصر مراد خان الرابع ولا يزال حافظاً صلابته ومتانته) اهـ. أما التاريخ فانه يخطئ صاحب السالنامة إذ انه يبين لنا أن الجسر كان قد خرب وانه بعد الألف والمائة من الهجرة كما سيجيء فلم يكن الجسر القائم في زمن وضع السالنامة ذلك الجسر الذي ينسب بناؤه إلى السلطان مراد أن صحيحاً وان غلطاً.</p>
+الأب صاحب المجلة أن باني القنطرتين اللتين في آلتون كوبري هو السلطان كما أن سالنامة <placeName change="#d2e296 #d2e391" xml:id="placeName_8.d2e473" xml:lang="ar">الموصل</placeName> لسنة <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1325" from="1907" to="1908">١٣٢٥ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1907">١٩٠٧ م)</date>  (ص  ٢١٥ ) كانت قد قالت ما تعريبه: (إن هذا الجسر العظيم أسس في عصر مراد خان الرابع ولا يزال حافظاً صلابته ومتانته) اهـ. أما التاريخ فانه يخطئ صاحب السالنامة إذ انه يبين لنا أن الجسر كان قد خرب وانه بعد الألف والمائة من الهجرة كما سيجيء فلم يكن الجسر القائم في زمن وضع السالنامة ذلك الجسر الذي ينسب بناؤه إلى السلطان مراد أن صحيحاً وان غلطاً.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_20.d2e488" xml:lang="ar">وهاءنذا أروي لك ما وجدته عن قدم اسم التون كوبري مقتبسا الكلام من بضعة مصنفات</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_21.d2e491" xml:lang="ar">فيها العربي والتركي والفارسي والبرتغالي مبتدئاً بما هو اقرب عهداً فصاعداً:</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_22.d2e495" xml:lang="ar">ذكر آلتون كوبري كتاب (فذلكه كاتب جلبي) (بالتركية) ( ٢ :  ٦٦ ) المتوفي في سنة ١٠٦٧
-                هـ ( 
-                  ١٦٥٦
-                م) في حوادث سنة ١٠٣٤
-                هـ ( 
-                  ١٩٢٤
-                 م) وذلك في قوله الذي أعربه كما يلي: (كان بكلربكي قرمان وهو جركس حسن باشا قد شتى في جهات الجزيرة وحسن كيف (حصن كيفا) فشاع تجمع الأعداء في التون كوبري وكركوك فار إليهم. . .) اهـ.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_23.d2e521" xml:lang="ar">وذكره كتاب (شرفنامه) بالفارسية ( ٢ :  ٤٤٠ ) ومؤلفه شرف خان وقد أتمه سنة ١٠٠٥
-                هـ ( 
-                  ١٥٩٦
-                م).</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_24.d2e538" xml:lang="ar">وكذلك ذكره بصورة مسترة أفونسو البرتغالي في رحلته (ص  ٢٢٠ ) وقد ابتدأ بها في سنة ٥٦٥
-                 م ( 
-                  ٩٧٣
-                هـ).</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_25.d2e552" xml:lang="ar">وجاء بذكره أيضاً رستم باشا في تاريخه المترجم إلى الألمانية (ص  ٨٦ ) وكانت وفاة الباشا المؤرخ في سنة ٩٦٨
-                هـ ( 
-                  ١٥٦٠
-                م).</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_26.d2e566" xml:lang="ar">ومن الذين ذكروا آلتون كوبري قديماً - حتى قبل مجيء السلطان سليمان إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e568" xml:lang="ar">بغداد</placeName> في سنة ٩٤١
-                هـ ( 
-                  ١٥٣٤
-                م) - عبد الله بن فتح الله البغدادي الملقب بالغياث في كتابه المسمى التاريخ الغياثي إذ قال: (ثم أسبان ترك أمير محمد بن
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_22.d2e495" xml:lang="ar">ذكر آلتون كوبري كتاب (فذلكه كاتب جلبي) (بالتركية) ( ٢ :  ٦٦ ) المتوفي في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1067" from="1656" to="1657">سنة ١٠٦٧ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1656">١٦٥٦ م)</date>  في حوادث <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1034" from="1624" to="1625">سنة ١٠٣٤ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1924">١٩٢٤ م)</date>  وذلك في قوله الذي أعربه كما يلي: (كان بكلربكي قرمان وهو جركس حسن باشا قد شتى في جهات الجزيرة وحسن كيف (حصن كيفا) فشاع تجمع الأعداء في التون كوبري وكركوك فار إليهم. . .) اهـ.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_23.d2e521" xml:lang="ar">وذكره كتاب (شرفنامه) بالفارسية ( ٢ :  ٤٤٠ ) ومؤلفه شرف خان وقد أتمه <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1005" from="1596" to="1597">سنة ١٠٠٥ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1596">١٥٩٦ م)</date> .</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_24.d2e538" xml:lang="ar">وكذلك ذكره بصورة مسترة أفونسو البرتغالي في رحلته (ص  ٢٢٠ ) وقد ابتدأ بها في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="0565">سنة ٥٦٥ م</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0973" from="1565" to="1566">٩٧٣ هـ</date> ).</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_25.d2e552" xml:lang="ar">وجاء بذكره أيضاً رستم باشا في تاريخه المترجم إلى الألمانية (ص  ٨٦ ) وكانت وفاة الباشا المؤرخ في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0968" from="1560" to="1561">سنة ٩٦٨ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1560">١٥٦٠ م)</date> .</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_26.d2e566" xml:lang="ar">ومن الذين ذكروا آلتون كوبري قديماً - حتى قبل مجيء السلطان سليمان إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e568" xml:lang="ar">بغداد</placeName> في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0941" from="1534" to="1535">سنة ٩٤١ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1534">١٥٣٤ م)</date>  - عبد الله بن فتح الله البغدادي الملقب بالغياث في كتابه المسمى التاريخ الغياثي إذ قال: (ثم أسبان ترك أمير محمد بن
 <pb n="n8-p729" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5272.xhtml" change="#d2e296" xml:id="pb_7.d2e579"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="729" edRef="#edition_1" xml:id="pb_14.d2e706"/>
 
 
 شيء الله بجصان ورحل إلى كركوك فأخذها واخذ آلتون كوبري) وقال: (فلما سمع الوند بموت أسبان وانهم سلطنوا بولاد وليس لهم فيه إرادة. . . توجه إلى كركوك - وكانت اولكته - وتوجه منها إلى اربل والتون موبري و<placeName change="#d2e296 #d2e391" xml:id="placeName_10.d2e581" xml:lang="ar">الموصل</placeName> فأخذها.) وكذلك قال: (وكان كور خليل ومقصود بيك ابن حسن بيك ب<placeName change="#d2e374 #d2e391" xml:id="placeName_13.d2e712" xml:lang="ar">الموصل</placeName> فتوجهوا إلى كركوك ودقوق والتون كوبري) اهـ وكان المؤلف عائشاً في أواخر القرن التاسع للهجرة على ما كان بينه حضرة الأب صاحب المجلة فيها وبينته فيها أيضاً في مقالة العمارة والكوت.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_27.d2e585" xml:lang="ar">واقدم عهداً من كل ذلك ما جاء في كتاب (ظفرنامه) بالفارسية لشرف الدين علي اليزدي الذي كان من رجال النصف الاول من القرن التاسع للهجرة وقد أنجز كتابه في سنة ٨٢٨
-                 هـ ( 
-                  ١٤٢٤
-                م) على ما في قاموس الأعلام. فانه قال ما معناه: (فتوجه العلم الذي شعاره النصر بضمان الله وحفظه وتأييده إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e595" xml:lang="ar">بغداد</placeName> بطريق آلتون كوبري) اهـ.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_28.d2e600" xml:lang="ar">والظاهر أن الجسر لم يكن صالحاً للعبور عليه في سنة ١٠٣٨
-                هـ ( ٢٩  -  
-                  ١٦٢٨
-                م) فقد جاء</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_27.d2e585" xml:lang="ar">واقدم عهداً من كل ذلك ما جاء في كتاب (ظفرنامه) بالفارسية لشرف الدين علي اليزدي الذي كان من رجال النصف الاول من القرن التاسع للهجرة وقد أنجز كتابه في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0828" from="1424" to="1425">سنة ٨٢٨ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1424">١٤٢٤ م)</date>  على ما في قاموس الأعلام. فانه قال ما معناه: (فتوجه العلم الذي شعاره النصر بضمان الله وحفظه وتأييده إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e595" xml:lang="ar">بغداد</placeName> بطريق آلتون كوبري) اهـ.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_28.d2e600" xml:lang="ar">والظاهر أن الجسر لم يكن صالحاً للعبور عليه في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1038" from="1628" to="1629">سنة ١٠٣٨ هـ</date>  ( ٢٩  -  
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1628">١٦٢٨ م)</date>  فقد جاء</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_29.d2e614" xml:lang="ar">في كلشن خلفا مل ملخصه (ص  ٧٥  من المطبوع) أن خسرو باشا هيأ في <placeName change="#d2e296 #d2e391" xml:id="placeName_12.d2e619" xml:lang="ar">الموصل</placeName> ظروفاً لعبور التون فعبره وخيم العسكر المنصور في شهرزور. فيجوز أن الباشا أراد العبرة في موضع غير موضع الجسر فاحتاج إلى ظروف (للاكلاك) وإذا فرضنا أن عبرته كانت في موضع الجسر فيمكن أن يقال أن السلطان مراد حينما جاء إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e622" xml:lang="ar">بغداد</placeName> - وذلك عبرة الباشا ببضع سنوات - رأى الجسر منهدماً فأمر ببنائه.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_30.d2e626" xml:lang="ar">فهمنا سماع الأب أن قنطرتي (التون كوبري) من أبنية السلطان مراد وكذلك قالت سالنامة <placeName change="#d2e296 #d2e391" xml:id="placeName_14.d2e628" xml:lang="ar">الموصل</placeName> وقد روت كلامها بصيغة لا تبقي مجالا للشك في أن الجسر من أبنية السلطان المار كأن ذلك حقيقة تاريخية راهنة مع أن كلشن أيضاً (ص  ١٢٩  من المطبوع) يخبرنا في حوادث سنة ١١٢٩
-                هـ ( 
-                  ١٧١٦
-                م) أي بعد مجيء السلطان مراد إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e642" xml:lang="ar">بغداد</placeName> بنحو ثمانين سنة بما تعريبه ملخصاً:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_30.d2e626" xml:lang="ar">فهمنا سماع الأب أن قنطرتي (التون كوبري) من أبنية السلطان مراد وكذلك قالت سالنامة <placeName change="#d2e296 #d2e391" xml:id="placeName_14.d2e628" xml:lang="ar">الموصل</placeName> وقد روت كلامها بصيغة لا تبقي مجالا للشك في أن الجسر من أبنية السلطان المار كأن ذلك حقيقة تاريخية راهنة مع أن كلشن أيضاً (ص  ١٢٩  من المطبوع) يخبرنا في حوادث <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1129" from="1716" to="1717">سنة ١١٢٩ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1716">١٧١٦ م)</date>  أي بعد مجيء السلطان مراد إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e642" xml:lang="ar">بغداد</placeName> بنحو ثمانين سنة بما تعريبه ملخصاً:</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_31.d2e646" xml:lang="ar">(فصل: ومما وفق له الوزير المشار إليه (حسن باشا والي <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e648" xml:lang="ar">بغداد</placeName>) من عمل الخيرات الكثيرة انه عرض على الدولة أن الجسر القائم على النهر المعروف
 <pb n="n8-p730" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5273.xhtml" change="#d2e296" xml:id="pb_8.d2e651"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="730" edRef="#edition_1" xml:id="pb_16.d2e795"/>
@@ -224,16 +202,11 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_32.d2e657" xml:lang="ar">وجاء مثل ذلك التعبير واستعمال الألفاظ نفسها في حديقة الوزراء للشيخ عبد الرحمن السويدي وفي مختصرها ل<persName change="#d2e230 #d2e296 #d2e391" ref="oape:pers:1845 viaf:21058435" xml:id="persName_6.d2e659" xml:lang="ar">
                   <forename change="#d2e296 #d2e391" xml:id="forename_5.d2e660" xml:lang="ar">سليمان</forename> 
                   <surname change="#d2e296 #d2e391" xml:id="surname_4.d2e663" xml:lang="ar">الدخيل</surname>
-               </persName> فانه قال: (فصل: ولم يزل الوزير (حسن باشا) له توفيق لعمل الخيرات والمبرات وبناء المساجد والرباطات فقد عمر قنطرة الطون صويى بعد خرابها. وهذا الماء بحدة بين <placeName change="#d2e296 #d2e391" xml:id="placeName_18.d2e666" xml:lang="ar">الموصل</placeName> وكركوك. وجعل فيها عمارتها مأوى لأبناء السيل وعين من الرعية الجمع الكثير لما يقوم ببعض حاجات العابرين هناك) اهـ ولا بد أن الشيخ السويدي نقل عن كلشن خلفا إذ أن البناء كان في سنة ١١٢٩
-                هـ على رأينا ولم يكن عمر الشيخ السويدي إذ ذاك إلا بضع سنوات فان ولادته كانت في سنة ١١٣٤
-                هـ ( 
-                  ١٧٢١
-                م)</p>
+               </persName> فانه قال: (فصل: ولم يزل الوزير (حسن باشا) له توفيق لعمل الخيرات والمبرات وبناء المساجد والرباطات فقد عمر قنطرة الطون صويى بعد خرابها. وهذا الماء بحدة بين <placeName change="#d2e296 #d2e391" xml:id="placeName_18.d2e666" xml:lang="ar">الموصل</placeName> وكركوك. وجعل فيها عمارتها مأوى لأبناء السيل وعين من الرعية الجمع الكثير لما يقوم ببعض حاجات العابرين هناك) اهـ ولا بد أن الشيخ السويدي نقل عن كلشن خلفا إذ أن البناء كان في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1129" from="1716" to="1717">سنة ١١٢٩ هـ</date>  على رأينا ولم يكن عمر الشيخ السويدي إذ ذاك إلا بضع سنوات فان ولادته كانت في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1134" from="1721" to="1722">سنة ١١٣٤ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1721">١٧٢١ م)</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_33.d2e683" xml:lang="ar">على ما في هذه المجلة ( ٢  ( ١٢  -  ١٩١٣ ):  ٢٧٨ ) وغيرها.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_34.d2e699" xml:lang="ar">ويدعي ايفس في رحلته (ص  ٣١٥ ) - وقد مر بالتون كوبري في حزيران سنة ١٧٥٨
-                م ( 
-                  ١١٧٢
-                هـ) - انه روي له أن الجسر من أبنية النصارى القدماء الذين كانت المدينة تعود إليهم ومع أني لا اعتقد صحة ما رواه فإني ارجع أن الجسر من الأبنية المتقدمة على زمن السلطان مراد إذ لو كان له لما نسب إلى غيره في زمن ايفس ولم يكن قد مر إلا نيف وقرن واحد على زمن السلطان فلم يكن قد نسي بانيه ويجوز انه للسلطان مراد وألم يذكر التاريخ بناءه إياه. ولا أقول في عجالتي هذه أني استقصيت البحث إذ لا بد للمنقب أن يجد غير ما أوردته.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_34.d2e699" xml:lang="ar">ويدعي ايفس في رحلته (ص  ٣١٥ ) - وقد مر بالتون كوبري في حزيران <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1758">سنة ١٧٥٨ م</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1172" from="1758" to="1759">١١٧٢ هـ</date> ) - انه روي له أن الجسر من أبنية النصارى القدماء الذين كانت المدينة تعود إليهم ومع أني لا اعتقد صحة ما رواه فإني ارجع أن الجسر من الأبنية المتقدمة على زمن السلطان مراد إذ لو كان له لما نسب إلى غيره في زمن ايفس ولم يكن قد مر إلا نيف وقرن واحد على زمن السلطان فلم يكن قد نسي بانيه ويجوز انه للسلطان مراد وألم يذكر التاريخ بناءه إياه. ولا أقول في عجالتي هذه أني استقصيت البحث إذ لا بد للمنقب أن يجد غير ما أوردته.</p>
             <byline change="#d2e219 #d2e296 #d2e391" xml:id="byline_2.d2e713" xml:lang="ar">
                <persName change="#d2e296 #d2e391" xml:id="persName_7.d2e714" xml:lang="ar">يعقوب نعوم سركيس</persName>
                <pb n="n8-p731" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5274.xhtml" change="#d2e296" xml:id="pb_9.d2e717"/>
@@ -260,13 +233,9 @@
 
 
 والمروج الغن</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_42.d2e768" xml:lang="ar">وذات المركز التجاري الخطير. وليس في ديار الكرد في <placeName change="#d2e374 #d2e391" xml:id="placeName_22.d2e930" xml:lang="ar">العراق</placeName> بلدة تماثلها، بكثرة الحاصلات، وسعة التجارة، وخطورة المركز وبداعة المنظر. والمشهور أن سليمان باشا البابان هو الذي أمر بإنشائها في عام ١١٩٧
-                هـ  
-                  ١٧٨٢
-                م إذ جعلها إمارته، إلا أن معلمة الإسلام تذكر بان إبراهيم باشا هو الذي أمر ببناء هذه المدينة، عام ١١٩٩
-                هـ  
-                  ١٧٨٤
-                م. إكراماً لوالي <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_19.d2e786" xml:lang="ar">بغداد</placeName>. عام ١٧٨٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_42.d2e768" xml:lang="ar">وذات المركز التجاري الخطير. وليس في ديار الكرد في <placeName change="#d2e374 #d2e391" xml:id="placeName_22.d2e930" xml:lang="ar">العراق</placeName> بلدة تماثلها، بكثرة الحاصلات، وسعة التجارة، وخطورة المركز وبداعة المنظر. والمشهور أن سليمان باشا البابان هو الذي أمر بإنشائها في عام <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1197" from="1782" to="1783">١١٩٧ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1782">١٧٨٢ م</date> إذ جعلها إمارته، إلا أن معلمة الإسلام تذكر بان إبراهيم باشا هو الذي أمر ببناء هذه المدينة، عام <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1199" from="1784" to="1785">١١٩٩ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1784">١٧٨٤ م.</date>  إكراماً لوالي <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_19.d2e786" xml:lang="ar">بغداد</placeName>. عام ١٧٨٠
                  إلى  ١٧٨٤ ، وهو بيوك سليمان باشا، فنسب إلى الوالي، وكانت السليمانية في بادئ الأمر قرية صغيرة حقيرة فلما شرع الباشا يقيم فيها المباني الشاهقة والصروح الفخمة. تبعة الاهلون في ذلك فلم تزل في تقدم حتى بلغت درجة عنيت بها الحكومة وجعلتها متصرفية. وهي اليوم بلدة جسيمة فيها صروح عالية. وثكنات عسكرية كبيرة، وجادات مبلطة، ودور حسنة وأسواق تناسب أهميتها، ومتنزهات بديعة جداً، ومجالس انس تأخذ بمجاميع القلوب، وجوامع كبيرة وتكايا كثيرة تقام فيها الصلاة والطرائق الدينية المعروفة في هاتيك الديار.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_43.d2e799" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_3.d2e801" xml:lang="ar"> 
@@ -328,7 +297,7 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_63.d2e959" xml:lang="ar">إليها وعرة. وتقرب منها قرية جميلة يقال لها: (قرية غيابيلي) وهي كلمة مخففة من (أبي عبيدة) وأبو عبيدة هذا هو أبو عبيدة الجراح المشهور. وقد كان هذا القضاء منعوتاً بقضاء كل عنبر (بالكاف الفارسية) وهو اليوم موطن لعشائر الجاف الكبيرة المشهورة.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_64.d2e962" xml:lang="ar">للقضاء أربع نواح وهي:  ١  - حلبجة -  ٢  - خورمال -  ٣  - بنجوين -  ٤  - دار ماوة. فالناحية الأولى مركزية أي يقيم مديرها في مركز القضاء، وتراجعه فيه العشائر التابعة لهذه الناحية.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_65.d2e977" xml:lang="ar">والناحية الثانية تبعد عن مركز القضاء ستة أميال إلى شرقية الشمالي ومركزها القرية المسماة باسمها.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_66.d2e980" xml:lang="ar">والناحية الثالثة بنجوين (بالباء المثلثة التحتيتة) وقد كانت حصن الشيخ محمود المنيع لأنها جبلية ومحكمة وقد دارت فيها معارك هائلة بين الجيش العراقي الباسل واتباع الشيخ المذكور وقد احتلها الجيش العراقي في  ٢٣  نيسان  ١٩٢٧  بعد أن سلم الشيخ محمود نفسه إلى الحكومة. وهذه القرية مركز لناحية بنجوين وتبعد عن شرقي مركز القضاء  ٢٨  ميلاً. وفيها قصر فخم جداً للحكومة. وأما الناحية الرابعة فهي دار ماوة ومركزها قرية (جبتة) التي تبعد عن غربي حلبجة  ١٩  ميلاً.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_66.d2e980" xml:lang="ar">والناحية الثالثة بنجوين (بالباء المثلثة التحتيتة) وقد كانت حصن الشيخ محمود المنيع لأنها جبلية ومحكمة وقد دارت فيها معارك هائلة بين الجيش العراقي الباسل واتباع الشيخ المذكور وقد احتلها الجيش العراقي في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1927-04-23">٢٣ نيسان ١٩٢٧</date> بعد أن سلم الشيخ محمود نفسه إلى الحكومة. وهذه القرية مركز لناحية بنجوين وتبعد عن شرقي مركز القضاء  ٢٨  ميلاً. وفيها قصر فخم جداً للحكومة. وأما الناحية الرابعة فهي دار ماوة ومركزها قرية (جبتة) التي تبعد عن غربي حلبجة  ١٩  ميلاً.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_67.d2e995" xml:lang="ar">وجميع هذه النواحي والقرى التابعة لها، لا تختلف عن بعضها من حيث هندسة البناء وعدد النفوس. ومهنة السكان، ويديرها مديرون تعينهم وزارة الداخلية، أما رأساً وأما باقتراح من المتصرف المختص بتلك الديار.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_68.d2e998" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_14.d2e1000" xml:lang="ar"> 
@@ -367,15 +336,15 @@
          <div change="#d2e64 #d2e296 #d2e391" type="item" subtype="article" xml:id="div_6.d2e1088" xml:lang="ar">
             <head change="#d2e296 #d2e391" xml:id="head_6.d2e1090" xml:lang="ar">أرض السليمانية في التاريخ القديم</head>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_76.d2e1093" xml:lang="ar">(<title level="j" change="#d2e296 #d2e391" xml:id="title_8.d2e1095" xml:lang="ar">لغة العرب</title>) نزيد على ما تقدم من الفوائد ما جاء في معلمة الإسلام في مادة (السليمانية) ما هذا معناه:</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_77.d2e1099" xml:lang="ar">(كانت أنحاء السليمانية معروفة منذ اقدم الأزمنة ولا بد أن يكون جبل نصر (بكسرتين) (وفي اللغة الليلة: كنبة) (بكسرتين) الجبل الذي وقف عليه سفينة جلجمش في عهد الطوفان على رواية العلواء البابلية واسم هذا الجبل اليوم (بير عمر كدرون) (بباء وكاف فارسيتين) وأنحاء السليمانية تنظر إلى ما كان يسميه الأقدمون ديار زموة التي كان سكانها القوم المسمى للو (بضم اللام الأولى وتشديد اللام الثانية المضمومة أيضاً) وكانت تخومها من جهة الجنوب في المختنق البابي (المسمى اليوم بازيان) وفي سنة ٨٨٠
-                 قبل الميلاد اخضع (أشرنا صربل) جميع ملوك زموة وكان في دربند كور (في شمال قرة طاغ) نصب يظهر انه اثر من ملك للوي. ويذكر برزوزوسكي لوحاً محفوراً قديماً عند مدخل مضيق الدربند حيث يفتح الزاب الأصغر لنفسه في أقصى الشمال الغربي من ارض السليمانية. ويذكر هرتسفلد أخربة في سينك في قضاء سيروجيك. وفي سنة ٧٥٤
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_77.d2e1099" xml:lang="ar">(كانت أنحاء السليمانية معروفة منذ اقدم الأزمنة ولا بد أن يكون جبل نصر (بكسرتين) (وفي اللغة الليلة: كنبة) (بكسرتين) الجبل الذي وقف عليه سفينة جلجمش في عهد الطوفان على رواية العلواء البابلية واسم هذا الجبل اليوم (بير عمر كدرون) (بباء وكاف فارسيتين) وأنحاء السليمانية تنظر إلى ما كان يسميه الأقدمون ديار زموة التي كان سكانها القوم المسمى للو (بضم اللام الأولى وتشديد اللام الثانية المضمومة أيضاً) وكانت تخومها من جهة الجنوب في المختنق البابي (المسمى اليوم بازيان) وفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0880" from="1475" to="1476">سنة ٨٨٠</date> 
+                 قبل الميلاد اخضع (أشرنا صربل) جميع ملوك زموة وكان في دربند كور (في شمال قرة طاغ) نصب يظهر انه اثر من ملك للوي. ويذكر برزوزوسكي لوحاً محفوراً قديماً عند مدخل مضيق الدربند حيث يفتح الزاب الأصغر لنفسه في أقصى الشمال الغربي من ارض السليمانية. ويذكر هرتسفلد أخربة في سينك في قضاء سيروجيك. وفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0754" from="1353" to="1354">سنة ٧٥٤</date> 
                  ق. م نقل تجلب فلسر الثالث ارميين إلى مزموة (مات زموة) وكانت سكناهم في شمالي الجزيرة. ومنذ العهد الساساني يرى في الطرف الجنوبي الشرقي من ارض السليمانية الأثر الشهير المعروف باسم (باي كولي) (بالباء المثلثة التحتية) وفي تاريخ الكنيسة السريانية (كذا والصواب الارمية) كانت
 <pb n="n8-p738" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5281.xhtml" change="#d2e296" xml:id="pb_16.d2e1111"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="738" edRef="#edition_1" xml:id="pb_32.d2e1301"/>
 
 
 أنحاء السليمانية جزءاً من ابرشية بيت جرماي.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_78.d2e1114" xml:lang="ar">وتاريخ ارض السليمانية في العهد الإسلامي يختلط بأرض شهرزور واستقلال السليمانية استقلالا بين التام وغير التام دام من المائة الحادية عشرة إلى المائة السابعة عشرة أي إلى سنة ١٢٦٧
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_78.d2e1114" xml:lang="ar">وتاريخ ارض السليمانية في العهد الإسلامي يختلط بأرض شهرزور واستقلال السليمانية استقلالا بين التام وغير التام دام من المائة الحادية عشرة إلى المائة السابعة عشرة أي إلى <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1267" from="1850" to="1851">سنة ١٢٦٧</date> 
                  للهجرة أو  ١٨٥٠  للميلاد.</p>
          </div>
          <div change="#d2e64 #d2e296 #d2e391" type="item" subtype="article" xml:id="div_7.d2e1126" xml:lang="ar">
@@ -869,34 +838,24 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_210.d2e2825" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_109.d2e2827" xml:lang="ar"> 
                   ٢  - </hi>العازرية وجغرافيو العرب</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_211.d2e2834" xml:lang="ar">قال الشريف الإدريسي المتوفي سنة ٥٤٨
-                 هـ  
-                  ١١٥٣
-                م:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_211.d2e2834" xml:lang="ar">قال الشريف الإدريسي المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0548" from="1153" to="1154">سنة ٥٤٨ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1153">١١٥٣ م:</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_212.d2e2846" xml:lang="ar">(وفي هذا الجبل (جبل الزيتون) في شرقية منحرفاً قليلاً إلى الجنوب،
 <pb n="n8-p759" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5301.xhtml" change="#d2e296" xml:id="pb_36.d2e2848"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="759" edRef="#edition_1" xml:id="pb_72.d2e3101"/>
 
 
 قبر العازر، الذي أحياه المسيح وعلى ميلين من جبل الزيتون، القرية التي حمل منها الأتان، لركوب السيد المسيح، عند دخوله إلى أورشليم، وهي الآن خراب لا ساكن بها وعلى قبر العازار، يأخذ طريق وادي الأردن).</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_213.d2e2851" xml:lang="ar">وقال ياقوت الحموي، المتوفي سنة ٦٢٦
-                 هـ  
-                  ١٢٢٨
-                م: (العازرية قرية بالبيت المقدس بها قبر العازر).</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_214.d2e2862" xml:lang="ar">وقال عمر بن الوردي المتوفي نحو سنة ٨٥٠
-                هـ  
-                  ١٤٤٦
-                م:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_213.d2e2851" xml:lang="ar">وقال ياقوت الحموي، المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0626" from="1228" to="1229">سنة ٦٢٦ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1228">١٢٢٨ م:</date>  (العازرية قرية بالبيت المقدس بها قبر العازر).</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_214.d2e2862" xml:lang="ar">وقال عمر بن الوردي المتوفي نحو <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0850" from="1446" to="1447">سنة ٨٥٠ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1446">١٤٤٦ م:</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_215.d2e2873" xml:lang="ar">(وهناك (أي في بيت المقدس) جبل، يقال له جبل الزيتون، وبهذا الجبل، قبر العازر، الذي أحياه الله للمسيح عليه السلام، وعلى الميامن من جبل الزيتون، قرية منها جلب حمار المسيح، وقريب من قبر مدينة أريحا.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_216.d2e2876" xml:lang="ar">وقال مجبر الدين الحنبلي المتوفي سنة ٩٢٧
-                هـ  
-                  ١٥٢١
-                م:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_216.d2e2876" xml:lang="ar">وقال مجبر الدين الحنبلي المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0927" from="1520" to="1521">سنة ٩٢٧ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1521">١٥٢١ م:</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_217.d2e2887" xml:lang="ar">(ومن الأنبياء المشهورين حول بيت المقدس، السيد عازر، ولعله العيزار ابن هارون عليهما السلام. قبره بقرية العازرية بظاهر <placeName change="#d2e374 #d2e391" xml:id="placeName_51.d2e3154" xml:lang="ar">القدس</placeName>، ومن جهة الشرق، بالقرب من طور زيتا، على طريق المار إلى سيدنا موسى الكليم عليه السلام. وهو ظاهر في مشهد بالقرية، يقصد للزيارة، ويقال أن العيزار بن هارون إنما هو بقرية عورتا، من أعمال <placeName change="#d2e374 #d2e391" xml:id="placeName_52.d2e3156" xml:lang="ar">نابلس</placeName> وقيل انه عازر الذي أحياه المسيح عيسى ابن مريم عليه السلام. والله اعلم.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_218.d2e2891" xml:lang="ar">وقال عبد الغني النابلسي، سنة ١١٤٣
-                هـ  
-                  ١٧٣٠
-                م:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_218.d2e2891" xml:lang="ar">وقال عبد الغني النابلسي، <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1143" from="1730" to="1731">سنة ١١٤٣ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1730">١٧٣٠ م:</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_219.d2e2902" xml:lang="ar">(فمررنا في الطريق على قرية العيزرية، ودخلنا إلى ذلك المقام والأرجاء البهية، ونزلنا إلى الجامع بنحو من الخمس الدرجات، فوجدنا قبراً عليه جلالة ومهابة، في ناحية من تلك الجهات، يقال لها قبر عيزرا النبي عليه السلام، فوقفنا وقرأنا الفاتحة بكمال التعظيم والاحتشام، ثم صلينا الظهر في ذلك الجامع المنير إماماً بجماعتنا من صغير وكبير، ودعونا الله تعالى بما تيسر من الدعاء فانه كريم لا يخيب من سعى).
 <pb n="n8-p760" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5302.xhtml" change="#d2e296" xml:id="pb_37.d2e2904"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="760" edRef="#edition_1" xml:id="pb_74.d2e3179"/>
@@ -915,10 +874,8 @@
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="761" edRef="#edition_1" xml:id="pb_76.d2e3211"/>
 
 
-والأقبية التي عقدت عليها في القرن السادس للهجرة والثاني عشر للميلاد لبناء كنيسة فوقهما. وكان مدخلهما من الكنيسة، التي كانت بيد رهبان الأرض المقدسة، إلى القرن العاشر للهجرة، والسادس عشر للميلاد، فحول فيه المسلمون الكنيسة إلى مسجد واضطر الرهبان إلى خرق الباب الحالي على قارعة الطريق، بعد أن حصلوا على إذن من الباب العالي سنة ١٠٢٤
-                هـ ( 
-                  ١٦١٥
-                م) وأضحى السلم على أربع وعشرين درجة كما يشاهد الآن.</p>
+والأقبية التي عقدت عليها في القرن السادس للهجرة والثاني عشر للميلاد لبناء كنيسة فوقهما. وكان مدخلهما من الكنيسة، التي كانت بيد رهبان الأرض المقدسة، إلى القرن العاشر للهجرة، والسادس عشر للميلاد، فحول فيه المسلمون الكنيسة إلى مسجد واضطر الرهبان إلى خرق الباب الحالي على قارعة الطريق، بعد أن حصلوا على إذن من الباب العالي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1024" from="1615" to="1616">سنة ١٠٢٤ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1615">١٦١٥ م)</date>  وأضحى السلم على أربع وعشرين درجة كما يشاهد الآن.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_225.d2e2945" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_112.d2e2947" xml:lang="ar"> 
                   ٥  - </hi>العازر في الشعر العربي</p>
@@ -965,20 +922,19 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_232.d2e3046" xml:lang="ar">-</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_233.d2e3049" xml:lang="ar">أدرجنا مقالة لحضرة المحقق يعقوب أفندي نعوم سركيس استجادها كل من وقف عليها من أرباب الأخبار والتاريخ عندنا وعند المستشرقين، على أن فضله لا يظهر ظهوراً لامعاً إلا من بعد أن نعرب ما جاء في معلمة الإسلام في مادة كوت العمارة - ودونكه:</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_234.d2e3052" xml:lang="ar">(كوت العمارة موضع في <placeName change="#d2e374 #d2e391" xml:id="placeName_55.d2e3333" xml:lang="ar">العراق</placeName> على الشاطئ الأيسر من دجلة بين <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_36.d2e3054" xml:lang="ar">بغداد</placeName> والعمارة على بعد  ١٥٧  كيلو متراً من الجنوب الشرقي من الزوراء على خط مستقيم و (كوت) كلمة هندستانية معناها (القلعة) واللفظة ترى مستعملة إلى الآن في عدة أسماء مدن في <placeName change="#d2e374 #d2e391" xml:id="placeName_57.d2e3341" xml:lang="ar">العراق</placeName> كقولهم: كوت المعمر. وكثيراً ما جاء (الكوت) غير مضاف إلى العمارة. والكوت واقعة بازاء فم شط الحي المعروف بالغراف أيضاً وهو النهر القديم الذي يصل دجله بالفرات وله عدة فوهات تنفتح في الفرات منها مندفق في الناصرية وآخر في سوق الشيوخ. والسهول الواقعة في شمال الكوت آهلة ببني ربيعة وهم فخذ من بني لام. وليست الكوت من المواطن القديمة وقد حاول بعضهم أن يردوها إلى موطن المذار الذي ذكرها ياقوت ( ٤ :  ٢٧٥  وراجع لسترانج أراضي الخلافة الشرقية ص  ٣٨  وراجع هـ. هـ شيدر في الإسلام  ١٤ :  ١٧ ) في منبلج المائة  ١٩  والى سنة ١٨٦٠
-                 كانت الكوت قرية فقيرة مطوفة (أي محاطة بسور من الطين) (كيبل في سنة ١٨٢٤
-                 بحسب ريتر وراجع بترمان المطبوع في ليبسيك  ١٨٦٠  في  ٢ :  ١٥٠ ) لكن منذ أن حصلت شركة لنج على امتياز خط بواخر بين <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_37.d2e3099" xml:lang="ar">بغداد</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_59.d2e3387" xml:lang="ar">البصرة</placeName> في سنة ١٨٦٩
-                 أصبحت الكوت موضعاً نهرياً مهماً إليه أناساً كثيرين. وفي الموقف الأخير من الإدارة التركية (التي تدوم اليوم على يد الحكومة العراقية الحديثة) كانت الكوت قصبة قضاء باسمها في لواء <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e3107" xml:lang="ar">بغداد</placeName>. وفي نحو سنة ١٨٩٠
+                 كانت الكوت قرية فقيرة مطوفة (أي محاطة بسور من الطين) (كيبل في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1824">سنة ١٨٢٤</date> 
+                 بحسب ريتر وراجع بترمان المطبوع في ليبسيك  ١٨٦٠  في  ٢ :  ١٥٠ ) لكن منذ أن حصلت شركة لنج على امتياز خط بواخر بين <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_37.d2e3099" xml:lang="ar">بغداد</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_59.d2e3387" xml:lang="ar">البصرة</placeName> في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1869">سنة ١٨٦٩</date> 
+                 أصبحت الكوت موضعاً نهرياً مهماً إليه أناساً كثيرين. وفي الموقف الأخير من الإدارة التركية (التي تدوم اليوم على يد الحكومة العراقية الحديثة) كانت الكوت قصبة قضاء باسمها في لواء <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e3107" xml:lang="ar">بغداد</placeName>. وفي نحو <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1890">سنة ١٨٩٠</date> 
                  قدر السكان بزهاء  ٤١١٥  نفساً (كوينه) واغلبهم شيعة (نحو  ١٠٠  سني و  ١٠٠  يهودي)
 <pb n="n8-p763" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5305.xhtml" change="#d2e296" xml:id="pb_40.d2e3125"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="763" edRef="#edition_1" xml:id="pb_80.d2e3417"/>
 
 
-ويمتد الفضاء في الشمال إلى جبال لرستان. ويسقي السهل الممتد بين أيدي تلك الجبال نهر الكلال وفيه عدة قرى يتخاصم عليها والإيرانيون. ثم عاد الاهلون إلى القضاء بعد سنة ١٨٦٠
-                 وكان فيه في نحو سنة ١٨٩٠
+ويمتد الفضاء في الشمال إلى جبال لرستان. ويسقي السهل الممتد بين أيدي تلك الجبال نهر الكلال وفيه عدة قرى يتخاصم عليها والإيرانيون. ثم عاد الاهلون إلى القضاء بعد <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1860">سنة ١٨٦٠</date> 
+                 وكان فيه في نحو <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1890">سنة ١٨٩٠</date> 
                  ما يقارب ال  ٣٠ .  ٠  نسمة وكلهم من السنة اللهم إلا سكان الكوت نفسها فانهم من الشيعة.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_235.d2e3145" xml:lang="ar">وللكوت موقع حربي مهم. ولهذا كان له شان خطير في الحرب العظمى. ففي الدفعة الأولى من هجوم الإنكليز على الترك احتل القائد طاونشند الكوت في أيلول من سنة ١٩١٥
-                 وبعد برهة أصبحت نقطة لزحفهم إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e3152" xml:lang="ar">بغداد</placeName> ذيالك الزحف الذي انتهى برجعة الجيوش الإنكليزية إليها. تلاه محاصرة الترك لها في  ٨  ك ١  (ديسمبر)  ١٩١٥  ولما لم تنجح مساعدة الإنكليز لإخوانهم أخذت الكوت في  ٢٩  نيسان من سنة ١٩١٦
-                 فتحض فيها الترك إلى أن وقعت من جديد في أيدي الإنكليز لتضم في سنة ١٩٢٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_235.d2e3145" xml:lang="ar">وللكوت موقع حربي مهم. ولهذا كان له شان خطير في الحرب العظمى. ففي الدفعة الأولى من هجوم الإنكليز على الترك احتل القائد طاونشند الكوت في أيلول من <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1915">سنة ١٩١٥</date> 
+                 وبعد برهة أصبحت نقطة لزحفهم إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_39.d2e3152" xml:lang="ar">بغداد</placeName> ذيالك الزحف الذي انتهى برجعة الجيوش الإنكليزية إليها. تلاه محاصرة الترك لها في  ٨  ك ١  (ديسمبر)  ١٩١٥  ولما لم تنجح مساعدة الإنكليز لإخوانهم أخذت الكوت في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1916-04-29">٢٩ نيسان من سنة ١٩١٦</date> فتحض فيها الترك إلى أن وقعت من جديد في أيدي الإنكليز لتضم في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1920">سنة ١٩٢٠</date> 
                  إلى مملكة <placeName change="#d2e374 #d2e391" xml:id="placeName_62.d2e3474" xml:lang="ar">العراق</placeName> الجديد) اهـ. وهنا ذكر صاحب المقالة وهو ج. هـ. كراموس الكتب التي اعتمد عليها فلا حاجة إلى ذكرها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_236.d2e3180" xml:lang="ar">(ل. ع) فأنت ترى من هذا النقل أن تحقيقات كاتبنا ومؤازرنا يعقوب أفندي نعوم سركيس أدق أنباء واصدق وابعد إمعاناً من سواه في الموضوعات التي يعالجها فعسى أن يواظب على خطته هذه التي يشهد له بها القريب والبعيد، أبناء الوطن الأجانب.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_237.d2e3183" xml:lang="ar">ومما نذكره هنا مع الأسف: أن كثيرين من معالجي الكتابة في صحف الحاضرة ينقلون شيئاً كثيراً من مباحث مجلتنا <title level="j" change="#d2e296 #d2e391" xml:id="title_12.d2e3185" xml:lang="ar">لغة العرب</title>، ولا سيما مباحث الصديق المحقق: يعقوب أفندي نعوم سركيس ولا يشيرون إلى المأخذ ولا إلى الرجل المدقق: الذي يعاني الأمرين، في تفلية تاريخ <placeName change="#d2e374 #d2e391" xml:id="placeName_63.d2e3486" xml:lang="ar">العراق</placeName>، وأخباره. والتثبت في أعمال رجاله المشاهير. وهناك ما هو أمر وأدهى من ذلك: أن بعضهم ألف بعض الرسائل أو الكتب، واقتبس حقائق جمة من هذه المجلة ومحرريها، ونسبوا تلك الأمور إلى أنفسهم. أفمن دناءة اعظم من هذه الدناءة؟. اللهم أنر عقولهم واهدهم إلى الصراط المستقيم.
@@ -1227,8 +1183,7 @@
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_292.d2e3852" xml:lang="ar">جواباً عن كتابكم الكريم المؤرخ في <date when="1930-06-08" change="#d2e296 #d2e391" xml:id="date_3.d2e3854" xml:lang="ar"> 
                      ١٩٣٠ - ٦ - ٨ 
                   </date> وفيه السؤال عن (ماء السمرمر). أقول قال صاحب (مرآة البلدان)  ٤ :  ٢٢٩  و  ٢٣٠  ما هذا تعريب نصه: (زعم بعض المؤرخين والكتبة أن اثر ماء هذه العين هو دفع الجراد بواسطة طير السار (السمرمر). قيل أن في قرب جبل (دنا) وهو من الجبال المشهورة جبلا شامخاً بين (فارس) و<placeName change="#d2e374 #d2e391" xml:id="placeName_67.d2e4296" xml:lang="ar">العراق</placeName> العجمي وهذا الجبل بوضعه الطبيعي يشبه قنطرة وقعت على عمودين ويجر من سفحه نهر كبير وتنبع عين من جبل (دنا) وتجري على الجبل (أي على القنطرة المذكورة) ومن طرفيه يتصل إلى النهر، ومتى انتشر الجراد وخيف من فساده يأتي إليها رجل ويأخذ إناء من ماءها وشرط هذا العمل: -  ١  - أن ينوي رش الماء على الأرض التي ظهر فيها الجراد ويقول بلفظه أريد أن يأتي (السار) إلى هذه الأرض والناحية -  ٢  - وان لا يضع الإناء على الأرض) اهـ.</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_293.d2e3883" xml:lang="ar">(أقول وهذا السبب في تعليقه بمئذنة جامع <placeName change="#d2e296 #d2e391" xml:id="placeName_40.d2e3885" xml:lang="ar">حلب</placeName> كما في تاريخها. وإذا فعل ذلك يأتي على أثره طير السار وهو طير صغير يدفع الجراد). وقال صاحب مرآة البلدان وفي سنة ١٠٦٦
-                   هـ زار الشاه عباس الصفوي هذه العين وعين ماء أخرى في ناحية قزوين اهـ.</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_293.d2e3883" xml:lang="ar">(أقول وهذا السبب في تعليقه بمئذنة جامع <placeName change="#d2e296 #d2e391" xml:id="placeName_40.d2e3885" xml:lang="ar">حلب</placeName> كما في تاريخها. وإذا فعل ذلك يأتي على أثره طير السار وهو طير صغير يدفع الجراد). وقال صاحب مرآة البلدان وفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1066" from="1655" to="1656">سنة ١٠٦٦ هـ</date>  زار الشاه عباس الصفوي هذه العين وعين ماء أخرى في ناحية قزوين اهـ.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_294.d2e3894" xml:lang="ar">أقول: يسمى مكانها (برغان) وما جاء في معجم سميث ص  ٢١٢  والظاهر انه مقيم في ديار ماذي في واد من أودية جبال الأهواز المعروف بوادي المسرقان (بفتح الميم وإسكان السين وضم الراء وفتح القاف وفي الآخر نون) لعله تحريف حدث من تشابه كلمة (برغان) التي تكتب بالقاف أيضاً (بمسرقان)
 <pb n="n8-p775" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5317.xhtml" change="#d2e296" xml:id="pb_52.d2e3899"/>
                   <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="775" edRef="#edition_1" xml:id="pb_104.d2e4325"/>
@@ -1239,8 +1194,7 @@
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_296.d2e3906" xml:lang="ar">ناحية وجود سبب طبيعي لجلب هذا الماء طير السمرمر إليه وكشفه، فانتهى البحث أن تحقق أولا هل تحقق هذا الإثر لهذا الماء، وهل جربه الثقاب أم لا. فبعث فخامة حاكم زنجان بكتاب إلى حاكم قزوين وطلب منه تحقيق الأمر من ثقاب قزوين وهاك نص تعريب الجواب الواصل من قزوين بقلم بعض الثقاب وقد جرب بنفسه تأثير هذا الماء:</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_297.d2e3909" xml:lang="ar">فخامة حاكم قزوين!</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_298.d2e3912" xml:lang="ar">جواباً عن كتابم في شأن (ماء السار) أي السمرمر أقول: وان توفقت في خاصية ماء هذه العين مع ما شاهدت من الآثار، فإني أبين لكم ما جربته بنفس:</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_299.d2e3915" xml:lang="ar">في سنة ١٣٤٨
-                   هـ لما هجم الجراد على قوى قزوين الجنوبية استقر رأي جماعة من الأشراف أن يدفع بماء السار) والعين واقعة في جنوب قزوين الغربي ولأجل ذلك توجهت أنا وحاكم قزوين السابق ورئيس البلدية إلى (سكرتاب) والعين واقعة ميل منها ثم انتخبنا جماعة من شيوخ القرية الصالحين فذهبوا وملئوا إناءين من مائها وجئنا بهما بالشروط المقررة من عدم نظر حاملهما إلى الوراء وعدم وضع الإناء على الأرض، وصينا ماء أحد الإناءين على حوض دار الحكومة وبعد ثلاثة أيام ورد طير السار أسراباً.</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_299.d2e3915" xml:lang="ar">في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1348" from="1929" to="1930">سنة ١٣٤٨ هـ</date>  لما هجم الجراد على قوى قزوين الجنوبية استقر رأي جماعة من الأشراف أن يدفع بماء السار) والعين واقعة في جنوب قزوين الغربي ولأجل ذلك توجهت أنا وحاكم قزوين السابق ورئيس البلدية إلى (سكرتاب) والعين واقعة ميل منها ثم انتخبنا جماعة من شيوخ القرية الصالحين فذهبوا وملئوا إناءين من مائها وجئنا بهما بالشروط المقررة من عدم نظر حاملهما إلى الوراء وعدم وضع الإناء على الأرض، وصينا ماء أحد الإناءين على حوض دار الحكومة وبعد ثلاثة أيام ورد طير السار أسراباً.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_300.d2e3923" xml:lang="ar">وماء الإناء الآخر رش على مزارع قرية (قاقزان) وبعد أربعة أيام ورد الطير وافترس الجواد عن آخره.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_301.d2e3927" xml:lang="ar">خادم الدين صدر الإسلام</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_302.d2e3930" xml:lang="ar">ثم نوجه نظركم الدقيق إلى أن قول باين سميث في ص  ٢٠١٢  في معجمه (والارميون إذا قالوا ماذي أرادوا بها في اغلب الأحيان جبال الأهواز وما
@@ -1254,14 +1208,14 @@
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_305.d2e3944" xml:lang="ar">وكان تعريب كلام زكريا بن محمد بن محمود القزوبني صاحب كتاب عجائب المخلوقات وتعريب كلام حمد الله المستوفي في القزويني منقولاً في مقالتنا ثم ورد الجزء الثامن من <title level="j" change="#d2e296 #d2e391" xml:id="title_18.d2e3946" xml:lang="ar">لغة العرب</title> ورأينا في جواب الأستاذ النفيسي غنى عنه.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_306.d2e3950" xml:lang="ar">زنجان: أبو عبد الله الزنجاني</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_307.d2e3954" xml:lang="ar">نزيب ونصيبين</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_308.d2e3957" xml:lang="ar">جاء في مجلتكم (ج  ٨  ص  ٦٢٤  لهذه السنة) عند البحث نصيبين ونزيب أن نصيبين: (. . . واقعة على الفرات واشتهرت في سنة ١٨٩٣
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_308.d2e3957" xml:lang="ar">جاء في مجلتكم (ج  ٨  ص  ٦٢٤  لهذه السنة) عند البحث نصيبين ونزيب أن نصيبين: (. . . واقعة على الفرات واشتهرت في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1893">سنة ١٨٩٣</date> 
                     بانتصار إبراهيم باشا على الترك). وهذا سهو ظاهر. إذ أن البليدة التي انتصر قربها جيش إبراهيم هي (نزيب) وهي قرب عينتاب (كذا. لعله يريد عين تاب) في الشمال الشرقي من <placeName change="#d2e296 #d2e391" xml:id="placeName_41.d2e3970" xml:lang="ar">حلب</placeName>. وأما نصيبين فاشهر من أن تذكر من بلاد الجزيرة في الشمال الغربي من <placeName change="#d2e296 #d2e391" xml:id="placeName_42.d2e3973" xml:lang="ar">الموصل</placeName> والجنوب الشرقي من ماردين بعيدة عن الفرات بعداً شاسعاً.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_309.d2e3977" xml:lang="ar">الدكتور داود الجلبي
 <pb n="n8-p777" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5319.xhtml" change="#d2e296" xml:id="pb_54.d2e3979"/>
                   <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="777" edRef="#edition_1" xml:id="pb_108.d2e4413"/>
 
 
-(ل. ع) كان علينا أن نذكر أن العرب عرفوا ثلاث مدن باسم نصيبين كما قال ياقوت: إحداهما في الجزيرة وهي أشهرهن. والثانية نصيبين الفرات أو نصيبين الروم. والثالثة نصيبين سورية وهي التي يسميها الترك نصيب وبعضهم يجاري الإفرنج فيقول نزيب وبيدنا أطلس عثماني طبع في استنبول سنة ١٣٢٣
+(ل. ع) كان علينا أن نذكر أن العرب عرفوا ثلاث مدن باسم نصيبين كما قال ياقوت: إحداهما في الجزيرة وهي أشهرهن. والثانية نصيبين الفرات أو نصيبين الروم. والثالثة نصيبين سورية وهي التي يسميها الترك نصيب وبعضهم يجاري الإفرنج فيقول نزيب وبيدنا أطلس عثماني طبع في استنبول <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1323" from="1905" to="1906">سنة ١٣٢٣</date> 
                     واسمه: (ممالك عثمانية جبب اطلاسي) لصاحبه (تجار زاده <persName change="#d2e230 #d2e296 #d2e391" ref="oape:pers:647" xml:id="persName_13.d2e3986" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_6.d2e3988">إبراهيم</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_5.d2e3991">حلمي</surname>
@@ -1326,7 +1280,7 @@
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_336.d2e4197" xml:lang="ar">(ل. ع) لكن قد ينسب شيء إلى بلد دون بلد آخر لعله نجهلها فقد ذكر العرب: طواعين <placeName change="#d2e296 #d2e391" xml:id="placeName_55.d2e4199" xml:lang="ar">الشام</placeName>، وطحال البحرين، وحمى خيبر، وعرق <placeName change="#d2e374 #d2e391" xml:id="placeName_88.d2e4654" xml:lang="ar">مكة</placeName>، ووباء <placeName change="#d2e296 #d2e391" xml:id="placeName_56.d2e4202" xml:lang="ar">مصر</placeName>، وبرسام <placeName change="#d2e374 #d2e391" xml:id="placeName_90.d2e4659" xml:lang="ar">العراق</placeName>، والنار</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_337.d2e4206" xml:lang="ar">الفارسية إلى غيرها. وهي موجودة في بلاد أخرى. اهـ.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_338.d2e4209" xml:lang="ar">سادساً - لم نسمع في زماننا بقرحة خاصة ببلخ ولم نقرأ في كتب الطب الحديث شيئاً من هذا القبيل. مع أن أطباء هذا العصر ذكروا أمراضاً خاصة ببعض بقع من أواسط أفريقيا (كذا) وأقصى الشرق والغرب كالفرمبوازية وقدم مادورا والبري بري وغيرها وغيرها مما لم يذكره الأقدمون.</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_339.d2e4212" xml:lang="ar">(ل. ع) ذكر السيوطي في كتابه الكنز المدفون والفلك المشحون المطبوع في المطبعة العثمانية في <placeName change="#d2e296 #d2e391" xml:id="placeName_57.d2e4214" xml:lang="ar">مصر</placeName> في سنة ١٣٠٣
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_339.d2e4212" xml:lang="ar">(ل. ع) ذكر السيوطي في كتابه الكنز المدفون والفلك المشحون المطبوع في المطبعة العثمانية في <placeName change="#d2e296 #d2e391" xml:id="placeName_57.d2e4214" xml:lang="ar">مصر</placeName> في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1303" from="1885" to="1886">سنة ١٣٠٣</date> 
                     ص  ١٢٨  في عرض كلامه على ما خص به كل بلد: (قروح بلخ) بعد أن ذكر قبيل ذلك (دمامل الجزيرة) التي هي عندنا ما نسميها بالأخوات والوحص والعد فاشتهار بلخ بقروحها نسف ما بناه الدكتور من أوله إلى آخره من غير أن يبقى منه أثراً.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_340.d2e4226" xml:lang="ar">سابعاً - كثرة تكرار الغلط في النسخ لا يكون دليلا على صحته. فأنك لا تكاد تجد نسخة من كتب الطب القديم إلا وفيها كلمة (قرانيطس) بالقاف و (شقاقلوس) بقافين حين أن الصحيح هو (فرانيطس) بالفاء، وشفاقلوس) بفاء بعد الشين. لأنهما كلمتان يونانيتان</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_341.d2e4229" xml:lang="ar">و (ل. ع) وبهذا الدليل ننكر عليه عدم وجود البلخية ولا نسلم له بأنها البلحية. وهذه أن وجدت بهذا اللفظ والضبط ليست أبداً بحبة الشرق في شيء أي أن البلحية غير البلخية وغير دمامل الجزيرة.
@@ -1406,7 +1360,7 @@
             <div type="item" change="#d2e344 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_42.d2e4904" xml:lang="ar">
                <head change="#d2e73 #d2e296 #d2e344 #d2e391" xml:id="p_372.d2e4439" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_142.d2e4441" xml:lang="ar"> 
-                     ٣  - </hi>قال السيوطي في  ٢ :  ١٩٩  من المزهر: (أردت أن أجدد إملاء اللغة واحييه بعد دثوره فأمليت مجلساً واحداً (في سنة ٨٧٢
+                     ٣  - </hi>قال السيوطي في  ٢ :  ١٩٩  من المزهر: (أردت أن أجدد إملاء اللغة واحييه بعد دثوره فأمليت مجلساً واحداً (في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0872" from="1467" to="1468">سنة ٨٧٢</date> 
                     كما ظهر لنا) فلم أجد له حملة ولا من يرغب فيه فتركته وآخر من علمته أملي على طريقة اللغويين أبو القاسم الزجاجي له أمال كثيرة في مجلد ضخم وكانت وفاته سنة تسع وثلاثين وثلاثمائة ولم اقف على آمال لا حد بعده) قلنا: أملي بعد الزجاجي الشريف المرتضى وفي آخر أماليه: (هذا آخر مجلس أملاه الشريف المرتضى علم الهدى ذو المجدين أبو القاسم علي بن الحسين الموسوي رضي الله عنه ثم تشاغل بأمور الحج) وقال ابن خلكان في  ١ :  ٣٦٥ ) من وفياته عنه. (وله الكتاب الذي سماه الدرر والغرر وهي مجالس أملاها تشتمل على فنون من معاني الأدب تكلم فيها على النحو واللغة وغير ذلك وهو كتاب ممتع يدل على فضل كبير وتوسع في الاطلاع على العلوم) ثم قال: (وكانت ولادته في سنة سنة خمس وخمسين وثلاثمائة وتوفي يوم الأحد الخامس والعشرين من شهر ربيع الاول سنة ست وثلاثين وأربعمائة ب<placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_59.d2e4465" xml:lang="ar">بغداد</placeName> ودفن في داره عشية</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_373.d2e4469" xml:lang="ar">ذلك النهار) قلنا: ثم نقل قبره إلى <placeName change="#d2e374 #d2e391" xml:id="placeName_94.d2e4939" xml:lang="ar">كربلاء</placeName>.</p>
             </div>
@@ -1528,9 +1482,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_152.d2e4726" xml:lang="ar"> 
                      ١٤٦  - </hi>كتاب صورة الأرض (هدية)</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_404.d2e4733" xml:lang="ar">من المدن والجبال والبحار والجزائر والأنهار</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_405.d2e4736" xml:lang="ar">استخرجه أبو جعفر محمد بن موسى الخوارزمي من كتاب جغرافيا الذي ألفه بطلميوس القاوذي وقد اعتنى بنسخة وتصحيحه هانس فون مزيك، طبع في مدينة فينا الجليلة بمطبعة آدولف هولز هورن سنة ١٣٤٥
-                   هـ وسنة ١٩٢٦
-                   م في  ١٦٤  ص بقطع الثمن مع خمس خرائط مصورة على الأصل وصورة صفحة واحدة من النسخة الخطية وكلها بالتصوير الشمسي.</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_405.d2e4736" xml:lang="ar">استخرجه أبو جعفر محمد بن موسى الخوارزمي من كتاب جغرافيا الذي ألفه بطلميوس القاوذي وقد اعتنى بنسخة وتصحيحه هانس فون مزيك، طبع في مدينة فينا الجليلة بمطبعة آدولف هولز هورن <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1345" from="1926" to="1927">سنة ١٣٤٥ هـ</date>  وسنة <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1926">١٩٢٦ م</date> في  ١٦٤  ص بقطع الثمن مع خمس خرائط مصورة على الأصل وصورة صفحة واحدة من النسخة الخطية وكلها بالتصوير الشمسي.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_406.d2e4752" xml:lang="ar">كانت نسخة هذا التصنيف الخطية أو نظيرتها عرضت علينا قبل الحرب
 <pb n="n8-p792" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5334.xhtml" change="#d2e296" xml:id="pb_69.d2e4754"/>
                   <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="792" edRef="#edition_1" xml:id="pb_138.d2e5277"/>
@@ -1543,10 +1495,8 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e391" xml:id="p_408.d2e4761" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_153.d2e4763" xml:lang="ar"> 
                      ١٤٧  - </hi>كتاب عجائب الأقاليم السبعة إلى نهاية العمارة (هدية)</head>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_409.d2e4770" xml:lang="ar">وكيف هيئة المدن وإحاطة البحار بها وتشقق أنهارها ومعرفة جبالها وجميع ما وراء خط الاستواء والطول والعرض بالمسطرة والحساب والعدد والبحث على جميع ما ذكر. تصنيف سهراب وقد اعتنى بنسخة وتصحيحه هانس فون مزيك، طبع في مدينة فينا الجليلة بمطبعة آدولف هولز هوزن سنة ١٣٤٧
-                   هـ وهي  
-                     ١٩٢٩
-                   م، في  ٢٠٠  ص بقطع الثمن.</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_409.d2e4770" xml:lang="ar">وكيف هيئة المدن وإحاطة البحار بها وتشقق أنهارها ومعرفة جبالها وجميع ما وراء خط الاستواء والطول والعرض بالمسطرة والحساب والعدد والبحث على جميع ما ذكر. تصنيف سهراب وقد اعتنى بنسخة وتصحيحه هانس فون مزيك، طبع في مدينة فينا الجليلة بمطبعة آدولف هولز هوزن <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1347" from="1928" to="1929">سنة ١٣٤٧ هـ</date>  وهي  
+                     <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1929">١٩٢٩ م،</date>  في  ٢٠٠  ص بقطع الثمن.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_410.d2e4784" xml:lang="ar">هذا كتاب لا غنى عنه لكل عربي يريد الوقوف على ما أبقاه لنا السلف لأنه يحوي وصف ما على حضيض ديارنا من مدن وبحار وأنها إلى غيرها من الفوائد التي لا تحصى. وهو يفيد خاصة العرقيين لأنه فيه وصفاً دقيقاً للرافدين ولدار السلام ولسائر ما في عراقنا العزيز من مدن وديار وذلك في عصر العباسيين، وقد احسن المصحح في إظهار مواطن الوهن من هذه النسخة إلا انه لم يصحح ما ورد فيها من الخطأ في ص  ١٠٠  إذ ذكر جبل حمرن والصواب جبل حمرين كما هو مشهور به إلى الآن وكما كان معروفاً في عهد بني العباس. وكذلك اخطأ في ص  ٩٨  إذ ذكر (جبل ارما في جزيرة) والصواب: (جبل بارما في الجزيرة) (راجع معجم البلدان لياقوت في مادة (بارما) وتصحيح الأعلام من اشق الأمور على العلماء لمسخ النساخ لها أسوأ المسخ ومع ذلك نرى المصنف قد أجاد في ما صحح في اغلب المواطن. وقد صمم المؤلف على نقله إلى الألمانية
 <pb n="n8-p793" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5335.xhtml" change="#d2e296" xml:id="pb_70.d2e4792"/>
                   <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="793" edRef="#edition_1" xml:id="pb_140.d2e5323"/>
@@ -1570,9 +1520,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_155.d2e4821" xml:lang="ar"> 
                      ١٤٩  - </hi>كتاب الوزراء والكتاب (هدية)</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_415.d2e4828" xml:lang="ar">تصنيف أبي عبد الله محمد بن عبدوس الجهشياري</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_416.d2e4831" xml:lang="ar">طبع مطابقاً للأصل خطاً وصورة عن نسخته المحفوظة في دار الكتب الوطنية بمدينة فينا وهي وحيدة لا يعرف غيرها في بلد من البلاد وقد أضاف إليه الناشر مقدمة وفهرساً وبين ما يحتوي عليه أبوابه باللغة الألمانية موجزاً طبع في مدينة فينا الجليلة بمطبعتي ماكس يافي وادولف هولزهورن سنة ١٣٤٥
-                   هـ وهي سنة ١٩٢٦
-                    م في  ٤٧٩  ص عربية بقطع الثمن و  ٤٠  ص ألمانية.</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_416.d2e4831" xml:lang="ar">طبع مطابقاً للأصل خطاً وصورة عن نسخته المحفوظة في دار الكتب الوطنية بمدينة فينا وهي وحيدة لا يعرف غيرها في بلد من البلاد وقد أضاف إليه الناشر مقدمة وفهرساً وبين ما يحتوي عليه أبوابه باللغة الألمانية موجزاً طبع في مدينة فينا الجليلة بمطبعتي ماكس يافي وادولف هولزهورن <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1345" from="1926" to="1927">سنة ١٣٤٥ هـ</date>  وهي <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1926">سنة ١٩٢٦ م</date> في  ٤٧٩  ص عربية بقطع الثمن و  ٤٠  ص ألمانية.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_417.d2e4850" xml:lang="ar">يعرف المستشرقون من أين تؤكل الكتف ولهذا تراهم يعنون كل العناية بإخراج احسن كتب السلف إلى عالم المطبوعات. وهذا التأليف جليل جداً للأخبار التي تتعلق بأوائل الإسلام إلى آخر عهد المأمون. والجهشياري لا يتعرض في كل ما ذكره إلا للكتاب والوزراء. وهذا السفر مصور من أوله إلى آخره ومطالعته اصعب من مطالعة الأسفار المطبوعة بالحرف الجلي المتخذ في المطابع ولهذا يفضل كثيرون مطالعة مثل هذه المصنفات على المصنفات المأخوذة عن أصولها المخطوطة سواء أكانت بخط مؤلفيها أم ناسخيها، على أن الاحتفاظ بمثل هذه الأسفار على ما هي أمتع للعلماء لأنهم لا يتمكنون من درس الأصول الأمهات على ما هي، لا على ما أوصلها إلينا ناشروها. وعلى كل حال إننا نشكر للناشر نشر هذه المآثر وبثها بين الجمهور لما يتوقف عليها من معرفة آثار السلف ودروسها وإكتناه ما في بطونها من الدر واللآلئ.</p>
             </div>
             <div type="item" change="#d2e307 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_59.d2e5408" xml:lang="ar">
@@ -1601,7 +1549,7 @@
                      ١٥٢  - </hi>الإرشادات الروحية في عبادة قلب يسوع الأقدس</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_425.d2e4924" xml:lang="ar">العصرية</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_426.d2e4928" xml:lang="ar">الجزء الثالث والأخير في  ٥٤٢  ص بقطع  ١٢ ، طبع بالمطبعة السريانية الكاثوليكية في <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_65.d2e4936" xml:lang="ar">بغداد</placeName> 
-                  سنة ١٩٣٠
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                    .</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_427.d2e4945" xml:lang="ar">كتب التقى والزهد والدين كثيرة، وإذا أراد أن يطالع فيها أحد الأدباء الأتقياء ينفر منها وكثيراً ما يلقيها من يده لأنها سقيمة العبارة، جمة السقط. وحجة أصحاب تلك التأليف: (أن الكتابة وسيلة لا غاية) وهو عذر اقبح من ذنب. فهذا يشبه صنع من يضع الأطعمة الفاخرة في آنية وسخة قذرة، بحجة أن الآكل يأكل الطعام لا الوعاء. وجهلوا أن الكلام الخارج على آداب اللغة، وأصولها، وقواعدها، تقذفه النفس العربية الحسنة الذوق، وتستقبحه
 <pb n="n8-p796" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5338.xhtml" change="#d2e296" xml:id="pb_73.d2e4947"/>
@@ -1625,7 +1573,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_160.d2e4991" xml:lang="ar"> 
                      ١٥٤  - </hi>تعليم المرأة</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_432.d2e4999" xml:lang="ar">كتاب اجتماعي يبحث عن أهمية المرأة ومكانتها في الهيئات الاجتماعية ووجوب تعليم المرأة العراقية في العصر الحاضر، طبع بمطبعة الشعب في <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_68.d2e5001" xml:lang="ar">بغداد</placeName> 
-                  سنة ١٩٣٠
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     في  ١٠٠  ص بقطع  ١٢ ، بقلم جعفر حسين.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_433.d2e5016" xml:lang="ar">كل أمة هذبت ابنتها ارتقت، وكل قوم أهمل تهذيب ابنته انحط إلى
 <pb n="n8-p797" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5339.xhtml" change="#d2e296" xml:id="pb_74.d2e5018"/>
@@ -1655,10 +1603,10 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_440.d2e5101" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_162.d2e5103" xml:lang="ar"> 
                   ١  - </hi>أقدم معجم لغوي في العالم وجد في سورية</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_441.d2e5110" xml:lang="ar">عثر الفرنسيون على صفائح مجهولة الكتابة لا يقل عهدها عن سنة ١٤٠٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_441.d2e5110" xml:lang="ar">عثر الفرنسيون على صفائح مجهولة الكتابة لا يقل عهدها عن <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1400" from="1979" to="1980">سنة ١٤٠٠</date> 
                  ق. م وفيه ست لغات</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_442.d2e5118" xml:lang="ar">اكتشف الدكتور (ف. أ. شفر) من أهل مدينة (استراسبورج) وهو رئيس البعثة الفرنسية للآثار القديمة في جنوبي سورية، معجماً يدل على انه اقدم معجم في الدنيا كلها، وتلا هذا الدكتور أمام محفى الرقم والآداب الفتانة في (باريس) بيان اكتشافاته.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_443.d2e5121" xml:lang="ar">ونقل الدكتور (شفر) قبل سنة خبر اكتشاف مدينة بقرب اللاذقية، الواقعة على ساحل بحر الروم وكانت تزهو بين سنة ٢٠٠٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_443.d2e5121" xml:lang="ar">ونقل الدكتور (شفر) قبل سنة خبر اكتشاف مدينة بقرب اللاذقية، الواقعة على ساحل بحر الروم وكانت تزهو بين <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="2000">سنة ٢٠٠٠</date> 
                  و  ٣٠٠  ق. م بتجارتها بالنحاس الاحمر، المستخرج من مناجم قبرص. هذا فضلا عن منتوجات آسية التي كان يرسل بها إلى <placeName change="#d2e296 #d2e391" xml:id="placeName_69.d2e5131" xml:lang="ar">مصر</placeName>. وبلاد الهلين السابقة لليونان. والى جميع الربوع الواقعة في غربي بحر الروم. واسم تلك المدينة (زفونة) وكانت مسكن تجار أغنياء كل الغنى.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_444.d2e5136" xml:lang="ar">واظهر تنقيب السنة الماضية أن أسرة ملكية، كانت تحكم هذه المدينة أبان مجدها، وأما هذه السنة فوجه البحث إلى الإطلاع على قصر هؤلاء الامراء، ولا سيما خزانتهم، فوقع النقابون على صفائح من الآجر ظهرت فيها كتابة مجهولة، مخطوطة بلغة يقدر عهدها بأربعة عشر قرناً، قبل العصر المسيحي، على اقل تقدير. وقد دونت اللغة منسقة على الحروف الهجائية فأيدت كشوف ربيع هذه السنة. مكشوفات السنة الماضية.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_445.d2e5139" xml:lang="ar">كان القصر مقر النساخ</p>
@@ -1674,7 +1622,7 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_450.d2e5160" xml:lang="ar">وكان سكان (زفونة) نفسها والمرابع التي تحيط بها، يتكلمون لغة (سامية) ويكتبونها بحسب الكتابة التي اكتشفتها البعثة. أما العلماء والكهنة، فكانوا آثروا التكلم (بالشمرية) وهي لغة خشنة من اصل عراقي عريق في القديم وكانت هذه اللغة في زمانها، كاللاتينية عند علمائنا في عهدنا هذا.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_451.d2e5163" xml:lang="ar">كان عندهم جدول مرادفات</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_452.d2e5166" xml:lang="ar">وأما اللغة الرابعة التي اتخذت في (زفونة) فكانت المصرية وكان ينطق بها الموظفون في زمن سيادة الفراعنة واللغة الخامسة كانت (الميتنية) وهي لغة سكان سورية الشمالية.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_453.d2e5169" xml:lang="ar">واللغة السادسة (الحثية) التي جاء بها التجار من آسية الصغرى، قبل احتلال الجيوش (لزفونة) تلك الجيوش التي أفنت المدينة عن آخرها. وذلك في نحو سنة ١٢٠٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_453.d2e5169" xml:lang="ar">واللغة السادسة (الحثية) التي جاء بها التجار من آسية الصغرى، قبل احتلال الجيوش (لزفونة) تلك الجيوش التي أفنت المدينة عن آخرها. وذلك في نحو <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1200" from="1785" to="1786">سنة ١٢٠٠</date> 
                  ق. م فلم يقم لها قائم بعد ذلك.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_454.d2e5177" xml:lang="ar">وكان من وظائف نساخ هذه الخزانة خزانة قصر الأمراء، الترجمة من لغة إلى لغة أخرى في الألسنة الستة المذكورة ووضعوا لهم معاجم متقومة من صفائح كبيرة من الاجر، فيها حقول الكلمات ليتسنى لهم أمر الترجمة، وكانت في الأغلب ترجمة الكلم في حقل ثان من هذه الصفائح. ووجد في صفيحة منها، جدول المرادفات، حتى لا يكرر النقلة الكلمة عينها عدة مرار. وقد عثرت البعثة على بعض صفائح تبين أن هناك طلاباً حديثي السن، كانوا ينقلون الكلمة نفسها مرات عديدة. فكانوا يشبهون تلاميذ عصرنا هذا، يخطون اكثر في الأحيان أما فوق السطر، وأما تحته. وقلما تراهم يكتبون على طول السطر. وكان عملهم هذا دون عمل اللغويين بكثير.
 <pb n="n8-p800" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5342.xhtml" change="#d2e296" xml:id="pb_77.d2e5179"/>
@@ -1703,8 +1651,7 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_465.d2e5259" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_167.d2e5261" xml:lang="ar"> 
                   ٦  - </hi>بيان رسمي (بحروفه)</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_466.d2e5268" xml:lang="ar">حادثة السليمانية في  ٦  أيلول  ١٩٣٠ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_466.d2e5268" xml:lang="ar">حادثة السليمانية في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930-09-06">٦ أيلول ١٩٣٠</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_467.d2e5277" xml:lang="ar">بناء على انتشار كثير من الإشاعات الكاذبة عن الحادث المؤسف الذي وقع في السليمانية في اليوم السادس من الشهر الحالي، من قبل اشخاص، غايتهم بث الرعب واليأس في القلوب رأت الحكومة نشر البيان التالي عما حدث:</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_468.d2e5281" xml:lang="ar">بناء على اطلاع وكيل المتصرف، على
 <pb n="n8-p801" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5343.xhtml" change="#d2e296" xml:id="pb_78.d2e5283"/>

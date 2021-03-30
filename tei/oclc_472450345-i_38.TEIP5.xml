@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e380" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e380" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e378" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e376" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e362" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e364" xml:lang="en">Added <tei:gi change="#d2e362 #d2e376" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e361" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e359" change="#d2e376" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e380" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e382" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e380" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e378" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e376" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e362" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e364" xml:lang="en">Added <tei:gi change="#d2e362 #d2e376" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e361" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e359" change="#d2e376" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e339" change="#d2e376" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e315" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e362 #d2e376" xml:id="list_1.d2e185" xml:lang="en">
                <item change="#d2e362 #d2e376" xml:id="item_1.d2e187" xml:lang="en">occurrences of "سنة" and "عام" followed by a <gi change="#d2e362 #d2e376" xml:id="gi_1.d2e189" xml:lang="en">num</gi> node </item>
@@ -624,19 +624,19 @@
 
 اور، لا يعثر عليه ولا يقف على اثر له؛ وان أفنى العمر في سبيل السؤال عنه من الأعراب النازلين في تلك الديار. وبعد أن يرجع خائبا يتضح له أن في نقل الاسم خطأ لا يعرفه إلاَّ من له اطلاع واسع على تاريخ <placeName change="#d2e362 #d2e376" xml:id="placeName_13.d2e1392" xml:lang="ar">العراق</placeName> وعلى أسماء تلوله. فالتل الذي أراده صاحب المقال هو (تل العبيد) (وزان زبير) لا (تل الأبيض) وحدث هذا الخطأ من نقل الحروف اللاتينية؛ إلى العربية.</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_9.d2e1576" xml:lang="ar">وتل العبيد هذا ليس أور الكلدانيين. كما يفهم من مقال المقتطف، بل هو تل صغير منفرد على خط ترعة قديمة على بعد نحو أربعة أميال من غربي المقير. بميلة إلى الشمال الغربي؛ والمقير هي (اور الكلدانيين).</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_10.d2e1579" xml:lang="ar">أن البعثة لم تحصر عملها أولا في (تل العبيد) كما جاء في المقتطف؛ بل أنها حفرت أولا في المقير، اور الكلدانيين؛ وذلك في سنة ١٩٢٢
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_10.d2e1579" xml:lang="ar">أن البعثة لم تحصر عملها أولا في (تل العبيد) كما جاء في المقتطف؛ بل أنها حفرت أولا في المقير، اور الكلدانيين؛ وذلك في <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1922">سنة ١٩٢٢</date> 
                  ولم تحفر في تل العبيد إلاَّ في السنة التالية  ١٩٢٣ . وقد نشر المستر ولي في المجلة المسماة في جزءها الصادر في أكتوبر  ١٩٢٣  نتائج نبش البعثة في اور؛ وفي الجزء الصادر في أكتوبر  ١٩٢٤  خلاصة أعمالها في (تل العبيد).
 <pb n="n4-p190" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1814.xhtml" change="#d2e296" xml:id="pb_8.d2e1595"/>
                <pb change="#d2e339 #d2e361 #d2e362" ed="print" n="190" edRef="#edition_1" xml:id="pb_16.d2e1419"/>
 
 
-وأول من كشف تل العبيد الدكتور هول سنة ١٩١٩
+وأول من كشف تل العبيد الدكتور هول <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1919">سنة ١٩١٩</date> 
                  إذ كان ينبش لحساب أمناء المتحفة</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_11.d2e1604" xml:lang="ar">البريطانية؛ ونشر نتائج أعماله في المجلات الآتية:</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_12.d2e1607" xml:lang="ar">
-               سنة ١٩١٩
-                 ص ٢٢  المجلد التاسع الجزء الثالث سنة ١٩٢٢
-                 وفي في المجلد الثامن الجزء الثالث والرابع سنة ١٩٢٢
+               <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1919">سنة ١٩١٩</date> 
+                 ص ٢٢  المجلد التاسع الجزء الثالث <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1922">سنة ١٩٢٢</date> 
+                 وفي في المجلد الثامن الجزء الثالث والرابع <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1922">سنة ١٩٢٢</date> 
                 .</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_13.d2e1627" xml:lang="ar">أما قوله: (الواقعة على ضفة الفرات الجنوبية) فلا معنى فيه؛ إذ يجري الفرات من الشمال إلى الجنوب فتكون إحدى ضفتيه شرقية والأخرى غربية وليس هناك ضفة شمالية وضفة جنوبية. وأني أحدس أن كاتب المقال قال في الإنكليزية: أو ما يضارع هذه العبارة ومفادها في القسم الجنوبي من الفرات أو كما يقول العرب: في سقي الفرات الجنوبي. فأن سقي الفرات الشمالي ومثله دجلة في أرض شنعار يطلق عليه (أكد) (وزان شمر) وفيه من المدن القديمة (أجادوا) و (كيش) (وهي الاحيمر). و (بورسيبا) (اي برس نمرود). و (سبر) و (بابل) و (كوثي) (أي تل إبراهيم). ويطلق على سقيهما الجنوبي بلاد شمر (وزان
 <pb n="n4-p191" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1815.xhtml" change="#d2e296" xml:id="pb_9.d2e1629"/>
@@ -644,11 +644,11 @@
 
 
 زفر) وفيه من المدن أدب (أي بسمايا) وأما (بضم الأولى وتشديد الثاني المفتوح) (وهي أطلال جوخي) واريدو (وهي أطلال أبو شهرين) وكيسورة (وهي أطلال أبو حطب) و (اور الكلدانيين) وتعرف إطلالها (بالمقير).</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_14.d2e1632" xml:lang="ar">وجاء في مقالة المقتطف ما يأتي (نعثرت (أي البعثة) في شتاء سنة ١٩٢٥
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_14.d2e1632" xml:lang="ar">وجاء في مقالة المقتطف ما يأتي (نعثرت (أي البعثة) في شتاء <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1925">سنة ١٩٢٥</date> 
                  على اقدم آثار العمران في <placeName change="#d2e362 #d2e376" xml:id="placeName_14.d2e1470" xml:lang="ar">العراق</placeName>؛ ومنها كتابة معاصرة لملك كان يحسب خرافيا وقطعة من النقش النفيس لم ينتظر العثور عليها هناك. أما الكتابة فتدور على الملك (أني بادا) بن (مس أني بادا) وهي اقدم وثيقة تاريخية مؤرخة الخ. . .</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_15.d2e1641" xml:lang="ar">قلنا إن المستر ولي عثر على هذه النفائس الأثرية التاريخية في أواخر سنة ١٩٢٣
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_15.d2e1641" xml:lang="ar">قلنا إن المستر ولي عثر على هذه النفائس الأثرية التاريخية في أواخر <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1923">سنة ١٩٢٣</date> 
                  وأكبر دليل على ذلك ما جاء في كتابنا محاضرات في مدن <placeName change="#d2e362 #d2e376" xml:id="placeName_15.d2e1482" xml:lang="ar">العراق</placeName>، تلك المحاضرات التي ألقيناها على طلبة دار المعلمين العليا، في السنة المدرسية  ١٩٢٣  -  ١٩٢٤  والمطبوعة في <placeName change="#d5e244 #d2e296 #d2e376" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e1654" xml:lang="ar">بغداد</placeName> 
-               سنة ١٩٢٤
+               <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1924">سنة ١٩٢٤</date> 
                 ؛ حيث ورد في ص ١١٥  ما إليك بعضه؛ وقد حفرت في تل اسمه (العبيد) في شمالي (اور) يشتمل على دكان هيكل الآهة الحياة والخصب وظفر الحفارون بثلاثة رقم ومائدتين وجعلان من ذهب؛ يستدل منها إلى إنها من عمل (أي أني بادا) بن (مس أني بادا) أول ملك من سلالة اور
 <pb n="n4-p192" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1816.xhtml" change="#d2e296" xml:id="pb_10.d2e1666"/>
                <pb change="#d2e339 #d2e361 #d2e362" ed="print" n="192" edRef="#edition_1" xml:id="pb_20.d2e1505"/>
@@ -698,14 +698,14 @@
          </div>
          <div change="#d2e64 #d2e296 #d2e376" type="item" subtype="article" xml:id="div_4.d2e1788" xml:lang="ar">
             <head change="#d2e296 #d2e376" xml:id="head_4.d2e1790" xml:lang="ar">تاريخ الطباعة العراقية</head>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_30.d2e1793" xml:lang="ar">مطابع <placeName change="#d2e362 #d2e376" xml:id="placeName_19.d2e1646" xml:lang="ar">العراق</placeName> وثمراتها (من سنة ١٨٥٦
-                 إلى سنة ١٩٢٦
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_30.d2e1793" xml:lang="ar">مطابع <placeName change="#d2e362 #d2e376" xml:id="placeName_19.d2e1646" xml:lang="ar">العراق</placeName> وثمراتها (من <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1856">سنة ١٨٥٦</date> 
+                 إلى <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1926">سنة ١٩٢٦</date> 
                 )</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_31.d2e1806" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e376" xml:id="hi_1.d2e1808" xml:lang="ar"> 
                   ٢  - </hi>تابع مطابع الموصل</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_32.d2e1815" xml:lang="ar">وأسس الآباء الدومنكيون فرعا في مطبعتهم الموصلية جعلوها معملا لتجليد الكتب وتذهيبها على الطراز الإفرنجي الحديث وقد كان الموصليون قبل وجودها يجلدون كتبهم على الطريقة العتيقة.</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_33.d2e1818" xml:lang="ar">وأول كتاب طبع فيها (رياضة درب الصليب) سنة ١٨٦٠
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_33.d2e1818" xml:lang="ar">وأول كتاب طبع فيها (رياضة درب الصليب) <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1860">سنة ١٨٦٠</date> 
                 .</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_34.d2e1827" xml:lang="ar">ومن الذين تولوا فيها الخدمة الكبرى بالتأليف والترجمة والطبع والتصحيح مدة طويلة المثلث الرحمة السيد اقليميس يوسف داود السرياني الموصلي مطران <placeName change="#d2e296 #d2e376" xml:id="placeName_13.d2e1829" xml:lang="ar">دمشق</placeName> اشتغل فيها نحو عشرين عاما ولو بقي في <placeName change="#d2e296 #d2e376" xml:id="placeName_14.d2e1832" xml:lang="ar">الموصل</placeName> يتعهدها بعلمه
 <pb n="n4-p198" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P1822.xhtml" change="#d2e296" xml:id="pb_16.d2e1835"/>
@@ -718,7 +718,7 @@
 
 
 واشتغل فيها مدة طويلة المرحوم المعلم نعوم فتح الله سحار وأعقبه المعلم سليم حسون الأستاذ في مدرسة الأباء الدومنكيين في ذلك العهد (ومدير جريدة العالم العربي ورئيس تحريرها في <placeName change="#d5e244 #d2e296 #d2e376" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e1846" xml:lang="ar">بغداد</placeName> اليوم).</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_35.d2e1850" xml:lang="ar">ولما أعلنت الحرب الكبرى في صيف سنة ١٩١٤
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_35.d2e1850" xml:lang="ar">ولما أعلنت الحرب الكبرى في صيف <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1914">سنة ١٩١٤</date> 
                  كان قد شرع في فتح جادة في <placeName change="#d2e296 #d2e376" xml:id="placeName_17.d2e1857" xml:lang="ar">الموصل</placeName> واحتيج إلى هدم بناء المدرسة للأباء الدومنكيين والمطبعة الملاصقة لها في إنشاء هذه الجادة فهدمت بنايتها وصودرت أدواتها وأجهزتها بتهمة أنها تابعة لإدارة أجانب من الفرنسيين ونقلت بعض أدواتها وحروفها إلى مطبعة الحكومة في <placeName change="#d2e296 #d2e376" xml:id="placeName_18.d2e1860" xml:lang="ar">الموصل</placeName> حيث استعملت في طبع الجريدة الرسمية (<placeName change="#d2e296 #d2e376" xml:id="placeName_19.d2e1863" xml:lang="ar">الموصل</placeName>) وظلت مستعملة إلى هذا اليوم مع تغير الزمان والحكام وزوال الحكم العثماني وحلول الحكم الوطني. وكان والي <placeName change="#d2e296 #d2e376" xml:id="placeName_20.d2e1866" xml:lang="ar">الموصل</placeName> العثماني في زمن إعلان الحرب الكبرى سليمان نظيف بك الكاتب التركي الشهير.</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_36.d2e1870" xml:lang="ar">ومع أن المبعث الدومنكي قد عاد إلى بعض نظامه في <placeName change="#d2e296 #d2e376" xml:id="placeName_21.d2e1872" xml:lang="ar">الموصل</placeName> وأعيد تأسيس مدرسة الأباء وتشييد بنايتها بالمبالغ التي أعطتها حكومة الاحتلال الإنكليزية كتعويضات إلى المبعث تعويضا عما أخذ من بناية المدرسة وعمارة المطبعة للجادة فالمطبعة ما زالت مبعثرة وقد</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_37.d2e1876" xml:lang="ar">استردوا الموجود من أدواتها وآلاتها غير ما نهب وشتت. ولما يعد تنظيمها وفتحها للشغل فخسرت بخرابها البلاد أداة نافعة في النهضة والعمران.</p>
@@ -731,7 +731,7 @@
                <pb change="#d2e339 #d2e361 #d2e362" ed="print" n="200" edRef="#edition_1" xml:id="pb_36.d2e1757"/>
 
 
-داود السرياني مطران <placeName change="#d2e296 #d2e376" xml:id="placeName_22.d2e1896" xml:lang="ar">دمشق</placeName> بقطع الربع (سنة ١٨٧١
+داود السرياني مطران <placeName change="#d2e296 #d2e376" xml:id="placeName_22.d2e1896" xml:lang="ar">دمشق</placeName> بقطع الربع (<date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1871">(سنة ١٨٧١</date> 
                  -  ١٨٧٧  صفحاته  ٢٥٠٧ )</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_41.d2e1912" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e376" xml:id="hi_3.d2e1914" xml:lang="ar"> 
@@ -985,10 +985,8 @@
                   </addName>
                </persName> العرب المحترم</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_115.d2e3038" xml:lang="ar">طالعت ما كتبه الأديب رفائيل أفندي بطي في الجزء الثالث من مجلة لغة العرب بعنوان (تاريخ الطباعة العراقية) والذي لفت نظري قول الكاتب:</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_116.d2e3044" xml:lang="ar">(وفي هذه السنة عينها ( ١٨٥٦ ) جلب إلى <placeName change="#d2e362 #d2e376" xml:id="placeName_31.d2e2929" xml:lang="ar">كربلاء</placeName> أحد أكابر الفرس مطبعة حجرية لا يذكر الناس من نتاجها إلاَّ سفرا بقي بكرا وحيدا) وقد فاته ذكر أول مطبعة حجرية تأسست في الكاظمية وطبع فيها (دوحة الوزراء في تاريخ وقائع الزورآء) تأليف الشيخ رسول أفندي الكركوكي وقد تولى طبع هذا الكتاب مرزا محمد باقر التفليسي بخطه عام ١٢٣٧
-                هـ  
-                  ١٨٢١
-                م فمن هنا يظهر أن أول مطبعة حجرية نصبت في الكاظمية كانت قبل اكثر من مئة سنة.</p>
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_116.d2e3044" xml:lang="ar">(وفي هذه السنة عينها ( ١٨٥٦ ) جلب إلى <placeName change="#d2e362 #d2e376" xml:id="placeName_31.d2e2929" xml:lang="ar">كربلاء</placeName> أحد أكابر الفرس مطبعة حجرية لا يذكر الناس من نتاجها إلاَّ سفرا بقي بكرا وحيدا) وقد فاته ذكر أول مطبعة حجرية تأسست في الكاظمية وطبع فيها (دوحة الوزراء في تاريخ وقائع الزورآء) تأليف الشيخ رسول أفندي الكركوكي وقد تولى طبع هذا الكتاب مرزا محمد باقر التفليسي بخطه عام <date calendar="#cal_islamic" change="#d3e382" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1237" from="1821" to="1822">١٢٣٧ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="high" xml:lang="ar" when="1821">١٨٢١ م</date> فمن هنا يظهر أن أول مطبعة حجرية نصبت في الكاظمية كانت قبل اكثر من مئة سنة.</p>
             <byline change="#d2e219 #d2e296 #d2e376" xml:id="byline_4.d2e3058" xml:lang="ar">
                <persName change="#d2e230 #d2e282 #d2e296 #d2e376" ref="oape:pers:1725 viaf:97152636060620050511" xml:id="persName_9.d2e3059" xml:lang="ar">
                             <forename change="#d2e296 #d2e376" xml:id="forename_8.d2e3061" xml:lang="ar">رزوق</forename>
@@ -1067,8 +1065,7 @@
                   <seg change="#d2e296 #d2e376" xml:id="seg_202.d2e3223" xml:lang="ar"> بارك عز شأنه في ذا اللقب</seg>
                </l>
             </lg>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_126.d2e3228" xml:lang="ar">وجن طعمة في آخر عمره وتوفي سنة ١٣١٥
-                هـ في بيت آل جابر أفندي في الحلة، وقد بلغني أن لديهم مجموعة من شعره ولم يصلني منه إلاَّ شيء قليل أوردته هنا؛</p>
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_126.d2e3228" xml:lang="ar">وجن طعمة في آخر عمره وتوفي <date calendar="#cal_islamic" change="#d3e382" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1315" from="1897" to="1898">سنة ١٣١٥ هـ</date>  في بيت آل جابر أفندي في الحلة، وقد بلغني أن لديهم مجموعة من شعره ولم يصلني منه إلاَّ شيء قليل أوردته هنا؛</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_127.d2e3236" xml:lang="ar">قال وقد سرقوا حذاءه وتركوا له عوضا عنه حذاء طويلا يفضل عن قدمه:</p>
             <lg change="#d2e296 #d2e376" xml:id="lg_102.d2e3240" xml:lang="ar">
                <l type="bayt" change="#d2e296 #d2e376" xml:id="l_102.d2e3242" xml:lang="ar">
@@ -1508,7 +1505,7 @@
 
 
 بعض أنحاء <placeName change="#d2e362 #d2e376" xml:id="placeName_38.d2e4066" xml:lang="ar">العراق</placeName>، وكنا قد حضرنا بعضها.</p>
-            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_239.d2e4202" xml:lang="ar">ثم انتقلت هذه الألفاظ من العرب إلى الترك. ولما كان السلطان يحضر عرض جنوده ولاسيما المماليك منهم (أي الينكشرية) كانوا يصرخون في آخر العرض: عره. حزه! كأنهم يتصورون انهم يؤمرون بعد قليل بذبح العدو فيشجع وأحدهم صاحبه على أي قاع الضرر بالعدو أو على قطع رأسه. ولما كان الترك مجاورين للروس تعلم هؤلاء منهم هذا الصراخ في الحرب ثم تلقاه عن الروس مجاوروهم الألمان سنة ١٨١٣
+            <p change="#d2e73 #d2e296 #d2e376" xml:id="p_239.d2e4202" xml:lang="ar">ثم انتقلت هذه الألفاظ من العرب إلى الترك. ولما كان السلطان يحضر عرض جنوده ولاسيما المماليك منهم (أي الينكشرية) كانوا يصرخون في آخر العرض: عره. حزه! كأنهم يتصورون انهم يؤمرون بعد قليل بذبح العدو فيشجع وأحدهم صاحبه على أي قاع الضرر بالعدو أو على قطع رأسه. ولما كان الترك مجاورين للروس تعلم هؤلاء منهم هذا الصراخ في الحرب ثم تلقاه عن الروس مجاوروهم الألمان <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1813">سنة ١٨١٣</date> 
                  وعنهم الفرنسيون فالإنكليز؛ واليوم اكثر الناس استعمالا للكلمتين؛ عره! حزه! أبناء بريطانية الكبرى.</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_240.d2e4210" xml:lang="ar">ومن الغريب أن الملوك ورجال السياسة يهتفون بأحد هذين اللفظين أو بكليهما عند شرب النخب وهم يريدون بذلك أن (يحيى) الذي يهتفون له، غير عالمين أنهم يدعون عليه بالضرر والقتل.</p>
             <p change="#d2e73 #d2e296 #d2e376" xml:id="p_241.d2e4213" xml:lang="ar">وقت استعمال هذين اللفظين</p>
@@ -1582,7 +1579,7 @@
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_10.d2e4383">جميل</forename>
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_11.d2e4386">صدقي</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_8.d2e4389">الزهاوي</surname>
-                        </persName>، بدل الاشتراك خمس ربيات وللخارج ثماني ربيات صدر جزءها الاول في  ٨  صفحات بحجم هذه المجلة يوم الجمعة في  ١٠  أيلول  ١٩٢٦ .</p>
+                        </persName>، بدل الاشتراك خمس ربيات وللخارج ثماني ربيات صدر جزءها الاول في  ٨  صفحات بحجم هذه المجلة يوم الجمعة في  <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1926-09-10">١٠ أيلول ١٩٢٦</date> .</p>
                <p change="#d2e73 #d2e296 #d2e376" xml:id="p_269.d2e4403" xml:lang="ar">وقد قال صديقنا في سبب إصدارها: (إنا قد ألفينا العربية في <placeName change="#d2e362 #d2e376" xml:id="placeName_45.d2e4292" xml:lang="ar">العراق</placeName> لا تستغني في حالها الحاضر عمن يقوم أودها بالتنبيه على ما يقع من الخطأ في كثير من القصيد والمقالات مما ينشر في صحفه. ولا ينحصر هذا الخطأ في اللفظ بل يتجاوزه إلى المعنى الذي هو كل المراد من اللفظ). على أننا نتمنى ان تخلو تلك الصفحات من أغلاط الطبع ونتمنى لها العمر الطويل الهنيء ليستفيد منها القريب والبعيد وينتصر الأدب الحديث على الطراز القديم البالي. وهو لا يكون إلاَّ مكبوة!</p>
             </div>
             <div type="item" change="#d2e307 #d2e361 #d2e362 #d2e376" subtype="article" xml:id="div_13.d2e4296" xml:lang="ar">
@@ -1717,7 +1714,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e376" xml:id="p_316.d2e4750" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e376" xml:id="hi_119.d2e4752" xml:lang="ar"> 
                      ٢  - </hi>المدارس الجديدة في العراق</head>
-               <p change="#d2e73 #d2e296 #d2e376" xml:id="p_317.d2e4759" xml:lang="ar">أنشئت في مفتتح سنة الدراسة الجديدة المبتدئة في  ١٥  أيلول  ١٩٢٦  ثلاث مدارس جديدة في لواء اربل: في باتاس وفي مخمور وفي بروست. وأسست مدرسة أولية في تل أعفر.</p>
+               <p change="#d2e73 #d2e296 #d2e376" xml:id="p_317.d2e4759" xml:lang="ar">أنشئت في مفتتح سنة الدراسة الجديدة المبتدئة في  <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1926-09-15">١٥ أيلول ١٩٢٦</date> ثلاث مدارس جديدة في لواء اربل: في باتاس وفي مخمور وفي بروست. وأسست مدرسة أولية في تل أعفر.</p>
                <p change="#d2e73 #d2e296 #d2e376" xml:id="p_318.d2e4769" xml:lang="ar">وأنشئت مدرسة بنات أولية في قضاء دهوك في أول سنة الدراسة.</p>
             </div>
             <div type="item" change="#d2e307 #d2e361 #d2e362 #d2e376" subtype="article" xml:id="div_24.d2e4713" xml:lang="ar">
@@ -1736,7 +1733,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e376" xml:id="p_323.d2e4799" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e376" xml:id="hi_122.d2e4801" xml:lang="ar"> 
                      ٥  - </hi>باخرة بريطانية ترفع فوقها العلم العراقي</head>
-               <p change="#d2e73 #d2e296 #d2e376" xml:id="p_324.d2e4809" xml:lang="ar">رفعت البارجة الحربية البريطانية (لورنس) لأول مرة العلم العراقي يوم عيد جلوس جلالة الملك فيصل الاول في  ٢٣  آب  ١٩٢٦  وقد اشتركت في الأفراح بإطلاقها  ٢١  طلقة من مدفعها.</p>
+               <p change="#d2e73 #d2e296 #d2e376" xml:id="p_324.d2e4809" xml:lang="ar">رفعت البارجة الحربية البريطانية (لورنس) لأول مرة العلم العراقي يوم عيد جلوس جلالة الملك فيصل الاول في  <date calendar="#cal_gregorian" change="#d3e382" resp="#xslt" cert="low" xml:lang="ar" when="1926-08-23">٢٣ آب ١٩٢٦</date> وقد اشتركت في الأفراح بإطلاقها  ٢١  طلقة من مدفعها.</p>
             </div>
             <div type="item" change="#d2e307 #d2e361 #d2e362 #d2e376" subtype="article" xml:id="div_27.d2e4777" xml:lang="ar">
                <head change="#d2e73 #d2e296 #d2e307 #d2e376" xml:id="p_325.d2e4821" xml:lang="ar">

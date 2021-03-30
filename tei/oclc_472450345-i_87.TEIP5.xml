@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e386" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e386" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e384" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e382" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e367" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e370" xml:lang="en">Added <tei:gi change="#d2e367 #d2e382" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e368" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e366" change="#d2e382" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e386" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e388" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e386" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e384" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e382" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e367" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e370" xml:lang="en">Added <tei:gi change="#d2e367 #d2e382" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e368" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e366" change="#d2e382" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e344" change="#d2e382" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e320" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e367 #d2e382" xml:id="list_1.d2e185" xml:lang="en">
                <item change="#d2e367 #d2e382" xml:id="item_1.d2e187" xml:lang="en">occurrences of "سنة" and "عام" followed by a <gi change="#d2e367 #d2e382" xml:id="gi_1.d2e189" xml:lang="en">num</gi> node </item>
@@ -284,7 +284,7 @@
 
 ووجهتهم بلاد أسبانية. وكان زادهم قليلا من الخبز وقنينتين من الماء العذب وبعد سفر دام بضعة أيام، كابدوا في أثنائها من الأهوال والنكبات ما يعجز القلم عن وصفه. وصلوا جزائر مينرقة وهم إلى آخر رمق من الحياة لشدة ما أصابهم من الجوع والعطش والتعب. فاكرم مثواهم الإسبانيون ورثوا لحالهم وأمدوهم في الحال بطعام وشراب ولباس وزودوهم بكل ما يقوم</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_66.d2e869" xml:lang="ar">بأودهم ثم وضعوهم في إحدى سفن ملكهم ووجهوهم إلى إنكلترا بلادهم وقد حفظ سكان جزيرة مينرقة ذلك الزورق المصنوع من الخيش، ووضعوه في كنيستهم الكبرى ذكرى لنجاة أولئك الملاحين الإنكليز الذين نجوا بأعجوبة من أهوال البحار بذلك القارب الصغير. وقد، حفظت أضلاعه وقاعدته من التلف مدة من الزمن، واخذ الرحالون يؤمون تلك الأصقاع لمشاهدة صقل ذلك الزورق القديم بعد الحادثة بأكثر من مائة سنة، فهذه الواقعة تؤيد بأجلى بيان ما حدث للملاح البابلي وزوجته التقية وإيداع رسم زورقهما أحد هياكل أدب.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_67.d2e872" xml:lang="ar">وفي الخامس من كانون الثاني سنة ١٩٠٤
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_67.d2e872" xml:lang="ar">وفي الخامس من كانون الثاني <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1904">سنة ١٩٠٤</date> 
                  استؤنف الحفر بعد أن توقف بضعة أيام من جراء النزاع القائم بين شيوخ تلك المنطقة. فكان كل منهم يدعي أن موقع بسمى ملكه. وقد عثر النقابون في ذلك اليوم في الطرف الشمالي الغربي من قاعدة الهيكل على رأس تمثال صغير منحوت من الحجر الأبيض يماثل التماثيل المكتشفة في تلو ونفر وكان رأس ذلك التمثال اصلع. ووجهه مستديراً أمرد ويرتقي عهده إلى الشمريين، ولا يتخطى عصر جودياء ملك تلو. ووجد المنقبون في اليوم التالي  ٦٥  صفيحة من الآجر وبينها قطع وطائفة من الجرار الصحيحة وكل هذه الآثار اكتشفت في ارض الطبقة السفلى من الهيكل.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_68.d2e883" xml:lang="ar">هذا وفي ذات يوم بينما كان أحد المعمارين يبحث عن آجر للبناء عثر نبهاً على بئرين بالقرب من سفح الرابية الرابعة. وكانت أعضاد إحداهما مطوية بالآجر المربع (الطابوق السلطاني) وعلى كثير منها اسم اور انجور وكتاباته. وكانت البئر الأخرى مطوية بالآجر المسنم، ويحيط بها دكة مبنية بالآجر أيضاً، ووجد الحفارون في الرابية الأولى بناء عظيماً. وفي أنقاضه صفائح من
 <pb n="n9-p96" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5440.xhtml" change="#d2e296" xml:id="pb_16.d2e885"/>
@@ -363,7 +363,7 @@
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_4.d2e1046" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_4.d2e1048" xml:lang="ar">الزقزفة أو لسان العصافير</head>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_101.d2e1051" xml:lang="ar">كنت في الشهور الثمانية الأول من سنة ١٩٢٥
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_101.d2e1051" xml:lang="ar">كنت في الشهور الثمانية الأول من <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1925">سنة ١٩٢٥</date> 
                  في دير المحرقة الواقع في جبل الكرمل، قرب <placeName change="#d2e296 #d2e382" xml:id="placeName_4.d2e1058" xml:lang="ar">حيفا</placeName> في فلسين، وفي  ٧  أيار (مايو) وكنت أتمشى أمام بناية الدير لفحص بعض الأمور المتعلقة به، فجاء إلي درزنيان من دالية الكرمل، (وهي من قرى جبل الكرمل)، وأخذا يتكلمان بكلام لم أفهم منه كلمة، وبعد ذلك وجه أحدهما خطابه إلي، سائلا بعض الأسئلة عن تاريخ العمر (الدير) إلى أسئلة آخر، فقلت لأحدهما: وبأي لغة كنت تكلم صاحبك قبل هنيهة؟ قال: بلسان لعصافير -. وما هذا اللسان؟ - هو ما تزقزق به تلك الطويئرات. إلى كلام طويل لم أستطع أن أحصل منه شيئاً، أقف به على حقيقة الأمر.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_102.d2e1065" xml:lang="ar">ثم قلت لهما: أو يفهم هذا اللسان غيركما؟ - قالا: نعم، ويفهمه أهل دالية الكرمل، وعسفيا (قرية أخرى من الجبل المذكور)، وأم الزينات (قرية ثالثة) وأهل <placeName change="#d2e296 #d2e382" xml:id="placeName_5.d2e1067" xml:lang="ar">حيفا</placeName> إلى غيرهم من الأهالي، وينطقون به عند وجودهم بين يدي غريب عن الوطن ويريدون أن لا يفهم الكلام الأجنبي الذي ينطقون أمامه.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_103.d2e1071" xml:lang="ar">قلت: أو يفهم هذا اللسان غير الدروز وغير الرجال؟ قالا: ينطق به الرجال والنساء، البنون والبنات، الكبار والصغار؛ سكان الكرمل وجميع أهل فلسطين، وربما يحسن هذا اللسان كل ناطق بالعربية.</p>
@@ -416,10 +416,8 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_119.d2e1192" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_23.d2e1194" xml:lang="ar"> 
                   ٣  - </hi>الحاج سليمان بك الشاوي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_120.d2e1201" xml:lang="ar">المتوفى عام ١٢٠٩
-                هـ ( 
-                  ١٧٩٤
-                م)</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_120.d2e1201" xml:lang="ar">المتوفى عام <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1209" from="1794" to="1795">١٢٠٩ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1794">١٧٩٤ م)</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_121.d2e1212" xml:lang="ar">أولاد عبد الله بك الشاوي:</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_122.d2e1215" xml:lang="ar">لعبد الله بك أولاد. قال الحيدري انهم (اثنا عشر ولداً كل منهم أمير، عالم، فاضل، كريم، شجاع، شاعر، أديب كانوا ملجأ الخواص والعوام في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e1217" xml:lang="ar">بغداد</placeName>؛ وصدقاتهم وعطاياهم للعلماء، والشعراء، والفقراء، كعطايا البرامكة، وهم أهل الحل والعقد، وإليهم تنتهي الأمور، وأجلهم قدراً، وأعظمهم فخراً، العلامة النحرير، والأسد الغضنفر، الكريم الشهير، الأمير الحاج سليمان بك الشاوي الحميري.) أهـ.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_123.d2e1222" xml:lang="ar">وقد عد الشيخ أحمد السويدي منهم في قصيدته الهمزية الآتية أسماؤهم:</p>
@@ -434,16 +432,10 @@
 
 
 حياته الأولى.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_128.d2e1270" xml:lang="ar">تنتهي بوفاة والده في سنة ١١٨٣
-                هـ ( 
-                  ١٧٦٩
-                م). ولم نتمكن من العثور على تاريخ ولادته. ولكن المقطوع به أنه نشأ في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e1280" xml:lang="ar">بغداد</placeName>. وان حياته الحقيقية - حسبما وصلت إلينا - ابتدأت بالظهور من سنة ١١٧٢
-                هـ ( 
-                  ١٧٥٨
-                م) على ما في تاريخ الوقفية التي حضر في تسجيلها،</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_129.d2e1293" xml:lang="ar">ولعل لحل هذه المشكلة يبين من الاستدلال ببعض الحوادث من باب التقريب. وذلك أن المترجم كان أطلق سراح لحيته في سنة ١١٧٥
-                هـ، كما يستفاد من قصيدة للشيخ احمد السويدي، وفي هذا الحين يحتمل أن يكون عمره بين خمس وثلاثين سنة وبين الأربعين، فلا يبعد أن تكون ولادته في العقد الرابع بعد المائة والألف الهجري (أي بعد  ١١٤٠  سنة). وهذا جل ما كان الوقوف عليه. والمشهور عند أفراد أسرته أنه عمر نحو المائة والعشرين سنة. وهذا لا يعول عليه إلاَّ أن يكون قرأ على كبر لأن شيخه ولد سنة ١١٣٤
-                هـ، فلم نجد ما يؤيد هذا القول.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_128.d2e1270" xml:lang="ar">تنتهي بوفاة والده في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1183" from="1769" to="1770">سنة ١١٨٣ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1769">١٧٦٩ م)</date> . ولم نتمكن من العثور على تاريخ ولادته. ولكن المقطوع به أنه نشأ في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e1280" xml:lang="ar">بغداد</placeName>. وان حياته الحقيقية - حسبما وصلت إلينا - ابتدأت بالظهور من <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1172" from="1758" to="1759">سنة ١١٧٢ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1758">١٧٥٨ م)</date>  على ما في تاريخ الوقفية التي حضر في تسجيلها،</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_129.d2e1293" xml:lang="ar">ولعل لحل هذه المشكلة يبين من الاستدلال ببعض الحوادث من باب التقريب. وذلك أن المترجم كان أطلق سراح لحيته في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1175" from="1761" to="1762">سنة ١١٧٥ هـ</date> ، كما يستفاد من قصيدة للشيخ احمد السويدي، وفي هذا الحين يحتمل أن يكون عمره بين خمس وثلاثين سنة وبين الأربعين، فلا يبعد أن تكون ولادته في العقد الرابع بعد المائة والألف الهجري (أي بعد  ١١٤٠  سنة). وهذا جل ما كان الوقوف عليه. والمشهور عند أفراد أسرته أنه عمر نحو المائة والعشرين سنة. وهذا لا يعول عليه إلاَّ أن يكون قرأ على كبر لأن شيخه ولد <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1134" from="1721" to="1722">سنة ١١٣٤ هـ</date> ، فلم نجد ما يؤيد هذا القول.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_130.d2e1309" xml:lang="ar">ومعلوم أن أكبر أيام الرجل وأهمها، ما قام به، أو عهد إليه من الأعمال، وما ترتب عليها من الحوادث، والشؤون التي تركت دوياً في المجتمع، وهذه هي الحياء الحقيقية، وهي المحك لمعرفة موطنه بالنظر إلى مجريات العصر.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_131.d2e1312" xml:lang="ar">والمحفوظ عن أفراد أسرته، أنه من صغره أبدى بعض النباهة، وسرعة البديهة مما يدل على انه يؤمل فيه النبوغ.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_132.d2e1315" xml:lang="ar">وغاية ما يعرف عن حياته الأولى في صغره، أنها كادت تكو بدوية، إلاَّ أنني أقول هنا: إننا لم تعتد أن ندون أحوال رجالنا في الغالب؛ ولذا لا غرابة أن لا نسجل أعمالهم اليومية، وغرائب صغرهم، حتى بعد نبوغهم، وظهورهم كأعاظم. فبقيت هذه الأمور مهملة، إلاَّ ما يذكر إجمالا، أو أن نقله وتدوينه في بطون الدفاتر يؤثر في إحساس الغير.</p>
@@ -495,8 +487,7 @@
 المنظومة السليمانية).</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_146.d2e1408" xml:lang="ar">والمهم في المنظومة، أهما ليست موضوعاً جديداً إلاَّ أن فيها تسهيلا للطلاب وتنوعاً في التفهيم حسب الرغبات، وأنها مبنية على اقتراح أستاذه، وهو الشيخ عبد الرحمن أفندي السويدي. وقد جاء في الشرح بيان ترجمته، وتعداد مؤلفاته ولا محل هنا للإطالة فيها، وقد سماه الناظم: إمام العصر ونعته الشارح بأنه خاتمة المؤلفين المحققين في هذا الزمان. قال: ولم نعثر على أفضل منه فيما رأينا. وقال عن الناظم: إنه من كثرة تواضعه وأدبه حفظه الله كما هو دأب التلميذ مع الشيخ مع علو شأنه وكبر بأسه قال: (أمرني بنظم متن القطر الخ).</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_147.d2e1411" xml:lang="ar">وكان تأليف الشرح بتاريخ  
-                  ١١٩٩
-                هـ والنسخة - كما يظهر - بخط المؤلف. وقد تداولتها أيد</p>
+                  <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1199" from="1784" to="1785">١١٩٩ هـ</date>  والنسخة - كما يظهر - بخط المؤلف. وقد تداولتها أيد</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_148.d2e1417" xml:lang="ar">متعددة. وصحائفها  ٣٢٨  وكل صحيفة في  ١٥  سطراً وطول الصحيفة  ٥  -  ٢١  سنتيمتراً وعرضها  ٥  -  ١٥  سنتيمتراً وطول السطر  ٥  -  ٩  سنتيمترات.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_149.d2e1445" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_26.d2e1447" xml:lang="ar"> 
@@ -507,8 +498,7 @@
 
 
 يعرف أحسن ما كان شائعاً من الدواوين، وما هو متداول ين الأدباء وما تحتويه خزانته من الشعر.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_151.d2e1463" xml:lang="ar">أتم تأليف هذه النسخة في  ٢٩  من شهر ربيع الثاني من سنة ١١٧٨
-                هـ. والنسخة الموجودة كتبت على نسخة المصنف الشارح في سنة التصنيف، بقلم حسين بن عبد الكريم، وصحائفها  ٣٤٠ ، وطول الصحيفة  ٢١  سنتيمتراً وعرضها  ١٢  سنتيمتراً وطول السطر  ٥  -  ٦  من السنتيمترات، وسطورها  ٢١ ، وتقاريظها  ١٦  صحيفة عدا الصحائف الأصلية. وقد شاهدت نسخة أخرى كتبت سنة ١٢٤٢
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_151.d2e1463" xml:lang="ar">أتم تأليف هذه النسخة في  ٢٩  من شهر ربيع الثاني من <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1178" from="1764" to="1765">سنة ١١٧٨ هـ</date> . والنسخة الموجودة كتبت على نسخة المصنف الشارح في سنة التصنيف، بقلم حسين بن عبد الكريم، وصحائفها  ٣٤٠ ، وطول الصحيفة  ٢١  سنتيمتراً وعرضها  ١٢  سنتيمتراً وطول السطر  ٥  -  ٦  من السنتيمترات، وسطورها  ٢١ ، وتقاريظها  ١٦  صحيفة عدا الصحائف الأصلية. وقد شاهدت نسخة أخرى كتبت <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1242" from="1826" to="1827">سنة ١٢٤٢</date> 
                  وممن قرظها:</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_152.d2e1501" xml:lang="ar">حسين بن علي العشاري الشافعي، وأبو البركات الأبي محمد الرضي المدرس، وأبو المحامد شهاب الدين أحمد بن عبد الله السويدي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_153.d2e1504" xml:lang="ar">أما بقية حياته فسنأتي عليها في مقال آخر والله الموفق.</p>
@@ -599,25 +589,16 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_188.d2e1677" xml:lang="ar">-</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_189.d2e1680" xml:lang="ar">عود على بدء</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_190.d2e1683" xml:lang="ar">كنت ساءلت في هذه المجلة عن القمرية التي ينسب إليها الجامع المعروف في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e1685" xml:lang="ar">بغداد</placeName>، وعدت إلى السؤال فيها ( ٧ :  ٦١٤ )، والآن أجيب نفسي: إن قمرية هذه، ليست من أهل بيت الناصر لدين الله الخليفة العباسي، المعاصرين له وليست من جواري الناصر؛ وقد قال عنها كتاب المساجد: لعلها من بيت الناصر، أو إحدى حظاياه من الجواري، وسبب نفي كونها امرأة من نساء زمن الناصر، هو: إني وقفت الآن على أن الاسم اقدم من زمن خلافته ( ٥٧٥  -  
-                  ٦٢٢
-                 هـ أي  ١١٧٩  -  
-                  ١٢٢٥
-                م)؛ وفضلاً عن ذلك أن وقوفي الجديد يدلني على أن الاسم هو (القمرية) بالتعريف خلافاً لما جاء في كتاب الحوادث الجامعة، الذي صور الكلمة بدون تعريف كلما أوردها؛ وكنت نقلت عنه،
+                  <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0622" from="1225" to="1226">٦٢٢ هـ</date>  أي  ١١٧٩  -  
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1225">١٢٢٥ م)</date> ؛ وفضلاً عن ذلك أن وقوفي الجديد يدلني على أن الاسم هو (القمرية) بالتعريف خلافاً لما جاء في كتاب الحوادث الجامعة، الذي صور الكلمة بدون تعريف كلما أوردها؛ وكنت نقلت عنه،
 <pb n="n9-p117" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5461.xhtml" change="#d2e296" xml:id="pb_37.d2e1707"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="117" edRef="#edition_1" xml:id="pb_74.d2e1895"/>
 
 
-واعتمدت عليه، والذي وقفت عليه الآن، هو ما في كتاب تواريخ آل سلجوق لعماد الدين الأصفهاني، المتوفى في سنة ٥٩٧
-                هـ ( 
-                  ١٢٠٠
-                م)، (اختصار البنداري) فقد جاء فيه اسم (القمرية)، لموضع في الجانب الغربي في أخبار سنة ٥٥١
-                هـ ( 
-                  ١١٥٦
-                م)؛ فكان ذكرها قبل بناء الجامع المنسوب إليها (لان الجامع تم بناءه في سنة ٦٢٦
-                هـ)، أي قبل ولادة الناصر، إذ كانت هذه الولادة في سنة ٥٥٣
-                هـ ( 
-                  ١١٥٨
-                م) وهذا ما في الكتاب: (ص  ٢٤٩  من طبعة الإفرنج - ص  ٢٢٨  من طبعة <placeName change="#d2e296 #d2e382" xml:id="placeName_12.d2e1746" xml:lang="ar">مصر</placeName>):</p>
+واعتمدت عليه، والذي وقفت عليه الآن، هو ما في كتاب تواريخ آل سلجوق لعماد الدين الأصفهاني، المتوفى في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0597" from="1200" to="1201">سنة ٥٩٧ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1200">١٢٠٠ م)</date> ، (اختصار البنداري) فقد جاء فيه اسم (القمرية)، لموضع في الجانب الغربي في أخبار <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0551" from="1156" to="1157">سنة ٥٥١ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1156">١١٥٦ م)</date> ؛ فكان ذكرها قبل بناء الجامع المنسوب إليها (لان الجامع تم بناءه في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0626" from="1228" to="1229">سنة ٦٢٦ هـ</date> )، أي قبل ولادة الناصر، إذ كانت هذه الولادة في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0553" from="1158" to="1159">سنة ٥٥٣ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1158">١١٥٨ م)</date>  وهذا ما في الكتاب: (ص  ٢٤٩  من طبعة الإفرنج - ص  ٢٢٨  من طبعة <placeName change="#d2e296 #d2e382" xml:id="placeName_12.d2e1746" xml:lang="ar">مصر</placeName>):</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_191.d2e1750" xml:lang="ar">(وكانوا قد نصبوا من الجانب الذي من دجلة، على مسناة دار العميد، وبقرب القمرية، منجنيقين عظيمين، وهموا بنصب منجنيق لآخر، على الخان الذي بناه سرخك، مقابل التاج.) أهـ</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_192.d2e1754" xml:lang="ar">وفي حاشية طبعة الإفرنج أن قاف (القمرية) مفتوحة في إحدى النسخ. وفي نسخة غيرها: مضمومة مع إسكان الميم في كل من النسختين. فبأي من المؤرخين يؤخذ من جهة التعريف وعدمه؟ وبأي من الروايتين من جهة الضبط يعمل؟.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_193.d2e1757" xml:lang="ar">ومع أن هذا الكتاب أوقعنا في اضطراب، فقد مكنا أن ننتج: إن الاسم ليس لإحدى النساء المعاصرات للخليفة الناصر لدين الله؛ ولعل الاسم هو الذي نسب إليه أبو منصور الحسن</p>
@@ -636,42 +617,31 @@
             <head change="#d2e296 #d2e382" xml:id="head_9.d2e1784" xml:lang="ar">السعاة</head>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_197.d2e1787" xml:lang="ar">بركة ومعتوق وعلي بن الاربلي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_198.d2e1790" xml:lang="ar">أطلعني الأب صاحب المجلة على كتاب اللمعات البرقية في النكت التاريخية لشمس الدين محمد بن طولون المطبوع حديثاً ب<placeName change="#d2e367 #d2e382" xml:id="placeName_22.d2e1997" xml:lang="ar">دمشق</placeName> فوقع نظري على خبرين (ص  ٢٥ ) عن بركة الساعي نقلا عن تاريخ الأسدي الذي روى أحد الخبرين عن الذهبي وثانيهما عن ابن البزوري، وفي اللمعات أيضاً خبر آخر مسند إلى الذهبي بشأن الساعي معتوق الموصلي المعروف بالكوز (كذا) فخطر لي فوراً أني كنت قرأت عن الساعيين شيئاً في المخطوط الذي عرفته بالحوادث الجامعة فرجعت إليه وفيه ما يأتي:</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_199.d2e1796" xml:lang="ar">(وفيها (أي في سنة ٦٢٨
-                هـ -  
-                  ١٢٣٠
-                م) توفي بركة بن محمود الساعي المشهور بالسعي والعدو. كان من أهل الحربية سعى من واسط إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1806" xml:lang="ar">بغداد</placeName> في يوم وليلة ومن <placeName change="#d2e296 #d2e382" xml:id="placeName_14.d2e1809" xml:lang="ar">تكريت</placeName> إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e1812" xml:lang="ar">بغداد</placeName> في يوم واحد وحصل له بسبب ذلك مال كثير وجاه عريض واتصل بخدمة الخليفة الناصر لدين الله وجعله أخيراً مقدماً لرجال باب الغربة، فكن على ذلك إلى أن توفي). أهـ</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_199.d2e1796" xml:lang="ar">(وفيها (أي في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0628" from="1230" to="1231">سنة ٦٢٨ هـ</date>  -  
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1230">١٢٣٠ م)</date>  توفي بركة بن محمود الساعي المشهور بالسعي والعدو. كان من أهل الحربية سعى من واسط إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1806" xml:lang="ar">بغداد</placeName> في يوم وليلة ومن <placeName change="#d2e296 #d2e382" xml:id="placeName_14.d2e1809" xml:lang="ar">تكريت</placeName> إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e1812" xml:lang="ar">بغداد</placeName> في يوم واحد وحصل له بسبب ذلك مال كثير وجاه عريض واتصل بخدمة الخليفة الناصر لدين الله وجعله أخيراً مقدماً لرجال باب الغربة، فكن على ذلك إلى أن توفي). أهـ</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_200.d2e1816" xml:lang="ar">(وفيها أي في سنة ( 
-                  ٦٤٧
-                هـ -  
-                  ١٢٤٩
-                م) سعى علي بن الأربلي من دقوق إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e1824" xml:lang="ar">بغداد</placeName> فوصل بعد العصر وفضل على معتوق الموصلي المعروف بالكوثر نصف ساعة. ودار حول الكشك شوطاً وخرج إلى التفرج عليه الخليفة المستعصم
+                  <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0647" from="1249" to="1250">٦٤٧ هـ</date>  -  
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1249">١٢٤٩ م)</date>  سعى علي بن الأربلي من دقوق إلى <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e1824" xml:lang="ar">بغداد</placeName> فوصل بعد العصر وفضل على معتوق الموصلي المعروف بالكوثر نصف ساعة. ودار حول الكشك شوطاً وخرج إلى التفرج عليه الخليفة المستعصم
 <pb n="n9-p119" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5463.xhtml" change="#d2e296" xml:id="pb_39.d2e1827"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="119" edRef="#edition_1" xml:id="pb_78.d2e2046"/>
 
 
 بالله وأولاده وجلسوا في الكشك إلى حين وصوله، وكان هذا الذكور مختصاً بخدمة الأمير مبارك ولد الخليفة فأمر له بفرس من مراكبه وخلعة وذهب. ودار من الغد في البلد بالطبول والبوقات فحصل له شيء كثير.) أهـ</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_201.d2e1831" xml:lang="ar">وفيها (أي في سنة ٦٥٣
-                هـ -  
-                  ١٢٥٥
-                م) تملا (؟) معتوق الموصلي المعروف بكوثر الكلام من دقوق (دقوقاء) ساعياً على قدميه فوصل كشك الملكية ودخله. وكان الخليفة هناك ومعه الشرابي وهو أستاذه، ثم خرج من الكشك وعاد إلى الوقف (؟) ثم رجع إلى الكشك وقد تخلف من النهار ساعة ونصف فقبل الأرض بين يدي الخليفة فتقدم له بخمسمائة دينار. وأعطاه الشرابي ثلثمائة دينار وحصل له من أرباب الدولة شيء كثير.) أهـ.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_201.d2e1831" xml:lang="ar">وفيها (أي في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0653" from="1255" to="1256">سنة ٦٥٣ هـ</date>  -  
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1255">١٢٥٥ م)</date>  تملا (؟) معتوق الموصلي المعروف بكوثر الكلام من دقوق (دقوقاء) ساعياً على قدميه فوصل كشك الملكية ودخله. وكان الخليفة هناك ومعه الشرابي وهو أستاذه، ثم خرج من الكشك وعاد إلى الوقف (؟) ثم رجع إلى الكشك وقد تخلف من النهار ساعة ونصف فقبل الأرض بين يدي الخليفة فتقدم له بخمسمائة دينار. وأعطاه الشرابي ثلثمائة دينار وحصل له من أرباب الدولة شيء كثير.) أهـ.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_202.d2e1842" xml:lang="ar">دقوقاء واليوم طاووق</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_203.d2e1845" xml:lang="ar">وإذ كان مضمون اللمعات نكتاً تاريخية رأيت إتماماً لذلك أن أسوق كلاماً إلى نكتة عن دقوقاء لمناسبتين أولهما: إن الحكاية نكتة وثانيهما أنها عن هذه المدينة. وكان يقال في أسمها (دقوق) تخفيفاً كما جاء هنا. وذكرها ياقوت بصورة دقوقاء. كما أن سالنامة <placeName change="#d2e296 #d2e382" xml:id="placeName_17.d2e1847" xml:lang="ar">الموصل</placeName> لسنة ١٣٢٥
-                هـ ( 
-                  ١٩٠٧
-                م) ذكرتها بصورة (دقوق) خلافاً للعامة التي تقول (طاووق) والحكومة العراقية أيضاً قبلت اسمها المحرف هذا في رسمياتها، وذكرتها بصورة طاووق في سجل الحكومة العراقية سنة ١٩٢٧
-                هـ ص  ١١٦ ، والنكتة التي أريد روايتها هنا وردت
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_203.d2e1845" xml:lang="ar">وإذ كان مضمون اللمعات نكتاً تاريخية رأيت إتماماً لذلك أن أسوق كلاماً إلى نكتة عن دقوقاء لمناسبتين أولهما: إن الحكاية نكتة وثانيهما أنها عن هذه المدينة. وكان يقال في أسمها (دقوق) تخفيفاً كما جاء هنا. وذكرها ياقوت بصورة دقوقاء. كما أن سالنامة <placeName change="#d2e296 #d2e382" xml:id="placeName_17.d2e1847" xml:lang="ar">الموصل</placeName> لسنة <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1325" from="1907" to="1908">١٣٢٥ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1907">١٩٠٧ م)</date>  ذكرتها بصورة (دقوق) خلافاً للعامة التي تقول (طاووق) والحكومة العراقية أيضاً قبلت اسمها المحرف هذا في رسمياتها، وذكرتها بصورة طاووق في سجل الحكومة العراقية <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1927" from="2491" to="2492">سنة ١٩٢٧ هـ</date>  ص  ١١٦ ، والنكتة التي أريد روايتها هنا وردت
 <pb n="n9-p120" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5464.xhtml" change="#d2e296" xml:id="pb_40.d2e1867"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="120" edRef="#edition_1" xml:id="pb_80.d2e2097"/>
 
 
 في كتاب الحوادث المار الذكر وهي:</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_204.d2e1870" xml:lang="ar">(وفيها (أي في سنة ٦٤٤
-                هـ -  
-                  ١٢٤٦
-                م) توفي الأمير محمد بن سنقر الطويل صاحب دقوقاء وكان أبوه سنقر من خواص الخليفة الناصر لدين الله صب يوماً على يده ماء فسقطت الصابونة منه فناوله غيرها وقال: دقوق وهي بلغة الترك دجاجة - فاقطعه دقوقاً ظناً منه انه طلبها. فلم تزل في يده إلى أن توفي فتسلمها ابنه محمد. فلما توفي الآن عادت إلى نواب الخليفة.) أهـ.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_204.d2e1870" xml:lang="ar">(وفيها (أي في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0644" from="1246" to="1247">سنة ٦٤٤ هـ</date>  -  
+                  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1246">١٢٤٦ م)</date>  توفي الأمير محمد بن سنقر الطويل صاحب دقوقاء وكان أبوه سنقر من خواص الخليفة الناصر لدين الله صب يوماً على يده ماء فسقطت الصابونة منه فناوله غيرها وقال: دقوق وهي بلغة الترك دجاجة - فاقطعه دقوقاً ظناً منه انه طلبها. فلم تزل في يده إلى أن توفي فتسلمها ابنه محمد. فلما توفي الآن عادت إلى نواب الخليفة.) أهـ.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_205.d2e1881" xml:lang="ar">قلت: لا أرى مناسبة أن تكون الكلمة (طاووق) التي تعني دجاجة. ولعله قال بلهجة مفخمة من لهجات ذلك الزمن (طوتقون) ومعناها مقبوض أو (طوتك) (بقراءة الكاف نوناً) بمعنى اقبضوا أو (طوتدق) بمعنى قبضنا أو غير كلمة تقرب لفظاً من كلمة دقوق وتؤدي ما يوافق الحال. ويبين لي أن صاحب الحوادث كان يجهل التركية، ولولا جهلة إياها لما أورد الحكاية بدون تعليق خالطاً الحابل بالنابل.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_206.d2e1884" xml:lang="ar">وكنت أود أن لا يعتد ذلك الفاض بالقول أنها سميت (طاووق) لكثرة الدجاج فيها. قال ذلك في ما سبق في الص  ٤١٧  وقد رده حضرة الأب صاحب المجلة.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_207.d2e1891" xml:lang="ar">بغداد في  ١٠  حزيران  ١٩٣٠  (وتأخر نشرها لما عندنا من المقالات المتراكمة منذ مدة أربع سنوات. ل. ع)</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_207.d2e1891" xml:lang="ar">بغداد في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930-06-10">١٠ حزيران ١٩٣٠</date> (وتأخر نشرها لما عندنا من المقالات المتراكمة منذ مدة أربع سنوات. ل. ع)</p>
             <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_7.d2e1900" xml:lang="ar">
                <persName change="#d2e296 #d2e382" xml:id="persName_11.d2e1901" xml:lang="ar">يعقوب نعوم سركيس</persName>
             </byline>
@@ -904,7 +874,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_286.d2e2575" xml:lang="ar">كتاب الإكليل</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_287.d2e2578" xml:lang="ar">قرأت باهتمام الصفحات المنتزعة من كتاب الإكليل، ولاحظت أنكم وطدتم العزم على طبعه ونشره؛ ولكني وجدت بعض هفوات، أظنها من أغلاط الطبع، فقد ذكرت (تلفم) مرة بعد أخرى بالفاء، في حين أن ياقوت ضبطها (تلقم) بالقاف.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_288.d2e2581" xml:lang="ar">وجاء صدر بيت قصر ريدة الأول: (لئن قرع الناعي قلوباً فصدعه، وأنا أظن أنها: (فصدعا)، فهل أنا على الصواب فيما رأيت؟</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_289.d2e2584" xml:lang="ar">حيفا في  ٩  كانون الثاني  ١٩٣١ :</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_289.d2e2584" xml:lang="ar">حيفا في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1931-01-09">٩ كانون الثاني ١٩٣١</date> :</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_290.d2e2594" xml:lang="ar">
                <persName change="#d2e282 #d2e296 #d2e382" ref="oape:pers:917 viaf:299037057" xml:id="persName_13.d2e2595" xml:lang="ar">عبد الله مخلص</persName>
             </p>
@@ -1017,9 +987,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_332.d2e2957" xml:lang="ar">فهذا الجواب انطق دليل على أن الأستاذ البصير قد أدرك من أول وهلة الغرض من سؤالي فكشف الحجاب عن حقيقة مشكلي. إلاَّ انه لما كان هذا الأستاذ قد استهامه حب استقراء المباحث كما يرى ذلك من تتبع مذهبه، آثر أن ينسل إلى إشباع الكلام في مسألة (تفانى) من الباب الذي دخلة، وفي ذلك ما فيه. وإلا فلم أتبين إلى الآن أن في تركيب عبارتي التي أعدت نصها قريباً مسحة لبس أو إشكال مما يستدعي المعذرة للأستاذ من إخراجها عن حقيقة معناها فلم يكن عليه بأس من الحملة الشعواء التي حملها علي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_333.d2e2960" xml:lang="ar">فعند مراجعة حضرتكم سؤالي وما أوردت هنا من الرد على اتهامي أتخيلكم لا تترددون في استدراك ما قال الأستاذ المشار إليه استداركا (جدياً) على مثال ما يرى في جميع مواقفكم الانتقادية التي برهنت على أنكم ليس ممن يقبل على الحق رشوة، أو يرضى من أمانة</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_334.d2e2963" xml:lang="ar">العلم ثمناً، ولله سبحانه الهادي إلى قصد السبيل.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_335.d2e2966" xml:lang="ar">مرسيلبة في  ١٢ ك ٢  
-               سنة ١٩٣٠
-                :</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_335.d2e2966" xml:lang="ar">مرسيلبة في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930-01-12">١٢ ك ٢ سنة ١٩٣٠</date> :</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_336.d2e2980" xml:lang="ar">ي م</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_337.d2e2984" xml:lang="ar">(ل. ع) أننا لا نبت في هذه المسألة شيئاً لأننا قد سبقنا فوافقنا على ما ذكر حضرة الأستاذ المصطفى وعلى القارئ الحكم لا علينا. وقد أدرجنا هذا الرد بحرفه إلاَّ بعض الألفاظ الجارحة فأننا أبدلناها كلمات غير (شائكة).
 <pb n="n9-p143" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5487.xhtml" change="#d2e296" xml:id="pb_63.d2e2986"/>
@@ -1040,8 +1008,8 @@
 فإن الألف والنون الزائدتين على أميركة تدن على النسبة فإذا زدت الياء عليهما خرجت الكلمة عن مأنوس الكلام إلى وحشية فأصبحت لا تألف إلاَّ الوحوش من الناس، ولهذا وجب على الأديب السليم الذوق أن لا يقول إلاَّ (أميركي) وبهذا القدر كفاية وقد قصدنا أن لا نرجع إليه البتة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_341.d2e3006" xml:lang="ar">جفر وشرح</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_342.d2e3010" xml:lang="ar">س. <placeName change="#d2e296 #d2e382" xml:id="placeName_36.d2e3012" xml:lang="ar">مصر</placeName> 
-               <placeName change="#d2e296 #d2e382" xml:id="placeName_37.d2e3015" xml:lang="ar">القاهرة</placeName>. قرأت في فقه اللغة للثعالبي الذي طبعه <persName change="#d2e367 #d2e382" xml:id="persName_18.d2e3322" xml:lang="ar">الأب لويس شيخو</persName> في سنة ١٨٨٥
-                 في ص  ٨١  في ترتيب سن الغلام ما هذا نصه: (يقال للصبي إذا ولد: رضيع وطفل، ثم فطيم، ثم دارج، ثم حفر (وفي نسخة: جفر وهو تصحيف). ثم يافع، ثم شدخ، ثم مطبخ (كمحدث) ثم كوكب.) أهـ وقرأت في النسخة المطبوعة في <placeName change="#d2e296 #d2e382" xml:id="placeName_38.d2e3026" xml:lang="ar">مصر</placeName> بالمطبعة العمومية سنة ١٣١٨
+               <placeName change="#d2e296 #d2e382" xml:id="placeName_37.d2e3015" xml:lang="ar">القاهرة</placeName>. قرأت في فقه اللغة للثعالبي الذي طبعه <persName change="#d2e367 #d2e382" xml:id="persName_18.d2e3322" xml:lang="ar">الأب لويس شيخو</persName> في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1885">سنة ١٨٨٥</date> 
+                 في ص  ٨١  في ترتيب سن الغلام ما هذا نصه: (يقال للصبي إذا ولد: رضيع وطفل، ثم فطيم، ثم دارج، ثم حفر (وفي نسخة: جفر وهو تصحيف). ثم يافع، ثم شدخ، ثم مطبخ (كمحدث) ثم كوكب.) أهـ وقرأت في النسخة المطبوعة في <placeName change="#d2e296 #d2e382" xml:id="placeName_38.d2e3026" xml:lang="ar">مصر</placeName> بالمطبعة العمومية <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1318" from="1900" to="1901">سنة ١٣١٨</date> 
                  في ص  ٩٥  ما هذا نصه. ثم دارج ثم حفر ثم يافع ثم شرخ ثم مطبخ (كمعظم) فأين الرواية الصحيحة؟</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_343.d2e3039" xml:lang="ar">ج. عليكم أن تعلموا قبل كل شيء أن <persName change="#d2e367 #d2e382" xml:id="persName_19.d2e3349" xml:lang="ar">الأب لويس شيخو</persName> لم يكن لغوياً مدققاً بل أديباً وفي كل ما تولى طبعه من مصنفات الأقدمين من الأغلاط ما أنزلها في عيون المحققين. ومن الجملة فقه اللغة هذا فانه طافح بالأوهام اللغوية. فذكر النسختين المصرية والبيروتية الحفر (بالحاء المهملة) بعد الدارج خطأ واضح والصواب جفر (بجيم في الأول) قال في التاج: (ومن الجاز الجفر (بفتح الأول): الصبي إذا انتفخ لحمه واكل، وصارت له كرش وقد جفر وتجفر وقال ابن الأعرابي: والغلام جفر. وفي حديث حليمة ظئر النبي - صلى الله عليه وسلم - قالت: كان يشب في اليوم شباب الصبي في الشهر فبلغ ستاً وهو جفر. وفي حديث أبي اليسر: فخرج إلى ابن له جفر أهـ؟</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_344.d2e3042" xml:lang="ar">أما شدخ بالدال فغلط كبير لا وجه له. والصواب شرخ بالراء كما في الطبعة المصرية أما الشدخ بالدال (وزان سبب) فمعناه الولد لغير تمام إذا كان سقطا رطباً رخصاً لم يشتد، فكيف يكون هذا وقد ذكره بعد اليافع، فلا جرم أن الشرخ بالراء هو الصواب وما في النسخة الشيخوية غلط شنيع.</p>
@@ -1071,11 +1039,10 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e382" xml:id="p_354.d2e3083" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_57.d2e3085" xml:lang="ar"> 
                      ٢٣  - </hi>دمية القصر وعصرة أهل العصر (هدية)</head>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_355.d2e3092" xml:lang="ar">للباخرزي المتوفى سنة ٤٦٧
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_355.d2e3092" xml:lang="ar">للباخرزي المتوفى <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0467" from="1074" to="1075">سنة ٤٦٧</date> 
                    
                </p>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_356.d2e3100" xml:lang="ar">أهدى إلينا هذا الكتاب أحد الأصدقاء وطلب إلينا نقده. وقد طبعه وصححه محمد راغب الطباخ في مطبعته العلمية بحلب في سنة ١٣٤٨
-                    هجرية (كذا أي الهجرية أو للهجرة) و ١٩٣٠  ميلادية (كذا) فوقعت هذه النسخة في  ٣١٦  ص بقطع الثمن، يليها  ٥٤  ص بعنوان (الملتقط من ديوان. . . الباخرزي، يليها  ٩  صفحات فهارس.</p>
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_356.d2e3100" xml:lang="ar">أهدى إلينا هذا الكتاب أحد الأصدقاء وطلب إلينا نقده. وقد طبعه وصححه محمد راغب الطباخ في مطبعته العلمية بحلب في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1348" from="1929" to="1930">سنة ١٣٤٨ هجرية</date>  (كذا أي الهجرية أو للهجرة) و <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1930">١٩٣٠ ميلادية</date>  (كذا) فوقعت هذه النسخة في  ٣١٦  ص بقطع الثمن، يليها  ٥٤  ص بعنوان (الملتقط من ديوان. . . الباخرزي، يليها  ٩  صفحات فهارس.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_357.d2e3120" xml:lang="ar">وأول شيء وقع بصرنا عليه عند فتح هذا السفر الجليل حاشية الصفحة  ٧  إذ هذا ما فيها شرحاً لما في المتن (ولا نكاد نعينها إلاَّ اوارير لاياً نتبينها.) - الاوارير جمع أرير وهي رابطة الدابة واللاي الإبطاء. يعني لم يبق إلاَّ مواضع مرابط دواب الماضين نتبينها بعد الإبطاء. أهـ هامش (النسخة) الاحمدية. ولم أر (ارير) بهذا المعنى في القاموس. فليحرر. أهـ ما جاء في الحاشية.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_358.d2e3127" xml:lang="ar">قلنا: ما وقع بصرنا على هذا الكلم إلاَّ وتطيرنا من هذه الطبعة إذ قلنا كيف لم يصحح الناشر كل ما في هذه من الأوهام؛ وأول شيء لا يمكن أن يجمع اوارير على اوارير، إذ ارير وزنه فعيل واوارير وزنه أفاعيل. وفعيل لم يرد مجموعاً على أفاعيل. فهذا غلط أول. والغلط الثاني قوله رابطة الدابة. فلو قال رباط الدابة أو مربط الدابة لكان للكلام معنى مفهوم. أما رابطة الدابة فما معناه؟ - وفسر اللاي بالإبطاء. نعم وهذا بعض معانيه، لكن أهذا هو المعنى المطلوب في هذا التعبير، أفليس هناك معنى آخر يوافق سياق الكلام موافقة أحسن وأتم؟</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_359.d2e3130" xml:lang="ar">والغلط الثالث أن حضرة الناشر قال: (ولم ار (ارير) بهذا المعنى في
@@ -1087,7 +1054,7 @@
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_360.d2e3135" xml:lang="ar">أما رأينا في ما أورده فهو أن صحيح الأوارير: الأواري بتشديد الياء وتخفيفها وهو جمع</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_361.d2e3138" xml:lang="ar">الآري بالمد في الأول والتشديد في الآخر ويخفف وهو الاخية (راجع القاموس والتاج واللسان والصحاح في آري). قال ابن السكيت: في قولهم للمعلف آري، قال: هذا مما يضعه الناس في غير موضعه، وإنما الآري محبس الدابة وهي الأواري والآواخي واحدتها آخية.) أهـ - أما اللاي في العبارة المنقولة في النص فهي عندنا بمعنى الجهد والمشقة وان كان تأويلها بالإبطاء صحيحاً، إلاَّ أن تفسيرها هنا بالجهد احسن فهي تقابل الإفرنجية قال في لسان العرب: (قال الليث:. . . يقولون لأياً عرفت، وبعد لأي فعلت أي بعد جهد ومشقة.) أهـ - وأما الغلط الثالث فهو أن فعيلا لم يأت أبداً مجموعاً على أفاعيل أو فواعيل فالنسخة القائلة أن الأوراير جمع ارير مخطئة. تعم لو قالت جمع آرير بالمد لكان الخطأ أهون - وفي الصفحة  ٧  أوهام طبع أخر لم تصحح في الآخر. من ذلك قوله: (ثم نقف (عنهم) على اطلاع (س  ٤ ) ونصوغ على (وزان) أسجاعها شدواً (س  ٦ ) ولولا عنايته. . . لبقيت الفائدة (فارة) (بتشديد الراء) من مسكها (الفايق) (كذا بياء منقوطة) الطيب غير مفتقة. - والصواب: منهم. . أوزان. . . فارة (براء خفيفة) العابق.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_362.d2e3150" xml:lang="ar">وقد ذكر حضرة الناشر النسخ التي رآها أو سمع بها. منها: نسخة خزانة المدرسة الاحمدية. ونسخة الخزانة المارونية في <placeName change="#d2e296 #d2e382" xml:id="placeName_39.d2e3152" xml:lang="ar">حلب</placeName> ونسخة <placeName change="#d2e296 #d2e382" xml:id="placeName_40.d2e3155" xml:lang="ar">الموصل</placeName>. ونسخة لندن. ولو كتب إلى صاحب الخزانة التيمورية في <placeName change="#d2e296 #d2e382" xml:id="placeName_41.d2e3158" xml:lang="ar">مصر</placeName> 
-                  <placeName change="#d2e296 #d2e382" xml:id="placeName_42.d2e3161" xml:lang="ar">القاهرة</placeName> لاستفاد منها. وقد كان المرحوم احمد باشا تيمور كتب إلينا في  ٢٩  ك ٢  (يناير) سنة ١٩٢٤
+                  <placeName change="#d2e296 #d2e382" xml:id="placeName_42.d2e3161" xml:lang="ar">القاهرة</placeName> لاستفاد منها. وقد كان المرحوم احمد باشا تيمور كتب إلينا في  ٢٩  ك ٢  (يناير) <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1924">سنة ١٩٢٤</date> 
                     ما هذا نقله: (وفي الخزانة التيمورية نسخة من هذا الكتاب (دمية القصر) نقلت عن النسخة الموجودة في خزانة عارف حكمت بك في المدينة، ثم استعار النسخة التيمورية لشيخ محمد محمود الشنقيطي فنقل عنها نسخة ولعلها باقية في
 <pb n="n9-p148" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5492.xhtml" change="#d2e296" xml:id="pb_68.d2e3176"/>
                   <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="148" edRef="#edition_1" xml:id="pb_136.d2e3499"/>
@@ -1095,10 +1062,10 @@
 
 كتبه التي كانت له والتي أوقفها إلى دار الكتب ب<placeName change="#d2e296 #d2e382" xml:id="placeName_43.d2e3178" xml:lang="ar">مصر</placeName> 
                   <placeName change="#d2e296 #d2e382" xml:id="placeName_44.d2e3181" xml:lang="ar">القاهرة</placeName>).</p>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_363.d2e3185" xml:lang="ar">ونزيد على ذلك أن كان عندنا نسخة من الدمية كتبت في سنة ١٠٦٤
-                    وسرقت منا في سنة ١٩٢٩
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_363.d2e3185" xml:lang="ar">ونزيد على ذلك أن كان عندنا نسخة من الدمية كتبت في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1064" from="1653" to="1654">سنة ١٠٦٤</date> 
+                    وسرقت منا في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1929">سنة ١٩٢٩</date> 
                     (راجع <title level="j" change="#d2e296 #d2e382" xml:id="title_15.d2e3197" xml:lang="ar">لغة العرب</title>  
-                  ٧ :  ٥٠٦  و ٥٨٩ ) وهي النسخة التي كنا قد نقلنا عنها نسخة في سنة ١٩٢٣
+                  ٧ :  ٥٠٦  و ٥٨٩ ) وهي النسخة التي كنا قد نقلنا عنها نسخة في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1923">سنة ١٩٢٣</date> 
                     وهذه النسخة الابنة هي بيدنا إلى الآن. وبينها وبين المطبوعة اختلافات شتى والظاهر أن التي بأيدينا هي حسنة ويمكن أن يصلح بها مواطن عديدة من الدمية المطبوعة.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_364.d2e3217" xml:lang="ar"> 
                   ٢٤ . معنى النجم في القرآن</p>
@@ -1142,7 +1109,7 @@
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_384.d2e3334" xml:lang="ar">هذا تصنيف آخر للكاتبة المبدعة. وقد أودعته إحدى عشرة قصة أخرى وكلها شائقة. لا تأتي على واحدة منها إلا ويدفعك الأدب وحب الإطلاع إلى مطالعة ما بعدها. وتشغفك هذا الشغف إلى أن تأتي على هذه القصص كلها. ويا ليت يعني أحد مترجمينا بنقلها إلى لغتنا ليتعلم رواتنا كيف يسدون الحكايات ويلحمونها فتأتي ثوباً يخلع على مطالعي الكتاب.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_385.d2e3337" xml:lang="ar"> 
                   ٣٢ . منهج معهد المباحث الإسلامية (بالفرنسية)</p>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_386.d2e3343" xml:lang="ar">جاد علينا عمدة هذا المعهد، المسيوس. شارليتي بنهج معهد المباحث الإسلامية للمحاضرات التي تلقى في تلك الدار في سنة ١٩٣٠
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_386.d2e3343" xml:lang="ar">جاد علينا عمدة هذا المعهد، المسيوس. شارليتي بنهج معهد المباحث الإسلامية للمحاضرات التي تلقى في تلك الدار في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     -  ١٩٣١  فوجدنا أكابر المستشرقين يلقون خطبهم في أعلى المباحث الإسلامية. وقد قسمت تلك الدروس بين المواضيع الآتية:  ١  - الإسلام المؤتم.  ٢  - تاريخ الآراء والعلوم.  ٣  - تاريخ البلاد وجغرافيتها.  ٤  - الآداب والفنون.  ٥  - الألسنة الوطنية الإسلامية.  ٦  - المنشآت الاجتماعية الإسلامية.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_387.d2e3373" xml:lang="ar">وهناك قسم آخر موقوف على حياة القبائل البربرية السياسية في المغرب الأقصى - مبادئ الرواسيم. في بلاد البربر. فهذه المباحث وغيرها تدل على عناية العلماء بكل ما يتعلق بالإسلام. ومن الأسف أن لا نرى مثل هذه الخطب تلقى في مدارسنا العظمى على اختلاف البلاد والمناطق.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_388.d2e3377" xml:lang="ar"> 
@@ -1154,7 +1121,7 @@
 
                   ٣٤ . عنوان المجد في تاريخ نجد (هدية)</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_390.d2e3391" xml:lang="ar">تأليف عثمان بن بشير النجدي الحنبلي</p>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_391.d2e3394" xml:lang="ar">الجزء الأول والثاني بمطبعة السلفية ب<placeName change="#d2e367 #d2e382" xml:id="placeName_68.d2e3736" xml:lang="ar">مكة المكرمة</placeName> سنة ١٣٤٩
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_391.d2e3394" xml:lang="ar">الجزء الأول والثاني بمطبعة السلفية ب<placeName change="#d2e367 #d2e382" xml:id="placeName_68.d2e3736" xml:lang="ar">مكة المكرمة</placeName> <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1349" from="1930" to="1931">سنة ١٣٤٩</date> 
                    
                </p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_392.d2e3402" xml:lang="ar">عنوان المجد من الكتب اللازمة لكل عربي يريد الوقوف على ما جرى في ديار العرب منذ نصف المائة الثانية عشرة إلى أكثر من نصف المائة الثالثة عشرة للهجرة. وهذا الكتاب حافل بجزئيه بجميع التفاصيل اللذيذة للوقوف على الأحداث التي جرت للشيخ محمد بن عبد الله الوهاب في دعوته لأهل نجد وسائر ديار العرب إلى الإصلاح الديني.</p>
@@ -1169,7 +1136,7 @@
 
                   <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_58.d2e3438" xml:lang="ar"> 
                      ٣٥  - </hi>ملتقى اللغتين: العبرية والعربية (هدية)</head>
-               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_395.d2e3445" xml:lang="ar">تأليف (مراد فرج بك المحامي في <placeName change="#d2e296 #d2e382" xml:id="placeName_49.d2e3447" xml:lang="ar">القاهرة</placeName> و<placeName change="#d2e296 #d2e382" xml:id="placeName_50.d2e3450" xml:lang="ar">مصر</placeName> الجديدة)، طبع في سنة ١٩٣٠
+               <p change="#d2e73 #d2e296 #d2e382" xml:id="p_395.d2e3445" xml:lang="ar">تأليف (مراد فرج بك المحامي في <placeName change="#d2e296 #d2e382" xml:id="placeName_49.d2e3447" xml:lang="ar">القاهرة</placeName> و<placeName change="#d2e296 #d2e382" xml:id="placeName_50.d2e3450" xml:lang="ar">مصر</placeName> الجديدة)، طبع في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     الجزء الأول يحوي حرف الألف والباء والتاء والثاء والجيم.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_396.d2e3459" xml:lang="ar">وقع هذا الجزء الأول في  ٤١٨  صفحة بقطع الثمن. ومن غريب ما في هذا الجزء، أن المؤلف كتب كلمة (تأليف) بالعربية واسمه ولقبه ومحل وجوده بالفرنسية، فالناطق بالضاد الذي يجهل قراءة الحرف الإفرنجي لا يهتدي إلى قراءة اسم المؤلف. فما معنى هذا العمل الذي يدل على شذوذ في الخلق والرأي والمصطلح؟.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_397.d2e3465" xml:lang="ar">ومن غريب عمل المؤلف أيضاً انه ينص بكلام عريض على كيفية لفظ الكلمة العبرية ولو اتخذ رسم الكتابة الخاصة بالعلماء أو اتخذ ضبط الكلمة بعلامات يصطلح عليه هو نفسه أو ضبط الكلمة بالحرف الإفرنجي لما أمل القراء من هذه الطريقة المضجرة ولا زاد في حجم كتابة على غير طائل. وهناك عيب آخر هو إن المؤلف ضعيف النظر في بعض ما ينقل</p>
@@ -1181,7 +1148,7 @@
 
                   ٣٦ . تاريخ اللغات السامية (هدية)</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_400.d2e3483" xml:lang="ar">تأليف الدكتور إسرائيل ولفنسون (أبو ذؤيب) مدرس اللغات السامية بالجامعة المصرية، مطبعة الاعتماد بشارع حسن الأكبر ب<placeName change="#d2e296 #d2e382" xml:id="placeName_51.d2e3485" xml:lang="ar">مصر</placeName> 
-                  سنة ١٣٤٨
+                  <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1348" from="1929" to="1930">سنة ١٣٤٨</date> 
                     -  ١٩٢٩ .</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_401.d2e3497" xml:lang="ar">ليس في لغتنا كتاب يضاهي هذا السفر المفيد لمن يجهل اللغات الإفرنجية. أما الذي يحسنها فله في مصنفات الأجانب ما يغني عنه كل الغناء. لان المؤلف لم يأت في وضعه في لسننا شيئاً جديداً يستفيد منه المستشرقون. إنما وضعه - على ما يظهر لنا - لأبناء عدنان. فهو - من هذه الجهة فقط - مفيد.</p>
                <p change="#d2e73 #d2e296 #d2e382" xml:id="p_402.d2e3500" xml:lang="ar">والذي يطالع ما يكتبه هذا الدكتور يتحقق أن في يراعته العربية بعض الضعف والركة. فكان يليق به وبأمثاله أن يعرضه على نظر أحد الفضلاء ليزيل عنه هذه الشائبة التي تعثر القارئ عثرات كان يود أن يكون في مندوحة عنها.</p>
@@ -1218,7 +1185,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_414.d2e3640" xml:lang="ar"> 
                ٣ . وفاة السيد إبراهيم الحيدري</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_415.d2e3646" xml:lang="ar">انتقل إلى دار البقاء في  ٦  ك ٢  (ديسنبر) السيد إبراهيم الحيدري من داء الكليتين، وقد شيعت جثته إلى مسكنها الأخير في المرقد الكيلاني بموكب حافل مشى فيه المندوب من قبل جلالة ملكنا المعظم والمعتد السامي ورئيس الوزراء والوزراء والأعيان والنواب وسراة القوم.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_416.d2e3655" xml:lang="ar">ولد الفقيد في سنة ١٨٦٤
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_416.d2e3655" xml:lang="ar">ولد الفقيد في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1864">سنة ١٨٦٤</date> 
                  ودرس الحقوق في <placeName change="#d2e367 #d2e382" xml:id="placeName_78.d2e4026" xml:lang="ar">الأستانة</placeName> وبعد ذلك عين قاضياً فعضواً في مجلس المعارف الكبير فرئيساً للشؤون الشرعية في دائرة الدفتر الخاقاني: ثم أحرز مقام المشيخة الإسلامية في الحكومة العثمانية. وعاد إلى وطنه <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_55.d2e3662" xml:lang="ar">بغداد</placeName> بعد الحرب العظمى فعين وزيراً للأوقاف ثم عضواً في
 <pb n="n9-p156" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5500.xhtml" change="#d2e296" xml:id="pb_76.d2e3665"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="156" edRef="#edition_1" xml:id="pb_152.d2e4033"/>
@@ -1227,17 +1194,17 @@
 مجلس الأعيان. فنعزي أنجاله الكرام ونطلب لذويه الصبر والأجر.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_417.d2e3668" xml:lang="ar"> 
                ٤ . مكشوفات جديدة في أور</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_418.d2e3674" xml:lang="ar">وجد المنقبون في أور قبور ملوك الدولة الثلاثة التي يرجع عهدها إلى سنة ٢٣٠٠
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_418.d2e3674" xml:lang="ar">وجد المنقبون في أور قبور ملوك الدولة الثلاثة التي يرجع عهدها إلى <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="2300">سنة ٢٣٠٠</date> 
                  قبل الميلاد.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_419.d2e3682" xml:lang="ar"> 
                ٥ . جدول الإفلاسات في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_56.d2e3687" xml:lang="ar">بغداد</placeName>
             </p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_420.d2e3691" xml:lang="ar">سجلت المراجع الرسمية إحصاء للإفلاسات في العاصمة فكانت في سنة ١٩٢٧
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_420.d2e3691" xml:lang="ar">سجلت المراجع الرسمية إحصاء للإفلاسات في العاصمة فكانت في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1927">سنة ١٩٢٧</date> 
                 :  ١٣  قضية منها قضيتان حسمتا صلحاً.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_421.d2e3702" xml:lang="ar">في  ١٩٢٨ :  ٨  قضايا حسمت كلها في المحاكم.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_422.d2e3711" xml:lang="ar">في سنة ١٩٢٩
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_422.d2e3711" xml:lang="ar">في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1929">سنة ١٩٢٩</date> 
                 :  ١٧  قضي، دفع في واحدة منها الإفلاس.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_423.d2e3722" xml:lang="ar">في سنة ١٩٣٠
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_423.d2e3722" xml:lang="ar">في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                 :  ٤٨  قضية، أربع منها حسمت بالاتفاق.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_424.d2e3733" xml:lang="ar"> 
                ٦ . دار لتعليم الممرضات</p>
@@ -1261,7 +1228,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_434.d2e3785" xml:lang="ar"> 
                ١١ . الاضطراب في كردستان</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_435.d2e3791" xml:lang="ar">(بلاغ رسمي بحروفه)</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_436.d2e3794" xml:lang="ar">جاء في البلاغ الأخير الصادر في  ٨  كانون الأول  ١٩٣٠  إنه بعد أن طرد رتل صغير من قطعات الجيش العراقي الشيخ محمود وأعوانه الأشقياء من موضع منيع بقرب (حاجي آوا) انجد مخفر الشرطة في سورداش، على مسافة  ٣٦  ميلا، شمال غرب السليمانية، وأقام الرتل المذكور في سورداش إلى  ١٧  كانون الأول ثم عاد إلى السليمانية.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_436.d2e3794" xml:lang="ar">جاء في البلاغ الأخير الصادر في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930-12-08">٨ كانون الأول ١٩٣٠</date> إنه بعد أن طرد رتل صغير من قطعات الجيش العراقي الشيخ محمود وأعوانه الأشقياء من موضع منيع بقرب (حاجي آوا) انجد مخفر الشرطة في سورداش، على مسافة  ٣٦  ميلا، شمال غرب السليمانية، وأقام الرتل المذكور في سورداش إلى  ١٧  كانون الأول ثم عاد إلى السليمانية.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_437.d2e3809" xml:lang="ar">وبعد هزيمة الشيخ محمود وأعوانه من الأشقياء في (حاجي آوا) ظلوا ساكنين إلى  ٣  كانون الثاني، ثم عادوا إلى الظهور بقوة بجوار قرية (سراو) الواقعة على مسافة  ٣٧  ميلا إلى جنوب شرقي السليمانية على طريق حلبجة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_438.d2e3819" xml:lang="ar">وفي  ٩  كانون الثاني استولى الأشقياء على مخفر الشرطة غير المحصن في (خورمال) وفي  ١٠  منه هجموا على مخفر الشرطة في (شاه نادري) الواقع على مسافة  ٥  أميال شمال</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_439.d2e3831" xml:lang="ar">شرقي سراو (سراب) على طريق بنجوين، وفي  ١١  منه، سار رتل صغير من قطعات الجيش العراقي من السليمانية. لنجدة (شاه نادري) فوصل إلى (سراو) في  ١٢  منه، ووجد أن الأشقياء قد انسحبوا من شاه نادري وفي خلال ليلة  ١٣  -  ١٤  منه، هاجمت جماعة مؤلفة من نحو  ٥٠  رجلا من الأشقياء ثلاث ربايا من معسكر الرتل في (سراو) ولكن الربايا طردتهم بسرعة وفي خلال ليلتي  ١٥  -  ١٦  و  ١٦  -  ١٧  منه أطلق الأشقياء النار على المعسكر مدداً قصيرة.
@@ -1316,7 +1283,7 @@
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="159" edRef="#edition_1" xml:id="pb_158.d2e4387"/>
 
 
-وارتفاعه اليوم يربو على أعظم ارتفاع بلغ إليه في سنة ١٩٣٠
+وارتفاعه اليوم يربو على أعظم ارتفاع بلغ إليه في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                  بثلاث أقدام، وبلغ ارتفاع الماء بقرب جسر مود في مساء  ٨  ك ٢  (يناير)  ١٠٥  أقدام فوق وجه البحر؛ وأنت عليم أن بين <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_59.d2e4019" xml:lang="ar">بغداد</placeName> وخليج فارس  ٦٠٠  ميل يقطعها من غير أن يهبط اكثر من  ١٠٠  قدم. وسبب هذا الارتفاع سقوط أمطار غزيرة في شمالي ديارنا وديار <placeName change="#d2e367 #d2e382" xml:id="placeName_87.d2e4414" xml:lang="ar">الأناضول</placeName>. فقد فاض الزابان وتدفقت مياههما، ومما يحسن ذكره هنا أن الماء إذا ارتفع في <placeName change="#d2e296 #d2e382" xml:id="placeName_60.d2e4028" xml:lang="ar">الموصل</placeName> فانه لا يرتفع في حاضرتنا إلا بعد مرور ثمان وأربعين ساعة. وقد فاض واد قرب قرية (الفاضلية) فجرف بمياهه امرأة مع ابنها حينما كانا يعبرانه.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_458.d2e4032" xml:lang="ar"> 
                ١٦ . عجل في بطن عجل</p>

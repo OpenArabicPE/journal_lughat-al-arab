@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e395" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e395" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e393" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e391" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e374" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e379" xml:lang="en">Added <tei:gi change="#d2e374 #d2e391" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e377" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e375" change="#d2e391" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e395" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e397" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e395" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e393" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e391" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e374" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e379" xml:lang="en">Added <tei:gi change="#d2e374 #d2e391" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e377" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e375" change="#d2e391" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e353" change="#d2e391" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-06" who="#pers_TG" xml:lang="en" xml:id="d2e344">Automatically split all <tag change="#d2e374 #d2e391" xml:id="tag_1.d2e185" xml:lang="en">div type="section"</tag> into subsections of <tag change="#d2e374 #d2e391" xml:id="tag_2.d2e187" xml:lang="en">div type="article"</tag>, using paragraphs with a length of 30 or less as indicator of a heading.</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e320" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e374 #d2e391" xml:id="list_1.d2e192" xml:lang="en">
@@ -380,12 +380,9 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_65.d2e1193" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_40.d2e1195" xml:lang="ar"> 
                   ٢  - </hi>الكوت</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_66.d2e1202" xml:lang="ar">اعترض على حضرة السيد الحسني القائل (السنة الحاضرة من هذه المجلة) في ص ٤٢  (أنشئت الكوت عام ١٢٢٧
-                هـ ( 
-                  ١٨١٢
-                م) بطلب من الحكومة العثمانية أنشأها رجل اسمه سبع بن خميس رئيس تلك الأطراف من مياح بطن من ربيعة وكانت قل ذلك غابات. ولا تزال الكوت تسمى بكوت سبع نسبة إلى مؤسسها) اهـ.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_67.d2e1216" xml:lang="ar">وكذلك لي ملاحظة على مقال الأستاذ الشرقي وهو المقال الذي نشرته جريدة (<title level="j" change="#d2e315 #d2e374 #d2e391" xml:id="title_9.d2e1318" xml:lang="ar">البلاد</title>) البغدادية في عددها المرقم  ١٢٥  المؤرخ في  ٧  نيسان  ١٩٣٠  بعنوان الغراف وفيه: (وكان في موضع الكوت نابه من النابهين في قبيلة طي يقال له الشيخ سبع، وفي سنة ١٢٢٧
-                هـ كانت ولاية <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_4.d2e1232" xml:lang="ar">بغداد</placeName> في عهدة الإداري نامق باشا للدفعة الأولى التي ولي فيها <placeName change="#d2e374 #d2e391" xml:id="placeName_6.d2e1340" xml:lang="ar">العراق</placeName> فحاول نقل مركز الحكومة من بادرايا وأسس قلعة على الضفة اليسرى من دجلة أطلق عليها اسم الكوت) اهـ.
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_66.d2e1202" xml:lang="ar">اعترض على حضرة السيد الحسني القائل (السنة الحاضرة من هذه المجلة) في ص ٤٢  (أنشئت الكوت عام <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">١٢٢٧ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1812">١٨١٢ م)</date>  بطلب من الحكومة العثمانية أنشأها رجل اسمه سبع بن خميس رئيس تلك الأطراف من مياح بطن من ربيعة وكانت قل ذلك غابات. ولا تزال الكوت تسمى بكوت سبع نسبة إلى مؤسسها) اهـ.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_67.d2e1216" xml:lang="ar">وكذلك لي ملاحظة على مقال الأستاذ الشرقي وهو المقال الذي نشرته جريدة (<title level="j" change="#d2e315 #d2e374 #d2e391" xml:id="title_9.d2e1318" xml:lang="ar">البلاد</title>) البغدادية في عددها المرقم  ١٢٥  المؤرخ في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930-04-07">٧ نيسان ١٩٣٠</date> بعنوان الغراف وفيه: (وكان في موضع الكوت نابه من النابهين في قبيلة طي يقال له الشيخ سبع، وفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧ هـ</date>  كانت ولاية <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_4.d2e1232" xml:lang="ar">بغداد</placeName> في عهدة الإداري نامق باشا للدفعة الأولى التي ولي فيها <placeName change="#d2e374 #d2e391" xml:id="placeName_6.d2e1340" xml:lang="ar">العراق</placeName> فحاول نقل مركز الحكومة من بادرايا وأسس قلعة على الضفة اليسرى من دجلة أطلق عليها اسم الكوت) اهـ.
 <pb n="n8-p654" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5197.xhtml" change="#d2e296" xml:id="pb_12.d2e1236"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="654" edRef="#edition_1" xml:id="pb_24.d2e1344"/>
 
@@ -406,10 +403,8 @@
 
 وقد قيل فيهم: وما آفة الأخبار إلا رواتها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_69.d2e1279" xml:lang="ar">وأول ما أقوله هو انه ليس اليوم من يسميه (كوت سبع) كما ادعاه الحسني حتى أن الأستاذ الشرقي قال في بحثه: (والذي أراه أن اصدق اسم يطلق عليه هو كوت سبع) اهـ فهي</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_70.d2e1282" xml:lang="ar">رغبة. وإذا قلنا كان يقول كوت سبع بعضهم - ولا سيما بعض الأعراب - في ما مضى فلا ينطق الآن بذلك أحدا بتاتاً إذ يكتفي بكلمة كوت ولا كوت غيره في هذه الأنحاء فلا التباس ولا سيما أن اسمه قد شاع وذاع وتسنم ذروة الاكوات لإرساء المراكب البخارية جميعها فيها الجارية بين <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e1284" xml:lang="ar">بغداد</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_9.d2e1399" xml:lang="ar">البصرة</placeName> صعوداً وانحداراً وذلك لنقل المسافرين منه واليه وتزويد من يريد <placeName change="#d2e374 #d2e391" xml:id="placeName_10.d2e1401" xml:lang="ar">البصرة</placeName> أو <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e1287" xml:lang="ar">بغداد</placeName> منهم ولنقل الأموال التجارية الصادرة منه والواردة إليه ولأخذ المراكب من مذخره الفحم الحجري لوقودها ولوقوعه بازاء صدر الغراف. وليس لي وثيقة تقول كوت سبع بل جيمس فيلكس جونس (البريطاني) نفسه - وقد رافقه (صديقه الشيخ سبع) في حله وترحاله في سنة ١٨٤٨
-                م ( 
-                  ١٢٦٥
-                هـ) - بينما كان يطوف في تلك الأرجاء لكشف النهروان وما والاه من الأرضيين يقول (ص ٥٦  و ٥٧  و ٥٩  من مجموعة تقاريره) كما أن جسني الذي كان في <placeName change="#d2e374 #d2e391" xml:id="placeName_12.d2e1428" xml:lang="ar">العراق</placeName> في سنة    -  ١٨٣٥  ( ٥٣  -  ١٢٥١ ) يقول
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_70.d2e1282" xml:lang="ar">رغبة. وإذا قلنا كان يقول كوت سبع بعضهم - ولا سيما بعض الأعراب - في ما مضى فلا ينطق الآن بذلك أحدا بتاتاً إذ يكتفي بكلمة كوت ولا كوت غيره في هذه الأنحاء فلا التباس ولا سيما أن اسمه قد شاع وذاع وتسنم ذروة الاكوات لإرساء المراكب البخارية جميعها فيها الجارية بين <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e1284" xml:lang="ar">بغداد</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_9.d2e1399" xml:lang="ar">البصرة</placeName> صعوداً وانحداراً وذلك لنقل المسافرين منه واليه وتزويد من يريد <placeName change="#d2e374 #d2e391" xml:id="placeName_10.d2e1401" xml:lang="ar">البصرة</placeName> أو <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_6.d2e1287" xml:lang="ar">بغداد</placeName> منهم ولنقل الأموال التجارية الصادرة منه والواردة إليه ولأخذ المراكب من مذخره الفحم الحجري لوقودها ولوقوعه بازاء صدر الغراف. وليس لي وثيقة تقول كوت سبع بل جيمس فيلكس جونس (البريطاني) نفسه - وقد رافقه (صديقه الشيخ سبع) في حله وترحاله في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1848">سنة ١٨٤٨ م</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1265" from="1848" to="1849">١٢٦٥ هـ</date> ) - بينما كان يطوف في تلك الأرجاء لكشف النهروان وما والاه من الأرضيين يقول (ص ٥٦  و ٥٧  و ٥٩  من مجموعة تقاريره) كما أن جسني الذي كان في <placeName change="#d2e374 #d2e391" xml:id="placeName_12.d2e1428" xml:lang="ar">العراق</placeName> في سنة    -  ١٨٣٥  ( ٥٣  -  ١٢٥١ ) يقول
 <pb n="n8-p656" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5199.xhtml" change="#d2e296" xml:id="pb_14.d2e1321"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="656" edRef="#edition_1" xml:id="pb_28.d2e1442"/>
 
@@ -417,7 +412,7 @@
 كتابه المسمى أخبار بعثة الفرات (ص ٣٠٧  وغيرها) - وكذلك ذكره فونتانيه في رحلته بصورة - ( ٣١٤ :  ١ ) وقد جاءه مع جسني.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_71.d2e1333" xml:lang="ar">سبب تسميته كوت العمارة</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_72.d2e1336" xml:lang="ar">وقفنا على صراحة لا غموض فيها في كلامنا عن العمارة نقلا عن مختصر مطالع السعود أن اسم هذه القصبة هو كوت العمارة والآن اذكر السبب وهو أن دجلة المنسلة من هذا الموضع فما تحت تسمى شط العمارة. ويكتفي بان يقال العمارة بإهمال المضاف - وذلك عند وجود القرينة - كما يعرفه حتى الآن سكان تلك الأصقاع أو بعضهم وهم يرمون إلى العمارة القديمة الحالية التي تبهجهم مناظرها ومبانيها المرتفعة على قراهم وقصباتهم أن في الانتظام وان في البناء والاتساع فلا يفقه هؤلاء المراد والمرمى.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_73.d2e1339" xml:lang="ar">ولم تفت الفرنسي ريموند أن يدون أن هذا القسم من دجلة يسمى شط العمارة في الملاحظات التي أبداها على رحلة المستر ريج إلى بابل والإضافات التي زادها عليها فانه قال في كتابه المطبوع في سنة ١٨١٨
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_73.d2e1339" xml:lang="ar">ولم تفت الفرنسي ريموند أن يدون أن هذا القسم من دجلة يسمى شط العمارة في الملاحظات التي أبداها على رحلة المستر ريج إلى بابل والإضافات التي زادها عليها فانه قال في كتابه المطبوع في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1818">سنة ١٨١٨</date> 
                  ( ١٢٣٤ ) (ص ٢٠٣  ح): (يسمي الأعراب دجلة من الكوت إلى القرنة نهر العمارة اهـ فلا شك إنها هي التي رأينا ذكرها في كلامنا المتقدم في بحثنا عنها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_74.d2e1353" xml:lang="ar">وبما أن موضع الكوت هو في صدر شط العمارة فأما أن تكون نسبة الكوت إلى هذا الشط</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_75.d2e1357" xml:lang="ar">المنسوب إلى العمارة (كقولك شط الحي وشط الشطرة) وأما أن تكون نسبة هذا الكوت مباشرة إلى العمارة وسبب شكي هو انه يظهر لي كان دانفيل الذي أوردت عنه كلاماً في بحث العمارة يريد تعيين محل العمارة في المحل الحالي للكوت لكنه يخبط فإذا قبلنا منه تعيين محل العمارة في محل الكوت تضحي نسبة الشط إلى هذه العمارة وكذلك الكوت إليها ومن ثم أمكننا أن نقول أن اسم العمارة كان قد بقي عليها حتى جاء سليمان باشا وبنى فيها ما بناه وسورها
@@ -440,22 +435,15 @@
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="659" edRef="#edition_1" xml:id="pb_34.d2e1507"/>
 
 
-الياء فوق الكوت). أم سالنامة <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e1380" xml:lang="ar">بغداد</placeName> فلا تذكر والياً عليها اسمه علي شهيراً بالسلاحدار، والظاهر أن الأستاذ يريد به ما سمته السالنامة حافظ علي باشا الذي كان خلفاً لسليمان باشا بوفاته في سنة ١٢١٧
-                هـ فان زمانه يوافق العهد الذي يعنيه الشيخ الأستاذ وأخالني مصيباً في هذا الظن. فإذا كان ذلك أضحى واحداً كلام كل منا عن زمن نزول الأمارة لهذه الأراضي. ويؤيدني ما سنراه في رحلة أيروين من أن الكوت كان يقيم فيها شيخ بني لام في سنة ١٧٨١
-                م ( 
-                  ١١٩٦
-                هـ) وما سنراه أيضاً في رحلة كيبل من أمر إقامة الشيخ فيه في سنة ١٨٢٤
-                م ( 
-                  ١٢٤٠
-                هـ). هذا إذا صح قولهما فلم تكن ربيعة إذ ذاك في هذه الجهات على الظاهر وان كانت فيها فأنها لم تكن متحشدة مسئولية عليها كما هي عليه اليوم. ويؤيد نزول ربيعة غير هذه الأنحاء ما يروى لنا عن أن سقي شط الكار كان
+الياء فوق الكوت). أم سالنامة <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_7.d2e1380" xml:lang="ar">بغداد</placeName> فلا تذكر والياً عليها اسمه علي شهيراً بالسلاحدار، والظاهر أن الأستاذ يريد به ما سمته السالنامة حافظ علي باشا الذي كان خلفاً لسليمان باشا بوفاته في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1217" from="1802" to="1803">سنة ١٢١٧ هـ</date>  فان زمانه يوافق العهد الذي يعنيه الشيخ الأستاذ وأخالني مصيباً في هذا الظن. فإذا كان ذلك أضحى واحداً كلام كل منا عن زمن نزول الأمارة لهذه الأراضي. ويؤيدني ما سنراه في رحلة أيروين من أن الكوت كان يقيم فيها شيخ بني لام في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1781">سنة ١٧٨١ م</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1196" from="1781" to="1782">١١٩٦ هـ</date> ) وما سنراه أيضاً في رحلة كيبل من أمر إقامة الشيخ فيه في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1824">سنة ١٨٢٤ م</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1240" from="1824" to="1825">١٢٤٠ هـ</date> ). هذا إذا صح قولهما فلم تكن ربيعة إذ ذاك في هذه الجهات على الظاهر وان كانت فيها فأنها لم تكن متحشدة مسئولية عليها كما هي عليه اليوم. ويؤيد نزول ربيعة غير هذه الأنحاء ما يروى لنا عن أن سقي شط الكار كان
 <pb n="n8-p660" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5203.xhtml" change="#d2e296" xml:id="pb_18.d2e1405"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="660" edRef="#edition_1" xml:id="pb_36.d2e1545"/>
 
 
-من ديار ربيعة وهو ما يعرفه الأعراب بالجوازر إذا جاء ذكر التاريخ، ومصداقاً للرواية عن ديار ربيعة انقل ما داء في مختصر مطالع السعود ص ٢١  فانه قال في أخبار سنة ١٢١٢
-                هـ ( 
-                  ١٧٩٧
-                م).</p>
+من ديار ربيعة وهو ما يعرفه الأعراب بالجوازر إذا جاء ذكر التاريخ، ومصداقاً للرواية عن ديار ربيعة انقل ما داء في مختصر مطالع السعود ص ٢١  فانه قال في أخبار <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1212" from="1797" to="1798">سنة ١٢١٢ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1797">١٧٩٧ م)</date> .</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_81.d2e1420" xml:lang="ar">(وفيها غزا علي بيك الكتخدا آل سعيد من زبيد لعصيانهم وفي غزوة ذاك وصل إلى</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_82.d2e1423" xml:lang="ar">الجوازر من ديار ربيعة فولى عليهم شيخاً يأمر وينهي تبعاً للوزير) اهـ.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_83.d2e1426" xml:lang="ar">وذكرت أيضاً دوحة الوزراء التركية غزوته هذه لزبيد فلا حاجة لنا إلى أعادتها.</p>
@@ -467,83 +455,62 @@
 
 وأخاله يرضى بمختصر مطالع السعود الذي حكى لنا - كما رأينا - أن سليمان باشا المتوفى في عام ١٢١٧
                  بنى كوت العمارة وسوره، وهذا شاهد معاصر غير ابن سند مؤلف مطالع السعود يدلنا على قدمها قبل السنة ١٢٢٧
-                 التي ذكرها الشيخ الشرقي والحسني وهو نعمة الله بن يوسف. . . الخوري عبود. فانه قد ترك دفتراً صغيراً - هو عندي - دون فيه مغادرته <placeName change="#d2e374 #d2e391" xml:id="placeName_14.d2e1595" xml:lang="ar">البصرة</placeName> في  ٢٥  صفر سنة ١٢٢٥
-                 ( 
-                  ١٨١٠
-                م) ليقدم إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e1458" xml:lang="ar">بغداد</placeName>، وكانت سفرته نهراً بطريق شط العرب فالفرات فالغراف فاجتاز الحي وبعد ذلك (بالكوت) فجاء <placeName change="#d2e374 #d2e391" xml:id="placeName_16.d2e1616" xml:lang="ar">بغداد</placeName>.</p>
+                 التي ذكرها الشيخ الشرقي والحسني وهو نعمة الله بن يوسف. . . الخوري عبود. فانه قد ترك دفتراً صغيراً - هو عندي - دون فيه مغادرته <placeName change="#d2e374 #d2e391" xml:id="placeName_14.d2e1595" xml:lang="ar">البصرة</placeName> في  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1225-02-25" when="1810-04-01">٢٥ صفر سنة ١٢٢٥</date> ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1810">١٨١٠ م)</date>  ليقدم إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_8.d2e1458" xml:lang="ar">بغداد</placeName>، وكانت سفرته نهراً بطريق شط العرب فالفرات فالغراف فاجتاز الحي وبعد ذلك (بالكوت) فجاء <placeName change="#d2e374 #d2e391" xml:id="placeName_16.d2e1616" xml:lang="ar">بغداد</placeName>.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_86.d2e1462" xml:lang="ar">وهذا ميخائيل أخو نعمة الله يشهد لنا هذه الشهادة بتدوينه سفره إلى <placeName change="#d2e374 #d2e391" xml:id="placeName_17.d2e1621" xml:lang="ar">البصرة</placeName> في تقويم له كنت ذكرته في هذه المجلة ( ٥٦٤ :  ٣  و ٥٦٥  ( ١٩١٤ ):  ٢٠  -  ٢١ ) وهذا قوله بتاريخ  ٩  كانون الثاني الغربي عام ١٨١١
                  الموافق  ١٤  ذي الحجة وقال هذا نصه بأغلاطه:</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_87.d2e1496" xml:lang="ar">(مساء طلعت من <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_9.d2e1498" xml:lang="ar">بغداد</placeName> متوجهاً إلى <placeName change="#d2e374 #d2e391" xml:id="placeName_19.d2e1661" xml:lang="ar">البصرة</placeName> برفقة جناب محمود آغا أخو عبد الله آغا متسلم <placeName change="#d2e374 #d2e391" xml:id="placeName_20.d2e1663" xml:lang="ar">البصرة</placeName> سابقاً في سفينة زغيرة (صغيرة) تسمى طرادة) اهـ وقال بتاريخ  ١٦  من شهر كانون المذكور: (وصلنا الكوت مال العمارة) اهـ.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_88.d2e1505" xml:lang="ar">وذكر الكوت كيبل في رحلته ( ١١٢ :  ١ ) من <placeName change="#d2e374 #d2e391" xml:id="placeName_21.d2e1677" xml:lang="ar">البصرة</placeName> إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_10.d2e1513" xml:lang="ar">بغداد</placeName> في سنة ١٨٢٤
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_88.d2e1505" xml:lang="ar">وذكر الكوت كيبل في رحلته ( ١١٢ :  ١ ) من <placeName change="#d2e374 #d2e391" xml:id="placeName_21.d2e1677" xml:lang="ar">البصرة</placeName> إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_10.d2e1513" xml:lang="ar">بغداد</placeName> في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1824">سنة ١٨٢٤</date> 
                  ( 
-                  ١٢٤٠
-                هـ) فقلب: (الكوت قرية صغيرة حقيرة مبنية من الطين يحميها سور ارتفاعه لا يتجاوز ستة أقدام (نحو مترين) وهي الموقع الوحيد الثابت الذي رأيناه بعد القرنة وفيه يقيم شيخ بني لام القوي الذي يمتد نفوذه من القرنة إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e1525" xml:lang="ar">بغداد</placeName>) اهـ.</p>
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1240" from="1824" to="1825">١٢٤٠ هـ</date> ) فقلب: (الكوت قرية صغيرة حقيرة مبنية من الطين يحميها سور ارتفاعه لا يتجاوز ستة أقدام (نحو مترين) وهي الموقع الوحيد الثابت الذي رأيناه بعد القرنة وفيه يقيم شيخ بني لام القوي الذي يمتد نفوذه من القرنة إلى <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e1525" xml:lang="ar">بغداد</placeName>) اهـ.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_89.d2e1529" xml:lang="ar">وفضلا عن ذلك إننا نرى ذكر الكوت بل كوت العمارة قبل تأريخ  ١٢٢٧  باثنتين وثلاثين سنة فانه جاء في رحلة ايليس أيروين الذي اجتاز بهذه القصبة
 <pb n="n8-p662" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5205.xhtml" change="#d2e296" xml:id="pb_20.d2e1534"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="662" edRef="#edition_1" xml:id="pb_40.d2e1706"/>
 
 
-منحدراً إلى <placeName change="#d2e374 #d2e391" xml:id="placeName_24.d2e1708" xml:lang="ar">البصرة</placeName> في  ٢٥  نيسان سنة ١٧٨١
+منحدراً إلى <placeName change="#d2e374 #d2e391" xml:id="placeName_24.d2e1708" xml:lang="ar">البصرة</placeName> في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1781-04-25">٢٥ نيسان سنة ١٧٨١</date> ( 
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1196" from="1781" to="1782">١١٩٦ هـ</date> ) ( ٣٥٨ :  ٢ ) ما تعريبه:</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_90.d2e1555" xml:lang="ar">(وفي (الساعة) الثامنة مررنا بمدينة حيث يقيم شيخ بني لام) اهـ. وأذ كان ابتداء ولاية سليمان باشا في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1193" from="1779" to="1780">سنة ١١٩٣</date> 
                  ( 
-                  ١١٩٦
-                هـ) ( ٣٥٨ :  ٢ ) ما تعريبه:</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_90.d2e1555" xml:lang="ar">(وفي (الساعة) الثامنة مررنا بمدينة حيث يقيم شيخ بني لام) اهـ. وأذ كان ابتداء ولاية سليمان باشا في سنة ١١٩٣
-                 ( 
-                  ١٧٧٩
-                م) وكان ذكر أيروين للكوت في سنة ١٧٨١
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1779">١٧٧٩ م)</date>  وكان ذكر أيروين للكوت في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1781">سنة ١٧٨١</date> 
                  ( ١١٩٦ ) لم يكن قد مر إذ ذاك على ابتداء ولاية سليمان باشا إلا ثلاث سنوات لا غير.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_91.d2e1574" xml:lang="ar">وبعد أن آتينا بكل هذه الشواهد حق لنا كل الحق لان نقول أن تسمية (كوت) لا ترجع إلى زمن نامق باشا لولايته الأولى على <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_12.d2e1576" xml:lang="ar">بغداد</placeName> التي كانت في سنة ١٢٢٧
-                هـ كما جاء سهواً في مقالة (البلاد) وهي السنة التي ذكر الحسني أيضاً أن الكوت تأسس فيها. وبما انه اتضح لنا جلياً أن الكوت كانت ماثلة في سنة ١٢٩٦
-                 فهي اقدم من زمن ولاية نامق باشا الأولى بما يزيد عن سبعين سنة إذ أن هذه الولاية كانت في سنة ١٢٦٧
-                 على ما في السالنامة وغيرها فلم تكن الكوت من إنشاء سنة ١٢٢٧
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_91.d2e1574" xml:lang="ar">وبعد أن آتينا بكل هذه الشواهد حق لنا كل الحق لان نقول أن تسمية (كوت) لا ترجع إلى زمن نامق باشا لولايته الأولى على <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_12.d2e1576" xml:lang="ar">بغداد</placeName> التي كانت في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧ هـ</date>  كما جاء سهواً في مقالة (البلاد) وهي السنة التي ذكر الحسني أيضاً أن الكوت تأسس فيها. وبما انه اتضح لنا جلياً أن الكوت كانت ماثلة في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1296" from="1878" to="1879">سنة ١٢٩٦</date> 
+                 فهي اقدم من زمن ولاية نامق باشا الأولى بما يزيد عن سبعين سنة إذ أن هذه الولاية كانت في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1267" from="1850" to="1851">سنة ١٢٦٧</date> 
+                 على ما في السالنامة وغيرها فلم تكن الكوت من إنشاء <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧</date> 
                  كما ذهبت إليه المقالتان.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_92.d2e1600" xml:lang="ar">اسمه كوت العمارة</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_93.d2e1604" xml:lang="ar">رأينا في ما مر أن اسمه كوت العمارة وقد بقي معروفاً بهذه النسبة والإضافة إلى ما بعد ذلك ولم يعتره تغيير فان لدي مجموعة لصور مكاتيب تجارية لنعمة الله ابن فتح الله سمي جده نعمة الله يوسف. . . الخوري عبود المار الذكر فيها صورة مكتوب مؤرخ في  ١٧  شوال  ١٢٧٣  ( 
-                  ١٨٥٦
-                م) في صدره انه كتب إلى كوت العمارة.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_94.d2e1616" xml:lang="ar">ونرى في سالنامة الآستانة لسنة ١٢٧٦
-                هـ ( 
-                  ١٨٥٩
-                م) محافظاً (للواء بدرة وجسان) (جصان) اللواء (أمير اللواء) محمد باشا. وهي تذكر في موضع آخر بدرة لواء وتعد اقضيته وبينها قضاء (كوت العمارة). وفي الزوراء الجديدة الرسمية ل<placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1626" xml:lang="ar">بغداد</placeName> في عددها المرقم  ٤٧  المؤرخ  ٥  مايس  ١٢٨٦  ( ١٦  صفر  ١٢٨٧ ) اسم هذه القصبة كوت العمارة.
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_93.d2e1604" xml:lang="ar">رأينا في ما مر أن اسمه كوت العمارة وقد بقي معروفاً بهذه النسبة والإضافة إلى ما بعد ذلك ولم يعتره تغيير فان لدي مجموعة لصور مكاتيب تجارية لنعمة الله ابن فتح الله سمي جده نعمة الله يوسف. . . الخوري عبود المار الذكر فيها صورة مكتوب مؤرخ في  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1273-10-17" when="1857-06-10">١٧ شوال ١٢٧٣</date> ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1856">١٨٥٦ م)</date>  في صدره انه كتب إلى كوت العمارة.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_94.d2e1616" xml:lang="ar">ونرى في سالنامة الآستانة لسنة <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1276" from="1859" to="1860">١٢٧٦ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1859">١٨٥٩ م)</date>  محافظاً (للواء بدرة وجسان) (جصان) اللواء (أمير اللواء) محمد باشا. وهي تذكر في موضع آخر بدرة لواء وتعد اقضيته وبينها قضاء (كوت العمارة). وفي الزوراء الجديدة الرسمية ل<placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_13.d2e1626" xml:lang="ar">بغداد</placeName> في عددها المرقم  ٤٧  المؤرخ  <date calendar="#cal_ottomanfiscal" change="#d3e397" resp="#xslt" cert="medium" xml:lang="ar" datingMethod="#cal_ottomanfiscal" when-custom="1286-03-05" when="1870-05-17">٥ مايس ١٢٨٦</date> ( <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1287-02-16" when="1870-05-18">١٦ صفر ١٢٨٧</date> ) اسم هذه القصبة كوت العمارة.
 <pb n="n8-p663" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5206.xhtml" change="#d2e296" xml:id="pb_21.d2e1645"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="663" edRef="#edition_1" xml:id="pb_42.d2e1841"/>
 
 
-أما سالنامة <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e1647" xml:lang="ar">بغداد</placeName> لسنة ١٢٩٤
-                هـ ( ١٨٧٧ ) فأنها تذكر القصبة باسم (كوت) فقط.</p>
+أما سالنامة <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_14.d2e1647" xml:lang="ar">بغداد</placeName> لسنة <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1294" from="1877" to="1878">١٢٩٤ هـ</date>  ( ١٨٧٧ ) فأنها تذكر القصبة باسم (كوت) فقط.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_95.d2e1660" xml:lang="ar">وأول تغيير في الاسم رأيناه هو في سالنامة <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_15.d2e1662" xml:lang="ar">بغداد</placeName> لسنة ١٢٩٩
-                 ( ١٨٨١ ) حيث تذكره باسم كوت الأمارة وتذكر قائم مقامه علي أفندي، ولم تذكره السالنامات الواحدة بعد الأخرى إلا بهذا الرسم الجديد. فليس فيها ما قالته مقالة (البلاد) (إن القائمقام علي أفندي حرف الاسم ترضية لآل سبع فأطلق على المدينة اسم كوت العمارة) اهـ بعد أن قالت ما مؤاده أن القائم مقام فتح الله بك أطلق على الكوت اسم كوت الأمارة في زمن الوالي عاكف باشا (ولايته في سنة ١٢٩٣
-                هـ  
-                  ١٢٨٦
-                م).</p>
+                 ( ١٨٨١ ) حيث تذكره باسم كوت الأمارة وتذكر قائم مقامه علي أفندي، ولم تذكره السالنامات الواحدة بعد الأخرى إلا بهذا الرسم الجديد. فليس فيها ما قالته مقالة (البلاد) (إن القائمقام علي أفندي حرف الاسم ترضية لآل سبع فأطلق على المدينة اسم كوت العمارة) اهـ بعد أن قالت ما مؤاده أن القائم مقام فتح الله بك أطلق على الكوت اسم كوت الأمارة في زمن الوالي عاكف باشا (ولايته في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1293" from="1876" to="1877">سنة ١٢٩٣ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1286">١٢٨٦ م)</date> .</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_96.d2e1682" xml:lang="ar">ولا صلة لاسم الكوت بربط مدحت باشا إياه قضاء ملحقاً بلواء العمارة كما ادعاه الحسني (ص ٤٢ ) على فرض صحة ربطه المذكور الذي لا أثبته ولا انفيه لأني لا اعلمه.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_97.d2e1688" xml:lang="ar">الخلاصة</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_98.d2e1691" xml:lang="ar">الكوت اقدم من سنة ١٢٢٧
-                هـ ( ١٨١٢ ) فقد كان في زمن ولاية سليمان باشا الممتدة من سنة ١١٩٣
-                هـ إلى سنة ١٢١٧
-                هـ ( ١٧٧٩  -  
-                  ١٨٠٢
-                م) كما جاء في السالنامة ومختصر مطالع السعود بل كان ماثلا في أوائل ولاية الباشا فانه كان في سنة ١١٩٦
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_98.d2e1691" xml:lang="ar">الكوت اقدم من <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧ هـ</date>  ( ١٨١٢ ) فقد كان في زمن ولاية سليمان باشا الممتدة من <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1193" from="1779" to="1780">سنة ١١٩٣ هـ</date>  إلى <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1217" from="1802" to="1803">سنة ١٢١٧ هـ</date>  ( ١٧٧٩  -  
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1802">١٨٠٢ م)</date>  كما جاء في السالنامة ومختصر مطالع السعود بل كان ماثلا في أوائل ولاية الباشا فانه كان في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1196" from="1781" to="1782">سنة ١١٩٦</date> 
                  ( 
-                  ١٧٨١
-                م) كما رواه أيروين.</p>
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1781">١٧٨١ م)</date>  كما رواه أيروين.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_99.d2e1728" xml:lang="ar">اسمه كوت العمارة كما جاء في مختصر المطالع وميخائيل عبود وسالنامة الآستانة والزوراء وحذف المضاف إليه منه قديم كما رأيناه في هود ونعمة الله يوسف عبود وكيبل وإحدى سالنامات <placeName change="#d2e374 #d2e391" xml:id="placeName_29.d2e1942" xml:lang="ar">بغداد</placeName>.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_100.d2e1731" xml:lang="ar">كان الشيخ سبع عائشاً في سنة ١٨٤٨
-                 ( ١٢٦٥ ) على ما في جونس فلعله في السنة ١٧٨١
-                م ( ١١٩٦ ) التي مر فيها أيروين بالكوت لم يكن مولوداً أو كان طفلا إذ أن المدة بين التاريخين ثمان وستون سنة فهل كان مولوداً في نحو سنة ١٧٦٠
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_100.d2e1731" xml:lang="ar">كان الشيخ سبع عائشاً في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1848">سنة ١٨٤٨</date> 
+                 ( ١٢٦٥ ) على ما في جونس فلعله في السنة <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1781">١٧٨١ م</date> ( ١١٩٦ ) التي مر فيها أيروين بالكوت لم يكن مولوداً أو كان طفلا إذ أن المدة بين التاريخين ثمان وستون سنة فهل كان مولوداً في نحو <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1760">سنة ١٧٦٠</date> 
                  ( ١١٧٤ ) على اقل تقدير ليكون له عشرون سنة ولينشئ الكوت فيتسنى أن يكون الكوت ماثلا في مرور أيروين به؟ فان كان ذلك فيجب أن يكون
 <pb n="n8-p664" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5207.xhtml" change="#d2e296" xml:id="pb_22.d2e1758"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="664" edRef="#edition_1" xml:id="pb_44.d2e1977"/>
 
 
 قد عاش سبعاً وثمانين سنة عل اقل تقدير.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_101.d2e1761" xml:lang="ar">وفضلا عن هذا نرى (بزوناً) عماً لسبع على ما قال جونس ورئيساً في أهل الكوت في سنة ١٢٥٢
-                هـ ( 
-                  ١١٣٦
-                م) على ما قاله الدجيلي - إذا صح ما روي له عن رئاسة بزون وعن السنة - فيكون نبوغ سبع واشتهاره بعد عمه أي بعد سنة ١٢٥٢
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_101.d2e1761" xml:lang="ar">وفضلا عن هذا نرى (بزوناً) عماً لسبع على ما قال جونس ورئيساً في أهل الكوت في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1252" from="1836" to="1837">سنة ١٢٥٢ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1136">١١٣٦ م)</date>  على ما قاله الدجيلي - إذا صح ما روي له عن رئاسة بزون وعن السنة - فيكون نبوغ سبع واشتهاره بعد عمه أي بعد <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1252" from="1836" to="1837">سنة ١٢٥٢</date> 
                 .</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_102.d2e1777" xml:lang="ar">تقدم وجود ذكر العمارة في تلك الأنحاء على ما جاء في سيدي علي ومن بعده قبل نزول الأمارة في هذه الأنحاء بأجيال عديدة فلم يكن سببا لنسبته إليهم وقد نزلوا في أنحائه بعد ذلك.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_103.d2e1780" xml:lang="ar">كان تغيير اسمه من كوت العمارة إلى كوت الأمارة في رسميات الحكومة في سنة لا أعينها بصورة قطعية إنما كان وقوعها بين سنة ١٢٨٧
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_103.d2e1780" xml:lang="ar">كان تغيير اسمه من كوت العمارة إلى كوت الأمارة في رسميات الحكومة في سنة لا أعينها بصورة قطعية إنما كان وقوعها بين <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1287" from="1870" to="1871">سنة ١٢٨٧</date> 
                  وسنة ١٢٩٩
                  ( ١٨٧٠  -  ١٨٨١ ) ولعل الرسميات لم تجر جميعها في تسميته على سياق واحد في هذه السنين.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_104.d2e1799" xml:lang="ar">أهم سبب للقلب قرب لفظ الواحد من الآخر ونزول الأمارة بقربه فهذان السببان روجا</p>
@@ -552,7 +519,7 @@
                <persName change="#d2e296 #d2e391" xml:id="persName_9.d2e1807" xml:lang="ar">يعقوب نعوم سركيس</persName>
             </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_107.d2e1810" xml:lang="ar">من أين أتتنا كلمة الحواري؟</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_108.d2e1813" xml:lang="ar">يذهب نولنكي إلى أن (الحواري) من الحبشية (حواريا) بتخفيف الياء، ومعناها الرسول وقد كتب أحد المتطفلين في سنة ١٩٢٩
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_108.d2e1813" xml:lang="ar">يذهب نولنكي إلى أن (الحواري) من الحبشية (حواريا) بتخفيف الياء، ومعناها الرسول وقد كتب أحد المتطفلين في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1929">سنة ١٩٢٩</date> 
                  مقالة أطول من يوم الجوع في إحدى المجلات البيروتية منتحلا هذا الرأي. فاستغرب الأدباء هذه الجسارة، وعدوها تعدياً على حضنة العلم ومعززيه، على أن هناك رأياً هو أن (الحواري) لغة في (الحوالي) نسبة إلى الحوالة، ومعناها: المحول على الجهلة ليعلمهم الآداب والدين، فاختر أنت أحد الرأيين، ألم تقبل أحد آراء الأقدمين المتعددة الواردة في دواوين اللغة على اختلاف حجومها.
 <pb n="n8-p665" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5208.xhtml" change="#d2e296" xml:id="pb_23.d2e1820"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="665" edRef="#edition_1" xml:id="pb_46.d2e2051"/>
@@ -567,7 +534,7 @@
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_111.d2e1841" xml:lang="ar">الترجمات الخطية</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_112.d2e1844" xml:lang="ar">لا جرم أن التوراة ترجمت إلى العربية منذ القرون الأولى للنصرانية لكن أحداث الزمان والحروب والبلايا بأنواعها لم تبق منها ولم تذر شيئاً، يشهد على أنها كانت معروفة في المائة السادسة للميلاد نشوء الفرقة المعروفة بالحنفية، وكان منها أمية بن أبي الصلت، وورقة بن نوفل، وزيد بن عمرو، ومن جاراهم، فانهم لم يكونوا يهوداً ولا نصارى، إنما كانوا على التوحيد في أهون شرائعه، فهؤلاء كانوا عرفوا ما في التوراة والإنجيل ومن يطالع أقوالهم وأشعارهم وما نقل عنهم من الأخبار ير جلياً انهم كانوا قد وقفوا على محتوياتهما من دون أدنى شك.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_113.d2e1848" xml:lang="ar">أما انهم كانوا نصارى - على ما ذهب إليه <persName change="#d2e374 #d2e391" xml:id="persName_9.d2e2086" xml:lang="ar">الأب لويس شيخو</persName> - فوهم ظاهر لان الرواة ميزوا بين النصرانية والحنيفية وصرحوا تصريحاً مبيناً بأنهم لم يكونوا على دين المسيح بن مريم إنما كانوا حنفاء، إذن من جعلهم منا فقد افسد التاريخ وتعصب في مقاله تعصباً أعمى لا اختلاف فيه.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_114.d2e1851" xml:lang="ar">ومن النقول العربية القديمة الترجمة التي أمر بعملها يوحنا أسقف اشبيلة فتمت في سنة ٧١٧
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_114.d2e1851" xml:lang="ar">ومن النقول العربية القديمة الترجمة التي أمر بعملها يوحنا أسقف اشبيلة فتمت في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0717" from="1317" to="1318">سنة ٧١٧</date> 
                  للميلاد ولم تبلغ إلينا.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_115.d2e1859" xml:lang="ar">وكل ما وصل إلينا من النقول العربية حديث الوضع، لان اغلب الكنائس
 <pb n="n8-p666" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5209.xhtml" change="#d2e296" xml:id="pb_24.d2e1861"/>
@@ -583,23 +550,22 @@
 
 
 الفيومي ( ٨٩١  إلى  
-                  ٩٤١
-                م) من ديار <placeName change="#d2e296 #d2e391" xml:id="placeName_17.d2e1880" xml:lang="ar">مصر</placeName> وكان في زمنه مدير المدرسة التلمودية في سورة والترجمة تداني كثيراً الحشو الترجومي فهي انفع للتفسير منها لنقد النص. والمخطوطات الباقية من هذا لنقل يظهر أن الأيدي قد لعبت به كل لعب. ومسألة معرفة هل أن هذه الترجمة كانت تشمل التوراة كلها أو لا، باقية في ميدان الجدال إلى هذا العهد. على أن المؤكد أنها كانت تشمل أسفار موسى الخمسة ونبوءة اشعياء. ويذهب جماعة إلى أن سعديا</p>
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="0941">٩٤١ م)</date>  من ديار <placeName change="#d2e296 #d2e391" xml:id="placeName_17.d2e1880" xml:lang="ar">مصر</placeName> وكان في زمنه مدير المدرسة التلمودية في سورة والترجمة تداني كثيراً الحشو الترجومي فهي انفع للتفسير منها لنقد النص. والمخطوطات الباقية من هذا لنقل يظهر أن الأيدي قد لعبت به كل لعب. ومسألة معرفة هل أن هذه الترجمة كانت تشمل التوراة كلها أو لا، باقية في ميدان الجدال إلى هذا العهد. على أن المؤكد أنها كانت تشمل أسفار موسى الخمسة ونبوءة اشعياء. ويذهب جماعة إلى أن سعديا</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_119.d2e1885" xml:lang="ar">عرب أيضاً سفر أيوب والأنبياء الصغار والزبور. وهذا يكاد يكون رأي عموم الذين عنوا بهذا الأمر. ولهذه الترجمة عدة مخطوطات أهمها سبعة. وعدة مطبوعات أشهرها تسعة. وليس هنا محل تفصيلها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_120.d2e1888" xml:lang="ar">ومن المعربات ما نقل من اللغة الارمية (السريانية) من النسخة المعروفة بالبسيطة (أي فشيطتا) والمعرب منها أسفار مختلفة لا التوراة كلها بحذافيرها وهذه النقول وقعت في المائة الثالثة عشر والرابعة عشر على أيدي النصارى ومن هذه المعربات نسخ خطية ومطبوعة يطول ذكرها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_121.d2e1891" xml:lang="ar">وهناك ترجمات من النسخة السبعينية منها مخطوطة ومنها مطبوعة. وكذلك قل عن الترجمات المنقولة عن الرواية اللاتينية المعروفة بالفلفاتا (أي العامية أو الشائعة).</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_122.d2e1894" xml:lang="ar">والخلاصة أن البحث في هذا الموضوع طويل عريض كثير الشعب لا يوافيه حقه إلا كتاب قائم برأسه.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_123.d2e1897" xml:lang="ar">الترجمات المطبوعة</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_124.d2e1900" xml:lang="ar">أما الترجمات المعروفة في الشرق الأدنى فهي التي نقلت عن النسخة اللاتينية المقبولة في الكنيسة الكاثوليكية فطبعت في مجمع انتشار الإيمان في ثلاثة مجلدات بالقطع الكامل في سنة ١٦٧١
-                 ثم جاء البروتستنيان (لي وماك بريد) ونزعا من الترجمة الكاثوليكية المقدمة والأسفار القانونية الثانية والنص اللاتيني وطبعاها على نفقة (شركة التوراة) في لندن سنة ١٨٢٢
-                 بقطع الثمن، ثم تتابعت الترجمات والطبعات وكلها تعتمد في أهم عملها على الترجمة المطبوعة في رومة فهي إذن أم لجميع النسخ المطبوعة في الشرق المبثوثة في مدنه. من ذلك النسخة الدمنكية الموصلية (سنة ١٨٧٥
-                ) والنسخة اليسوعية البيروتية (سنة ١٨٧٦
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_124.d2e1900" xml:lang="ar">أما الترجمات المعروفة في الشرق الأدنى فهي التي نقلت عن النسخة اللاتينية المقبولة في الكنيسة الكاثوليكية فطبعت في مجمع انتشار الإيمان في ثلاثة مجلدات بالقطع الكامل في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1671">سنة ١٦٧١</date> 
+                 ثم جاء البروتستنيان (لي وماك بريد) ونزعا من الترجمة الكاثوليكية المقدمة والأسفار القانونية الثانية والنص اللاتيني وطبعاها على نفقة (شركة التوراة) في لندن <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1822">سنة ١٨٢٢</date> 
+                 بقطع الثمن، ثم تتابعت الترجمات والطبعات وكلها تعتمد في أهم عملها على الترجمة المطبوعة في رومة فهي إذن أم لجميع النسخ المطبوعة في الشرق المبثوثة في مدنه. من ذلك النسخة الدمنكية الموصلية (<date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1875">(سنة ١٨٧٥</date> 
+                ) والنسخة اليسوعية البيروتية (<date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1876">(سنة ١٨٧٦</date> 
                 )
 <pb n="n8-p668" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5211.xhtml" change="#d2e296" xml:id="pb_26.d2e1922"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="668" edRef="#edition_1" xml:id="pb_52.d2e2175"/>
 
 
-والنسخة البروتستانية البيرويتة (سنة ١٨٥٦
+والنسخة البروتستانية البيرويتة (<date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1856">(سنة ١٨٥٦</date> 
                 ). وقد وقف على إصلاح عبارة هذه الترجمات أشهر أدباء <placeName change="#d2e296 #d2e391" xml:id="placeName_18.d2e1930" xml:lang="ar">بيروت</placeName> وعلمائها كفارس الشدياق وبطرس البستاني والشيخ ناصيف اليازجي والشيخ يوسف الأسير والشيخ إبراهيم الأحدب و<persName change="#d2e374 #d2e391" xml:id="persName_10.d2e2186" xml:lang="ar">الشيخ إبراهيم اليازجي</persName> إلى غيرهم. واحسن هذه الترجمات عبارة الترجمة الدمنكية فاليسوعية فالبروتستانية. وليس في الترجمة البروتستانية من العربية سوى الحروف والكلم. أما العبارة أو صياغتها فليستا من لغتنا بشيء. واحسن منها الترجمة اليوسوعية وافضل الترجمات هي النسخة المطبوعة في</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_125.d2e1935" xml:lang="ar">الموصل وكان ناقلها الخوري يوسف داود زبوني الذي سقف بعد ذلك على <placeName change="#d2e296 #d2e391" xml:id="placeName_19.d2e1937" xml:lang="ar">دمشق</placeName> فصار المطران اقليمس يوسف وترجمة الزبور اليسوعية من أسوأ الترجمات فأنها تبتعد كل البعد عن النص العبري، حتى أن اليسوعيين أنفسهم اضطروا إلى اتخاذ نص الزبور القديم المطبوع في رومة مع إصلاح في عبارته والى نشره على حدة في كتاب خاص ليستعمله الشرقيون في صلواتهم وأدعيتهم.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_126.d2e1941" xml:lang="ar">والمشهور عند المسيحيين أن الترجمة اليسوعية هي احسن الترجمات لغة وأمتنها عبارة لان <persName change="#d2e374 #d2e391" xml:id="persName_11.d2e2198" xml:lang="ar">الشيخ إبراهيم اليازجي</persName> تولى تصحيحها بعد أن كان ينقلها من العبرية واليونانية الأب اوغسطين اليسوعي ويصدق ترجمتها أربعة أساتذة يسوعيين متضلعين من العلوم الدينية ومعرفة اللغات الشرقية حتى جاء في مقدمة هذه الطبعة في ص ٧  ما هذا نصابه: (فقد جاءت هذه الترجمة والحمد لله وافية بالمرغوب. كافلة بالمنى. ولم يبق معها عذر في إيثار نسخة الهراطقة. وحق على الجميع الانقياد للرؤساء في مثل هذا الأمر المهم الذي يتعلق عليه إخلاص النفوس) اهـ.</p>
@@ -696,8 +662,7 @@
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_42.d2e2347" xml:lang="ar"> 
                   ٢  - </hi>آل شاوي</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_157.d2e2354" xml:lang="ar">تمهيد</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_158.d2e2357" xml:lang="ar">أن الحكومة العثمانية حكمت <placeName change="#d2e374 #d2e391" xml:id="placeName_43.d2e2637" xml:lang="ar">العراق</placeName> من زمن بعيد أي من سنة ٩٤١
-                هـ ثم تداولته الأيدي بين ترك وعجم حتى استقر للترك. وخلص لهم. اللهم إلا في بعض أزمان فقد حدث في خلالها قلاقل واضطرابات داخلية، ومنافرات خارجية دولية أدت إلى الاستيلاء على بعض أجزائه، ثم استعادت السلطة نفوذها.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_158.d2e2357" xml:lang="ar">أن الحكومة العثمانية حكمت <placeName change="#d2e374 #d2e391" xml:id="placeName_43.d2e2637" xml:lang="ar">العراق</placeName> من زمن بعيد أي من <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0941" from="1534" to="1535">سنة ٩٤١ هـ</date>  ثم تداولته الأيدي بين ترك وعجم حتى استقر للترك. وخلص لهم. اللهم إلا في بعض أزمان فقد حدث في خلالها قلاقل واضطرابات داخلية، ومنافرات خارجية دولية أدت إلى الاستيلاء على بعض أجزائه، ثم استعادت السلطة نفوذها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_159.d2e2365" xml:lang="ar">وفي كل هذه الأيام كانت الحكومة بين عوامل كثيرة، تهدد كيانها وتدعو إلى الوقيعة بها، إلى تشويشها</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_160.d2e2368" xml:lang="ar">وهذه الأحوال ساقتها إلى أن تتخذ الوسائل للنجاة من هذه المآزق والأخطار فركنت إلى تدابير من شانها أن تكون وافية لمواقفها الداخلية ومقاومة غوائلها الخارجية. وقد علمتها التجارب العديدة هذا السلوك، سواء من وقائع مؤلمة، أم من حوادث نافعة، ناجعة كانت قد راعتها، وسعت للتوقي من نتائجها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_161.d2e2372" xml:lang="ar">وليس في وسعنا الآن بسط القول في جميع هذه الوسائط التي مشت علها لحفظ كيانها، إذ ذلك يطول فلا نخرج عن الصدد الموضوع لأجله هذا المقال،
@@ -733,13 +698,9 @@
 إلى أعلى مكانة ولهم منزلتهم المعروفة.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_174.d2e2434" xml:lang="ar">هذا وان شاوي بك لم يعرف عنه شيء كثير. وعلى اكثر احتمال انه كان تقربه من الحكومة زمن الوزير حسن باشا في أوائل القرن الثاني عشر. وليس لدينا تاريخ توطنه</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_175.d2e2437" xml:lang="ar">بغداد بالضبط ولا ملازمته للحكومة ولا ائتماره بأوامرها ولا عرفنا تاريخ وفاته. . . مما بأيدينا من الوثائق. وخير وثيقة تاريخية عثرنا عليها ما جاء في حديقة الوزراء في حوادث  
-                  ١١٥٢
-                هـ ( 
-                  ١٧٣٩
-                م) بعد أن قص حادثة لأحمد باشا مع عشيرة القشعم حينما هاجم بنفسه وبخدمه ولم يكن معه أحد قال: (وهذه عادة لأبيه فانه فل مقدمة زبيدة بأربعة فوارس. وذلك كما حدثنيه والدي عن أبي عبد الله بك شاوي انه قال كنت مع الوزير الحسن في غزوته زبيد، وكان معنا أيضاً فارسان آخران مع الوزير يسير أمام العسكر، فاشغلنا بالصحبة، وأملينا أحاديث المحبة، حتى بعدنا عن العسكر، بحيث لا يدركنا البصر. ولم نزل سائرين، حتى أشرفنا على كثيب من رمل ممتد أمامنا. فلما صرنا فوقه، أبصرنا مقدمة الأعداء خلفه جائية وجموعهم وراءها عادية. فألويت عنان فرسي، فزجرني الوزير. وأغرنا على المقدمة، إغارة من يظن به أن قومه قريب منه فشتتنا جمعيه المقدمة بعد أن كانت مجموعة ملتئمة، واشتغل بيننا الأسمر، وجرى منهم الدم الأحمر، ولم تتلاءم الأعداء بعضها على بعض. إلا والعسكر أدركهم. ففرق شملهم بعد الاجتماع، وتركهم صرعى في تلك البقاع) اهـ. (راجع ص  ٣٠٢  و  ٣٠٣ ) ومنها تعلم منزلته ويوافق تاريخ هذه الواقعة سنة ١١١٩
-                 هـ  
-                  ١٧٠٧
-                م.</p>
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1152" from="1739" to="1740">١١٥٢ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1739">١٧٣٩ م)</date>  بعد أن قص حادثة لأحمد باشا مع عشيرة القشعم حينما هاجم بنفسه وبخدمه ولم يكن معه أحد قال: (وهذه عادة لأبيه فانه فل مقدمة زبيدة بأربعة فوارس. وذلك كما حدثنيه والدي عن أبي عبد الله بك شاوي انه قال كنت مع الوزير الحسن في غزوته زبيد، وكان معنا أيضاً فارسان آخران مع الوزير يسير أمام العسكر، فاشغلنا بالصحبة، وأملينا أحاديث المحبة، حتى بعدنا عن العسكر، بحيث لا يدركنا البصر. ولم نزل سائرين، حتى أشرفنا على كثيب من رمل ممتد أمامنا. فلما صرنا فوقه، أبصرنا مقدمة الأعداء خلفه جائية وجموعهم وراءها عادية. فألويت عنان فرسي، فزجرني الوزير. وأغرنا على المقدمة، إغارة من يظن به أن قومه قريب منه فشتتنا جمعيه المقدمة بعد أن كانت مجموعة ملتئمة، واشتغل بيننا الأسمر، وجرى منهم الدم الأحمر، ولم تتلاءم الأعداء بعضها على بعض. إلا والعسكر أدركهم. ففرق شملهم بعد الاجتماع، وتركهم صرعى في تلك البقاع) اهـ. (راجع ص  ٣٠٢  و  ٣٠٣ ) ومنها تعلم منزلته ويوافق تاريخ هذه الواقعة <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1119" from="1707" to="1708">سنة ١١١٩ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1707">١٧٠٧ م.</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_176.d2e2461" xml:lang="ar">واليك أيها القارئ ما قيل عن هذا البيت في تاريخ عنوان المجد وهذا نصه:</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_177.d2e2464" xml:lang="ar">(ومنهم (من بيوت <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_28.d2e2466" xml:lang="ar">بغداد</placeName>) بيت المجد، آل شاوي، العبيدي، الحميري، وهو بيت علم، وشجاعة، وكرم، ورئاسة، ونجابة، وأدب، وحسب، ونسب. وكانت لهم الكلمة النافذة في جميع قبائل عبر <placeName change="#d2e374 #d2e391" xml:id="placeName_47.d2e2768" xml:lang="ar">العراق</placeName>: ورياسة العرب لدى وزراء <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_29.d2e2469" xml:lang="ar">بغداد</placeName>، كالنعمان بن المنذر عند كسرى.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_178.d2e2473" xml:lang="ar">(وقد حازوا العلم، والسيف، والقلم، وسائر المفاخر. وكان يعيش في كنفهم خلق كثير ومن كل صنف، ولهم الصولة <placeName change="#d2e296 #d2e391" xml:id="placeName_30.d2e2475" xml:lang="ar">القاهرة</placeName> بين القبائل) اهـ.
@@ -964,11 +925,11 @@
             <div type="item" change="#d2e344 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_13.d2e3439" xml:lang="ar">
                <head change="#d2e73 #d2e296 #d2e344 #d2e391" xml:id="p_252.d2e3082" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_49.d2e3084" xml:lang="ar"> 
-                     ٢  - </hi>وورد في ص ٦١٢  من مجلد هذه السنة (وأقدم تصنيف وضع عن اللغة العامية في ما بدا لنا هو كتاب تقويم المفسد والمزال عن جهة معنى كلام العرب لأبي حاتم المتوفي بين سنة ٢٤٨
+                     ٢  - </hi>وورد في ص ٦١٢  من مجلد هذه السنة (وأقدم تصنيف وضع عن اللغة العامية في ما بدا لنا هو كتاب تقويم المفسد والمزال عن جهة معنى كلام العرب لأبي حاتم المتوفي بين <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0248" from="0862" to="0863">سنة ٢٤٨</date> 
                     وسنة ٢٥٥
                    ) والذي تحققته أن أقدم مصنف في هذا الباب لعلي بن حمزة الكسائي أوله (بسم الله الرحمن الرحيم، اللهم صل على محمد وآله الطاهرين، هذا كتاب ما تلحن</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_253.d2e3104" xml:lang="ar">فيه العوام مما وضعه علي بن حمزة للرشيد هرون ولابد لأهل الفصاحة من معرفته)، قال السيوطي في  ٢٨٨ :  ٢  من مزهره (الكسائي مات بالري سنة تسع وثمانين ومائة جزم به أبو الطيب وقيل سنة اثنتين وثمانين وقيل سنة ثلاث وثمانين وقيل سنة اثنتين وتسعين) وقال ابن خلكان (وتوفي في سنة تسع وثمانين ومائة بالري وكان قد خرج إليها صحبه هرون الرشيد) وذكر رواية أخرى.</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_254.d2e3113" xml:lang="ar">ومن الذين ألفوا قبل أبي حاتم في إصلاح لحن العامة (احمد بن حاتم الباهلي) قال عنه ياقوت الحموي في معجم الأدباء (أحمد بن حاتم أبو نصر الباهلي صاحب الأصمعي روى عن الأصمعي كتبه) ثم قال (ومات في ما ذكره هو وأبو عبد الله ابن الأعرابي وعمرو ابن أبي عمرو الشيباني سنة ٢٣١
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_254.d2e3113" xml:lang="ar">ومن الذين ألفوا قبل أبي حاتم في إصلاح لحن العامة (احمد بن حاتم الباهلي) قال عنه ياقوت الحموي في معجم الأدباء (أحمد بن حاتم أبو نصر الباهلي صاحب الأصمعي روى عن الأصمعي كتبه) ثم قال (ومات في ما ذكره هو وأبو عبد الله ابن الأعرابي وعمرو ابن أبي عمرو الشيباني <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0231" from="0845" to="0846">سنة ٢٣١</date> 
                     وقد نيف على السبعين) ثم قال (ولأبي نصر من التصانيف: كتاب الشجر والنبات. . . كتاب ما يلحن فيه العامة. . .)</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_255.d2e3121" xml:lang="ar">في الأمالي اللغوية</p>
             </div>
@@ -995,8 +956,8 @@
             <div type="item" change="#d2e344 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_17.d2e3575" xml:lang="ar">
                <head change="#d2e73 #d2e296 #d2e344 #d2e391" xml:id="p_259.d2e3201" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_53.d2e3203" xml:lang="ar"> 
-                     ٦  - </hi>وأورد يعقوب أفندي نعوم سركيس في ص ٣٥٧  أن وفاة ابن النجار المؤرخ كانت سنة ٦٤٣
-                    الهجرية ثم أورد في ص ٤١٥  أن وفاته حدثت سنة ٣٤٢
+                     ٦  - </hi>وأورد يعقوب أفندي نعوم سركيس في ص ٣٥٧  أن وفاة ابن النجار المؤرخ كانت <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0643" from="1245" to="1246">سنة ٦٤٣</date> 
+                    الهجرية ثم أورد في ص ٤١٥  أن وفاته حدثت <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0342" from="0953" to="0954">سنة ٣٤٢</date> 
                     الهجرية وحسن التنبيه وأن لم يكن هو المسبب</head>
             </div>
             <div type="item" change="#d2e344 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_18.d2e3605" xml:lang="ar">
@@ -1012,43 +973,28 @@
          <div type="item" subtype="article" change="#d2e296 #d2e391" xml:id="div_11.d2e3252" xml:lang="ar">
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_261.d2e3253" xml:lang="ar">القوصوني</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_262.d2e3256" xml:lang="ar">كنت قرأت ما كتبه الدكتور داود بك الجلبي في <title level="j" change="#d2e296 #d2e391" xml:id="title_21.d2e3258" xml:lang="ar">لغة العرب</title> ( ١٦٤ :  ٨ ) عن القوصونيين الأب والابن في حينه، ثم قرأت الآن (في ص ٤٥٠ ) تعليق الأستاذ الدكتور فريتس كرنكو أو سالم الكرنكوي كما وضع توقيعه على رسالة بعث بها إلي. وفريتس الألمانية تعرب بسالم. فرأيت أن أدلي بدلوي بين الدلاء فأقول:</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_263.d2e3271" xml:lang="ar">قال ابن اياس المتوفي سنة ٩٣٠
-                هـ  
-                  ١٥٣٢
-                م في تاريخه عن حوادث شهر شعبان سنة ٩٠٢
-                هـ  
-                  ١٤٩٧
-                م (وفيه أمر السلطان بأن تقطع الحيات التي
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_263.d2e3271" xml:lang="ar">قال ابن اياس المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0930" from="1523" to="1524">سنة ٩٣٠ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1532">١٥٣٢ م</date> في تاريخه عن حوادث شهر شعبان <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0902" from="1496" to="1497">سنة ٩٠٢ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1497">١٤٩٧ م</date> (وفيه أمر السلطان بأن تقطع الحيات التي
 <pb n="n8-p699" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5242.xhtml" change="#d2e296" xml:id="pb_57.d2e3289"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="699" edRef="#edition_1" xml:id="pb_114.d2e3687"/>
 
 
 تصنع في البيمارستان بحضرته حتى يتفرج عليها، فأحضروها بين يديه بقاعة البحرة فقطعت بحضرته، وهو ينظر إليها. وخلع على رئيس الطب شمس الدين القوصوني وولده، والحاوي الذي أحضر الحيات وآخرين معهم).</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_264.d2e3292" xml:lang="ar">فنفهم من هذا أن القوصوني الأب كان رئيس الأطباء.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_265.d2e3295" xml:lang="ar">وذكر ابن اياس القوصوني في ترجمة الملك المظفر سليمان بن الملك المظفر سليم شاه بن عثمان المتوفي سنة ٩٧٥
-                هـ  
-                  ١٥٦٧
-                م ونقل عن كتاب لم يسمه أخبار جلوس السلطان سليمان المذكور على سرير الملك وكان ذلك سنة ٩٢٦
-                هـ  
-                  ١٥٢٠
-                م.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_266.d2e3314" xml:lang="ar">والظاهر أن القوصوني هذا هو بدر الدين محمد بن شمس الدين محمد المتقدم ذكره الذي استدعاه السلطان سليمان لمعالجته وقدم عليه سنة ٩٥٥
-                هـ  
-                  ١٥٤٨
-                م كما جاء في ترجمته المدونة بآخر مقالته في الحمام.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_267.d2e3326" xml:lang="ar">إلا أن الذي يدعو إلى الاستغراب في هذا الأمر هو أن يخلع الملك الناصر محمد بن قايتباي على ابن شمس الدين سنة ٩٠٢
-                هـ  ١٤٩٧  في حين أن مولد بدر الدين كان في سنة ٩٢٠
-                هـ  
-                  ١٥١٤
-                م.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_265.d2e3295" xml:lang="ar">وذكر ابن اياس القوصوني في ترجمة الملك المظفر سليمان بن الملك المظفر سليم شاه بن عثمان المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0975" from="1567" to="1568">سنة ٩٧٥ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1567">١٥٦٧ م</date> ونقل عن كتاب لم يسمه أخبار جلوس السلطان سليمان المذكور على سرير الملك وكان ذلك <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0926" when="1520">سنة ٩٢٦ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1520">١٥٢٠ م.</date> </p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_266.d2e3314" xml:lang="ar">والظاهر أن القوصوني هذا هو بدر الدين محمد بن شمس الدين محمد المتقدم ذكره الذي استدعاه السلطان سليمان لمعالجته وقدم عليه <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0955" from="1548" to="1549">سنة ٩٥٥ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1548">١٥٤٨ م</date> كما جاء في ترجمته المدونة بآخر مقالته في الحمام.</p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_267.d2e3326" xml:lang="ar">إلا أن الذي يدعو إلى الاستغراب في هذا الأمر هو أن يخلع الملك الناصر محمد بن قايتباي على ابن شمس الدين <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0902" from="1496" to="1497">سنة ٩٠٢ هـ</date>   ١٤٩٧  في حين أن مولد بدر الدين كان في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0920" from="1514" to="1515">سنة ٩٢٠ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1514">١٥١٤ م.</date> </p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_268.d2e3345" xml:lang="ar">لذلك يترجح لنا أنه كان لشمس الدين ابن آخر لم يذكروا لنا اسمه كان يشاركه في عمله الطبي قبل أن يولد بدر الدين بنحو ثمانية عشر عاماً.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_269.d2e3348" xml:lang="ar">ثم خلف بدر الدين والده شمس الدين في شهرته الطبية.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_270.d2e3351" xml:lang="ar">أما القوصوني - ومن عادة خطاطي القرن السابع أن لا يعجموا أداة النسب سواء أكانت هذه الأداة متصلة بالياء. أم منفصلة عنها. مثل: اللحياني والعلاءي والاشنانداني وغيرها ولكنهم كانوا يمدون في رأس الياء إذا كان قبلها حرف فيأخذها القارئ بالقرينة - فقد تقرأ القوصوي كما وقع لبعض النساخ والقراء.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_271.d2e3354" xml:lang="ar">أما هذه النسبة فكما قال الدكتور سالم ترجح أن تكون إلى قوصون الرجل أحد أمراء دولة المماليك لا من سلاطينها كما زل به قلم الدكتور الجلبي العلامة.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_272.d2e3357" xml:lang="ar">ولعل قوصون هذا هو الذي جعله الملك المنصور سيف الدين قلاون اتابك العساكر فخان مولاه وعمل على خلعه وقتله في سنة ٧٤٢
-                هـ  
-                  ١٣٤١
-                م ثم على تولية أخيه
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_272.d2e3357" xml:lang="ar">ولعل قوصون هذا هو الذي جعله الملك المنصور سيف الدين قلاون اتابك العساكر فخان مولاه وعمل على خلعه وقتله في <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0742" from="1341" to="1342">سنة ٧٤٢ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1341">١٣٤١ م</date> ثم على تولية أخيه
 <pb n="n8-p700" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5243.xhtml" change="#d2e296" xml:id="pb_58.d2e3367"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="700" edRef="#edition_1" xml:id="pb_116.d2e3789"/>
 
@@ -1071,8 +1017,7 @@
                <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_57.d2e3414" xml:lang="ar"> 
                   ٣  - </hi>كتاب الجماهر في معرفة الجواهر</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_281.d2e3421" xml:lang="ar">أني الآن في موضع من ديار الهند وليس معي معجم أحقق فيه ما أريد أن أتثبت منه ومشغول بتهيئة كتاب الجماهر في معرفة الجواهر للبيروني بحسب النسخة المحفوظة في خزانة الاسكوريال والتي خطها احمد الحنفي. وكان رجلاً لا يتقن العربية ولا يحسن الفارسية ولا الهندية البكريت. ومحتويات هذا التصنيف من أهم ما يكون لعلم الجواهر وإعادة النص إلى أصله من أصعب الأمور وأشقها على الأديب. فعسى أن أوفق في سعيي وأنا لا أبغي من متاعبي ثناء ولا شكوراً.</p>
-            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_282.d2e3424" xml:lang="ar">في  ٢٨  تموز  ١٩٣٠ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e391" xml:id="p_282.d2e3424" xml:lang="ar">في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930-07-28">٢٨ تموز ١٩٣٠</date> </p>
             <byline change="#d2e219 #d2e296 #d2e391" xml:id="byline_8.d2e3433" xml:lang="ar">مصوري (الهند): الدكتور <persName change="#d2e296 #d2e391" xml:id="persName_15.d2e3435" xml:lang="ar">ف. كرنكو</persName>
                <pb n="n8-p701" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5244.xhtml" change="#d2e296" xml:id="pb_59.d2e3438"/>
                <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="701" edRef="#edition_1" xml:id="pb_118.d2e3863"/>
@@ -1094,10 +1039,8 @@
 في زمن تضعضع أركان كل دولة وقد اشتد هذا الأمر في خلافة المستعصم بالله فقد قال عنه الأخباريون: (أنه لم ينزه سمعه عن سماع المحرم، فأنه كان مغرماً بسماع الملاهي. محباً للهو واللعب: يبلغه أن مغنيه أو صاحب طرب في بلد من البلاد. فيراسل سلطان ذلك البلد في طلبه. ثم وكل أموره الكليات إلى غير الأكفاء. وأهمل ما يجب عليه حفظه والنظر فيه. . .).</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_288.d2e3469" xml:lang="ar">وقد ذكر الاجامرة فضل الله رشيد أو رشيد الدين بن عماد الدولة في تاريخه إذ قال: (وفي</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_289.d2e3472" xml:lang="ar">أثناء تلك البلية العظمى (غرق <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_52.d2e3474" xml:lang="ar">بغداد</placeName> في صيف  
-                  ٦٥٤
-                هـ  
-                  ١٢٥٦
-                م) قام الزناطرة والاجامرة من أوباش البلد وأخذوا يتطاولون على الأهالي ويستولون على ما بأيديهم ويتعرضون كل يوم لأناس أبرياء) وذكرهم أيضاً صاحب كتاب الروضتين بمثل هذا الكلام. وقد استعمل لفظة الاجامرة أخباريو الفرس والترك بعد عهد المستعصم وانتشرت في تواريخهم واستعمال صيغة (أفعل) منسوبة بدأ من عهد انحلال العربية في آخر عهد العباسيين فقد قالوا مثلا: (الأوحدي والأجلي (صبح الأعشى  ١٣٣ :  ٦ ) والأكملي ( ١٣٩ ) إلى غيرها جرياً على قول الأقدمين: الألمعي وهو من اللمع، والأريحي من الراحة أو الارتياح. والأجنبي من الجنب إلى غيرها.</p>
+                  <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0654" from="1256" to="1257">٦٥٤ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" when="1256">١٢٥٦ م)</date>  قام الزناطرة والاجامرة من أوباش البلد وأخذوا يتطاولون على الأهالي ويستولون على ما بأيديهم ويتعرضون كل يوم لأناس أبرياء) وذكرهم أيضاً صاحب كتاب الروضتين بمثل هذا الكلام. وقد استعمل لفظة الاجامرة أخباريو الفرس والترك بعد عهد المستعصم وانتشرت في تواريخهم واستعمال صيغة (أفعل) منسوبة بدأ من عهد انحلال العربية في آخر عهد العباسيين فقد قالوا مثلا: (الأوحدي والأجلي (صبح الأعشى  ١٣٣ :  ٦ ) والأكملي ( ١٣٩ ) إلى غيرها جرياً على قول الأقدمين: الألمعي وهو من اللمع، والأريحي من الراحة أو الارتياح. والأجنبي من الجنب إلى غيرها.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_290.d2e3494" xml:lang="ar">فترون من هذا البسط أن الاجامرة لا توافق (الديماغوغ) ولم يذكرها أحد من اللغويين بل دوزي نفسه لم يقيدها في ملحقه أو في ديوانه. وقد ذكرنا أن أحسن كلمة عربية توافق الإفرنجية ديماغوغ هي (الرويبضة) (<title level="j" change="#d2e296 #d2e391" xml:id="title_22.d2e3496" xml:lang="ar">لغة العرب</title>  
                ٤٥٠ :  ٦ ) وعملة الروبضة (كصومعة) أي وإذا نسبت إلى الرويبضة قلت: الرويبضي، أما إذا نسبت إلى الروبضة فهو الروبضي.</p>
             <p change="#d2e73 #d2e296 #d2e391" xml:id="p_291.d2e3506" xml:lang="ar">ونلاحظ في الختام أن الكلمة اليونانية المنحوتة من حرفين يقابلهما عندنا حرفان من مادتهما فاليونانية هي العربية (دهماء) وبمعناها.</p>
@@ -1115,7 +1058,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_58.d2e3522" xml:lang="ar"> 
                      ١٢٥  - </hi>أقرأ وفكر</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_294.d2e3529" xml:lang="ar">بقلم الارشمندريت انطونيوس بشير</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_295.d2e3532" xml:lang="ar">عني بنشره وتصحيحه الشيخ <persName change="#d2e374 #d2e391" xml:id="persName_18.d2e3971" xml:lang="ar">يوسف توما البستاني</persName> صاحب مكتبة العرب بالفجالة ب<placeName change="#d2e296 #d2e391" xml:id="placeName_53.d2e3534" xml:lang="ar">مصر</placeName> في سنة ١٩٣٠
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_295.d2e3532" xml:lang="ar">عني بنشره وتصحيحه الشيخ <persName change="#d2e374 #d2e391" xml:id="persName_18.d2e3971" xml:lang="ar">يوسف توما البستاني</persName> صاحب مكتبة العرب بالفجالة ب<placeName change="#d2e296 #d2e391" xml:id="placeName_53.d2e3534" xml:lang="ar">مصر</placeName> في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     في  ٢٧٢ ص بقطع  ١٢  وثمنه  ١٠  غروش مصرية</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_296.d2e3552" xml:lang="ar">في هذا الكتاب فصول مختلفة العناوين والمعاني والكلام فيها عن أمور تقع كل يوم يحتاج فيها الإنسان إلى أن يتبصر فيها لئلا يقع في مهالك تقضي عليه صحة وأدباً وفكراً. فهذا التأليف من هذه الوجهة حسن للشبان والشابات فعسى أن يروج بينهم!</p>
             </div>
@@ -1216,7 +1159,7 @@
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_327.d2e3798" xml:lang="ar">تأليف شمس الدين السخاوي المتوفي عام ٩٠٢
                    
                </p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_328.d2e3806" xml:lang="ar">عني بنشره القدسي وطبع في مطبعة الترقي سنة ١٣٤٩
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_328.d2e3806" xml:lang="ar">عني بنشره القدسي وطبع في مطبعة الترقي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1349" from="1930" to="1931">سنة ١٣٤٩</date> 
                    
                </p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_329.d2e3814" xml:lang="ar">هذا الكتاب بقطع الثمن في  ١٧٥ ص وهو يفند أحسن تفنيد أقوال أولئك الذين يحتقرون أخبار التواريخ ويجعلونها من باب الخرافات التي لا خطورة لها ويدعون أنها ألفت للتسلية وقضاء الوقت قضاء لا أثم فيه ولا حرج. وهذا التصنيف للحافظ المؤرخ الحجة يبين لك فضل التاريخ ومحاسن الوقوف على ما دون فيه وقيمته  ٦  غروش مصرية ويباع في مكتبة القدسي وصندوق البريد  ٢٠٧  في <placeName change="#d2e296 #d2e391" xml:id="placeName_58.d2e3825" xml:lang="ar">دمشق</placeName> (<placeName change="#d2e296 #d2e391" xml:id="placeName_59.d2e3828" xml:lang="ar">الشام</placeName>).</p>
@@ -1226,7 +1169,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_70.d2e3834" xml:lang="ar"> 
                      ١٣٧  - </hi>الرابطة الشرقية</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_331.d2e3841" xml:lang="ar">مجلة تصدرها جمعية الرابطة الشرقية في <placeName change="#d2e296 #d2e391" xml:id="placeName_60.d2e3843" xml:lang="ar">القاهرة</placeName> في الخامس عشر من كل شهر</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_332.d2e3847" xml:lang="ar">حوى الجزء الثامن من السنة الثانية من هذه المجلة وهو الذي صدر في  ١٥  مايو  ١٩٣٠  المقالات الآتية: مشكلة العلائق بين <placeName change="#d2e296 #d2e391" xml:id="placeName_61.d2e3855" xml:lang="ar">مصر</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_89.d2e4351" xml:lang="ar">العراق</placeName> - المسألة الفلسطينية على بساط البحث - في جاوة وسنغافورة - نظرات في مختلف الشؤون والأنباء - حوادث الحبشة - سفير لأفغانستان في <placeName change="#d2e296 #d2e391" xml:id="placeName_62.d2e3858" xml:lang="ar">مصر</placeName> - عودة الحرب الأهلية إلى الصين - ويتلو ذلك: رسائل الشرق - صحيفة الباحثين والأدباء - وثائق
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_332.d2e3847" xml:lang="ar">حوى الجزء الثامن من السنة الثانية من هذه المجلة وهو الذي صدر في  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930-05-15">١٥ مايو ١٩٣٠</date> المقالات الآتية: مشكلة العلائق بين <placeName change="#d2e296 #d2e391" xml:id="placeName_61.d2e3855" xml:lang="ar">مصر</placeName> و<placeName change="#d2e374 #d2e391" xml:id="placeName_89.d2e4351" xml:lang="ar">العراق</placeName> - المسألة الفلسطينية على بساط البحث - في جاوة وسنغافورة - نظرات في مختلف الشؤون والأنباء - حوادث الحبشة - سفير لأفغانستان في <placeName change="#d2e296 #d2e391" xml:id="placeName_62.d2e3858" xml:lang="ar">مصر</placeName> - عودة الحرب الأهلية إلى الصين - ويتلو ذلك: رسائل الشرق - صحيفة الباحثين والأدباء - وثائق
 <pb n="n8-p707" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5250.xhtml" change="#d2e296" xml:id="pb_65.d2e3861"/>
                   <pb change="#d2e353 #d2e377 #d2e374" ed="print" n="707" edRef="#edition_1" xml:id="pb_130.d2e4359"/>
 
@@ -1247,11 +1190,11 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_72.d2e3897" xml:lang="ar"> 
                      ١٣٩  - </hi>نماذج الأشغال اليدوية</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_337.d2e3904" xml:lang="ar">لفتحي صفوة مدرس الأشغال اليدوية بدار المعلمين في <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_65.d2e3906" xml:lang="ar">بغداد</placeName> 
-                  سنة ١٩٢٨
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                    
                </p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_338.d2e3915" xml:lang="ar">طبعت في المطبعة الإنكليزية في <placeName change="#d5e244 #d2e296 #d2e391" ref="oape:place:216 geon:98182" xml:id="placeName_66.d2e3917" xml:lang="ar">بغداد</placeName> 
-                  سنة ١٩٢٨
+                  <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                    
                </p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_339.d2e3927" xml:lang="ar">دفتر في  ١٤ ص يحوي صور قطع من المقوى لتدريب الطلبة على اتخاذها قواعد في أشغال أيديهم. وقد قررت وزارة المعارف استعمال هذه النماذج في المدارس الابتدائية. وقيمة هذا الجزء الأول خمس آنات (غرشان مصريان ونصف).</p>
@@ -1261,7 +1204,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_73.d2e3935" xml:lang="ar"> 
                      ١٤٠  - </hi>كتاب في السريريات والمداواة الطبية</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_341.d2e3942" xml:lang="ar">لمؤلفيه الحكماء ترابو ومرشد خاطر وشوكة موفق الشطي</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_342.d2e3945" xml:lang="ar">الجزء الثاني طبع في <placeName change="#d2e296 #d2e391" xml:id="placeName_67.d2e3947" xml:lang="ar">دمشق</placeName> في سنة ١٩٣٠
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_342.d2e3945" xml:lang="ar">الجزء الثاني طبع في <placeName change="#d2e296 #d2e391" xml:id="placeName_67.d2e3947" xml:lang="ar">دمشق</placeName> في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     في  ١٠٤٠ ص بقطع الثمن</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_343.d2e3959" xml:lang="ar">كنا قد تكلمنا على الجزء الأول من هذا السفر الجليل في ( ٢٦٥ :  ٧ ) واليوم أهدى إلينا الدكتور مرشد خاطر أحد مؤلفيه،، الجزء الثاني فإذا هو صنو لأخيه وربما يجوز لنا أن نقول أنه أحسن منه. لا من جهة التحقيق، فأن السفر مطبوع بخاتم التحقيق، الذي وصل إليه علم اسكولابيوس إلى هذا العهد بل من جهة حسن الترجمة. والأداء، والنقل إلى لغتنا بأحسن الألفاظ وأعذبها وأسوغها على الذوق العربي. فجاء من أحسن الكتب التي أخرجها إلينا أهل هذا العصر من الناطقين بالضاد، حتى أن من يطالعه يخيل إليه أنه يقرأ كتاباً صنف في عصر المأمون.
 <pb n="n8-p708" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5251.xhtml" change="#d2e296" xml:id="pb_66.d2e3967"/>
@@ -1312,8 +1255,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e391" xml:id="p_358.d2e4116" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_76.d2e4118" xml:lang="ar"> 
                      ١٤٣  - </hi>كتاب عيون الأخبار</head>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_359.d2e4125" xml:lang="ar">لأبي محمد عبد الله بن قتيبة الدينوري المتوفي سنة ٢٧٦
-                   هـ</p>
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_359.d2e4125" xml:lang="ar">لأبي محمد عبد الله بن قتيبة الدينوري المتوفي <date calendar="#cal_islamic" change="#d3e397" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0276" from="0889" to="0890">سنة ٢٧٦ هـ</date> </p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_360.d2e4133" xml:lang="ar">المجلد الثالث</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_361.d2e4136" xml:lang="ar">كتاب الأخوان - كتاب الحوائج - كتاب الطعام</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_362.d2e4139" xml:lang="ar">مطبعة دار الكتب المصرية بالقاهرة</p>
@@ -1352,7 +1294,7 @@
 
 
 لغوية تضر بكل من ينقل عنها. وقد ذكرنا مراراً في مجلتنا، والآن نقول: لو أعطي لنا أن نحرق هذه المعاجم - وفي رأسها محيط المحيط مسبب جميع بلايا اللغة - لأحرقناها جميعاً (بنار جهنم) حتى لا يبقى منها رماد، لأن (نار الأرض الدنيا) تبقي شيئاً منها. ونظن أن صحيح كرم محيط المحيط هو هكذا: الهيرون البرني (بنون مكسورة قبل الياء المشددة وبفتح الأول) من الثمر والرطب فيستقيم المعنى لأن هيرون (لا الهيرون ألف ولام والكلمة فارسية) من أفخر التمر واحمده. فهو كالبرني الذي يعد من أحسن التمر.</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_378.d2e4291" xml:lang="ar">وفي تلك الصفحة وذلك السطر: (واحمد البسور الجيسران) وجاء في الحاشية: (الجسيران جنس من أفخر النخل معرب، وفي الأصل (جيسوان) وهو تحريف). قلنا: وهذا الوهم أيضاً من نتاج النقل عن محيط المحيط. هذا الديوان الفاسد المفسود أو من أقرب الموارد فأنها يقولان: (الجيسران جنس من أفخر النخل معرب كيسران بالفارسية ومعناه الذوائب) والذي ذكره اللغويون المحققون الجيسوان بالواو لا (بالراء) بعد السين. قال في المخصص ( ١٣٣ :  ١١ ): الجيسوان سمي بذلك لطول شماريخه شبه بالذوائب واصلها فارسي والذؤابة يقال لها بالفارسية كيسوان) وقال في تاج العروس في مادة ج ي س: (قال الدينوري: الجيسوان تمر من أفخر التمر، له بسر جيد واحدته جيسوانة وهو معرب كيسوان ومعناه الذوائب وأصله فارسي. نقله الصاغاني.) وممن صحف هذه الكلمة البشاري في كتابه أحسن التقاسيم في معرفة الأقاليم الذي عني بطبعه دي خوية في ليدن سنة ١٩٠٦
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_378.d2e4291" xml:lang="ar">وفي تلك الصفحة وذلك السطر: (واحمد البسور الجيسران) وجاء في الحاشية: (الجسيران جنس من أفخر النخل معرب، وفي الأصل (جيسوان) وهو تحريف). قلنا: وهذا الوهم أيضاً من نتاج النقل عن محيط المحيط. هذا الديوان الفاسد المفسود أو من أقرب الموارد فأنها يقولان: (الجيسران جنس من أفخر النخل معرب كيسران بالفارسية ومعناه الذوائب) والذي ذكره اللغويون المحققون الجيسوان بالواو لا (بالراء) بعد السين. قال في المخصص ( ١٣٣ :  ١١ ): الجيسوان سمي بذلك لطول شماريخه شبه بالذوائب واصلها فارسي والذؤابة يقال لها بالفارسية كيسوان) وقال في تاج العروس في مادة ج ي س: (قال الدينوري: الجيسوان تمر من أفخر التمر، له بسر جيد واحدته جيسوانة وهو معرب كيسوان ومعناه الذوائب وأصله فارسي. نقله الصاغاني.) وممن صحف هذه الكلمة البشاري في كتابه أحسن التقاسيم في معرفة الأقاليم الذي عني بطبعه دي خوية في ليدن <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1906">سنة ١٩٠٦</date> 
                     في ص ١٣٠  حين عدد ضروب التمر فقال: (الجيشوان وفي نسخة الخيشوان. قلنا وكلتا الروايتين خطأ. والصواب: جيسوان كما ذكرناه. وكذلك أحسن نقلها كل من فريتغ ودوزي في معجمهما. وهذه من النوادر.</p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_379.d2e4308" xml:lang="ar">وجاء في تلك الصفحة في السطر  ٧ : (وخير السمك. الشبوط والبناني والمياح) وفي الحاشية شرح لنا الواقف على طبعه الشبوط فأحسن، ولم يشرح البناني وهي جمع البني ككرسي، وقد ذكره اللغويون في كتبهم. ولم يشرح لنا المياح، إنما ضبطه لنا بشد الياء لا غير. واللغويون لم يذكروا المياح.
 <pb n="n8-p716" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P5259.xhtml" change="#d2e296" xml:id="pb_74.d2e4313"/>
@@ -1380,7 +1322,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_77.d2e4354" xml:lang="ar"> 
                      ١٤٤  - </hi>الخطابة (ملحق بالهلال)</head>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_385.d2e4361" xml:lang="ar">تأليف الدكتور نقولا فياض عضو المجمع العلمي العربي في الشام</p>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_386.d2e4365" xml:lang="ar">عنيت بنشره إدارة الهلال ب<placeName change="#d2e296 #d2e391" xml:id="placeName_68.d2e4367" xml:lang="ar">مصر</placeName> في سنة ١٩٣٠
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_386.d2e4365" xml:lang="ar">عنيت بنشره إدارة الهلال ب<placeName change="#d2e296 #d2e391" xml:id="placeName_68.d2e4367" xml:lang="ar">مصر</placeName> في <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1930">سنة ١٩٣٠</date> 
                     في  ٢٤٨ ص بقطع  ١٢ 
                </p>
                <p change="#d2e73 #d2e296 #d2e391" xml:id="p_387.d2e4382" xml:lang="ar">اللغة العربية في حاجة إلى التصنيف وأمثاله، لأنك ترى أشباه هذا الكتاب في جميع الألسنة وعند جميع الأقوام، أما عندنا فليس منها شيء. إذن أحسن صاحبا الهلال بإتحاف قراء</p>
@@ -1489,7 +1431,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e391" xml:id="p_406.d2e4618" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e391" xml:id="hi_86.d2e4620" xml:lang="ar"> 
                      ٣  - </hi>نزول مياه دجلة</head>
-               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_407.d2e4627" xml:lang="ar">نسبة نزول مياه دجلة في هذه السنة كانت أدنى نسبة انحطت إليها المياه منذ سنة ١٩٠٦
+               <p change="#d2e73 #d2e296 #d2e391" xml:id="p_407.d2e4627" xml:lang="ar">نسبة نزول مياه دجلة في هذه السنة كانت أدنى نسبة انحطت إليها المياه منذ <date calendar="#cal_gregorian" change="#d3e397" resp="#xslt" cert="low" xml:lang="ar" when="1906">سنة ١٩٠٦</date> 
                     وقد كانت أدنى نسبة وصلت إليها المياه بالهبوط منذ تلك السنة. ولكن في عامنا الحالي كان النقصان أحط من نقصان  ١٩٢٥  بقدم واحدة وكانت درجة القياس لدجلة في اليوم ال ١٢  من أوغسطس  ٢٨  متراً و ٢٥  سنتمتراً.</p>
             </div>
             <div type="item" change="#d2e307 #d2e377 #d2e374 #d2e391" subtype="article" xml:id="div_52.d2e5226" xml:lang="ar">

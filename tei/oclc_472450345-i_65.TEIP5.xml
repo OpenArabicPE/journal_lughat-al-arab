@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e386" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e386" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e384" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e382" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e367" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e370" xml:lang="en">Added <tei:gi change="#d2e367 #d2e382" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e368" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e366" change="#d2e382" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e386" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e388" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e386" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e384" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e382" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e367" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e370" xml:lang="en">Added <tei:gi change="#d2e367 #d2e382" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e368" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e366" change="#d2e382" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e344" change="#d2e382" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-04" who="#pers_TG" xml:id="d2e320" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e367 #d2e382" xml:id="list_1.d2e185" xml:lang="en">
                <item change="#d2e367 #d2e382" xml:id="item_1.d2e187" xml:lang="en">occurrences of "سنة" and "عام" followed by a <gi change="#d2e367 #d2e382" xml:id="gi_1.d2e189" xml:lang="en">num</gi> node </item>
@@ -514,11 +514,8 @@
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="6" edRef="#edition_1" xml:id="pb_12.d2e1191"/>
 
 
-لها وقد عينوا يوم الاحتفال  ١٦  أيلول من سنة ١٩٢٨
-                
-            </p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_22.d2e1309" xml:lang="ar">بغداد في  ١٤  حزيران  ١٩٢٨ 
-            </p>
+لها وقد عينوا يوم الاحتفال  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-16">١٦ أيلول من سنة ١٩٢٨</date> </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_22.d2e1309" xml:lang="ar">بغداد في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-06-14">١٤ حزيران ١٩٢٨</date> </p>
             <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_3.d2e1318" xml:lang="ar">سكرتير اللجنة أحمد حامد الصراف</byline>
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_5.d2e1322" xml:lang="ar">
@@ -526,9 +523,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_23.d2e1327" xml:lang="ar">(رئيس لجنة اليوبيل الكرملي)</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_24.d2e1330" xml:lang="ar">الغرب قد سبق الشرق، والشرق قد انتبه وسار يحاول أن يلحق بالغرب. وقد مضى اليابان في سبيل التقدم كقنبلة خرجت من فم مدفع ضخم وهبت العروبة من رقدتها. ونفضت عنها غبار الكسل، فأخذت تسرع الخطى إلى الأمام برغم الأثقال التي تثبطها. عالمة أن حياة الأمم ي تقدمها وأن الأمة التي لا حراك لها في هذا السياق العام تسحقها الأرجل. والأمل أن تكون في مقدمة الأمم الشرقية، فترجع تراث أجدادها من مجد ضائع وتزيد على ذلك المجد التليد مجدا طريفا فتثبت للملأ أنها تستحق الحياة وأنها سوف تحيا ثم تحيا.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_25.d2e1333" xml:lang="ar">ولما كان العلامة الأب انستاس ماري الكرملي من الذين أنجبهم <placeName change="#d2e367 #d2e382" xml:id="placeName_8.d2e1229" xml:lang="ar">العراق</placeName> نابغة في العلوم العربية وقد خدم اللغة بصدق خمسين عاما خدمة لا يجحدها كل من طبعت نفسه على الإنصاف، وكان من تباشير كل نهضة صادقة أن تقدر الأمة جهود علمائها الفطاحل، رأى فضلاء <placeName change="#d2e367 #d2e382" xml:id="placeName_9.d2e1231" xml:lang="ar">العراق</placeName> أن الواجب يدعوهم إلى تكريمه، اعترافا بفضله الجم، فتألفت في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_4.d2e1335" xml:lang="ar">بغداد</placeName> لجنة لهذا الغرض الشريف وشرفتني برئاستها فجئت أدعو باسم اللغة العربية المحبوبة رجال العلم والأدب في <placeName change="#d2e367 #d2e382" xml:id="placeName_11.d2e1236" xml:lang="ar">العراق</placeName> وبقية الأقطار العربية من شعراء وعلماء وكتاب إلى الاشتراك في تكريم الأب الذي نكرم فيه العلم واللغة. وذلك في  ١٦  أيلول القادم راجيا الحضور في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e1341" xml:lang="ar">بغداد</placeName> عند حلول الموعد أن أمكنهم ذلك، أو إرسال ما تجود به قرائحهم من نظم أو نثر طالبا من الله تعالى أن يوفق الأمم الشرقية عامة، والأمة العربية خاصة، لكل خير وأن يسدد خطاها حتى تصل إلى مصاف الشعوب الراقية الجديرة بالحياة.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_26.d2e1345" xml:lang="ar">بغداد في  ٢  تموز سنة ١٩٢٨
-                
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_26.d2e1345" xml:lang="ar">بغداد في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-07-02">٢ تموز سنة ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_27.d2e1357" xml:lang="ar">
                <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:418 viaf:61517780" xml:id="persName_8.d2e1358" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_9.d2e1360">جميل</forename>
@@ -546,7 +541,7 @@
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_6.d2e1380" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_6.d2e1382" xml:lang="ar">حفلة يوبيل العلامة الكرملي</head>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_29.d2e1385" xml:lang="ar">بإشراف معالي وزير المعارف</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_30.d2e1388" xml:lang="ar">أتشرف بدعوة. . . إلى حضور حفلة يوبيل العلامة الكرملي في دار فخامة رئيس الوزراء يوم الأحد الموافق  ٧  تشرين الأول  ١٩٢٨  في الساعة  ٤  بعد الظهر ولكم مني الاحترام.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_30.d2e1388" xml:lang="ar">أتشرف بدعوة. . . إلى حضور حفلة يوبيل العلامة الكرملي في دار فخامة رئيس الوزراء يوم الأحد الموافق  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-07">٧ تشرين الأول ١٩٢٨</date> في الساعة  ٤  بعد الظهر ولكم مني الاحترام.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_31.d2e1400" xml:lang="ar">رئيس لجنة يوبيل الكرملي <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:418 viaf:61517780" xml:id="persName_9.d2e1402" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_11.d2e1404">جميل</forename>
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_12.d2e1407">صدقي</forename>
@@ -574,7 +569,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_40.d2e1470" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_6.d2e1472" xml:lang="ar"> 
                   ٦  - </hi>كلمة صاحب المعالي وزير المعارف.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_41.d2e1479" xml:lang="ar">بغداد في  ٧  تشرين الأول (أكتوبر) سنة ١٩٢٨
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_41.d2e1479" xml:lang="ar">بغداد في  ٧  تشرين الأول (أكتوبر) <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                 
             </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_42.d2e1490" xml:lang="ar">شكر وترحيب</p>
@@ -671,9 +666,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_65.d2e1687" xml:lang="ar">أرسل إليك إليها الأخ الكريم مدحة نثرية كي تتلى باسم مجمعنا العلمي في حفلة تكريم عضو مجمعنا العلامة الأب أنستاس الكرملي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_66.d2e1690" xml:lang="ar">ولعل ترؤسك لهذه الحفلة لا يمنع من اعتبارك مندوبا لمجمعنا العلمي في شهودها وإذا أنضم إلى ذلك تلاوتك المدحة بنفسك كان ذلك أقصى ما يتمناه الجميع ويتطال إليه.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_67.d2e1693" xml:lang="ar">وفي الختام أقبلوا احتراما واحترام رجال المجمع مع تقديم تهانئنا جميعا لأخينا الجليل المحتفل به ودمتم. والسلام عليك سيدي.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_68.d2e1696" xml:lang="ar">في  ٢٢  آب سنة ١٩٢٨
-                
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_68.d2e1696" xml:lang="ar">في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-22">٢٢ آب سنة ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_69.d2e1707" xml:lang="ar">وكيل رئيس المجمع العلمي العربي المغربي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_70.d2e1710" xml:lang="ar">دولة سورية</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_71.d2e1714" xml:lang="ar">وزارة المعارف</p>
@@ -700,20 +693,17 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_77.d2e1755" xml:lang="ar">لا يضر <placeName change="#d2e367 #d2e382" xml:id="placeName_22.d2e1682" xml:lang="ar">العراق</placeName> أن لا يكون فيها محفى لغوي وهذا الأب أنستاس قائم بجميع ما يطلب من المحافي اللغوية - فهو واحد في شخصه وجمائه لكنه ألف في مجزئته وغنائه.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_78.d2e1758" xml:lang="ar">فحيا الله علامتنا الكرملي وأطال عمره حتى يرى ما يتمناه للغته العربية من الظهور على جميع اللغات، ويرى أبناؤها ما يحبونه له من الهناء وطيب الحياة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_79.d2e1762" xml:lang="ar"> 
-               ٢٢  آب  ١٩٢٨ 
-            </p>
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-22">٢٢ آب ١٩٢٨</date> </p>
             <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_6.d2e1771" xml:lang="ar">المجمع العلمي العربي في <placeName change="#d2e296 #d2e382" xml:id="placeName_10.d2e1773" xml:lang="ar">دمشق</placeName>
             </byline>
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_9.d2e1777" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_9.d2e1779" xml:lang="ar">برقيات المستشرقين</head>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_80.d2e1782" xml:lang="ar">برقية من لننغراد في  ٩  أيلول  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_80.d2e1782" xml:lang="ar">برقية من لننغراد في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-09">٩ أيلول ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_81.d2e1791" xml:lang="ar">بغداد - أحمد حامد الصراف</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_82.d2e1794" xml:lang="ar">تحياتي القلبية منبعثة من شمالي البلاد إلى المحتفل به عالم <placeName change="#d2e367 #d2e382" xml:id="placeName_24.d2e1724" xml:lang="ar">العراق</placeName> الكرملي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_83.d2e1797" xml:lang="ar">لننغراد: كراتشكوفسكي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_84.d2e1801" xml:lang="ar">برقية من باريس في  ١٤  أيلول  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_84.d2e1801" xml:lang="ar">برقية من باريس في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-14">١٤ أيلول ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_85.d2e1810" xml:lang="ar">إلى الأستاذ الزهاوي من أعيان <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_11.d2e1812" xml:lang="ar">بغداد</placeName>
             </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_86.d2e1815" xml:lang="ar">إني سعيد في إرسال تهانئي بخصوص يوبيل الكرملي.</p>
@@ -722,8 +712,7 @@
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="13" edRef="#edition_1" xml:id="pb_26.d2e1753"/>
 
 
-برقية من برلين في  ١٦  أيلول  ١٩٢٨ 
-            </p>
+برقية من برلين في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-16">١٦ أيلول ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_88.d2e1829" xml:lang="ar">بغداد - لجنة يوبيل الكرملي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_89.d2e1832" xml:lang="ar">بارك الله في من يخدم نهضة الناطقين بالضاد</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_90.d2e1836" xml:lang="ar">الأستاذ كافماير</p>
@@ -736,8 +725,7 @@
                         </persName>.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_94.d2e1860" xml:lang="ar">بعد تأدية واجبات الإكرام والاحترام والاعتراف بفضلكم اعرض أنه قد وصل خطابكم الذي تاريخه الثاني من تموز ومضمونه الدعوة إلى الاشتراك في تكريم الأستاذ الكامل والحبر الفاضل الأب أنستاس ماري الكرملي الذي اشتهرت فغي الأقطار فضائله وذاعت وشاعت مناقبه بالحضور في مدينة السلام عند احتفال المحفل الجاري فيه تعداد خدم الأستاذ للغة العربية وتهنئته بما وفق إليه من رفع ذكرها وتقفية آثارها وإحياء دراسها وأداء ما يستحقه من الشكر على ما أنعم به على المنتسبين إلى الشرق والاستشراق في الأقاليم والآفاق ولولا شط المزار وضيق الوقت وكثرة الأشغال الشواغل لكنت أسرعت إلى الانتظام في سلك</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_95.d2e1863" xml:lang="ar">المحتفلين والدخول في زمرة المادحين والشاكرين والالتذاذ بسماع ما يلقى من الخطب وينشد من القصائد والانتفاع ببلاغتها وفصاحتها ولما لم تفسح المقادير بالمراد فقصاراي أن أبلغ حضرتكم دعائي بنجاح مشروعكم المحمود ورجائي إلا يقصر عن الغرض المقصود حتى يتيقن الأستاذ الفاضل تقدير العلماء لأعماله وتحمل الغيرة غيره على النسيج على منواله ولا يبقى مما يقال إلا الدعاء بحسن المآل</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_96.d2e1867" xml:lang="ar">اكسفرد في  ٢٢  آب سنة ١٩٢٨
-                : المخلص د. س. مرجليوث
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_96.d2e1867" xml:lang="ar">اكسفرد في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-22">٢٢ آب سنة ١٩٢٨</date> : المخلص د. س. مرجليوث
 <pb n="n7-p14" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3688.xhtml" change="#d2e296" xml:id="pb_14.d2e1877"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="14" edRef="#edition_1" xml:id="pb_28.d2e1813"/>
 
@@ -746,7 +734,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_97.d2e1880" xml:lang="ar">سيدي المفاضل المحترم أحمد حامد أفندي الصراف أدام الله تعالى عزكم.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_98.d2e1883" xml:lang="ar">بعد السلام والتحية أني أحب أن أوافقكم والسادة أعضاء لجنتكم من باطن قلبي الخالص الصداقة في التهنئة للأب أنستاس عن بلوغه خمسين سنة في خدمة الآداب العربية فقد أشتهر اسمه بعيدا عن بلاد الذين يتكلمون بالضاد وهو مشهور شرقا وغربا بمعرفته الواسعة في اللغة العربية وآدابها،. نحن هاهنا في المحفل العلمي للمستشرقين في اكسفورد (وأنا أكتب كتابي هذا هنا) نذكره ونتأسف أنه ليس بيننا في هذه الأوقات ولكن ما يكون فقدنا يكون ربحا لكم، ودعائي أن الله تعالى يبقيه بينكم وبيننا سنين كثيرة في الصحة والقوة التامة يشتغل في إحياء العلوم وترقي الآداب في بلادكم ولا سيما مدينة السلام كما كان يشتغل في الماضي. لست أنا إلا من أبناء الأعاجم المحبين للغة العربية ولم يمكني أن أوضح في كتابي هذا كل ما كنت أشتهي أن أقول ولكن سيكون فكري معكم وقت احتفالكم. وفي الختام أقبلوا سيدي المحترم تحقيق احترامي ووافر تحيتي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_99.d2e1886" xml:lang="ar"> 
-               ٢٩  آب  ١٩٢٨ : المخلص لكم فريتس كرنكو</p>
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-29">٢٩ آب ١٩٢٨</date> : المخلص لكم فريتس كرنكو</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_100.d2e1895" xml:lang="ar">من الأستاذ لوي ماسنيون</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_101.d2e1898" xml:lang="ar">أيها الأب الجزيل الاحترام</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_102.d2e1902" xml:lang="ar">. . . سأبرق بعد قليل إلى العين <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:418 viaf:61517780" xml:id="persName_13.d2e1904" xml:lang="ar">
@@ -756,7 +744,7 @@
                         </persName> لاشترك من صميم قلبي في اليوبيل الواقع في  ١٦  أيلول وأنت تعلم لمن هذا المهرجان.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_103.d2e1920" xml:lang="ar">وإني لأشكر شكرا مقرونا بالجميل لكتوم اللجنة أحمد حامد أفندي الصراف على أنه فكر</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_104.d2e1923" xml:lang="ar">بي فأرسل إلي بنسخة من الدعوة.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_105.d2e1926" xml:lang="ar">باريس  ١٦  أيلول  ١٩٢٨ : لويس ماسنيون</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_105.d2e1926" xml:lang="ar">باريس  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-16">١٦ أيلول ١٩٢٨</date> : لويس ماسنيون</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_106.d2e1935" xml:lang="ar">من الأستاذ اغناطيوس غويدي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_107.d2e1938" xml:lang="ar">إلى حضرة طاهر أفندي القيسي في لجنة تكريم الكرملي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_108.d2e1942" xml:lang="ar">سيدي الفاضل: بلغني دعوة الزهاوي إلى تكريم الأب أنستاس الكرملي في هذه
@@ -765,14 +753,14 @@
 
 
 الأيام وكنت أود أن أحضر بنفسي في يوم الحفلة ويطيب لي هذا الأمر حقيقة لأتمكن من أن أبدي إلى الأستاذ المحترم شواعر إعجابي بما أنتج من الأعمال لترقية الدروس العربية ولا سيما لكي أظهر له إخلاص شكري مما أحسن به علي ولا جرم أنك تفهم أن المانع لحضوري هو تقدمي في السن فلا يمكنني أن ابتعد عن مقامي ولهذا أنيب كتابي هذا عني متمنيا لصاحب اليوبيل الأستاذ المكرم كل خير وهناء.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_109.d2e1947" xml:lang="ar">فرسكاتي (قرب رومة) في إيطالية  ١٢  أيلول  ١٩٢٨ : خادمكم الصادق اغناطيوس جويدي</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_109.d2e1947" xml:lang="ar">فرسكاتي (قرب رومة) في إيطالية  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-12">١٢ أيلول ١٩٢٨</date> : خادمكم الصادق اغناطيوس جويدي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_110.d2e1956" xml:lang="ar">أحد أعيان مملكة إيطالية</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_111.d2e1959" xml:lang="ar">من الأستاذ ج. كافماير</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_112.d2e1962" xml:lang="ar">إلى حضرة الأب أنستاس ماري الكرملي في <placeName change="#d2e367 #d2e382" xml:id="placeName_26.d2e1902" xml:lang="ar">بغداد</placeName>.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_113.d2e1965" xml:lang="ar">أيها الأب الفاضل</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_114.d2e1969" xml:lang="ar">أسمح لي بأن أبدأ هذه السطور بتجديد الدعاء الذي اطرته على جناح البرق في هذا اليوم عينه وهذا نصه: (بارك الله من يخدم نهضة الناطقين بالضاد).</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_115.d2e1972" xml:lang="ar">إنك أوقفت نفسك للمباحث العربية ولقومك العرب الذين تنتمي إليهم وحبستها بصورة دائمة كل هذا الدوام فأنتجت ذلك النتائج على مدى هذه السنين الطويلة. أطال الله هذه الحياة وتوجها بآلائه وبركاته.</p>
-            <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_7.d2e1975" xml:lang="ar">برلين دهلم في  ١٦  أيلول  ١٩٢٨ : الأستاذ الدكتور ج. كافماير</byline>
+            <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_7.d2e1975" xml:lang="ar">برلين دهلم في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-16">١٦ أيلول ١٩٢٨</date> : الأستاذ الدكتور ج. كافماير</byline>
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_10.d2e1985" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_10.d2e1987" xml:lang="ar">لغة العرب</head>
@@ -933,7 +921,7 @@
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_11.d2e2351" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_11.d2e2353" xml:lang="ar">العلامة الكرملي في حفلة تكريمه</head>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_119.d2e2356" xml:lang="ar">عن الأهرام الصادر في يوم الخميس  ٣٠  أغسطس (آب) سنة ١٩٢٨
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_119.d2e2356" xml:lang="ar">عن الأهرام الصادر في يوم الخميس  ٣٠  أغسطس (آب) <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                 
             </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_120.d2e2367" xml:lang="ar">قصيدة شاعر <placeName change="#d2e296 #d2e382" xml:id="placeName_13.d2e2369" xml:lang="ar">مصر</placeName> الكبير الأستاذ أحمد محرم</p>
@@ -1264,7 +1252,7 @@
                   <seg change="#d2e296 #d2e382" xml:id="seg_322.d2e3163" xml:lang="ar"> وكنت أول من للفضل مغتنم</seg>
                </l>
             </lg>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_131.d2e3168" xml:lang="ar">الإسكندرية  ٤  سبتمبر  ١٩٢٨ : محمد صالح إسماعيل
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_131.d2e3168" xml:lang="ar">الإسكندرية  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-04">٤ سبتمبر ١٩٢٨</date> : محمد صالح إسماعيل
 <pb n="n7-p21" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3695.xhtml" change="#d2e296" xml:id="pb_21.d2e3176"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="21" edRef="#edition_1" xml:id="pb_42.d2e2896"/>
 
@@ -1364,7 +1352,7 @@
                </l>
             </lg>
             <byline change="#d2e219 #d2e296 #d2e382" xml:id="byline_9.d2e3411" xml:lang="ar"> 
-               ٩  سبتمبر  ١٩٢٨ : محمد الأسمر
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-09">٩ سبتمبر ١٩٢٨</date> : محمد الأسمر
 <pb n="n7-p22" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3696.xhtml" change="#d2e296" xml:id="pb_22.d2e3419"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="22" edRef="#edition_1" xml:id="pb_44.d2e3092"/>
 
@@ -1786,7 +1774,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_148.d2e4399" xml:lang="ar">هذا الحب أكبر من العذاب في سبيله؟</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_149.d2e4402" xml:lang="ar">فإذا قرعت طبول البشائر في يوبيل العلامة الأب أنستاس فلا عجب. فما ذلك إلا دليل باهر على أن البلاد وأهل البلاد وحكومة البلاد تقدر العلم وتحترمه في شخص رجاله الذائبين في سبيله.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_150.d2e4406" xml:lang="ar">حيا الله الأب أنستاس الكرملي حامل مقياس العلم وعلم العربية. وحيا البلاد والرجال الذين يكرمون العلم.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_151.d2e4409" xml:lang="ar">بغداد  ٥  تشرين الأول  ١٩٢٨ : المخلص <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:2826 viaf:8440744" xml:id="persName_18.d2e4417" xml:lang="ar">
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_151.d2e4409" xml:lang="ar">بغداد  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-05">٥ تشرين الأول ١٩٢٨</date> : المخلص <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:2826 viaf:8440744" xml:id="persName_18.d2e4417" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_23.d2e4419">يوسف</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_13.d2e4422">غنيمة</surname>
                         </persName>
@@ -1846,8 +1834,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_179.d2e4586" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e382" xml:id="hi_10.d2e4588" xml:lang="ar"> 
                   ٤  - </hi>أن يكون هذا التكريم في كل من <placeName change="#d2e296 #d2e382" xml:id="placeName_32.d2e4594" xml:lang="ar">مصر</placeName> و<placeName change="#d2e296 #d2e382" xml:id="placeName_33.d2e4597" xml:lang="ar">الشام</placeName> و<placeName change="#d2e367 #d2e382" xml:id="placeName_55.d2e4096" xml:lang="ar">العراق</placeName> وغيرها من الأقطار العربية تكريما عمليا مؤديا للانتفاع الأوفى بآثاره الغراء.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_180.d2e4602" xml:lang="ar">الإسكندرية في  ٢  أكتوبر سنة ١٩٢٨
-                : أحمد الشايب</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_180.d2e4602" xml:lang="ar">الإسكندرية في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-02">٢ أكتوبر سنة ١٩٢٨</date> : أحمد الشايب</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_181.d2e4613" xml:lang="ar">من الدجيلي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_182.d2e4616" xml:lang="ar">حضرة سكرتير لجنة تكريم الأب انستاس المحترم</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_183.d2e4619" xml:lang="ar">بعد السلام فإني أشكركم على تقديركم إياي باللياقة للاشتراك في الاحتفال الذي ستقيمونه في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_34.d2e4621" xml:lang="ar">بغداد</placeName> في اليوم السادس عشر من شهر أيلول من هذه السنة ومن حيث أني في لندن والشقة بعيدة بيني وبينكم وكثرة النفقات تمنعني من
@@ -1856,7 +1843,7 @@
 
 
 الحضور في ذلك الاحتفال الميمون رأيت أن استعيض بالكتابة عن الحضور بالنفس، متأسيا بقول من قال: (المراسلة نصف المواصلة) فإذا رأيتم ما كتبته مستحقا للقراءة والنشر فافعلوا ذلك وإلا فألقوا به عرض الحائط واتركوه في زوايا الإهمال وأنا لكم من الشاكرين. وفي الختام أهدي جميع أعضاء لجنتكم المحترمين السلام.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_184.d2e4627" xml:lang="ar">لندن  ٣٠  آب  ١٩٢٨ : المخلص <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:396" xml:id="persName_19.d2e4635" xml:lang="ar">
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_184.d2e4627" xml:lang="ar">لندن  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-30">٣٠ آب ١٩٢٨</date> : المخلص <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:396" xml:id="persName_19.d2e4635" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_24.d2e4637">كاظم</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_14.d2e4640">
                                 <addName type="nisbah" change="#d2e296 #d2e382" xml:id="addName_3.d2e4642" xml:lang="ar">الدجيلي</addName>
@@ -1904,7 +1891,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_201.d2e4735" xml:lang="ar">قد قرأت في بعض الجرائد الأميركية أن جماعة احتفلوا بأحد نوابغ أميركة وقد دعوا إلى تكريمه عددا غير قليل من مشاهير الأميركيين وكان بين المدعوين أحد الأغنياء فأحب أن يسلك طريقة جديدة في التكريم فكتب صكا بمائة ألف دولار ووضعه في جيبه ولما جاء دوره للخطابة رقي إلى المنبر وأخرج الصك من جيبه وقال للحاضرين هذه خطبتي ثم سلمه إلى المحتفل به فكان لصدى هذا الخبر دوي بلغ مسامع أوربة فذكرته جرائدها بإعجاب عظيم.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_202.d2e4739" xml:lang="ar">فهل للمحتفلين بالأب أنستاس أو للعراقيين عامة - أن يعملوا لحضرته شيئا من هذا القبيل أي طبع ما جمعه حضرته من المصطلحات العلمية، وما علق على كتب اللغويين من تصحيح واستدراك، ثم إهداء نفعه بعد استخراج نفقاته إلى حضرته ليعم نفعه فيكون العراقيون قد خلدوا لهم بهذا العمل المبرور ذكرا جميلا، ونفعوا البلاد العربية نفعا جما وما خسروا شيئا؟ فأنا أول المستعدين للاشتراك في الإنفاق على هذا المر الجليل.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_203.d2e4742" xml:lang="ar">وأختم كلامي هاتفاً عن بعد: ليحي الأب أنستاس وليشكر القائمون بتكريمه!</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_204.d2e4745" xml:lang="ar">لندن  ٣٠  آب  ١٩٣٨ : <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:396" xml:id="persName_20.d2e4753" xml:lang="ar">
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_204.d2e4745" xml:lang="ar">لندن  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1938-08-30">٣٠ آب ١٩٣٨</date> : <persName change="#d2e230 #d2e296 #d2e382" ref="oape:pers:396" xml:id="persName_20.d2e4753" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_25.d2e4755">كاظم</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_15.d2e4758">
                                 <addName type="nisbah" change="#d2e296 #d2e382" xml:id="addName_4.d2e4760" xml:lang="ar">الدجيلي</addName>
@@ -1932,9 +1919,7 @@
 وإذا ما ذكرت للأب علمه الجم وفضله الغزير وأنه خير من تضرب له آباط الإبل وتشد</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_214.d2e4798" xml:lang="ar">إليه الرحال فلا أنسى أن أذكر له مزية قلما نجدها في أمثاله من رجالات الدين هو ابتعاده عن التعصب الممقوت. على أن هذه الخلة لا تضير الذين اشتروا الآخرة بالدنيا فهجروا نعم الثانية في سبيل نعيم الأولى. أما دليلي على ذلك فهو وقوفه في وجه كاهن مثله ورده عن تنصير بعض الشعراء الجاهلين أو قل دفاعه عن حقيقة تاريخية دون أن يتأثر بما أريد أن يخلط فيها من أمور الدين.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_215.d2e4801" xml:lang="ar">وإني لا أزال أذكر رحلة صغيرة قمنا بها نزولا على رغبة الأب المحتفل به إذ كان يريد زيارة العش الذي درجت منه القديسة ماري ليسوع المصلوب الكرملية في قرية تدعى عبلين فبعد أن وصلنا بالمركبة إلى شفا عمرو وعلمنا أنه لا يمكن الوصول إلى عبلين إلا مشياً على الأقدام بضع دقائق أخذنا بالمشي والشمس في الهاجرة فقطعنا برهة زادت على البضع دقائق التي ذكرت لنا تهوينا وتشجيعا للمضي وقال لنا الدليل أننا سنضطر إلى قطع مسافة أكبر من التي قطعناها فوقفت وقلت للأب أقرأ لروحها الفاتحة على طريقتنا الإسلامية وأبعث بها إليها من هنا فابتسم وقال لي أن محاولتي زيارة البيت الذي ولدت فيه تلك القديسة هو لأنها شرقية عربية اعترف لها الغرب بهذا الحق وأوصلها إلى هذه المرتبة العليا فأعجبت بروح الأب العربية وعدنا أدراجنا إلى شفا عمرو ومنها إلى <placeName change="#d2e296 #d2e382" xml:id="placeName_36.d2e4803" xml:lang="ar">حيفا</placeName> بالمركبة والأب العالم يطرفنا بحديثه الطلي الشهي وبعد فأنني أرجو لصديقي العزيز السعادة والهناء وللأمة العربية ما تتمناه من الأماني والآمال.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_216.d2e4807" xml:lang="ar">حيفا في  ٦  أيلول سنة ١٩٢٨
-                
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_216.d2e4807" xml:lang="ar">حيفا في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-09-06">٦ أيلول سنة ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_217.d2e4818" xml:lang="ar">
                <persName change="#d2e282 #d2e296 #d2e382" ref="oape:pers:917 viaf:299037057" xml:id="persName_21.d2e4819" xml:lang="ar">عبد الله مخلص</persName>
                <pb n="n7-p36" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3710.xhtml" change="#d2e296" xml:id="pb_36.d2e4822"/>
@@ -1949,8 +1934,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_222.d2e4838" xml:lang="ar">ولا عجب من قولي عن دراسة كتاباته فإني لم أتجاوز الحقيقة إلى المبالغة والصدق كل الصدق أن معظم ما قرأت لعلامتنا الجليل من مثل ما أقرأ لأمثاله العلماء الأعلام الذين تؤخذ أقوالهم كدروس تلقى على الطلاب. وهذه مجلته <title level="j" change="#d2e296 #d2e382" xml:id="title_15.d2e4840" xml:lang="ar">لغة العرب</title> فإني أقرأ العدد الواحد منها المرة بعد الأخرى ولولا شيخوختي لوعتها حافظتي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_223.d2e4844" xml:lang="ar">وفوق هذا فالعلامة رجل كلما زادك إفادة تنظر خلال سطوره فتراه متصاغرا متضعا كأنه لم يكن مفيدا وهذا غير ما نرى من بعض رجال العلم والأدب وكلما قلدت من بحوثه درة غاص عليها حتى العباب نظر إليك كأنه هو المستفيد منك. فلله دره!</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_224.d2e4847" xml:lang="ar">وأنتم يا سادتي الأفاضل لا تؤاخذوا جرأتي على مخاطبتكم فأني محب للمحسنين المجيدين ولو استطعت لركبت البر إليكم فاستأنست بحفلة تكريم أستاذي وبرؤية خيرة الرجال. وهاأنذا اجتزئ بتكرار الشكر وبالدعوات الصالحات للفيفكم الموقر. ودوموا معافين بمنه تعالى وكرمه.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_225.d2e4850" xml:lang="ar">طرابلس - <placeName change="#d2e296 #d2e382" xml:id="placeName_37.d2e4852" xml:lang="ar">لبنان</placeName> في  ٢٣  آب  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_225.d2e4850" xml:lang="ar">طرابلس - <placeName change="#d2e296 #d2e382" xml:id="placeName_37.d2e4852" xml:lang="ar">لبنان</placeName> في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-23">٢٣ آب ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_226.d2e4863" xml:lang="ar">الداعي جورج يني
 <pb n="n7-p37" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3711.xhtml" change="#d2e296" xml:id="pb_37.d2e4865"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="37" edRef="#edition_1" xml:id="pb_74.d2e4391"/>
@@ -1962,8 +1946,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_229.d2e4874" xml:lang="ar">المثرون عن زرع أراضيهم وعن حصد غلتها لأنهم يتركون ذلك للفقراء والمساكين وعلى وجه العموم هو يوم مقدس عظيم لا يصادفه الإسرائيلي في حياته إلا مرة واحدة وقليلون هم الذين يتمتعون بنعمه مرتين اتفاقا.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_230.d2e4877" xml:lang="ar">وقد سرت هذه العادة عند النصارى أيضا ودخلت في آدابهم الدينية. ففي السنة اليوبيلية المسيحية تغفر جميع الخطايا والذنوب ويتمتع المسيحيون باستحقاقات المسيح (ع) وأوليائه وهو عندهم يوم مسامحة وصفح وغفران ولهذا يعظمونه كثيرا ويحتفلون به احتفالا كبيرا.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_231.d2e4880" xml:lang="ar">وقد أنبأنا التاريخ عن أول يوبيل نظامي أدخله المسيحيون في آدابهم الدينية وإنه كان في عام ( ١٠٠٠ ) المسيحي. فإن البابا سلفسترس الثاني لما أفتتح كنوز النعم الروحية للشعوب النصرانية بعد أن أرتبك الناس بتوقعهم قرب انتهاء العالم في تلك السنة. أدخل عادة شريفة في الدين المسيحي بأن يفتتح كل قرن بقصد (رومة) لأداء المناسك الدينية ونيل غفران الأثام.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_232.d2e4887" xml:lang="ar">ثم رأى خلفاء بونيفاشيوس ما ولدته هذه العادة من الخير والنعم على البشر بنتيجة اليوبيل الذي أقيم عام ١٣٠٠
-                م فأحب أن يجدد هذه الذكرى الحميدة في كل خمسين سنة كما هي العادة عند اليهود وهكذا كان. غير أن الناس استطالوا هذه
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_232.d2e4887" xml:lang="ar">ثم رأى خلفاء بونيفاشيوس ما ولدته هذه العادة من الخير والنعم على البشر بنتيجة اليوبيل الذي أقيم عام <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1300">١٣٠٠ م</date> فأحب أن يجدد هذه الذكرى الحميدة في كل خمسين سنة كما هي العادة عند اليهود وهكذا كان. غير أن الناس استطالوا هذه
 <pb n="n7-p38" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3712.xhtml" change="#d2e296" xml:id="pb_38.d2e4894"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="38" edRef="#edition_1" xml:id="pb_76.d2e4423"/>
 
@@ -2007,8 +1990,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_248.d2e5003" xml:lang="ar">الكرملي عربي صميم ينتمي إلى ميخائيل جبرائيل من بيت عواد. وهو بيت قديم في جبل <placeName change="#d2e296 #d2e382" xml:id="placeName_42.d2e5005" xml:lang="ar">لبنان</placeName>، يرجع أصحابه في نسبهم العريق إلى بني مراد الشهيرين في تاريخ العرب في عهد الجاهلية. ظعن جدهم الأعلى إلى <placeName change="#d2e296 #d2e382" xml:id="placeName_43.d2e5008" xml:lang="ar">لبنان</placeName> وهناك بقي مع ذريته إلى عهدنا هذا وتفرغ منه فرع في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_44.d2e5011" xml:lang="ar">بغداد</placeName>. أما أمه فمن بيت جبران وهو أقدم بيت نصراني في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_45.d2e5014" xml:lang="ar">بغداد</placeName>. وكان جبرائيل عواد رجلا دينا هبط <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_46.d2e5017" xml:lang="ar">بغداد</placeName> فأتخذ له اسم (ميخائيل ماريني لأمور سياسية ألجأته الأحوال إليها.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_249.d2e5021" xml:lang="ar">الكرملي أديب أوتي قدرة بارعة على البيان يستطيع أن يتصرف فيها كيفما يشاء فينقل بواسطتها إلى مخاطبة كل ما توحيه إليه قواه العقلية التي لا تقل عن قدرته البيانية براعة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_250.d2e5025" xml:lang="ar">الكرملي كاتب ينظم جواهر الألفاظ بسمط البلاغة ويجليها بإكساب الفصاحة ثم يعلقها على معان وزنها العقل السليم وأنتجها الفكر المستقيم فكلامه خفيف الوقع على الأسماع عظيم التأثير في الطباع شديد التعلق بالقلوب.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_251.d2e5028" xml:lang="ar">الكرملي أول من أنشأ مجلة في الوزراء أسسها عام ١٣٢٩
-                هـ واسماها (<title level="j" change="#d2e296 #d2e382" xml:id="title_17.d2e5035" xml:lang="ar">لغة العرب</title>) كانت سببا عظيما لرقي اللغة ونشر الفصحى من قبرها وستجد لغة عدنان بفضل الكرملي - حياتها الخالدة.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_251.d2e5028" xml:lang="ar">الكرملي أول من أنشأ مجلة في الوزراء أسسها عام <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1329" when="1911">١٣٢٩ هـ</date>  واسماها (<title level="j" change="#d2e296 #d2e382" xml:id="title_17.d2e5035" xml:lang="ar">لغة العرب</title>) كانت سببا عظيما لرقي اللغة ونشر الفصحى من قبرها وستجد لغة عدنان بفضل الكرملي - حياتها الخالدة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_252.d2e5039" xml:lang="ar">الكرملي شيد صروح فن الانتقاد في <placeName change="#d2e367 #d2e382" xml:id="placeName_76.d2e4581" xml:lang="ar">العراق</placeName> فوزن الكتب والآثار في مجلته وفي غيرها بقيمة الإنصاف وانتقدها انتقادا سالما من الأغراض منزها عن شوائب
 <pb n="n7-p41" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3715.xhtml" change="#d2e296" xml:id="pb_41.d2e5041"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="41" edRef="#edition_1" xml:id="pb_82.d2e4585"/>
@@ -2023,10 +2005,8 @@
             </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_257.d2e5057" xml:lang="ar">من زنجان</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_258.d2e5060" xml:lang="ar">حضرة العلامة الجليل الأستاذ الزهاوي الكبير</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_259.d2e5063" xml:lang="ar">تلقيت دعوتكم في وقتها وشكرت فضلكم. أحب شعراء قطرنا وأدباؤه أن يشتركوا بفخر في إجلال العلامة النابغة الكرملي الذي هو أهل له بخدمته العظيمة التي تذكر وتشكر مدة نصف قرن كما أن حسن صنيعكم بالقيام بتأسيس هذه الحفلة يحمد لكم حمدا صميما فقدم الشاعر المفلق الجليل الميرزا أبو الفضل (كرمان) قصيدة تعرب عن حسه الدقيق لفعل الجميل بكل معنى الكلمة وهذا الشاعر الجليل ولد في سنة ١٣١٤
-                هـ ومنخرط في سلك أحرار الوزارة المالية في إيران.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_260.d2e5071" xml:lang="ar">وقدم إلينا قصيدة أخرى الشاعر الكبير خسرو ميرزا المولود سنة ١٣١٠
-                هـ وهو من أعيان قطرنا والرجاء أن تنال قصيدتهما قبولا لديكم وتكون دليلا على حسن نظر الفارسيين وإجلالهم للعلم وذويه من غير فرق بين قوم ونحلة فأن دولة العلم يجمع تحت لواءها جميع محبيه وأهله. . .</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_259.d2e5063" xml:lang="ar">تلقيت دعوتكم في وقتها وشكرت فضلكم. أحب شعراء قطرنا وأدباؤه أن يشتركوا بفخر في إجلال العلامة النابغة الكرملي الذي هو أهل له بخدمته العظيمة التي تذكر وتشكر مدة نصف قرن كما أن حسن صنيعكم بالقيام بتأسيس هذه الحفلة يحمد لكم حمدا صميما فقدم الشاعر المفلق الجليل الميرزا أبو الفضل (كرمان) قصيدة تعرب عن حسه الدقيق لفعل الجميل بكل معنى الكلمة وهذا الشاعر الجليل ولد في <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1314" from="1896" to="1897">سنة ١٣١٤ هـ</date>  ومنخرط في سلك أحرار الوزارة المالية في إيران.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_260.d2e5071" xml:lang="ar">وقدم إلينا قصيدة أخرى الشاعر الكبير خسرو ميرزا المولود <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠ هـ</date>  وهو من أعيان قطرنا والرجاء أن تنال قصيدتهما قبولا لديكم وتكون دليلا على حسن نظر الفارسيين وإجلالهم للعلم وذويه من غير فرق بين قوم ونحلة فأن دولة العلم يجمع تحت لواءها جميع محبيه وأهله. . .</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_261.d2e5079" xml:lang="ar">المخلص لكم أبو عبد الله الزنجاني
 <pb n="n7-p42" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3716.xhtml" change="#d2e296" xml:id="pb_42.d2e5081"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="42" edRef="#edition_1" xml:id="pb_84.d2e4640"/>
@@ -2036,7 +2016,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_262.d2e5085" xml:lang="ar">تهنئة باليوبيل</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_263.d2e5088" xml:lang="ar">سيدي العلامة المحترم الكبير الزهاوي الأستاذ الفيلسوف</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_264.d2e5091" xml:lang="ar">أهنئكم تهنئة الحب والإخلاص، بإقامة بعض أدبائنا الناهضين الحفلة الشائقة التي رن صداها، ليس في سماء العالم العربي فحسب، بل شمل جميع أرجاء العالم الشرقي والغربي، وهي أول حفلة تكريمية أقيمت لهذا العلامة الروحي الكبير في عاصمة هذه البلاد العربية ولم يسبقها مثال، مما يدلنا على أننا بدأنا حياة الرجال الناهضين في خدمة العلم والدائبين في نشر الأدب العربي والرافعين لواءهما أمام من يريد أن يرتشف من مناهله العذبة ويقتبس من أنواره الساطعة؛ ونشعر بالواجب نحو وطننا، ورجاله المصلحين البررة لإقامة حفلة تكريمية نشجع فيها نحن العرب العلماء والأدباء، وأرباب الصحف وغيرهم وأن كنا نثق كل الثقة بشجاعة كل فرد نحو وطنه وأمته وتحريه الخدمة الملائمة له، والمصلحة النوعية لأبناء جلدته، وبذل النفس والنفيس، وما عز وهان في سبيل نشر العلم والعرفان، إلا أن إقامة هذا (اليوبيل) المهم الذي يعقد في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_47.d2e5093" xml:lang="ar">بغداد</placeName> 
-               سنة ١٩٢٨
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                  لتكريم العلامة المحقق الباحث الكبير الأب أنستاس الكرملي ذلك القس الغيور على اللغة الشريفة لغة يعرب والذي انخرط في سلك الرهبان وزهد في مشاغل الحياة ولذاتها وعكف منذ صغره على لغة القرآن، فخدمها خدمة خلدت عند الأمة ذكره وأوجبت علينا شكره فواجب إكرامه من أعظم الواجبات الضرورية وأهم الأعمال الحيوية، التي تمهد لقادة العلم والأدب مستقبلا زاهرا وستكون هذه الحفلة التاريخية قدوة حسنة لمن أراد أن يقتفي أثرها ويسير على منهاجها حذو القذة بالقذة هذا ورجائي قبول هذه الكلمة الموجزة التي سطرها قلمنا القاصر، ونهنئ الرجال الناهضين بهذه الأعمال الطيبة والقائمين بيوبيل العلامة الكرملي وعلى الأخص الصديق الحميم والأديب المحبوب الصراف، والسلام عليهم وعليكم في المبدأ والختام.</p>
             <byline change="#d2e73 #d2e296 #d2e382" xml:id="byline_11.d2e5102" xml:lang="ar">
                <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:215 geon:98862" xml:id="placeName_48.d2e5103" xml:lang="ar">النجف</placeName>: <persName change="#d2e296 #d2e382" xml:id="persName_23.d2e5106" xml:lang="ar">عبد المولى الطريحي</persName>
@@ -2207,9 +2187,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_354.d2e5498" xml:lang="ar">حضرة الأستاذ المفضال والفيلسوف الشاعر السيد جميل زهاوي المحترم تحية واحتراما</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_355.d2e5501" xml:lang="ar">وبعد فلقد تلقت إدارة هذه المجلة ما تكرمتم به من دعوة صاحبها إلى حضور حفلة تكريم الأب العلامة المفضال انستاس الكرملي. ولما كان يتعذر علينا اغتنام هذه الفرصة الثمينة للاشتراك في تكريم نابغة العرب جئنا بأسطرنا هذه معتذرين عن تخلفنا عن تلبية ندائكم راجين أن تتكرموا وترسلوا إلينا نبذة من تاريخ العالم المومأ إليه مصحوبة برسمه الفوتوغرافي أو الزنكوغرافي إن كان ذلك ميسورا. لنتمكن من نشره في عدد تشرين الأول القادم وهو العدد الأول من المجلة بعد احتجابها الصيفي ثم نعيده إليكم فورا مصحوبا بخالص شكرنا وامتناننا لازلتم فخرا للغة العربية ومن خيرة حملة ألويتها الخفافة سيدي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_356.d2e5504" xml:lang="ar">
-               <placeName change="#d2e296 #d2e382" xml:id="placeName_58.d2e5505" xml:lang="ar">حلب</placeName> في  ٢٧  آب سنة ١٩٢٨
-                
-            </p>
+               <placeName change="#d2e296 #d2e382" xml:id="placeName_58.d2e5505" xml:lang="ar">حلب</placeName> في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-08-27">٢٧ آب سنة ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_357.d2e5517" xml:lang="ar">القس أغناطيوس سعد <persName change="#d2e296 #d2e382" xml:id="persName_28.d2e5519" xml:lang="ar">
                   <addName type="nickname" change="#d2e296 #d2e382" xml:id="addName_6.d2e5520" xml:lang="ar">صاحب مجلة <title level="j" change="#d2e296 #d2e382" xml:id="title_23.d2e5522" xml:lang="ar">القربا</title>
                   </addName>
@@ -2230,8 +2208,7 @@
 والفارسية والتركية والصابئية وهو صاحب مجلة (<title level="j" change="#d2e296 #d2e382" xml:id="title_24.d2e5551" xml:lang="ar">لغة العرب</title>) الطائرة الصيت والمنقطعة النظير صاحبة الأيادي البيضاء على كثير من الكتبة والمؤلفين.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_362.d2e5555" xml:lang="ar">وقد ذاع فضله في الشرق والغرب فألحت عليه بعض المجامع العلمية في الانضمام إليها والعمل وإياها فلم يلب إلا طلب مجمع الشرقيات الألماني ومجمع العربي العلمي ب<placeName change="#d2e367 #d2e382" xml:id="placeName_102.d2e5178" xml:lang="ar">دمشق</placeName> وذلك لضيق أوقاته.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_363.d2e5558" xml:lang="ar">وقد أنفق عمره في التأليف حتى بلغت مؤلفاته الثلاثين مجلدا ولسوء طالع العربية استولى الأتراك أبان الحرب العالمية على هذه المؤلفات الثمينة وجعلوها طعام النار فلم ينج منها إلا القليل.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_364.d2e5561" xml:lang="ar">وقد جاب الأفاق والأمصار سعيا وراء الحصول على الكتب الخطية النفيسة فجمع منها في مدة أربعين سنة ما كلفه نحو ثمانية آلاف ليرة ذهبا وقد بلغ عدد المجلدات على أنواعها أثني عشر ألفا أتلفت يد الأتراك الأثيمة في  ٧  آذار سنة ١٩١٧
-                 معظم تلك الكنوز النادرة.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_364.d2e5561" xml:lang="ar">وقد جاب الأفاق والأمصار سعيا وراء الحصول على الكتب الخطية النفيسة فجمع منها في مدة أربعين سنة ما كلفه نحو ثمانية آلاف ليرة ذهبا وقد بلغ عدد المجلدات على أنواعها أثني عشر ألفا أتلفت يد الأتراك الأثيمة في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1917-03-07">٧ آذار سنة ١٩١٧</date> معظم تلك الكنوز النادرة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_365.d2e5573" xml:lang="ar">فلا عجب إذا كانت الحكومة العثمانية تنظر إليه شزرا وقد أعلى منار <title level="j" change="#d2e296 #d2e382" xml:id="title_25.d2e5575" xml:lang="ar">لغة العرب</title> جاعلا لأبنائها رابطة تفاهم وعلم وأدب ولا بدع إذا كانت تتحين الفرص لتوقع به وتثأر لأبنائها منه.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_366.d2e5579" xml:lang="ar">فلم تكد تدور رحى الحرب العالمية وتعلن الأحكام العرفية في البلاد العثمانية ويخلو الجو لحكومتها حتى ساقته في طليعة من ساقتهم إلى بلاد <placeName change="#d2e367 #d2e382" xml:id="placeName_103.d2e5205" xml:lang="ar">الأناضول</placeName> السحيقة ملتقى رجال العلم</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_367.d2e5582" xml:lang="ar">والفضل والوطنية في ذلك العهد المشؤوم وقد أجتاز في طريقه إليها بحلب حيث جعل سجنه في الغرفة القذرة المظلمة الكائنة تحت درج دار سجن الولاية وترامى خبره إلى الطيب الذكر المرحوم السنيور كاوتيري قنصل دولة إيطاليا بحلب فأخذ يعمل سرا على تخليصه إذ لم يكن في وسعه أن يتوسط علنا لدى المراجع الإيجابية لأن إيطاليا كانت في ذلك الحين على أهبة الانضمام إلى صفوف الحلفاء وكانت حكومة الأتراك حانقة عليها تعمل على كيدها. فأتى دار المطرانية المارونية حيث اختلى بصاحب السيادة المطران ميخائيل أخرس رئيس أساقفة الموارنة وبعد المفاوضة قر رأيهما على إرسال القس اغناطيوس سعد صاحب هذه المجلة إلى افتقاد السجين في سجنه ومراجعة ترجمان الولاية في أمره فذهب كاتب
@@ -2255,7 +2232,7 @@
 
 
 باذلا مهجته منذ صباه باقتباسها.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_373.d2e5612" xml:lang="ar">دخل المحتفل به مدرسة الأباء الكرمليين ثم مدرسة الاتفاق الكاثوليكي وفي هاتين المدرستين رضع افاويق الفضائل فشاهده إذ ذاك رئيس الكرمليين ميالا إلى التقى ولوعا بالتحلي بها فأقترح أن يرسل إلى <placeName change="#d2e296 #d2e382" xml:id="placeName_60.d2e5614" xml:lang="ar">بيروت</placeName> فقصدها سنة ١٨٨٦
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_373.d2e5612" xml:lang="ar">دخل المحتفل به مدرسة الأباء الكرمليين ثم مدرسة الاتفاق الكاثوليكي وفي هاتين المدرستين رضع افاويق الفضائل فشاهده إذ ذاك رئيس الكرمليين ميالا إلى التقى ولوعا بالتحلي بها فأقترح أن يرسل إلى <placeName change="#d2e296 #d2e382" xml:id="placeName_60.d2e5614" xml:lang="ar">بيروت</placeName> فقصدها <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1886">سنة ١٨٨٦</date> 
                  وانخرط في سلك تلاميذ المدرسة الأكليريكية اليسوعية وهناك أفرغ كنانة المجهود في اكتساب الفضيلة فتجلت تقاه بأجلى مظاهرها.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_374.d2e5623" xml:lang="ar">بل ما يدل على تقاه ترهبه في في بلجكة واقتباله درجة الكهنوت في ولا حاجة هنا إلى أن أبين ما أبداه من التقى في هذين الديرين فهي التقى التي جعلته راهبا وكاهنا معا.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_375.d2e5626" xml:lang="ar">آب المحتفل به إلى موطنه <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_61.d2e5628" xml:lang="ar">بغداد</placeName> فتقلد زمام إدارة المدرسة الكرملية وأخذ يعلم بجد وفي الوقت نفسه كان يلقن تلاميذه مبادئ التقى المتغلغلة في صدره منذ نعومة أظفاره.</p>
@@ -2310,9 +2287,8 @@
 
 
 الطريقة الإنكليزية - في الخطابة والكتابة طبعاً.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_403.d2e5783" xml:lang="ar">ولد الأب أنستاس في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_67.d2e5785" xml:lang="ar">بغداد</placeName> في  ٥  آب سنة ١٨٦٦
-                 وسمي بطرس، فلما بلغ الثامنة من عمره دخل مدرسة الآباء الكرمليين وفي هذه المدرسة ومدرسة الاتفاق الكاثوليكي تعلم التعليم الابتدائي حتى إذا رآه مدير مدرسة الكرمليين ولوعا باللغة شاديا في آدابها، أختاره</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_404.d2e5797" xml:lang="ar">لتدريسها وهو ابن ست عشرة سنة فقط. وما برح يدرسها إلى هذا اليوم أي مدة  ٤٦  عاما وقد تخرج على يده تلاميذ أولعوا بالعربية وطفق في ذلك الحين يكاتب بعض الجرائد كالبشير والصفاء والجوائب بالمقالات الأدبية واللغوية باسمه الصريح أو بأسماء مستعارة. وقصد سنة ١٨٨٦
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_403.d2e5783" xml:lang="ar">ولد الأب أنستاس في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_67.d2e5785" xml:lang="ar">بغداد</placeName> في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1866-08-05">٥ آب سنة ١٨٦٦</date> وسمي بطرس، فلما بلغ الثامنة من عمره دخل مدرسة الآباء الكرمليين وفي هذه المدرسة ومدرسة الاتفاق الكاثوليكي تعلم التعليم الابتدائي حتى إذا رآه مدير مدرسة الكرمليين ولوعا باللغة شاديا في آدابها، أختاره</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_404.d2e5797" xml:lang="ar">لتدريسها وهو ابن ست عشرة سنة فقط. وما برح يدرسها إلى هذا اليوم أي مدة  ٤٦  عاما وقد تخرج على يده تلاميذ أولعوا بالعربية وطفق في ذلك الحين يكاتب بعض الجرائد كالبشير والصفاء والجوائب بالمقالات الأدبية واللغوية باسمه الصريح أو بأسماء مستعارة. وقصد <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1886">سنة ١٨٨٦</date> 
                  المدرسة اليسوعية الألكيريكية في <placeName change="#d2e296 #d2e382" xml:id="placeName_68.d2e5807" xml:lang="ar">بيروت</placeName> حيث تفرغ لتدريس العربية ودراسة اللغتين اللاتينية واليونانية.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_405.d2e5811" xml:lang="ar">ومن هنا رحل إلى في بلجكة فترهب، وانتقل بعدها إلى لاغتو قرب نيس في كورة جبال الألب البحرية وفي الدير الكرملي هناك وتعلم الفلسفة وأنجز الدراسة اللاهوتية والفقهية في مونبليه وسيم كاهنا باسم الأب أنستاس ماري الألياوي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_406.d2e5814" xml:lang="ar">وبعد أن قسس غادر فرنسة فقام برحلة في بلاد الأندلس وأطلع على مخلفات المجد العربي ثم آب إلى موطنه <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_69.d2e5816" xml:lang="ar">بغداد</placeName> فتولى إدارة المدرسة الكرملية وتعليم العربية والفرنسية فيها كما أخذ على عاتقه الوعظ في الكنيسة، والبحث والكتابة في لغة القرآن.</p>
@@ -2325,9 +2301,9 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_408.d2e5832" xml:lang="ar">كتاب إنكليزي جليل عن اليزيدية يشيد بفضل الأب أنستاس في هذا الأمر.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_409.d2e5835" xml:lang="ar">وبالنظر إلى تخصصه في الفلسفة اللغوية أضطر إلى دراسة اللغات الآرامية والعبرية والحبشية والفارسية والتركية والصابئية فألم بطرف منها ونقب في أصولها وبعض ألفاظها وتوغل في علاقاتها باللغة العربية فجاءت أبحاثه في الموضوع فريدة في بابها. وقد نفاه العثمانيون في خلال الحرب العظمى إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_117.d2e5493" xml:lang="ar">الأناضول</placeName> فبقي في قيصري سنة وعشرة أشهر نال في أثنائها صنوف العذاب ثم أعيد إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_118.d2e5495" xml:lang="ar">بغداد</placeName>.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_410.d2e5838" xml:lang="ar">ورحل إلى أوربة مرار أفزار معظم عواصمها وحواضرها كما طاف أشهر أقطار الشرق مرات وتجول في أنحاء <placeName change="#d2e367 #d2e382" xml:id="placeName_119.d2e5500" xml:lang="ar">العراق</placeName>. وقد عينته الحكومة بعد الاحتلال عضوا في مجلس المعارف وعهدت إليه بمراقبة إنشاء جريدة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_34.d2e5502" xml:lang="ar">العرب</title>) سنة وتولى إنشاء مجلة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_35.d2e5505" xml:lang="ar">دار السلام</title>) ما يزيد على الثلاث سنوات.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_411.d2e5841" xml:lang="ar">وللمكانة التي أحرزها الأب أنستاس في عالم انتخبه مجمع المشرقيات الألماني عضوا في سنة ١٩١١
-                 وأختاره المجمع العربي في <placeName change="#d2e296 #d2e382" xml:id="placeName_70.d2e5848" xml:lang="ar">دمشق</placeName> ليكون من أعضائه وحضر سنة ١٩٢٤
-                 مؤتمر المرسلين المنظمين للمعرض الفاتيكاني في رومية. وأهدت إليه الحكومة الإنكليزية وساما مع لقب كما أهدت إليه الحكومة الفرنسية سنة ١٩٢٠
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_411.d2e5841" xml:lang="ar">وللمكانة التي أحرزها الأب أنستاس في عالم انتخبه مجمع المشرقيات الألماني عضوا في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1911">سنة ١٩١١</date> 
+                 وأختاره المجمع العربي في <placeName change="#d2e296 #d2e382" xml:id="placeName_70.d2e5848" xml:lang="ar">دمشق</placeName> ليكون من أعضائه وحضر <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1924">سنة ١٩٢٤</date> 
+                 مؤتمر المرسلين المنظمين للمعرض الفاتيكاني في رومية. وأهدت إليه الحكومة الإنكليزية وساما مع لقب كما أهدت إليه الحكومة الفرنسية <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1920">سنة ١٩٢٠</date> 
                  وسام وانتخبته وزارة معارفنا أحد مؤسسي المجمع اللغوي الذي ألفته في العام الماضي ولم يعش طويلا.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_412.d2e5862" xml:lang="ar">وقد ترجم كثير من مقالات المحتفل به إلى الفرنسية والإنكليزية والألمانية والروسية والإيطالية والأسبانية والتركية وقام بإصلاح كتب ومقالات ورسائل
 <pb n="n7-p63" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3737.xhtml" change="#d2e296" xml:id="pb_63.d2e5864"/>
@@ -2361,10 +2337,10 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_431.d2e5936" xml:lang="ar">(المجموعة الذهبية) كنز فيها خواطر فلسفية.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_432.d2e5939" xml:lang="ar">(ترجمة كتاب أرض النهرين)</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_433.d2e5942" xml:lang="ar">(شعراء <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_73.d2e5944" xml:lang="ar">بغداد</placeName> وكتابها) وهو تنقيح كتاب ترجم عن التركية.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_434.d2e5948" xml:lang="ar">(رحلة بغدادي إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_126.d2e5631" xml:lang="ar">اليمن</placeName>) سنة ١٨٦١
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_434.d2e5948" xml:lang="ar">(رحلة بغدادي إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_126.d2e5631" xml:lang="ar">اليمن</placeName>) <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1861">سنة ١٨٦١</date> 
                  نشرها باللغة الفرنسية في مجلة وهي رحلة قام بها ميخا يوسف النجار البغدادي من أهل القرن التاسع عشر إلى بلاد <placeName change="#d2e367 #d2e382" xml:id="placeName_127.d2e5639" xml:lang="ar">اليمن</placeName>.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_435.d2e5956" xml:lang="ar">وقد فقد الكرملي في أثناء نفيه إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_128.d2e5644" xml:lang="ar">الأناضول</placeName> سنة ١٩١٤
-                 ونهب من خزانة كتبه سنة ١٩١٧
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_435.d2e5956" xml:lang="ar">وقد فقد الكرملي في أثناء نفيه إلى <placeName change="#d2e367 #d2e382" xml:id="placeName_128.d2e5644" xml:lang="ar">الأناضول</placeName> <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1914">سنة ١٩١٤</date> 
+                 ونهب من خزانة كتبه <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1917">سنة ١٩١٧</date> 
                  طائفة من مؤلفاته الخطية الثمينة منه أربعة كتب في تصحيح المعاجم: (لسان العرب) و (تاج العروس) و (محيط المحيط) و (أقرب الموارد) ورسائل وكتب هذه موضوعاتها: -</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_436.d2e5969" xml:lang="ar">(الألفاظ اليونانية في اللغة العربية) وقد نشر منها منا نماذج في مجلة المشرق استشهد بهذه الأبحاث على تأثير النهضة المأمونية في العقلية العربية الدكتور رفاعي في كتابه الحديث (عصر المأمون) و (الألفاظ اللاتينية في اللغة العربية) و (الألفاظ الفارسية في اللغة العربية) و (الألفاظ الدخيلة من عبرية وهندية وقبطية وحبشية وتركية في اللغة العربية). و (الألفاظ الأرمية في اللغة العربية). و (الألفاظ العربية في اللغة الفرنسية) ومقالات عديدة في إصلاح أغلاط الكتاب المعاصرين ولغة الدواوين. كما أن له انتقادات خطيرة على معجم دوزي (ملحق المعاجم العربية) ومعجم فريتاغ العربي اللاتيني.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_437.d2e5976" xml:lang="ar">وجمع كتاباً نفيساً في (أمثال العوام في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_74.d2e5978" xml:lang="ar">بغداد</placeName> و<placeName change="#d2e296 #d2e382" xml:id="placeName_75.d2e5981" xml:lang="ar">الموصل</placeName> و<placeName change="#d2e367 #d2e382" xml:id="placeName_131.d2e5674" xml:lang="ar">البصرة</placeName>) و (حكايات
@@ -2373,9 +2349,8 @@
 
 
 اللغة الدارجة) وعني بتصحيح كتاب (الإكليل) للهمداني و (الموعب) في اللغة لابن تيان و (مقامات ابن ماري) وكان قد شرع قبل الحرب العظمى بطبع كتاب (العين) للخليل بن أحمد اللغوي العراقي الشهير مع حواش لغوية فاكمل منه  ١٤٤  صفحة وحالت الحرب دون إنجاز البقية. فعسى أن يتيسر من ينفق على طبع هذا الكتاب وسائر مؤلفات الكرملي الخطية لغني بها الخزانة العربية.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_438.d2e5990" xml:lang="ar">وقد جمع الأب الباحث كتبا نادرة المثال حوت زهاء أثني عشر ألف مجلد من مخطوط ومطبوع وأصبحت بغية القصاد من الدارسين والباحثين ولكنها أصيبت بالنهب في  ٧  آذار سنة ١٩١٧
-                 فتفرقت أيدي سبا.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_439.d2e6001" xml:lang="ar">وعاد سنة ١٩١٨
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_438.d2e5990" xml:lang="ar">وقد جمع الأب الباحث كتبا نادرة المثال حوت زهاء أثني عشر ألف مجلد من مخطوط ومطبوع وأصبحت بغية القصاد من الدارسين والباحثين ولكنها أصيبت بالنهب في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1917-03-07">٧ آذار سنة ١٩١٧</date> فتفرقت أيدي سبا.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_439.d2e6001" xml:lang="ar">وعاد <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1918">سنة ١٩١٨</date> 
                  إلى جمع الكتب وتجديد خزانته الشرقية فجمع منها زهاء أحد عشر ألف كتاب مطبوع وسبعمائة كتاب مخطوط تغلب عليها الأبحاث التاريخية واللغوية ونقل بإشرافه كتبا خطية عديدة منها ما أتلفته يد الضياع ومنها ما يحتفظ بها بغية طبعها ونشرها تعميما لفوائدها.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_440.d2e6009" xml:lang="ar">وكلكم تعرفون مجلة صاحب اليوبيل (<title level="j" change="#d2e296 #d2e382" xml:id="title_34.d2e6011" xml:lang="ar">لغة العرب</title>) التي أتمت في هذه الأيام السنة السادسة فهي المجلة العربية التي تعد صلة بين علماء الشرق والغرب وتنقل معظم مقالاتها إلى اللغات الأجنبية وهي المجلة الفريدة التي تنشر أبحاثها الشهرية كثير من المجلات العلمية الأوربية والأميركية.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_441.d2e6015" xml:lang="ar">ويستخدم الكتاب الآن ألفاظا جديدة لبعض المسميات الحديثة ولا يعلم أنها من صنع الأب أنستاس كألفاظ برقية ل ووضيعة ل وإضبارة ل وكناشة ل ومعلمة ل ولا يمكن أن أتوغل في ذكر ألفاظ كثيرة من هذا القبيل لئلا أصدم أسماعكم بأسماء غريبة مثل اطريراء</p>
@@ -2432,7 +2407,7 @@
 
 
 كما كان ذائدا بقلمه عن حوضها المتهدم آنئذ غير هياب وغير مبال بخوض غمار أخطار ذلك في أزمان عصيبة جداً.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_465.d2e6137" xml:lang="ar">كنت ذات يوم من سنة ١٩٢٠
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_465.d2e6137" xml:lang="ar">كنت ذات يوم من <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1920">سنة ١٩٢٠</date> 
                  أطالع مجلة الهلال فوقع نظري فيه على مقال بعنوان (الثمائل عند العرب) مذيل باسم (مستهل) ولم أكن اعلم حينئذ أن هذا الاسم المستعار هو للعلامة المحتفل به.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_466.d2e6148" xml:lang="ar">قرأت ذلك المقال الممتع وأعدت قراءته ثانية لأحيط بما احتواه من حقائق علمية ولغوية غابت على الكثيرين من فطاحل اللغة من عرب وأجانب فدهشت لما فيها من دقة البحث والاستقصاء وحسن التنقيب عن خفايا موضوع لم يطرقه إلا وكان متدهورا في لجج الخطأ.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_467.d2e6152" xml:lang="ar">أظهر العلامة (مستهل) بذلك المقال أغلاطا عديدة كانت قد وردت في معاجم عربية وإفرنجية وكشف الستار عن حقيقة (الثمائل) مما دل على تضلعه من فقه اللغة والتاريخ تضلعا يغبطه عليه أكثر العلماء، فعرفت (مستهلا) من ذلك الوقت وقدرت له مساعيه العلمية.</p>
@@ -3015,7 +2990,7 @@
 
 
 عم سعدون مغامس المانع والكرملي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_496.d2e7494" xml:lang="ar">ما أبهى ما كان يوم الأحد الذي وقع في  ٧  تشرين الأول  ١٩٢٨  ذلك اليوم التاريخي عند إخوان الأدب العربي ورافعي أعلام التشجيع له من كبراء وعظماء فأن في عصره المشهود</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_496.d2e7494" xml:lang="ar">ما أبهى ما كان يوم الأحد الذي وقع في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-07">٧ تشرين الأول ١٩٢٨</date> ذلك اليوم التاريخي عند إخوان الأدب العربي ورافعي أعلام التشجيع له من كبراء وعظماء فأن في عصره المشهود</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_497.d2e7503" xml:lang="ar">أقيمت تلك الحفلة الباهرة لتكريم الأستاذ الكبير الأب انستاس ماري الكرملي في دار صاحب الفخامة عبد المحسن بك آل سعدون لقضاء الأب الفاضل عمره حتى شيخوخته الحاضرة في خدمة لغة الضاد الشريفة ذلك العمر الذي أتى فيه بالكتابات العديدة والمباحث الكثيرة ما قدره علماؤنا وكتابنا وشعراؤنا من عراقيين وسوريين ومصريين وفلسطينيين وغيرهم وفي طليعتهم المجمع العلمي العربي ب<placeName change="#d2e367 #d2e382" xml:id="placeName_137.d2e6965" xml:lang="ar">دمشق</placeName> <placeName change="#d2e296 #d2e382" xml:id="placeName_77.d2e7505" xml:lang="ar">الشام</placeName> وهنئوه ببلوغه هذا اليوم وقد بجاه مع تهانئ حارة كبار من المستشرقين من مختلفي الشعوب الغربية. وقد اجتمعت في هذه الحفلة كلمة هؤلاء الأفاضل جميعهم على تقدير خدماته الجلى لما وقفوا عليه فضلا عما لدى الأب من الآثار غير المنشورة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_498.d2e7509" xml:lang="ar">فليهنأ الأب وليعيش طويلا للمثابرة على أعماله المقدرة!</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_499.d2e7512" xml:lang="ar">وأني لأستأذن كلا من فخامة ألبك وفضيلة الأب في أن أذهب بهما وبالقراء الكرام إلى حادث تاريخي:</p>
@@ -3025,16 +3000,15 @@
 
 
 التاريخ أراد بهذا الاحتفاء أن يجدد على الستارة صورة صلة بات عهدها نسيا منسيا خالعا عليها ثوبا قشيبا جديدا تميس فيه تيها ودلالا. وقد تجلى في تلك الحفلة في فخامة ابن سعدون الشبيبي ما ورثه من آبائه الأماجد من مكارم الأخلاق مزدانة بحبه لترقية العلوم ولا سيما تنشيطه للأب - وضمنا تشجيعه لحملة الأقلام كافة - على موالاة خدمة لغتنا الجليلة.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_501.d2e7521" xml:lang="ar">كان مبدأ إقامة الأباء الكرمليين في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_78.d2e7523" xml:lang="ar">بغداد</placeName> في سنة ١٧٢١
-                 أما الصرة فقد دخلوها للإقامة فيها منذ سنة ١٦٢٣
-                 وقد وجد السر هرمن كولنز سجلاً لمبعثهم في <placeName change="#d2e367 #d2e382" xml:id="placeName_140.d2e7001" xml:lang="ar">البصرة</placeName> دون فيه أحد رؤسائهم ما لقيه من أخبارهم منذ سنة دخولهم حتى زمانه الذي كان في سنة ١٦٧٤
-                 وشرع يضم إلى تلك الأنباء ما كان يحدث في أيامه في <placeName change="#d2e367 #d2e382" xml:id="placeName_141.d2e7010" xml:lang="ar">البصرة</placeName> وتبع تلك الخطة الذين خلفوه. وهذه النسخة التي هي اليوم عند السر المذكور تنتهي بأخبار سنة ١٧٣٣
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_501.d2e7521" xml:lang="ar">كان مبدأ إقامة الأباء الكرمليين في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_78.d2e7523" xml:lang="ar">بغداد</placeName> في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1721">سنة ١٧٢١</date> 
+                 أما الصرة فقد دخلوها للإقامة فيها منذ <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1623">سنة ١٦٢٣</date> 
+                 وقد وجد السر هرمن كولنز سجلاً لمبعثهم في <placeName change="#d2e367 #d2e382" xml:id="placeName_140.d2e7001" xml:lang="ar">البصرة</placeName> دون فيه أحد رؤسائهم ما لقيه من أخبارهم منذ سنة دخولهم حتى زمانه الذي كان في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1674">سنة ١٦٧٤</date> 
+                 وشرع يضم إلى تلك الأنباء ما كان يحدث في أيامه في <placeName change="#d2e367 #d2e382" xml:id="placeName_141.d2e7010" xml:lang="ar">البصرة</placeName> وتبع تلك الخطة الذين خلفوه. وهذه النسخة التي هي اليوم عند السر المذكور تنتهي بأخبار <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1733">سنة ١٧٣٣</date> 
                  وهي الأم بنفسها</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_502.d2e7547" xml:lang="ar">المختلفة الخطوط ولغتها هي اللاتينية إلاّ صحائف قليلة في لغات إفرنجية أخرى مع نصوص عربية وتركية. وقد بعث السر بالطبع هذا السجل من مدفنه مع ترجمته إياه إلى الإنكليزية ووشاه بصورة شمسية لما يحويه من النصوص العربية والتركية.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_503.d2e7550" xml:lang="ar">ومما يرويه لنا هذا السجل الوحيد النسخة استيلاء شيخ المنتفق مغامس المانع على <placeName change="#d2e367 #d2e382" xml:id="placeName_142.d2e7025" xml:lang="ar">البصرة</placeName> في سنة ١٧٠٥
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_503.d2e7550" xml:lang="ar">ومما يرويه لنا هذا السجل الوحيد النسخة استيلاء شيخ المنتفق مغامس المانع على <placeName change="#d2e367 #d2e382" xml:id="placeName_142.d2e7025" xml:lang="ar">البصرة</placeName> في <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1705">سنة ١٧٠٥</date> 
                  ( 
-                  ١١١٧
-                هـ) وكانت يوم ذاك سفن هولندية راسية فيها في شط العرب. وإني لأقصر كلامي في هذا المقام على نقل ما جرى للأب حنا (يوحنا) مع الشيخ مغامس معربا كلامه عن الإنكليزية ومورداً النص العربي بحروفه ( ٣٠٢ :  ٣  من الأصل):</p>
+                  <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1117" from="1705" to="1706">١١١٧ هـ</date> ) وكانت يوم ذاك سفن هولندية راسية فيها في شط العرب. وإني لأقصر كلامي في هذا المقام على نقل ما جرى للأب حنا (يوحنا) مع الشيخ مغامس معربا كلامه عن الإنكليزية ومورداً النص العربي بحروفه ( ٣٠٢ :  ٣  من الأصل):</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_504.d2e7567" xml:lang="ar">تعريب فقرات الكتاب ونص البراءة</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_505.d2e7570" xml:lang="ar">(. . . في اليوم السابع من هذا الشهر (تشرين الثاني  ١٧٠٥ ) حضرنا إمامه (إمام الأمير مغامس) فرحب بنا وبعد أن هنأه الربان الهولندي التمس منه أن يعطيه عقد اتفاق بين الهولنديين والعرب. فكرم عليه مجيبا طلبه بكل
 <pb n="n7-p81" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3755.xhtml" change="#d2e296" xml:id="pb_81.d2e7575"/>
@@ -3046,7 +3020,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_507.d2e7585" xml:lang="ar">وفي  ١٢  منه أرسل الأمير مغامس بالبراءتين إحداهما إلى الهولندي في الاتفاق وثانيهما إلي في مادة الحماية الواردة في ما يلي:</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_508.d2e7591" xml:lang="ar">(الحماية التالية هي بالتركية)</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_509.d2e7594" xml:lang="ar">محل الختم توكلت على الله</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_510.d2e7597" xml:lang="ar">تعلمون به الواقفون على كتابنا هذا من كافت خدامنا وعمالنا وطباطنا (ضباطنا) بانا أعطينا حامل الورقة النادري حنا على موجب ما بيده من فرمانات أولياء الدولة <placeName change="#d2e296 #d2e382" xml:id="placeName_79.d2e7599" xml:lang="ar">القاهرة</placeName> ومن أوامر الوزير العظام والأمراء الكرام. وله منا فوق (ذلك) زيادة الحشمة والرعاية وقد أسقطنا عن خدامه وترجمانه الجزية والخراج وكتبنا له هذا الكتاب سنداً بيده يتمسك به الذي (لدى) الحاجة إليه. وعلى كتابنا هذا غاية الاعتماد والله تعالى شأنه ولي العباد وبه كفا. حرر في ثاني وعشرين من شهر رجب الفرد سنة سبعت عشر وماية وألف. سنة ١١١٧
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_510.d2e7597" xml:lang="ar">تعلمون به الواقفون على كتابنا هذا من كافت خدامنا وعمالنا وطباطنا (ضباطنا) بانا أعطينا حامل الورقة النادري حنا على موجب ما بيده من فرمانات أولياء الدولة <placeName change="#d2e296 #d2e382" xml:id="placeName_79.d2e7599" xml:lang="ar">القاهرة</placeName> ومن أوامر الوزير العظام والأمراء الكرام. وله منا فوق (ذلك) زيادة الحشمة والرعاية وقد أسقطنا عن خدامه وترجمانه الجزية والخراج وكتبنا له هذا الكتاب سنداً بيده يتمسك به الذي (لدى) الحاجة إليه. وعلى كتابنا هذا غاية الاعتماد والله تعالى شأنه ولي العباد وبه كفا. حرر في ثاني وعشرين من شهر رجب الفرد سنة سبعت عشر وماية وألف. <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1117" from="1705" to="1706">سنة ١١١٧</date> 
                 .</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_511.d2e7608" xml:lang="ar">الفقير مغامس المانع</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_512.d2e7611" xml:lang="ar">حصلت على براءة الحماية ونلتها بدون أي مصروف وستفيدنا دائما فوائد جمة وسينتفع بها بيتنا في أحوال مماثلة. . .) اهـ</p>
@@ -3061,12 +3035,11 @@
          </div>
          <div change="#d2e64 #d2e296 #d2e382" type="item" subtype="article" xml:id="div_16.d2e7626" xml:lang="ar">
             <head change="#d2e296 #d2e382" xml:id="head_16.d2e7628" xml:lang="ar">أقوال الصحف</head>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_514.d2e7631" xml:lang="ar">كانت الغاية من هذا اليوبيل إقامة الذكرى للسنة الخمسين من ابتداء تدريسنا للغة العربية وكان ذلك في  ١٦  أيلول من سنة ١٨٧٨
-                 إذ بدأنا ندرس العربية دروسا خصوصية لعدة أناس منهم الأب دميانس الكرملي الحني والسنيور زانغيتا الإيطالي وأربع أوانس: سوسان بنة يوسف رحماني، وتوزة سكمن، ورجينة حبيب شيخا، وأميلية عبد الله مالكم.</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_514.d2e7631" xml:lang="ar">كانت الغاية من هذا اليوبيل إقامة الذكرى للسنة الخمسين من ابتداء تدريسنا للغة العربية وكان ذلك في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1878-09-16">١٦ أيلول من سنة ١٨٧٨</date> إذ بدأنا ندرس العربية دروسا خصوصية لعدة أناس منهم الأب دميانس الكرملي الحني والسنيور زانغيتا الإيطالي وأربع أوانس: سوسان بنة يوسف رحماني، وتوزة سكمن، ورجينة حبيب شيخا، وأميلية عبد الله مالكم.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_515.d2e7642" xml:lang="ar">هذا الأمر لا فضل فيه ولا فخر، إذ من الواجب على كل إنسان أن يجبب لغته لقومه ولغير قومه، إلا أن بعض الأصدقاء - ولا سيما واحد منهم أراد أن يبقى في ظل الخفاء - أحلب أن يشجع الغير على حب العربية وتحبيبها للغير، أخذ على نفسه إقامة ذكرى صدع (أي بين العظيمة والصغيرة). فاستحسنها الأوداء وأستقبحها نفر ومن ثم نشأت أقوال تناسب تلك الآراء. فقد ذكرنا أقوال المحبين، والآن نذكر آراء المحبين والكارهين معا من أصحاب الصحف والمجلات. ونحن لا نتبع في تقديم بعضها على بعض سوى ما يقع منها في أيدينا وقد جاء في بعض الصحف مدح وقدح في جزء واحد أو عدد واحد. فنذكر كل ذلك على علاته. فدونك ما ورد في (النشء الجديد) وهي مجلة كانت تصدر في <placeName change="#d2e367 #d2e382" xml:id="placeName_144.d2e7131" xml:lang="ar">البصرة</placeName> واليوم تصدر في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_80.d2e7644" xml:lang="ar">بغداد</placeName> ( ٢٧٣ :  ٢ ) وهذا نصه:</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_516.d2e7654" xml:lang="ar">يوبيل العلامة الكرملي واجب الحفاوة الكبرى به</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_517.d2e7657" xml:lang="ar">أعلنت لجنة الاحتفال بيوبيل فضيلة العلامة اللغوي الشهير الأب أنستاس ماري الكرملي أنها ستقيم هذا الاحتفال في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_81.d2e7659" xml:lang="ar">بغداد</placeName> يوم  ١٦  أيلول القادم، وهذا يوافق ذكرى مرور  ٥٠  سنة على بدئه بتدريس العربية في مدرسة القديس يوسف في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_82.d2e7668" xml:lang="ar">بغداد</placeName> 
-               سنة ١٨٧٨
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1878">سنة ١٨٧٨</date> 
                 ، وهو ما يزال يدرس فيها حتى الآن. ويقابل هذا التاريخ كذلك انقضاء ما يناهز نصف قرن على خدمته الخالصة للغة الضاد سواء بالقول أو اللسان تحبيرا وتدريسا لتلامذته العديدين ومريديه الكثيرين المنتشرين في العالم العربي، دع عنك العلماء المستعربين في أوربا وأمريكا الذين يراسلونه
 <pb n="n7-p83" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3757.xhtml" change="#d2e296" xml:id="pb_83.d2e7677"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="83" edRef="#edition_1" xml:id="pb_166.d2e7169"/>
@@ -3087,8 +3060,7 @@
 
 
 مؤلفاته الخطية النفيسة التي يستفيد منها زائروه ومكاتبوه دون أن يستطيع هو نشرها لأنه ليس من رجال المال والدنيا، بل مثله يعيش في تقشف وزهد عيشه العالم المخلص الذي يضحي بكل نفيس حباً في العلم؛ ولذلك نلح على لجنة الاحتفال أن لا تغفل هذه المسألة الهامة من برنامجها برا يجهد هذا الرجل العظيم.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_522.d2e7709" xml:lang="ar">ولسنا في مقام سرد لسيرة فضيلة الأب وأن تكن مشهورة مأثورة، وقد ألمت بها مجلة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_44.d2e7210" xml:lang="ar">الحرية</title>) في عدد آذار سنة ١٩٢٤
-                م. كما نوهت بها غيرها من المجلات العربية. فحسبنا أن نقول هنا أن الكرملي في آثاره اللغوية الإصلاحية يقابل الإمامين جمال الدين الأفغاني</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_522.d2e7709" xml:lang="ar">ولسنا في مقام سرد لسيرة فضيلة الأب وأن تكن مشهورة مأثورة، وقد ألمت بها مجلة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_44.d2e7210" xml:lang="ar">الحرية</title>) في عدد آذار <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="high" xml:lang="ar" when="1924">سنة ١٩٢٤ م.</date>  كما نوهت بها غيرها من المجلات العربية. فحسبنا أن نقول هنا أن الكرملي في آثاره اللغوية الإصلاحية يقابل الإمامين جمال الدين الأفغاني</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_523.d2e7717" xml:lang="ar">ومحمد عبده المصري في إصلاحاتهما الاجتماعية والفكرية في العالم العربي، كما يقابل العلامة الزهاوي في نهضته التجديدية للشعر العربي. وللكرملي تلاميذ عديدون بين كبار الأدباء، وأصدقاء كثيرون ينتفعون بعلمه وإرشاده، وقد نالت مجلته اللغوية (<title level="j" change="#d2e296 #d2e382" xml:id="title_40.d2e7719" xml:lang="ar">لغة العرب</title>) أضعاف ما نالته في وقتها مجلة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_46.d2e7225" xml:lang="ar">الضياء</title>) التي كان يصدرها المغفور له <persName change="#d2e367 #d2e382" xml:id="persName_37.d2e7228" xml:lang="ar">الشيخ إبراهيم اليازجي</persName> وإطلاع الأب الكرملي غير محصور، كما أن إنتاجه نشرا وخطا وافر عظيم، هذا إلى جانب مجالسه الأدبية المشهورة التي يؤمها صفوة أدباء العاصمة العراقية وأسلوبه في النقد اللغوي أسلوب علمي محكم منقطع النظير، وأين لنا سواه المتضلع من بعض ما يعرفه من لغات وعلوم يطبقها تطبيقا سديدا شائقا في أبحاثه الفريدة؟ وحسبنا أن نشير إلى مساجلته اللغوية مع الأستاذ جبر ضومط، وإلى نقده البديع لمعجم (البستان) و (للأغاني)، وتصحيحه أغلاط المعاجم المشهورة، ناهيك بمؤلفاته الجمة التي يقتبس منها قاصدوه؛ وهي حبيسة ترتقب الناشر الأديب المقتدر، ناهيك بمباحثه اللغوية الموفقة التي كثيراً ما نقلت إلى اللغات الأوربية وتهافت عليها العلماء المستعربون ومحبو التمحيص والتدقيق اللغوي.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_524.d2e7724" xml:lang="ar">فالاحتفال بيوبيل الكرملي جدير بأن يكون منقطع النظير تقديراً لمنزلته ومراعاة لهذه المناقب والمآثر على الأخص:</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_525.d2e7727" xml:lang="ar">
@@ -3248,14 +3220,14 @@
                </l>
             </lg>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_585.d2e8074" xml:lang="ar">إلى آخر الأبيات التي أنشدها في الحفلة بل إلى نهاية القصيدة الركيكة (كذا) التي لا يحضرني وصف اصف به ركاكتها أبلغ من أنها قصيدة الأستاذ الزهاوي (كذا).</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_586.d2e8077" xml:lang="ar">وإليك مثالين من أمثلة أبي اسحق الصابي فهما يكفيانك مشقة البحث في آثاره وعناء الوقوف على كل أفكاره فالأول رسائله المعروفة برسائل الصابي، كتبها لما تقلد (ديوان الرسائل) سنة ٣٤٩
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_586.d2e8077" xml:lang="ar">وإليك مثالين من أمثلة أبي اسحق الصابي فهما يكفيانك مشقة البحث في آثاره وعناء الوقوف على كل أفكاره فالأول رسائله المعروفة برسائل الصابي، كتبها لما تقلد (ديوان الرسائل) <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0349" from="0960" to="0961">سنة ٣٤٩</date> 
                  وهي من أمتع الرسائل وأكثرها فائدة
 <pb n="n7-p97" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3771.xhtml" change="#d2e296" xml:id="pb_97.d2e8084"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="97" edRef="#edition_1" xml:id="pb_194.d2e7642"/>
 
 
 وأغزرها مادة لا يستغني عنها أبلغ المنشئين وأحذق الكتاب وهي مقسمة إلى أبواب في المراسلات والشفاعات والمكاتبات وما أنفذ إلى العمال والمتصرفين والنواحي وفيها كثير من الرسائل الودية فضلا عن المخابرات السياسية والتقاليد الرسمية والمناشير ونحوها وفيها من الفوائد التاريخية والاجتماعية ما يحتاج إليها الأدباء والحكام والولاة والرؤساء.</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_587.d2e8088" xml:lang="ar">والمثال الثاني (منشئات الصابي) وهي خزانة أدب وتاريخ وسياسة ومن أبلغ ما كتب في ذلك العصر تشتمل على مراسلات كتبها على لسان ولاة الأمر في عصره من ملوك آل بويه والخلفاء وغيرهم وهي كالمخابرات الرسمية في وصف الوقائع الحربية أو غيرها منها رسالة كتبها إلى ركن الدولة سنة ٣٦٤
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_587.d2e8088" xml:lang="ar">والمثال الثاني (منشئات الصابي) وهي خزانة أدب وتاريخ وسياسة ومن أبلغ ما كتب في ذلك العصر تشتمل على مراسلات كتبها على لسان ولاة الأمر في عصره من ملوك آل بويه والخلفاء وغيرهم وهي كالمخابرات الرسمية في وصف الوقائع الحربية أو غيرها منها رسالة كتبها إلى ركن الدولة <date calendar="#cal_islamic" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0364" from="0974" to="0975">سنة ٣٦٤</date> 
                  شرح فيها فتح <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_86.d2e8095" xml:lang="ar">بغداد</placeName> وانهزام الأتراك منها</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_588.d2e8099" xml:lang="ar">ووصف الخلاف، ورسالة على لسان عز الدولة إلى عضد الدولة جواب كتاب بفتح جبال (القفص) بين فارس وكرمان، وقهر البلوص (جيل من الأكراد) (كذا. والرجل يدعي الوقوف على التاريخ مع أن البلوص جيل كالأكراد وليسوا منهم) ورسائل أخرى عن حروب بين البويهيين والحمدانيين وغيرهم وكلها تشتمل على حقائق تاريخية رسمية تفسير بعض ما ألتبس في تاريخ ذلك العصر ومنها صورة عهود أو تقليدات رسمية للولاة والعمال والقضاة صادرة من الخليفة كالعهد الذي قلده الطايع (كذا) لله العباسي أبا الحسن علي بن ركن الدولة على الصلات وأعمال الحرب وفيه أمور مهمة عن السياسة والإدارة والاجتماع مما لا أيتيسر الوقوف عليه في كتب التاريخ ونسخة عهد إلى قاضي القضاة وغيرها إلى القواد والفقهاء وأمراء الحج ومنشورات بعثت
 <pb n="n7-p98" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3772.xhtml" change="#d2e296" xml:id="pb_98.d2e8101"/>
@@ -3277,7 +3249,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_595.d2e8128" xml:lang="ar">يوبيل العلامة الكرملي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_596.d2e8131" xml:lang="ar">(عيد اللغة والأدب)</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_597.d2e8134" xml:lang="ar">(عن جريدة وادي النيل في <placeName change="#d2e296 #d2e382" xml:id="placeName_87.d2e8136" xml:lang="ar">مصر</placeName>  
-               ٢٥  أكتوبر  ١٩٢٨ )</p>
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-25">٢٥ أكتوبر ١٩٢٨</date> )</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_598.d2e8146" xml:lang="ar">يعد الكرملي عن جدارة إمام أئمة العربية في هذا العصر لا لتبحره في علوم اللغة فقط تبحرا منقطع النظير يذكرنا بعهد الإمام الشنقيطي بل لمواهب أخرى فذة. فالرجل راهب متقشف كريم النفس مفروض فيه أنه وهب نفسه للدين ولكن الواقع أنه مفتون فتنة كبرى بعلوم اللغة التي خدمها نصف قرن أجل خدمة وكون بطريقته ونهجه مثلا أعلى لأهل اللغة المحدثين. فهو لم يقصر على استيعاب القديم بل تضلع من لغات شتى غربية وشرقية تضلعا عجيبا. وتذوقها تذوق رجل فنان يستوحي أسرارها. ولهذا السبب تجد فتاويه اللغوية - سواء وافقتها أنت أم خالفتها - دليلاً ناصعاً على تعمقه الكبير في اللغة والأدب بل في لغات وآداب شتى. ومثالا جميلا للأسلوب العلمي النزيه في البحث. وإلى جانب هذا نجد الكرملي ذا شجاعة أدبية نادرة في الشرق العربي على الأخص حيث يؤدي الاستقلال الفكري إلى إيجاد الخصوم الأدعياء ولكن الكرملي لم يكن يبالي بشيء من ذلك في سبيل إعلان ما يعتقده. ويتسع صدره لكل ما يقال أو يكتب
 <pb n="n7-p100" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P3774.xhtml" change="#d2e296" xml:id="pb_100.d2e8148"/>
                <pb change="#d2e344 #d2e368 #d2e367" ed="print" n="100" edRef="#edition_1" xml:id="pb_200.d2e7715"/>
@@ -3366,8 +3338,7 @@
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_633.d2e8371" xml:lang="ar">إذا لم يجمع أهل المرء وسكان وطنه على أنه يستحق التكريم فهو بلا شك لا يستحق التكريم وما رأيناه دعوة صادفت أعراض الجمهور كدعوة الأستاذ الزهاوي هذه (كذا). ومن شاء أن يتبين الخبر فما عليه إلا مطالعة صحف <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_98.d2e8373" xml:lang="ar">بغداد</placeName>. فأي تكريم عمرك الله يوم في بلد لا تعضده الصحف المحلية؟ (كذا)</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_634.d2e8377" xml:lang="ar">ليت الأستاذ الزهاوي يلم نفسه ولا يعرض اسمه المحترم للقيل والقال، وإلا فهذه صحف <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_99.d2e8379" xml:lang="ar">بغداد</placeName> أخذت تتهمه بأنه يريد بهذه الحفلة للكرملي أن يقوم هذا فيدعو إلى حفلة مثلها للزهاوي!! فهل يعجب الأستاذ الزهاوي هذا الصيت اللطيف؟!</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_635.d2e8384" xml:lang="ar">عدول الأستاذ الزهاوي عن تكريم الكرملي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_636.d2e8387" xml:lang="ar">عنها أيضاً في عددها الصادر في  ١١  أكتوبر  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_636.d2e8387" xml:lang="ar">عنها أيضاً في عددها الصادر في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-11">١١ أكتوبر ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_637.d2e8396" xml:lang="ar">ذكرت صحف <placeName change="#d2e367 #d2e382" xml:id="placeName_194.d2e8031" xml:lang="ar">العراق</placeName> أن الأستاذ الزهاوي عدل في آخر لحظة عن رياسة حفلة التكريم هذه التي كنا وجهنا إليه أشد اللوم من أجلها.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_638.d2e8399" xml:lang="ar">وتقول العالم العربي الغراء أن رئيس وزارة <placeName change="#d2e367 #d2e382" xml:id="placeName_195.d2e8036" xml:lang="ar">العراق</placeName> أقام الحفلة في داره.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_639.d2e8402" xml:lang="ar">أما نحن فنعتقد أن الوزير لم يقم بهذا إلا لاعتبارات ظنها صحيحة، ومنها
@@ -3377,8 +3348,7 @@
 
 منع بعض الألسنة من القول أن في الموضوع شيء (كذا) من التعصب الديني! وهو اعتبار غير وجيه لأن العالم العربي كله أشترك في تكريم المقتطف والبستاني وضومط حتى في تكريم الأب شيخو.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_640.d2e8407" xml:lang="ar">يوبيل الأستاذ الكرملي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_641.d2e8411" xml:lang="ar">عن جريدة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_65.d2e8051" xml:lang="ar">الأوقات</title> البغدادية) الصادرة في  ٨  تشرين الأول  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_641.d2e8411" xml:lang="ar">عن جريدة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_65.d2e8051" xml:lang="ar">الأوقات</title> البغدادية) الصادرة في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-08">٨ تشرين الأول ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_642.d2e8420" xml:lang="ar">أحتفل عصر أمس في دار صاحب الفخامة السر عبد المحسن بك السعدون بيوبيل الأستاذ الأب أنستاس ماري الكرملي الذهبي بمناسبة مرور خمسين حجة على خدماته المتوالية للغة العربية. وحضر الحفلة أكثر من مائة من أعيان <placeName change="#d2e367 #d2e382" xml:id="placeName_196.d2e8063" xml:lang="ar">العراق</placeName> وسراته بينهم أصحاب الفخامة والمعالي الوزراء الحاليين والسابقين والأسبقين والعلماء الفضلاء والأعيان والنواب وكبار موظفي الحكومة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_643.d2e8423" xml:lang="ar">وأفتتح الحفلة شاعر الفلاسفة الأستاذ جميل صدقي أفندي الزهاوي عضو مجلس الأعيان، بكلمة شكر بها الحاضرين تكرمهم بالحضور. وتكلم بعده حضرة الأديب الفاضل أحمد حامد أفندي الصراف مدير المطبوعات معددا رسائل التهنئة والتقدير الواردة على لجنة اليوبيل. وأعقبه حضرة الأديب الفاضل رفائيل أفندي بطي فألقى خطبة ممتعة للغاية عدد بها مآثر الأستاذ الكرملي. ثم تلا حضرة الأستاذ الزهاوي رسالة تهنئة وتقدير من حضرة الأستاذ رئيس المجمع العلمي ب<placeName change="#d2e367 #d2e382" xml:id="placeName_197.d2e8069" xml:lang="ar">دمشق</placeName>.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_644.d2e8426" xml:lang="ar">وألقى الأستاذ الزهاوي أيضاً قصيدة عصماء استعيدت تلاوة بعض أبياتها بين الهتاف والإعجاب ثم وقف صاحب المعالي توفيق بك السويدي العباسي وزير المعارف فأطنب في مدح المحتفل به ومدح خدماته للغة العربية داعياً له بطول العمر.</p>
@@ -3438,10 +3408,9 @@
 
 
 يوبيل انستاس الكرملي</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_667.d2e8567" xml:lang="ar">عن جريدة (<placeName change="#d2e296 #d2e382" xml:id="placeName_102.d2e8569" xml:lang="ar">الموصل</placeName>) الصادرة في  ١٥  تشرين الأول  ١٩٢٨ 
-            </p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_667.d2e8567" xml:lang="ar">عن جريدة (<placeName change="#d2e296 #d2e382" xml:id="placeName_102.d2e8569" xml:lang="ar">الموصل</placeName>) الصادرة في  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-15">١٥ تشرين الأول ١٩٢٨</date> </p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_668.d2e8579" xml:lang="ar">الأب انستاس الكرملي راهب بغدادي اشتغل مدة خمسين سنة في نشر لغة الضاد في البلاد العراقية والعالم المستشرق اجمع. ولد في <placeName change="#d5e244 #d2e296 #d2e382" ref="oape:place:216 geon:98182" xml:id="placeName_103.d2e8581" xml:lang="ar">بغداد</placeName> 
-               سنة ١٨٦٦
+               <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1866">سنة ١٨٦٦</date> 
                  وأنكب منذ حداثته على نشر اللغة العربية بالرغم عن احتقار السلطات التركية لها. وبعد أن ترهب في فرنسة قام برحلة في بلاد الأندلس بغية الإطلاع على آثار التفوق العربي ثم عاد إلى عاصمة العباسيين وأخذ يدرس اللغة العربية ويؤلف الكتب ويدبج المقالات الممتعة في أرقى المجلات العربية باسمه الصريح أو تحت أسماء مستعارة طارقا مواضيع مبتكرة لم يبحث عنها أحد غيره وفي إبان الحرب الكبرى أحتمل الأم النفي وتضييقات السلطات التركية لولعه الزائد في نشر لغة القرآن وإحياء آثار وأمجاد العروبة.</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_669.d2e8590" xml:lang="ar">وزار انستاس الكرملي معظم العواصم الأوربية وتفقد معاهدها التاريخية واللغوية وقد حاز على أوسمة من البلاد الإنكليزية والفرنسية وكان عضوا في مجلس معارف الحكومة العراقية التي عهدت إليه مراقبة إنشاء (جريدة العرب) ومجلة (<title level="j" change="#d2e315 #d2e367 #d2e382" xml:id="title_68.d2e8281" xml:lang="ar">دار السلام</title>).</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_670.d2e8593" xml:lang="ar">هذه نبذة وجيزة من حياة خادم العلم واللغة العربية الذي احتفل بيوبيله الذهبي في دار فخامة عبد المحسن بك السعدون رئيس الوزارة العراقية بناء على دعوة معالي العين جميل أفندي صدقي الزهاوي.</p>
@@ -3456,8 +3425,7 @@
 
 يوبيل الكرملي</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_672.d2e8620" xml:lang="ar">عن (المهذب) في العدد  ١٣١  -  ١٣٢  من سنتها الرابعة</p>
-            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_673.d2e8629" xml:lang="ar">أستقر رأي لجنة الاحتفال بيوبيل العلامة الأب الكرملي على اختيار يوم الأحد الموافق  ٧  أكتوبر سنة ١٩٢٨
-                 في الساعة الرابعة بعد الظهر في دار فخامة رئيس الوزراء بعد أن أجابت من قبل طلب الأفاضل الغائبين عن العاصمة العراقية فأجلت الحفلة حتى انقضاء العطلة الصيفية حتى يكون الحفل أتم. . .</p>
+            <p change="#d2e73 #d2e296 #d2e382" xml:id="p_673.d2e8629" xml:lang="ar">أستقر رأي لجنة الاحتفال بيوبيل العلامة الأب الكرملي على اختيار يوم الأحد الموافق  <date calendar="#cal_gregorian" change="#d3e388" resp="#xslt" cert="low" xml:lang="ar" when="1928-10-07">٧ أكتوبر سنة ١٩٢٨</date> في الساعة الرابعة بعد الظهر في دار فخامة رئيس الوزراء بعد أن أجابت من قبل طلب الأفاضل الغائبين عن العاصمة العراقية فأجلت الحفلة حتى انقضاء العطلة الصيفية حتى يكون الحفل أتم. . .</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_674.d2e8640" xml:lang="ar">و (المهذب) يكرر أخلص تهانيه بهذا التقدير الحق إلى فضيلة العلامة الجليل الأب الكرملي وإلى الأمة العراقية النبيلة، بل إلى العالم العربي الذي احتفى بإخلاص بإمام اللغة الأكبر في دياره هذا الاحتفاء الجليل. . .</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_675.d2e8643" xml:lang="ar">(ل. ع) أغفلنا مقالات كثيرين لأنها سرقت منا ولم ندرج بعض المقالات لما فيها من الإطراء الزائد عن حده وأهملنا ما لم يرد إلينا إلا بعد طبع هذا الجزء</p>
             <p change="#d2e73 #d2e296 #d2e382" xml:id="p_676.d2e8646" xml:lang="ar">الهدايا إلى صاحب اليوبيل</p>

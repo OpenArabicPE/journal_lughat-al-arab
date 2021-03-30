@@ -65,7 +65,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc xml:lang="en" change="#d2e407" xml:id="revisionDesc_1.d2e173"><change when="2021-03-26" who="#github" xml:id="d2e407" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e405" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e403" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e383" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e391" xml:lang="en">Added <tei:gi change="#d2e383 #d2e403" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e389" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e387" change="#d2e403" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
+      <revisionDesc xml:lang="en" change="#d2e407" xml:id="revisionDesc_1.d2e173"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e409" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e407" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e405" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e403" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e383" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2019-11-28" who="#pers_TG" xml:id="d2e391" xml:lang="en">Added <tei:gi change="#d2e383 #d2e403" xml:id="gi_1.d2e173" xml:lang="en">publicationStmt</tei:gi>.</change><tei:change when="2019-09-16" who="#pers_TG" xml:id="d2e389" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><change when="2019-06-13" who="#pers_TG" xml:id="d2e387" change="#d2e403" xml:lang="">Page numbers to bibliographic description of the source based on the file's content.</change>
          <change when="2019-05-17" who="#pers_TG" xml:id="d2e364" change="#d2e403" xml:lang="">Page breaks for the print edition that mirror the pagination from shamela.ws</change>
          <change when="2019-04-07" who="#pers_TG" xml:id="d2e353" change="#d2e403" xml:lang="">Marked final <gi change="#d2e383 #d2e403" xml:id="gi_1.d2e185" xml:lang="">p</gi>s inside <gi change="#d2e383 #d2e403" xml:id="gi_2.d2e187" xml:lang="">div</gi>s as bylines (<gi change="#d2e383 #d2e403" xml:id="gi_3.d2e189" xml:lang="">byline</gi>) if they did not exceed a string length of 60.</change>
          <change when="2019-04-06" who="#pers_TG" xml:lang="en" xml:id="d2e344">Automatically split all <tag change="#d2e383 #d2e403" xml:id="tag_1.d2e194" xml:lang="en">div type="section"</tag> into subsections of <tag change="#d2e383 #d2e403" xml:id="tag_2.d2e196" xml:lang="en">div type="article"</tag>, using paragraphs with a length of 30 or less as indicator of a heading.</change>
@@ -107,15 +107,10 @@
          </div>
          <div change="#d2e64 #d2e296 #d2e403" type="item" subtype="article" xml:id="div_2.d2e330" xml:lang="ar">
             <head change="#d2e296 #d2e403" xml:id="head_2.d2e332" xml:lang="ar">رسالتان تاريخيتان</head>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_1.d2e335" xml:lang="ar">(ل. ع) بعث إلينا حضرة المجتهد الكبير أبي عبد الله الزنجاني برسالتين منقولتين بنصيهما الفارسيين عن أصليهما الواحدة صادرة من البابا والثانية من شاه إيران. والبابا المذكور أسمه في الرسالة الشنسيوس الثاني عشر، واسم شاه إيران في جواب الرسالة حسين الصفوي. فلم نجد هذا الأمر موافقاً للتاريخ: لأن البابا أنوشنسيوس الثاني عشر كان بابا من سنة ١٦٩١
-                 إلى سنة ١٧٠٠
-                 م وملك السلطان حسين الصفوي في المحرم من سنة ١١٦٦
-                 هـ (يوافق نوفنبر  
-                  ١٧٥٢
-                م) ولم يبق السلطان حسين على العرش الكسروي مدة طويلة لأن كريم خان خلعه في السنة المذكورة نفسها ( ١١٦٦ ) وتوفي في سنة ١١٩٢
-                هـ ( 
-                  ١٧٧٨
-                م) فلم نفهم هذا الاختلاف الموجود بين عهد البابا وعهد السلطان حسين الثاني الصفوي. فلعل أحد القراء يرشدنا إلى سببه فنكون له من الشاكرين.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_1.d2e335" xml:lang="ar">(ل. ع) بعث إلينا حضرة المجتهد الكبير أبي عبد الله الزنجاني برسالتين منقولتين بنصيهما الفارسيين عن أصليهما الواحدة صادرة من البابا والثانية من شاه إيران. والبابا المذكور أسمه في الرسالة الشنسيوس الثاني عشر، واسم شاه إيران في جواب الرسالة حسين الصفوي. فلم نجد هذا الأمر موافقاً للتاريخ: لأن البابا أنوشنسيوس الثاني عشر كان بابا من <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1691">سنة ١٦٩١</date> 
+                 إلى <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1700">سنة ١٧٠٠ م</date> وملك السلطان حسين الصفوي في المحرم من <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1166" from="1752" to="1753">سنة ١١٦٦ هـ</date>  (يوافق نوفنبر  
+                  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1752">١٧٥٢ م)</date>  ولم يبق السلطان حسين على العرش الكسروي مدة طويلة لأن كريم خان خلعه في السنة المذكورة نفسها ( ١١٦٦ ) وتوفي في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1192" from="1778" to="1779">سنة ١١٩٢ هـ</date>  ( 
+                  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1778">١٧٧٨ م)</date>  فلم نفهم هذا الاختلاف الموجود بين عهد البابا وعهد السلطان حسين الثاني الصفوي. فلعل أحد القراء يرشدنا إلى سببه فنكون له من الشاكرين.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_2.d2e368" xml:lang="ar">وقد طلبنا إلى الكاتب محمد صادق الحسيني وهو أحد الأدباء الإيرانيين المعروفين بالوقوف التام على أدب اللغتين الفارسية والعربية - وهو اليوم ضيفنا في <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_4.d2e370" xml:lang="ar">بغداد</placeName> - أن ينقل لنا النصين الفارسيين إلى العربية، فلبى طلبنا على ما هو معهود فيه من حسن الأخلاق وخدمة العلم والأدب ودونك الآن ترجمة الرسالتين:</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_3.d2e374" xml:lang="ar">رسالة البابا</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_4.d2e377" xml:lang="ar">صورة ترجمة كتاب بابا مملكة الروم الغربية، الذي كان قد ترجمه الأب المرسل محمد ونترجمه اليوم بالتفصيل بحرفه:
@@ -126,13 +121,10 @@
 يود البابا انشنسيوس الثاني عشر أن تكون الأنوار الإلهية متهيئة لذلك الملك النبيل الواسع الاقتدار إذ طرق أسماعنا ما في دياركم من الراحة والطمأنينة اللتين يتمتع بهما سكان مملكتكم المترامية الأطراف الواسعة النطاق، مؤملين أن تكون لجماعة الأباء الصغار المنتمين إلى القديس فرنسيس والمعدودين من أهل الفضل والعرفان، الراحة والرفاهية في ظلكم، ولا سيما أنهم قد غضوا أبصارهم عن اللذائذ الدنيوية وحرموا على أنفسهم طيب العيش ليصلوا بأنفسهم ويوصلوا أنفس الغير إلى بارئها، مهتدين بهدى الديانة المسيحية، ومستضيئين بأنوارها. فنرجوكم وثيق الرجاء بأن تتفضلوا على هذه الطائفة التي لها قسط</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_5.d2e383" xml:lang="ar">من الفضل والعلم فتأذنوا لهم إذناً تاماً ليكونوا أحراراً في الممالك التي تحت سلطتكم، ولا سيما بلاد (كنجة وكرجستان) فيتمكنوا من أن يجروا ما يرونه لازما من الأمور الدينية وشؤونهم الروحانية في داخل البيوت الخالية أو البيع والصوامع ويعتمدوا على نفوذكم وسلطانكم في مقاصدهم الإلهية. والرجاء من مقامكم أيضاً أن تأمروا بإصدار الأوامر المؤكدة إلى خدامكم والمنتسبين إليكم بأن لا يمنعوهم أو يعارضوهم في شؤونهم وتعاقبوا عقاباً صارماً كل من يخالف أمركم العالي.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_6.d2e386" xml:lang="ar">هذا وأن الابن المحبوب فليكس مريم دسلان الذي هو من الأفاضل يظهر لكم ما يكنه خاطرنا وما يجول في خلدنا. ونؤمل الأمل العظيم أن تعيروا أسماعكم للأجوبة التي يعرضها عليكم الأب المذكور من قبل خلافتنا وفي هذه الآونة ندعو لكم ونرجو من أبينا أن يفيض عليكم أنوار مراحمة الباهرة ويحيطكم بأشعتها المتلألئة لتحصلوا على الصدق والاستقامة التامة.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_7.d2e389" xml:lang="ar">كتب في كنيسة مريم الكبرى وختم بختم الصياد في اليوم ال  ٢٦  من النيروز الإفرنجي سنة ١٦١٩
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_7.d2e389" xml:lang="ar">كتب في كنيسة مريم الكبرى وختم بختم الصياد في اليوم ال  ٢٦  من النيروز الإفرنجي <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1619">سنة ١٦١٩</date> 
                  بعد ميلاد المسيح.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_8.d2e400" xml:lang="ar">(<title level="j" change="#d2e296 #d2e403" xml:id="title_8.d2e402" xml:lang="ar">لغة العرب</title>) هذه السنة توافق عام ١٠٢٩
-                هـ وكان شاه إيران يومئذ عباس الأول الكبير الصفوي الذي دخل <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e410" xml:lang="ar">بغداد</placeName> في سنة ١٠٣٣
-                هـ  
-                  ١٦٢٤
-                م ولهذا نظن أن الرسالة الأتي نصها له لا للسلطان حسين آخر سلاطين الصفويين كما ذكر لنا ودونك نصها:
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_8.d2e400" xml:lang="ar">(<title level="j" change="#d2e296 #d2e403" xml:id="title_8.d2e402" xml:lang="ar">لغة العرب</title>) هذه السنة توافق عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1029" from="1619" to="1620">١٠٢٩ هـ</date>  وكان شاه إيران يومئذ عباس الأول الكبير الصفوي الذي دخل <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e410" xml:lang="ar">بغداد</placeName> في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1033" from="1623" to="1624">سنة ١٠٣٣ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1624">١٦٢٤ م</date> ولهذا نظن أن الرسالة الأتي نصها له لا للسلطان حسين آخر سلاطين الصفويين كما ذكر لنا ودونك نصها:
 <pb n="n8-p163" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4711.xhtml" change="#d2e296" xml:id="pb_3.d2e422"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="163" edRef="#edition_1" xml:id="pb_6.d2e532"/>
 
@@ -191,17 +183,16 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_26.d2e550" xml:lang="ar">(ل. ع) الذي ساق <persName change="#d2e230 #d2e296 #d2e403" ref="oape:pers:713 viaf:76496271" xml:id="persName_9.d2e552" xml:lang="ar">
                             <forename xml:lang="ar" change="#d2e296" xml:id="forename_8.d2e554">جرجي</forename>
                             <surname xml:lang="ar" change="#d2e296" xml:id="surname_7.d2e557">زيدان</surname>
-                        </persName> إلى الوهم قول صاحب كشف الظنون في  ١ :  ٤٩١  من طبعة الآستانة: دستور البيمارستان للعلامة أبن القوصوي. ذكر فيه الأمراض والعلاج وأنها من غلبة خلط من أخلاط الأربعة (كذا) أهـ. والصواب أبن القوصوني. كما حققه حضرة صديقنا المدقق. ونزيد على ما تقدم بسطه أن هذا الاسم جاء بصورة مختلفة في الكتب الخطية. وقد لاحظ ذلك طابع كشف الظنون ومترجمه إلى اللاتينية العلامة غستاف فلوجل وهو أول من بعثه من مدفنه إلى عالم الظهور وذلك في سنة ١٨٣٥
+                        </persName> إلى الوهم قول صاحب كشف الظنون في  ١ :  ٤٩١  من طبعة الآستانة: دستور البيمارستان للعلامة أبن القوصوي. ذكر فيه الأمراض والعلاج وأنها من غلبة خلط من أخلاط الأربعة (كذا) أهـ. والصواب أبن القوصوني. كما حققه حضرة صديقنا المدقق. ونزيد على ما تقدم بسطه أن هذا الاسم جاء بصورة مختلفة في الكتب الخطية. وقد لاحظ ذلك طابع كشف الظنون ومترجمه إلى اللاتينية العلامة غستاف فلوجل وهو أول من بعثه من مدفنه إلى عالم الظهور وذلك في <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1835">سنة ١٨٣٥</date> 
                  وعنه طبعت نسخة بولاق فنسخه الآستانة وكلتاهما مشحونة غلطاً ووهماً. وقد قال فلوجل: أن بدر الدين محمد بن محمد يعرف بالقرصوني وأبن القوصوني وقوصوني زاده (راجع  ٧ :  ١٠٤٩ ) وقيسوني زاده وقيسوم زاده ( ٧ :  ٩٤٢ ) قلنا: ولعل كلا من الولد والوالد يعرف بهذا النسب. ولم نجد معنى لهذه النسبة في أي كتاب كان. وعلى كل حال فهي ليست منسوبة إلى مدينة</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_27.d2e586" xml:lang="ar">قوصوة في يوغوسلافية في بلاد السرب القديمة كما يتبادر الذهب إليه لأول مرة ولا إلى قوص من ديار <placeName change="#d2e296 #d2e403" xml:id="placeName_9.d2e588" xml:lang="ar">مصر</placeName>.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_28.d2e592" xml:lang="ar">قدم اسم مندلي</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_29.d2e595" xml:lang="ar">أفادنا حضرة صديقنا المحقق المدقق يعقوب أفندي نعوم سركيس أن اسم (مندلي) بهذه الصورة ورد في كتاب في الأنساب اسمه صحاح الأخبار وهو مطبوع في <placeName change="#d2e296 #d2e403" xml:id="placeName_10.d2e597" xml:lang="ar">مصر</placeName> 
-               سنة ١٣٠٦
-                 وكانت وفاة مؤلفه في سنة ٨٨٥
-                هـ.</p>
+               <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1306" from="1888" to="1889">سنة ١٣٠٦</date> 
+                 وكانت وفاة مؤلفه في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0885" from="1480" to="1481">سنة ٨٨٥ هـ</date> .</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_30.d2e612" xml:lang="ar">وذكر لنا أن مانعاً الذي ورد اسمه في  ٨ :  ٤٠  من هذه المجلة والذي قيل عنه أنه أمير قشعم هو على ما يظهر شيخ المنتفق وليس أمير قشعم والذي روى أنه أمير قشعم هو العمري صاحب غاية المرام وعنه نقل الكتبة هذا الوهم فنشكره على هذه التحقيقات.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_31.d2e621" xml:lang="ar">عمر الأستاذ جبر ضومط</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_32.d2e624" xml:lang="ar">تحققنا أن الأستاذ جبر ضومط ولد في صافيتا في  ٢٦  أيلول  ١٨٢٩  وتوفي في <placeName change="#d2e296 #d2e403" xml:id="placeName_11.d2e632" xml:lang="ar">بيروت</placeName> في  ١٨  ك سنة ١٩٣٠
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_32.d2e624" xml:lang="ar">تحققنا أن الأستاذ جبر ضومط ولد في صافيتا في  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1829-09-26">٢٦ أيلول ١٨٢٩</date> وتوفي في <placeName change="#d2e296 #d2e403" xml:id="placeName_11.d2e632" xml:lang="ar">بيروت</placeName> في  ١٨  ك سنة ١٩٣٠
                  رحمه الله.
 <pb n="n8-p168" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4716.xhtml" change="#d2e296" xml:id="pb_8.d2e644"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="168" edRef="#edition_1" xml:id="pb_16.d2e768"/>
@@ -214,13 +205,10 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_33.d2e653" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_1.d2e655" xml:lang="ar"> 
                   ١  - </hi>نظرة عامة فيه</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_34.d2e662" xml:lang="ar">اضطراب حبل الأمن في جنوبي <placeName change="#d2e383 #d2e403" xml:id="placeName_13.d2e788" xml:lang="ar">العراق</placeName> عام ١٢٧٦
-                هـ! بتمرد عشائر (البو محمد) على الحكومة العثمانية، فرفع زعيمها الكبير فيصل بن خليفة راية العصيان عليها. فاضطرت الحكومة إلى سوق جيش لجب عليها قاد زمامه (اللواء محمد باشا الدياربكرلي) فكانت الحرب سجالاً بين الطرفين. ثم انتهت بكسر فيصل بن خليفة وتنظيم الحكومة مقراً عسكرياً لها على ضفة دجلة اليسرى أسماه الأهلون (الأوردي) وهي لفظة تركية معناها مقر الجيش ولا يزال هناك من يطلق هذا الاسم على البقعة التي أنشئت فيها (العمارة) بعد قليل من الزمن.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_34.d2e662" xml:lang="ar">اضطراب حبل الأمن في جنوبي <placeName change="#d2e383 #d2e403" xml:id="placeName_13.d2e788" xml:lang="ar">العراق</placeName> عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1276" from="1859" to="1860">١٢٧٦ هـ</date> ! بتمرد عشائر (البو محمد) على الحكومة العثمانية، فرفع زعيمها الكبير فيصل بن خليفة راية العصيان عليها. فاضطرت الحكومة إلى سوق جيش لجب عليها قاد زمامه (اللواء محمد باشا الدياربكرلي) فكانت الحرب سجالاً بين الطرفين. ثم انتهت بكسر فيصل بن خليفة وتنظيم الحكومة مقراً عسكرياً لها على ضفة دجلة اليسرى أسماه الأهلون (الأوردي) وهي لفظة تركية معناها مقر الجيش ولا يزال هناك من يطلق هذا الاسم على البقعة التي أنشئت فيها (العمارة) بعد قليل من الزمن.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_35.d2e670" xml:lang="ar">ولما هدأت الحالة هناك وعادت السكينة إلى مقرها والسيوف إلى غمودها: نظمت الحكومة العثمانية (لواء عسكرياً) لحفظ الأمن في هاتيك الربوع ولمشارفة سير جباية الأموال الأميرية وأنشأت لجيشها المقيم هناك عمارة فخمة للسكنى وللتحصن فيها عند الاقتضاء وكان المجاورون لعمارة الجيش يفتحون بعض الحوانيت قياماً بما يحتاج إليه الجند ثم أنشئوا جملة مساكن لهم فانتشرت بذلك الحركة العمرانية وأطلق الأهلون ورجال الحكومة كلمة (العمارة) على ذلك المقر العسكري. وبعد مضي حولين كاملين على الحركة التأديبية المار ذكرها نظمت الحكومة (قضاءاً مدنياً) أطلقت عليه أسم (قضاء العمارة) فأخذ الأهلون يختلفون إليه من جهات نائية طمعاً في وفرة الكسب وعذوبة الهواء ونشف الأرض فأصبحت (العمارة) جنة غناء ومتنزهاً وتعد اليوم (باريس <placeName change="#d2e383 #d2e403" xml:id="placeName_14.d2e799" xml:lang="ar">العراق</placeName>) في نظر بعضهم لجمال موقعها وخصب تربتها وكان قائم مقامها إذ ذاك عبد القادر بك فأرخ الأخرس تاريخ إنشاء العمارة قائلاً:</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_36.d2e673" xml:lang="ar">قل لمن يسأل عن تاريخها (قد عمرت أيام عبد القادر) (أي عام ١٢٧٨
-                هـ!) ( 
-                  ١٨٦١
-                م) وتقدر نفوسها ب ( ١٩ .  ٣٠٠ ) نسمة وفيها رصيف على طوار النهر يبلغ طوله زهاء  ٥٠٠  متر.
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_36.d2e673" xml:lang="ar">قل لمن يسأل عن تاريخها (قد عمرت أيام عبد القادر) (أي عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1278" from="1861" to="1862">١٢٧٨ هـ</date> !) ( 
+                  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1861">١٨٦١ م)</date>  وتقدر نفوسها ب ( ١٩ .  ٣٠٠ ) نسمة وفيها رصيف على طوار النهر يبلغ طوله زهاء  ٥٠٠  متر.
 <pb n="n8-p169" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4717.xhtml" change="#d2e296" xml:id="pb_9.d2e693"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="169" edRef="#edition_1" xml:id="pb_18.d2e828"/>
 
@@ -251,13 +239,11 @@
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="171" edRef="#edition_1" xml:id="pb_22.d2e907"/>
 
 
-أنشأها الشيخ خليفة رئيس البو محمد عام ١٢٦٥
-                هـ ونفوسها اليوم  ١٣٣٠  نسمة.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_48.d2e770" xml:lang="ar">وقرية المجر الكبير تبعد عن شرقي العمارة  ١٩  ميلاً أيضاً وأسسها الشيخ صهيود أحد رؤساء البو محمد عام ١٢٩٣
-                هـ وقيل أن سبب تسميتها بهذا الاسم يرجع إلى وقوعها على النهر المسمى باسمها والذي (يجر) الماء بكثرة من دجلة ونفوسها الآن  ٢٦٥٧  نسمة.</p>
+أنشأها الشيخ خليفة رئيس البو محمد عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1265" from="1848" to="1849">١٢٦٥ هـ</date>  ونفوسها اليوم  ١٣٣٠  نسمة.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_48.d2e770" xml:lang="ar">وقرية المجر الكبير تبعد عن شرقي العمارة  ١٩  ميلاً أيضاً وأسسها الشيخ صهيود أحد رؤساء البو محمد عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1293" from="1876" to="1877">١٢٩٣ هـ</date>  وقيل أن سبب تسميتها بهذا الاسم يرجع إلى وقوعها على النهر المسمى باسمها والذي (يجر) الماء بكثرة من دجلة ونفوسها الآن  ٢٦٥٧  نسمة.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_49.d2e785" xml:lang="ar">أما قرية المجر الصغير فتبعد عن غربي العمارة  ١٤  ميلاً وهي أقل عمراناً واضعف شأناً من قرية المجر الكبير وواقعة على ضفة النهر المسمى باسمها وقد أنشأها رئيس الأزيرق الشيخ سلمان عام ١٢٩٥
                  وتقدر نفوسها بألف نسمة.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_50.d2e796" xml:lang="ar">وأما قرية كميت فقد سميت بهذا الاسم لوقوعها على النهر المسمى باسمها وهي تبعد عن شمالي العمارة  ٢٩  ميلاً وأنشأها الشيخ حطاب أحد رؤساء البو دراج وذلك في سنة ١٢٩٥
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_50.d2e796" xml:lang="ar">وأما قرية كميت فقد سميت بهذا الاسم لوقوعها على النهر المسمى باسمها وهي تبعد عن شمالي العمارة  ٢٩  ميلاً وأنشأها الشيخ حطاب أحد رؤساء البو دراج وذلك في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1295" when="1878">سنة ١٢٩٥</date> 
                  وفيها من النفوس زهاء  ١٧٣٠ .</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_51.d2e810" xml:lang="ar">أما ناحية المشرح فمركزها (الحلفاية) وهي قرية على (المشرح) من الجهة اليسرى وتبعد عن العمارة  ٢٠  ميلاً وفيها زهاء  ١٨٦٠  نسمة.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_52.d2e819" xml:lang="ar">
@@ -274,10 +260,8 @@
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_5.d2e849" xml:lang="ar"> 
                   ٥  - </hi>قضاء علي الغربي</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_55.d2e857" xml:lang="ar">بين العمارة والكوت قبران في قريتين مختلفتين يحترمهما أبناء الشيعة لنسبة الأول إلى</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_56.d2e860" xml:lang="ar">(علي) أحد أحفاد الإمام موسى بن جعفر (ع) - على ما يرى - وهو قائم على دجلة من الجهة اليمنى. ولنسبة الأخر إلى (علي الشجري) من أحفاد الحسن بن علي (ع) وهو قائم على جهة دجلة اليسرى في محل يبعد عن القبر الأول  ٣٢  ميلاً. وقد صحف الأهلون (علي الشجري) فقالوا (علي الشرجي) وكان نعمة بن عرار أحد شيوخ بني لأم شاد عام ١٢٨١
-                هـ بقرية قرب القبر الأول سماها (القلعة) إلا أن سكان هذه القرية استبدلوا هذا الاسم ب (علي الغربي) لوقوعها في غرب (علي الشرجي وهو لفظ العامة لكلمة الشرقي) تميزاً لها عن تلك. وهذه القرية هي اليوم مركز القضاء المسمى باسمها. نفوسها  ٢٣٠٠  نسمة وتبعد عن العمارة  ٧٢  ميلاً وليس فيها عمران يذكر إذا استثنينا من ذلك دار قائم المقام والمدرسة الأميرية. ولها سوق حقيرة للغاية ومعظم بيوتها مبنية باللبن وينعطف دجلة عندها انعطافا واسعاً يقرب إليه جبال بشت كوه حيث تكون على بعد  ١١  ميلاً منها. وعلى بعد ميلاً منها تقع آبار النفط داخل الحدود الإيرانية المسماة ب (دهلران) وهذه الآبار كانت منذ خمس سنوات في يد شركة إنكليزية حسب الأصول وقد تركت هذه الشركة أمالها منذ مدة على أثر استيلاء الحكومة الإيرانية على أيالة لورستان.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_57.d2e880" xml:lang="ar">وليس للقضاء ناحية وإنما ترتبط قرية يديرها رئيس بلدية يقوم مقام المدير على نمط القرى الملحقة بالعمارة التي مر ذكرها، وهذه القرية هي (الشيخ سعد) وقد أسسها سعد بن يوسف أحد رؤساء بني لأم عام ١٢٨٨
-                 هـ وهي تقع في منتصف طريق (الكوت إلى علي الغربي) وتقدر نفوسها بألف نسمة أما مبانيها فمناسبة أهميتها وموقعها.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_56.d2e860" xml:lang="ar">(علي) أحد أحفاد الإمام موسى بن جعفر (ع) - على ما يرى - وهو قائم على دجلة من الجهة اليمنى. ولنسبة الأخر إلى (علي الشجري) من أحفاد الحسن بن علي (ع) وهو قائم على جهة دجلة اليسرى في محل يبعد عن القبر الأول  ٣٢  ميلاً. وقد صحف الأهلون (علي الشجري) فقالوا (علي الشرجي) وكان نعمة بن عرار أحد شيوخ بني لأم شاد عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1281" from="1864" to="1865">١٢٨١ هـ</date>  بقرية قرب القبر الأول سماها (القلعة) إلا أن سكان هذه القرية استبدلوا هذا الاسم ب (علي الغربي) لوقوعها في غرب (علي الشرجي وهو لفظ العامة لكلمة الشرقي) تميزاً لها عن تلك. وهذه القرية هي اليوم مركز القضاء المسمى باسمها. نفوسها  ٢٣٠٠  نسمة وتبعد عن العمارة  ٧٢  ميلاً وليس فيها عمران يذكر إذا استثنينا من ذلك دار قائم المقام والمدرسة الأميرية. ولها سوق حقيرة للغاية ومعظم بيوتها مبنية باللبن وينعطف دجلة عندها انعطافا واسعاً يقرب إليه جبال بشت كوه حيث تكون على بعد  ١١  ميلاً منها. وعلى بعد ميلاً منها تقع آبار النفط داخل الحدود الإيرانية المسماة ب (دهلران) وهذه الآبار كانت منذ خمس سنوات في يد شركة إنكليزية حسب الأصول وقد تركت هذه الشركة أمالها منذ مدة على أثر استيلاء الحكومة الإيرانية على أيالة لورستان.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_57.d2e880" xml:lang="ar">وليس للقضاء ناحية وإنما ترتبط قرية يديرها رئيس بلدية يقوم مقام المدير على نمط القرى الملحقة بالعمارة التي مر ذكرها، وهذه القرية هي (الشيخ سعد) وقد أسسها سعد بن يوسف أحد رؤساء بني لأم عام <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1288" from="1871" to="1872">١٢٨٨ هـ</date>  وهي تقع في منتصف طريق (الكوت إلى علي الغربي) وتقدر نفوسها بألف نسمة أما مبانيها فمناسبة أهميتها وموقعها.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_58.d2e888" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_6.d2e890" xml:lang="ar"> 
                   ٦  - </hi>المعارف في اللواء</p>
@@ -462,7 +446,7 @@
 
 
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_21.d2e1355" xml:lang="ar"> 
-                  ٢  - </hi>حقيقي بك. من الأمراء ولد ب<placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_20.d2e1361" xml:lang="ar">بغداد</placeName> واسمه مصطفى وهو أبن عم عثمان بك ترك <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_21.d2e1364" xml:lang="ar">بغداد</placeName> أيام خضر باشا سنة ٩٦٣
+                  ٢  - </hi>حقيقي بك. من الأمراء ولد ب<placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_20.d2e1361" xml:lang="ar">بغداد</placeName> واسمه مصطفى وهو أبن عم عثمان بك ترك <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_21.d2e1364" xml:lang="ar">بغداد</placeName> أيام خضر باشا <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0963" from="1555" to="1556">سنة ٩٦٣</date> 
                  لمنافرة حدثت بينه وبين الوالي وكان (قوللو أغاسي) وهو من أمراء الألوية. له شعر في الفارسية والتركية.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_139.d2e1374" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_22.d2e1376" xml:lang="ar"> 
@@ -503,8 +487,7 @@
                   ١٤  - </hi>ذهني جلبي. بغدادي اسمه عبد الدليل، شاعر اشتهر بالموسيقى.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_152.d2e1508" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_34.d2e1510" xml:lang="ar"> 
-                  ١٥  - </hi>روحي البغدادي أشهر من قفا نبك شاعر معروف أسمه عثمان، رومي الأصل ومن مماليك أياسي باشا والي <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_29.d2e1516" xml:lang="ar">بغداد</placeName>. ولد ب<placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_30.d2e1519" xml:lang="ar">بغداد</placeName> وتزوج فيها ودخل في بلوك المتطوعين. توفي سنة ١٠١٤
-                هـ! وديوانه مطبوع.</p>
+                  ١٥  - </hi>روحي البغدادي أشهر من قفا نبك شاعر معروف أسمه عثمان، رومي الأصل ومن مماليك أياسي باشا والي <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_29.d2e1516" xml:lang="ar">بغداد</placeName>. ولد ب<placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_30.d2e1519" xml:lang="ar">بغداد</placeName> وتزوج فيها ودخل في بلوك المتطوعين. توفي <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1014" from="1605" to="1606">سنة ١٠١٤ هـ</date> ! وديوانه مطبوع.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_153.d2e1528" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_35.d2e1530" xml:lang="ar"> 
                   ١٦  - </hi>ضائعي. بغدادي من أهل العلم. ثم مال إلى الشعر بكلية.
@@ -516,8 +499,8 @@
                   ١٧  - </hi>طرزي من أهل دزرفول ورد <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_31.d2e1544" xml:lang="ar">بغداد</placeName> بأمل السياحة ولكن طاب له الوطن فأقام، وهو صديق حميم لعهدي. ويعد من حلالي المشاكل في الآداب.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_154.d2e1548" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_37.d2e1550" xml:lang="ar"> 
-                  ١٨  - </hi>فضول البغدادي وهو محمد بن سليمان. شاعر مشهور في الفارسي والتركي اشتهرت دواوينه. توفي بالطاعون سنة ٩٦٣
-                . قال في كشف الظنون توفي سنة ٩٧١
+                  ١٨  - </hi>فضول البغدادي وهو محمد بن سليمان. شاعر مشهور في الفارسي والتركي اشتهرت دواوينه. توفي بالطاعون <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0963" from="1555" to="1556">سنة ٩٦٣</date> 
+                . قال في كشف الظنون توفي <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0971" from="1563" to="1564">سنة ٩٧١</date> 
                 .</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_155.d2e1568" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_38.d2e1570" xml:lang="ar"> 
@@ -546,7 +529,7 @@
 محمد بن عبد الملك البغدادي</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_163.d2e1640" xml:lang="ar">في كلشن شعراء لم يرد ذكر لعم عهدي البغدادي وهو محمد بن عبد الملك مع أنه درس على أخيه شمسي البغدادي وهذا ملخص ترجمته نقلاً عن خلاصة الأثر: (هو محمد بن عبد الملك البغدادي الحنفي، نزيل <placeName change="#d2e296 #d2e403" xml:id="placeName_35.d2e1642" xml:lang="ar">دمشق</placeName> 
                <placeName change="#d2e296 #d2e403" xml:id="placeName_36.d2e1645" xml:lang="ar">الشام</placeName>، الشيخ الإمام المحقق. كان من كبار العلماء خصوصاً في المعقولات كالإلهيات والطبيعيات والرياضيات. وهو من جماعة علامة زمانه منلا مصلح الدين اللاري. قيل أخذ عن أخيه شمسي البغدادي. وكان في الأصول والفقه علامة. وله اليد الطولى في الكلام والمنطق والبيان والعربية. قدم <placeName change="#d2e296 #d2e403" xml:id="placeName_37.d2e1648" xml:lang="ar">دمشق</placeName> 
-               سنة ٩٧٧
+               <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0977" from="1569" to="1570">سنة ٩٧٧</date> 
                  وحضر دروس البدر الغزي ولازم أبا الفداء إسماعيل النابلسي، وقرأ فقه الشافعي على الشهاب العيثاوي ثم تحنف وولي وظائف وتدريس منها المدرسة الدرويشية وبقعة في الجامع الأموي وتولى تصدير حديث بالجامع المذكور. وكان له من صندوق السلطنة في كل يوم ما يزيد على أربعين عثمانياً وتولى مشيخة الجامع فسمى شيخ الحرم الأموي، وتولى تولية الدرويشية وعظم أمره وتردد إلى القضاء. وشمخ بأنفه حين رجع الناس إليه. وكان يحضر دروسه أفاضل الوقت، ودروس التفسير بالجامع. وكانت في لسانه لكنة عظيمة حتى أنه كان لا يفصح عن كلامه أبداً. وشاع ذكره في الأقطار الشامية. توفي ليلة الاثنين في</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_164.d2e1657" xml:lang="ar">العشرين من شعبان لسنة ١٠١٦
                  وقد احتال القاضي والنائب هناك لسلب أمواله استفادة من غياب أقاربه عنه. ثم جاء بعد مدة أبن عم له من <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_38.d2e1664" xml:lang="ar">بغداد</placeName> إلى <placeName change="#d2e296 #d2e403" xml:id="placeName_39.d2e1667" xml:lang="ar">دمشق</placeName> فصالحه النائب على شيء من المال ثم ذهب فشكاه إلى الوزير نصوح باشا. وكان الوزير المذكور راس العساكر إذ ذاك يحلب فوردت الأوامر بطلب النائب بسبب ذلك إلى <placeName change="#d2e296 #d2e403" xml:id="placeName_40.d2e1670" xml:lang="ar">حلب</placeName>) انتهى ملخصاً.</p>
@@ -559,8 +542,7 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_166.d2e1682" xml:lang="ar">ملحوظات عن المقال السابق</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_167.d2e1686" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_44.d2e1688" xml:lang="ar"> 
-                  ١  - </hi>أن ما نبهت <title level="j" change="#d2e296 #d2e403" xml:id="title_10.d2e1694" xml:lang="ar">لغة العرب</title> من أن عهدي قدم إلى <placeName change="#d2e383 #d2e403" xml:id="placeName_59.d2e1913" xml:lang="ar">الأستانة</placeName> سنة ٩٢٠
-                هـ نقلاً عن كشف الظنون طبعة أوربة غير صحيح فأن الكشف مخطئ في روايته. وقد ذكرت نقلاً عن التذكرة أنه سافر إلى بلاد الروم سنة ٩٦٠
+                  ١  - </hi>أن ما نبهت <title level="j" change="#d2e296 #d2e403" xml:id="title_10.d2e1694" xml:lang="ar">لغة العرب</title> من أن عهدي قدم إلى <placeName change="#d2e383 #d2e403" xml:id="placeName_59.d2e1913" xml:lang="ar">الأستانة</placeName> <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0920" from="1514" to="1515">سنة ٩٢٠ هـ</date>  نقلاً عن كشف الظنون طبعة أوربة غير صحيح فأن الكشف مخطئ في روايته. وقد ذكرت نقلاً عن التذكرة أنه سافر إلى بلاد الروم <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0960" from="1552" to="1553">سنة ٩٦٠</date> 
                  وقد أخذت هذا القول من الصحيفة الثامنة من الكتاب المذكور ونصه: (لا يخفى على أرباب الصفا وأهل الصدق. . . أن هذا العبد الفقير. . . عهدي بن شمسي البغدادي عزم إلى بلاد الروم في سنة ستين وتسعمائة) أهـ. فاقتضى الإشارة إلى ذلك لئلا يعول على كشف الظنون طبعة أوربة في هذا الموضوع.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_168.d2e1708" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_45.d2e1710" xml:lang="ar"> 
@@ -977,7 +959,7 @@
             <div type="item" change="#d2e344 #d2e389 #d2e383 #d2e403" subtype="article" xml:id="div_25.d2e2888" xml:lang="ar">
                <head change="#d2e296 #d2e403" xml:id="head_10.d2e2590" xml:lang="ar">باب المكاتبة والمذاكرة</head>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_282.d2e2593" xml:lang="ar">أعنز أم عنزة</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_283.d2e2596" xml:lang="ar">كنا قد نقدنا في شهر أيار (مايو) من سنة ١٩٢٨
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_283.d2e2596" xml:lang="ar">كنا قد نقدنا في شهر أيار (مايو) من <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                     (<title level="j" change="#d2e296 #d2e403" xml:id="title_13.d2e2603" xml:lang="ar">لغة العرب</title>  
                   ٦ :  ٣٧٩ ) كتاباً ركيك العبارة وافر الأغلاط أعظم أسمه أعظم حرب في التاريخ لصاحبه جرجس الخوري <persName change="#d2e296 #d2e403" xml:id="persName_18.d2e2612" xml:lang="ar">
                      <addName type="nickname" change="#d2e296 #d2e403" xml:id="addName_3.d2e2613" xml:lang="ar">صاحب مجلة <title level="j" change="#d2e296 #d2e403" xml:id="title_14.d2e2615" xml:lang="ar">المورد</title>
@@ -1031,17 +1013,14 @@
                </p>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_298.d2e2733" xml:lang="ar">صاحب مختار الصحاح</p>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_299.d2e2736" xml:lang="ar">ورد في ص  ١٨  و  ١٩  من هذا الكتاب للسيد <persName change="#d2e282 #d2e296 #d2e403" ref="oape:pers:917 viaf:299037057" xml:id="persName_21.d2e2744" xml:lang="ar">عبد الله مخلص</persName> (راجع ص  ٢٢١  من هذا الجزء) ما نصه (ولما لم نتأكد من تاريخ وفاته على التحقيق فسنضطر للقول بأن زين</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_300.d2e2751" xml:lang="ar">الدين محمد بن أبي بكر بن عبد القادر الرازي نسبة إلى مدينة الري مدينة كبيرة من بلاد الديلم بين قوس والجبال، قد توفي بعد سنة ٦٦٦
-                   هـ  
-                     ١٢٦٧
-                   م).</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_301.d2e2762" xml:lang="ar">ونقل في ص  ٢  عن كشف الظنون (وفي أخره - أي أخر مختار الصحاح - وافق فراغه عشية يوم الجمعة سنة ٧٦٠
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_300.d2e2751" xml:lang="ar">الدين محمد بن أبي بكر بن عبد القادر الرازي نسبة إلى مدينة الري مدينة كبيرة من بلاد الديلم بين قوس والجبال، قد توفي بعد <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0666" from="1267" to="1268">سنة ٦٦٦ هـ</date>   
+                     <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1267">١٢٦٧ م)</date> .</p>
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_301.d2e2762" xml:lang="ar">ونقل في ص  ٢  عن كشف الظنون (وفي أخره - أي أخر مختار الصحاح - وافق فراغه عشية يوم الجمعة <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0760" from="1358" to="1359">سنة ٧٦٠</date> 
                     ستين وسبعمائة) أهـ.</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_302.d2e2773" xml:lang="ar">قلنا: أن مؤلف كشف الظنون نفسه تكلم على (غريب القرآن) في باب الغين ومما قاله) غريب القرآن أفرد الأليف فيه جماعة غير ما ذكر أبن الأثير منهم الحسن سعيد بن مسعدة الأخفش الأوسط المتوفي سنة ٢٢١
-                   . . . والزاهد الإمام زين الدين محمد بن أبي بكر بن عبد القادر الرازي صاحب مختار الصحاح. . . فرغ من تعليقه في سنة ٦٦٨
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_302.d2e2773" xml:lang="ar">قلنا: أن مؤلف كشف الظنون نفسه تكلم على (غريب القرآن) في باب الغين ومما قاله) غريب القرآن أفرد الأليف فيه جماعة غير ما ذكر أبن الأثير منهم الحسن سعيد بن مسعدة الأخفش الأوسط المتوفي <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0221" from="0835" to="0836">سنة ٢٢١</date> 
+                   . . . والزاهد الإمام زين الدين محمد بن أبي بكر بن عبد القادر الرازي صاحب مختار الصحاح. . . فرغ من تعليقه في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0668" from="1269" to="1270">سنة ٦٦٨</date> 
                     ثمان وستين وستمائة) فالظاهر أن السبعمائة المذكورة أو لا محرفة من الستمائة لفرط التشابه بينهما.</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_303.d2e2786" xml:lang="ar">وقرأنا في ص  ٩  أن من العلماء الذين ذكرهم بأخر ورقة من الجزء التاسع من كتاب جامع الأصول المسموع بمدينة قونية (قلمشاه) فنقول أن أبن بطوطة قال في رحلته إلى قونية سنة ٧٣٣
-                   هـ (نزلنا منها بزاوية قاضيها ويعرف بأبن قلمشاه) فلعله أبن قلمشاه المذكور بل هو الراجح.</p>
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_303.d2e2786" xml:lang="ar">وقرأنا في ص  ٩  أن من العلماء الذين ذكرهم بأخر ورقة من الجزء التاسع من كتاب جامع الأصول المسموع بمدينة قونية (قلمشاه) فنقول أن أبن بطوطة قال في رحلته إلى قونية <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0733" from="1332" to="1333">سنة ٧٣٣ هـ</date>  (نزلنا منها بزاوية قاضيها ويعرف بأبن قلمشاه) فلعله أبن قلمشاه المذكور بل هو الراجح.</p>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_304.d2e2798" xml:lang="ar">وها نحن نقف القلم غير يائسين من التحقيق، وقد وجدنا الرازي المذكور يشير في مادة (ربض) من المختار إلى شرح الغريبين ولم نتمكن من معرفة الشارح حتى نقابله بما ورد من زمن الرازي فهل من ملم بذلك فيفيدنا؟.</p>
                <byline change="#d2e219 #d2e296 #d2e403" xml:id="byline_6.d2e2801" xml:lang="ar">
                   <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_52.d2e2802" xml:lang="ar">بغداد</placeName>: <persName change="#d2e296 #d2e403" xml:id="persName_22.d2e2805" xml:lang="ar">مصطفى جواد</persName>
@@ -1106,7 +1085,7 @@
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="220" edRef="#edition_1" xml:id="pb_120.d2e3340"/>
 
 
-الثالث والسبعين بتاريخ يوليو سنة ١٩٢٨
+الثالث والسبعين بتاريخ يوليو <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1928">سنة ١٩٢٨</date> 
                  مقالاً عن النفط في <placeName change="#d2e383 #d2e403" xml:id="placeName_81.d2e3348" xml:lang="ar">العراق</placeName> للأستاذ أمين المعلوف أفندي في أثناء هذا المقال صورة كتب تحتها قبر النبي دانيال والفتية الثلاثة في كركوك والمعروف في كتب التاريخ المعتبرة أن النبي دانيال دفن بمدينة السوس بخوزستان ب<placeName change="#d2e383 #d2e403" xml:id="placeName_82.d2e3350" xml:lang="ar">العراق</placeName> كما ذكر ذلك الطبري في تاريخه وياقوت في معجمه وغيرهما فهل يمكن أن تتفضلوا بإفادتنا عما يوجد بقبر النبي دانيال بكركوك من الأدلة التي تثبن أنه قبره ككتاب أو نحوها.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_333.d2e3000" xml:lang="ar">وهل مدينة كركوك في موقع مدينة السوس القديمة أو ماذا؟.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_334.d2e3003" xml:lang="ar">أننا نعلم بعد الشقة بين <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_60.d2e3005" xml:lang="ar">بغداد</placeName> وهذه الجهة ولكن ربما أمكنكم بواسطة من تعرفونه وتثقون به، الاستفهام لنا عن ذلك وأفادتنا.</p>
@@ -1127,14 +1106,9 @@
                   <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_67.d2e3038" xml:lang="ar"> 
                      ٣٤  - </hi>صاحب مختار الصحاح</head>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_340.d2e3045" xml:lang="ar">ل<persName change="#d2e282 #d2e296 #d2e403" ref="oape:pers:917 viaf:299037057" xml:id="persName_23.d2e3047" xml:lang="ar">عبد الله مخلص</persName> عضو المجمع العلمي العربي بدمشق</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_341.d2e3051" xml:lang="ar">كراسة نفيسة في  ٢٥  ص بقطع الثمن حقق فيها حضرة الصديق ترجمة صاحب مختار الصحاح وهو زين الدين أبو عبد الله محمد بن أبي بكر بن عبد القادر الرازي وأنه كان من معاصري الصدر القونوي المتوفي في سنة ٦٧٣
-                   هـ  
-                     ١٢٧٠
-                   م وأنه كان في قيد الحياة سنة ٦٦٦
-                   هـ  
-                     ١٢٦٧
-                   م وأنه توفي بعد هذه السنة لكن لم تكن وفاته في سنة ٧٦٠
-                   هـ كما ورد في كشف الظنون، إذ بين المحقق شناعة هذا الوهم.</p>
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_341.d2e3051" xml:lang="ar">كراسة نفيسة في  ٢٥  ص بقطع الثمن حقق فيها حضرة الصديق ترجمة صاحب مختار الصحاح وهو زين الدين أبو عبد الله محمد بن أبي بكر بن عبد القادر الرازي وأنه كان من معاصري الصدر القونوي المتوفي في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0673" from="1274" to="1275">سنة ٦٧٣ هـ</date>   
+                     <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1270">١٢٧٠ م</date> وأنه كان في قيد الحياة <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0666" from="1267" to="1268">سنة ٦٦٦ هـ</date>   
+                     <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1267">١٢٦٧ م</date> وأنه توفي بعد هذه السنة لكن لم تكن وفاته في <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0760" from="1358" to="1359">سنة ٧٦٠ هـ</date>  كما ورد في كشف الظنون، إذ بين المحقق شناعة هذا الوهم.</p>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_342.d2e3079" xml:lang="ar">والذي نأخذه على الصديق أنه أدرج صور رسائل الأصدقاء العلماء المعاصرين ولم يذكر محل كتابتها ولا تاريخ كتابتها. وهذا ما ننكره عليه كل الإنكار فعسى أن يشار إلى ذلك في طبعة ثانية. (وراجع ص  ٢١٤  من هذا الجزء).</p>
             </div>
             <div type="item" change="#d2e307 #d2e389 #d2e383 #d2e403" subtype="article" xml:id="div_32.d2e3459" xml:lang="ar">
@@ -1152,8 +1126,8 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_344.d2e3116" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_69.d2e3118" xml:lang="ar"> 
                   ٣٦  - </hi>التعقيم في كليفرنية من وضع بولس بوبنوي</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_345.d2e3125" xml:lang="ar">عقمت حكومة كليفرنية منذ سنة ١٩٠٩
-                 إلى آخر سنة ١٩٢٧
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_345.d2e3125" xml:lang="ar">عقمت حكومة كليفرنية منذ <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1909">سنة ١٩٠٩</date> 
+                 إلى آخر <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1927">سنة ١٩٢٧</date> 
                  نحو  ٥٠٠٠ 
                <pb n="n8-p222" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4770.xhtml" change="#d2e296" xml:id="pb_62.d2e3140"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="222" edRef="#edition_1" xml:id="pb_124.d2e3520"/>
@@ -1223,8 +1197,8 @@
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_78.d2e3336" xml:lang="ar"> 
                   ٤٤  - </hi>قراءة كتابات قبرية قديمة (بالروسية)</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_374.d2e3343" xml:lang="ar">من وضع المحفي الروسي السوفييتس (في  ١٢٦  ص و  ١٠  ألواح مصورة).</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_375.d2e3352" xml:lang="ar">يحوي هذا الكتاب تصوير اثنتي عشرة شاهدة تصويراً مطابقاً للأصل كانت موضوعة على قبور المسلمين وتاريخ أقدم شاهدة سنة ٢١٨
-                 للهجرة وأحدثها سنة ٤٩٢
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_375.d2e3352" xml:lang="ar">يحوي هذا الكتاب تصوير اثنتي عشرة شاهدة تصويراً مطابقاً للأصل كانت موضوعة على قبور المسلمين وتاريخ أقدم شاهدة <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0218" from="0833" to="0834">سنة ٢١٨</date> 
+                 للهجرة وأحدثها <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0492" from="1098" to="1099">سنة ٤٩٢</date> 
                  قرء من هذه الشواهد عشر وأهملت اثنتان لكونهما غير تامتين وكلها مكتوبة بخط يشبه بديع الأزهار أو النقوش العربية ووضع في الأخر أشكال الحروف التي اتخذت في تلك الشواهد مع ما يقابلها من حروفنا النسخية. والكتاب يبحث عن كل كلمة جاءت في تلك الحجارة وأصلها ومعناها بحيث جاء أحسن ما يصنف في بابه. ونحن نعجب من أبناء الغرب ومن
 <pb n="n8-p226" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4774.xhtml" change="#d2e296" xml:id="pb_66.d2e3364"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="226" edRef="#edition_1" xml:id="pb_132.d2e3754"/>
@@ -1254,10 +1228,8 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_385.d2e3431" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_82.d2e3433" xml:lang="ar"> 
                   ٤٨  - </hi>الإفصاح في فقه اللغة</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_386.d2e3440" xml:lang="ar">تأليف عبد الفتاح الصعيدي وحسين يوسف موسى، المتخرجين في دار العلوم والمدرسين بالمدارس الأميرية طبع بمطبعة دار الكتب المصرية ب<placeName change="#d2e383 #d2e403" xml:id="placeName_95.d2e3834" xml:lang="ar">القاهرة</placeName> سنة ١٣٤٨
-                هـ  
-                  ١٩٢٩
-                م في  ٧٣٦  ص بقطع الثمن.</p>
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_386.d2e3440" xml:lang="ar">تأليف عبد الفتاح الصعيدي وحسين يوسف موسى، المتخرجين في دار العلوم والمدرسين بالمدارس الأميرية طبع بمطبعة دار الكتب المصرية ب<placeName change="#d2e383 #d2e403" xml:id="placeName_95.d2e3834" xml:lang="ar">القاهرة</placeName> <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1348" from="1929" to="1930">سنة ١٣٤٨ هـ</date>   
+                  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="high" xml:lang="ar" when="1929">١٩٢٩ م</date> في  ٧٣٦  ص بقطع الثمن.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_387.d2e3454" xml:lang="ar">هذا الكتاب من غرر المؤلفات، بل من دررها، ولا بد من إدخاله في كل مدرسة تحرص على إتقان اللغة العربية، وفي كل ديوان يعني صاحبه أو أصحابه بمعالجة بحث فصيح في لغتنا الضادية. والسبب انه زبدة (المخصص) لأبن سيدة وهو معجم معنوي تطلب فيه موضوعات تعرف مجملة ولا تحضرك أسماء مفصلة فتعمد إلى هذا الكنز البديع فتجد فيه كل ما تنشد من الضوال. وكم كنا نرغب في تلخيص (المخصص) ليستفيد منه أبناء المدارس وما كنا نجد من يقوم بأعبائه! أما اليوم فقد خرجت هذه الحسرة من صدرنا بفضل ما أصدره لنا حضرة الأستاذين الجليلين عبد الفتاح الصعيدي وحسين يوسف موسى اللذين أبدعا في وضع هذا الأثر النفيس الذي لا يقدر ثمنه مهما بالغنا فيه.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_388.d2e3457" xml:lang="ar">وهذا السفر الجليل مبوب تبويب (المخصص) وعباراته كعبارته في أغلب الأحايين وأن كان صاحباه استمدا من سائر أمهات الكتب اللغوية الشيء الجليل على ما قالا في المقدمة في ص (ث) وهذه عبارتهما: (وقد حرصنا الحرص كله على أن نحتفظ بعبارات الكتب التي اتقينا منها مادة الكتاب، فذكرناها بنصها وفصها، ولم نحاول أن نصلح من العبارات، أو نتصرف في الألفاظ رغم وجود (لعلها على رغم أو برغم وجود) بعض مواضع يشعر القارئ بضرورة الحاجة إلى الإصلاح والتغيير فيها. لم نقدم على هذا ليكون الكتاب موضع ثقة تطمئن النفوس إليه، ويعتمد القارئ والباحث عليه).</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_389.d2e3461" xml:lang="ar">على أننا نرى في هذا الاستعباد للأولين والغض من رقي المعاصرين ما يسقط ثمن هذه الدرة من عيون الطلبة الذين أمعنوا في علوم العصر ولهذا كان يمكن
@@ -1291,7 +1263,7 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_400.d2e3564" xml:lang="ar">ومن غريب ما يجري في هذا الوادي قوله (ولا تطلب المبحث خارجاً عن تلك الصفحة العجيبة): (لولا زعيمهم أسقف أرفاً يعقوب لزنزلي المشهور بالبرادعي) قلنا: لم يكن في عصر يعقوب البرادعي مدينة باسم (أرفا) إنما هذا الاسم حديث والذي كان معروفاً في ذلك العهد هو الرها. فلو قال أسقف الرها المعروفة بأرفا لعذرناه أما أنه قال مباشرة: أسقف أرفأ فخطاً صريح.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_401.d2e3568" xml:lang="ar">ومن عجيب عمل حضرة الارشمندريت المحترم أنه لم يذكر اسماً واحداً من إعلام المدن أو الرجال إلا وقد أخطأ فيه وما كاد يصيب إلا في علم واحد لا غير أورد بالصورة غير المشهورة عند العرب وهو (نسطوريوس) قال في القاموس في مادة س ط ر: النسطورية بالضم وتفتح أمة من النصارى تخالف بقيتهم وهم أصحاب نسطور الحكيم. . . وهو</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_402.d2e3571" xml:lang="ar">بالرومية نسطورس) أهـ. ترى أنه ارتكب ثلاث غلطات في علم واحد.</p>
-            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_403.d2e3574" xml:lang="ar">كل ما أتينا به كان من باب تحقيق الأعلام التي وردت في صفحة واحدة ولم نرد أن نتجاوزها لئلا يتسع الخرق علينا والآن نريد أن نذكر في مقالة هذا من روح التعصب وما قذفته يراعته بحق أناس لم يتعرضوا له ولم يهينوه. فقد قال عن النساطرة الحاليين: (وباتت بدعته (أي بدعة نسطور) تذمى في الكلدان كالخنفساء إلى اليوم) (ص  ٢٢٦ ). - وقال عن القائلين بالمشيئة الواحدة وعن المارونية: (فباتت هذه البدعة تعالج النزع في شيعة الراهب يوحنا مارون التي عرفت (بالمردة) (كذا) وانحصرت على فتن <placeName change="#d2e296 #d2e403" xml:id="placeName_71.d2e3579" xml:lang="ar">لبنان</placeName> (كذا، كأن الموارنة ليسوا في سائر بلاد الله) وتسمى الآن (بالمارونية) نسبة إلى الراهب المذكور الذي صار أول عليها (كذا) حتى استوفت أنفاسها أيام ركبات (كذا) الفرنج الصليبيين على الشم سنة ١١٨٢
+            <p change="#d2e73 #d2e296 #d2e403" xml:id="p_403.d2e3574" xml:lang="ar">كل ما أتينا به كان من باب تحقيق الأعلام التي وردت في صفحة واحدة ولم نرد أن نتجاوزها لئلا يتسع الخرق علينا والآن نريد أن نذكر في مقالة هذا من روح التعصب وما قذفته يراعته بحق أناس لم يتعرضوا له ولم يهينوه. فقد قال عن النساطرة الحاليين: (وباتت بدعته (أي بدعة نسطور) تذمى في الكلدان كالخنفساء إلى اليوم) (ص  ٢٢٦ ). - وقال عن القائلين بالمشيئة الواحدة وعن المارونية: (فباتت هذه البدعة تعالج النزع في شيعة الراهب يوحنا مارون التي عرفت (بالمردة) (كذا) وانحصرت على فتن <placeName change="#d2e296 #d2e403" xml:id="placeName_71.d2e3579" xml:lang="ar">لبنان</placeName> (كذا، كأن الموارنة ليسوا في سائر بلاد الله) وتسمى الآن (بالمارونية) نسبة إلى الراهب المذكور الذي صار أول عليها (كذا) حتى استوفت أنفاسها أيام ركبات (كذا) الفرنج الصليبيين على الشم <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1182" from="1768" to="1769">سنة ١١٨٢</date> 
                 ، فأنهم جذبوا الموازنة إلى الخضوع لكنيسة رومية. . . إلا أنهم أبدلوا بدعة (المشيئة الواحدة) بما ابتدعته رومية من الأضاليل (كذا) بعد أن قطعتها الكنيسة عن شركتها في القرن الحادي عشر) أهـ. إلى آخر ما تكلم على هذا الطراز الدال على أدب وحسن ذوق
 <pb n="n8-p231" ed="shamela" corresp="../epub/36540/OEBPS/xhtml/P4779.xhtml" change="#d2e296" xml:id="pb_71.d2e3587"/>
                <pb change="#d2e364 #d2e389 #d2e383" ed="print" n="231" edRef="#edition_1" xml:id="pb_142.d2e3997"/>
@@ -1322,7 +1294,7 @@
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_415.d2e3666" xml:lang="ar">الجزء الأول</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_416.d2e3669" xml:lang="ar">
                <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_84.d2e3671" xml:lang="ar"> 
-                  ٢١  - </hi>ورد في ص  ٣٥  من تصدير هذا الجزء الأول من الأغاني في مختصري الأغاني ما صورته: ومنهم أبو القاسم عبد الله المعروف بابن باقيا الحلبي المتوفي سنة ٤٨٥
+                  ٢١  - </hi>ورد في ص  ٣٥  من تصدير هذا الجزء الأول من الأغاني في مختصري الأغاني ما صورته: ومنهم أبو القاسم عبد الله المعروف بابن باقيا الحلبي المتوفي <date calendar="#cal_islamic" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0485" from="1092" to="1093">سنة ٤٨٥</date> 
                  قلنا: هكذا رأينا (باقيا) بالباء الموحدة والذي في تاريخ أبن خلكان من ترجمه المذكور ما نصه (وناقيا بفتح النون وبعد الألف قاف مكسورة ثم ياء مثناة من تحتها مفتوحة وبعدها ألف) وذكر أبن خلكان أنه كان من أهل <placeName change="#d5e244 #d2e296 #d2e403" ref="oape:place:216 geon:98182" xml:id="placeName_74.d2e3685" xml:lang="ar">بغداد</placeName> وتوفي فيها.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_417.d2e3689" xml:lang="ar">أما أن المختصر (حلبي) وأنه (أبن باقيا) فقد نقل من كتاب (كشف الظنون) والخطأ سار منه في كل طبعاته الأستانية والفرنجية والمصرية، ولعل باقيا فيه من أغلاط الطبع.</p>
             <p change="#d2e73 #d2e296 #d2e403" xml:id="p_418.d2e3692" xml:lang="ar">
@@ -1402,7 +1374,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e403" xml:id="p_435.d2e3970" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_97.d2e3972" xml:lang="ar"> 
                      ٢  - </hi>وفاة الشيخ شعلان أبو الجون</head>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_436.d2e3979" xml:lang="ar">أنتقل إلى دار البقاء في  ٢٩  ك  ٢  (يناير) الشيخ شعلان أبو الجون رئيس عشيرة الظوالم وكان من أعلام الثورة الوطنية في سنة ١٩٢٠
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_436.d2e3979" xml:lang="ar">أنتقل إلى دار البقاء في  ٢٩  ك  ٢  (يناير) الشيخ شعلان أبو الجون رئيس عشيرة الظوالم وكان من أعلام الثورة الوطنية في <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1920">سنة ١٩٢٠</date> 
                     ونائباً عن الديوانية في المجلس التأسيسي وكان ممن صرحوا برفض المعاهدة والانتداب البريطاني رفضاً باتاً، تغمده الله برحمته.</p>
             </div>
             <div type="item" change="#d2e307 #d2e389 #d2e383 #d2e403" subtype="article" xml:id="div_38.d2e4435" xml:lang="ar">
@@ -1438,7 +1410,7 @@
                <head change="#d2e73 #d2e296 #d2e307 #d2e403" xml:id="p_445.d2e4056" xml:lang="ar">
                   <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_102.d2e4058" xml:lang="ar"> 
                      ٧  - </hi>كسوة الحكم والقضاء</head>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_446.d2e4066" xml:lang="ar">صدرت الإرادة الملكية بأن يرتدي الحكام والقضاء في أثناء المرافعات منذ  ١  نيسان  ٩٣٠  بالملابس الآتية: -</p>
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_446.d2e4066" xml:lang="ar">صدرت الإرادة الملكية بأن يرتدي الحكام والقضاء في أثناء المرافعات منذ  <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="0930-04-01">١ نيسان ٩٣٠</date> بالملابس الآتية: -</p>
             </div>
             <div type="item" change="#d2e307 #d2e389 #d2e383 #d2e403" subtype="article" xml:id="div_43.d2e4544" xml:lang="ar">
                <head change="#d2e73 #d2e296 #d2e307 #d2e403" xml:id="p_447.d2e4075" xml:lang="ar">
@@ -1496,7 +1468,7 @@
                   <hi style="color:red;" change="#d2e296 #d2e403" xml:id="hi_109.d2e4185" xml:lang="ar"> 
                      ١٢  - </hi>وفاة ممتاز بك</head>
                <p change="#d2e73 #d2e296 #d2e403" xml:id="p_464.d2e4193" xml:lang="ar">استأثر الله ليلة  ٦  فبراير (شباط) بممتاز بك أبن رشيد أفندي الدفتري ووالد علي بك المعاون لمديرية الواردات العامة فتوفي فجأة ومشى في موكبه المهيب كبار موظفي الدولة وجم غفير من وجوه البلدة.</p>
-               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_465.d2e4199" xml:lang="ar">نشأ الفقيد في دار السلام وتلقى علومه في المدرسة الملكية الشاهانية في الآستانة وعين بعد ذلك قائم مقام في عدة مدن من <placeName change="#d2e383 #d2e403" xml:id="placeName_117.d2e4696" xml:lang="ar">العراق</placeName> وبعد نشوب الحرب العظمى بسنتين أحيل إلى الاستراحة وفي سنة ١٩٢٠
+               <p change="#d2e73 #d2e296 #d2e403" xml:id="p_465.d2e4199" xml:lang="ar">نشأ الفقيد في دار السلام وتلقى علومه في المدرسة الملكية الشاهانية في الآستانة وعين بعد ذلك قائم مقام في عدة مدن من <placeName change="#d2e383 #d2e403" xml:id="placeName_117.d2e4696" xml:lang="ar">العراق</placeName> وبعد نشوب الحرب العظمى بسنتين أحيل إلى الاستراحة وفي <date calendar="#cal_gregorian" change="#d3e409" resp="#xslt" cert="low" xml:lang="ar" when="1920">سنة ١٩٢٠</date> 
                     قبل أن يكون قائم مقام في الكاظمية أجابه لإلحاح الأصدقاء عليه وكان أول قائم مقام نصب بعد تسلم الدولة العراقية الحكم في هذه الديار وبقي هناك أربعة أشهر ولما شاهد الثورة العراقية مشتعلة والمحتلين يشدون الإرهاق استعفى ولازم دارة إلى أن وافاه القدر المحتوم وكان قد بلغ من السن الثالثة والستين فنقدم إلى المنتمين إليه ولا سيما نجله النجيب علي بك عبارات التعزية والسلوان.</p>
             </div>
             <div type="item" change="#d2e307 #d2e389 #d2e383 #d2e403" subtype="article" xml:id="div_50.d2e4706" xml:lang="ar">
