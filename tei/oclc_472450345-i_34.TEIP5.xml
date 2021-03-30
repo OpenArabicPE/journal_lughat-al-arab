@@ -49,7 +49,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc xml:lang="en" change="#d2e507" xml:id="revisionDesc_1.d2e174"><change when="2021-03-26" who="#github" xml:id="d2e507" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e505" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e503" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e488" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e493" xml:lang="en">Automatically added computed Gregorian dates to the <att change="#d2e488 #d2e503" xml:id="att_1.d2e174" xml:lang="en">when</att> attributes of all non-Gregorian <gi change="#d2e488 #d2e503" xml:id="gi_1.d2e176" xml:lang="en">date</gi> elements.</change>
+        <revisionDesc xml:lang="en" change="#d2e507" xml:id="revisionDesc_1.d2e174"><tei:change when="2021-03-30" who="#pers_TG" xml:id="d3e509" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2021-03-26" who="#github" xml:id="d2e507" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-25" who="#github" xml:id="d2e505" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-01-06" who="#github" xml:id="d2e503" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-01-06" who="#github" xml:id="d2e488" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2020-07-07" who="#pers_TG" xml:id="d3e493" xml:lang="en">Automatically added computed Gregorian dates to the <att change="#d2e488 #d2e503" xml:id="att_1.d2e174" xml:lang="en">when</att> attributes of all non-Gregorian <gi change="#d2e488 #d2e503" xml:id="gi_1.d2e176" xml:lang="en">date</gi> elements.</change>
             <tei:change when="2020-04-25" who="#pers_TG" xml:id="d3e472" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e488 #d2e503" xml:id="ref_1.d2e181" xml:lang="en">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e488 #d2e503" xml:id="gi_2.d2e184" xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi change="#d2e488 #d2e503" xml:id="gi_2.d2e186" xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
             <tei:change when="2020-04-24" who="#pers_TG" xml:lang="en" change="#d2e488" xml:id="change_2.d2e189">Automatically wrapped all <tag change="#d2e488 #d2e503" xml:id="tag_1.d2e191" xml:lang="en">title level="j"</tag> preceded by مجلة or جريدة in a <tag change="#d2e488 #d2e503" xml:id="tag_2.d2e193" xml:lang="en">bibl type="periodical"</tag></tei:change>
             <change when="2019-11-28" who="#pers_TG" xml:id="d2e451" xml:lang="en">Added <tei:gi change="#d2e488 #d2e503" xml:id="gi_2.d2e197" xml:lang="en">publicationStmt</tei:gi>.</change>
@@ -438,16 +438,14 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_5.d2e335" xml:lang="ar">بغداد</placeName>
                     السابق الشهير با (لكوز لكلي) نحو 
                     
-                        سنة 
-                        ١٢٧٣هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1273" from="1856" to="1857">سنة ١٢٧٣</date> هـ ( 
                      ١٨٥٦م) ثم زاد عليها المرحوم مدحت باشا ثم أخذت بالانحطاط إلى درجة أن بلغ بمدير البواخر المرحوم سري أفندي أن يبيع بعض الأدوات والأنقاض لإيفاء رواتب الموظفين (راجع 
                     <title change="#d2e296 #d5e410 #d2e503" level="j" ref="oape:bibl:1 oclc:472450345" xml:id="title_8.d2e346" xml:lang="ar">لغة العرب</title> ٣
                     :  
                     ٥٦١
                     في الحاشية) ثم بتبدل بعض المأمورين أخذت بالانتعاش حتى تولاها (آمر) قومندان بحرية <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_7.d2e608" xml:lang="ar">البصرة</placeName> الميرلوا (أمير اللواء) أمين باشا حوالي 
                     
-                        سنة 
-                        ١٣٠٩هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1309" from="1891" to="1892">سنة ١٣٠٩</date> هـ ( 
                      ١٨٩١م) فتحسنت حالها وبلغت شاواً مهماً ووفر من وارداتها ما قدمه إلى <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:3 geon:745044" xml:id="placeName_8.d2e622" xml:lang="ar">الأستانة</placeName> لشراء باخرتين تضافان إلى الموجودات وقتئذ فأخذت <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:3 geon:745044" xml:id="placeName_9.d2e625" xml:lang="ar">الأستانة</placeName> المبلغ ولم تشتر بواخر حتى ضج العموم ولكن بلا جدوى؛ فاشترت الأملاك الخاصة بالسلطان السابق حضرة عبد الحميد خان هذه البواخر الأربع وهي 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_6.d2e364" xml:lang="ar">الموصل</placeName>
                     والفرات والرصافة والبغدادي مع إدارتي <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_11.d2e631" xml:lang="ar">البصرة</placeName> و
@@ -459,24 +457,19 @@
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1569.xhtml" ed="shamela" n="n3-p618" xml:id="pb_2.d2e374"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_618" n="618" xml:id="pb_4.d2e652"/>
                     المالية فأخذت الحكومة منها باخرتين وثلاثاً اتخذتها لنقل الأشياء العسكرية ولتأديب العشائر في أطراف المنتفق وبقيت خمس سائرة وقد حصل من ذلك ريع صافٍ 
                     
-                        سنة 
-                        ١٣٢٥و
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1325" from="1907" to="1908">سنة ١٣٢٥</date> و
                     
-                        سنة 
-                        ١٣٢٦مالية نحو عشرة آلاف ليرة سنوياً وفي 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1326" from="1908" to="1909">سنة ١٣٢٦</date> مالية نحو عشرة آلاف ليرة سنوياً وفي 
                     
-                        سنة 
-                        ١٢٢٧تولى شؤونها جناب سيروب أفندي إسكندر فبلغ ريعها نحو  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧</date> تولى شؤونها جناب سيروب أفندي إسكندر فبلغ ريعها نحو  
                     ٢٠
                     ألف ليرة وفي 
                     
-                        سنة 
-                        ١٣٢٨تولاها جناب سويان بك المدير الحالي فبلغ الريع  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1328" from="1910" to="1911">سنة ١٣٢٨</date> تولاها جناب سويان بك المدير الحالي فبلغ الريع  
                     ٢٣
                     ألف ليرة وأما في 
                     
-                        سنة 
-                        ١٣٢٩فقد حصل تأخير في سيرها وتعطل بعضها فاقتضى صرف مبالغ لأعمارها ولذا كان الريع الصافي نحو  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1329" when="1911">سنة ١٣٢٩</date> فقد حصل تأخير في سيرها وتعطل بعضها فاقتضى صرف مبالغ لأعمارها ولذا كان الريع الصافي نحو  
                     ١٨</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_3.d2e412" xml:lang="ar">ألف ليرة. وهذه هي البواخر التي عليها مدار البحث وتذمر الصحف.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_4.d2e415" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_2.d2e417" xml:lang="ar"> ٢- </hi>تظاهرات الأهالي ضد بيعها</p>
@@ -514,8 +507,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_16.d2e480" xml:lang="ar">بغداد</placeName></p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_10.d2e483" xml:lang="ar">تألفت شركة 
                     
-                        سنة 
-                        ١٣٢٧هجرية في زمن ولاية حضرة نجم الدين بك علي 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1327" from="1909" to="1910">سنة ١٣٢٧</date> هجرية في زمن ولاية حضرة نجم الدين بك علي 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_17.d2e490" xml:lang="ar">بغداد</placeName>
                     وكانت بتشويقه وكان عمادها حضرة محمود أفندي شابندر زاده لتسيير سيارات (أوتوموبيلات) بين 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_18.d2e493" xml:lang="ar">بغداد</placeName>
@@ -534,8 +526,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_22.d2e529" xml:lang="ar">بغداد</placeName>
                     بل بأختها <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_35.d2e824" xml:lang="ar">البصرة</placeName> أيضاً فقد تألفت فيها شركة 
                     
-                        سنة 
-                        ١٣٠٦هجرية رأس مالها عشرون ألف ليرة لتشتري باخرة بحرية كانت
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1306" from="1888" to="1889">سنة ١٣٠٦</date> هجرية رأس مالها عشرون ألف ليرة لتشتري باخرة بحرية كانت
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1571.xhtml" ed="shamela" n="n3-p620" xml:id="pb_4.d2e537"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_620" n="620" xml:id="pb_8.d2e834"/>
                     معروضة للبيع اسمها (اداوة) واجتمع المبلغ واتفق أرباب الأسهم على توديع الرئاسة للمرحوم الحاج أحمد</p>
@@ -647,16 +638,14 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_37.d2e812" xml:lang="ar">بغداد</placeName>
                     الواسعة الأطراف (طالع كتابه المسمى المطبوع في باريس 
                     
-                        سنة 
-                        ١٨٠٩ص ( 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1809">سنة ١٨٠٩</date> ص ( 
                     ٥٩
                     ،  
                     ٦٠
                     ،  
                     ٦١
                     ) إذ يدعو القرية المذكورة نمنوم بخلاف نيبهر السائح الدانمركي الذي جال في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_64.d2e1181" xml:lang="ar">العراق</placeName> 
-                        سنة 
-                        ١٧٦٦فإنه سماها لملوم وهو اسمها الحقيقي (أنظر كتاب رحلته بالفرنسية المجلد الثاني صحيفة  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1766">سنة ١٧٦٦</date> فإنه سماها لملوم وهو اسمها الحقيقي (أنظر كتاب رحلته بالفرنسية المجلد الثاني صحيفة  
                     ٢٠١
                     ) وعليه ليست نمنوم إلا من تصحيف العامة لأسم لملوم كما قد صحفوا كلمة الليمون بصورة نومي الدارجة في كل <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_65.d2e1192" xml:lang="ar">العراق</placeName>.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_48.d2e840" xml:lang="ar">فعبد الله الذي نحن بصدده - لتردده الكثير إلى قرية لملوم أو نمنوم لغاية البيع فيها وربما للقيام بزراعة بعض الأراضي التي حولها كعادة قوم من نصارى 
@@ -671,88 +660,70 @@
                     ٢٢
                     نيسان 
                     
-                        سنة 
-                        ١٧٧٦بسيدي ابنة بوغوص (بولس) سيواسلي الأرمني الكاثوليكي الوارد ذكر أسرته في 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1776">سنة ١٧٧٦</date> بسيدي ابنة بوغوص (بولس) سيواسلي الأرمني الكاثوليكي الوارد ذكر أسرته في 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_41.d2e865" xml:lang="ar">بغداد</placeName>
                     لأول مرة 
                     
-                        سنة 
-                        ١٧٥٣وكان اسم أمها هيلي (هيلاني) وسيدي هذه عمة فرنسيس والد لولو امرأة فتح الله نعمان. وتوفى عبد الله في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1753">سنة ١٧٥٣</date> وكان اسم أمها هيلي (هيلاني) وسيدي هذه عمة فرنسيس والد لولو امرأة فتح الله نعمان. وتوفى عبد الله في  
                     ١٢
                     كانون  
                     ١ 
-                        سنة 
-                        ١٧٩٨وأعقب الأولاد التالية أسماؤهم:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1798">سنة ١٧٩٨</date> وأعقب الأولاد التالية أسماؤهم:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_51.d2e886" xml:lang="ar">يوسف</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_52.d2e889" xml:lang="ar">وجرجس الذي اعتمد في  
-                    ٢١
-                    شباط 
-                    
-                        سنة 
-                        ١٧٨١ </p>
+                    <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1781-02-21">٢١ شباط سنة ١٧٨١</date> </p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_53.d2e900" xml:lang="ar">وبولس حنا الذي ولد في  
                     ١٠
                     تشرين  
                     ١ 
-                        سنة 
-                        ١٧٩١ولا نعرف شيئاً عنه</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1791">سنة ١٧٩١</date> ولا نعرف شيئاً عنه</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_54.d2e915" xml:lang="ar">وهيلاني التي تزوجها التاجر الاسطنبولي المدعو مارتينو (مارتينوس) سيمونيان الأرمني الكاثوليكي واسم أمه اسكوهي ورزق في  
                     ٢
                     كانون  
                     ١ 
-                        سنة 
-                        ١٧٩٨ابنة سماها سيسيليا وتوفيت في شرخ شبابها في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1798">سنة ١٧٩٨</date> ابنة سماها سيسيليا وتوفيت في شرخ شبابها في  
                     ٢٠
                     كانون  
                     ٢ 
-                        سنة 
-                        ١٨٢٠وأما هو فكان قد قضى
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1820">سنة ١٨٢٠</date> وأما هو فكان قد قضى
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1578.xhtml" ed="shamela" n="n3-p627" xml:id="pb_11.d2e940"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_627" n="627" xml:id="pb_22.d2e1299"/>
                     نحبه في  
                     ٩
                     تموز 
                     
-                        سنة 
-                        ١٨١٦بعد أن نالته النوائب وخسر كل ماله في التجارة وذاق مرارة شدة العوز والاحتياج مع إنه كان في وسع والدته التي في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:3 geon:745044" xml:id="placeName_70.d2e1309" xml:lang="ar">الأستانة</placeName> أن تنشله من هذه المعسرة بما لديها من المال ولكنها أبت أن تصغي إلى توسلات وتحسرات ابنها المنكود الحظ.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1816">سنة ١٨١٦</date> بعد أن نالته النوائب وخسر كل ماله في التجارة وذاق مرارة شدة العوز والاحتياج مع إنه كان في وسع والدته التي في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:3 geon:745044" xml:id="placeName_70.d2e1309" xml:lang="ar">الأستانة</placeName> أن تنشله من هذه المعسرة بما لديها من المال ولكنها أبت أن تصغي إلى توسلات وتحسرات ابنها المنكود الحظ.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_55.d2e951" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_17.d2e953" xml:lang="ar"> ٢- </hi>يوسف نمنومي وأولاده</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_56.d2e960" xml:lang="ar">أن يوسف بن عبد الله نمنومي كان من صغار التجار وحسن الخط في العربية وقد اقترن في  
                     ١٧
                     تشرين  
                     ٢ 
-                        سنة 
-                        ١٧٩٩بمروشي (مريم) المعتمدة في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1799">سنة ١٧٩٩</date> بمروشي (مريم) المعتمدة في  
                     ٢٠
                     أيار 
                     
-                        سنة 
-                        ١٧٧٩) ابنة اندريا جوخجي بن عبد الله الأرمني الكاثوليكي واسم أمها شمعوني (المولودة في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1779">سنة ١٧٧٩</date> ) ابنة اندريا جوخجي بن عبد الله الأرمني الكاثوليكي واسم أمها شمعوني (المولودة في  
                     ٥
                     تشرين  
                     ٢ 
-                        سنة 
-                        ١٧٥١) ابنة بانوس (اسطيفانوس) الأرمني الكاثوليكي أيضاً من جلفا التي توفيت في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1751">سنة ١٧٥١</date> ) ابنة بانوس (اسطيفانوس) الأرمني الكاثوليكي أيضاً من جلفا التي توفيت في  
                     ٢
                     تشرين  
                     ٢ 
-                        سنة 
-                        ١٨٢٣وأما ابنتها مروشي فتوفاها الله في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1823">سنة ١٨٢٣</date> وأما ابنتها مروشي فتوفاها الله في  
                     ٢٠
                     كانون الثاني 
                     
-                        سنة 
-                        ١٨١٤وذلك بعد مرض طويل احتملته بصبر وشجاعة وقد تركت ابنتين وهما:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1814">سنة ١٨١٤</date> وذلك بعد مرض طويل احتملته بصبر وشجاعة وقد تركت ابنتين وهما:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_57.d2e1014" xml:lang="ar">كترينة التي ولدت في  
                     ١٨
                     آب 
                     
-                        سنة 
-                        ١٨٠٥وهي امرأة بحوش (عبد الأحد) بن توماس قسطنطين الكلداني وتريزيا سيسليا لوسيا جرترودة التي ولدت في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1805">سنة ١٨٠٥</date> وهي امرأة بحوش (عبد الأحد) بن توماس قسطنطين الكلداني وتريزيا سيسليا لوسيا جرترودة التي ولدت في  
                     ١
                     آذار 
                     
-                        سنة 
-                        ١٨١٢وتوفيت في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1812">سنة ١٨١٢</date> وتوفيت في  
                     ٨
                     كانون  
                     ٢ 
@@ -762,8 +733,7 @@
                     ٨
                     آذار 
                     
-                        سنة 
-                        ١٨١٥بكلارة (المعروفة بجدة قبرة) ابنة ميخائيل</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1815">سنة ١٨١٥</date> بكلارة (المعروفة بجدة قبرة) ابنة ميخائيل</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_59.d2e1056" xml:lang="ar">راجي الطبيب الحلبي الماروني وهي أرملة رجل كلداني اسمه يوسف (أنظر العرب  
                     ٣
                     :  
@@ -772,20 +742,17 @@
                     ٢١
                     أيار 
                     
-                        سنة 
-                        ١٨٢٥عن ابنين من الزواج الثاني وهما:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1825">سنة ١٨٢٥</date> عن ابنين من الزواج الثاني وهما:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_60.d2e1074" xml:lang="ar">توما ريشا الذي ولد في  
                     ٢١
                     كانون  
                     ١ 
-                        سنة 
-                        ١٨١٥ولا نعرف ما جرى له</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1815">سنة ١٨١٥</date> ولا نعرف ما جرى له</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_61.d2e1088" xml:lang="ar">توما فيجين الذي ولد في  
                     ١٧
                     شباط 
                     
-                        سنة 
-                        ١٨١٨والأرجح إنه نزل إلى الهند ونجهل مصيره هنالك.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1818">سنة ١٨١٨</date> والأرجح إنه نزل إلى الهند ونجهل مصيره هنالك.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_62.d2e1099" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_18.d2e1101" xml:lang="ar"> ٣- </hi>جرجس نمنومي ونسله</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_63.d2e1108" xml:lang="ar">وكان هذا رجلاً صالحاً يتعاطى البيع والشراء بالمأكولات البخسة الثمن وقد تزوج أولاً بانيسة (أغنيس) ابنة عسكر الكلداني (لعله من 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_42.d2e1110" xml:lang="ar">الموصل</placeName>
@@ -795,26 +762,20 @@
                     عبد الجبار أفندي) غير أن أسرة عسكر قد اندثرت من عندنا والأرجح أن أول ذكر اسمها في 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_43.d2e1115" xml:lang="ar">بغداد</placeName>
                     كان في  
-                    ١٧
-                    أيلول  
-                    ١٧٦٧
-                    وهو اليوم الذي توفيت فيه مريم امرأة عسكر المعتمدة في  
+                    <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1767-09-17">١٧ أيلول ١٧٦٧</date> وهو اليوم الذي توفيت فيه مريم امرأة عسكر المعتمدة في  
                     ٢٧
                     حزيران 
                     
-                        سنة 
-                        ١٧٤٥وهي ابنة كوركيس الموصلي الكلداني واسم أمها حسينة بنت داود الموصلي ويبين أن عسكراً تزوج مرة ثانية بامرأة نجهل اسمها وهي والدة أنيسة قرينة جرجي نمنومي الذي رزق عدة بنات لم يعش منهن سوى اثنتين وهما:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1745">سنة ١٧٤٥</date> وهي ابنة كوركيس الموصلي الكلداني واسم أمها حسينة بنت داود الموصلي ويبين أن عسكراً تزوج مرة ثانية بامرأة نجهل اسمها وهي والدة أنيسة قرينة جرجي نمنومي الذي رزق عدة بنات لم يعش منهن سوى اثنتين وهما:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_64.d2e1134" xml:lang="ar">كترينة (كتة) التي ولدت في  
                     ٢٣
                     كانون  
                     ١ 
-                        سنة 
-                        ١٨٢٢وتوفيت في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1822">سنة ١٨٢٢</date> وتوفيت في  
                     ١١
                     آذار 
                     
-                        سنة 
-                        ١٨٩٩وكان زوجها الأول رجلاً يونانياً اسمه انطون كربك أو كريكو
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1899">سنة ١٨٩٩</date> وكان زوجها الأول رجلاً يونانياً اسمه انطون كربك أو كريكو
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1580.xhtml" ed="shamela" n="n3-p629" xml:id="pb_13.d2e1156"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_629" n="629" xml:id="pb_26.d2e1522"/>
                     وزوجها الثاني كارلوس رينكوس من اسوج الذي كان نجاراً في مركب كمت الإنكليزي ويقال إن والده كان والياً في إحدى مدن أسوج ولم يزل كارلوس في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_73.d2e1524" xml:lang="ar">بغداد</placeName>.</p>
@@ -822,20 +783,16 @@
                     ٢٤
                     آب 
                     
-                        سنة 
-                        ١٨٢٨وتوفيت في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1828">سنة ١٨٢٨</date> وتوفيت في  
                     ٢٥
                     نيسان 
                     
-                        سنة 
-                        ١٨٩٤وكان زوجها إيطالياً اسمه جاكومي أي يعقوب وكان طباخاً في مركب كمت المذكور.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1894">سنة ١٨٩٤</date> وكان زوجها إيطالياً اسمه جاكومي أي يعقوب وكان طباخاً في مركب كمت المذكور.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_66.d2e1179" xml:lang="ar">وأما أنيسة أم هاتين الابنتين فتوفيت في الطاعون المشهور بالكبير 
                     
-                        سنة 
-                        ١٨٣١فتأهل جرجي ثانية بكترينة (كنو) المولودة في شهر كانون  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1831">سنة ١٨٣١</date> فتأهل جرجي ثانية بكترينة (كنو) المولودة في شهر كانون  
                     ٢ 
-                        سنة 
-                        ١٨١٢وهي ابنة عمانوئيل مسيح الكلداني واسم أمها سيدي ابنة ارزوقي فرج أي خالة اوانيس مغاك المعروف بحنا باش وكان لكترينة أخت اسمها انجلة وهي امرأة بدروس الدلال الأرمني الكاثوليكي.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1812">سنة ١٨١٢</date> وهي ابنة عمانوئيل مسيح الكلداني واسم أمها سيدي ابنة ارزوقي فرج أي خالة اوانيس مغاك المعروف بحنا باش وكان لكترينة أخت اسمها انجلة وهي امرأة بدروس الدلال الأرمني الكاثوليكي.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_67.d2e1195" xml:lang="ar">وأعقب جرجي من الزواج الثاني بنتا وثلاثة بنين الذين سمو باسم أبيهم المصحف بصورة جرجي أو جرجية وهذا هو لقبهم الشائع والمعروف اليوم في 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_44.d2e1197" xml:lang="ar">بغداد</placeName>
                     و<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_75.d2e1569" xml:lang="ar">البصرة</placeName>. وأما أولاده فهم:</p>
@@ -863,21 +820,17 @@
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_74.d2e1271" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_23.d2e1273" xml:lang="ar"> ٥- </hi>إلياس جرحي</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_75.d2e1280" xml:lang="ar">إن الياس اقترن في أوائل 
                     
-                        سنة 
-                        ١٨٥٩بكترينة صابات (المولودة في شهر آب 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1859">سنة ١٨٥٩</date> بكترينة صابات (المولودة في شهر آب 
                     
-                        سنة 
-                        ١٨٣٥) ابنة اوغسطين بن الياس جبران الكلداني واسم أمها مرثا بنت رحماني الموصلي الكلداني. وأولاده الذين عاشوا هم: مينا ويوسف (الذي تزوج في شهر أيلول 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1835">سنة ١٨٣٥</date> ) ابنة اوغسطين بن الياس جبران الكلداني واسم أمها مرثا بنت رحماني الموصلي الكلداني. وأولاده الذين عاشوا هم: مينا ويوسف (الذي تزوج في شهر أيلول 
                     
-                        سنة 
-                        ١٨٩٦بتاكوهي ابنة يوسف بن عبد الله جموعة الموصلي السرياني ورزق أولاداً) ونعوم واليزة وجونيت (وهذه تزوجها يوسف بن ميخائل بن يوسف ماريني أعني به شقيق صاحب هذه المجلة وهي ابنة خالته وفرج وهو الآن راهب في دير جبل الكرمل.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1896">سنة ١٨٩٦</date> بتاكوهي ابنة يوسف بن عبد الله جموعة الموصلي السرياني ورزق أولاداً) ونعوم واليزة وجونيت (وهذه تزوجها يوسف بن ميخائل بن يوسف ماريني أعني به شقيق صاحب هذه المجلة وهي ابنة خالته وفرج وهو الآن راهب في دير جبل الكرمل.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_76.d2e1298" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_24.d2e1300" xml:lang="ar"> ٦- </hi>ترجمة حياة حضرة الخوري عبد الأحد بن الياس جرجي</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_77.d2e1307" xml:lang="ar">اعتمد المومأ إليه باسم نعوم (نعمة الله) في  
                     ١٥
                     تموز 
                     
-                        سنة 
-                        ١٨٧٠وسافر في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1870">سنة ١٨٧٠</date> وسافر في  
                     ١٤
                     أيلول سنة</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_78.d2e1322" xml:lang="ar"> ١٨٨٣إلى 
@@ -886,23 +839,19 @@
                     ١٤
                     أيار 
                     
-                        سنة 
-                        ١٨٩٣ودعى عبد الأحد ولما عاد إلى وطنه 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1893">سنة ١٨٩٣</date> ودعى عبد الأحد ولما عاد إلى وطنه 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_46.d2e1338" xml:lang="ar">بغداد</placeName>
                     أخذ يدير بجدارة مدرسة الأبرشية وعلم فيها اللغة الفرنسية مدة عشر سنوات حتة 
                     
-                        سنة 
-                        ١٩٠٣وقد سافر فيها راعي الابرشية سيادة المطران اغناطيوس نوري تلبية لدعوة غبطة البطريرك افرام رحماني فأقامه حينئذٍ سيادة المطران المذكور نائباً عنه في ابرشيته التي ساسها مدة ثماني سنوات وفي  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1903">سنة ١٩٠٣</date> وقد سافر فيها راعي الابرشية سيادة المطران اغناطيوس نوري تلبية لدعوة غبطة البطريرك افرام رحماني فأقامه حينئذٍ سيادة المطران المذكور نائباً عنه في ابرشيته التي ساسها مدة ثماني سنوات وفي  
                     ٢٣
                     تشرين الأول 
                     
-                        سنة 
-                        ١٩١٠رقاه غبطة السيد افرام رحماني إلى رتبة الخوري الأسقفي وذلك في أثناء زيارته زيارة راعٍ لأبرشية 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1910">سنة ١٩١٠</date> رقاه غبطة السيد افرام رحماني إلى رتبة الخوري الأسقفي وذلك في أثناء زيارته زيارة راعٍ لأبرشية 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_47.d2e1355" xml:lang="ar">بغداد</placeName>
                     وفي شهر أيار 
                     
-                        سنة 
-                        ١٩١١سافر من 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1911">سنة ١٩١١</date> سافر من 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_48.d2e1363" xml:lang="ar">بغداد</placeName>
                     وطاف سورية وبعض بلاد أوربا ترويحاً للنفس. وبعد ذلك أتخذه السيد افرام رحماني كاتماً لأسراره وأقامه
 
@@ -915,8 +864,7 @@
                     ١٤
                     تموز 
                     
-                        سنة 
-                        ١٩١٣.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1913">سنة ١٩١٣</date> .</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_79.d2e1384" xml:lang="ar">ومن أعماله انه شيد مذبحين جميلين داخل كنيسة 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_51.d2e1386" xml:lang="ar">بغداد</placeName>
                     وهما المذبح الكبير ومذبح قلب يسوع واعتنى بتأسيس ونشر عبادة هذا القلب الأقدس في مدينة 
@@ -924,31 +872,25 @@
                     وترجم وصنف عدة كتب روحية. وإليك أسماء الكتب التي ترجمها من الفرنسية:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_80.d2e1393" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_25.d2e1395" xml:lang="ar"> ١- </hi>المنتخبات الكنبيسية، في الحياة القدسية، وهي خمسة مجلدات طبعت في مطبعة الأباء الدومنيكيين في 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_53.d2e1401" xml:lang="ar">الموصل</placeName> 
-                        سنة 
-                        ١٨٩٨إلى 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1898">سنة ١٨٩٨</date> إلى 
                     
-                        سنة 
-                        ١٩٠٣.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1903">سنة ١٩٠٣</date> .</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_81.d2e1415" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_26.d2e1417" xml:lang="ar"> ٢- </hi>كتاب الحرب الروحية  
                     ١٩٠٠
                     .</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_82.d2e1427" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_27.d2e1429" xml:lang="ar"> ٣- </hi>سيرة امرأة فاضلة فرنسية وهي السيدة ايونس دكوت نشرت تباعاً في النشرة المسماة (إكليل الورود) التي كانت تطبع في 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_54.d2e1435" xml:lang="ar">الموصل</placeName> 
-                        سنة 
-                        ١٩٠٩.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1909">سنة ١٩٠٩</date> .</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_83.d2e1444" xml:lang="ar">أسماء الكتب التي صنفها</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_84.d2e1448" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_28.d2e1450" xml:lang="ar"> ١- </hi>كتاب التعبد لقلب يسوع الأقدس طبع في الوصل 
                     
-                        سنة 
-                        ١٩٠٢ثم أعيد طبعه مصححاً 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1902">سنة ١٩٠٢</date> ثم أعيد طبعه مصححاً 
                     
-                        سنة 
-                        ١٩٠٩.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1909">سنة ١٩٠٩</date> .</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_85.d2e1467" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_29.d2e1469" xml:lang="ar"> ٢- </hi>اثنتان وثلاثون مقالة روحيو نشرت في النشرة المار ذكرها.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_86.d2e1476" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_30.d2e1478" xml:lang="ar"> ٣- </hi>كتاب المسلك الحميد، من مريم العذراء إلى يسوع المجيد، طبع في 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:26 geon:276781" xml:id="placeName_55.d2e1484" xml:lang="ar">بيروت</placeName> 
-                        سنة 
-                        ١٩١٢في مطبعة الاتحاد.</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1912">سنة ١٩١٢</date> في مطبعة الاتحاد.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_87.d2e1493" xml:lang="ar">أسماء الكتب المصنفة والمعدة للطبع</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_88.d2e1496" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_31.d2e1498" xml:lang="ar"> ١- </hi>كتاب الإرشادات الروحية في عبادة قلب يسوع الأقدس.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_89.d2e1505" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_32.d2e1507" xml:lang="ar"> ٢- </hi>كتاب علم الإخلاص.</p>
@@ -960,21 +902,17 @@
                     ١١
                     نيسان 
                     
-                        سنة 
-                        ١٨٦١بلولو (المعتمدة في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1861">سنة ١٨٦١</date> بلولو (المعتمدة في  
                     ١
                     تشرين  
                     ١ 
-                        سنة 
-                        ١٨٤٩) ابنة داود بن ججو فطر الكلداني الموصلي واسم أمها سارة ابنة إبراهيم الأعرج السرياني الموصلي وسارة هذه تكون عمة المرحوم الياس ججو. وتوفى يوسف في  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1849">سنة ١٨٤٩</date> ) ابنة داود بن ججو فطر الكلداني الموصلي واسم أمها سارة ابنة إبراهيم الأعرج السرياني الموصلي وسارة هذه تكون عمة المرحوم الياس ججو. وتوفى يوسف في  
                     ٢
                     تموز 
                     
-                        سنة 
-                        ١٨٨٤وأولاده هم:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1884">سنة ١٨٨٤</date> وأولاده هم:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_93.d2e1567" xml:lang="ar">مدولة المتوفاة قبل بضع سنين (وكانت امرأة جبوري بن فتوحي الحلو) ومريم (امرأة يوسف بن فتوحي الحلو المتوفى) ويعقوب وريجينا (امرأة بجوجو ابنة يوسف نلسن) وجورج المتوفى في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_89.d2e1948" xml:lang="ar">البصرة</placeName> 
-                        سنة 
-                        ١٩٠٨.
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1908">سنة ١٩٠٨</date> .
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1583.xhtml" ed="shamela" n="n3-p632" xml:id="pb_16.d2e1574"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_632" n="632" xml:id="pb_32.d2e1958"/> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_35.d2e1576" xml:lang="ar"> ٨
                         - </hi>ترجمة حضرة الخوري يوسف بن يوسف جرجي</p>
@@ -982,8 +920,7 @@
                     ٤
                     تشرين  
                     ١ 
-                        سنة 
-                        ١٨٦٨وسافر إلى 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1868">سنة ١٨٦٨</date> وسافر إلى 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_57.d2e1596" xml:lang="ar">الموصل</placeName>
                     مع ابن عمه نعوم (الخوري عبد الأحد) للغاية عينها ورسم كاهنا معه باسم يوسف في يوم واحد وبعد رجوعه إلى 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_58.d2e1599" xml:lang="ar">بغداد</placeName>
@@ -991,25 +928,20 @@
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_59.d2e1603" xml:lang="ar">الموصل</placeName>
                     في شهر حزيران 
                     
-                        سنة 
-                        ١٨٩٧وذلك تلبية لدعوة غبطة البطريرك بهنان بني ولما عاد إلى الزوراء عينه سيادة المطران اغناطيوس نوري لخدمة جماعة <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_93.d2e1995" xml:lang="ar">البصرة</placeName> السريانية فسافر إليها في شهر كانون الثاني 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1897">سنة ١٨٩٧</date> وذلك تلبية لدعوة غبطة البطريرك بهنان بني ولما عاد إلى الزوراء عينه سيادة المطران اغناطيوس نوري لخدمة جماعة <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_93.d2e1995" xml:lang="ar">البصرة</placeName> السريانية فسافر إليها في شهر كانون الثاني 
                     
-                        سنة 
-                        ١٨٩٨وسعى هناك بتشييد ثلاثة معابد للسريان والواحد في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_94.d2e2003" xml:lang="ar">البصرة</placeName> والثاني في العشار على نفقة الخواجا يوسف مارين والثالث في العمارة اللاحقة ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_95.d2e2006" xml:lang="ar">البصرة</placeName> واهتم أيضاً بفتح مدرسة للطائفة السريانية وهو الآن ساعٍ وراء ترقيتها وتحسين أمور جماعته بهمة ونشاط. وكان قد رقاه في مدينة <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_96.d2e2010" xml:lang="ar">البصرة</placeName> إلى رتبة الخوري الأسقفي السيد اغناطيوس نوري وذلك عند عودته من الهند في شهر أيار 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1898">سنة ١٨٩٨</date> وسعى هناك بتشييد ثلاثة معابد للسريان والواحد في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_94.d2e2003" xml:lang="ar">البصرة</placeName> والثاني في العشار على نفقة الخواجا يوسف مارين والثالث في العمارة اللاحقة ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_95.d2e2006" xml:lang="ar">البصرة</placeName> واهتم أيضاً بفتح مدرسة للطائفة السريانية وهو الآن ساعٍ وراء ترقيتها وتحسين أمور جماعته بهمة ونشاط. وكان قد رقاه في مدينة <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_96.d2e2010" xml:lang="ar">البصرة</placeName> إلى رتبة الخوري الأسقفي السيد اغناطيوس نوري وذلك عند عودته من الهند في شهر أيار 
                     
-                        سنة 
-                        ١٩٠٠وقد ترجم من الفرنسية إلى العربية كتاب ظهور سلطانة لورد وطبعه في 
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1900">سنة ١٩٠٠</date> وقد ترجم من الفرنسية إلى العربية كتاب ظهور سلطانة لورد وطبعه في 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_60.d2e1621" xml:lang="ar">الموصل</placeName>
                     وسافر إلى أوربا 
                     
-                        سنة 
-                        ١٩١٣وجلب معه من هناك جملة أشياء</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1913">سنة ١٩١٣</date> وجلب معه من هناك جملة أشياء</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_95.d2e1630" xml:lang="ar">لزينة المعابد التي أقامها في ولاية <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_98.d2e2029" xml:lang="ar">البصرة</placeName>.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_96.d2e1634" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_36.d2e1636" xml:lang="ar"> ٩- </hi>رزق الله جرجي</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_97.d2e1643" xml:lang="ar">تزوج هذا الفاضل في 
                     
-                        سنة 
-                        ١٨٧٤بمدولة ابنة بشوري (بشارة) بن قرنسيس بطرس نيسى الكلداني واسم أمها لوسي ابنة بتراك (بطرس) بن يغيا (ايليا) الأرمني الكاثوليكي ورزق له أولاداً وهم:</p>
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1874">سنة ١٨٧٤</date> بمدولة ابنة بشوري (بشارة) بن قرنسيس بطرس نيسى الكلداني واسم أمها لوسي ابنة بتراك (بطرس) بن يغيا (ايليا) الأرمني الكاثوليكي ورزق له أولاداً وهم:</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_98.d2e1651" xml:lang="ar">جميلة وهي امرأة رزق الله بن داود (المدعو بيو بن عمانوئيل بن إسحاق السرياني) وفضل الله المتزوج برزوة ابنة جاني لورنس في  
                     ٢٦
                     نيسان من هذه السنة) وميري (امرأة نعوم بن موسى توما الكلداني) ويوسف ومنيرة (وهذه هي امرأة سليم بن الياس بن موسى الطويل الكلداني) وجوجو (جوزفينة المخطوبة لجرجس بن سلومي ابن الشماس جرجس الحلوة السرياني). فنعم الجد ونعم الذرية!</p>
@@ -1029,8 +961,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_63.d2e1685" xml:lang="ar">بغداد</placeName>
                     مثل شهربان وهبهب وشروين وغيرها. ونحو ثلاثين قرية في نواحي شهرزور وذلك من عهد السلطان سليمان خان (الذي ملك من 
                     
-                        سنة 
-                        ١٥٢٠-  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1520">سنة ١٥٢٠</date> -  
                      ١٥٦٦م) إلى أيام السلطان عبد المجيد ( 
                     ١٨٣٩
                     -  
@@ -1039,8 +970,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_64.d2e1706" xml:lang="ar">بغداد</placeName>
                     الجارف (الذي اجتاح المدينة 
                     
-                        سنة 
-                        ١٢٤٧هـ)  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1247" from="1831" to="1832">سنة ١٢٤٧</date> هـ)  
                      ١٨٣١م) ثم انحصر بهم إفتاء الشافعية فقط. وجميع إجازات علماء <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_108.d2e2140" xml:lang="ar">العراق</placeName> تنتهي إلى الحيدرية وتنتهي إليهم؛ بل وبعض إجازات بلاد الروم (بر <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:238 geon:323835" xml:id="placeName_109.d2e2143" xml:lang="ar">الأناضول</placeName> أو آسية الصغرى) تنتمي إلى أحمد بن حيدر صاحب المحاكمات الشهير.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_103.d2e1719" xml:lang="ar">وأما الذين ظعنوا إلى ديار ما وراء النهر. فإنهم أصبحوا هناك أيضاً من أمرائها العظام. وفضلائها الكرام بل نشأت منهم الدولة الصفوية، في الديار الفارسية. واتصال هذه الدولة بالحيدرية يرتقي إلى الشيخ صدر الدين ابن القطب الشيخ صفي الدين أبي الفتح إسحاق.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_104.d2e1722" xml:lang="ar">وكان الصفوية على مذهب أجدادهم مذهب السنة والجماعة، ثم تشيعوا، وأول من عدل منهم عن سنة آبائه وزاغ عنها إسماعيل شاه الصفوي وذلك إن واحداً من أصحاب هذا المذهب نفث في صدره أنه إذا تشيع هو وعسكره يقهر عدوه السني السلطان سليم خان ويورده حياض الخاسرين الخاسئين، ففعل، إلا أن الواقع لم يحقق ما كان في النفس من الأمنية.</p>
@@ -1052,8 +982,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_65.d2e1732" xml:lang="ar">بغداد</placeName>
                     وأمد (ديار بكر) وخراسان ونواحيها كان فارغاً من هذه الدوحة العريقة في الشرف وقد توفى الأمير المذكور 
                     
-                        سنة 
-                        ٧٥٧هـ  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="0757" when="1356">سنة ٧٥٧</date> هـ  
                      ١٤٥٦م)</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_107.d2e1744" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_38.d2e1746" xml:lang="ar"> ٢- </hi>اسعد صدر الدين</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_108.d2e1753" xml:lang="ar">إذا وعيت ما قرأت ثبت لديك أن هذا البيت بل الأولى هذه الدوحة كثيرة الفروع والأفنان وشيجة العروق منشعبة الأغصان، والإحاطة بمن نبغ من رجالها من الصعب العسر الحصول عليه. إلا إننا نذكر بعض من اشتهر ذكره في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_111.d2e2188" xml:lang="ar">العراق</placeName> وامتد صيته إلى أبعد الأفاق، فمنهم اسعد صدر الدين مفتي الحنفية ب
@@ -1094,8 +1023,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_73.d2e1825" xml:lang="ar">بغداد</placeName>
                     في طاعون 
                     
-                        سنة 
-                        ١١٨٧هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1187" from="1773" to="1774">سنة ١١٨٧</date> هـ ( 
                      ١٧٧٣م).</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_114.d2e1838" xml:lang="ar">وممن نبغ من أولاده الملا عيسى، فإنه كان فاضلاً أديباً تلقى العلوم عن أبيه صبغة الله فبرع فيها ولما جاء 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_74.d2e1840" xml:lang="ar">بغداد</placeName>
@@ -1103,8 +1031,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_75.d2e1843" xml:lang="ar">بغداد</placeName>
                     وعالمها. أخذ العلم عن أبيه ففاق أقرانه وذويه. أقام بالإفتاء مدة طويلة في حياة والده إلى أن توفى بطاعون 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_76.d2e1846" xml:lang="ar">بغداد</placeName> 
-                        سنة 
-                        ١١٨٧هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1187" from="1773" to="1774">سنة ١١٨٧</date> هـ ( 
                      ١٧٧٣م).</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_115.d2e1859" xml:lang="ar">وممن أخذ عنه علمي المعقول والمنقول: أمين العمري ومن قبله شيخه السيد موسى</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_116.d2e1862" xml:lang="ar">الحدادي الموصلي، والعلامة الملا جرجس الاربلي، والملا حمد الجميلي، وخير الله العمري، وغيرهم.</p>
@@ -1239,11 +1166,7 @@
                      ١٢٢٨هـ) ( 
                      ١٨١٣م) وكان الحاج يوسف الزهير شد هدية مفتخرة من قماش وتفاريق وتمام زر</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_123.d2e2832" xml:lang="ar">وشوش جوزه ومسابح لولو وأرسلها مع ابنه حاج عيسى قبل توجه ليتسلم والأعيان وما بقي بالبلد سوى ديوان أفنديسي سابقا وضع قايم مقام وهو حمور رستم غا وعنده كم واحد من أوادم الباب وبما أن الشيخ العكيل ناصر الشبلي ممسوك ومحبوس وفي <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_125.d2e3307" xml:lang="ar">البصرة</placeName> نسيبه شيخ مبارك شيخ العكيل حالاً. شرد إلى الزبير ولبسوا عوضه مخرج بن دهام الذي أخوه عند شيخ حمود ولهذه الأسباب وفراغ البلد من الحكام لا زالت الناس يتحسبون من الشر والفساد والأسواق ليس مستأمنة وفي يوم  
-                    ١٤
-                    صفر 
-                    
-                        سنة 
-                        ١٢٢٨ <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1592.xhtml" ed="shamela" n="n3-p641" xml:id="pb_25.d2e2842"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_641" n="641" xml:id="pb_50.d2e3320"/>وصل خبر من عند حمود من الواردين بأنه يوم الخميس  
+                    <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="high" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228-02-14" when="1813-02-16">١٤ صفر سنة ١٢٢٨</date> <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1592.xhtml" ed="shamela" n="n3-p641" xml:id="pb_25.d2e2842"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_641" n="641" xml:id="pb_50.d2e3320"/>وصل خبر من عند حمود من الواردين بأنه يوم الخميس  
                     ١٠
                     ص مات برغش ابن حمود من عظم الصوابات التي اصابته ( 
                     ٠
@@ -1318,8 +1241,7 @@
                     ١٥
                     (ربيع الأول) 
                     
-                        سنة 
-                        ١٢٢٨هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> هـ ( 
                      ١٨١٣م) بالفرح والسرور من آل البلد جميعاً وقبل دخوله طلع لملاقاته السيد عليوي ينيجر اغاسي ولبسه وأمنه وبعد دخوله أيضاً لبسه ولبس درويش اغا القائمقام على وظيفته لأن داود أفندي ما قبل أن يلبس كهيه وابن الشاوي جاسم بك لبس باب عرب وتمكن بالشغل وأما من جهة حمود فأقام برات البلد بعد دخول الوزير بأيام  
                     ٥
                     ودخل بإكرام من قبل الوزير ونزل في حوش سليمان باشا وصار له تعيين من الباب ومعه أولاده عدد  
@@ -1331,14 +1253,12 @@
                     ١٤
                     والرز في. . . وهلم جرا بقية وفي أواخر شهر ربيع الثاني 
                     
-                        سنة 
-                        ١٢٢٨( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> ( 
                      ١٨١٣م) حضر إلى <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_138.d2e3500" xml:lang="ar">البصرة</placeName> عليوي مقيداً مساق بأمر الباشا وضعوه بالسراي محبوساً وقيل أنه عليه بقتلة ولكنهم مهلوه ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_139.d2e3503" xml:lang="ar">البصرة</placeName> إذ أن مستر ريج باليوز الإنكليز صد وبينهم صداقة كلية ويوملوا بخلاصه وإذ قد حضر أمر بالعفو عنه ولكنه محبوس وفي  
                     ١١
                     جا (أي جمادي الأولى) 
                     
-                        سنة 
-                        ١٢٢٨( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> ( 
                      ١٨١٣م) حضر عبد الرزاق اغا باشا جاوش الإنكليز من 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_83.d2e2997" xml:lang="ar">بغداد</placeName>
                     ومعه بيورلدى من الباشا في إطلاق سيد عليوي من الحبس وإنه يجلس في بيت الإنكليز ويتعين له في الشهر ماية عين لمصروفه وحالاً مضى عبد الرزاق اغا وأخرجه</p>
@@ -1368,8 +1288,7 @@
                     ٢٠
                     جا وصل إلى سوق الشيوخ وهو بنفس وزير وصاحب الأمر والتدبير وثبل طلوعه عزل لمن أراد ونصب لمن أراد وبما أن سليمان بك متسلم <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_150.d2e3583" xml:lang="ar">البصرة</placeName> من صدقانه ما أراد عزله وبقي في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_151.d2e3586" xml:lang="ar">البصرة</placeName> إلى أن في تاريخ غرة ج (جمادي الثانية) 
                     
-                        سنة 
-                        ١٢٢٨هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> هـ ( 
                      ١٨١٣م) من زيادة ظلمه صار من الحنطة في  
                     ٩
                     عين مع أنه وقت موسمها والرز الجات في  
@@ -1421,8 +1340,7 @@
                     ١٢
                     رجب 
                     
-                        سنة 
-                        ١٢٢٨( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> ( 
                     ١٨١٣
                     ) وبقية الأعيان بقيوا هناك إلى بعد كم يوم حضروا للبصرة وقيل إن حمود مراده يأتي إلى</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_132.d2e3128" xml:lang="ar">نهر عمر.</p>
@@ -1432,8 +1350,7 @@
                     ٢٩
                     ج 
                     
-                        سنة 
-                        ١٢٢٨( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1228" when="1813">سنة ١٢٢٨</date> ( 
                      ١٨١٣م) دخل القابجي من المحروسة ومعه الطواخ إلى سعادة أفندينا ولي النعم اسعد باشا وصار بدخوله الأي محتفل وحصل الفرح والسرور والقايم بمقام الكهية أرسل مكتوب للمتسلم مع ساعي بالبشارة في وصول الطواخ لأن سعادته معتمد على عزل سليمان بك وكانوا المتقدمين إلى طلب المتسلمية أربعة أولهم إبراهيم اغا الذي كان حكم مرتين ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_159.d2e3725" xml:lang="ar">البصرة</placeName> وجار على الناس وثانيهم رستم غا الذي كان قبل سليمان بك وثالثهم بكر آغا ورابعهم مصطفى آغا ابن صاري محمد آغا وسبب عاقة إعطاء المتسلمية لأحدهم حتى تصل الهدية التي موعد بها سليمان بك وأما هو كان مؤخرها لنه محتسب إلى العزل وفي  
                     ٢٥
                     ب (رجب)
@@ -1543,8 +1460,7 @@
                     ٦
                     ربيع الأول 
                     
-                        سنة 
-                        ١٢٢٩( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1229" from="1813" to="1814">سنة ١٢٢٩</date> ( 
                      ١٨١٤م) ومعه مكاتيب إلى صالح أفندي خزنة كاتبي الذي هو الناظر على الكمرك في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_185.d2e3976" xml:lang="ar">البصرة</placeName> حالاً وأخبره سرا وسلمه الموامر ومعه مكتوب للمتسلم ما فيه شيء من هذا الخصوص ليطمئن ومضى من هناك إلى عند بنت الشيخ دخل عندها وسلمها مكتوب من الوزير وبشرها بأن الأمر طبق مرامها وحالاً أمرت له بثلاثة جوار بخشيش.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_149.d2e3335" xml:lang="ar">وأما ما كان من المتسلم فإنه تخوس من مجي الجوقدار ولا عنده أثر خبر فدعا صالح أفندي مستخبراً عن مكاتيب التي أتت إليه فطيب خاطره وأمنه وأنكر عليه المر وقال له نروح إلى المناوي لنعد قبطان باشا ونشوف غيش عنده (لأنه يخاف أن يخبره فيعصي أو يشرد وتصير فتنة) فمضوا إلى المناوي وكان قبطان باشا اسمه عبدي اغا الذي كان اغات الاحتساب سابقاً وصالح أفندي أغتنم فرصة وأخبر قبطان باشا ودبروا الأمر بأن يرجعوا جملة بالماجوة وإن الباشا معزوم عند صالح أفندي. فلما وصلوا إلى عند السراي طلعوا كالعادة من قناق التفنكجي باشي وعند الباب قالوا للمتسلم عليك أمر من أفندينا أنت مرفوع وأمروا بمسكه فمسكهوه اوادم الباشا وأما هو أجاب فرمان افندمزندر وما خالف أبدا حالاً أدخلوه في اوضة في قناق التفنكجي باشي ووضعوا في رجليه الحديد وصبوا فيه الرصاص وعلى الباب عشرين تفنكجي ينطروا وطلع صالح أفندي جلس بالديوان وأحضر جميع الأعيان وقرا عليهم بيورلدى ولي النعم في عزل مصطفى اغا ووكالة صالح أفندي وجملة أناس بل أقول اغلب التاي تأسفوا على رفع مصطفى اغا لأنه كما تقدم القول ما صار منه أذية إلى أحد ويخافوا لئلا يتعوضوا بواحد ردي ظالم.</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_150.d2e3338" xml:lang="ar">وأما ما كان من طرف الوزير فإنه دخل إلى 
@@ -1563,8 +1479,7 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_105.d2e3361" xml:lang="ar">بغداد</placeName>
                     في 
                     
-                        سنة 
-                        ١٢٢٧( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1227" from="1812" to="1813">سنة ١٢٢٧</date> ( 
                      ١٨١٢م) وطلبت عزله والباشا عزله ونصب مكانه رستم اغا وكما تقدم في هذا التاريخ وقت الذي انتصر اسعد باشا وكان عند المنتفك لبس سليمان بك المقدم ذكره وبعده صار مصطفى اغا فيكون في مضية ثلاثة سنين خمسة متسلمين حكموا ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_191.d2e4033" xml:lang="ar">البصرة</placeName>) والمذكور حالا لبس الكرك أرسل باش جوقداره إلى <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_192.d2e4036" xml:lang="ar">البصرة</placeName> يخبر بحكومته وحرر إلى صالح أفندي أن يكون نائبا عنه إلى حين مجيئه فوقع الغم على الفقراء ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_193.d2e4039" xml:lang="ar">البصرة</placeName> حيث أن في أيام مصطفى اغا صار بنوع ما رخص فالحنطة البحرية الطبية نزلت إلى سعر  
                     ٤
                     وغيرها وقس على ذلك سائر الأشياء تهاودت عن أيام سليمان بك.</p>
@@ -1579,15 +1494,13 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_107.d2e3393" xml:lang="ar">بغداد</placeName>
                     وواجه الوزير بكل كرامة والقول إنه أعطاه المقاطعات عن هذه السنة أيضاً أي عن 
                     
-                        سنة 
-                        ١٢٢٩(هـ) وبهذه السنة توجه من قبل <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:1" xml:id="placeName_196.d2e4075" xml:lang="ar">الدولة العثمانية</placeName> وزير يسمى بابا باشا رجل مدبر عاقل عالم بالأمور فريد عصره في ملك آل عثمان من
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1229" from="1813" to="1814">سنة ١٢٢٩</date> (هـ) وبهذه السنة توجه من قبل <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:1" xml:id="placeName_196.d2e4075" xml:lang="ar">الدولة العثمانية</placeName> وزير يسمى بابا باشا رجل مدبر عاقل عالم بالأمور فريد عصره في ملك آل عثمان من
 
                     <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1610.xhtml" ed="shamela" n="n3-p659" xml:id="pb_43.d2e3401"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_659" n="659" xml:id="pb_86.d2e4080"/>
                     إسلامبول مخصوص بموجب خط شريف لنظام وترتيب كافة بلاد العثمانلي ومشى بقوة من العساكر وهو مصرف ومفوض في العزل والنصب ولذلك جميع الدراباكية الذين في طريق إسلامبول منهم من قتلهم ومنهم عزلهم ومنهم من ثبتهم وربح تلك الأقطار من الحكام الجائرين على الرعاية حتى انتهى إلى أورقة وأعطى</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_154.d2e3404" xml:lang="ar">نظامها بقتل جملة من سخطها - كذا) المتضربنين (كذا) وفي أوائل شهر ج (جمادي الأخرى) 
                     
-                        سنة 
-                        ١٢٢٩جانا خبر للبصرة أنه وصل قريب 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1229" from="1813" to="1814">سنة ١٢٢٩</date> جانا خبر للبصرة أنه وصل قريب 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:211 geon:99072" xml:id="placeName_108.d2e3411" xml:lang="ar">الموصل</placeName>
                     والقول عنه أنه قاصد عرب المنتفق الذي وصلت أخبارهم إلى الدولة في عظم دولتهم وبهتهم مال هبد الله باشا ومن هنا ينتج بأن اسعد باشا استدعى حمود لأملا ما والله اعلم.</p>
                 <closer change="#d2e423 #d2e503" xml:id="closer_1.d2e4095" xml:lang="ar">تمت:</closer>
@@ -1605,16 +1518,13 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_110.d2e3449" xml:lang="ar">بغداد</placeName>
                     بقي إلى عهد سري باشا 
                     
-                        سنة 
-                        ١٣٠٥هـ فأمر حينئذٍ أن يهدم السور وأن يدفع أجره بدلا من مشاهرات الموظفين وجميع طالبي الأموال من خزينة الولاية فما مضت سنة إلا وهدم السور عن آخر طاباقة فيه الخ. والحال أن السور منذ أن نشأ، أعني منذ نحو 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1305" from="1887" to="1888">سنة ١٣٠٥</date> هـ فأمر حينئذٍ أن يهدم السور وأن يدفع أجره بدلا من مشاهرات الموظفين وجميع طالبي الأموال من خزينة الولاية فما مضت سنة إلا وهدم السور عن آخر طاباقة فيه الخ. والحال أن السور منذ أن نشأ، أعني منذ نحو 
                     
-                        سنة 
-                        ١٢٩٠هـ تهدم بعضه وبقي البعض وهو الأقل. وسبب هدمه أن المرحوم مدحت باشا والي 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1290" from="1873" to="1874">سنة ١٢٩٠</date> هـ تهدم بعضه وبقي البعض وهو الأقل. وسبب هدمه أن المرحوم مدحت باشا والي 
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_111.d2e3462" xml:lang="ar">بغداد</placeName>
                     أمر في 
                     
-                        سنة 
-                        ١٢٨٧بهدم ذلك من الجهة الغربية قاصداً تحسين هواء الولاية مع العزم على إجراء الماء في خندقه وغرس بعض الأشجار على جوانبه فتهافت الفقراء على قلعه والانتفاع بأجره وبقيت الجهة الشرقية متأخرة حتى وصلت إليها الأيدي وليس للمرحوم سري باشا يد فيه قط كما ترون إذ بين هدمه ومجيء المشار إليه نحو من  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1287" from="1870" to="1871">سنة ١٢٨٧</date> بهدم ذلك من الجهة الغربية قاصداً تحسين هواء الولاية مع العزم على إجراء الماء في خندقه وغرس بعض الأشجار على جوانبه فتهافت الفقراء على قلعه والانتفاع بأجره وبقيت الجهة الشرقية متأخرة حتى وصلت إليها الأيدي وليس للمرحوم سري باشا يد فيه قط كما ترون إذ بين هدمه ومجيء المشار إليه نحو من  
                     ١٧
                     سنة ثم ما معنى أنه أعطى منه مشاهرات
 
@@ -1679,8 +1589,7 @@
                     ٤٦٦٢٧
                     فيكون عدد المسلمين نقص في  
                     ٤٦ 
-                        سنة 
-                        ٦٠٦٢والمحرر عندكم أن عددهم زاد  
+                        <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="6062">سنة ٦٠٦٢</date> والمحرر عندكم أن عددهم زاد  
                     ١٤٩٧٤
                     فما هذا الفرق وكيف انقلب</p>
                 <p change="#d2e73 #d2e296 #d2e503" xml:id="p_166.d2e3590" xml:lang="ar">النقص زيادة الكاتب لما علم أن فيهم زيادة استقلها لنسبته زيادة غير المسلمين وأخذ بتعليلها فماذا عساه ن يقول بعد أن يعلم سهوه وأنهم نقصوا لا زادوا والأصح أن التعداد لدى حكومتنا لا معول عليه قط ولا يلتفت إلى زيادته ولا إلى نقصه لأنه تخميني لا حقيقي.</p>
@@ -1753,8 +1662,7 @@
                         <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:215 geon:98862" xml:id="placeName_207.d2e4495" xml:lang="ar">النجف</placeName>
                         ي.</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_192.d2e3774" xml:lang="ar">طبع في مطبعة العرفان ب<placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:9 geon:268064" xml:id="placeName_208.d2e4501" xml:lang="ar">صيدا</placeName> 
-                            سنة 
-                            ١٣٣١ </p>
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1331" from="1912" to="1913">سنة ١٣٣١</date>  </p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_193.d2e3782" xml:lang="ar">هذا الكتاب عبارة عن قسمين: قسم مدح وقسم قدح، فالمدح يرجع إلى المؤلف نفسه وإلى من يريد أن يذر الرماد في عينيه. والقدح يعود إلى من ناوأه إذ هو سلاح العاجز. ومن مجلة من سبهم وشتمهم أصحاب المقتطف والهلال وهذه المجلة فنحن لا نجيبه لكي يكون هو الغالب في هذا الميدان وكفى ذلك شرفاً له، فليهنأ عيشاً وليطيب خاطراً!!!</p>
                 </div>
                 <div change="#d2e307 #d2e350 #d2e421 #d2e503" subtype="article" type="item" xml:id="div_11.d2e3868" xml:lang="ar">
@@ -1765,8 +1673,7 @@
                     <head change="#d2e73 #d2e296 #d2e307 #d2e503" xml:id="p_196.d2e3797" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_51.d2e3799" xml:lang="ar"> ٦- </hi>كتاب الإتقان في صرف لغة السريان</head>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_197.d2e3807" xml:lang="ar">للمطران يوسف دريان مطران طرسوس شرفاً والنائب البطريكي الماروني وظيفة. طبع بالمطبعة العلمية ليوسف صادر في 
                         <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:26 geon:276781" xml:id="placeName_114.d2e3809" xml:lang="ar">بيروت</placeName> 
-                            سنة 
-                            ١٩١٣.</p>
+                            <date calendar="#cal_gregorian" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" when="1913">سنة ١٩١٣</date> .</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_198.d2e3818" xml:lang="ar">وصلنا هذا الكتاب منذ خمسة أشهر واعددنا له نقداً يبين محاسنه وبعض مساوئه إلا أن تكاثر الهدايا وازدحام المجلة بمقالات الأدباء والمؤازرين حالت إلى الآن دون درجه. وكما أن هذا الجزء هو العدد الأخير من السنة لم نرد تأخير مشارفتنا له. فنقول بالجملة إن إعادة طبعه يدل على ما نال هذا السفر من الحظوى عند دارسي اللغة السريانية وهذا احسن وأشرف تقريظ له لكن ورد فيه جملة قواعد توافق ما صرح به علماء اللغة السريانية في كتبهم. فإن (رحيا) مثلا تجمع جمعين (رحوتا ورحيا) ولم يذكر الثانية (راجع ص  
                         ٩٥
                         ) وفي تلك الصفحة في الحاشية كلام عن (ليلوتا وكريا) وهو مخالف لما جاء في كتاب اللمعة للمطران يوسف داود  
@@ -1790,8 +1697,7 @@
                             - </hi>كتاب وصايا ملوك العرب في الجاهلية</head>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_201.d2e3853" xml:lang="ar">تأليف الإمام الشهير الكاتب الأديب اللغوي يحيى بن الوشاء طبع بمطبعة الشابندر في 
                         <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_116.d2e3855" xml:lang="ar">بغداد</placeName> 
-                            سنة 
-                            ١٣٣٢الجزء الأول في  
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1332" from="1913" to="1914">سنة ١٣٣٢</date> الجزء الأول في  
                         ٤٠
                         صفحة</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_202.d2e3867" xml:lang="ar">كتاب وصايا الملوك من أجل الكتب إذ قد حوى منها ما يزري باجمان، وبقلائد العقيان، وقد ذكر في هذا الجزء الأول وصايا هود وقحطان ويعرب ويشجب وعبد شمس وسبا إلى سيف ذي يزن. وقد نسبها واضعها إلى ملوك العرب الأقدمين. ولا حاجة إلى القول أنها من وضعه لأن الناطقين بالضاد لم يكونوا قد وصلوا بعد إلى التكلم بالعربية الفصحى على الوجه الذي صارت إليه في القرن السابع للميلاد. على أن تلك الوصايا تبقى آية في البلاغة وحسن النصح ولهذا يجدر بكل أديب أن يطالعها ويجمعها كتاباً يرجع غليه عند النائبات. وأما ترجمة المؤلف فسنذكرها في موضع آخر.</p>
@@ -1806,8 +1712,7 @@
                         <persName change="#d2e230 #d2e296 #d2e503" ref="oape:pers:1845 viaf:21058435" xml:id="persName_9.d2e3888" xml:lang="ar">
                         <forename change="#d2e296 #d2e503" xml:id="forename_6.d2e3889" xml:lang="ar">سليمان</forename> <surname change="#d2e296 #d2e503" xml:id="surname_5.d2e3892" xml:lang="ar">الدخيل</surname></persName>طبعت بمطبعة الشابندر في 
                         <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_118.d2e3895" xml:lang="ar">بغداد</placeName> 
-                            سنة 
-                            ١٣٣٢في  
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1332" from="1913" to="1914">سنة ١٣٣٢</date> في  
                         ١٦
                         صفحة</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_205.d2e3908" xml:lang="ar">جل مدارها عن محمد بن عبد الوهاب واعتقاد أهل نجد في الأولياء وزيارة القبور وأقوالهم في الخرافات. وهي بمنزلة تتمة لمن يريد الوقوف على معتقد أهل نجد الحاليين فنوصي أهل الأدب باقتنائه.</p>
@@ -1817,8 +1722,7 @@
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_207.d2e3920" xml:lang="ar">المستشرقون لا يستطيعون أن يروا كتاب تاريخ أو أدب أو لغة بدون فهارس ولهذا إن رأوا</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_208.d2e3923" xml:lang="ar">كتاباً جليلاً خالياً من هذا المفتاح عمدوا إلى وضعه كما فعلوا لكتاب الأغاني. وهاهم الآن قد انشئوا فهارس لكتاب أمالي القالي المطبوع في بولاق في 
                         
-                            سنة 
-                            ١٣٢٤وهي تحوي أسماء الشعراء المذكورين في التصنيف المذكور وقوافي الأبيات الواردة فيه وهي من وضع 
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1324" from="1906" to="1907">سنة ١٣٢٤</date> وهي تحوي أسماء الشعراء المذكورين في التصنيف المذكور وقوافي الأبيات الواردة فيه وهي من وضع 
                         <persName change="#d2e296 #d3e362 #d2e503" ref="oape:pers:3822" xml:id="persName_10.d2e3930" xml:lang="ar">ف. كرنكو</persName>
                         ف وأ. أ. بفان. وكفى بذلك تعريفاً لهذه الفهارس وللحاجة إليها. وهي مطبوعة في ليدن في مطبعة بريل</p>
                 </div>
@@ -1829,8 +1733,7 @@
                         <title change="#d2e296 #d5e410 #d2e503" level="j" ref="oape:bibl:41" xml:id="title_13.d2e3953" xml:lang="ar">الرياض</title></bibl>
                         ب
                         <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_119.d2e3956" xml:lang="ar">بغداد</placeName> 
-                            سنة 
-                            ١٣٣٢ </p>
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1332" from="1913" to="1914">سنة ١٣٣٢</date>  </p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_211.d2e3965" xml:lang="ar">صديقنا 
                         <persName change="#d2e350 #d3e362 #d2e503" ref="oape:pers:1845 viaf:21058435" xml:id="persName_13.d2e4053" xml:lang="ar"> <forename change="#d2e423 #d2e503" xml:id="forename_10.d2e4717" xml:lang="ar">سليمان</forename> <roleName change="#d2e423 #d2e503" type="title" xml:id="roleName_2.d2e4720" xml:lang="ar">أفندي</roleName> <surname change="#d2e423 #d2e503" xml:id="surname_8.d2e4723" xml:lang="ar">الدخيل</surname></persName>لا يطبع من الكتب إلا ما يرى أنها تفي بغرض من الأغراض وتحسن على أبناء العربية بما يسهل لهم طريق السعي وراء ضالتهم وهاهو ذا قد طبع الآن هذا الكتاب النفيس على نسخة خزانتنا تعميماً لفوائده. واحسن طريقة لمعرفة محتوياته ذكر فهرس فصوله وهي:
 
@@ -1884,10 +1787,8 @@
                     <head change="#d2e73 #d2e296 #d2e307 #d2e503" xml:id="p_229.d2e4066" xml:lang="ar"> <hi change="#d2e296 #d2e503" style="color:red;" xml:id="hi_57.d2e4068" xml:lang="ar"> ١٢- </hi>ديوان الطباطبائي</head>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_230.d2e4075" xml:lang="ar">(وهو ديوان السيد إبراهيم الطباطبائي شاعر <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_215.d2e4847" xml:lang="ar">العراق</placeName> الشهير المتوفى 
                         
-                            سنة 
-                            ١٣١٩هـ. أذن بنشره وتمثيله للطبع ولداه الفاضلان السيد حسن والسيد محمد. طبع على نفقة شركة عراقية وحقوق الطبع محفوظة لها ومسجلة باسمها رسمياً طبع بمطبعة العرفان في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:9 geon:268064" xml:id="placeName_216.d2e4855" xml:lang="ar">صيدا</placeName> 
-                            سنة 
-                            ١٣٣٢هـ. وقيمته بشلكات.)</p>
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1319" from="1901" to="1902">سنة ١٣١٩</date> هـ. أذن بنشره وتمثيله للطبع ولداه الفاضلان السيد حسن والسيد محمد. طبع على نفقة شركة عراقية وحقوق الطبع محفوظة لها ومسجلة باسمها رسمياً طبع بمطبعة العرفان في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:9 geon:268064" xml:id="placeName_216.d2e4855" xml:lang="ar">صيدا</placeName> 
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1332" from="1913" to="1914">سنة ١٣٣٢</date> هـ. وقيمته بشلكات.)</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_231.d2e4088" xml:lang="ar">هذا الديوان مصدر بترجمة السيد الناظم مع تعريف أسرته وهي من قلم
 
                         <pb change="#d2e296" corresp="../epub/36540/OEBPS/xhtml/P1618.xhtml" ed="shamela" n="n3-p667" xml:id="pb_51.d2e4090"/> <pb change="#d2e376 #d2e405 #d2e421 #d2e423" ed="print" edRef="#edition_1" facs="#facs_667" n="667" xml:id="pb_102.d2e4868"/>
@@ -1938,8 +1839,7 @@
                         : (مقرظا أشعار بعض زملائه) ولو سماه باسمه وهو الشيخ جواد أفندي شبيب الشاعر الشهير لكان أوفى بالمرام. ومثل هذا كثير.</p>
                     <p change="#d2e73 #d2e296 #d2e503" xml:id="p_243.d2e4206" xml:lang="ar">ومما فات الناشر ذكره في المقدمة حذف اسم صاحب الجوهر (وهو الشيخ محمد حسن المتوفى 
                         
-                            سنة 
-                            ١٢٦٦). ومما لم ينتبه إليه الناشر تعديد الأسر الطباطبائية في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_217.d2e4994" xml:lang="ar">العراق</placeName> أمناً للبس إذ بينها أسرة بحر العلوم التي منها صاحب هذا الديوان. وآل السيد (مير علي) صاحب كتاب الرياض وهذا البيت مقيم في 
+                            <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1266" from="1849" to="1850">سنة ١٢٦٦</date> ). ومما لم ينتبه إليه الناشر تعديد الأسر الطباطبائية في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:209 geon:99237" xml:id="placeName_217.d2e4994" xml:lang="ar">العراق</placeName> أمناً للبس إذ بينها أسرة بحر العلوم التي منها صاحب هذا الديوان. وآل السيد (مير علي) صاحب كتاب الرياض وهذا البيت مقيم في 
                         <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:372 geon:94824" xml:id="placeName_218.d2e4997" xml:lang="ar">كربلاء</placeName>
                         . وآل الطباطبائي في <placeName change="#d2e423 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_219.d2e5000" xml:lang="ar">البصرة</placeName> وهؤلاء من السنة ومن أجدادهم السيد
 
@@ -2109,17 +2009,14 @@
                     <placeName change="#d5e244 #d2e296 #d2e503" ref="oape:place:216 geon:98182" xml:id="placeName_123.d2e4558" xml:lang="ar">بغداد</placeName>
                     في 
                     
-                        سنة 
-                        ١٢٩٢هـ ( 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1292" from="1875" to="1876">سنة ١٢٩٢</date> هـ ( 
                      ١٨٧٥م) فعين لها والياً الوزير ناصر باشا كما روته (سالنامة 
                     <placeName change="#d2e296 #d5e434 #d2e503" ref="oape:place:210 geon:99532" xml:id="placeName_124.d2e4569" xml:lang="ar">البصرة</placeName>
                     ) الصادرة في 
                     
-                        سنة 
-                        ١٣٢٠هـ ولم يكن ابنه مزيد باشا في 
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1320" from="1902" to="1903">سنة ١٣٢٠</date> هـ ولم يكن ابنه مزيد باشا في 
                     
-                        سنة 
-                        ١٣٢٠. متصرفاً للأحساء؛ بل كان يومئذ في أنحاء الشامية وذلك بعد الواقعة المشهورة ب (واقعة الرئيس). - ص  
+                        <date calendar="#cal_islamic" change="#d3e509" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1320" from="1902" to="1903">سنة ١٣٢٠</date> . متصرفاً للأحساء؛ بل كان يومئذ في أنحاء الشامية وذلك بعد الواقعة المشهورة ب (واقعة الرئيس). - ص  
                     ٤٢
                     : السطر الأخير: حنبص: حنفص ص  
                     ٤٧
