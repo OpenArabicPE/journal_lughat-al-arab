@@ -7,87 +7,13 @@
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="">العدد ٢١</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/39370998">
-            <namePart type="family" xml:lang="ar">الكرملي</namePart>
-            <namePart type="given" xml:lang="ar">أنستاس</namePart>
-            <namePart type="given" xml:lang="ar">ماري</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
-            <namePart type="family" xml:lang="ar">الدجيلي</namePart>
-            <namePart type="given" xml:lang="ar">كاظم</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
-            </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>9</number>
-            </detail>
-            <extent unit="pages">
-               <start>369</start>
-               <end>369</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_472450345-i_21-div_1.d2e293</identifier>
-         <identifier type="jid">14</identifier>
-         <identifier type="OCLC">472450345</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
-         <identifier type="URI">oclc_472450345-i_21</identifier>
-      </relatedItem>
-      <accessCondition/>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_1.d2e293</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_1.d2e293</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="">صرعى الكتب والمكتبات في العراق</title>
+         <title xml:lang="ar">صرعى الكتب والمكتبات في العراق</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
-            xml:lang=""
-            authority="viaf"
+            xml:lang="ar"
             valueURI="https://viaf.org/viaf/22006374">
          <namePart type="family" xml:lang="ar">الشبيبي</namePart>
          <namePart type="given" xml:lang="ar">محمد</namePart>
@@ -99,12 +25,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -113,10 +38,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -125,12 +47,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -152,27 +71,24 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_2.d2e316</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_2.d2e316</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">طيزناباذ القديمة</title>
+         <title xml:lang="ar">طيزناباذ القديمة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang=""
-            authority="oape"
-            valueURI="oape:pers:647">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:647">
          <namePart type="family" xml:lang="ar">حلمي</namePart>
          <namePart type="given" xml:lang="ar">إبراهيم</namePart>
          <role>
@@ -182,12 +98,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -196,10 +111,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -208,12 +120,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -235,27 +144,24 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_3.d2e429</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_3.d2e429</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">أبو الفتوح الشيخ إبراهيم السويدي</title>
+         <title xml:lang="ar">أبو الفتوح الشيخ إبراهيم السويدي</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang=""
-            authority="oape"
-            valueURI="oape:pers:396">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
          <namePart type="family" xml:lang="ar">الدجيلي</namePart>
          <namePart type="given" xml:lang="ar">كاظم</namePart>
          <role>
@@ -265,12 +171,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -279,10 +184,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -291,12 +193,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -318,48 +217,47 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_4.d2e696</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_4.d2e696</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">بلد البوعينين</title>
+         <title xml:lang="ar">بلد البوعينين</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
-            xml:lang=""
-            authority="viaf"
+            xml:lang="ar"
             valueURI="https://viaf.org/viaf/21058435">
-         <namePart type="family" xml:lang="">الدخيل</namePart>
-         <namePart type="given" xml:lang="">سليمان</namePart>
+         <namePart type="family" xml:lang="ar">الدخيل</namePart>
+         <namePart type="given" xml:lang="ar">سليمان</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
-      <name type="personal" xml:lang="">
-         <namePart>صاحب جريدة الرياض</namePart>
+      <name type="personal" xml:lang="ar">
+         <namePart>صاحبجريدةالرياض</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
       <relatedItem type="host">
          <titleInfo>
+            <title xml:lang="ar">الرياض</title>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -368,10 +266,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -380,12 +275,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -407,19 +299,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_5.d2e1064</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_5.d2e1064</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">الضرب على النحاس في أبان الخسوف</title>
+         <title xml:lang="ar">الضرب على النحاس في أبان الخسوف</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -427,12 +319,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -441,10 +332,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -453,12 +341,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -470,7 +355,7 @@
             </detail>
             <extent unit="pages">
                <start>387</start>
-               <end>393</end>
+               <end>389</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_472450345-i_21-div_6.d2e1147</identifier>
@@ -480,27 +365,90 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_6.d2e1147</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_6.d2e1147</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">أدوات السفينة</title>
+         <title xml:lang="ar">الكوفيّة أو الكفية وأنواعها واستعمالها</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang=""
-            authority="oape"
-            valueURI="oape:pers:396">
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">لغة العرب</title>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/39370998">
+            <namePart type="family" xml:lang="ar">الكرملي</namePart>
+            <namePart type="given" xml:lang="ar">أنستاس</namePart>
+            <namePart type="given" xml:lang="ar">ماري</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
+            <namePart type="family" xml:lang="ar">الدجيلي</namePart>
+            <namePart type="given" xml:lang="ar">كاظم</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>9</number>
+            </detail>
+            <extent unit="pages">
+               <start>389</start>
+               <end>393</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_472450345-i_21-div_6.d2e1946</identifier>
+         <identifier type="jid">14</identifier>
+         <identifier type="OCLC">472450345</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
+         <identifier type="URI">oclc_472450345-i_21</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_6.d2e1946</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_6.d2e1946</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">أدوات السفينة</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
          <namePart type="family" xml:lang="ar">الدجيلي</namePart>
          <namePart type="given" xml:lang="ar">كاظم</namePart>
          <role>
@@ -510,12 +458,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -524,10 +471,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -536,12 +480,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -563,28 +504,25 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_8.d2e1397</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_8.d2e1397</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">أسرار الحياة وهتك أسرارها</title>
+         <title xml:lang="ar">أسرار الحياة وهتك أسرارها</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang=""
-            authority="oape"
-            valueURI="oape:pers:3299">
-         <namePart>الدكتورجاك آميو</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:3299">
+         <namePart>الدكتور جاك آميو</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -592,12 +530,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -606,10 +543,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -618,12 +552,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -645,19 +576,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_9.d2e2132</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_9.d2e2132</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">فوائد لغوية</title>
+         <title xml:lang="ar">فوائد لغوية</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -665,12 +596,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -679,10 +609,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -691,12 +618,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -718,28 +642,25 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_10.d2e2226</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_10.d2e2226</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المكاتبة والمطارحة</title>
+         <title xml:lang="ar">باب المكاتبة والمطارحة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang=""
-            authority="oape"
-            valueURI="oape:pers:3938">
-         <namePart>محمد ابن الشيخ طاهر السماوي</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:3938">
+         <namePart>محمد ابنالشيخ طاهر السماوي</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -747,12 +668,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -761,10 +681,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -773,12 +690,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -800,19 +714,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2369</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2369</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -820,12 +734,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -834,10 +747,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -846,12 +756,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -873,19 +780,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e2522</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e2522</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ١ - نقائض جرير والفرزدق في ٣ مجلدات ضخمة بقطعالربع</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ١ - نقائض جرير والفرزدق في ٣ مجلدات ضخمة بقطعالربع</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -893,12 +800,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -907,10 +813,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -919,12 +822,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -946,19 +846,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2592</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2592</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٢ - كتاب آداب العرب</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٢ - كتاب آداب العرب</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -966,12 +866,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -980,10 +879,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -992,12 +888,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1019,19 +912,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2662</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2662</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٣ - أمثال الشرق والغرب</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٣ - أمثال الشرق والغرب</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1039,12 +932,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1053,10 +945,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1065,12 +954,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1092,19 +978,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2716</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2716</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٤ - كتاب المسلك الحميد، من مريم العذراء إلى يسوع المجيد</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٤ - كتاب المسلك الحميد، من مريم العذراء إلى يسوع المجيد</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1112,12 +998,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1126,10 +1011,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1138,12 +1020,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1165,19 +1044,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2754</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2754</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٥ - رسالة التكملة في عمدة مواعظ نهج البلاغة.</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٥ - رسالة التكملة في عمدة مواعظ نهج البلاغة.</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1185,12 +1064,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1199,10 +1077,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1211,12 +1086,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1238,19 +1110,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2793</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2793</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٦ - رسالة مسلك الذهاب، إلى رب الأرباب (في ٢٤ صفحة)</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٦ - رسالة مسلك الذهاب، إلى رب الأرباب (في ٢٤ صفحة)</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1258,12 +1130,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1272,10 +1143,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1284,12 +1152,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1311,19 +1176,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2820</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2820</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٧ - مختصر الوقعة (أي وقعة كربلاء)</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٧ - مختصر الوقعة (أي وقعة كربلاء )</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1331,12 +1196,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1345,10 +1209,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1357,12 +1218,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1384,19 +1242,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2836</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2836</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٨ - أرجوزة في علم المنطق</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٨ - أرجوزة في علم المنطق</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1404,12 +1262,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1418,10 +1275,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1430,12 +1284,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1457,19 +1308,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2860</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2860</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ٩ - مختصر الكلام في وفيات النبي والزهراء والايمة عليهم</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ٩ - مختصر الكلام في وفيات النبي والزهراء والايمة عليهم</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1477,12 +1328,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1491,10 +1341,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1503,12 +1350,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1530,19 +1374,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2889</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2889</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">باب المشارفة والانتقاد: ١٠ - كتاب كشف الغواية، عن الكتاب المسمى بالهداية</title>
+         <title xml:lang="ar">باب المشارفة والانتقاد: ١٠ - كتاب كشف الغواية، عن الكتاب المسمى بالهداية</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1550,12 +1394,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1564,10 +1407,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1576,12 +1416,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1603,19 +1440,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2918</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_11.d2e2918</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1623,12 +1460,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1637,10 +1473,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1649,12 +1482,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1676,19 +1506,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_13.d2e2875</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_13.d2e2875</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ١ - أثمان الأطعمة في بغداد في هذه السنة وأثمانها قبل ١٥ سنة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ١ - أثمان الأطعمة في بغداد في هذه السنة وأثمانها قبل ١٥ سنة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1696,12 +1526,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1710,10 +1539,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1722,12 +1548,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1749,19 +1572,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e2956</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e2956</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٢ - الدعاء لنصرة جيوش الدولة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٢ - الدعاء لنصرة جيوش الدولة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1769,12 +1592,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1783,10 +1605,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1795,12 +1614,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1822,19 +1638,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3096</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3096</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٣ - الأشقياء في قرفة وأبي غريب</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٣ - الأشقياء في قرفة وأبي غريب</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1842,12 +1658,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1856,10 +1671,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1868,12 +1680,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1895,19 +1704,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3112</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3112</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٤ - تصرم حبال الأحزاب في البصرة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٤ - تصرم حبال الأحزاب في البصرة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1915,12 +1724,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -1929,10 +1737,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -1941,12 +1746,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1968,19 +1770,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3151</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3151</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٥ - زيادة مياه الفراتين</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٥ - زيادة مياه الفراتين</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -1988,12 +1790,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2002,10 +1803,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2014,12 +1812,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2041,19 +1836,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3166</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3166</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٦ - راتب ابن السعود</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٦ - راتب ابن السعود</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2061,12 +1856,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2075,10 +1869,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2087,12 +1878,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2114,19 +1902,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3181</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3181</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٧ - قتل ناظم باشا والي بغداد السابق</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٧ - قتل ناظم باشا والي بغداد السابق</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2134,12 +1922,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2148,10 +1935,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2160,12 +1944,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2187,19 +1968,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3197</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3197</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٨ - مجتمعات المسلمين لخير الدولة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٨ - مجتمعات المسلمين لخير الدولة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2207,12 +1988,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2221,10 +2001,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2233,12 +2010,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2260,19 +2034,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3219</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3219</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ٩ - دعاء الإسرائيليين لنصر الدولة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ٩ - دعاء الإسرائيليين لنصر الدولة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2280,12 +2054,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2294,10 +2067,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2306,12 +2076,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2333,19 +2100,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3244</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3244</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ١٠ - الدعاء في بيعة الكلدان</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ١٠ - الدعاء في بيعة الكلدان</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2353,12 +2120,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2367,10 +2133,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2379,12 +2142,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2406,19 +2166,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3260</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3260</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ١١ - تخلية سبيل مشايخ عشيرة آل فتلة</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ١١ - تخلية سبيل مشايخ عشيرة آل فتلة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2426,12 +2186,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2440,10 +2199,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2452,12 +2208,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2479,19 +2232,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3277</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3277</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ١٢ - سفر المسيو بولس ب. يوينوي</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ١٢ - سفر المسيو بولس ب. يوينوي</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2499,12 +2252,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2513,10 +2265,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2525,12 +2274,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2552,19 +2298,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3295</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3295</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تاريخ وقائع الشهر في العراق وما جاوره: ١٣ - زيادة دجلة وضعف الأسداد</title>
+         <title xml:lang="ar">تاريخ وقائع الشهر في العراق وما جاوره: ١٣ - زيادة دجلة وضعف الأسداد</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2572,12 +2318,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2586,10 +2331,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2598,12 +2340,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2625,19 +2364,19 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3333</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_12.d2e3333</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">ألفاظ عوام العراق</title>
+         <title xml:lang="ar">ألفاظ عوام العراق</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -2645,12 +2384,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
-            <subTitle lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
+            <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
@@ -2659,10 +2397,7 @@
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal"
-               xml:lang="ar"
-               authority="oape"
-               valueURI="oape:pers:396">
+         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -2671,12 +2406,9 @@
          </name>
          <originInfo>
             <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
+               <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1913-03-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1913-03-10</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -2698,14 +2430,14 @@
          <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
          <identifier type="URI">oclc_472450345-i_21</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_21.TEIP5.xml#div_14.d2e3281</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_21.TEIP5.xml#div_14.d2e3281</url>
       </location>
       <language>
          <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>

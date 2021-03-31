@@ -23,3 +23,16 @@ This digital edition of Anastās Mārī al-Karmalī's monthly journal *Lughat al
 It appeared that the page breaks from *al-maktaba al-shamela* correspond to the printed copy. We have therefore added the relevant mark-up for page beginnings (`<pb ed="print" n="123"/>`) and an `<facsimile>` element containing links to the digital facsimiles at [*arshīf al-majallāt*](http://archive.alsharekh.org/). The boilerplate view, therefore, displays both facsimiles and the digital text. We have added publication dates for the first three volumes based on the physical copies at the Orient-Institut Beirut's library.
 
 If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_1.TEIP5.xml). All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/).
+
+# mark-up of sections
+## to do
+
+- Jakob Koppermann began validating the mark-up of articles in sections
+- تاريخ وقائع العراق وما جاوره
+- **done** تاريخ وقائع الشهر في العراق وما جاوره
+
+## general notes
+
+- Sections in articles are usually numbered and the digit is wrapped in a `<hi>` element. Mark-up can be automated
+- Articles in sections frequently commence with an inline-header, wrapped in brackets. Mark-up can be automated but will need some validation.
+-
