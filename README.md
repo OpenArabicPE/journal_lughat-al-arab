@@ -2,6 +2,7 @@
 title: "Readme: Journal *Lughat al-ʿArab*"
 author: Till Grallert
 date: 2021-05-02
+ORCID: orcid.org/0000-0002-5739-8094
 ---
 
 # An open, collaborative, and scholarly digital edition of Anastās Mārī al-Karmalī's monthly journal *Lughat al-ʿArab* (Baghdad, 1911--)
@@ -24,7 +25,7 @@ It appeared that the page breaks from *al-maktaba al-shamela* correspond to the 
 
 If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_1.TEIP5.xml). All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/).
 
-Note that I focus on the first three volumes published before WWI. Publication dates for later volumes have not been corrected. Their bibliographic data will appear at faulty positions in the Zotero group if sorted by date.
+Note that I focus on the first three volumes (34 issues) published before WWI. Publication dates for later volumes have not been corrected. Their bibliographic data will appear at faulty positions in the Zotero group if sorted by date.
 
 # mark-up of sections
 ## to do
