@@ -1,17 +1,24 @@
 ---
 title: "Readme: Journal *Lughat al-ʿArab*"
 author: Till Grallert
-date: 2021-05-02
+date: 2022-02-04
 ORCID: orcid.org/0000-0002-5739-8094
 ---
 
+[![DOI](https://zenodo.org/badge/171823864.svg)](https://zenodo.org/badge/latestdoi/171823864)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_lughat-al-arab.svg)](https://github.com/openarabicpe/journal_lughat-al-arab/releases)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/openarabicpe/journal_lughat-al-arab/graphs/commit-activity)
+![Commit activity](https://img.shields.io/github/commit-activity/m/openarabicpe/journal_lughat-al-arab)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/openarabicpe/journal_lughat-al-arab/latest)
+![GitHub last commit](https://img.shields.io/github/last-commit/openarabicpe/journal_lughat-al-arab)
+![GitHub contributors](https://img.shields.io/github/contributors/openarabicpe/journal_lughat-al-arab)
+
 # An open, collaborative, and scholarly digital edition of Anastās Mārī al-Karmalī's monthly journal *Lughat al-ʿArab* (Baghdad, 1911--)
 
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_lughat-al-arab.svg)](https://github.com/openarabicpe/journal_lughat-al-arab/releases)
-<!-- DOI needs updating once released -->
-[![DOI](https://zenodo.org/badge/171823864.svg)](https://zenodo.org/badge/latestdoi/171823864)
 
-This digital edition of Anastās Mārī al-Karmalī's monthly journal *Lughat al-ʿArab* (Baghdad, 1911--) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36540). Digital imagery is available from [*arshīf al-majallāt ...*](http://archive.alsharekh.org/newmagazineYears/14) and
+
+This digital edition of Anastās Mārī al-Karmalī's monthly journal *Lughat al-ʿArab* (Baghdad, 1911--) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/openarabicpe/journal_al-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36540). Digital imagery is available from [*arshīf al-majallāt ...*](http://archive.alsharekh.org/newmagazineYears/14) and
 
 - Hathitrust:
     - [Princeton (vol. 1)](https://hdl.handle.net/2027/njp.32101011506357), reprint 1971
