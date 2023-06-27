@@ -39,7 +39,9 @@ Note that I focus on the first three volumes (34 issues) published before WWI. P
 
 - Jakob Koppermann began validating the mark-up of articles in sections
 - تاريخ وقائع العراق وما جاوره
-- **done** تاريخ وقائع الشهر في العراق وما جاوره
+- [x] تاريخ وقائع الشهر في العراق وما جاوره
+- [x] باب المشارفة والانتقاد
+- [ ] باب المكاتبة والمطارحة
 
 ## general notes
 
