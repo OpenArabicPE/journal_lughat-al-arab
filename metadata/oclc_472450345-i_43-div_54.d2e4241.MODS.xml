@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-8.xsd">
    <mods>
       <titleInfo>
          <title xml:lang="ar">باب المشارفة والانتقاد: وورد في تلك الصفحة قوله: (في بلاد الصنوبر) وضبط الصنوبر بكسر الصاد وفتح النون المشددة. ونحن لم نجد هذا الضبط في الأصل الذي نقل عنه. كما لم نجد له اثر في كتب لغويينا والمعروف بفتح الصاد والنون وإسكان الواو. ٢٤ - وقال في ص ٦٤ (وليكونوا عدة ضد الفرس. . . ومن أشهر ملوكهم زياد بن المهبولة) قلنا: أسفا وألف أسف على زياد أن ينسب إلى ابن المهبولة إنما هو ابن الهبولة أو ابن هبولة أو الهبول، كما ذكره الفيروزابادي والسيد مرتضى وابن الأثير وغيرهم) ثم ما معنى هذا التركيب الإفرنجي قولهم: وليكونوا عدة ضد الفرس، فهذا تعبير لم يعرفه سلفنا ولا يقبلونه وقد اكثر منه أصحاب الجرائد والمجلات والكتب العصرية. والصواب: وليكونوا عدة على الفرس. وفي تلك الصفحة (وابن عزيز اللخمي) وفي ذلك العصر لم يشتهر أحد باسم العزيز لأنه كان خاصا بالله. والصواب: العزير براء مهملة في الآخر والكلمة وزان صغير. وفيها: ومروا الحيانيات؛ والصواب ومرو والحيانيات بالعطف لا بالإضافة وفي تلك الصفحة نقلا عن الهمداني (وأما كلب فمساكنها السماوة) فقال صديقنا شارحا السماوة (والسماوة: الأرض المستوية لا حجر بها وهي البادية بين الكوفة و الشام ) ونحن لا نوافقه على هذا الرأي فالسماوة التي هي مسكن كلب ليست (ببادية السماوة) إذ</title>
@@ -9,23 +9,28 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal">
+         <namePart>NA</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
             <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               valueURI="https://viaf.org/viaf/39370998">
+         <name type="personal" valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
+            <namePart>al-Abb Anastās Mārī al-Karamlī</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
+         <name type="personal" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -36,7 +41,8 @@
             <place>
                <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <publisher xml:lang="ar"/>
+            <dateIssued encoding="w3cdtf">1927-03-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -51,21 +57,37 @@
                <end>559</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_472450345-i_43-div_54.d2e4241</identifier>
          <identifier type="jid">14</identifier>
-         <identifier type="OCLC">472450345</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
-         <identifier type="URI">oclc_472450345-i_43</identifier>
+         <identifier type="oclc">472450345</identifier>
+         <location>
+            <url>http://waqfeya.com/book.php?bid=6509</url>
+         </location>
+         <location>
+            <url>http://shamela.ws/index.php/book/36540</url>
+         </location>
+         <location>
+            <url>oclc_472450345-i_43</url>
+         </location>
       </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <identifier type="bibtex">oclc_472450345-i_43-div_54.d2e4241</identifier>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_43.TEIP5.xml#div_54.d2e4241</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_43.TEIP5.xml#div_54.d2e4241</url>
+         <url usage="primary" dateLastAccessed="2025-01-20">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_43.TEIP5.xml#div_54.d2e4241</url>
+      </location>
+      <location>
+         <url usage="primary display" dateLastAccessed="2025-01-20">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_43.TEIP5.xml#div_54.d2e4241</url>
+      </location>
+      <location>
+         <url>http://waqfeya.com/book.php?bid=6509</url>
+      </location>
+      <location>
+         <url>http://shamela.ws/index.php/book/36540</url>
+      </location>
+      <location>
+         <url>oclc_472450345-i_43</url>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>

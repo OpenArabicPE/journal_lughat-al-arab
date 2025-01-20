@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-8.xsd">
    <mods>
       <titleInfo>
          <title xml:lang="ar">فوائد لغوية: ٣٣ - وقال الأب جرجي جنن في ص ٧٠ ناقلا عن اليازجي (غلط: مما خلاف فيه هو أن الأمر كذا وكذا. لأن ما قبل (هو) لا يصلح لعود هذا الضمير إليه) قلت أن الأب الذي جمع هذه الفوائد كان أرأى من غيره بأن يرتسم هذا الإرشاد فلا يرتكب ضده. فهو القائل في ص ٣ من كتيبه (فما هي علة ذلك يا ترى؟) وهو القائل في ص ١٠٦ (ما هو حكمه) و (ما هو حكم المسند إليه) فالضميران (هي وهو) لا يصلح ما قبل كل واحد منهما لأن يعود إليه ضمير أبدا. وذلك هو الإضمار قبل الذكر القاتل للفصاحة. وأن أغلب الكتاب في العالم العربي يضعون الضمير بين أداة الاستفهام والمستفهم وهذا من علائم انحطاط اللغة، فالصواب أن يقول (ما علة ذلك. . .) و (ما حكمه) و (ما حكم المسند إليه) لأن الظاهر لم يتقدم فيستوجب الإضمار. وإنما يصح الإضمار في قول من قال (المسند في الكلام فأين هو؟) و (هذا رجل قادم فمن هو؟) و (حق عليه عقاب فما هو؟). ٣٤ - وقال في ص ٣٢ ناقلا عن اليازجي (تحامل فيه وبه: تكلفه على مشقة وإعياء. وتحامل الرجل على نفسه: تكلف الشيء على مشقة قلت: إن الذي يقرأ هذا القول يظن أن التكلف يكون بمشقة وإعياء وبغيرهما. ألم تر أنه قيد كلامه بقوله (على مشقة وإعياء (دفعا للاشتباه مع أن التكلف بعينه يدل على المشقة والإعياء ولو لم يدل عليهما لما سمى تكلفا.</title>
@@ -9,23 +9,28 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal">
+         <namePart>NA</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
             <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               valueURI="https://viaf.org/viaf/39370998">
+         <name type="personal" valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
+            <namePart>al-Abb Anastās Mārī al-Karamlī</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
+         <name type="personal" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -36,7 +41,8 @@
             <place>
                <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <publisher xml:lang="ar"/>
+            <dateIssued encoding="w3cdtf">1929-07-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -51,21 +57,37 @@
                <end>556</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_472450345-i_71-div_14.d2e3596</identifier>
          <identifier type="jid">14</identifier>
-         <identifier type="OCLC">472450345</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
-         <identifier type="URI">oclc_472450345-i_71</identifier>
+         <identifier type="oclc">472450345</identifier>
+         <location>
+            <url>http://waqfeya.com/book.php?bid=6509</url>
+         </location>
+         <location>
+            <url>http://shamela.ws/index.php/book/36540</url>
+         </location>
+         <location>
+            <url>oclc_472450345-i_71</url>
+         </location>
       </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <identifier type="bibtex">oclc_472450345-i_71-div_14.d2e3596</identifier>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_71.TEIP5.xml#div_14.d2e3596</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_71.TEIP5.xml#div_14.d2e3596</url>
+         <url usage="primary" dateLastAccessed="2025-01-20">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_71.TEIP5.xml#div_14.d2e3596</url>
+      </location>
+      <location>
+         <url usage="primary display" dateLastAccessed="2025-01-20">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_71.TEIP5.xml#div_14.d2e3596</url>
+      </location>
+      <location>
+         <url>http://waqfeya.com/book.php?bid=6509</url>
+      </location>
+      <location>
+         <url>http://shamela.ws/index.php/book/36540</url>
+      </location>
+      <location>
+         <url>oclc_472450345-i_71</url>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>

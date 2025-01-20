@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-8.xsd">
    <mods>
       <titleInfo>
          <title xml:lang="ar">فوائد لغوية: ٣ - قرأ الزيات الأستاذ المهذب ما كتبناه في نقد الطبعة الثانية من كتابه هذا فلم يسخط ولا أوجسنا منه شأن المستكبرين بل أهدى إلى إدارة لغة العرب نسخة من كتابه من الطبعة الخامسة المزيدة المنقحة بمطبعة الاعتماد ب القاهرة ١٣٤٩ هـ ١٩٣٠ م، وكأنه رأى في الطبعة الثانية ما يلوي بمجهوده الذي أودع الطبعة الأخيرة إياه، ومن أحرى بالحق من صاحبه؟ وأشرف من طالبه؟ ولم يبعث بالكتاب غفلاً بل أرسل به وبكتاب يبين عما أضطم عليه هو من نفس كريمة وأخلاق طاهرة وطبع هادئ، ومما كان في هذا الكتاب أنه لم يوافقنا على الفصاحة التي تنشأ من استعمال جمع القلة وجمع الكثرة في مواضعهما محتجاً بان ذلك القيد من قيود القدماء الركيكة، ولإيضاح الأمر نورد ما جاء في المصباح المنير. قال الفيومي: (وأما ثلاثة قروء فقال الأصمعي: هذه الإضافة على غير قياس والقياس ثلاثة إقراء لأنه جمع قلة مثل ثلاثة أفلس وثلاثة رجلة ولا يقال: ثلاثة فلوس ولا ثلاثة رجال، وقال النحويون: هو على التأويل والتقدير: ثلاثة من قروء لان العدد يضاف إلى مميزه وهو من ثلاثة إلى عشرة قليل والمميز هو المميز فلا يميز القليل بالكثير، قال: ويحتمل عندي أنه قد وضع أحد الجمعين موضع الآخر أتساعاً لفهم المعنى - هذا ما نقل عنه - وذهب بعضهم إلى أن مميز الثلاثة إلى العشرة يجوز أن يكون جمع كثرة من غير تأويل فيقال: خمسة كلاب وستة عبيد، ولا يجب عند هذا القائل أن يقال: خمسة أكلب ولا ستة أعبيد) أهـ. وهذا السبب الذي حملنا على أننا لم نخطئ الأستاذ الزيات ولكن لم نستفصح قوله، على أنه - حفظه الله - على بينة من تكلفات القدماء محق في دعواه، وقال المبرد في ( ٢ : ١٩٢ ) من الكامل توضيحاً لقول عمر بن أبي ربيعة:</title>
@@ -9,23 +9,28 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal">
+         <namePart>NA</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">لغة العرب</title>
             <subTitle xml:lang="ar">مجلة شهرية ادبية علمية تاريخية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               valueURI="https://viaf.org/viaf/39370998">
+         <name type="personal" valueURI="https://viaf.org/viaf/39370998">
             <namePart type="family" xml:lang="ar">الكرملي</namePart>
             <namePart type="given" xml:lang="ar">أنستاس</namePart>
             <namePart type="given" xml:lang="ar">ماري</namePart>
+            <namePart>al-Abb Anastās Mārī al-Karamlī</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
          </name>
-         <name type="personal" xml:lang="ar" valueURI="oape:pers:396">
+         <name type="personal" valueURI="oape:pers:396">
             <namePart type="family" xml:lang="ar">الدجيلي</namePart>
             <namePart type="given" xml:lang="ar">كاظم</namePart>
             <role>
@@ -36,7 +41,8 @@
             <place>
                <placeTerm type="text" xml:lang="ar" valueURI="https://www.geonames.org/98182">بغداد</placeTerm>
             </place>
-            <dateIssued encoding="w3cdtf">1911-06-30</dateIssued>
+            <publisher xml:lang="ar"/>
+            <dateIssued encoding="w3cdtf">1931-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -51,21 +57,37 @@
                <end>372</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_472450345-i_90-div_20.d2e2973</identifier>
          <identifier type="jid">14</identifier>
-         <identifier type="OCLC">472450345</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6509</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36540</identifier>
-         <identifier type="URI">oclc_472450345-i_90</identifier>
+         <identifier type="oclc">472450345</identifier>
+         <location>
+            <url>http://waqfeya.com/book.php?bid=6509</url>
+         </location>
+         <location>
+            <url>http://shamela.ws/index.php/book/36540</url>
+         </location>
+         <location>
+            <url>oclc_472450345-i_90</url>
+         </location>
       </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <identifier type="bibtex">oclc_472450345-i_90-div_20.d2e2973</identifier>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_90.TEIP5.xml#div_20.d2e2973</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_90.TEIP5.xml#div_20.d2e2973</url>
+         <url usage="primary" dateLastAccessed="2025-01-20">https://github.com/openarabicpe/journal_lughat-al-arab/blob/master/tei/oclc_472450345-i_90.TEIP5.xml#div_20.d2e2973</url>
+      </location>
+      <location>
+         <url usage="primary display" dateLastAccessed="2025-01-20">https://openarabicpe.github.io/journal_lughat-al-arab/tei/oclc_472450345-i_90.TEIP5.xml#div_20.d2e2973</url>
+      </location>
+      <location>
+         <url>http://waqfeya.com/book.php?bid=6509</url>
+      </location>
+      <location>
+         <url>http://shamela.ws/index.php/book/36540</url>
+      </location>
+      <location>
+         <url>oclc_472450345-i_90</url>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>
